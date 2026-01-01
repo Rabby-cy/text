@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <MainButtonDef>
+        <defName>RimTalkDebug</defName>
+        <tabWindowClass>RimTalk.UI.OverlayTabLauncher</tabWindowClass>
+        <order>79</order>
+        <minimized>True</minimized>
+        <iconPath>UI/RimTalkIcon</iconPath>
+    </MainButtonDef>
+</Defs>

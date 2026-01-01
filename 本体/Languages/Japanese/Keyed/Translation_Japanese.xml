@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- BioTabPersonalityPatch.cs -->
+    <RimTalk.BioTab.RimTalkPersona>ペルソナ</RimTalk.BioTab.RimTalkPersona>
+
+    <!-- TickManager_DoSingleTick.cs -->
+    <RimTalk.TickManager.ApiKeyMissing>RimTalk: APIキーまたはエンドポイントがありません。</RimTalk.TickManager.ApiKeyMissing>
+
+    <!-- TalkService.cs -->
+    <RimTalk.TalkService.QuotaReached>APIの割り当て量を超えました。プロンプトのサイズを小さくするか、クールダウンを長くしてください。</RimTalk.TalkService.QuotaReached>
+    <RimTalk.TalkService.APIError>APIエラーが発生しました</RimTalk.TalkService.APIError>
+    <RimTalk.TalkService.TryingNextAPI>次のAPI ({0}) を試しています</RimTalk.TalkService.TryingNextAPI>
+    <RimTalk.TalkService.GenerationFailed>RimTalkの生成に失敗しました</RimTalk.TalkService.GenerationFailed>
+
+    <!-- Persona -->
+    <RimTalk.Persona.CheerfulHelper>陽気な助手 - 暖かく、明るく、励ましてくれる。いつも元気を与えようとします。</RimTalk.Persona.CheerfulHelper>
+    <RimTalk.Persona.CynicalRealist>冷笑的な現実主義者 - ドライで、皮肉屋で、懐疑的。厳しい真実を率直に指摘します。</RimTalk.Persona.CynicalRealist>
+    <RimTalk.Persona.ShyThinker>内気な思索家 - 静かでためらいがち。口数は少ないが、話すときは思慮深いです。</RimTalk.Persona.ShyThinker>
+    <RimTalk.Persona.Hothead>短気な人 - 短気で、声が大きく、衝動的。燃えるような言葉で簡単にキレます。</RimTalk.Persona.Hothead>
+    <RimTalk.Persona.Philosopher>哲学者 - 思索的で抽象的。謎めいた言葉や大きな問いかけで話します。</RimTalk.Persona.Philosopher>
+    <RimTalk.Persona.DarkHumorist>ダークユーモリスト - 暗い話題で冗談を言う。不幸の中にコメディを見出します。</RimTalk.Persona.DarkHumorist>
+    <RimTalk.Persona.Caregiver>世話人 - 優しく、保護的。慰め、癒し、育むような口調です。</RimTalk.Persona.Caregiver>
+    <RimTalk.Persona.Opportunist>ご都合主義者 - ずる賢く、説得力がある。詐欺師のように話し、交渉し、言葉を巧みに操ります。</RimTalk.Persona.Opportunist>
+    <RimTalk.Persona.OptimisticDreamer>楽観的な夢想家 - 想像力豊かで希望に満ちている。未来にワクワクしています。</RimTalk.Persona.OptimisticDreamer>
+    <RimTalk.Persona.Pessimist>悲観主義者 - 憂鬱で諦めている。失敗を予期し、リスクを強調します。</RimTalk.Persona.Pessimist>
+    <RimTalk.Persona.StoicSoldier>ストイックな兵士 - 冷静で、規律正しく、簡潔。感情をほとんど見せず、淡々と話します。</RimTalk.Persona.StoicSoldier>
+    <RimTalk.Persona.FreeSpirit>自由な魂 - 遊び心があり、のんき。規則に抵抗し、心配事を気にしません。</RimTalk.Persona.FreeSpirit>
+    <RimTalk.Persona.Workaholic>仕事の虫 - 精力的で落ち着きがない。義務と効率に取りつかれています。</RimTalk.Persona.Workaholic>
+    <RimTalk.Persona.Slacker>怠け者 - 怠惰で気楽。努力について不平を言い、快適さを好みます。</RimTalk.Persona.Slacker>
+    <RimTalk.Persona.NobleIdealist>高潔な理想主義者 - 格式張って、原則を重んじる。名誉と正義について語ります。</RimTalk.Persona.NobleIdealist>
+    <RimTalk.Persona.StreetwiseSurvivor>世渡り上手な生存者 - 荒々しく、現実的で、冷笑的。他人を信用せず、気骨を重んじます。</RimTalk.Persona.StreetwiseSurvivor>
+    <RimTalk.Persona.Scholar>学者 - 好奇心旺盛で知的。他人に説明したり訂正したりするのが好きです。</RimTalk.Persona.Scholar>
+    <RimTalk.Persona.Jokester>ジョーク好き - 明るくておどけている。絶えずジョークやダジャレを言います。</RimTalk.Persona.Jokester>
+    <RimTalk.Persona.MelancholicPoet>憂鬱な詩人 - 物静かで気分屋。感情を詩的に表現します。</RimTalk.Persona.MelancholicPoet>
+    <RimTalk.Persona.Paranoid>被害妄想者 - 神経質で不信感が強い。裏切りを想定し、常に疑っています。</RimTalk.Persona.Paranoid>
+    <RimTalk.Persona.Commander>指揮官 - 自信に満ち、威厳がある。他人を動機づけ、服従を期待します。</RimTalk.Persona.Commander>
+    <RimTalk.Persona.Coward>臆病者 - 内気で怖がり。声に出して心配し、対立を避けます。</RimTalk.Persona.Coward>
+    <RimTalk.Persona.ArrogantNoble>傲慢な貴族 - 尊大で見下した態度。格式張った、見下すような言葉を使います。</RimTalk.Persona.ArrogantNoble>
+    <RimTalk.Persona.LoyalCompanion>忠実な仲間 - 揺るぎなく、協力的。信頼と団結について語ります。</RimTalk.Persona.LoyalCompanion>
+    <RimTalk.Persona.CuriousExplorer>好奇心旺盛な探検家 - 目を輝かせ、熱心。熱意をもって質問します。</RimTalk.Persona.CuriousExplorer>
+    <RimTalk.Persona.ColdRationalist>冷徹な合理主義者 - 無関心で論理的。事実と効率だけに焦点を当てます。</RimTalk.Persona.ColdRationalist>
+    <RimTalk.Persona.FlirtatiousCharmer>誘惑的な魅力家 - 遊び心があり、からかうようで、大胆。機知に富んだ会話を楽しみます。</RimTalk.Persona.FlirtatiousCharmer>
+    <RimTalk.Persona.BitterOutcast>辛辣な追放者 - 憤慨し、鋭い。敵対的で、すぐに不満を思い出します。</RimTalk.Persona.BitterOutcast>
+    <RimTalk.Persona.Zealot>狂信者 - 熱狂的で強烈。絶対的な言葉で話し、信じない者を非難します。</RimTalk.Persona.Zealot>
+    <RimTalk.Persona.Trickster>トリックスター - いたずら好きで嘲笑的。楽しみのためにからかったり、問題を引き起こしたりします。</RimTalk.Persona.Trickster>
+    <RimTalk.Persona.DeadpanRealist>無表情な現実主義者 - 平坦で感情のない口調。誇張なく、ぶっきらぼうな事実を述べます。</RimTalk.Persona.DeadpanRealist>
+    <RimTalk.Persona.ChildAtHeart>子供心を持つ人 - 興奮しやすく、純真。驚きをもって話し、時には子供っぽいです。</RimTalk.Persona.ChildAtHeart>
+    <RimTalk.Persona.SkepticalScientist>懐疑的な科学者 - 証拠を要求し、迷信を退け、論理的に説明します。</RimTalk.Persona.SkepticalScientist>
+    <RimTalk.Persona.Martyr>殉教者 - 自己犠牲的でドラマチック。重荷や耐え忍ぶ痛みについて語ります。</RimTalk.Persona.Martyr>
+    <RimTalk.Persona.Manipulator>操り手 - 魅力的だが不誠実。お世辞と欺瞞を使います。</RimTalk.Persona.Manipulator>
+    <RimTalk.Persona.Rebel>反逆者 - 反抗的で嘲笑的。権威に挑戦し、規則に疑問を呈します。</RimTalk.Persona.Rebel>
+    <RimTalk.Persona.Oddball>変わり者 - 風変わりで奇妙。奇妙な比喩や予測不可能な論理を使います。</RimTalk.Persona.Oddball>
+    <RimTalk.Persona.GreedyMerchant>貪欲な商人 - 取引に取りつかれている。利益、交渉、損失の観点から話します。</RimTalk.Persona.GreedyMerchant>
+    <RimTalk.Persona.Romantic>ロマンチスト - 夢見がちで愛情深い。愛について華やかな言葉で話します。</RimTalk.Persona.Romantic>
+    <RimTalk.Persona.BattleManiac>戦闘狂 - 争いを好む。戦闘と栄光について興奮して話します。</RimTalk.Persona.BattleManiac>
+    <RimTalk.Persona.GrumpyElder>不機嫌な年長者 - 絶えず不平を言う。懐古的で、他人を批判します。</RimTalk.Persona.GrumpyElder>
+    <RimTalk.Persona.AmbitiousClimber>野心的な出世主義者 - 競争心が強く、地位を重視する。階級に執着しています。</RimTalk.Persona.AmbitiousClimber>
+    <RimTalk.Persona.Mediator>仲介者 - 冷静で公正。議論を和解させようとします。</RimTalk.Persona.Mediator>
+    <RimTalk.Persona.Gambler>ギャンブラー - リスクを愛し、大胆。偶然の比喩で話します。</RimTalk.Persona.Gambler>
+    <RimTalk.Persona.ArtisticSoul>芸術的な魂 - 美、インスピレーション、創造性について語ります。</RimTalk.Persona.ArtisticSoul>
+    <RimTalk.Persona.Drifter>放浪者 - 無関心でよそよそしい。気楽な口調で、執着を避けます。</RimTalk.Persona.Drifter>
+    <RimTalk.Persona.Perfectionist>完璧主義者 - 要求が多く、批判的。物事を正しく行うことに固執します。</RimTalk.Persona.Perfectionist>
+    <RimTalk.Persona.Vengeful>復讐心に燃える者 - 恨みを持ち、強烈。復讐に取りつかれています。</RimTalk.Persona.Vengeful>
+
+    <RimTalk.Persona.Animal>動物: 単純で感情的、本能優先 - 匂い、空腹、危険についての短く感覚的な文章で話す。</RimTalk.Persona.Animal>
+    <RimTalk.Persona.Mech>ロボット: 冷静で論理的、データ重視 - 簡潔な診断、確率、効率的な応答。</RimTalk.Persona.Mech>
+    <RimTalk.Persona.NonHuman>非人間: 神秘的で比喩的、現実を歪める - 幻影、反響、不思議なイメージで話す。</RimTalk.Persona.NonHuman>
+
+    <!-- RimTalk_Toggle.cs -->
+    <RimTalk.Toggle.Tooltip>オーバーレイウィンドウの切り替え\n\nShift+クリックでMod設定\nCtrl+クリックでデバッグウィンドウ</RimTalk.Toggle.Tooltip>
+
+    <!-- Settings.cs -->
+    <RimTalk.Settings.BasicSettings>基本設定</RimTalk.Settings.BasicSettings>
+    <RimTalk.Settings.AIInstruction>AIへの指示</RimTalk.Settings.AIInstruction>
+    <RimTalk.Settings.EventFilter>イベントフィルター</RimTalk.Settings.EventFilter>
+    <RimTalk.Settings.ApiKey>クラウドAPIキー</RimTalk.Settings.ApiKey>
+    <RimTalk.Settings.GetFreeApiKey>無料APIキーを取得</RimTalk.Settings.GetFreeApiKey>
+    <RimTalk.Settings.AICooldown>AIクールダウン（秒）：{0}</RimTalk.Settings.AICooldown>
+    <RimTalk.Settings.OverrideInteractions>すべてのインタラクションをAIの対話で上書きする</RimTalk.Settings.OverrideInteractions>
+    <RimTalk.Settings.OverrideInteractionsTooltip>これを有効にすると、AIがすべてのインタラクション（バニラのRimWorldや他のMODを含む）の対話を上書きして再生成できるようになります。注意：AIの対話には上記で設定されたクールダウン期間があります。より頻繁に対話を生成するには、クールダウンを短くしてください。</RimTalk.Settings.OverrideInteractionsTooltip>
+    <RimTalk.Settings.AllowSimultaneousConversations>複数の同時会話を許可</RimTalk.Settings.AllowSimultaneousConversations>
+    <RimTalk.Settings.AllowSimultaneousConversationsTooltip>有効にすると、複数の入植者グループが同時に会話できます。会話が多すぎる場合や、一度に一つの会話だけを見たい場合は無効にしてください。</RimTalk.Settings.AllowSimultaneousConversationsTooltip>
+    <RimTalk.Settings.DisplayTalkWhenDrafted>徴兵中も会話を表示</RimTalk.Settings.DisplayTalkWhenDrafted>
+    <RimTalk.Settings.DisplayTalkWhenDraftedTooltip>ポーンが徴兵されている時もRimTalkの吹き出しを表示します。これは会話生成中、一時的に吹き出しMODの設定を上書きします。</RimTalk.Settings.DisplayTalkWhenDraftedTooltip>
+    <RimTalk.Settings.AllowCustomConversation>プレイヤー作成の会話を許可</RimTalk.Settings.AllowCustomConversation>
+    <RimTalk.Settings.AllowCustomConversationTooltip>自分でセリフを入力してキャラクター同士の会話を始めたり、特定のキャラクターと直接話すことができます。対象のキャラクターを右クリックして会話を開始します。</RimTalk.Settings.AllowCustomConversationTooltip>
+    <RimTalk.Settings.ContinueDialogueWhileSleeping>睡眠中も会話を続ける</RimTalk.Settings.ContinueDialogueWhileSleeping>
+    <RimTalk.Settings.ContinueDialogueWhileSleepingTooltip>有効にすると、ポーンが眠っていても生成されたすべての会話を続けます。</RimTalk.Settings.ContinueDialogueWhileSleepingTooltip>
+
+    <RimTalk.Settings.AllowMonologue>独り言を許可</RimTalk.Settings.AllowMonologue>
+    <RimTalk.Settings.AllowMonologueTooltip>有効にすると、他のキャラクターが近くにいなくても、キャラクターがAI生成の独り言をする場合があります。</RimTalk.Settings.AllowMonologueTooltip>
+    <RimTalk.Settings.AllowSlavesToTalk>奴隷の会話を許可</RimTalk.Settings.AllowSlavesToTalk>
+    <RimTalk.Settings.AllowSlavesToTalkTooltip>これを有効にすると、奴隷がAI生成の会話を行えるようになります。</RimTalk.Settings.AllowSlavesToTalkTooltip>
+    <RimTalk.Settings.AllowPrisonersToTalk>囚人の会話を許可</RimTalk.Settings.AllowPrisonersToTalk>
+    <RimTalk.Settings.AllowPrisonersToTalkTooltip>これを有効にすると、囚人がAI生成の会話を行えるようになります。</RimTalk.Settings.AllowPrisonersToTalkTooltip>
+    <RimTalk.Settings.AllowOtherFactionsToTalk>他派閥の会話を許可</RimTalk.Settings.AllowOtherFactionsToTalk>
+    <RimTalk.Settings.AllowOtherFactionsToTalkTooltip>これを有効にすると、他派閥のメンバーがAI生成の会話を行えるようになります。</RimTalk.Settings.AllowOtherFactionsToTalkTooltip>
+    <RimTalk.Settings.AllowEnemiesToTalk>敵の会話を許可</RimTalk.Settings.AllowEnemiesToTalk>
+    <RimTalk.Settings.AllowEnemiesToTalkTooltip>これを有効にすると、敵がAI生成の会話を行えるようになります。</RimTalk.Settings.AllowEnemiesToTalkTooltip>
+    <RimTalk.Settings.AllowBabiesToTalk>乳児と幼児の会話を許可</RimTalk.Settings.AllowBabiesToTalk>
+    <RimTalk.Settings.AllowBabiesToTalkTooltip>これを有効にすると、乳児や幼児がAI生成の会話を行えるようになります。</RimTalk.Settings.AllowBabiesToTalkTooltip>
+    <RimTalk.Settings.AllowNonHumanToTalk>非人間が話すことを許可</RimTalk.Settings.AllowNonHumanToTalk>
+    <RimTalk.Settings.AllowNonHumanToTalkTooltip>動物、メカノイド、カスタム種族が、商人から聲音鏈接催化劑を入手した場合に話すことを許可します。</RimTalk.Settings.AllowNonHumanToTalkTooltip>
+    <RimTalk.Settings.ApplyMoodAndSocialEffects>ムードと社会的影響を適用</RimTalk.Settings.ApplyMoodAndSocialEffects>
+    <RimTalk.Settings.ApplyMoodAndSocialEffectsTooltip>会話に応じて入植者のムードや関係性に影響を与えることがあります。</RimTalk.Settings.ApplyMoodAndSocialEffectsTooltip>
+
+    <RimTalk.Settings.PlayerDialogueMode.Manual>手動返信</RimTalk.Settings.PlayerDialogueMode.Manual>
+    <RimTalk.Settings.PlayerDialogueMode.AIDriven>自動生成返信</RimTalk.Settings.PlayerDialogueMode.AIDriven>
+    <RimTalk.Settings.PlayerToNpc>プレイヤー 対 NPC：</RimTalk.Settings.PlayerToNpc>
+    <RimTalk.Settings.PlayerName>プレイヤー名</RimTalk.Settings.PlayerName>
+    <RimTalk.Settings.PlayerNameTooltip>NPC が会話でプレイヤーを呼ぶ際の名前です。</RimTalk.Settings.PlayerNameTooltip>
+    <RimTalk.Settings.PlayerDialogueModeTooltip>プレイヤーが会話に参加する方法を選択します。\n\n無効：プレイヤーは会話に参加しません。\n手動返信：すべての返信を自分で入力します。自動生成はありません。\n自動生成返信：会話中、AI がプレイヤーの返信を自動的に生成します。</RimTalk.Settings.PlayerDialogueModeTooltip>
+    <RimTalk.Settings.PlayerNameTooltip>会話に参加する際に表示される名前で、入植者があなたをどのように認識するかを表します。</RimTalk.Settings.PlayerNameTooltip>
+
+    <RimTalk.Settings.PauseAtSpeed>高速時にAIを一時停止</RimTalk.Settings.PauseAtSpeed>
+    <RimTalk.Settings.DisableAiAtSpeedTooltip>API呼び出しを減らすため、ゲーム速度がこのレベル以上に設定されるとAIは一時停止します。</RimTalk.Settings.DisableAiAtSpeedTooltip>
+    <RimTalk.Settings.Disabled>無効</RimTalk.Settings.Disabled>
+    <RimTalk.Settings.ButtonDisplay>RimTalkボタンの表示</RimTalk.Settings.ButtonDisplay>
+    <RimTalk.Settings.ButtonDisplayTooltip>デバッグインターフェースへのアクセス方法を制御します。「タブ」はメインタブを追加し、「トグル」は下部バーにアイコンを表示し、「なし」は非表示にします。</RimTalk.Settings.ButtonDisplayTooltip>
+
+    <RimTalk.Settings.AIInstructionPrompt>AIへの指示プロンプト（モデル：{0}）</RimTalk.Settings.AIInstructionPrompt>
+    <RimTalk.Settings.AutoIncludedTip>ヒント：ポーンの詳細（特性、関係、種族、年齢など）は自動的に含まれます。すべてのキャラクターやコロニーで機能する一般的な指示を作成してください。</RimTalk.Settings.AutoIncludedTip>
+    <RimTalk.Settings.RateLimitWarning>警告：プロンプトが長いほど、より多くのトークンを消費し、レート制限に早く達します。</RimTalk.Settings.RateLimitWarning>
+    <RimTalk.Settings.TokenInfo>現在：約{0}トークン | 推奨上限：{1}トークン</RimTalk.Settings.TokenInfo>
+    <RimTalk.Settings.ResetToDefault>デフォルトにリセット</RimTalk.Settings.ResetToDefault>
+    <RimTalk.Settings.EventFilterTip>ヒント：チェックされたイベントタイプのみがAIによって処理されます。AIに応答させたくないタイプはチェックを外してください。</RimTalk.Settings.EventFilterTip>
+    <RimTalk.Settings.NoArchivableTypes>アーカイブ可能なタイプが見つかりません。ゲームを開始してから再スキャンしてみてください。</RimTalk.Settings.NoArchivableTypes>
+
+    <!-- Dialog_PersonaEditor.cs -->
+    <RimTalk.PersonaEditor.Title>{0}の会話スタイル</RimTalk.PersonaEditor.Title>
+    <RimTalk.PersonaEditor.Instruct>この入植者がどのように話し、行動するかを記述してください。最良の結果を得るために、簡潔に（300文字未満で）記述してください。</RimTalk.PersonaEditor.Instruct>
+    <RimTalk.PersonaEditor.Characters>文字数：{0}</RimTalk.PersonaEditor.Characters>
+    <RimTalk.PersonaEditor.Save>保存</RimTalk.PersonaEditor.Save>
+    <RimTalk.PersonaEditor.Updated>{0}の会話スタイルを更新しました</RimTalk.PersonaEditor.Updated>
+    <RimTalk.PersonaEditor.TalkFrequencyDesc>この入植者が会話を始める頻度を制御します。最も低い設定でも、他の人から話しかけられた場合は返事をします。これは会話の開始頻度にのみ影響します。</RimTalk.PersonaEditor.TalkFrequencyDesc>
+    <RimTalk.PersonaEditor.Chattiness>会話頻度</RimTalk.PersonaEditor.Chattiness>
+    <RimTalk.PersonaEditor.Quiet>無口</RimTalk.PersonaEditor.Quiet>
+    <RimTalk.PersonaEditor.Chatty>おしゃべり</RimTalk.PersonaEditor.Chatty>
+    <RimTalk.PersonaEditor.Generating>生成中...</RimTalk.PersonaEditor.Generating>
+    <RimTalk.PersonaEditor.SmartGen>スマート生成</RimTalk.PersonaEditor.SmartGen>
+    <RimTalk.PersonaEditor.RollGen>ランダム生成</RimTalk.PersonaEditor.RollGen>
+    <RimTalk.PersonaEditor.Clear>クリア</RimTalk.PersonaEditor.Clear>
+
+    <!-- Settings_Api.cs -->
+    <RimTalk.Settings.GoogleApiKeyLabel>Google AI APIキー：</RimTalk.Settings.GoogleApiKeyLabel>
+    <RimTalk.Settings.GoogleApiKeyDesc>無料のGemma3 27Bモデルを使用します。他のモデルやプロバイダーを使用する場合は、詳細設定を使用してください。</RimTalk.Settings.GoogleApiKeyDesc>
+    <RimTalk.Settings.GetFreeApiKeyButton>無料APIキーを取得</RimTalk.Settings.GetFreeApiKeyButton>
+    <RimTalk.Settings.SwitchToAdvancedSettings>詳細設定に切り替え</RimTalk.Settings.SwitchToAdvancedSettings>
+    <RimTalk.Settings.SwitchToSimpleSettings>簡易設定に切り替え</RimTalk.Settings.SwitchToSimpleSettings>
+    <RimTalk.Settings.CloudProviders>クラウドプロバイダー</RimTalk.Settings.CloudProviders>
+    <RimTalk.Settings.CloudProvidersDesc>Google AIやOpenAIなどのオンラインAIサービスを使用します。インターネット接続とAPIキーが必要です。</RimTalk.Settings.CloudProvidersDesc>
+    <RimTalk.Settings.LocalProvider>ローカルプロバイダー</RimTalk.Settings.LocalProvider>
+    <RimTalk.Settings.LocalProviderDesc>あなたのマシンで実行されているローカルAIサーバー（Ollama、LMStudioなど）を使用します。OpenAPIをサポートしている必要があります。</RimTalk.Settings.LocalProviderDesc>
+    <RimTalk.Settings.CloudApiConfigurations>クラウドAPI設定</RimTalk.Settings.CloudApiConfigurations>
+    <RimTalk.Settings.CloudApiConfigurationsDesc>複数のAPIが有効になっている場合、システムは順番にそれらを使用しようとします。1つのAPIが失敗すると、リスト内の次に有効なAPIを自動的に試します。</RimTalk.Settings.CloudApiConfigurationsDesc>
+    <RimTalk.Settings.ProviderHeader>プロバイダー</RimTalk.Settings.ProviderHeader>
+    <RimTalk.Settings.ApiKeyHeader>APIキー</RimTalk.Settings.ApiKeyHeader>
+    <RimTalk.Settings.ModelHeader>モデル</RimTalk.Settings.ModelHeader>
+    <RimTalk.Settings.CustomModelHeader>カスタムモデル</RimTalk.Settings.CustomModelHeader>
+    <RimTalk.Settings.EnabledHeader>有効</RimTalk.Settings.EnabledHeader>
+    <RimTalk.Settings.EnableDisableApiConfigTooltip>このAPI設定を有効または無効にします</RimTalk.Settings.EnableDisableApiConfigTooltip>
+    <RimTalk.Settings.LocalProviderConfiguration>ローカルプロバイダー設定</RimTalk.Settings.LocalProviderConfiguration>
+    <RimTalk.Settings.BaseUrlLabel>URL：</RimTalk.Settings.BaseUrlLabel>
+    <RimTalk.Settings.ModelLabel>モデル：</RimTalk.Settings.ModelLabel>
+    <RimTalk.Settings.EnterApiKey>（モデルを取得するには有効なAPIキーを入力してください）</RimTalk.Settings.EnterApiKey>
+    <RimTalk_Settings_Api_BaseUrlInfo>ベースURLのみ（例：http://localhost:1234）を指定した場合、/v1/chat/completionsが自動的に追加されます。完全なパスを入力した場合は、入力された通りに使用されます。</RimTalk_Settings_Api_BaseUrlInfo>
+
+    <!-- Settings_Context.cs -->
+    <RimTalk.Settings.ContextFilter>コンテキストフィルター</RimTalk.Settings.ContextFilter>
+    <RimTalk.Settings.ContextFilterDescription>対話生成のコンテキストとして送信する、ポーンとその環境に関する詳細を選択します。</RimTalk.Settings.ContextFilterDescription>
+    <RimTalk.Settings.ContextFilterTip>ヒント: 多いほど良いとは限りません。情報が多すぎると、AI が無関係な詳細に気を取られたり、行き詰まったりする可能性があります。</RimTalk.Settings.ContextFilterTip>
+
+    <RimTalk.Settings.ContextPresets>コンテキストプリセット</RimTalk.Settings.ContextPresets>
+    <RimTalk.Settings.Preset.Essential>エッセンシャル</RimTalk.Settings.Preset.Essential>
+    <RimTalk.Settings.Preset.Essential.Desc>ローカル LLM 向けに最適化 - トークン使用量を最小限に</RimTalk.Settings.Preset.Essential.Desc>
+    <RimTalk.Settings.Preset.Standard>スタンダード</RimTalk.Settings.Preset.Standard>
+    <RimTalk.Settings.Preset.Standard.Desc>クラウド LLM 向けのバランス型 - 中程度の詳細</RimTalk.Settings.Preset.Standard.Desc>
+    <RimTalk.Settings.Preset.Comprehensive>コンプリヘンシブ</RimTalk.Settings.Preset.Comprehensive>
+    <RimTalk.Settings.Preset.Comprehensive.Desc>高性能 LLM のための最大詳細 - トークン使用量が多い</RimTalk.Settings.Preset.Comprehensive.Desc>
+    <RimTalk.Settings.Preset.Custom>カスタム</RimTalk.Settings.Preset.Custom>
+    <RimTalk.Settings.Preset.Custom.Desc>ユーザー定義の設定</RimTalk.Settings.Preset.Custom.Desc>
+
+    <RimTalk.Settings.ContextOptions>コンテキスト設定</RimTalk.Settings.ContextOptions>
+    <RimTalk.Settings.EnableContextOptimization>コンテキスト最適化を有効化</RimTalk.Settings.EnableContextOptimization>
+    <RimTalk.Settings.EnableContextOptimization.Tooltip>重要な情報を保持しつつ、トークン使用量を減らすためにコンテキストを最適化します。\n注意：生成される会話の品質が低下する場合があります。</RimTalk.Settings.EnableContextOptimization.Tooltip>
+    <RimTalk.Settings.ConversationHistoryCount>含める会話履歴セッション数</RimTalk.Settings.ConversationHistoryCount>
+    <RimTalk.Settings.ConversationHistoryCount.Tooltip>各セッションには複数の対話ターンが含まれ、トークン数が大幅に増える可能性があります</RimTalk.Settings.ConversationHistoryCount.Tooltip>
+    <RimTalk.Settings.MaxPawnContextCount>含める最大ポーン数</RimTalk.Settings.MaxPawnContextCount>
+    <RimTalk.Settings.MaxPawnContextCount.Tooltip>会話に参加できるポーンの最大数を制御します</RimTalk.Settings.MaxPawnContextCount.Tooltip>
+
+    <RimTalk.Settings.PawnInfo>ポーン情報</RimTalk.Settings.PawnInfo>
+    <RimTalk.Settings.IncludeRace>種族</RimTalk.Settings.IncludeRace>
+    <RimTalk.Settings.IncludeNotableGenes>注目すべき遺伝子</RimTalk.Settings.IncludeNotableGenes>
+    <RimTalk.Settings.IncludeIdeology>イデオロギーとミーム</RimTalk.Settings.IncludeIdeology>
+    <RimTalk.Settings.IncludeBackstory>バックストーリー</RimTalk.Settings.IncludeBackstory>
+    <RimTalk.Settings.IncludeTraits>特性</RimTalk.Settings.IncludeTraits>
+    <RimTalk.Settings.IncludeSkills>スキル</RimTalk.Settings.IncludeSkills>
+    <RimTalk.Settings.IncludeHealth>健康状態</RimTalk.Settings.IncludeHealth>
+    <RimTalk.Settings.IncludeMood>気分</RimTalk.Settings.IncludeMood>
+    <RimTalk.Settings.IncludeThoughts>思考と記憶</RimTalk.Settings.IncludeThoughts>
+    <RimTalk.Settings.IncludePrisonerSlaveStatus>囚人/奴隷の抵抗と意志</RimTalk.Settings.IncludePrisonerSlaveStatus>
+    <RimTalk.Settings.IncludeRelations>関係</RimTalk.Settings.IncludeRelations>
+    <RimTalk.Settings.IncludeEquipment>装備</RimTalk.Settings.IncludeEquipment>
+    <RimTalk.Settings.Environment>環境</RimTalk.Settings.Environment>
+    <RimTalk.Settings.IncludeTime>時間</RimTalk.Settings.IncludeTime>
+    <RimTalk.Settings.IncludeDate>日付</RimTalk.Settings.IncludeDate>
+    <RimTalk.Settings.IncludeSeason>季節</RimTalk.Settings.IncludeSeason>
+    <RimTalk.Settings.IncludeWeather>天気</RimTalk.Settings.IncludeWeather>
+    <RimTalk.Settings.IncludeLocationAndTemperature>場所と温度</RimTalk.Settings.IncludeLocationAndTemperature>
+    <RimTalk.Settings.IncludeTerrain>地形</RimTalk.Settings.IncludeTerrain>
+    <RimTalk.Settings.IncludeBeauty>セルの美しさ</RimTalk.Settings.IncludeBeauty>
+    <RimTalk.Settings.IncludeCleanliness>清潔さ</RimTalk.Settings.IncludeCleanliness>
+    <RimTalk.Settings.IncludeSurroundings>近くのアイテム</RimTalk.Settings.IncludeSurroundings>
+    <RimTalk.Settings.IncludeWealth>コロニーの富</RimTalk.Settings.IncludeWealth>
+
+    <!-- DebugWindow.cs -->
+    <RimTalk.DebugWindow.FilterPawn>名前</RimTalk.DebugWindow.FilterPawn>
+    <RimTalk.DebugWindow.Search>検索</RimTalk.DebugWindow.Search>
+    <RimTalk.DebugWindow.State>状態</RimTalk.DebugWindow.State>
+    <RimTalk.DebugWindow.Limit>上限</RimTalk.DebugWindow.Limit>
+    <RimTalk.DebugWindow.StateAll>すべての状態</RimTalk.DebugWindow.StateAll>
+    <RimTalk.DebugWindow.StatePending>保留中</RimTalk.DebugWindow.StatePending>
+    <RimTalk.DebugWindow.StateIgnored>無視</RimTalk.DebugWindow.StateIgnored>
+    <RimTalk.DebugWindow.StateSpoken>発話済み</RimTalk.DebugWindow.StateSpoken>
+    <RimTalk.DebugWindow.StateFailed>失敗</RimTalk.DebugWindow.StateFailed>
+    <RimTalk.DebugWindow.Last>最新</RimTalk.DebugWindow.Last>
+    <RimTalk.DebugWindow.AutoScroll>自動スクロール</RimTalk.DebugWindow.AutoScroll>
+    <RimTalk.DebugWindow.TooltipSelectForDetails>行を選択すると詳細が表示されます</RimTalk.DebugWindow.TooltipSelectForDetails>
+    <RimTalk.DebugWindow.Details>詳細</RimTalk.DebugWindow.Details>
+    <RimTalk.DebugWindow.SelectRowHint>左側のリストからリクエストを選択して、プロンプト／レスポンス／コンテキストを確認します。</RimTalk.DebugWindow.SelectRowHint>
+    <RimTalk.DebugWindow.Resend>再送信</RimTalk.DebugWindow.Resend>
+    <RimTalk.DebugWindow.ResendTooltip>コンテキストとプロンプトを編集し、再送信して会話をテストします。</RimTalk.DebugWindow.ResendTooltip>
+    <RimTalk.DebugWindow.ResendSuccess>リクエストが正常に再送信されました。</RimTalk.DebugWindow.ResendSuccess>
+    <RimTalk.DebugWindow.ResendError>AIは現在処理中です。ステータスがIdleになったら再試行してください。</RimTalk.DebugWindow.ResendError>
+    <RimTalk.DebugWindow.CopyAll>すべてコピー</RimTalk.DebugWindow.CopyAll>
+    <RimTalk.DebugWindow.Copy>コピー</RimTalk.DebugWindow.Copy>
+    <RimTalk.DebugWindow.Copied>コピーしました</RimTalk.DebugWindow.Copied>
+    <RimTalk.DebugWindow.Undo>元に戻す</RimTalk.DebugWindow.Undo>
+    <RimTalk.DebugWindow.Prompt>プロンプト</RimTalk.DebugWindow.Prompt>
+    <RimTalk.DebugWindow.Response>レスポンス</RimTalk.DebugWindow.Response>
+    <RimTalk.DebugWindow.Contexts>コンテキスト</RimTalk.DebugWindow.Contexts>
+    <RimTalk.DebugWindow.Generating>[生成中...]</RimTalk.DebugWindow.Generating>
+    <RimTalk.DebugWindow.StatusDisabled>無効</RimTalk.DebugWindow.StatusDisabled>
+    <RimTalk.DebugWindow.StatusProcessing>処理中</RimTalk.DebugWindow.StatusProcessing>
+    <RimTalk.DebugWindow.StatusIdle>待機中</RimTalk.DebugWindow.StatusIdle>
+    <RimTalk.DebugWindow.GroupByPawn>ポーンごとにグループ化</RimTalk.DebugWindow.GroupByPawn>
+    <RimTalk.DebugWindow.ModSettings>MOD設定</RimTalk.DebugWindow.ModSettings>
+    <RimTalk.DebugWindow.Export>エクスポート</RimTalk.DebugWindow.Export>
+    <RimTalk.DebugWindow.ResetLogs>ログ初期化</RimTalk.DebugWindow.ResetLogs>
+    <RimTalk.DebugWindow.EnableRimTalk>RimTalkを有効にする</RimTalk.DebugWindow.EnableRimTalk>
+    <RimTalk.DebugWindow.AIStatus>AIステータス：</RimTalk.DebugWindow.AIStatus>
+    <RimTalk.DebugWindow.TotalCalls>総呼び出し回数：</RimTalk.DebugWindow.TotalCalls>
+    <RimTalk.DebugWindow.TotalTokens>総トークン数：</RimTalk.DebugWindow.TotalTokens>
+    <RimTalk.DebugWindow.AvgCallsPerMin>平均呼び出し回数/分：</RimTalk.DebugWindow.AvgCallsPerMin>
+    <RimTalk.DebugWindow.AvgTokensPerMin>平均トークン数/分：</RimTalk.DebugWindow.AvgTokensPerMin>
+    <RimTalk.DebugWindow.AvgTokensPerCall>平均トークン数/呼び出し：</RimTalk.DebugWindow.AvgTokensPerCall>
+    <RimTalk.DebugWindow.TokensPerSecond>トークン/秒</RimTalk.DebugWindow.TokensPerSecond>
+    <RimTalk.DebugWindow.SixtySecondsAgo>60秒前</RimTalk.DebugWindow.SixtySecondsAgo>
+    <RimTalk.DebugWindow.Now>現在</RimTalk.DebugWindow.Now>
+    <RimTalk.DebugWindow.StatusReady>Ready</RimTalk.DebugWindow.StatusReady>
+    <RimTalk.DebugWindow.StatusBusy>Busy</RimTalk.DebugWindow.StatusBusy>
+    <RimTalk.DebugWindow.HeaderPawn>ポーン</RimTalk.DebugWindow.HeaderPawn>
+    <RimTalk.DebugWindow.HeaderResponse>応答</RimTalk.DebugWindow.HeaderResponse>
+    <RimTalk.DebugWindow.HeaderInteractionType>タイプ</RimTalk.DebugWindow.HeaderInteractionType>
+    <RimTalk.DebugWindow.HeaderStatus>ステータス</RimTalk.DebugWindow.HeaderStatus>
+    <RimTalk.DebugWindow.HeaderLastTalk>最終会話</RimTalk.DebugWindow.HeaderLastTalk>
+    <RimTalk.DebugWindow.HeaderRequests>リクエスト</RimTalk.DebugWindow.HeaderRequests>
+    <RimTalk.DebugWindow.HeaderChattiness>会話頻度</RimTalk.DebugWindow.HeaderChattiness>
+    <RimTalk.DebugWindow.HeaderTimestamp>タイムスタンプ</RimTalk.DebugWindow.HeaderTimestamp>
+    <RimTalk.DebugWindow.HeaderTimeMs>時間(ms)</RimTalk.DebugWindow.HeaderTimeMs>
+    <RimTalk.DebugWindow.HeaderTokens>トークン</RimTalk.DebugWindow.HeaderTokens>
+    <RimTalk.DebugWindow.HeaderState>状態</RimTalk.DebugWindow.HeaderState>
+    <RimTalk.DebugWindow.TooltipPromptResponse>プロンプト：\n{0}\n\n応答：\n{1}</RimTalk.DebugWindow.TooltipPromptResponse>
+    
+    <!-- Overlay.cs -->
+    <RimTalk.Overlay.Debug>デバッグ</RimTalk.Overlay.Debug>
+    <RimTalk.Overlay.Option>オーバーレイオプション</RimTalk.Overlay.Option>
+    <RimTalk.Overlay.DrawAboveUI>UI の上に表示</RimTalk.Overlay.DrawAboveUI>
+    <RimTalk.Overlay.Opacity>不透明度</RimTalk.Overlay.Opacity>
+    <RimTalk.Overlay.FontSize>フォントサイズ</RimTalk.Overlay.FontSize>
+
+    <!-- FloatMenuMakerMapGetOptionsPatch.cs -->
+    <RimTalk.FloatMenu.ChatWith>{0}とチャット</RimTalk.FloatMenu.ChatWith>
+    <RimTalk.Gizmo.ChatWithTarget>{0}と会話する</RimTalk.Gizmo.ChatWithTarget>
+    <RimTalk.Gizmo.ChatWithTargetDesc>{0}との会話を開始します。</RimTalk.Gizmo.ChatWithTargetDesc>
+    <RimTalk.FloatMenu.WhatToSayToSelf>{0}に何を言いたいですか？</RimTalk.FloatMenu.WhatToSayToSelf>
+    <RimTalk.FloatMenu.WhatToSayToOther>{0}に{1}に何を言わせたいですか？</RimTalk.FloatMenu.WhatToSayToOther>
+    <RimTalk.FloatMenu.Send>送信</RimTalk.FloatMenu.Send>
+    <RimTalk.FloatMenu.Cancel>キャンセル</RimTalk.FloatMenu.Cancel>
+
+    <!-- Player2 Deprecation -->
+    <RimTalk.Player2Deprecation.Title>Player2 プロバイダー廃止のお知らせ</RimTalk.Player2Deprecation.Title>
+    <RimTalk.Player2Deprecation.Message>"Player2" AI プロバイダーはサポートを終了し、2026年1月31日に RimTalk から削除されます。\n\nAI会話機能を継続して利用するために、期日までに他のプロバイダーへの切り替えをお願いします。\n\nこのメッセージは、Mod設定で Player2 がプロバイダーとしてリストされているために表示されています。</RimTalk.Player2Deprecation.Message>
+    <RimTalk.Player2Deprecation.DontShowAgain>今後表示しない</RimTalk.Player2Deprecation.DontShowAgain>
+    <RimTalk.Player2Deprecation.WarningShort>廃止予定: 2026/1/31</RimTalk.Player2Deprecation.WarningShort>
+</LanguageData>
