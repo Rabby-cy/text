@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<LanguageData>
-
-    <OAGene_MessageSnowStormBreakRoof>極端的大風掀走了數個房間的屋頂！</OAGene_MessageSnowStormBreakRoof>
-
-    <OAGene_MessageColdSnowFrostbite>由於過冷的溫度，{PAWN_labelShort}的{1}受到了急性的凍傷。當{PAWN_labelShort}髮現這個問題的時候，他{1}的某個地方已經徹底失去了知覺。</OAGene_MessageColdSnowFrostbite>
-
-</LanguageData>
