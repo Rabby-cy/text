@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <QuestScriptDef>
+        <defName>OAGene_OpportunitySite_Espionage</defName>
+        <defaultChallengeRating>2</defaultChallengeRating>
+        <rootSelectionWeight>0</rootSelectionWeight>
+        <isRootSpecial>true</isRootSpecial>
+        <rootMinPoints>350</rootMinPoints>
+        <expireDaysRange>6~8</expireDaysRange>
+        <successHistoryEvent MayRequire="Ludeon.RimWorld.Ideology">Raided_BanditCamp</successHistoryEvent>
+        <questNameRules>
+            <rulesStrings>
+                <li>questName->情报窃取行动</li>
+                <li>questName->谍报刺探</li>
+                <li>questName->有偿的间谍活动</li>
+                <li>questName->雇佣侦查</li>
+                <li>questName->[asker_nameFull]的间谍雇佣</li>
+                <li>questName->针对[siteFaction_name]的谍报活动</li>
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+                <li>questDescription->我们收到了一条来自[askerFaction_name]的秘密请求。\n\n出于[askerFaction_name]的外交策略，以及对[siteFaction_name]的戒备，[asker_nameFull]请求我们协助[askerFaction_name]对[siteFaction_name]进行情报搜集活动。为了完成对定居点信息的搜集，[asker_nameFull]需要我们从[targetSettle_label]附近的营地内窃取一部分关于[siteFaction_name]的军事部署资料以及某些定居点的城防信息，而作为回报[askerFaction_name]将会为我们提供丰厚的报酬。\n\n这种窃取军事秘密的活动属于严重的间谍行为，若是我们的间谍活动被发现将会影响到我们与[siteFaction_name]关系。而若是我们的关系过于糟糕，我们将遭到营地内警卫的攻击。\n此外，由于每次谍报活动都需要一定时间才能够完成，因此若是没有做好持续侦查的准备将会举步维艰。</li>
+            </rulesStrings>
+        </questDescriptionRules>
+        <root Class="QuestNode_Sequence">
+            <nodes>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_AdjustPointsForDistantFight</def>
+                </li>
+                <li Class="QuestNode_GetMap" />
+
+                <li Class="QuestNode_GetMapWealth">
+                    <map>$map</map>
+                    <storeAs>mapWealth</storeAs>
+                </li>
+                <li Class="QuestNode_GreaterOrFail">
+                    <value1>$mapWealth</value1>
+                    <value2>80000</value2>
+                </li>
+
+                <li Class="OberoniaAureaGene.Ratkin.QuestNode_GetRatkinKindomFaction">
+                    <allowAlly>true</allowAlly>
+                    <allowNeutral>true</allowNeutral>
+                    <allowEnemy>true</allowEnemy>
+                    <storeAs>askerFaction</storeAs>
+                </li>
+                <li Class="OberoniaAureaGene.Ratkin.QuestNode_GetRatkinKindomFaction">
+                    <allowAlly>true</allowAlly>
+                    <allowNeutral>true</allowNeutral>
+                    <allowEnemy>true</allowEnemy>
+                    <exclude>$askerFaction</exclude>
+                    <storeAs>siteFaction</storeAs>
+                </li>
+
+                <li Class="OberoniaAurea_Frame.QuestNode_GetFactionLeader">
+                    <storeAs>asker</storeAs>
+                    <faction>$askerFaction</faction>
+                </li>
+
+                <li Class="OberoniaAurea_Frame.QuestNode_GetNearbySettlementOfFaction">
+                    <storeAs>targetSettle</storeAs>
+                    <maxTileDistance>25</maxTileDistance>
+                    <faction>$siteFaction</faction>
+                </li>
+
+                <li Class="QuestNode_Set">                    <!-- 据点消失时限 -->
+                    <name>siteTimeout</name>
+                    <value>$(randInt(12,28)*60000)</value>
+                </li>
+
+                <li Class="QuestNode_Set">                    <!-- 任务失败时限（略长于据点消失时限） -->
+                    <name>questTimeout</name>
+                    <value>$($siteTimeout + 60000)</value>
+                </li>
+
+                <li Class="QuestNode_Delay">
+                    <delayTicks>$questTimeout</delayTicks>
+                    <isQuestTimeout>true</isQuestTimeout>
+                    <outSignalComplete>QuestTimeOut</outSignalComplete>
+                </li>
+
+                <li Class="QuestNode_Set">
+                    <name>successCount</name>
+                    <value>0</value>
+                </li>
+
+                <li Class="QuestNode_Set">
+                    <name>siteCount</name>
+                    <value>3</value>
+                </li>
+
+                <li Class="QuestNode_LoopCount">
+                    <loopCount>$siteCount</loopCount>
+                    <storeLoopCounterAs>siteLoopCounter</storeLoopCounterAs>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="OberoniaAurea_Frame.QuestNode_GetNearTile">
+                                <storeAs>siteTile(($siteLoopCounter))</storeAs>
+                                <worldObject>$targetSettle</worldObject>
+                                <minDist>3</minDist>
+                                <maxDist>6</maxDist>
+                            </li>
+                            <li Class="QuestNode_GetDefaultSitePartsParams">
+                                <tile>$siteTile(($siteLoopCounter))</tile>
+                                <faction>$siteFaction</faction>
+                                <sitePartDefs>BanditCamp</sitePartDefs>
+                                <storeSitePartsParamsAs>sitePartsParams(($siteLoopCounter))</storeSitePartsParamsAs>
+                            </li>
+                            <li Class="QuestNode_GetSiteThreatPoints">
+                                <storeAs>sitePoints(($siteLoopCounter))</storeAs>
+                                <sitePartsParams>$sitePartsParams(($siteLoopCounter))</sitePartsParams>
+                            </li>
+                            <li Class="QuestNode_GenerateSite">
+                                <storeAs>site(($siteLoopCounter))</storeAs>
+                                <tile>$siteTile(($siteLoopCounter))</tile>
+                                <sitePartsParams>$sitePartsParams(($siteLoopCounter))</sitePartsParams>
+                                <faction>$siteFaction</faction>
+                            </li>
+                            <li Class="OberoniaAureaGene.Ratkin.QuestNode_InitiateEspionage">
+                                <customLabel>目标哨站</customLabel>
+                                <site>$site(($siteLoopCounter))</site>
+                            </li>
+                            <li Class="QuestNode_WorldObjectTimeout">
+                                <worldObject>$site(($siteLoopCounter))</worldObject>
+                                <isQuestTimeout>false</isQuestTimeout>
+                                <delayTicks>$siteTimeout</delayTicks>
+                                <inSignalDisable>site(($siteLoopCounter)).MapGenerated</inSignalDisable>
+                                <destroyOnCleanup>true</destroyOnCleanup>
+                            </li>
+                            <li Class="QuestNode_SpawnWorldObjects">
+                                <worldObjects>$site(($siteLoopCounter))</worldObjects>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+
+                <li Class="QuestNode_AnySignal">
+                    <inSignals>
+                        <li>site0.OAGene_EspionageSuccess</li>
+                        <li>site1.OAGene_EspionageSuccess</li>
+                        <li>site2.OAGene_EspionageSuccess</li>
+                    </inSignals>
+                    <outSignals>OAGene_AEspionageSuccess</outSignals>
+                </li>
+                <li Class="OberoniaAurea_Frame.QuestNode_MultiSignalCount">
+                    <inSignal>OAGene_AEspionageSuccess</inSignal>
+                    <targetCount>3</targetCount>
+                    <outSignalAchieved>OAGene_AllEspionageSuccess</outSignalAchieved>
+                </li>
+                <li Class="QuestNode_Signal">
+                    <inSignal>OAGene_AllEspionageSuccess</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_Set">
+                                <name>rewardValue</name>
+                                <value>$(randInt(25000,27000))</value>
+                            </li>
+                            <li Class="QuestNode_GiveRewards">
+                                <parms>
+                                    <thingRewardItemsOnly>true</thingRewardItemsOnly>
+                                </parms>
+                                <addCampLootReward>true</addCampLootReward>
+                                <customLetterLabel TKey="LetterLabelPaymentArrived">奖励到达</customLetterLabel>
+                                <customLetterText TKey="LetterTextPaymentArrived">你已经获得了全部据点的情报\n\n来自[askerFaction_name]的奖励已经送达。</customLetterText>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Success</outcome>
+                                <sendStandardLetter>true</sendStandardLetter>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+
+                <li Class="QuestNode_AnySignal">
+                    <inSignals>
+                        <li>site0.OAGene_EspionageFail</li>
+                        <li>site1.OAGene_EspionageFail</li>
+                        <li>site2.OAGene_EspionageFail</li>
+                    </inSignals>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_Letter">
+                                <label TKey="LetterLabelQuestFailed">任务失败: [resolvedQuestName]</label>
+                                <text TKey="LetterTextQuestFailed">你未能获得其中一个据点的情报。</text>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Fail</outcome>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+
+                <li Class="QuestNode_AllSignals">
+                    <inSignals>
+                        <li>site0.Destroyed</li>
+                        <li>site1.Destroyed</li>
+                        <li>site2.Destroyed</li>
+                    </inSignals>
+                    <node Class="QuestNode_Delay">
+                        <delayTicks>600</delayTicks>
+                        <inSignalDisable>OAGene_AllEspionageSuccess</inSignalDisable>
+                        <node Class="QuestNode_Sequence">
+                            <nodes>
+                                <li Class="QuestNode_Letter">
+                                    <label TKey="LetterLabelQuestFailed">任务失败: [resolvedQuestName]</label>
+                                    <text TKey="LetterTextQuestFailed">你未能获得全部据点的情报。</text>
+                                </li>
+                                <li Class="QuestNode_End">
+                                    <outcome>Fail</outcome>
+                                </li>
+                            </nodes>
+                        </node>
+                    </node>
+                </li>
+
+                <!-- Inflate reward value. Since we're basing the reward value on the threat points
+                generated, we need to do this
+                 even though the threat points was deflated from the input points already. -->
+
+                <li Class="QuestNode_End">
+                    <inSignal>QuestTimeOut</inSignal>
+                    <outcome>Fail</outcome>
+                </li>
+            </nodes>
+        </root>
+    </QuestScriptDef>
+
+</Defs>

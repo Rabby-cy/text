@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <IncidentDef>
+        <defName>OAGene_ExtremeSnowstorm</defName>
+        <label>极端暴风雪</label>
+        <category>ThreatBig</category>
+        <baseChance>0</baseChance>
+        <targetTags>
+            <li>Map_PlayerHome</li>
+        </targetTags>
+        <workerClass>IncidentWorker_MakeGameCondition</workerClass>
+        <gameCondition>OAGene_ExtremeSnowstorm</gameCondition>
+        <letterLabel>极端暴风雪</letterLabel>
+        <letterDef>OAGene_SnowstormStart</letterDef>
+        <durationDays>2.5~6.0</durationDays>
+    </IncidentDef>
+
+</Defs>

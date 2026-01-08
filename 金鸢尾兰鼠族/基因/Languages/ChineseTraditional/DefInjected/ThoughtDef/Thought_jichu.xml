@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <OAGene_BeingDrafted.stages.0.label>被征召</OAGene_BeingDrafted.stages.0.label>
+  <OAGene_BeingDrafted.stages.0.description>征召？需要我做什麽嗎...</OAGene_BeingDrafted.stages.0.description>
+
+  <OAGene_WantBeCloseToPlants.stages.0.label>想要進行種植工作</OAGene_WantBeCloseToPlants.stages.0.label>
+  <OAGene_WantBeCloseToPlants.stages.0.description>我想去和植物們親近親近。</OAGene_WantBeCloseToPlants.stages.0.description>
+
+  <OAGene_NaturalDiligence.stages.0.label>沒有工作</OAGene_NaturalDiligence.stages.0.label>
+  <OAGene_NaturalDiligence.stages.0.description>我應該回到我的崗位上。</OAGene_NaturalDiligence.stages.0.description>
+
+  <OAGene_NaturalDiligence.stages.1.label>正在工作</OAGene_NaturalDiligence.stages.1.label>
+  <OAGene_NaturalDiligence.stages.1.description>只有工作才能讓我感到安心。</OAGene_NaturalDiligence.stages.1.description>
+  
+  <OAGene_MonarchyBased.stages.0.label>未能掌權</OAGene_MonarchyBased.stages.0.label>
+  <OAGene_MonarchyBased.stages.0.description>我應該站在更高的地方...</OAGene_MonarchyBased.stages.0.description>
+  
+  <OAGene_Suspicious.stages.0.label>與其他人共用臥室</OAGene_Suspicious.stages.0.label>
+  <OAGene_Suspicious.stages.0.description>我不得不和其他人睡在同一間房間，這讓我感到非常的不舒適。</OAGene_Suspicious.stages.0.description>
+
+  <OAGene_Thought_SnowExtreme.stages.0.label>極端暴風雪</OAGene_Thought_SnowExtreme.stages.0.label>
+  <OAGene_Thought_SnowExtreme.stages.0.description>在這種天氣里迷失的話，幾乎就意味著死亡吧...</OAGene_Thought_SnowExtreme.stages.0.description>
+
+  <OAGene_Thought_SnowExtreme.stages.1.label>極端暴風雪</OAGene_Thought_SnowExtreme.stages.1.label>
+  <OAGene_Thought_SnowExtreme.stages.1.description>哪怕是再堅定的信念，在這種風暴里也顯得不堪一擊...</OAGene_Thought_SnowExtreme.stages.1.description>
+  
+  <OAGene_Thought_SnowExtremeSurvivor.stages.0.label>直面暴風雪</OAGene_Thought_SnowExtremeSurvivor.stages.0.label>
+  <OAGene_Thought_SnowExtremeSurvivor.stages.0.description>風雪啊，我不再懼怕你，你無法再次將我吹垮。</OAGene_Thought_SnowExtremeSurvivor.stages.0.description>
+  
+  <OAGene_Thought_ColdSnow.stages.0.label>冷雪</OAGene_Thought_ColdSnow.stages.0.label>
+  <OAGene_Thought_ColdSnow.stages.0.description>好冷！好痛！這些真的是雪花而不是刀片嗎？！！</OAGene_Thought_ColdSnow.stages.0.description>
+  
+  <OAGene_Thought_ObeyOrderNonDraft.stages.0.label>未征召</OAGene_Thought_ObeyOrderNonDraft.stages.0.label>
+  <OAGene_Thought_ObeyOrderNonDraft.stages.0.description>我已經很長一段時間沒有被命令了。</OAGene_Thought_ObeyOrderNonDraft.stages.0.description>
+  <OAGene_Thought_ObeyOrderNonDraft.stages.1.label>未征召</OAGene_Thought_ObeyOrderNonDraft.stages.1.label>
+  <OAGene_Thought_ObeyOrderNonDraft.stages.1.description>為什麽新的命令還是沒有傳達給我？</OAGene_Thought_ObeyOrderNonDraft.stages.1.description>  
+  <OAGene_Thought_ObeyOrderNonDraft.stages.2.label>未征召</OAGene_Thought_ObeyOrderNonDraft.stages.2.label>
+  <OAGene_Thought_ObeyOrderNonDraft.stages.2.description>我需要一個命令，無論是誰的也好。</OAGene_Thought_ObeyOrderNonDraft.stages.2.description>
+  <OAGene_Thought_ObeyOrderNonDraft.stages.3.label>未征召</OAGene_Thought_ObeyOrderNonDraft.stages.3.label>
+  <OAGene_Thought_ObeyOrderNonDraft.stages.3.description>請告訴我一個命令...</OAGene_Thought_ObeyOrderNonDraft.stages.3.description>
+  <OAGene_Thought_ObeyOrderNonDraft.stages.4.label>未征召</OAGene_Thought_ObeyOrderNonDraft.stages.4.label>
+  <OAGene_Thought_ObeyOrderNonDraft.stages.4.description>沒有命令，我感覺我毫無意義...</OAGene_Thought_ObeyOrderNonDraft.stages.4.description>
+</LanguageData>

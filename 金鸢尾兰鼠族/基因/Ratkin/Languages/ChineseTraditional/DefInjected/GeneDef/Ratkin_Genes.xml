@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+ <OAGene_RatkinEar.label>鼠族耳朵</OAGene_RatkinEar.label>
+  <OAGene_RatkinEar.description>這種基因的攜帶者擁有一對招搖的大耳朵。</OAGene_RatkinEar.description>
+  
+  <OAGene_RatkinTail.label>鼠族尾巴</OAGene_RatkinTail.label>
+  <OAGene_RatkinTail.description>這種基因的攜帶者擁有一條靈巧的纖細鼠尾。</OAGene_RatkinTail.description>
+  <OAGene_RatkinTail.customEffectDescriptions.0>移動能力+5%</OAGene_RatkinTail.customEffectDescriptions.0>
+  
+   <OAGene_LowlandRatkinEar.label>低地鼠耳</OAGene_LowlandRatkinEar.label>
+  <OAGene_LowlandRatkinEar.description>這種基因的攜帶者擁有一對軟乎乎的可愛鼠耳。</OAGene_LowlandRatkinEar.description>
+  
+    <OAGene_RockRatkinEar.label>巖鼠鼠耳</OAGene_RockRatkinEar.label>
+  <OAGene_RockRatkinEar.description>這種基因的攜帶者擁有一對長有堅硬鬃毛的鼠耳。</OAGene_RockRatkinEar.description>
+  <OAGene_RockRatkinEar.customEffectDescriptions.0>當受到的傷害涉及以下部位時，本次傷害數值×50%：耳</OAGene_RockRatkinEar.customEffectDescriptions.0>
+  <OAGene_RockRatkinEar.customEffectDescriptions.1>聽覺能力-10%</OAGene_RockRatkinEar.customEffectDescriptions.1>
+  
+    <OAGene_SnowRatkinEar.label>雪鼠鼠耳</OAGene_SnowRatkinEar.label>
+  <OAGene_SnowRatkinEar.description>這種基因的攜帶者擁有一對毛茸茸的鼠耳。</OAGene_SnowRatkinEar.description>
+  
+   <OAGene_BatRatkinEar.label>蝠鼠鼠耳</OAGene_BatRatkinEar.label>
+  <OAGene_BatRatkinEar.description>這種基因的攜帶者擁有一對看起來就很有型的蝠耳。</OAGene_BatRatkinEar.description>
+  
+</LanguageData>

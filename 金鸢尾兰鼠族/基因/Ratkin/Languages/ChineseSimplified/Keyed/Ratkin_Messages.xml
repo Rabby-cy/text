@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OAGene_MessageNoSelectedGene>未选择有效基因</OAGene_MessageNoSelectedGene>
+    <OAGene_MessageCantSelectArcGene>无法辨析超凡基因</OAGene_MessageCantSelectArcGene>
+
+    <OAGene_GeneExtractionFail>{PAWN}的基因提取失败了。</OAGene_GeneExtractionFail>
+
+    <OAGene_PawnKilledDestructiveGeneExtract>{PAWN_nameDef}在破坏性基因提取中死亡</OAGene_PawnKilledDestructiveGeneExtract>
+
+    <OAGene_GeneDiscriminationComplete>{0}已成功从基因组中辨析出来</OAGene_GeneDiscriminationComplete>
+    <OAGene_GeneDiscriminationFail>{0}的基因辨析失败了</OAGene_GeneDiscriminationFail>
+
+
+    <OAGene_MessageEspionageCooldown>营地警卫正处于警惕状态，{0}内无法尝试窃取情报</OAGene_MessageEspionageCooldown>
+    <OAGene_MessageEspionageSuccess>本次情报窃取成功，并且我们的活动未被营地内的警卫所发现。</OAGene_MessageEspionageSuccess>
+    <OAGene_MessageEspionageFail>本次情报窃取失败，但幸运的是我们的间谍活动未被发现。</OAGene_MessageEspionageFail>
+    <OAGene_MessageEspionageSuccessButBeFound>本次情报窃取成功，但我们的间谍活动被发现了！</OAGene_MessageEspionageSuccessButBeFound>
+    <OAGene_MessageEspionageFailAndBeBeFound>本次情报窃取失败，并且我们的间谍活动被发现了！</OAGene_MessageEspionageFailAndBeBeFound>
+
+</LanguageData>

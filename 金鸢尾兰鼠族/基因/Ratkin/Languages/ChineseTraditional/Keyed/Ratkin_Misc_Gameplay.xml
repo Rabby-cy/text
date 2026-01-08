@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    
+    <OAGene_WorkPausedNoPower>工作暂停：未通电（中断{TIME}）</OAGene_WorkPausedNoPower>
+
+    <OAGene_WaitingForGenePack>等待基因组装入</OAGene_WaitingForGenePack>
+
+    <OAGene_XenogermRepairing>基因修复中</OAGene_XenogermRepairing>
+
+    <OAGene_EspionageSite>尝试从{0}营地窃取情报。</OAGene_EspionageSite>
+    <OAGene_FixedCaravanEspionae_TimeLeft>正在窃取情报中，剩余{0}</OAGene_FixedCaravanEspionae_TimeLeft>
+    
+</LanguageData>

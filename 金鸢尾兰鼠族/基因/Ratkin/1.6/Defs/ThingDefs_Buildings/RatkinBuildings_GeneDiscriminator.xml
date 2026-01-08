@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="BuildingBase" Name="OAGene_GeneDiscriminatorBase" Abstract="true">
+        <containedPawnsSelectable>true</containedPawnsSelectable>
+        <passability>PassThroughOnly</passability>
+        <fillPercent>0.4</fillPercent>
+        <castEdgeShadows>true</castEdgeShadows>
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <tickerType>Normal</tickerType>
+        <graphicData>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3,2)</drawSize>
+            <shadowData>
+                <volume>(3, 2, 1.9)</volume>
+            </shadowData>
+        </graphicData>
+        <size>(3,2)</size>
+        <hasInteractionCell>true</hasInteractionCell>
+        <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+        <canOverlapZones>false</canOverlapZones>
+        <defaultPlacingRot>South</defaultPlacingRot>
+        <designationCategory>Biotech</designationCategory>
+        <building>
+            <buildingTags>
+                <li>Biotech</li>
+            </buildingTags>
+        </building>
+        <comps>
+            <li Class="CompProperties_Flickable" />
+        </comps>
+    </ThingDef>
+
+    <!-- 鼠族基因分析仪 -->
+    <ThingDef ParentName="OAGene_GeneDiscriminatorBase">
+        <defName>OAGene_RatkinGeneDiscriminator</defName>
+        <label>Mouse gene analyzer</label>
+        <description>The kingdom of mice is a product of fully developed genetic technology, which can extract a specific gene from a certain genome. The more genes contained in the extracted genome, the higher the probability of failure.\nUnable to extract extraordinary genes.</description>
+        <thingClass>OberoniaAureaGene.Ratkin.Building_RatkinGeneDiscriminator</thingClass>
+        <graphicData>
+            <texPath>Things/Building/Production/OAGene_RatkinGeneDiscriminator</texPath>
+        </graphicData>
+        <uiOrder>2100</uiOrder>
+        <researchPrerequisites>
+            <li>RatkinGene</li>
+        </researchPrerequisites>
+        <statBases>
+            <MaxHitPoints>350</MaxHitPoints>
+            <WorkToBuild>20000</WorkToBuild>
+            <Mass>85</Mass>
+            <Flammability>0.5</Flammability>
+        </statBases>
+        <containedPawnsSelectable>false</containedPawnsSelectable>
+        <costList>
+            <Steel>150</Steel>
+            <ComponentIndustrial>12</ComponentIndustrial>
+        </costList>
+        <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>400</basePowerConsumption>
+                <idlePowerDraw>100</idlePowerDraw>
+            </li>
+            <li Class="OberoniaAureaGene.Ratkin.CompProperties_GeneDiscriminat">
+                <maxCapacity>1</maxCapacity>
+              </li>
+            <li Class="CompProperties_AffectedByFacilities">
+                <linkableFacilities>
+					<li MayRequire="OARK.RatkinFaction.OberoniaAurea">OAGene_OAGeneBank</li>
+                    <li>GeneBank</li>
+                </linkableFacilities>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- 金鸢尾兰基因辨析仪 -->
+    <ThingDef MayRequire="OARK.RatkinFaction.OberoniaAurea" ParentName="OAGene_GeneDiscriminatorBase">
+        <defName>OAGene_OARatkinGeneDiscriminator</defName>
+        <label>金鸢尾兰基因辨析仪</label>
+        <description>金鸢尾兰帝国为了辨析出特定基因而诞生的机器，能够从复杂的基因组中提取一个单独的特定基因。基因数量越多失败概率越高。\n无法提取超凡基因。</description>
+        <thingClass>OberoniaAureaGene.Ratkin.Building_OARatkinGeneDiscriminator</thingClass>
+        <graphicData>
+			<drawSize>(3,2.15)</drawSize>
+            <texPath>Things/Building/Production/OAGene_OARatkinGeneDiscriminator</texPath>
+        </graphicData>
+        <uiOrder>2100</uiOrder>
+        <researchPrerequisites>
+            <li>OA_RK_RatkinGene</li>
+        </researchPrerequisites>
+        <statBases>
+            <MaxHitPoints>300</MaxHitPoints>
+            <WorkToBuild>38000</WorkToBuild>
+            <Mass>70</Mass>
+            <Flammability>0.5</Flammability>
+        </statBases>
+        <costList>
+            <Steel>120</Steel>
+			<Plasteel>60</Plasteel>
+            <ComponentIndustrial>8</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+        </costList>
+        <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>600</basePowerConsumption>
+                <idlePowerDraw>200</idlePowerDraw>
+            </li>
+            <li Class="OberoniaAureaGene.Ratkin.CompProperties_GeneDiscriminat">
+                <maxCapacity>1</maxCapacity>
+              </li>
+            <li Class="CompProperties_AffectedByFacilities">
+                <linkableFacilities>
+                    <li>OAGene_OAGeneBank</li>
+					<li>GeneBank</li>
+                </linkableFacilities>
+            </li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>2</glowRadius>
+				<glowColor>(200,180,180,0)</glowColor>
+				<colorPickerEnabled>false</colorPickerEnabled>
+				<darklightToggle>false</darklightToggle>
+			</li>
+        </comps>
+    </ThingDef>
+
+</Defs>

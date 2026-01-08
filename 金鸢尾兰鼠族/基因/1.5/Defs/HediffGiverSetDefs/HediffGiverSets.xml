@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <HediffGiverSetDef>
+        <defName>OAGene_MechanoidGiver</defName>
+        <hediffGivers>
+            <li Class="OberoniaAureaGene.HediffGiver_SnowExtremeMechanoidBase">
+                <hediff>OAGene_Hediff_SnowExtreme</hediff>
+            </li>
+        </hediffGivers>
+    </HediffGiverSetDef>
+
+</Defs>

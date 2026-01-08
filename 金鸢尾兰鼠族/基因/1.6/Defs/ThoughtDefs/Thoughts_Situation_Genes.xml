@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThoughtDef>
+        <defName>OAGene_BeingDrafted</defName>
+        <workerClass>OberoniaAureaGene.ThoughtWorker_Drafted</workerClass>
+        <requiredGenes>
+            <li>OAGene_SurvivalInstinct</li>
+        </requiredGenes>
+        <stages>
+            <li>
+                <label>Conscripted</label>
+                <description>Recruiting? Do you need me to do anything...</description>
+                <baseMoodEffect>-4</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>OAGene_WantBeCloseToPlants</defName>
+        <workerClass>OberoniaAureaGene.ThoughtWorker_Gene_AgriculturalEnthusiasm</workerClass>
+        <validWhileDespawned>true</validWhileDespawned>
+        <requiredGenes>
+            <li>OAGene_AgriculturalEnthusiasm</li>
+        </requiredGenes>
+        <stages>
+            <li>
+                <label>Want to carry out planting work</label>
+                <description>I want to get close to the plants...</description>
+                <baseMoodEffect>-8</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>OAGene_NaturalDiligence</defName>
+        <workerClass>OberoniaAureaGene.ThoughtWorker_IfWorking</workerClass>
+        <requiredGenes>
+            <li>OAGene_NaturalDiligence</li>
+        </requiredGenes>
+        <stages>
+            <li>
+                <label>Jobless</label>
+                <description>I should return to my position.</description>
+                <baseMoodEffect>-4</baseMoodEffect>
+            </li>
+            <li>
+                <label>Working</label>
+                <description>Only work can make me feel at ease.</description>
+                <baseMoodEffect>2</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>OAGene_MonarchyBased</defName>
+        <workerClass>OberoniaAureaGene.ThoughtWorker_MonarchyBased</workerClass>
+        <requiredGenes>
+            <li>OAGene_MonarchyBased</li>
+        </requiredGenes>
+        <stages>
+            <li>
+                <label>Failed to take power</label>
+                <description>I should stand at a higher place...</description>
+                <baseMoodEffect>-6</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>OAGene_Suspicious</defName>
+        <durationDays>1</durationDays>
+        <stackLimit>1</stackLimit>
+        <requiredGenes>
+            <li>OAGene_Suspicious</li>
+        </requiredGenes>
+        <stages>
+            <li>
+                <label>Sharing a bedroom with others</label>
+                <description>I have to sleep in the same room with others, which makes me feel very uncomfortable.</description>
+                <baseMoodEffect>-12</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+</Defs>

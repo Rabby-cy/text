@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Human"]/comps</xpath>
+        <value>
+            <li Class="OberoniaAureaGene.CompProperties_PawnGeneDamageModified" />
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Humanoid Alien Races</li>
+            <li>Humanoid Alien Races ~ Dev</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationConditional">
+                    <xpath>Defs/AlienRace.ThingDef_AlienRace[race/intelligence="Humanlike"]/comps</xpath>
+                    <match Class="PatchOperationAdd">
+                        <xpath>Defs/AlienRace.ThingDef_AlienRace[race/intelligence="Humanlike"]/comps</xpath>
+                        <value>
+                            <li Class="OberoniaAureaGene.CompProperties_PawnGeneDamageModified" />
+                        </value>
+                    </match>
+                    <nomatch Class="PatchOperationAdd">
+                        <xpath>Defs/AlienRace.ThingDef_AlienRace[race/intelligence="Humanlike"]</xpath>
+                        <value>
+                            <comps>
+                                <li Class="OberoniaAureaGene.CompProperties_PawnGeneDamageModified" />
+                            </comps>
+                        </value>
+                    </nomatch>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+
+</Patch>

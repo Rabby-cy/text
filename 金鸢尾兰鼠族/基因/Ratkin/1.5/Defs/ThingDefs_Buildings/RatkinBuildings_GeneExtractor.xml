@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="BuildingBase" Name="OAGene_GeneExtractorBase" Abstract="true">
+        <containedPawnsSelectable>true</containedPawnsSelectable>
+        <passability>PassThroughOnly</passability>
+        <fillPercent>0.4</fillPercent>
+        <castEdgeShadows>true</castEdgeShadows>
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <tickerType>Normal</tickerType>
+        <graphicData>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(3,2)</drawSize>
+            <shadowData>
+                <volume>(3, 2, 1.9)</volume>
+            </shadowData>
+        </graphicData>
+        <size>(3,2)</size>
+        <hasInteractionCell>true</hasInteractionCell>
+        <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+        <canOverlapZones>false</canOverlapZones>
+        <defaultPlacingRot>South</defaultPlacingRot>
+        <designationCategory>Biotech</designationCategory>
+        <building>
+            <buildingTags>
+                <li>Biotech</li>
+            </buildingTags>
+        </building>
+        <comps>
+            <li Class="CompProperties_Flickable" />
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="OAGene_GeneExtractorBase">
+        <defName>OAGene_RatkinDestructiveGeneDiscriminator</defName>
+        <label>Rat destructive gene extractor</label>
+        <description>The Rat Kingdom refers to the genetic technology of outsiders and imitates a gene extractor. This extractor can extract several individual gene entries from the target body, and the extraction speed is quite fast. However, the only drawback is that the extracted person will die due to this violent extraction.</description>
+        <thingClass>OberoniaAureaGene.Building_RatkinDestructiveGeneExtractor</thingClass>
+        <graphicData>
+            <texPath>Things/Building/Production/OAGene_RatkinDestructiveGeneDiscriminator</texPath>
+        </graphicData>
+        <uiOrder>2100</uiOrder>
+        <researchPrerequisites>
+            <li>RatkinGene</li>
+        </researchPrerequisites>
+        <statBases>
+            <MaxHitPoints>350</MaxHitPoints>
+            <WorkToBuild>18000</WorkToBuild>
+            <Mass>85</Mass>
+            <Flammability>0.5</Flammability>
+        </statBases>
+        <costList>
+            <Steel>250</Steel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+        </costList>
+        <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>400</basePowerConsumption>
+                <idlePowerDraw>75</idlePowerDraw>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- 金鸢尾兰基因片段截取仪 -->
+    <ThingDef MayRequire="OARK.RatkinFaction.OberoniaAurea" ParentName="OAGene_GeneExtractorBase">
+        <defName>OAGene_OAGeneFragmentInterceptor</defName>
+        <label>金鸢尾兰基因片段截取仪</label>
+        <description>金鸢尾兰帝国为了发展生物科技并进行基因相关研究而研发的一种基因提取仪。该仪器会提取出一整段完整的基因链，并且在过程中对被提取者造成的影响很小。</description>
+        <thingClass>OberoniaAureaGene.Building_OAGeneFragmentInterceptor</thingClass>
+        <graphicData>
+            <texPath>Things/Building/Production/OAGene_OAGeneFragmentInterceptor</texPath>
+        </graphicData>
+        <uiOrder>2100</uiOrder>
+        <researchPrerequisites>
+            <li>OA_RK_RatkinGene</li>
+        </researchPrerequisites>
+        <statBases>
+            <MaxHitPoints>400</MaxHitPoints>
+            <WorkToBuild>32000</WorkToBuild>
+            <Mass>85</Mass>
+            <Flammability>0.5</Flammability>
+        </statBases>
+        <costList>
+            <Steel>150</Steel>
+			<Plasteel>50</Plasteel>
+            <ComponentIndustrial>8</ComponentIndustrial>
+        </costList>
+        <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>600</basePowerConsumption>
+                <idlePowerDraw>120</idlePowerDraw>
+            </li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>2</glowRadius>
+				<glowColor>(200,180,180,0)</glowColor>
+				<colorPickerEnabled>false</colorPickerEnabled>
+				<darklightToggle>false</darklightToggle>
+			</li>
+        </comps>
+    </ThingDef>
+    
+</Defs>

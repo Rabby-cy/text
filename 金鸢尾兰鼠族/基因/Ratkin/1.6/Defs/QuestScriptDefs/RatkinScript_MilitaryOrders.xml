@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <QuestScriptDef>
+        <defName>OAGene_MilitaryOrders</defName>
+        <rootSelectionWeight>0.8</rootSelectionWeight>
+        <defaultChallengeRating>1</defaultChallengeRating>
+        <expireDaysRange>4~8</expireDaysRange>
+        <minRefireDays>30</minRefireDays>
+        <affectedByPoints>false</affectedByPoints>
+        <questNameRules>
+            <rulesStrings>
+                <li>questName->[settlement_label]的武器需求</li>
+                <li>questName->[settlement_label]的军备订单</li>
+                <li>questName->军备补充</li>
+                <li>questName->军备竞赛</li>
+                <li>questName->军火贩卖</li>
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+                <li>questDescription->附近的鼠族城邦[settlement_label]，向我们发来了一份武器交易的邀请。\n他们想要为他们的军队采购以下物资：\n\n[qualityInfo] [requestedThing_label] x [requestedThingCount]（总价值：[requestedThingMarketValue_money]），以替换落后的鼠族步枪与损坏的箭形弹步枪。\n\n如果我们接受这份交易订单，则需要派出一支携带相应物资的远行队前往目标地点。\n旅途预估时间：[estimatedTravelTime_duration]。</li>
+                <li>qualityInfo(requestedThingHasQuality==True,priority=1)->一般品质以上</li>
+                <li>qualityInfo-></li>
+            </rulesStrings>
+        </questDescriptionRules>
+        <root Class="QuestNode_Sequence">
+            <nodes>
+                <li Class="OberoniaAurea_Frame.QuestNode_EarliestDayPassed">
+                    <earliestDayPassed>45</earliestDayPassed>
+                </li>
+                <li Class="QuestNode_GetMap" />
+
+                <li Class="OberoniaAureaGene.Ratkin.QuestNode_GetRatkinKindomFaction">
+                    <allowAlly>true</allowAlly>
+                    <allowNeutral>true</allowNeutral>
+                    <allowEnemy>false</allowEnemy>
+                    <storeAs>ratkinFaction</storeAs>
+                </li>
+                <li Class="OberoniaAurea_Frame.QuestNode_GetNearbySettlementOfFaction">
+                    <maxTileDistance>32</maxTileDistance>
+                    <faction>$ratkinFaction</faction>
+                    <storeAs>settlement</storeAs>
+                    <ignoreConditionsIfNecessary>true</ignoreConditionsIfNecessary>
+                </li>
+
+                <li Class="QuestNode_TradeRequest_RandomOfferDuration">
+                    <settlement>$settlement</settlement>
+                    <storeAs>timeout</storeAs>
+                    <storeEstimatedTravelTimeAs>estimatedTravelTime</storeEstimatedTravelTimeAs>
+                </li>
+
+                <li Class="OberoniaAurea_Frame.QuestNode_RequestThingCount">
+                    <storeAs>requestedThingCount</storeAs>
+                    <baseRange>10</baseRange>
+                    <baseOffset>0~0.2</baseOffset>
+                    <preOffsetWealth>10000</preOffsetWealth>
+                    <preOffsetCount>1</preOffsetCount>
+                    <maxCountLimit>60</maxCountLimit>
+                </li>
+                <li Class="OberoniaAurea_Frame.QueseNode_GetExpectedThingMarketValue">
+                    <storeThingDefAs>requestedThing</storeThingDefAs>
+                    <storeMarketValueAs>requestedThingMarketValue</storeMarketValueAs>
+                    <expectedThingDef>RK_FlechetteRifle</expectedThingDef>
+                    <expectedThingCount>$requestedThingCount</expectedThingCount>
+                </li>
+                <li Class="QuestNode_Set">
+                    <name>requestedThingHasQuality</name>
+                    <value>true</value>
+                </li>
+
+                <li Class="QuestNode_TradeRequest_Initiate">
+                    <settlement>$settlement</settlement>
+                    <requestedThingDef>$requestedThing</requestedThingDef>
+                    <requestedThingCount>$requestedThingCount</requestedThingCount>
+                    <duration>$timeout</duration>
+                </li>
+
+                <!-- Rewards -->
+                <li Class="QuestNode_Set">
+                    <name>rewardValue</name>
+                    <value>$($requestedThingMarketValue * randFloat(1.25, 1.45))</value>
+                </li>
+
+                <li Class="QuestNode_GiveRewards">
+                    <inSignal>settlement.TradeRequestFulfilled</inSignal>
+                    <parms>
+                        <thingRewardItemsOnly>true</thingRewardItemsOnly>
+                        <giveToCaravan>true</giveToCaravan>
+                        <disallowedThingDefs>
+                            <li>$requestedThing</li>
+                        </disallowedThingDefs>
+                    </parms>
+                    <useDifficultyFactor>false</useDifficultyFactor>                    <!-- we only care about requested total market value -->
+                </li>
+
+                <!-- End conditions -->
+                <li Class="QuestNode_Letter">
+                    <inSignal>ratkinFaction.BecameHostileToPlayer</inSignal>
+                    <label TKey="LetterLabelQuestFailed">任务失败：[resolvedQuestName]</label>
+                    <text TKey="LetterTextQuestFailed">[ratkinFaction_name]开始与你敌对了。</text>
+                </li>
+
+                <li Class="QuestNode_Delay">
+                    <delayTicks>$timeout</delayTicks>
+                    <isQuestTimeout>true</isQuestTimeout>
+                    <outSignalComplete>TradeRequestTimeout</outSignalComplete>
+                </li>
+
+                <!-- End outcomes -->
+
+                <li Class="QuestNode_AnySignal">
+                    <inSignals>
+                        <li>ratkinFaction.BecameHostileToPlayer</li>
+                        <li>TradeRequestTimeout</li>
+                    </inSignals>
+                    <node Class="QuestNode_End">
+                        <outcome>Fail</outcome>
+                    </node>
+                </li>
+
+                <li Class="QuestNode_End">
+                    <inSignal>settlement.TradeRequestFulfilled</inSignal>
+                    <outcome>Success</outcome>
+                    <sendStandardLetter>true</sendStandardLetter>
+                </li>
+
+            </nodes>
+        </root>
+    </QuestScriptDef>
+
+</Defs>

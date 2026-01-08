@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="OberoniaAurea_Frame.PatchOperationCheckDLC">
+        <Royalty>true</Royalty>
+        <match Class="PatchOperationAdd">
+            <xpath>/Defs/FactionDef[defName = "Empire"]/permanentEnemyToEveryoneExcept</xpath>
+            <value>
+                <li>Rakinia_TravelRatkin</li>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/FactionDef[@Name = "RatkinFactionBase"]/pawnGroupMakers</xpath>
+        <value>
+            <li MayRequire="Ludeon.RimWorld.Ideology">
+                <kindDef>Farmers</kindDef> <!-- 农业工作站需要 -->
+                <commonality>1</commonality>
+                <options>
+                    <RatkinColonist>1</RatkinColonist>
+                </options>
+            </li>
+        </value>
+    </Operation>
+
+</Patch>

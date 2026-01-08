@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    
+    <HistoryEventDef>
+        <defName>OAGene_AbandonContract</defName>
+        <label>背弃契约</label>
+    </HistoryEventDef>
+
+    <HistoryEventDef>
+        <defName>OAGene_SuspectedBehavior</defName>
+        <label>疑似谍报行为</label>
+    </HistoryEventDef>
+
+    <HistoryEventDef>
+        <defName>OAGene_EspionageBehavior</defName>
+        <label>谍报行为</label>
+    </HistoryEventDef>
+
+</Defs>

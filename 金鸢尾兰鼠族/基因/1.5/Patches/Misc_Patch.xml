@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef/comps/li[@Class="CompProperties_Power"]/compClass[text()="CompPowerPlantWind"]</xpath>
+        <value>
+            <compClass>OberoniaAureaGene.CompPowerNormalPlantWind</compClass>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/StatDef[defName="DeteriorationRate"]/parts</xpath>
+        <value>
+            <li Class="OberoniaAureaGene.StatPart_ExtremeSnowstorm">
+                <multiplier>5</multiplier>
+                <corpseMultiplier>15</corpseMultiplier>
+            </li>
+        </value>
+    </Operation>
+
+</Patch>

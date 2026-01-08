@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <QuestScriptDef>
+        <defName>OAGene_SurplusGrainCollection</defName>
+        <rootSelectionWeight>0</rootSelectionWeight>
+        <isRootSpecial>true</isRootSpecial>
+        <autoAccept>true</autoAccept>
+        <sendAvailableLetter>false</sendAvailableLetter>
+        <successHistoryEvent MayRequire="Ludeon.RimWorld.Ideology">Raided_WorkSite</successHistoryEvent>
+        <questNameRules>
+            <rulesStrings>
+                <li>questName->余粮征收</li>
+				<li>questName->伪装突袭</li>
+				<li>questName->与[originalFation_name]的代理人战争</li>
+				<li>questName->强盗突袭</li>
+				<li>questName->[questFaction_name]的佣兵作战</li>
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+                <li>questDescription->[questFaction_name]向你透露，他们发现在你的殖民地附近存在着一处中立的鼠族[siteLabel]。\n\n出于他们的利益着想，[questFaction_name]希望你对该营地进行突袭，并将该营地彻底摧毁。作为回报，[questFaction_name]将会为你提供一定的报酬，并且该营地内的战利品将全部任你带走。（[loot]） [raidConsequences]\n\n这个营地将会在[timeout_duration]内发觉到威胁，并撤离此地。</li>
+                <li>raidConsequences->然而，你从[questFaction_name]那隐晦的说法中判断出来，虽然[faction_name]表面上看起来只是一个弱小的独立团体，但实际上是属于[originalFation_name]的一个秘密工作站。如果你进行攻击， 将严重影响你与[originalFation_name]之间的关系。</li>
+            </rulesStrings>
+        </questDescriptionRules>
+        <root Class="OberoniaAureaGene.Ratkin.QuestNode_Root_SurplusGrainCollection" />
+    </QuestScriptDef>
+
+
+</Defs>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/GeneDef[defName="Nearsighted"]/statFactors/ShootingAccuracyFactor_Long</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/GeneDef[defName="Nearsighted"]/statFactors/ShootingAccuracyFactor_Long</xpath>
+            <value>
+                <ShootingAccuracyFactor_Long>0.968</ShootingAccuracyFactor_Long>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/GeneDef[defName="Nearsighted"]/statFactors/ShootingAccuracyFactor_Medium</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/GeneDef[defName="Nearsighted"]/statFactors/ShootingAccuracyFactor_Medium</xpath>
+            <value>
+                <ShootingAccuracyFactor_Medium>0.988</ShootingAccuracyFactor_Medium>
+            </value>
+        </match>
+    </Operation>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/GeneDef[defName="TotalHealing"]/exclusionTags</xpath>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/GeneDef[defName="TotalHealing"]/exclusionTags</xpath>
+            <value>
+                <li>OAGene_PermanentInjury</li>
+            </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/GeneDef[defName="TotalHealing"]</xpath>
+            <value>
+                <exclusionTags>
+                    <li>OAGene_PermanentInjury</li>
+                </exclusionTags>
+            </value>
+        </nomatch>
+    </Operation>
+
+</Patch>

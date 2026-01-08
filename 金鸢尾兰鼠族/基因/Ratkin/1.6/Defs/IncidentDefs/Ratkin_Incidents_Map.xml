@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <IncidentDef>
+        <defName>OAGene_TravelRatkinTraderGroup</defName>
+        <label>Travel ratkin trader group</label>
+        <targetTags>
+            <li>Map_PlayerHome</li>
+        </targetTags>
+        <workerClass>OberoniaAureaGene.Ratkin.IncidentWorker_TravelRatkinTraderGroup</workerClass>
+        <category>Special</category>
+        <baseChance>0</baseChance>
+        <requireColonistsPresent>True</requireColonistsPresent>
+        <layerWhitelist>
+            <li>Surface</li>
+        </layerWhitelist>
+    </IncidentDef>
+
+</Defs>

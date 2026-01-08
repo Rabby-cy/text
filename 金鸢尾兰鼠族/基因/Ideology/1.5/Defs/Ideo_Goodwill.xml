@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- 领地霸权 - 自然好感度-->
+    <GoodwillSituationDef>
+        <defName>OAGene_TerritorialHegemony</defName>
+        <label>领地霸权</label>
+        <workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+        <versusAll>true</versusAll>
+        <meme>OAGene_TerritorialHegemony</meme>
+        <naturalGoodwillOffset>-30</naturalGoodwillOffset>
+    </GoodwillSituationDef>
+
+</Defs>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <GeneDef>
+        <defName>OAGene_ColdSleepy</defName>
+        <label>Cold and drowsy</label>
+        <description>Carriers of this gene are more likely to feel tired in excessively cold environments, even if they are wearing clothing that can withstand the cold。</description>
+        <iconPath>UI/Icons/Genes/OAGene_ColdSleepy</iconPath>
+        <displayCategory>Temperature</displayCategory>
+        <biostatMet>1</biostatMet>
+        <biostatCpx>1</biostatCpx>
+		<displayOrderInCategory>500</displayOrderInCategory>
+		<customEffectDescriptions>
+            <li>When the temperature is below 0 ℃, the rate of decrease in resting value will gradually increase.</li>
+        </customEffectDescriptions>
+        <conditionalStatAffecters>
+            <li Class="OberoniaAureaGene.ConditionalStatAffecter_TemperatureRange">
+                <label>寒冷困倦I</label>
+                <minTemperature>-5</minTemperature>
+                <maxTemperature>0</maxTemperature>
+                <statOffsets>
+                    <RestFallRateFactor>0.15</RestFallRateFactor>
+                </statOffsets>
+            </li>
+            <li Class="OberoniaAureaGene.ConditionalStatAffecter_TemperatureRange">
+                <label>寒冷困倦II</label>
+                <minTemperature>-10</minTemperature>
+                <maxTemperature>-5</maxTemperature>
+                <statOffsets>
+                    <RestFallRateFactor>0.3</RestFallRateFactor>
+                </statOffsets>
+            </li>
+            <li Class="OberoniaAureaGene.ConditionalStatAffecter_TemperatureRange">
+                <label>寒冷困倦III</label>
+                <minTemperature>-15</minTemperature>
+                <maxTemperature>-10</maxTemperature>
+                <statOffsets>
+                    <RestFallRateFactor>0.4</RestFallRateFactor>
+                </statOffsets>
+            </li>
+            <li Class="OberoniaAureaGene.ConditionalStatAffecter_TemperatureRange">
+                <label>寒冷困倦IV</label>
+                <maxTemperature>-15</maxTemperature>
+                <statOffsets>
+                    <RestFallRateFactor>0.5</RestFallRateFactor>
+                </statOffsets>
+            </li>
+        </conditionalStatAffecters>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>OAGene_HeatSleepy</defName>
+        <label>Hot and drowsy</label>
+        <description>Carriers of this gene are more likely to feel tired in an overheated environment, even if they are wearing clothing that can withstand the heat.</description>
+        <iconPath>UI/Icons/Genes/OAGene_HeatSleepy</iconPath>
+        <displayCategory>Temperature</displayCategory>
+        <biostatMet>1</biostatMet>
+        <biostatCpx>1</biostatCpx>
+		<displayOrderInCategory>510</displayOrderInCategory>        
+		<customEffectDescriptions>
+            <li>When the temperature exceeds 30 ℃, the rate of decrease in resting value will gradually increase.</li>
+        </customEffectDescriptions>
+        <conditionalStatAffecters>
+            <li Class="OberoniaAureaGene.ConditionalStatAffecter_TemperatureRange">
+                <label>炎热困倦I</label>
+                <minTemperature>30</minTemperature>
+                <maxTemperature>35</maxTemperature>
+                <statOffsets>
+                    <RestFallRateFactor>0.15</RestFallRateFactor>
+                </statOffsets>
+            </li>
+            <li Class="OberoniaAureaGene.ConditionalStatAffecter_TemperatureRange">
+                <label>炎热困倦II</label>
+                <minTemperature>35</minTemperature>
+                <maxTemperature>40</maxTemperature>
+                <statOffsets>
+                    <RestFallRateFactor>0.3</RestFallRateFactor>
+                </statOffsets>
+            </li>
+            <li Class="OberoniaAureaGene.ConditionalStatAffecter_TemperatureRange">
+                <label>炎热困倦III</label>
+                <minTemperature>40</minTemperature>
+                <maxTemperature>45</maxTemperature>
+                <statOffsets>
+                    <RestFallRateFactor>0.4</RestFallRateFactor>
+                </statOffsets>
+            </li>
+            <li Class="OberoniaAureaGene.ConditionalStatAffecter_TemperatureRange">
+                <label>炎热困倦IV</label>
+                <minTemperature>45</minTemperature>
+                <statOffsets>
+                    <RestFallRateFactor>0.5</RestFallRateFactor>
+                </statOffsets>
+            </li>
+        </conditionalStatAffecters>
+    </GeneDef>
+
+</Defs>

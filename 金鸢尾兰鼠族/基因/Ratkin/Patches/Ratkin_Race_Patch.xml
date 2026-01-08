@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Ratkin"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[path="Body/RK_EarLeft"]/conditions</xpath>
+        <value>
+            <Gene>
+                <gene>OAGene_RatkinEar</gene>
+            </Gene>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Ratkin"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[path="Body/RK_EarLeft"]</xpath>
+        <value>
+            <extendedGraphics>
+                <Gene For="OAGene_BatRatkinEar">Body/OARK_BatRatkinEarLeft</Gene>
+                <Gene For="OAGene_LowlandRatkinEar">Body/OARK_LowlandRatkinEarLeft</Gene>
+                <Gene For="OAGene_SnowRatkinEar">Body/OARK_SnowRatkinEarLeft</Gene>
+                <Gene For="OAGene_RockRatkinEar">Body/OARK_RockRatkinEarLeft</Gene>
+            </extendedGraphics>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Ratkin"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[path="Body/RK_EarRight"]/conditions</xpath>
+        <value>
+            <Gene>
+                <gene>OAGene_RatkinEar</gene>
+            </Gene>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Ratkin"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[path="Body/RK_EarRight"]</xpath>
+        <value>
+            <extendedGraphics>
+                <Gene For="OAGene_BatRatkinEar">Body/OARK_BatRatkinEarRight</Gene>
+                <Gene For="OAGene_LowlandRatkinEar">Body/OARK_LowlandRatkinEarRight</Gene>
+                <Gene For="OAGene_SnowRatkinEar">Body/OARK_SnowRatkinEarRight</Gene>
+                <Gene For="OAGene_RockRatkinEar">Body/OARK_RockRatkinEarRight</Gene>
+            </extendedGraphics>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Ratkin"]/alienRace/generalSettings/alienPartGenerator/bodyAddons/li[path="Body/RK_Tail"]/conditions</xpath>
+        <value>
+            <Gene>
+                <gene>OAGene_RatkinTail</gene>
+            </Gene>
+        </value>
+    </Operation>
+
+    <!-- 鼠族基本属性调整 -->
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Ratkin"]/statBases/AimingDelayFactor</xpath>
+		<value>
+			<AimingDelayFactor>1.04</AimingDelayFactor>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Ratkin"]/statBases/ToxicEnvironmentResistance</xpath>
+		<value>
+			<ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
+		</value>
+	</Operation>
+
+    <!-- 鼠族生长时间调整 -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Ratkin"]/alienRace/generalSettings/growthAges</xpath>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Ratkin"]/race/lifeStageAges</xpath>
+        <value>
+            <lifeStageAges>
+                <li>
+                    <def>HumanlikeBaby</def>
+                    <minAge>0</minAge>
+                </li>
+                <li>
+                    <def>HumanlikeChild</def>
+                    <minAge>3</minAge>
+                </li>
+                <li MayRequire="Ludeon.RimWorld.Biotech">
+                    <def>HumanlikePreTeenager</def>
+                    <minAge>8</minAge>
+                </li>
+                <li>
+                    <def>HumanlikeTeenager</def>
+                    <minAge>13</minAge>
+                </li>
+                <li>
+                    <def>HumanlikeAdult</def>
+                    <minAge>15</minAge>
+                </li>
+            </lifeStageAges>
+        </value>
+    </Operation>
+
+</Patch>

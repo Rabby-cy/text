@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="BuildingBase">
+        <defName>OAGene_HegemonicFlag</defName>
+        <label>Hegemonic Flag</label>
+        <description>A luxurious purple flag symbolizes a colony's hegemony over nearby areas, and when fully unfolded, the flag is clearly visible even from several kilometers away. This flag will inspire territorial hegemons.\n\nThis flashy flag will make your colony stand out and may lead to a wandering raid every few days. In addition, establishing hegemony over a region will affect your natural relationships with other factions.</description>
+        <graphicData>
+            <texPath>Things/Building/OA_Hegemonic_Flag</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <shadowData>
+                <volume>(0.85, 0.60, 2.5)</volume>
+            </shadowData>
+            <drawSize>(5.5, 6.2)</drawSize>
+        </graphicData>
+        <altitudeLayer>Building</altitudeLayer>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <passability>PassThroughOnly</passability>
+        <pathCost>42</pathCost>
+        <canOverlapZones>false</canOverlapZones>
+		<rotatable>false</rotatable>
+        <fillPercent>0.35</fillPercent>
+        <!--hasInteractionCell>True</hasInteractionCell>
+        <interactionCellOffset>(0, 0, 2)</interactionCellOffset-->
+        <defaultPlacingRot>North</defaultPlacingRot>
+        <statBases>
+            <MaxHitPoints>250</MaxHitPoints>
+            <WorkToBuild>72000</WorkToBuild>
+            <Mass>30</Mass>
+            <Flammability>0.1</Flammability>
+			<Beauty>55</Beauty>
+        </statBases>
+        <size>(5, 5)</size>
+        <costList>
+            <Steel>100</Steel>
+            <Cloth>300</Cloth>
+        </costList>
+        <building>
+            <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+        </building>
+        <canGenerateDefaultDesignator>false</canGenerateDefaultDesignator>
+        <designationCategory>Ideology</designationCategory>
+        <uiOrder>2520</uiOrder>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <placeWorkers>
+            <li>PlaceWorker_NotUnderRoof</li>
+        </placeWorkers>
+        <thingCategories>
+            <li>BuildingsMisc</li>
+        </thingCategories>
+        <tickerType>Never</tickerType>
+        <comps>
+            <li Class="CompProperties_Flickable" />
+        </comps>
+    </ThingDef>
+
+</Defs>

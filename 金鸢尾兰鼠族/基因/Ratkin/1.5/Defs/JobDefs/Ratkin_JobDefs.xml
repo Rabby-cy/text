@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    
+    <JobDef>
+        <defName>OAGene_HaulToDiscriminator</defName>
+        <driverClass>OberoniaAureaGene.Ratkin.JobDriver_GeneDiscriminat</driverClass>
+        <reportString>extracting TargetC from TargetA to TargetB.</reportString>
+        <containerReservationLayer>Empty</containerReservationLayer>
+    </JobDef>
+
+</Defs>

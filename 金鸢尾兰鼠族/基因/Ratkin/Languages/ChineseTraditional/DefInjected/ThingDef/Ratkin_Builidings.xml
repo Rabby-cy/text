@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ambulance chaser -->
+  <OAGene_RatkinGeneDiscriminator.label>鼠族基因辨析儀</OAGene_RatkinGeneDiscriminator.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OAGene_RatkinGeneDiscriminator.description>鼠族王國在基因科技進行了充分發展後的產物，能夠從某個基因組中提取一個特定的基因。被提取基因組所蘊含的基因數量越多失敗概率越高。\n無法提取超凡基因。</OAGene_RatkinGeneDiscriminator.description>
+  
+    <!-- EN: ambulance chaser -->
+  <OAGene_RatkinDestructiveGeneDiscriminator.label>鼠族破壞性基因提取儀</OAGene_RatkinDestructiveGeneDiscriminator.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OAGene_RatkinDestructiveGeneDiscriminator.description>鼠族王國參考外來者的基因科技，仿製而成的基因提取儀。該提取儀能夠從目標體內提取數個單獨的基因條目，並且提取速度相當快。然而這其中唯一的缺陷就是被提取者會因為這種暴力提取而死亡。</OAGene_RatkinDestructiveGeneDiscriminator.description>
+</LanguageData>

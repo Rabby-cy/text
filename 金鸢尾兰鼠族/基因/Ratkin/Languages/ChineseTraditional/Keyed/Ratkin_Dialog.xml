@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OAGene_ExtractGenes>基因提取</OAGene_ExtractGenes>
+    <OAGene_StartExtracting>开始提取</OAGene_StartExtracting>
+
+    <OAGene_DiscriminatGenes>辨析基因</OAGene_DiscriminatGenes>
+    <OAGene_StartDiscriminating>开始辨析</OAGene_StartDiscriminating>
+
+    <OAGene_ConfirmStartNewGeneDiscriminat>基因便携仪正在辨析基因，是否停止当前的基因辨析，并开始新的基因辨析？</OAGene_ConfirmStartNewGeneDiscriminat>
+
+    <OAGene_ConfirmRipGenePawn>破坏性基因提取将会杀死{PAWN_nameDef}。你确定想要继续吗？</OAGene_ConfirmRipGenePawn>
+    <OAGene_ConfirmCancelRipGene>取消破坏性基因提取将仍然会杀死{PAWN_nameDef}。你确定想要继续吗？</OAGene_ConfirmCancelRipGene>
+    
+</LanguageData>

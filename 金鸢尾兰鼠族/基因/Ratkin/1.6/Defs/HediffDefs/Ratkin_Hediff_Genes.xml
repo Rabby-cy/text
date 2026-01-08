@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <HediffDef ParentName="OAHediff_GeneGiveBase">
+        <defName>OAGene_RatkinTail</defName>
+        <label>Ratkin Tail</label>
+        <description>The carrier of this gene has a nimble and slender mouse tail.</description>
+        <stages>
+            <li>
+                <becomeVisible>false</becomeVisible>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>0.05</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef ParentName="OAHediff_GeneGiveBase">
+        <defName>OAGene_RockRatkinEar</defName>
+        <label>Rock Ratkin Ear</label>
+        <description>Carriers of this gene have a pair of mouse ears with a hard mane.</description>
+        <stages>
+            <li>
+                <becomeVisible>false</becomeVisible>
+                <capMods>
+                    <li>
+                        <capacity>Hearing</capacity>
+                        <offset>-0.10</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef>
+
+</Defs>

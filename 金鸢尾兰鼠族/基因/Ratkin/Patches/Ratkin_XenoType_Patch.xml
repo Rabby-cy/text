@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Ratkin"]/alienRace/raceRestriction/whiteXenotypeList/li[text()="Baseliner"]</xpath>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Ratkin"]/alienRace/raceRestriction/blackXenotypeList</xpath>
+		<value>
+			<li>Baseliner</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/PawnKindDef[@Name = "RKBasePawnKind"]</xpath>
+		<value>
+			<useFactionXenotypes>true</useFactionXenotypes>
+			<xenotypeSet Inherit="False">
+				<xenotypeChances>
+					<OAGene_PrimordialRatkin>0.56</OAGene_PrimordialRatkin>
+					<OAGene_WhiteRatkin>0.04</OAGene_WhiteRatkin>
+					<OAGene_TravelRatkin>0.10</OAGene_TravelRatkin>
+					<OAGene_RockRatkin>0.14</OAGene_RockRatkin>
+					<OAGene_SnowRatkin>0.08</OAGene_SnowRatkin>
+					<!--OAGene_BatRatkin>0.008</OAGene_BatRatkin-->
+					<OAGene_LowlandRatkin>0.06</OAGene_LowlandRatkin>
+					<OAGene_BiochemicalRatkinI>0.01</OAGene_BiochemicalRatkinI>
+					<OAGene_BiochemicalRatkinII>0.01</OAGene_BiochemicalRatkinII>
+					<OAGene_BiochemicalRatkinIII>0.01</OAGene_BiochemicalRatkinIII>
+					<OAGene_BiochemicalRatkinIV>0.01</OAGene_BiochemicalRatkinIV>
+
+					<Baseliner>0</Baseliner>
+				</xenotypeChances>
+			</xenotypeSet>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/PawnKindDef[@Name = "RKBasePawnKind_B"]</xpath>
+		<value>
+			<useFactionXenotypes>false</useFactionXenotypes>
+			<xenotypeSet Inherit="False">
+				<xenotypeChances>
+					<OAGene_BiochemicalRatkinI>0.25</OAGene_BiochemicalRatkinI>
+					<OAGene_BiochemicalRatkinII>0.25</OAGene_BiochemicalRatkinII>
+					<OAGene_BiochemicalRatkinIII>0.25</OAGene_BiochemicalRatkinIII>
+					<OAGene_BiochemicalRatkinIV>0.25</OAGene_BiochemicalRatkinIV>
+
+					<Baseliner>0</Baseliner>
+				</xenotypeChances>
+			</xenotypeSet>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Ratkin"]/alienRace/raceRestriction/whiteXenotypeList</xpath>
+		<value>
+			<li>OAGene_RatkinBase</li>
+			<li>OAGene_PrimordialRatkin</li>
+			<li>OAGene_WhiteRatkin</li>
+			<li>OAGene_TravelRatkin</li>
+			<li>OAGene_RockRatkin</li>
+			<li>OAGene_SnowRatkin</li>
+			<!--li>OAGene_BatRatkin</li-->
+			<li>OAGene_LowlandRatkin</li>
+			<li>OAGene_BiochemicalRatkinI</li>
+			<li>OAGene_BiochemicalRatkinII</li>
+			<li>OAGene_BiochemicalRatkinIII</li>
+			<li>OAGene_BiochemicalRatkinIV</li>
+		</value>
+	</Operation>
+
+	<!-- 鼠族王国 -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/FactionDef[defName = "Rakinia"]/xenotypeSet</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>/Defs/FactionDef[defName = "Rakinia"]</xpath>
+			<value>
+				<xenotypeSet Inherit="False">
+					<xenotypeChances>
+						<OAGene_PrimordialRatkin>0.56</OAGene_PrimordialRatkin>
+						<OAGene_WhiteRatkin>0.04</OAGene_WhiteRatkin>
+						<OAGene_TravelRatkin>0.10</OAGene_TravelRatkin>
+						<OAGene_RockRatkin>0.14</OAGene_RockRatkin>
+						<OAGene_SnowRatkin>0.08</OAGene_SnowRatkin>
+						<!--OAGene_BatRatkin>0.008</OAGene_BatRatkin-->
+						<OAGene_LowlandRatkin>0.06</OAGene_LowlandRatkin>
+						<OAGene_BiochemicalRatkinI>0.01</OAGene_BiochemicalRatkinI>
+						<OAGene_BiochemicalRatkinII>0.01</OAGene_BiochemicalRatkinII>
+						<OAGene_BiochemicalRatkinIII>0.01</OAGene_BiochemicalRatkinIII>
+						<OAGene_BiochemicalRatkinIV>0.01</OAGene_BiochemicalRatkinIV>
+
+						<Baseliner>0</Baseliner>
+					</xenotypeChances>
+				</xenotypeSet>
+			</value>
+		</nomatch>
+		<match Class="PatchOperationReplace">
+			<xpath>/Defs/FactionDef[defName = "Rakinia"]/xenotypeSet</xpath>
+			<value>
+				<xenotypeSet Inherit="False">
+					<xenotypeChances>
+						<OAGene_PrimordialRatkin>0.56</OAGene_PrimordialRatkin>
+						<OAGene_WhiteRatkin>0.04</OAGene_WhiteRatkin>
+						<OAGene_TravelRatkin>0.10</OAGene_TravelRatkin>
+						<OAGene_RockRatkin>0.14</OAGene_RockRatkin>
+						<OAGene_SnowRatkin>0.08</OAGene_SnowRatkin>
+						<!--OAGene_BatRatkin>0.008</OAGene_BatRatkin-->
+						<OAGene_LowlandRatkin>0.06</OAGene_LowlandRatkin>
+						<OAGene_BiochemicalRatkinI>0.01</OAGene_BiochemicalRatkinI>
+						<OAGene_BiochemicalRatkinII>0.01</OAGene_BiochemicalRatkinII>
+						<OAGene_BiochemicalRatkinIII>0.01</OAGene_BiochemicalRatkinIII>
+						<OAGene_BiochemicalRatkinIV>0.01</OAGene_BiochemicalRatkinIV>
+
+						<Baseliner>0</Baseliner>
+					</xenotypeChances>
+				</xenotypeSet>
+			</value>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Ratkin Faction+</li>
+		</mods>
+		<match Class="PatchOperationConditional">
+			<xpath>/Defs/FactionDef[defName = "Rakinia_Warlord"]/xenotypeSet</xpath>
+			<nomatch Class="PatchOperationAdd">
+				<xpath>/Defs/FactionDef[defName = "Rakinia_Warlord"]</xpath>
+				<value>
+					<xenotypeSet Inherit="False">
+						<xenotypeChances>
+							<OAGene_PrimordialRatkin>0.50</OAGene_PrimordialRatkin>
+							<OAGene_WhiteRatkin>0.03</OAGene_WhiteRatkin>
+							<OAGene_TravelRatkin>0.13</OAGene_TravelRatkin>
+							<OAGene_RockRatkin>0.15</OAGene_RockRatkin>
+							<OAGene_SnowRatkin>0.06</OAGene_SnowRatkin>
+							<!--OAGene_BatRatkin>0.0025</OAGene_BatRatkin-->
+							<OAGene_LowlandRatkin>0.05</OAGene_LowlandRatkin>
+							<OAGene_BiochemicalRatkinI>0.025</OAGene_BiochemicalRatkinI>
+							<OAGene_BiochemicalRatkinII>0.025</OAGene_BiochemicalRatkinII>
+							<OAGene_BiochemicalRatkinIII>0.025</OAGene_BiochemicalRatkinIII>
+							<OAGene_BiochemicalRatkinIV>0.025</OAGene_BiochemicalRatkinIV>
+
+							<Baseliner>0</Baseliner>
+						</xenotypeChances>
+					</xenotypeSet>
+				</value>
+			</nomatch>
+			<match Class="PatchOperationReplace">
+				<xpath>/Defs/FactionDef[defName = "Rakinia_Warlord"]/xenotypeSet</xpath>
+				<value>
+					<xenotypeSet Inherit="False">
+						<xenotypeChances>
+							<OAGene_PrimordialRatkin>0.50</OAGene_PrimordialRatkin>
+							<OAGene_WhiteRatkin>0.03</OAGene_WhiteRatkin>
+							<OAGene_TravelRatkin>0.13</OAGene_TravelRatkin>
+							<OAGene_RockRatkin>0.15</OAGene_RockRatkin>
+							<OAGene_SnowRatkin>0.06</OAGene_SnowRatkin>
+							<!--OAGene_BatRatkin>0.0025</OAGene_BatRatkin-->
+							<OAGene_LowlandRatkin>0.05</OAGene_LowlandRatkin>
+							<OAGene_BiochemicalRatkinI>0.025</OAGene_BiochemicalRatkinI>
+							<OAGene_BiochemicalRatkinII>0.025</OAGene_BiochemicalRatkinII>
+							<OAGene_BiochemicalRatkinIII>0.025</OAGene_BiochemicalRatkinIII>
+							<OAGene_BiochemicalRatkinIV>0.025</OAGene_BiochemicalRatkinIV>
+
+							<Baseliner>0</Baseliner>
+						</xenotypeChances>
+					</xenotypeSet>
+				</value>
+			</match>
+		</match>
+	</Operation>
+
+</Patch>

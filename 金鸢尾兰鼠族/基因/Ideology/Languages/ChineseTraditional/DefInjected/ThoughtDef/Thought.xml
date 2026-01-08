@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <OAGene_TerritorialConsciousness_EnemiesIntense.stages.0.label>領地出現敵人（少量）</OAGene_TerritorialConsciousness_EnemiesIntense.stages.0.label>
+  <OAGene_TerritorialConsciousness_EnemiesIntense.stages.0.description>我們不應該放任這些家夥在我們的領地上耀武揚威。</OAGene_TerritorialConsciousness_EnemiesIntense.stages.0.description>
+  <OAGene_TerritorialConsciousness_EnemiesIntense.stages.1.label>領地出現敵人（中等）</OAGene_TerritorialConsciousness_EnemiesIntense.stages.1.label>
+  <OAGene_TerritorialConsciousness_EnemiesIntense.stages.1.description>我們應該立刻著手把這些家夥從我們的領地上驅逐出去。</OAGene_TerritorialConsciousness_EnemiesIntense.stages.1.description>
+  <OAGene_TerritorialConsciousness_EnemiesIntense.stages.2.label>領地出現敵人（大量）</OAGene_TerritorialConsciousness_EnemiesIntense.stages.2.label>
+  <OAGene_TerritorialConsciousness_EnemiesIntense.stages.2.description>我們必須立刻把這些混蛋從我們的領土上趕出去，無論用什麽方式！</OAGene_TerritorialConsciousness_EnemiesIntense.stages.2.description>
+  
+  <OAGene_TerritorialConsciousness_EnemiesModerate.stages.0.label>領地出現敵人（少量）</OAGene_TerritorialConsciousness_EnemiesModerate.stages.0.label>
+  <OAGene_TerritorialConsciousness_EnemiesModerate.stages.0.description>有一些討厭的家夥未經許可便來到了我們的領地。</OAGene_TerritorialConsciousness_EnemiesModerate.stages.0.description>
+  <OAGene_TerritorialConsciousness_EnemiesModerate.stages.1.label>領地出現敵人（中等）</OAGene_TerritorialConsciousness_EnemiesModerate.stages.1.label>
+  <OAGene_TerritorialConsciousness_EnemiesModerate.stages.1.description>我們領地的主權正在被外來者漠視。</OAGene_TerritorialConsciousness_EnemiesModerate.stages.1.description>
+  <OAGene_TerritorialConsciousness_EnemiesModerate.stages.2.label>領地出現敵人（大量）</OAGene_TerritorialConsciousness_EnemiesModerate.stages.2.label>
+  <OAGene_TerritorialConsciousness_EnemiesModerate.stages.2.description>我們領地的主權已經不再完整，我們必須做點什麽！</OAGene_TerritorialConsciousness_EnemiesModerate.stages.2.description>
+  
+    <OAGene_TerritorialConsciousness_SitesModerate.stages.0.label>領地附近存在敵對據點</OAGene_TerritorialConsciousness_SitesModerate.stages.0.label>
+  <OAGene_TerritorialConsciousness_SitesModerate.stages.0.description>我們的領地附近有一些不安分的家夥。</OAGene_TerritorialConsciousness_SitesModerate.stages.0.description>
+    <OAGene_TerritorialConsciousness_SitesIntense.stages.0.label>領地附近存在敵對據點</OAGene_TerritorialConsciousness_SitesIntense.stages.0.label>
+  <OAGene_TerritorialConsciousness_SitesIntense.stages.0.description>我們的領地附近存在一個敵人的據點，這真令人討厭。</OAGene_TerritorialConsciousness_SitesIntense.stages.0.description>
+    <OAGene_TerritorialBelief_Moderate.stages.0.label>守衛領地</OAGene_TerritorialBelief_Moderate.stages.0.label>
+  <OAGene_TerritorialBelief_Moderate.stages.0.description>有人妄圖挑戰我們的領地主權，我們將會給他們一個教訓。</OAGene_TerritorialBelief_Moderate.stages.0.description>
+    <OAGene_TerritorialBelief_Intense.stages.0.label>守衛領地</OAGene_TerritorialBelief_Intense.stages.0.label>
+  <OAGene_TerritorialBelief_Intense.stages.0.description>總有一些家夥想要踐踏我們的領地主權，我們有必要讓他們斷絕這個愚蠢的念頭。</OAGene_TerritorialBelief_Intense.stages.0.description>
+  
+  
+    <OAGene_HegemonicFlag_Moderate.stages.0.label>確立地區霸權</OAGene_HegemonicFlag_Moderate.stages.0.label>
+  <OAGene_HegemonicFlag_Moderate.stages.0.description>我們的霸權旗宣告著我們對這片地區的絕對主權。</OAGene_HegemonicFlag_Moderate.stages.0.description>
+    <OAGene_HegemonicFlag_Intense.stages.0.label>確立地區霸權</OAGene_HegemonicFlag_Intense.stages.0.label>
+  <OAGene_HegemonicFlag_Intense.stages.0.description>我們的霸權旗在向所有人宣告著我們領地的榮光。</OAGene_HegemonicFlag_Intense.stages.0.description>
+
+</LanguageData>

@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <OAGene_EfficientNeuron.label>高效神经系统</OAGene_EfficientNeuron.label>
+  <OAGene_EfficientNeuron.description>这种基因的携带者的神经系统异常发达，这使得他们的思维速度比常人要快得多，但是这样发达的神经系统也会对身体造成一定的影响。</OAGene_EfficientNeuron.description>
+  <OAGene_EfficientNeuron.customEffectDescriptions.0>意识 +8%</OAGene_EfficientNeuron.customEffectDescriptions.0>
+  
+  <OAGene_ActiveNeuron.label>活跃神经系统</OAGene_ActiveNeuron.label>
+  <OAGene_ActiveNeuron.description>这种基因的携带者的神经系统具有相当的活跃性，他们很轻易的便能够想到事物的其他方面。</OAGene_ActiveNeuron.description>
+  
+   <OAGene_UnrestrictedLearning.label>无限制学习</OAGene_UnrestrictedLearning.label>
+  <OAGene_UnrestrictedLearning.description>这种基因的携带者的神经系统在没日没夜的高强度运转，以方便他们接纳最新的知识，但这种不计后果的高强度学习会显著的降低寿命。</OAGene_UnrestrictedLearning.description>
+  
+   <OAGene_UltraDenseMuscles.label>超致密肌肉</OAGene_UltraDenseMuscles.label>
+  <OAGene_UltraDenseMuscles.description>这种基因的携带者拥有着非凡的肌肉密度，并且肌群分布的符合力学标准，这为他们在运动与重体力工作上带来了非凡的优势，甚至能够无视轻度的钝器伤害。</OAGene_UltraDenseMuscles.description>
+  
+   <OAGene_DenseMuscles.label>紧密肌肉</OAGene_DenseMuscles.label>
+  <OAGene_DenseMuscles.description>这种基因的携带者拥有着相当紧密的肌肉，这为他们在运动与重体力工作上带来了一定的优势。</OAGene_DenseMuscles.description>
+  
+    <OAGene_WeaknessMuscles.label>无力肌肉</OAGene_WeaknessMuscles.label>
+  <OAGene_WeaknessMuscles.description>这种基因的携带者肌肉软弱而无力，这让他们在运动与重体力工作有着相当的劣势，并且在日常生活中也远不如他人有活力。</OAGene_WeaknessMuscles.description>
+  
+    <OAGene_HardBone.label>硬骨</OAGene_HardBone.label>
+  <OAGene_HardBone.description>这种基因的携带者的骨组织异常致密，且再生速度非凡，这使得他们的骨组织受到伤害时往往很快就能够愈合，并且坚硬的骨组织也使得他们的近战更加有力。</OAGene_HardBone.description>
+  <OAGene_HardBone.customEffectDescriptions.0>当受到的伤害涉及以下部位时，本次伤害数值×75%：锁骨、肱骨、桡骨、股骨、胫骨、颅骨、肋骨、胸骨、脊柱、骨盆</OAGene_HardBone.customEffectDescriptions.0>
+  
+    <OAGene_FrailBone.label>脆骨</OAGene_FrailBone.label>
+  <OAGene_FrailBone.description>这种基因的携带者的骨组织十分疏松，他们的骨头相比起常人而言更加容易折断。</OAGene_FrailBone.description>
+  <OAGene_FrailBone.customEffectDescriptions.0>当受到的伤害涉及以下部位时，本次伤害数值×115%：锁骨、肱骨、桡骨、股骨、胫骨、颅骨、肋骨、胸骨、脊柱、骨盆</OAGene_FrailBone.customEffectDescriptions.0>
+  
+    <OAGene_HardBoneShell.label>坚硬骨壳</OAGene_HardBoneShell.label>
+  <OAGene_HardBoneShell.description>这种基因的携带者在关键部位处有着额外的骨壳层保护，这使得他们更难受到致命伤害。</OAGene_HardBoneShell.description>
+  <OAGene_HardBoneShell.customEffectDescriptions.0>当受到的伤害涉及以下部位时，本次伤害数值×66%：心脏、大脑、颅骨、肋骨、胸骨</OAGene_HardBoneShell.customEffectDescriptions.0>
+  
+    <OAGene_FragileOrgans.label>脆弱脏器</OAGene_FragileOrgans.label>
+  <OAGene_FragileOrgans.description>这种基因的携带者的内脏器官十分脆弱，因此一些平常的跌打损伤很容易就会要了他们的命。</OAGene_FragileOrgans.description>
+  <OAGene_FragileOrgans.customEffectDescriptions.0>当受到的伤害涉及以下部位时，本次伤害数值×133%：心脏、大脑、胃、肺、肾、肝</OAGene_FragileOrgans.customEffectDescriptions.0>
+  
+    <OAGene_ScarConstitution.label>瘢痕体质</OAGene_ScarConstitution.label>
+  <OAGene_ScarConstitution.description>这种基因的携带者的身体很容易留下疤痕。</OAGene_ScarConstitution.description>
+  <OAGene_ScarConstitution.customEffectDescriptions.0>永久性伤害概率 ×450%</OAGene_ScarConstitution.customEffectDescriptions.0>
+  
+    <OAGene_NormalEyesight.label>正常视力</OAGene_NormalEyesight.label>
+  <OAGene_NormalEyesight.description>这种基因的携带者视力正常。</OAGene_NormalEyesight.description>
+  
+    <OAGene_MildNearsightedness.label>轻度近视</OAGene_MildNearsightedness.label>
+  <OAGene_MildNearsightedness.description>这种基因的携带者受到轻度的近视困扰，这使得他们较难看清远处的事物，在远距离射击上受到轻度的惩罚。</OAGene_MildNearsightedness.description>
+  
+    <OAGene_ElasticGastricWall.label>弹性胃壁</OAGene_ElasticGastricWall.label>
+  <OAGene_ElasticGastricWall.description>这种基因的携带者的胃壁富有弹性与扩张性，因此他们能够在体内储存更多的营养值，以应对可能的长期饥饿。</OAGene_ElasticGastricWall.description>
+  
+    <OAGene_ExcellentPhysique.label>强健体魄</OAGene_ExcellentPhysique.label>
+  <OAGene_ExcellentPhysique.description>这种基因的携带者拥有相当强健的体魄，并且在他们身上见不到那些常见的老年病。</OAGene_ExcellentPhysique.description>
+    <OAGene_ExcellentPhysique.customEffectDescriptions.0>患病概率 ×50%</OAGene_ExcellentPhysique.customEffectDescriptions.0>
+  
+    <OAGene_FrailPhysique.label>羸弱体魄</OAGene_FrailPhysique.label>
+  <OAGene_FrailPhysique.description>这种基因的携带者的身体素质相当糟糕，并且当他们年老时必然会受到疾病困扰。</OAGene_FrailPhysique.description>
+      <OAGene_FrailPhysique.customEffectDescriptions.0>年龄达到50%预期寿命必定得到体弱</OAGene_FrailPhysique.customEffectDescriptions.0>
+  
+    <OAGene_DeepSleep.label>深度沉眠</OAGene_DeepSleep.label>
+  <OAGene_DeepSleep.description>这种基因的携带者在睡眠时会大幅度减缓新陈代谢，但代价是他们休息的时间会更长。</OAGene_DeepSleep.description>
+   <OAGene_DeepSleep.customEffectDescriptions.0>睡眠时饥饿率×25%</OAGene_DeepSleep.customEffectDescriptions.0>
+  
+    <OAGene_AgilityAction.label>行动敏捷</OAGene_AgilityAction.label>
+  <OAGene_AgilityAction.description>这种基因的携带者的骨骼构造十分精巧，这让他们即使在复杂的动作中也能够保持平衡。</OAGene_AgilityAction.description>
+  
+    <OAGene_BloodCellsAutophagy.label>血细胞自噬</OAGene_BloodCellsAutophagy.label>
+  <OAGene_BloodCellsAutophagy.description>这种基因的携带者在营养不良时会被动分解体内的血细胞，以降低能量消耗。</OAGene_BloodCellsAutophagy.description>
+     <OAGene_BloodCellsAutophagy.customEffectDescriptions.0>营养不良时会逐渐失血。</OAGene_BloodCellsAutophagy.customEffectDescriptions.0>
+  
+    <OAGene_SurvivalInstinct.label>求生本能</OAGene_SurvivalInstinct.label>
+  <OAGene_SurvivalInstinct.description>这种基因的携带者对争斗有着本能性的恐惧，并且对于被拘束与作战有着极为强烈的抵触意愿。当敌人靠近时他们会感到恐慌，并且肾上腺素分泌会得到极大的提升以方便他们逃亡。</OAGene_SurvivalInstinct.description>
+     <OAGene_SurvivalInstinct.customEffectDescriptions.0>与敌对单位距离20格内时移动能力会得到提升，但操作能力会下降。</OAGene_SurvivalInstinct.customEffectDescriptions.0>
+	 
+    <OAGene_AgriculturalEnthusiasm.label>农业热情</OAGene_AgriculturalEnthusiasm.label>
+  <OAGene_AgriculturalEnthusiasm.description>这种基因的携带者对于植物有着极为卓越的感知天赋，他们的基因内蕴藏的本能使得他们在农业工作上要远超常人。</OAGene_AgriculturalEnthusiasm.description>
+  
+    <OAGene_NaturalDiligence.label>天性勤劳</OAGene_NaturalDiligence.label>
+  <OAGene_NaturalDiligence.description>这种基因的携带者对于工作拥有着额外的热情，他们无法适应不需要进行劳动的生活。</OAGene_NaturalDiligence.description>
+  
+    <OAGene_OAMetabolicGeneChain.label>金鸢尾兰代谢基因链</OAGene_OAMetabolicGeneChain.label>
+  <OAGene_OAMetabolicGeneChain.description>这个基因链经过了金鸢尾兰帝国的技术编辑，能够一定程度上改善宿主的代谢速率。</OAGene_OAMetabolicGeneChain.description>
+  
+    <OAGene_AbnormalBodyStructure.label>非常规构造</OAGene_AbnormalBodyStructure.label>
+  <OAGene_AbnormalBodyStructure.description>虽然外表没有区别，但这种基因的携带者身体构造与组织成分实际上和正常人有一定的不同，因此他们无法享受到塑形仓的技术改进。</OAGene_AbnormalBodyStructure.description>
+       <OAGene_AbnormalBodyStructure.customEffectDescriptions.0>无法使用塑形仓。</OAGene_AbnormalBodyStructure.customEffectDescriptions.0>
+  
+    <OAGene_MonarchyBased.label>王权本位</OAGene_MonarchyBased.label>
+  <OAGene_MonarchyBased.description>基因中的本能驱使着携带者向权位进发。当掌握统治权的时候，他们的感知将会变得更加敏锐。</OAGene_MonarchyBased.description>
+         <OAGene_MonarchyBased.customEffectDescriptions.0>获得贵族头衔或者文化职位时获得增益</OAGene_MonarchyBased.customEffectDescriptions.0>
+  
+    <OAGene_BillInspiration.label>灵感启迪</OAGene_BillInspiration.label>
+  <OAGene_BillInspiration.description>这种基因的携带者在工作时很容易获得新的灵感，他们的神经回路远比正常人要复杂得多。</OAGene_BillInspiration.description>
+           <OAGene_BillInspiration.customEffectDescriptions.0>完成任意锻造或者缝纫工作后有小概率获得一次创造灵感，心情越高获得概率越高。</OAGene_BillInspiration.customEffectDescriptions.0>
+           <OAGene_BillInspiration.customEffectDescriptions.1>该效果不会覆盖已有灵感。</OAGene_BillInspiration.customEffectDescriptions.1>
+           <OAGene_BillInspiration.customEffectDescriptions.2>每次触发后有20天的冷却。</OAGene_BillInspiration.customEffectDescriptions.2>
+  
+    <OAGene_Suspicious.label>多疑</OAGene_Suspicious.label>
+  <OAGene_Suspicious.description>这种基因的携带者对于他人总是抱有怀疑，他们很难建立一段浪漫关系，并且难以接受与其他人共处同一间卧室。</OAGene_Suspicious.description>
+  
+    <OAGene_ColdSleepy.label>寒冷困倦</OAGene_ColdSleepy.label>
+  <OAGene_ColdSleepy.description>这种基因的携带者在过冷的环境会更加容易感到疲倦，即便他们身穿的服装足够抵御这种寒冷。</OAGene_ColdSleepy.description>
+             <OAGene_ColdSleepy.customEffectDescriptions.0>当温度低于0℃时休息值下降速度会逐渐提升。</OAGene_ColdSleepy.customEffectDescriptions.0>
+  
+    <OAGene_HeatSleepy.label>炎热困倦</OAGene_HeatSleepy.label>
+  <OAGene_HeatSleepy.description>这种基因的携带者在过热的环境会更加容易感到疲倦，即便他们身穿的服装足够抵御这种炎热。</OAGene_HeatSleepy.description>
+             <OAGene_HeatSleepy.customEffectDescriptions.0>当温度高于30℃时休息值下降速度会逐渐提升。</OAGene_HeatSleepy.customEffectDescriptions.0>
+  
+   <OAGene_SpecificHemogen.label>特异血原</OAGene_SpecificHemogen.label>
+   <OAGene_SpecificHemogen.description>这种基因的携带者的血原质与正常人有一定的差别，他们的血液无法与任何人进行互通。</OAGene_SpecificHemogen.description>
+   <OAGene_SpecificHemogen.customEffectDescriptions.0>无法被汲血</OAGene_SpecificHemogen.customEffectDescriptions.0>
+   <OAGene_SpecificHemogen.customEffectDescriptions.1>无法提取血原包</OAGene_SpecificHemogen.customEffectDescriptions.1>
+   <OAGene_SpecificHemogen.customEffectDescriptions.2>无法输血</OAGene_SpecificHemogen.customEffectDescriptions.2>
+   
+   <OAGene_ObedientServitude.label>奴役顺从</OAGene_ObedientServitude.label>
+   <OAGene_ObedientServitude.description>这种基因的携带者的自我意识受到了严重的压抑。他们会对被命令与被管制感到渴望，并比常人更能接受压抑的待遇。然而当长时间未被直接命令管控时，他们的自我意识与基因将会产生愈演愈烈的冲突。</OAGene_ObedientServitude.description>
+   <OAGene_ObedientServitude.customEffectDescriptions.0>处于工作时间时工作速度与崩溃阈值皆会下降。</OAGene_ObedientServitude.customEffectDescriptions.0>
+   <OAGene_ObedientServitude.customEffectDescriptions.1>长时间未被征召时，心情与工作速度皆会下降。</OAGene_ObedientServitude.customEffectDescriptions.1>
+   <OAGene_ObedientServitude.customEffectDescriptions.2>不会自然获得灵感。</OAGene_ObedientServitude.customEffectDescriptions.2>
+   <OAGene_ObedientServitude.customEffectDescriptions.3>奴役时期望锁定为最低。</OAGene_ObedientServitude.customEffectDescriptions.3>
+</LanguageData>

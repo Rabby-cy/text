@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <GeneDef Name="OAGene_AbstractBodyTypeBase" Abstract="true">
+        <displayCategory>OARK_GeneExpand</displayCategory>
+        <biostatCpx>0</biostatCpx>
+        <iconColor>(0.75, 0.75, 0.75)</iconColor>
+        <randomChosen>false</randomChosen>
+    </GeneDef>
+
+    <GeneDef ParentName="OAGene_AbstractBodyTypeBase">
+        <defName>OAGene_RatkinEar</defName>
+        <label>Ratkin Ear</label>
+        <description>Carriers of this gene have a pair of adorable big ears.</description>
+        <!--customEffectDescriptions>
+            <li>共同拥有鼠族体型，鼠族尾巴，鼠族耳朵的角色彼此间不会视为外星人。</li>
+        </customEffectDescriptions-->
+        <iconPath>UI/Icons/Genes/OAGene_RatkinEar</iconPath>
+        <geneClass>OberoniaAureaGene.Ratkin.Gene_RatkinBase</geneClass>
+        <displayOrderInCategory>10</displayOrderInCategory>
+    </GeneDef>
+
+    <GeneDef ParentName="OAGene_AbstractBodyTypeBase">
+        <defName>OAGene_RatkinTail</defName>
+        <label>Ratkin Tail</label>
+        <description>The carrier of this gene has a nimble and slender mouse tail.</description>
+        <customEffectDescriptions>
+            <li>Mobility+5%</li>
+            <!--li>共同拥有鼠族体型，鼠族尾巴，鼠族耳朵的角色彼此间不会视为外星人。</li-->
+        </customEffectDescriptions>
+        <iconPath>UI/Icons/Genes/OAGene_RatkinTail</iconPath>
+        <geneClass>OberoniaAureaGene.Ratkin.Gene_RatkinTail</geneClass>
+        <displayOrderInCategory>20</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <statOffsets>
+            <MeleeDodgeChance>5</MeleeDodgeChance>
+        </statOffsets>
+        <modExtensions>
+            <li Class="OberoniaAureaGene.GeneExtension">
+                <hediffToWholeBody>OAGene_RatkinTail</hediffToWholeBody>
+            </li>
+        </modExtensions>
+    </GeneDef>
+
+    <GeneDef ParentName="OAGene_AbstractBodyTypeBase">
+        <defName>OAGene_LowlandRatkinEar</defName>
+        <label>Lowland Ratkin Ear</label>
+        <description>Carriers of this gene have a pair of soft and cute mouse ears.</description>
+        <iconPath>UI/Icons/Genes/OAGene_LowlandRatkinEar</iconPath>
+        <geneClass>OberoniaAureaGene.Ratkin.Gene_RatkinBase</geneClass>
+        <prerequisite>OAGene_RatkinEar</prerequisite>
+        <displayOrderInCategory>11</displayOrderInCategory>
+    </GeneDef>
+
+    <GeneDef ParentName="OAGene_AbstractBodyTypeBase">
+        <defName>OAGene_SnowRatkinEar</defName>
+        <label>Snow Ratkin Ear</label>
+        <description>The carrier of this gene has a pair of furry mouse ears</description>
+        <iconPath>UI/Icons/Genes/OAGene_SnowRatkinEar</iconPath>
+        <geneClass>OberoniaAureaGene.Ratkin.Gene_RatkinBase</geneClass>
+        <prerequisite>OAGene_RatkinEar</prerequisite>
+        <statOffsets>
+            <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+        </statOffsets>
+        <biostatMet>-1</biostatMet>
+        <biostatCpx>1</biostatCpx>
+        <displayOrderInCategory>12</displayOrderInCategory>
+    </GeneDef>
+
+    <GeneDef ParentName="OAGene_AbstractBodyTypeBase">
+        <defName>OAGene_RockRatkinEar</defName>
+        <label>Rock Ratkin Ear</label>
+        <description>Carriers of this gene have a pair of mouse ears with a hard mane.</description>
+        <iconPath>UI/Icons/Genes/OAGene_SnowRatkinEar</iconPath>
+        <geneClass>OberoniaAureaGene.Ratkin.Gene_RockRatkinEar</geneClass>
+        <prerequisite>OAGene_RatkinEar</prerequisite>
+        <customEffectDescriptions>
+            <li>When the injury involves the following parts, the current injury value is multiplied by 66%: ears</li>
+            <li>Auditory ability -10%</li>
+        </customEffectDescriptions>
+        <modExtensions>
+            <li Class="OberoniaAureaGene.GeneExtension">
+                <hediffToWholeBody>OAGene_RockRatkinEar</hediffToWholeBody>
+                <bodyPartDefs>
+                    <li>Ear</li>
+                </bodyPartDefs>
+                <damageFactory>0.5</damageFactory>
+            </li>
+        </modExtensions>
+        <biostatCpx>1</biostatCpx>
+        <displayOrderInCategory>13</displayOrderInCategory>
+    </GeneDef>
+
+    <GeneDef ParentName="OAGene_AbstractBodyTypeBase">
+        <defName>OAGene_BatRatkinEar</defName>
+        <label>Bat Ratkin Ear</label>
+        <description>Carriers of this gene have a pair of bat ears that look very stylish.</description>
+        <iconPath>UI/Icons/Genes/OAGene_BatRatkinEar</iconPath>
+        <geneClass>OberoniaAureaGene.Ratkin.Gene_RatkinBase</geneClass>
+        <prerequisite>OAGene_RatkinEar</prerequisite>
+        <displayOrderInCategory>13</displayOrderInCategory>
+    </GeneDef>
+
+    <!--
+    <GeneDef ParentName="OAGene_AbstractBodyTypeBase">
+        <defName>OAGene_RatkinBody</defName>
+        <label>鼠族体型</label>
+        <description>这种基因的携带者的体型是标准的鼠族体型。</description>
+        <customEffectDescriptions>
+            <li>共同拥有鼠族体型，鼠族尾巴，鼠族耳朵的角色彼此间不会视为外星人。</li>
+        </customEffectDescriptions>
+        <geneClass>OberoniaAureaGene.Ratkin.Gene_RatkinBody</geneClass>
+        <iconPath>UI/Icons/Genes/Gene_BodyThin</iconPath>
+        <displayOrderInCategory>30</displayOrderInCategory>
+    </GeneDef>
+
+    <GeneDef ParentName="OAGene_AbstractBodyTypeBase">
+        <defName>OAGene_BatRatkinBody</defName>
+        <label>蝠鼠身材</label>
+        <description>这种基因的携带者的体型比正常的鼠族要小不少。</description>
+		<biostatCpx>1</biostatCpx>
+        <biostatMet>1</biostatMet>
+        <iconPath>UI/Icons/Genes/Gene_BodyThin</iconPath>
+        <displayOrderInCategory>40</displayOrderInCategory>
+        <randomChosen>false</randomChosen>
+        <bodyType>Thin</bodyType>
+    </GeneDef>
+    -->
+
+</Defs>

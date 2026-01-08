@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OAFrame_Reset>恢復默認</OAFrame_Reset>
+    <OAFrame_DonotShowAgain>不再顯示</OAFrame_DonotShowAgain>
+    <OAFrame_NeedCount>至少需要：{0}</OAFrame_NeedCount>
+    <OAFrame_NeedCountOfThing>至少需要：{0}×{1}</OAFrame_NeedCountOfThing>
+
+    <OAFrame_TalkWith>同{0}交談</OAFrame_TalkWith>
+
+    <OAFrame_WarningAbnormalCaravanTitle>不同尋常的遠行隊</OAFrame_WarningAbnormalCaravanTitle>
+    <OAFrame_WarningAbnormalCaravan>該交互會改變遠行隊的狀態，但當前遠行隊是使用非原版方式構建的，因此可能産生物品丢失，人員丢失等嚴重問題，為了殖民者們的生命財産安全考慮，您無法進行此互動。請組建普通的遠行隊來進行該交互。</OAFrame_WarningAbnormalCaravan>
+    <OAFrame_Message_AlreadyHasFixedCaravan>已有遠行隊在此</OAFrame_Message_AlreadyHasFixedCaravan>
+    <OAFrame_FixedCaravanWork_TimeLeft>遠行隊行動中，賸餘：{0}</OAFrame_FixedCaravanWork_TimeLeft>
+
+    <OAFrame_Visit>訪問{0}</OAFrame_Visit>
+    <OAFrame_VisitInteractiveObject>訪問</OAFrame_VisitInteractiveObject>
+
+    <OAFrame_MessageNoDiplomat>沒有合適的外交官</OAFrame_MessageNoDiplomat>
+    <OAFrame_MessageNoTrader>沒有合適的貿易者</OAFrame_MessageNoTrader>
+
+    <OAFrame_CaravanCategoryRequestInfo>需求：{0}（賸餘 {1}）</OAFrame_CaravanCategoryRequestInfo>
+    <OAFrame_RequestedThingCategoryLabel>{0} x {1}</OAFrame_RequestedThingCategoryLabel>
+
+    <OAFrame_CommandReciveSaleOffer>獲取物資</OAFrame_CommandReciveSaleOffer>
+    <OAFrame_CommandReciveSaleOfferDesc>獲取任務所需的物資。</OAFrame_CommandReciveSaleOfferDesc>
+    <OAFrame_CommandFulfillSaleRQConfirm>獲取{0}？</OAFrame_CommandFulfillSaleRQConfirm>
+
+    <OAFrame_CommandFulfillCategoryTradeConfirm>交付遠行隊攜帶的 {0}？</OAFrame_CommandFulfillCategoryTradeConfirm>
+    <OAFrame_CommandFulfillCategoryTradeFailInsufficient>你的遠行隊必須擁有 {0} 才能進行貨物交付。</OAFrame_CommandFulfillCategoryTradeFailInsufficient>
+
+    <OAFrame_FulfillCategoryTradePartComplete>你已經交付{0} x {1}，仍需要交付{0} x {2}才能完成貨物交付。</OAFrame_FulfillCategoryTradePartComplete>
+
+    <OAFrame_NotInsectMeat>蟲肉禁用</OAFrame_NotInsectMeat>
+    <OAFrame_NotHumanlikeMeat>人肉禁用</OAFrame_NotHumanlikeMeat>
+
+    <OAFrame_PawnGainSkillXp>{0}獲得了{2}點{1}技能經驗</OAFrame_PawnGainSkillXp>
+
+    <OAFrame_ResearchFinished>以下硏究項目已完成：</OAFrame_ResearchFinished>
+    <OAFrame_ResearchProgressAdded>以下科硏增加{0}進度：</OAFrame_ResearchProgressAdded>
+
+</LanguageData>

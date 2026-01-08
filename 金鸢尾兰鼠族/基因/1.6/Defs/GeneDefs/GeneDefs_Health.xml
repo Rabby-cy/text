@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <GeneDef>
+        <defName>OAGene_EfficientNeuron</defName>
+        <label>Efficient nervous system</label>
+        <description>Carriers of this gene have an abnormally developed nervous system, which makes their thinking speed much faster than that of ordinary people, but such a developed nervous system can also have a certain impact on the body.</description>
+        <customEffectDescriptions>
+            <li>Awareness +8%</li>
+        </customEffectDescriptions>
+        <displayOrderInCategory>0</displayOrderInCategory>
+        <geneClass>OberoniaAureaGene.Gene_GiveHediff</geneClass>
+        <iconPath>UI/Icons/Genes/OAGene_EfficientNeuron</iconPath>
+        <biostatMet>-1</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statOffsets>
+            <MentalBreakThreshold>0.04</MentalBreakThreshold>
+        </statOffsets>
+        <statFactors>
+            <LifespanFactor>0.85</LifespanFactor>
+        </statFactors>
+        <modExtensions>
+            <li Class="OberoniaAureaGene.GeneExtension">
+                <hediffToWholeBody>OAGene_EfficientNeuron</hediffToWholeBody>
+            </li>
+        </modExtensions>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>OAGene_ActiveNeuron</defName>
+        <label>Active nervous system</label>
+        <description>The nervous system of carriers of this gene is quite active, and they can easily think of other aspects of things.</description>
+        <iconPath>UI/Icons/Genes/OAGene_ActiveNeuron</iconPath>
+        <displayOrderInCategory>1</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <statOffsets>
+            <GlobalLearningFactor>0.2</GlobalLearningFactor>
+            <ResearchSpeed>0.2</ResearchSpeed>
+        </statOffsets>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>OAGene_UnrestrictedLearning</defName>
+        <label>Unrestricted learning</label>
+        <description>The nervous system of carriers of this gene operates at high intensity day and night to facilitate their acceptance of the latest knowledge, but this reckless high-intensity learning significantly reduces their lifespan.</description>
+        <iconPath>UI/Icons/Genes/OAGene_UnrestrictedLearning</iconPath>
+        <biostatMet>-4</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <exclusionTags>
+            <li>Learning</li>
+        </exclusionTags>
+        <displayOrderInCategory>29</displayOrderInCategory>
+        <statOffsets>
+            <GlobalLearningFactor>1.25</GlobalLearningFactor>
+        </statOffsets>
+        <statFactors>
+            <LifespanFactor>0.5</LifespanFactor>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef Name="OAGene_MusclesBase" Abstract="True">
+        <displayCategory>Violence</displayCategory>
+        <exclusionTags>
+            <li>OAGene_Muscles</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef ParentName="OAGene_MusclesBase">
+        <defName>OAGene_UltraDenseMuscles</defName>
+        <label>Ultra dense muscle</label>
+        <description>Carriers of the gene for ultra dense muscle have extraordinary muscle density and muscle group distribution that meets mechanical standards, which gives them extraordinary advantages in sports and heavy physical work, even able to ignore mild blunt force injuries.</description>
+        <iconPath>UI/Icons/Genes/OAGene_UltraDenseMuscles</iconPath>
+        <biostatCpx>5</biostatCpx>
+        <biostatArc>2</biostatArc>
+        <displayOrderInCategory>500</displayOrderInCategory>
+        <displayCategory>Archite</displayCategory>
+        <statOffsets>
+            <MoveSpeed>0.25</MoveSpeed>
+            <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+        </statOffsets>
+        <statFactors>
+            <MeleeDamageFactor>1.5</MeleeDamageFactor>
+        </statFactors>
+        <aptitudes>
+            <Melee>2</Melee>
+            <Construction>2</Construction>
+            <Mining>2</Mining>
+        </aptitudes>
+    </GeneDef>
+
+    <GeneDef ParentName="OAGene_MusclesBase">
+        <defName>OAGene_DenseMuscles</defName>
+        <label>Tight muscles</label>
+        <description>Carriers of this gene have relatively tight muscles, which gives them certain advantages in sports and heavy physical work.</description>
+        <iconPath>UI/Icons/Genes/OAGene_DenseMuscles</iconPath>
+        <biostatMet>-3</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <displayOrderInCategory>510</displayOrderInCategory>
+        <statOffsets>
+            <MoveSpeed>0.1</MoveSpeed>
+        </statOffsets>
+        <statFactors>
+            <MeleeDamageFactor>1.2</MeleeDamageFactor>
+        </statFactors>
+        <aptitudes>
+            <Melee>1</Melee>
+            <Construction>1</Construction>
+            <Mining>1</Mining>
+        </aptitudes>
+    </GeneDef>
+
+    <GeneDef ParentName="OAGene_MusclesBase">
+        <defName>OAGene_WeaknessMuscles</defName>
+        <label>Weak muscles</label>
+        <description>Carriers of this gene have weak and powerless muscles, which puts them at a considerable disadvantage in sports and heavy physical work, and they are far less energetic than others in daily life.</description>
+        <iconPath>UI/Icons/Genes/OAGene_WeaknessMuscles</iconPath>
+        <biostatMet>4</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <displayOrderInCategory>500</displayOrderInCategory>
+        <statOffsets>
+            <MoveSpeed>-0.25</MoveSpeed>
+        </statOffsets>
+        <statFactors>
+            <MeleeDamageFactor>0.7</MeleeDamageFactor>
+        </statFactors>
+        <aptitudes>
+            <Melee>-2</Melee>
+            <Construction>-2</Construction>
+            <Mining>-2</Mining>
+        </aptitudes>
+    </GeneDef>
+
+    <GeneDef Name="OAGene_BonesBase" Abstract="True">
+        <displayCategory>OARK_GeneExpand</displayCategory>
+        <exclusionTags>
+            <li>OAGene_Bones</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef ParentName="OAGene_BonesBase">
+        <defName>OAGene_HardBone</defName>
+        <label>Hard bone</label>
+        <description>Carriers of this gene have abnormally dense bone tissue and extraordinary regeneration speed, which often allows their bone tissue to heal quickly when injured, and the hard bone tissue also makes their melee more powerful.</description>
+        <customEffectDescriptions>
+            <li>When the injury involves the following parts, the value of this injury is multiplied by 75%: clavicle, humerus, radius, femur, tibia, skull, ribs, sternum, spine, pelvis</li>
+        </customEffectDescriptions>
+        <geneClass>OberoniaAureaGene.Gene_PartIncomingDamageFactor</geneClass>
+        <iconPath>UI/Icons/Genes/OAGene_Hardbones</iconPath>
+        <displayOrderInCategory>500</displayOrderInCategory>
+        <displayCategory>Pain</displayCategory>
+        <biostatMet>-1</biostatMet>
+        <biostatCpx>1</biostatCpx>
+        <statFactors>
+            <MeleeDamageFactor>1.1</MeleeDamageFactor>
+        </statFactors>
+        <modExtensions>
+            <li Class="OberoniaAureaGene.GeneExtension">
+                <bodyPartDefs>
+                    <li>Clavicle</li>
+                    <li>Humerus</li>
+                    <li>Radius</li>
+                    <li>Femur</li>
+                    <li>Tibia</li>
+                    <li>Skull</li>
+                    <li>Ribcage</li>
+                    <li>Sternum</li>
+                    <li>Spine</li>
+                    <li>Pelvis</li>
+                </bodyPartDefs>
+                <damageFactory>0.75</damageFactory>
+            </li>
+        </modExtensions>
+    </GeneDef>
+
+    <GeneDef ParentName="OAGene_BonesBase">
+        <defName>OAGene_FrailBone</defName>
+        <label>Frail Bone</label>
+        <description>The bone tissue of carriers of this gene is very loose, and their bones are more prone to breakage compared to ordinary people.</description>
+        <customEffectDescriptions>
+            <li>When the injury involves the following parts, the value of this injury is multiplied by 120%: clavicle, humerus, radius, femur, tibia, skull, ribs, sternum, spine, pelvis</li>
+        </customEffectDescriptions>
+        <geneClass>OberoniaAureaGene.Gene_PartIncomingDamageFactor</geneClass>
+        <iconPath>UI/Icons/Genes/OAGene_Fragilebones</iconPath>
+        <displayOrderInCategory>510</displayOrderInCategory>
+        <displayCategory>Pain</displayCategory>
+        <biostatMet>1</biostatMet>
+        <biostatCpx>1</biostatCpx>
+        <modExtensions>
+            <li Class="OberoniaAureaGene.GeneExtension">
+                <bodyPartDefs>
+                    <li>Clavicle</li>
+                    <li>Humerus</li>
+                    <li>Radius</li>
+                    <li>Femur</li>
+                    <li>Tibia</li>
+                    <li>Skull</li>
+                    <li>Ribcage</li>
+                    <li>Sternum</li>
+                    <li>Spine</li>
+                    <li>Pelvis</li>
+                </bodyPartDefs>
+                <damageFactory>1.15</damageFactory>
+            </li>
+        </modExtensions>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>OAGene_HardBoneShell</defName>
+        <label>Hard bone shell</label>
+        <description>Carriers of this gene have additional bone shell protection in critical areas, which makes them more vulnerable to fatal injuries.</description>
+        <customEffectDescriptions>
+            <li>When the injury involves the following parts, the current injury value is multiplied by 66%: heart, brain, skull, ribs, sternum</li>
+        </customEffectDescriptions>
+        <geneClass>OberoniaAureaGene.Gene_PartIncomingDamageFactor</geneClass>
+        <iconPath>UI/Icons/Genes/OAGene_HardBoneShell</iconPath>
+        <displayCategory>Pain</displayCategory>
+        <displayOrderInCategory>520</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+        <biostatCpx>1</biostatCpx>
+        <modExtensions>
+            <li Class="OberoniaAureaGene.GeneExtension">
+                <bodyPartDefs>
+                    <li>Heart</li>
+                    <li>Brain</li>
+                    <li>Skull</li>
+                    <li>Ribcage</li>
+                    <li>Sternum</li>
+                </bodyPartDefs>
+                <damageFactory>0.66</damageFactory>
+            </li>
+        </modExtensions>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>OAGene_FragileOrgans</defName>
+        <label>Fragile organs</label>
+        <description>The internal organs of carriers of this gene are very fragile, so some common injuries can easily take their lives.</description>
+        <customEffectDescriptions>
+            <li>The damage bearing coefficient of the following body parts multiplied by 133%: heart, brain, stomach, lungs, kidneys, liver</li>
+        </customEffectDescriptions>
+        <geneClass>OberoniaAureaGene.Gene_PartIncomingDamageFactor</geneClass>
+        <iconPath>UI/Icons/Genes/OAGene_FragileOrgans</iconPath>
+        <displayCategory>Pain</displayCategory>
+        <displayOrderInCategory>530</displayOrderInCategory>
+        <biostatMet>2</biostatMet>
+        <biostatCpx>1</biostatCpx>
+        <modExtensions>
+            <li Class="OberoniaAureaGene.GeneExtension">
+                <bodyPartDefs>
+                    <li>Heart</li>
+                    <li>Brain</li>
+                    <li>Stomach</li>
+                    <li>Lung</li>
+                    <li>Kidney</li>
+                    <li>Liver</li>
+                </bodyPartDefs>
+                <damageFactory>1.33</damageFactory>
+            </li>
+        </modExtensions>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>OAGene_ScarConstitution</defName>
+        <label>Scar constitution</label>        <!--你猜作者为什么知道这个东西的存在x-->
+        <description>Carriers of this gene are prone to leaving scars on their bodies.</description>
+        <customEffectDescriptions>
+            <li>Permanent damage probability multiplied by 450%</li>
+        </customEffectDescriptions>
+        <geneClass>OberoniaAureaGene.Gene_PermanentChance</geneClass>
+        <iconPath>UI/Icons/Genes/OAGene_ScarConstitution</iconPath>
+        <displayCategory>Pain</displayCategory>
+        <displayOrderInCategory>540</displayOrderInCategory>
+        <biostatMet>3</biostatMet>
+        <biostatCpx>2</biostatCpx>
+        <exclusionTags>
+            <li>OAGene_PermanentInjury</li>
+        </exclusionTags>
+        <modExtensions>
+            <li Class="OberoniaAureaGene.GeneExtension">
+                <becomePermanentChanceFactor>4.5</becomePermanentChanceFactor>
+            </li>
+        </modExtensions>
+    </GeneDef>
+
+    <GeneDef Name="OAGene_EyesightBase" Abstract="True">
+        <exclusionTags>
+            <li>ShootingAccuracy</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef ParentName="OAGene_EyesightBase">
+        <defName>OAGene_NormalEyesight</defName>
+        <label>Normal eyesight</label>
+        <description>Carriers of this gene have normal eyesight.</description>
+        <iconPath>UI/Icons/Genes/OAGene_MildNearsightedness_B</iconPath>
+        <displayOrderInCategory>39</displayOrderInCategory>
+        <biostatCpx>0</biostatCpx>
+    </GeneDef>
+
+    <GeneDef ParentName="OAGene_EyesightBase">
+        <defName>OAGene_MildNearsightedness</defName>
+        <label>Mild nearsightedness</label>
+        <description>Carriers of this gene suffer from mild myopia, which makes it difficult for them to see things in the distance and results in mild punishment for long-distance shooting.</description>
+        <iconPath>UI/Icons/Genes/OAGene_MildNearsightedness</iconPath>
+        <displayOrderInCategory>40</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <biostatCpx>1</biostatCpx>
+        <statFactors>
+            <ShootingAccuracyFactor_Long>0.80</ShootingAccuracyFactor_Long>
+            <ShootingAccuracyFactor_Medium>0.60</ShootingAccuracyFactor_Medium>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>OAGene_ElasticGastricWall</defName>
+        <label>Elastic stomach wall</label>
+        <description>Carriers of this gene have elastic and expansive stomach walls, allowing them to store more nutrients in their bodies to cope with possible long-term hunger.</description>
+        <iconPath>UI/Icons/Genes/OAGene_ElasticGastricWall</iconPath>
+        <displayOrderInCategory>8</displayOrderInCategory>
+        <biostatCpx>2</biostatCpx>
+        <statFactors>
+            <MaxNutrition>1.25</MaxNutrition>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef Name="OAGene_PhysiqueBase" Abstract="True">
+        <displayCategory>Healing</displayCategory>
+        <exclusionTags>
+            <li>OAGene_Physique</li>
+        </exclusionTags>
+    </GeneDef>
+
+    <GeneDef ParentName="OAGene_PhysiqueBase">
+        <defName>OAGene_ExcellentPhysique</defName>
+        <label>Excellent physique</label>
+        <description>Carriers of this gene have relatively strong physical fitness and do not see common age-related diseases in them.</description>
+        <customEffectDescriptions>
+            <li>Probability of illness multiplied by 50%</li>
+        </customEffectDescriptions>
+        <geneClass>OberoniaAureaGene.Gene_IllnessFactor</geneClass>
+        <iconPath>UI/Icons/Genes/OAGene_ExcellentPhysique</iconPath>
+        <displayOrderInCategory>500</displayOrderInCategory>
+        <biostatMet>-2</biostatMet>
+        <biostatCpx>1</biostatCpx>
+        <statFactors>
+            <InjuryHealingFactor>1.25</InjuryHealingFactor>
+        </statFactors>
+        <hediffGiversCannotGive>
+            <li>BadBack</li>
+            <li>Frail</li>
+        </hediffGiversCannotGive>
+        <modExtensions>
+            <li Class="OberoniaAureaGene.GeneExtension">
+                <illnessFactor>0.5</illnessFactor>
+            </li>
+        </modExtensions>
+    </GeneDef>
+
+    <GeneDef ParentName="OAGene_PhysiqueBase">
+        <defName>OAGene_FrailPhysique</defName>
+        <label>Frail physique</label>
+        <description>The physical fitness of carriers of this gene is quite poor, and they will inevitably suffer from diseases when they get old.</description>
+        <customEffectDescriptions>
+            <li>Age reaching 50% of life expectancy will inevitably lead to frailty</li>
+        </customEffectDescriptions>
+        <geneClass>OberoniaAureaGene.Gene_FrailPhysique</geneClass>
+        <iconPath>UI/Icons/Genes/OAGene_FrailPhysique</iconPath>
+        <displayOrderInCategory>510</displayOrderInCategory>
+        <biostatMet>3</biostatMet>
+        <biostatCpx>1</biostatCpx>
+        <statFactors>
+            <ImmunityGainSpeed>0.92</ImmunityGainSpeed>
+            <InjuryHealingFactor>0.75</InjuryHealingFactor>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>OAGene_DeepSleep</defName>
+        <label>Deep Sleep</label>
+        <description>Carriers of this gene will significantly slow down metabolism during sleep, but at the cost of longer rest time.</description>
+        <customEffectDescriptions>
+            <li>Hunger rate during sleep × 25%</li>
+        </customEffectDescriptions>
+        <iconPath>UI/Icons/Genes/OAGene_DeepSleep</iconPath>
+        <geneClass>OberoniaAureaGene.Gene_DeepSleep</geneClass>
+        <displayCategory>Sleep</displayCategory>
+        <displayOrderInCategory>500</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <statFactors>
+            <RestRateMultiplier>0.8</RestRateMultiplier>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>OAGene_AgilityAction</defName>
+        <label>Agility action</label>
+        <description>The skeletal structure of carriers of this gene is very delicate, which allows them to maintain balance even in complex movements.</description>
+        <iconPath>UI/Icons/Genes/OAGene_AgilityAction</iconPath>
+        <displayCategory>Movement</displayCategory>
+        <displayOrderInCategory>500</displayOrderInCategory>
+        <biostatMet>-1</biostatMet>
+        <biostatCpx>1</biostatCpx>
+        <statOffsets>
+            <MeleeDodgeChance>7</MeleeDodgeChance>
+        </statOffsets>
+        <statFactors>
+            <MeleeDodgeChance>1.2</MeleeDodgeChance>
+        </statFactors>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>OAGene_BloodCellsAutophagy</defName>
+        <label>Autophagy of blood cells</label>
+        <description>Carriers of this gene will passively break down blood cells in the body during malnutrition to reduce energy consumption.</description>
+        <customEffectDescriptions>
+            <li>Malnutrition can gradually lead to blood loss.</li>
+        </customEffectDescriptions>
+        <iconPath>UI/Icons/Genes/OAGene_BloodCellsAutophagy</iconPath>
+        <geneClass>OberoniaAureaGene.Gene_BloodCellsAutophagy</geneClass>
+        <displayOrderInCategory>500</displayOrderInCategory>
+        <biostatMet>2</biostatMet>
+        <biostatCpx>1</biostatCpx>
+    </GeneDef>
+
+    <GeneDef>
+        <defName>OAGene_SpecificHemogen</defName>
+        <label>Specific Hemogen</label>
+        <displayCategory>Hemogen</displayCategory>
+        <description>The blood quality of carriers of this gene is somewhat different from that of normal individuals, and their blood cannot communicate with anyone.</description>
+        <iconPath>UI/Icons/Genes/OAGene_SpecificHemogen</iconPath>
+        <customEffectDescriptions>
+            <li>Cannot be bled</li>
+            <li>Unable to extract blood plasma</li>
+            <li>Cannot be transfused</li>
+        </customEffectDescriptions>
+        <displayOrderInCategory>-1</displayOrderInCategory>
+        <biostatMet>1</biostatMet>
+        <biostatCpx>1</biostatCpx>
+    </GeneDef>
+
+</Defs>

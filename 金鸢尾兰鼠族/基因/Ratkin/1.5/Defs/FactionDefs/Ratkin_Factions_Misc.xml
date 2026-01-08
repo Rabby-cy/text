@@ -1,0 +1,513 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<FactionDef ParentName="RatkinFactionBase">
+		<defName>Rakinia_RockRatkin</defName>
+		<label>Rock Ratkin Kingdom</label>
+		<description>A rakinia kingdom with most of its species being rock ratkins has a more aggressive diplomatic approach than a normal rakinia kingdom, but still allows for friendly communication.</description>
+		<colorSpectrum>
+			<li>(0.32, 0.32, 0.42)</li>
+			<li>(0.40, 0.40, 0.54)</li>
+		</colorSpectrum>
+		<pawnSingular>Rock rat</pawnSingular>
+		<pawnsPlural>Rock rat</pawnsPlural>
+		<categoryTag>RatkinStory</categoryTag>
+		<listOrderPriority>34</listOrderPriority>
+		<settlementGenerationWeight>0.85</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<maxConfigurableAtWorldCreation>2</maxConfigurableAtWorldCreation>
+		<canMakeRandomly>true</canMakeRandomly>
+		<leaderTitle>Rock Mouse Lord</leaderTitle>
+		<factionNameMaker>NamerFaction_RatkinKingdom_RockRatkin</factionNameMaker>
+		<settlementNameMaker>NamerSettlement_RatkinKingdom</settlementNameMaker>
+		<canSiege>true</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<factionIconPath>UI/Icons/Xenotypes/OAGene_RockRatkin</factionIconPath>
+		<techLevel>Industrial</techLevel>
+		<fixedLeaderKinds>
+            <li>RatkinEliteDefender</li>
+        </fixedLeaderKinds>
+		<melaninRange>0~0.35</melaninRange>
+		<backstoryCategories>
+			<li>Offworld</li>
+		</backstoryCategories>
+		<xenotypeSet Inherit="False">
+			<xenotypeChances>
+					<OAGene_PrimordialRatkin>0.24</OAGene_PrimordialRatkin>
+					<OAGene_WhiteRatkin>0.02</OAGene_WhiteRatkin>
+					<OAGene_TravelRatkin>0.06</OAGene_TravelRatkin>
+					<OAGene_RockRatkin>0.63</OAGene_RockRatkin>
+					<!--OAGene_BatRatkin>0.03</OAGene_BatRatkin-->
+					<OAGene_LowlandRatkin>0.04</OAGene_LowlandRatkin>
+					<OAGene_BiochemicalRatkinI>0.005</OAGene_BiochemicalRatkinI>
+					<OAGene_BiochemicalRatkinII>0.005</OAGene_BiochemicalRatkinII>
+					<OAGene_BiochemicalRatkinIII>0.005</OAGene_BiochemicalRatkinIII>
+					<OAGene_BiochemicalRatkinIV>0.005</OAGene_BiochemicalRatkinIV>
+			</xenotypeChances>
+		</xenotypeSet>
+		<pawnGroupMakers Inherit="False">
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>150</commonality>
+				<options>
+					<RatkinDefender>25</RatkinDefender>
+					<RatkinSoldier>6</RatkinSoldier>
+				</options>
+			</li>
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>50</commonality>
+				<options>
+					<RatkinEliteSoldier>8</RatkinEliteSoldier>
+					<RatkinDemonMan>2</RatkinDemonMan>
+					<RatkinDefender>22</RatkinDefender>
+					<RatkinEliteDefender>8</RatkinEliteDefender>
+				</options>
+			</li>
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<commonality>30</commonality>
+				<options>
+					<RatkinDefender>40</RatkinDefender>
+					<RatkinEliteSoldier>10</RatkinEliteSoldier>
+					<RatkinEliteDefender>15</RatkinEliteDefender>
+				</options>
+			</li>
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<RatkinNoble>10</RatkinNoble>
+					<RatkinColonist>20</RatkinColonist>
+					<RatkinServant>15</RatkinServant>
+					<RatkinEliteDefender>10</RatkinEliteDefender>
+					<RatkinKnight>10</RatkinKnight>
+					<RatkinPriest>10</RatkinPriest>
+				</options>
+			</li>
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<RatkinMerchant>15</RatkinMerchant>
+					<RatkinNoble>8</RatkinNoble>
+				</traders>
+				<carriers>
+					<Ratkin_KingHamster>6</Ratkin_KingHamster>
+				</carriers>
+				<guards>
+					<RatkinSoldier>15</RatkinSoldier>
+					<RatkinEliteDefender>10</RatkinEliteDefender>
+					<RatkinDefender>35</RatkinDefender>
+				</guards>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<RatkinNoble>3</RatkinNoble>
+					<RatkinColonist>6</RatkinColonist>
+					<RatkinServant>8</RatkinServant>
+					<RatkinCombatant>5</RatkinCombatant>
+					<RatkinDefender>18</RatkinDefender>
+					<RatkinEliteDefender>16</RatkinEliteDefender>
+					<RatkinPriest>3</RatkinPriest>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology"> 
+				<kindDef>Farmers</kindDef> <!-- 农业工作站需要 -->
+				<commonality>1</commonality>
+				<options>
+					<RatkinColonist>1</RatkinColonist>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<caravanTraderKinds Inherit="False">
+			<li>Caravan_Ratkin_BulkGoods</li>
+			<li>Caravan_Ratkin_DressMerchant</li>
+			<li>Caravan_Ratkin_Forge</li>
+			<li>Caravan_Ratkin_Free_company</li>
+		</caravanTraderKinds>
+		<visitorTraderKinds Inherit="False">
+			<li>Visitor_Outlander_Standard</li>
+		</visitorTraderKinds>
+		<baseTraderKinds Inherit="False">
+			<li>Base_Outlander_Standard</li>
+		</baseTraderKinds>
+		<allowedArrivalTemperatureRange>-30~45</allowedArrivalTemperatureRange>
+		<requiredMemes Inherit="False">
+            <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+        </requiredMemes>
+		<disallowedMemes Inherit="False">
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+		</disallowedMemes>
+		<structureMemeWeights Inherit="False">
+			<Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistEmbodied>
+			<Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">2</Structure_TheistAbstract>
+			<Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+			<Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Archist>
+			<Structure_OriginChristian MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginChristian>
+			<Structure_OriginIslamic MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginIslamic>
+			<Structure_OriginHindu MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginHindu>
+			<Structure_OriginBuddhist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginBuddhist>
+		</structureMemeWeights>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,35)</li>
+				<li>(70, 50)</li>
+				<li>(700, 100)</li>
+				<li>(1300, 150)</li>
+				<li>(100000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<apparelStuffFilter>
+			<stuffCategoriesToAllow>
+				<li>WeaponMetallic</li>
+				<li>Fabric</li>
+				<li>Leathery</li>
+				<li>Woody</li>
+			</stuffCategoriesToAllow>
+		</apparelStuffFilter>
+		<allowedCultures>
+			<li>RatkiniaTraditionCulture</li>
+		</allowedCultures>
+	</FactionDef>
+	
+	<FactionDef ParentName="RatkinFactionBase">
+		<defName>Rakinia_TravelRatkin</defName>
+		<label>Travel ratkin federation</label>
+		<description>A loose federation formed by a large number of travel ratkin camps, most of which are quite moderate forces.</description>
+		<colorSpectrum>
+			<li>(0.36, 0.58, 0.36)</li>
+		</colorSpectrum>
+		<pawnSingular>lemming</pawnSingular>
+		<pawnsPlural>lemming</pawnsPlural>
+		<categoryTag>RatkinStory</categoryTag>
+		<listOrderPriority>35</listOrderPriority>
+		<settlementGenerationWeight>1.15</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+		<canMakeRandomly>true</canMakeRandomly>
+		<leaderTitle>Federal leaders</leaderTitle>
+		<factionNameMaker>NamerFaction_RatkinKingdom_TravelRatkin</factionNameMaker>
+		<settlementNameMaker>NamerSettlement_RatkinKingdom</settlementNameMaker>
+		<canSiege>true</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<factionIconPath>UI/Icons/Xenotypes/OAGene_TravelRatkin</factionIconPath>
+		<techLevel>Industrial</techLevel>
+		<melaninRange>0~0.3</melaninRange>
+		<fixedLeaderKinds>
+            <li>RatkinEliteSoldier</li>
+        </fixedLeaderKinds>
+		<backstoryCategories>
+			<li>Offworld</li>
+		</backstoryCategories>
+		<xenotypeSet Inherit="False">
+			<xenotypeChances>
+					<OAGene_PrimordialRatkin>0.40</OAGene_PrimordialRatkin>
+					<OAGene_WhiteRatkin>0.035</OAGene_WhiteRatkin>
+					<OAGene_TravelRatkin>0.355</OAGene_TravelRatkin>
+					<OAGene_RockRatkin>0.07</OAGene_RockRatkin>
+					<OAGene_SnowRatkin>0.04</OAGene_SnowRatkin>
+					<OAGene_LowlandRatkin>0.05</OAGene_LowlandRatkin>
+					<OAGene_BiochemicalRatkinI>0.02</OAGene_BiochemicalRatkinI>
+					<OAGene_BiochemicalRatkinII>0.02</OAGene_BiochemicalRatkinII>
+					<OAGene_BiochemicalRatkinIII>0.02</OAGene_BiochemicalRatkinIII>
+					<OAGene_BiochemicalRatkinIV>0.02</OAGene_BiochemicalRatkinIV>
+			</xenotypeChances>
+		</xenotypeSet>
+		<pawnGroupMakers Inherit="False">
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>150</commonality>
+				<options>
+					<RatkinDefender>10</RatkinDefender>
+					<RatkinSoldier>20</RatkinSoldier>
+				</options>
+			</li>
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>50</commonality>
+				<options>
+					<RatkinEliteSoldier>30</RatkinEliteSoldier>
+					<RatkinEliteDefender>5</RatkinEliteDefender>
+				</options>
+			</li>
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<commonality>30</commonality>
+				<options>
+					<RatkinSoldier>40</RatkinSoldier>
+					<RatkinEliteSoldier>10</RatkinEliteSoldier>
+					<RatkinEliteDefender>15</RatkinEliteDefender>
+				</options>
+			</li>
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<RatkinNoble>10</RatkinNoble>
+					<RatkinColonist>20</RatkinColonist>
+					<RatkinServant>15</RatkinServant>
+					<RatkinEliteGuardener>10</RatkinEliteGuardener>
+					<RatkinKnight>10</RatkinKnight>
+					<RatkinPriest>10</RatkinPriest>
+				</options>
+			</li>
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<RatkinMerchant>15</RatkinMerchant>
+					<RatkinNoble>8</RatkinNoble>
+				</traders>
+				<carriers>
+					<Ratkin_KingHamster>6</Ratkin_KingHamster>
+				</carriers>
+				<guards>
+					<RatkinSoldier>35</RatkinSoldier>
+					<RatkinEliteSoldier>10</RatkinEliteSoldier>
+					<RatkinDefender>15</RatkinDefender>
+				</guards>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<RatkinNoble>3</RatkinNoble>
+					<RatkinColonist>6</RatkinColonist>
+					<RatkinServant>8</RatkinServant>
+					<RatkinCombatant>5</RatkinCombatant>
+					<RatkinSoldier>25</RatkinSoldier>
+					<RatkinEliteSoldier>16</RatkinEliteSoldier>
+					<RatkinPriest>3</RatkinPriest>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<caravanTraderKinds Inherit="False">
+			<li>Caravan_Ratkin_Traveler</li>
+			<li>Caravan_Ratkin_DressMerchant</li>
+			<li>Caravan_Ratkin_CombatSupplier</li>
+			<li>Caravan_Ratkin_Free_company</li>
+		</caravanTraderKinds>
+		<visitorTraderKinds Inherit="False">
+			<li>Visitor_Outlander_Standard</li>
+		</visitorTraderKinds>
+		<baseTraderKinds Inherit="False">
+			<li>Base_Outlander_Standard</li>
+		</baseTraderKinds>
+		<allowedArrivalTemperatureRange>-40~45</allowedArrivalTemperatureRange>
+		<disallowedMemes Inherit="False">
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+		</disallowedMemes>
+		<structureMemeWeights Inherit="False">
+			<Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistEmbodied>
+			<Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">2</Structure_TheistAbstract>
+			<Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">2</Structure_Ideological>
+			<Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Archist>
+			<Structure_OriginChristian MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginChristian>
+			<Structure_OriginIslamic MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginIslamic>
+			<Structure_OriginHindu MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginHindu>
+			<Structure_OriginBuddhist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginBuddhist>
+		</structureMemeWeights>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,35)</li>
+				<li>(70, 50)</li>
+				<li>(700, 100)</li>
+				<li>(1300, 150)</li>
+				<li>(100000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<apparelStuffFilter>
+			<stuffCategoriesToAllow>
+				<li>WeaponMetallic</li>
+				<li>Fabric</li>
+				<li>Leathery</li>
+				<li>Woody</li>
+			</stuffCategoriesToAllow>
+		</apparelStuffFilter>
+		<allowedCultures>
+			<li>RatkiniaTraditionCulture</li>
+		</allowedCultures>
+	</FactionDef>
+	
+	<FactionDef ParentName="RatkinFactionBase">
+		<defName>Rakinia_SnowRatkin</defName>
+		<label>Snow Ratkin Kingdom</label>
+		<description>The Rakinia Kingdom, established by a large number of snow ratkin tribes in extremely cold regions, has a strong sense of territory but shows no concern for things in hot areas.</description>
+		<colorSpectrum>
+			<li>(0.72, 0.72, 0.72)</li>
+		</colorSpectrum>
+		<pawnSingular>Snow Ratkin</pawnSingular>
+		<pawnsPlural>Snow Ratkins</pawnsPlural>
+		<categoryTag>RatkinStory</categoryTag>
+		<listOrderPriority>36</listOrderPriority>
+		<settlementGenerationWeight>0.85</settlementGenerationWeight>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<maxConfigurableAtWorldCreation>1</maxConfigurableAtWorldCreation>
+		<canMakeRandomly>true</canMakeRandomly>
+		<leaderTitle>雪鼠领主</leaderTitle>
+		<factionNameMaker>NamerFaction_RatkinKingdom_SnowRatkin</factionNameMaker>
+		<settlementNameMaker>NamerSettlement_RatkinKingdom</settlementNameMaker>
+		<canSiege>true</canSiege>
+		<canStageAttacks>true</canStageAttacks>
+		<factionIconPath>UI/Icons/Xenotypes/OAGene_SnowRatkin</factionIconPath>
+		<techLevel>Industrial</techLevel>
+		<melaninRange>0~0.22</melaninRange>
+		<fixedLeaderKinds>
+            <li>RatkinEliteSoldier</li>
+        </fixedLeaderKinds>
+		<backstoryCategories>
+			<li>Offworld</li>
+		</backstoryCategories>
+		<xenotypeSet Inherit="False">
+			<xenotypeChances>
+					<OAGene_PrimordialRatkin>0.05</OAGene_PrimordialRatkin>
+					<OAGene_WhiteRatkin>0.03</OAGene_WhiteRatkin>
+					<OAGene_TravelRatkin>0.10</OAGene_TravelRatkin>
+					<OAGene_RockRatkin>0.015</OAGene_RockRatkin>
+					<OAGene_SnowRatkin>0.78</OAGene_SnowRatkin>
+					<OAGene_LowlandRatkin>0.025</OAGene_LowlandRatkin>
+					<OAGene_BiochemicalRatkinI>0.005</OAGene_BiochemicalRatkinI>
+					<OAGene_BiochemicalRatkinII>0.005</OAGene_BiochemicalRatkinII>
+					<OAGene_BiochemicalRatkinIII>0.005</OAGene_BiochemicalRatkinIII>
+					<OAGene_BiochemicalRatkinIV>0.005</OAGene_BiochemicalRatkinIV>
+			</xenotypeChances>
+		</xenotypeSet>
+		<pawnGroupMakers Inherit="False">
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>50</commonality>
+				<options>
+					<RatkinDefender>10</RatkinDefender>
+					<RatkinSoldier>20</RatkinSoldier>
+					<RatkinEliteSoldier>15</RatkinEliteSoldier>
+					<RatkinEliteDefender>10</RatkinEliteDefender>
+				</options>
+			</li>
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>150</commonality>
+				<options>
+					<RatkinEliteSoldier>20</RatkinEliteSoldier>
+					<RatkinEliteDefender>8</RatkinEliteDefender>
+				</options>
+			</li>
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>Siege</li>
+				</disallowedStrategies>
+				<commonality>30</commonality>
+				<options>
+					<RatkinSoldier>12</RatkinSoldier>
+					<RatkinEliteSoldier>25</RatkinEliteSoldier>
+					<RatkinEliteDefender>10</RatkinEliteDefender>
+				</options>
+			</li>
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<RatkinNoble>10</RatkinNoble>
+					<RatkinColonist>20</RatkinColonist>
+					<RatkinServant>15</RatkinServant>
+					<RatkinEliteGuardener>15</RatkinEliteGuardener>
+					<RatkinKnight>10</RatkinKnight>
+					<RatkinPriest>10</RatkinPriest>
+				</options>
+			</li>
+			<li>
+				<kindDef>Trader</kindDef>
+				<traders>
+					<RatkinMerchant>15</RatkinMerchant>
+					<RatkinNoble>8</RatkinNoble>
+				</traders>
+				<carriers>
+					<Ratkin_KingHamster>6</Ratkin_KingHamster>
+				</carriers>
+				<guards>
+					<RatkinSoldier>10</RatkinSoldier>
+					<RatkinEliteSoldier>15</RatkinEliteSoldier>
+					<RatkinDefender>15</RatkinDefender>
+				</guards>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<RatkinNoble>3</RatkinNoble>
+					<RatkinColonist>6</RatkinColonist>
+					<RatkinServant>8</RatkinServant>
+					<RatkinCombatant>5</RatkinCombatant>
+					<RatkinSoldier>15</RatkinSoldier>
+					<RatkinEliteSoldier>22</RatkinEliteSoldier>
+					<RatkinPriest>3</RatkinPriest>
+				</options>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology"> 
+				<kindDef>Farmers</kindDef> <!-- 农业工作站需要 -->
+				<commonality>1</commonality>
+				<options>
+					<RatkinColonist>1</RatkinColonist>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<caravanTraderKinds Inherit="False">
+			<li>Caravan_Ratkin_BulkGoods</li>
+			<li>Caravan_Ratkin_Snow</li>
+			<li>Caravan_Ratkin_CombatSupplier</li>
+			<li>Caravan_Ratkin_Free_company</li>
+		</caravanTraderKinds>
+		<visitorTraderKinds Inherit="False">
+			<li>Visitor_Outlander_Standard</li>
+		</visitorTraderKinds>
+		<baseTraderKinds Inherit="False">
+			<li>Base_Outlander_Standard</li>
+		</baseTraderKinds>
+		<allowedArrivalTemperatureRange>-55~20</allowedArrivalTemperatureRange>
+		<requiredMemes Inherit="False">
+            <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">OAGene_TerritorialHegemony</li>
+        </requiredMemes>
+		<disallowedMemes Inherit="False">
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+		</disallowedMemes>
+		<structureMemeWeights Inherit="False">
+			<Structure_TheistEmbodied MayRequire="Ludeon.RimWorld.Ideology">1</Structure_TheistEmbodied>
+			<Structure_TheistAbstract MayRequire="Ludeon.RimWorld.Ideology">5</Structure_TheistAbstract>
+			<Structure_Ideological MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Ideological>
+			<Structure_Archist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_Archist>
+			<Structure_OriginChristian MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginChristian>
+			<Structure_OriginIslamic MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginIslamic>
+			<Structure_OriginHindu MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginHindu>
+			<Structure_OriginBuddhist MayRequire="Ludeon.RimWorld.Ideology">1</Structure_OriginBuddhist>
+		</structureMemeWeights>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0,35)</li>
+				<li>(70, 50)</li>
+				<li>(700, 100)</li>
+				<li>(1300, 150)</li>
+				<li>(100000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<apparelStuffFilter>
+			<stuffCategoriesToAllow>
+				<li>WeaponMetallic</li>
+				<li>Fabric</li>
+				<li>Leathery</li>
+				<li>Woody</li>
+			</stuffCategoriesToAllow>
+		</apparelStuffFilter>
+		<allowedCultures>
+			<li>RatkiniaTraditionCulture</li>
+		</allowedCultures>
+	</FactionDef>
+</Defs>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <HediffDef>
+        <defName>OAGene_XenogermRepairing</defName>
+        <label>Gene repair</label>
+        <description>The character's genes have only recently undergone one gene repair, and in order to prevent the gene chain from collapsing due to excessive repair, gene repair cannot be performed again during this period.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>true</isBad>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <duplicationAllowed>false</duplicationAllowed>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>600000</disappearsAfterTicks>
+                <showRemainingTime>true</showRemainingTime>
+            </li>
+        </comps>
+    </HediffDef>
+
+</Defs>

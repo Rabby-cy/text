@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    
+    <OberoniaAureaGene>[OA]鼠族基因扩展</OberoniaAureaGene>
+
+    <OAGene_SnowstormBreakRoof>暴风雪是否能掀飞建筑屋顶</OAGene_SnowstormBreakRoof>
+    <OAGene_SnowstormBreakNaturalRoof>暴风雪是否能掀飞自然屋顶</OAGene_SnowstormBreakNaturalRoof>
+    <OAGene_SnowstormBreakThickRoof>暴风雪是否能掀飞厚岩顶</OAGene_SnowstormBreakThickRoof>
+    <OAGene_ColumnProtectRadius>DEV: 支撑柱保护屋顶半径：{0}格</OAGene_ColumnProtectRadius>
+
+    <OAGene_NeedRestart>以下设置需要重启游戏以应用更改</OAGene_NeedRestart>
+
+    <OAGene_DodgeChancePatch>启用 刀剑无沾 多次闪避判定机制</OAGene_DodgeChancePatch>
+    <OAGene_DodgeChancePatchTooltip>刀剑无沾基因涉及次闪避判定，这与 Vanilla Combat Reloaded 模组产生了冲突，表现为不正常的标签闪烁。若禁用，刀剑无粘基因将会失效，但冲突闪烁将不再发生。\n\n若未启用 Vanilla Combat Reloaded 模组，推荐将该设置保持启用。</OAGene_DodgeChancePatchTooltip>
+
+    <OAGene_ForMountaintopCave>山顶洞人推荐</OAGene_ForMountaintopCave>
+
+</LanguageData>

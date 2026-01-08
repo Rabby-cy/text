@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>RatkinGene</defName>
+		<label>Mouse genetic technology</label>
+		<description>Imitate the genetic technology of outsiders and manufacture destructive gene extractors and gene analyzers for the mouse tribe.</description>
+		<tab>RatkinTech</tab>
+		<baseCost>750</baseCost>
+		<techLevel>Industrial</techLevel>
+		<!-- hiddenPrerequisites>
+			<li>Xenogermination</li>
+		</hiddenPrerequisites -->
+		<researchViewX>4</researchViewX>
+		<researchViewY>5.5</researchViewY>
+	</ResearchProjectDef>
+	
+</Defs>

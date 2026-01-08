@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>[OA]Ratkin Scenario: Snowstorm Orphan</li>
+        </mods>
+        <nomatch Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs/HediffGiverSetDef[defName="OrganicStandard"]/hediffGivers</xpath>
+                    <value>
+                        <li Class="OberoniaAureaGene.HediffGiver_SnowExtremeBase">
+                            <snowExtremeHediff>OAGene_Hediff_SnowExtreme</snowExtremeHediff>
+                            <coldSnowHediff>OAGene_Hediff_ColdSnow</coldSnowHediff>
+                            <coldImmersionHediff>OAGene_Hediff_ColdImmersion</coldImmersionHediff>
+                            <frozenWoundHediff>OAGene_Hediff_FrozenWound</frozenWoundHediff>
+                        </li>
+                    </value>
+                </li>
+                <li Class="OberoniaAurea_Frame.PatchOperationCheckDLC">
+                    <Anomaly>true</Anomaly>
+                    <match Class="PatchOperationAdd">
+                        <xpath>Defs/HediffGiverSetDef[defName="Fleshbeast" or defName="AnomalyEntity"]/hediffGivers</xpath>
+                        <value>
+                            <li Class="OberoniaAureaGene.HediffGiver_SnowExtremeBase">
+                                <snowExtremeHediff>OAGene_Hediff_SnowExtreme</snowExtremeHediff>
+                                <coldSnowHediff>OAGene_Hediff_ColdSnow</coldSnowHediff>
+                                <coldImmersionHediff>OAGene_Hediff_ColdImmersion</coldImmersionHediff>
+                                <frozenWoundHediff>OAGene_Hediff_FrozenWound</frozenWoundHediff>
+                            </li>
+                        </value>
+                    </match>
+                </li>
+            </operations>
+        </nomatch>
+    </Operation>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[@Name="BaseMechanoid"]/race/hediffGiverSets</xpath>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[@Name="BaseMechanoid"]/race/hediffGiverSets</xpath>
+            <value>
+                <li>OAGene_MechanoidGiver</li>
+            </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[@Name="BaseMechanoid"]/race</xpath>
+            <value>
+                <hediffGiverSets>
+                    <li>OAGene_MechanoidGiver</li>
+                </hediffGiverSets>
+            </value>
+        </nomatch>
+    </Operation>
+
+</Patch>

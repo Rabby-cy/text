@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <OAGene_EfficientNeuron.label>高效神经系统</OAGene_EfficientNeuron.label>
+  <OAGene_EfficientNeuron.description>这种基因的携带者的神经系统异常发达，这使得他们的思维速度比常人要快得多，但是这样发达的神经系统也会对身体造成一定的影响。</OAGene_EfficientNeuron.description>
+  <OAGene_SurvivalInstinct.label>求生本能</OAGene_SurvivalInstinct.label>
+  <OAGene_SurvivalInstinct.description>由于敌人的接近而产生了本能的恐惧反应，肾上腺素水平得到了迅速提升。</OAGene_SurvivalInstinct.description>
+  <OAGene_BloodCellsAutophagy.label>血细胞自噬</OAGene_BloodCellsAutophagy.label>
+  <OAGene_BloodCellsAutophagy.description>因为营养不良的原因，身体开始自发的分解血细胞，这个过程很缓慢，但若是持续的营养不良也将会演变为致命的情况。</OAGene_BloodCellsAutophagy.description>
+  <OAGene_DeepSleep.label>深度沉眠</OAGene_DeepSleep.label>
+  <OAGene_DeepSleep.description>[深度沉眠]基因导致的饥饿度流失减少。</OAGene_DeepSleep.description>
+  <OAGene_XenogermRepairing.label>基因修复</OAGene_XenogermRepairing.label>
+  <OAGene_XenogermRepairing.description>该角色的基因近期才受到一次基因修复，为了防止基因链过量修复而崩溃，此期间内无法再次进行基因修复。</OAGene_XenogermRepairing.description>
+
+  <OAGene_Hediff_SnowExtreme.label>极端风雪</OAGene_Hediff_SnowExtreme.label>
+  <OAGene_Hediff_SnowExtreme.description>极端的天气严重干扰了移动与观察，在这种天气下进行室外活动是一个相当糟糕的主意。</OAGene_Hediff_SnowExtreme.description>
+  <OAGene_Hediff_ColdSnow.label>冷雪</OAGene_Hediff_ColdSnow.label>
+  <OAGene_Hediff_ColdSnow.description>过低的温度导致了严重的急性冻伤，所有与雪花接触到的部位都会变得僵硬且痛苦不堪。</OAGene_Hediff_ColdSnow.description>
+  <OAGene_Hediff_ColdImmersion.label>寒冷浸彻</OAGene_Hediff_ColdImmersion.label>
+  <OAGene_Hediff_ColdImmersion.description>刮到身上的积雪还未融化，便已经有一层新雪覆盖了上来。寒冷将会随着覆雪的积累而不断侵袭，只有在室温零度以上的环境才会缓慢消退。\n\n在这种极端的寒冷下，致命的低温症往往会比预想来的要快很多。</OAGene_Hediff_ColdImmersion.description>
+  <OAGene_Hediff_FrozenWound.label>创口冻结</OAGene_Hediff_FrozenWound.label>
+  <OAGene_Hediff_FrozenWound.description>由于过冷的温度，开放性创口周边已经凝结了一层细碎的血冰。\n这些冰渣会阻碍创口的自然愈合，某些坚硬的碎冰甚至会扎入伤口内部，使得患者创口疼痛不堪。</OAGene_Hediff_FrozenWound.description>
+
+  <OAGene_ObeyOrderForceJob.label>盲从命令</OAGene_ObeyOrderForceJob.label>
+  <OAGene_ObeyOrderForceJob.description>得益于对命令的天性服从，因此能够全心全意的专注于执行本身。目前不应出现。</OAGene_ObeyOrderForceJob.description>
+  <OAGene_ObeyOrderWorking.label>盲从管制</OAGene_ObeyOrderWorking.label>
+  <OAGene_ObeyOrderWorking.description>由于基因中的天性服从，因此能保证工作期间没有多余的思想扰乱。</OAGene_ObeyOrderWorking.description>
+  <OAGene_ObeyOrderNonDraft.label>未受征召</OAGene_ObeyOrderNonDraft.label>
+  <OAGene_ObeyOrderNonDraft.description>基因的天性渴望着命令。当长时间没有得到直接的命令时，会自我与基因逐渐产生冲突，并进而影响工作的积极性。</OAGene_ObeyOrderNonDraft.description>
+    
+</LanguageData>

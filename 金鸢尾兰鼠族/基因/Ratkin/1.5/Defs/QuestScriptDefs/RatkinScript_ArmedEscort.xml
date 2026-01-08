@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <QuestScriptDef>
+        <defName>OAGene_ArmedEscort</defName>
+        <rootSelectionWeight>0</rootSelectionWeight>
+        <isRootSpecial>true</isRootSpecial>
+        <expireDaysRange>4~8</expireDaysRange>
+        <questNameRules>
+            <rulesStrings>
+                <li>questName->武装押运</li>
+                <li>questName->物资转移</li>
+                <li>questName->白银押运</li>
+                <li>questName->一场[special] [trade]</li>
+                <li>special->[settlement_label]的</li>
+                <li>special->[asker_nameFull]的</li>
+                <li>special->有风险的</li>
+                <li>escort->押运任务</li>
+                <li>escort->武装押运</li>
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+                <li>questDescription->[ratkinFaction_name]的[ratkinFaction_leaderTitle]，[asker_nameFull]，向我们发来了一份特殊的押运请求。\n她想要请求我们从[settlement_label]押运 白银 x[requestedThingCount] 前往 [destSettlement_label]\n\n如果我们接受这份押运请求，则需要派出一支远行队前往[settlement_label]领取押运白银，并在规定时限内将等量白银通过远行队送往[destSettlement_label]。\n\n前往[settlement_label]旅途预估时间：[estimatedTravelTime_duration]。\n前往[destSettlement_label]旅途预估时间：[estimatedTravelTimeII_duration]。</li>
+            </rulesStrings>
+        </questDescriptionRules>
+        <root Class="QuestNode_Sequence">
+            <nodes>
+                <li Class="QuestNode_GetMap" />
+
+                <li Class="QuestNode_GetMapWealth">
+                    <map>$map</map>
+                    <storeAs>mapWealth</storeAs>
+                </li>
+                <li Class="QuestNode_GreaterOrFail">
+                    <value1>$mapWealth</value1>
+                    <value2>180000</value2>
+                </li>
+
+                <li Class="OberoniaAurea_Frame.QuestNode_GetFaction">
+                    <allowAlly>true</allowAlly>
+                    <allowNeutral>true</allowNeutral>
+                    <allowEnemy>false</allowEnemy>
+                    <factionDef>Rakinia_TravelRatkin</factionDef>
+                    <storeAs>ratkinFaction</storeAs>
+                </li>
+                <li Class="OberoniaAurea_Frame.QuestNode_GetFactionLeader">
+                    <faction>$ratkinFaction</faction>
+                    <storeAs>asker</storeAs>
+                </li>
+
+                <li Class="OberoniaAureaGene.Ratkin.QuestNode_GetArmedEscortSettlement">
+                    <maxTileDistance>90</maxTileDistance>
+                    <minEscortTileDistance>10</minEscortTileDistance>
+                    <preferCloser>true</preferCloser>
+                    <faction>$ratkinFaction</faction>
+                    <storeStartSettleAs>settlement</storeStartSettleAs>
+                    <storeDestSettleAs>destSettlement</storeDestSettleAs>
+                </li>
+
+                <li Class="QuestNode_Set">
+                    <name>requestedThingCount</name>
+                    <value>$(randInt(16000, 22000))</value>
+                </li>
+                <li Class="QuestNode_Set">
+                    <name>requestedThingMarketValue</name>
+                    <value>$requestedThingCount</value>
+                </li>
+
+                <li Class="QuestNode_TradeRequest_RandomOfferDuration">
+                    <settlement>$settlement</settlement>
+                    <storeAs>timeout</storeAs>
+                    <storeEstimatedTravelTimeAs>estimatedTravelTime</storeEstimatedTravelTimeAs>
+                </li>
+                <li Class="OberoniaAurea_Frame.QuestNode_InitiateSaleRequest">
+                    <settlement>$settlement</settlement>
+                    <requestedThingDef>Silver</requestedThingDef>
+                    <requestedThingCount>$requestedThingCount</requestedThingCount>
+                    <duration>$timeout</duration>
+                </li>
+
+                <li Class="QuestNode_TradeRequest_RandomOfferDuration">
+                    <settlement>$destSettlement</settlement>
+                    <storeAs>timeoutII</storeAs>
+                    <storeEstimatedTravelTimeAs>estimatedTravelTimeII</storeEstimatedTravelTimeAs>
+                </li>
+                <li Class="QuestNode_Signal">
+                    <inSignal>settlement.OAFrame_SaleRequestFulfilled</inSignal>
+                    <node Class="QuestNode_TradeRequest_Initiate">
+                        <settlement>$destSettlement</settlement>
+                        <requestedThingDef>Silver</requestedThingDef>
+                        <requestedThingCount>$requestedThingCount</requestedThingCount>
+                        <duration>$timeoutII</duration>
+                    </node>
+                </li>
+
+                <!-- Rewards -->
+                <li Class="QuestNode_Set">
+                    <name>rewardValue</name>
+                    <value>$(randInt(3800, 5000))</value>
+                </li>
+
+                <li Class="QuestNode_GiveRewards">
+                    <inSignal>destSettlement.TradeRequestFulfilled</inSignal>
+                    <parms>
+                        <thingRewardItemsOnly>true</thingRewardItemsOnly>
+                        <giveToCaravan>true</giveToCaravan>
+                    </parms>
+                    <useDifficultyFactor>false</useDifficultyFactor>                    <!-- we only care about requested total market value -->
+                </li>
+
+                <!-- End conditions -->
+                <li Class="QuestNode_Letter">
+                    <inSignal>ratkinFaction.BecameHostileToPlayer</inSignal>
+                    <label TKey="LetterLabelQuestFailed">任务失败：[resolvedQuestName]</label>
+                    <text TKey="LetterTextQuestFailed">[ratkinFaction_name]开始与你敌对了。</text>
+                </li>
+                <!-- 时限I前未接受白银则任务失效 -->
+                <li Class="QuestNode_Delay">
+                    <inSignalDisable>settlement.OAFrame_SaleRequestFulfilled</inSignalDisable>                    <!-- 接受白银后停止计时 -->
+                    <delayTicks>$timeout</delayTicks>
+                    <isQuestTimeout>true</isQuestTimeout>
+                    <outSignalComplete>SatrtSaleRequestTimeout</outSignalComplete>
+                </li>
+
+                <!-- 时限II前未给予白银则任务失效 -->
+                <li Class="QuestNode_Delay">
+                    <inSignalEnable>settlement.OAFrame_SaleRequestFulfilled</inSignalEnable>                    <!-- 接受白银后开始计时 -->
+                    <delayTicks>$timeoutII</delayTicks>
+                    <isQuestTimeout>true</isQuestTimeout>
+                    <outSignalComplete>DestTradeRequestTimeout</outSignalComplete>
+                </li>
+
+                <!-- End outcomes -->
+                <li Class="QuestNode_Signal">
+                    <inSignal>ratkinFaction.BecameHostileToPlayer</inSignal>
+                    <inSignalDisable>settlement.OAFrame_SaleRequestFulfilled</inSignalDisable>
+                    <outSignals>Request_HostileFail</outSignals>
+                </li>
+
+                <li Class="QuestNode_SignalActivable">
+                    <inSignal>ratkinFaction.BecameHostileToPlayer</inSignal>
+                    <inSignalEnable>settlement.OAFrame_SaleRequestFulfilled</inSignalEnable>
+                    <outSignals>Request_HostileBigFail</outSignals>
+                </li>
+
+                <!-- 一般失败 -->
+                <li Class="QuestNode_AnySignal">
+                    <inSignals>
+                        <li>Request_HostileFail</li>                        <!-- 敌对导致失败 -->
+                        <li>SatrtSaleRequestTimeout</li>                        <!-- 未领取白银导致失败 -->
+                    </inSignals>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_ChangeFactionGoodwill">
+                                <faction>$ratkinFaction</faction>
+                                <reason>OAGene_AbandonContract</reason>
+                                <change>-25</change>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Fail</outcome>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+
+                <!-- 大失败 -->
+                <li Class="QuestNode_AnySignal">
+                    <inSignals>
+                        <li>Request_HostileBigFail</li>                        <!-- 敌对导致失败 -->
+                        <li>DestTradeRequestTimeout</li>                        <!-- 领取但未送达白银导致失败 -->
+                    </inSignals>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="OberoniaAurea_Frame.QuestNode_AllFactionsGoodwillChange">
+                                <goodwillChange>-60</goodwillChange>
+                                <historyEvent>OAGene_AbandonContract</historyEvent>
+                            </li>
+                            <li Class="QuestNode_ChangeFactionGoodwill">
+                                <faction>$ratkinFaction</faction>
+                                <reason>OAGene_AbandonContract</reason>
+                                <change>-150</change>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Fail</outcome>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+
+                <li Class="QuestNode_End">                    <!-- 任务成功 -->
+                    <inSignal>destSettlement.TradeRequestFulfilled</inSignal>
+                    <outcome>Success</outcome>
+                    <sendStandardLetter>true</sendStandardLetter>
+                </li>
+
+            </nodes>
+        </root>
+    </QuestScriptDef>
+
+</Defs>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <GoodwillSituationDef>
+        <defName>OAGene_HasHegemonicFlag</defName>
+        <label>地区霸权</label>
+        <workerClass>OberoniaAureaGene.GoodwillSituationWorker_HasHegemonicFlag</workerClass>
+        <naturalGoodwillOffset>-20</naturalGoodwillOffset>
+        <ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>
+    </GoodwillSituationDef>
+
+</Defs>

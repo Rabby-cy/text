@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OAGene_PortableTorch"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>杖尾</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>10.5</power>
+					<cooldownTime>2</cooldownTime>
+					<chanceFactor>1.5</chanceFactor>
+					<armorPenetrationBlunt>3.2</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>杖头</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>6.5</power>
+					<cooldownTime>2</cooldownTime>
+					<chanceFactor>1.5</chanceFactor>
+					<armorPenetrationSharp>1.8</armorPenetrationSharp>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OAGene_AntiSnowTorch"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>杖尾</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>9</power>
+					<cooldownTime>2</cooldownTime>
+					<chanceFactor>1.5</chanceFactor>
+					<armorPenetrationBlunt>2.4</armorPenetrationBlunt>				
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>杖尖</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>12</power>
+					<cooldownTime>2</cooldownTime>
+					<chanceFactor>1.5</chanceFactor>
+					<armorPenetrationBlunt>3.4</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>杖头</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>16.5</power>
+					<cooldownTime>1.8</cooldownTime>
+					<chanceFactor>2.5</chanceFactor>
+					<armorPenetrationSharp>4.2</armorPenetrationSharp>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+</Patch>

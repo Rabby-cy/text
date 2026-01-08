@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="MoteBase">
+        <defName>OAFrame_Mote_AttachedText</defName>
+        <graphicData>
+            <texPath>Things/Mote/Transparent</texPath>
+        </graphicData>
+        <thingClass>OberoniaAurea_Frame.MoteAttached_Text</thingClass>
+        <drawGUIOverlay>true</drawGUIOverlay>
+        <altitudeLayer>MetaOverlays</altitudeLayer>
+        <mote>
+            <attachedDrawOffset>(0, 0, 1.0)</attachedDrawOffset>
+            <realTime>false</realTime>
+            <solidTime>3</solidTime>
+        </mote>
+    </ThingDef>
+
+</Defs>

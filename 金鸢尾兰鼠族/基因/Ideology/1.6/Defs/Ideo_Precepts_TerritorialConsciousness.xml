@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <IssueDef>
+        <defName>OAGene_TerritorialConsciousness</defName>
+        <label>Territorial consciousness</label>
+        <iconPath>UI/Icons/Ideos/OAGene_TerritorialConsciousness</iconPath>
+    </IssueDef>
+
+    <HistoryEventDef>
+        <defName>OAGene_ThreatBig</defName>
+        <label>严重威胁</label>
+    </HistoryEventDef>
+    
+      <HistoryEventDef>
+        <defName>OAGene_PlayerThreatBig</defName>
+        <label>严重威胁</label>
+    </HistoryEventDef>
+
+    <PreceptDef>
+        <defName>OAGene_TerritorialConsciousness_Moderate</defName>
+        <issue>OAGene_TerritorialConsciousness</issue>
+        <label>Temperate</label>
+        <description>Our territorial sovereignty should be respected by others.</description>
+        <impact>Medium</impact>
+        <!--conditionalStatAffecters>
+            <li Class="OberoniaAureaGene.ConditionalStatAffecter_OurTerritory">
+                <label>领地信念</label>
+                <statOffsets>
+                    <PainShockThreshold>0.05</PainShockThreshold>
+                </statOffsets>
+            </li>
+        </conditionalStatAffecters-->
+        <comps>
+            <li Class="PreceptComp_SituationalThought">
+                <thought>OAGene_TerritorialConsciousness_EnemiesModerate</thought>
+            </li>
+            <li Class="PreceptComp_SituationalThought">
+                <thought>OAGene_TerritorialConsciousness_SitesModerate</thought>
+            </li>
+            <li Class="PreceptComp_SituationalThought">
+                <thought>OAGene_HegemonicFlag_Moderate</thought>
+            </li>
+            <li Class="PreceptComp_SelfTookMemoryThought">
+                <eventDef>OAGene_ThreatBig</eventDef>
+                <thought>OAGene_TerritorialBelief_Moderate</thought>
+            </li>
+        </comps>
+    </PreceptDef>
+    <PreceptDef>
+        <defName>OAGene_TerritorialConsciousness_Intense</defName>
+        <issue>OAGene_TerritorialConsciousness</issue>
+        <label>Strong</label>
+        <description>Our territorial sovereignty is universally recognized, and anyone who violates our sovereignty will suffer a blow.</description>
+        <impact>High</impact>
+        <defaultSelectionWeight>0</defaultSelectionWeight>
+        <requiredMemes>
+            <li>OAGene_TerritorialHegemony</li>
+        </requiredMemes>
+        <conditionalStatAffecters>
+            <li Class="OberoniaAureaGene.ConditionalStatAffecter_OurTerritory">
+                <label>领地内</label>
+                <statOffsets>
+                    <PainShockThreshold>0.10</PainShockThreshold>
+                </statOffsets>
+            </li>
+        </conditionalStatAffecters>
+        <comps>
+            <li Class="PreceptComp_SituationalThought">
+                <thought>OAGene_TerritorialConsciousness_EnemiesIntense</thought>
+            </li>
+            <li Class="PreceptComp_SituationalThought">
+                <thought>OAGene_TerritorialConsciousness_SitesIntense</thought>
+            </li>
+            <li Class="PreceptComp_SituationalThought">
+                <thought>OAGene_HegemonicFlag_Intense</thought>
+            </li>
+            <li Class="PreceptComp_SelfTookMemoryThought">
+                <eventDef>OAGene_ThreatBig</eventDef>
+                <thought>OAGene_TerritorialBelief_Intense</thought>
+            </li>
+        </comps>
+    </PreceptDef>
+
+    
+    <!-- 领地上有敌人 -->
+    <ThoughtDef>
+        <defName>OAGene_TerritorialConsciousness_EnemiesIntense</defName>
+        <workerClass>OberoniaAureaGene.ThoughtWorker_Precept_TerritorialConsciousnessEnemies</workerClass>
+        <thoughtClass>Thought_Situational</thoughtClass>
+        <stages>
+            <li>
+                <label>Enemies appear in the territory (small amount)</label>
+                <description>We should not allow these guys to flaunt their power on our territory.</description>
+                <baseMoodEffect>-3</baseMoodEffect>
+            </li>
+            <li>
+                <label>Enemies appear in the territory (medium)</label>
+                <description>We should immediately start driving these guys out of our territory.</description>
+                <baseMoodEffect>-7</baseMoodEffect>
+            </li>
+            <li>
+                <label>Enemies appear in the territory (In large quantities)</label>
+                <description>We must immediately drive these bastards out of our territory, by any means possible!</description>
+                <baseMoodEffect>-12</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>OAGene_TerritorialConsciousness_EnemiesModerate <ThoughtDef>
+        <defName>OAGene_TerritorialConsciousness_EnemiesModerate</defName>
+        <workerClass>OberoniaAureaGene.ThoughtWorker_Precept_TerritorialConsciousnessEnemies</workerClass>
+        <thoughtClass>Thought_Situational</thoughtClass>
+        <stages>
+            <li>
+                <label>Enemies appear in the territory (small amount)</label>
+                <description>Some annoying guys came to our territory without permission.</description>
+                <baseMoodEffect>-2</baseMoodEffect>
+            </li>
+            <li>
+                <label>Enemies appear in the territory（medium）</label>
+                <description>Our territorial sovereignty is being disregarded by outsiders.</description>
+                <baseMoodEffect>-4</baseMoodEffect>
+            </li>
+            <li>
+                <label>Enemies appear in the territory（In large quantities）</label>
+                <description>Our territorial sovereignty is no longer complete, we must do something!</description>
+                <baseMoodEffect>-7</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <!-- 领地附近有敌方据点 -->
+    <ThoughtDef>
+        <defName>OAGene_TerritorialConsciousness_SitesModerate</defName>
+        <workerClass>OberoniaAureaGene.ThoughtWorker_Precept_TerritorialConsciousnessSites</workerClass>
+        <thoughtClass>Thought_Situational</thoughtClass>
+        <stages>
+            <li>
+                <label>There are hostile strongholds near the territory</label>
+                <description>There are some restless guys near our territory.</description>
+                <baseMoodEffect>-2</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef>
+        <defName>OAGene_TerritorialConsciousness_SitesIntense</defName>
+        <workerClass>OberoniaAureaGene.ThoughtWorker_Precept_TerritorialConsciousnessSites</workerClass>
+        <thoughtClass>Thought_Situational</thoughtClass>
+        <stages>
+            <li>
+                <label>There are hostile strongholds near the territory</label>
+                <description>There is an enemy stronghold near our territory, which is really annoying.</description>
+                <baseMoodEffect>-3</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <!-- 保卫领地 -->
+    <ThoughtDef>
+        <defName>OAGene_TerritorialBelief_Moderate</defName>
+        <thoughtClass>Thought_Memory</thoughtClass>
+        <durationDays>1.0</durationDays>
+        <stackLimit>2</stackLimit>
+        <stackedEffectMultiplier>0.5</stackedEffectMultiplier>
+        <stages>
+            <li>
+                <label>Guarding the Territory</label>
+                <description>Someone is attempting to challenge our territorial sovereignty, and we will teach them a lesson.</description>
+                <baseMoodEffect>7</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+    <ThoughtDef>
+        <defName>OAGene_TerritorialBelief_Intense</defName>
+        <thoughtClass>Thought_Memory</thoughtClass>
+        <durationDays>1.0</durationDays>
+        <stackLimit>2</stackLimit>
+        <stackedEffectMultiplier>0.5</stackedEffectMultiplier>
+        <stages>
+            <li>
+                <label>Guarding the Territory</label>
+                <description>There are always some guys who want to trample on our territorial sovereignty, and we need to make them cut off this foolish idea.</description>
+                <baseMoodEffect>12</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <!-- 领地上有霸权旗帜 -->
+    <ThoughtDef>
+        <defName>OAGene_HegemonicFlag_Moderate</defName>
+        <workerClass>OberoniaAureaGene.ThoughtWorker_Precept_HasHegemonicFlag</workerClass>
+        <thoughtClass>Thought_Situational</thoughtClass>
+        <stages>
+            <li>
+                <label>Establish regional hegemony</label>
+                <description>Our hegemonic flag declares our absolute sovereignty over this region.</description>
+                <baseMoodEffect>3</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef><!--等等，这个是不是完全用不到，霸权旗只有领地霸权能制作，但是领地霸权锁强烈领地意识（）算了没BUG总比有BUG好-->
+    <ThoughtDef>
+        <defName>OAGene_HegemonicFlag_Intense</defName>
+        <workerClass>OberoniaAureaGene.ThoughtWorker_Precept_HasHegemonicFlag</workerClass>
+        <thoughtClass>Thought_Situational</thoughtClass>
+        <stages>
+            <li>
+                <label>Establish regional hegemony</label>
+				<!--description>我们的霸权蒸蒸日上，我们的领地无上荣光。</description-->
+                <description>Our hegemonic flag is proclaiming the glory of our territory to everyone.</description>
+                <baseMoodEffect>6</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+</Defs>

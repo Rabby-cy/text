@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ScenarioDef IfModNotActive="OARK.RatkinFaction.ScenarioExpand.Snowstorm">
+		<defName>OA_RK_Scenario_Snow</defName>
+		<label>The orphan of the snowstorm(Basic Edition)</label>
+		<description>This script is undergoing a second reset, which will include new snowstorm events, and the development time during the snowstorm will be longer, making it more challenging than just staying in a room to get through.\nhas been confirmed to be updated as an independent mod in late October, with the addition of a long journey home ending.\n\n\nAfter the blizzard, a helpless child struggled to climb out of the snow pile, but apart from the dazzling white snow, there was nothing else in the place.\nBlizzards continue to visit this barren land irregularly, forcing naive children to learn independence. Without familiar relatives and a town with smoke rising from cooking, this child was left with only three snow dogs she had encountered by chance. This was her only comfort in this helpless world.\nThis blizzard took away countless lives, but only the four of them remained. Is this luck or misfortune?\nThe answer is only known by herself and the gods.\n\nNote: This is a high difficulty script with special weather phenomena, and it is not recommended for new players to try. \nAttention: This script will result in extreme blizzard weather and has a low probability of causing cold wave blizzards, which can cause a significant drop in temperature. Please choose carefully. \nStarting with a cold plain and attempting to survive with a snow dog will provide the best immersion experience.\n\nDue to its large size, the full version has been released as an independent module. The specific name is: [OA]Ratkin Scenario: Snowstorm Orphan</description>
+		<scenario>
+			<summary>Apart from the dazzling white snow, there is nothing else in this place.</summary>
+			<!--summary>Apart from the dazzling white snow, there is nothing else in this place.</summary-->
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>RK_PlayerFaction</factionDef>
+			</playerFaction>
+			<parts>
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnChoiceCount>1</pawnChoiceCount>
+					<pawnCount>1</pawnCount>
+				</li>
+				<li MayRequire="Ludeon.RimWorld.Biotech" Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
+					<def>ConfigurePawnsXenotypes</def>
+					<pawnChoiceCount>1</pawnChoiceCount>
+					<xenotypeCounts>
+						<li>
+							<count>1</count>
+							<requiredAtStart>True</requiredAtStart>
+							<xenotype>OAGene_SnowRatkin</xenotype>
+							<allowedDevelopmentalStages>Baby, Child, Adult</allowedDevelopmentalStages>
+						</li>
+					</xenotypeCounts>
+				</li>
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>WoodLog</thingDef>
+					<count>100</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Pemmican</thingDef>
+					<count>200</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>20</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MealSimple</thingDef>
+					<count>3</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>RawPotatoes</thingDef>
+					<count>100</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>RK_WoodenShield</thingDef>
+					<quality>Poor</quality>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>RK_Dagger</thingDef>
+					<stuff>Steel</stuff>
+					<quality>Normal</quality>
+				</li>
+				<li Class="ScenPart_PawnFilter_Age">
+					<def>PawnFilter_Age</def>
+					<allowedAgeRange>13~14</allowedAgeRange>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>RawPotatoes</thingDef>
+					<count>200</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Steel</thingDef>
+					<count>50</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>WoodLog</thingDef>
+					<count>100</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<li Class="ScenPart_StartingAnimal">
+					<def>StartingAnimal</def>
+					<animalKind>Husky</animalKind>
+					<count>2</count>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>RatkinClothing</project>
+				</li>
+				<li Class="ScenPart_StatFactor">
+					<def>StatFactor</def>
+					<stat>Insulation_Cold</stat>
+					<factor>0.5</factor>
+				</li>
+				<li Class="ScenPart_ForcedTrait">
+					<def>ForcedTrait</def>
+					<chance>1</chance>
+					<context>PlayerStarter</context>
+					<trait>Nimble</trait>
+				</li>
+				<li MayRequire="Solaris.RatkinRaceMod" Class="ScenPart_ForcedTrait">
+					<def>ForcedTrait</def>
+					<chance>1</chance>
+					<context>PlayerStarter</context>
+					<trait>Faith</trait>
+				</li>
+				<li Class="ScenPart_ForcedTrait">
+					<def>ForcedTrait</def>
+					<chance>1</chance>
+					<context>PlayerStarter</context>
+					<trait>OAGene_ExtremeSnowSurvivor</trait>
+				</li>
+				<li Class="ScenPart_CreateIncident">
+					<def>CreateIncident</def>
+					<incident>OAGene_ExtremeSnowstorm</incident>
+					<intervalDays>4.063395</intervalDays>
+					<minDays>10.5</minDays>
+					<maxDays>15</maxDays>
+					<repeat>True</repeat>
+				</li>
+				<li Class="ScenPart_PermaGameCondition">
+					<def>PermanentGameCondition</def>
+					<gameCondition>OAGene_Snowstorm</gameCondition>
+				</li>
+				<li Class="ScenPart_DisableIncident">
+					<def>DisableIncident</def>
+					<incident>HeatWave</incident>
+				</li>
+				<li Class="ScenPart_GameStartDialog">
+					<def>GameStartDialog</def>
+					<text>暴风雪仍然在肆虐，极端的气候将会不定期的频繁造访。这个星球的寒冷是如此的刻骨铭心，以至于哪怕是衣物也很难阻挡寒冷的侵袭。\n在被冻死，亦或者饿死在这片白色的荒漠中之前，打造出你的庇护所，并挣扎着顽强的活下去。\n\n这场风雪，永不停歇。
+					</text>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+
+	<ScenarioDef>
+		<defName>OA_RK_Scenario_White</defName>
+		<label>Craftsman and King</label>
+		<description>Which is more important, a craftsman or a king? \nAt least the two lowland mice and the other white mouse did not reach a consensus on this. \nAlthough they are now companions, the different births of these three mouse tribes still raise certain concerns about each other, and it is still unknown whether this will affect their future cooperation. However, despite this, they still look forward to establishing a new city-state. \nHowever, before establishing the city-state, they should first find a security guard.\n\nThis script is a low difficulty script that even newcomers can have a good experience with.</description>
+		<scenario>
+			<summary>Two Lowland mouse tribes with excellent forging skills will work together with a white mouse to build their brand new city-state.</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>RK_PlayerFaction</factionDef>
+			</playerFaction>
+			<parts>
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnChoiceCount>5</pawnChoiceCount>
+					<pawnCount>3</pawnCount>
+				</li>
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
+					<def>ConfigurePawnsXenotypes</def>
+					<pawnChoiceCount>1</pawnChoiceCount>
+					<xenotypeCounts>
+						<li>
+							<count>2</count>
+							<requiredAtStart>True</requiredAtStart>
+							<xenotype>OAGene_LowlandRatkin</xenotype>
+							<allowedDevelopmentalStages>Baby, Child, Adult</allowedDevelopmentalStages>
+						</li>
+						<li>
+							<requiredAtStart>True</requiredAtStart>
+							<xenotype>OAGene_WhiteRatkin</xenotype>
+							<allowedDevelopmentalStages>Baby, Child, Adult</allowedDevelopmentalStages>
+						</li>
+					</xenotypeCounts>
+				</li>
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>WoodLog</thingDef>
+					<count>300</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Pemmican</thingDef>
+					<count>300</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Silver</thingDef>
+					<count>500</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>RK_ExplorerHat</thingDef>
+					<stuff>Leather_Plain</stuff>
+					<quality>Excellent</quality>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>RK_ExplorerWear</thingDef>
+					<stuff>Leather_Plain</stuff>
+					<quality>Excellent</quality>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>RK_OneHanded</thingDef>
+					<stuff>Steel</stuff>
+					<quality>Excellent</quality>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Uranium</thingDef>
+					<count>100</count>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>WoodLog</thingDef>
+					<count>200</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<li Class="ScenPart_ScatterThingsAnywhere">
+					<def>ScatterThingsAnywhere</def>
+					<thingDef>Steel</thingDef>
+					<count>100</count>
+					<allowRoofed>True</allowRoofed>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>RatkinClothing</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>HighClassClothing</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>PiercingWeapon</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>LongBlades</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>PlateArmor</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>RecurveBow</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>Greatbow</project>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>RK_Rifle</thingDef>
+					<quality>Excellent</quality>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>RK_HeavyShield_Big</thingDef>
+					<stuff>Uranium</stuff>
+					<quality>Excellent</quality>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>RK_RoyalRobe</thingDef>
+					<stuff>Leather_Plain</stuff>
+					<quality>Masterwork</quality>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineIndustrial</thingDef>
+					<count>20</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Steel</thingDef>
+					<count>200</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>ComponentIndustrial</thingDef>
+					<count>20</count>
+				</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+
+</Defs>

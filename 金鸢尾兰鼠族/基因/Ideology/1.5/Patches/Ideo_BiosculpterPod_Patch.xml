@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="BiosculpterPod"]/comps/li[compClass = "CompBiosculpterPod_MedicCycle"]/durationDays</xpath>
+        <value>
+            <durationDays>4</durationDays>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="BiosculpterPod"]/comps/li[compClass = "CompBiosculpterPod_RegenerationCycle"]/durationDays</xpath>
+        <value>
+            <durationDays>8.2</durationDays>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="BiosculpterPod"]/comps/li[@Class="CompProperties_BiosculpterPod_AgeReversalCycle"]/durationDays</xpath>
+        <value>
+            <durationDays>5.6</durationDays>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="BiosculpterPod"]/comps/li[@Class="CompProperties_BiosculpterPod_PleasureCycle"]/durationDays</xpath>
+        <value>
+            <durationDays>2.2</durationDays>
+        </value>
+    </Operation>
+
+</Patch>

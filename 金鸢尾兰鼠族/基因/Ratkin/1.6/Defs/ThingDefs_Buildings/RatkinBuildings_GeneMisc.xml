@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    
+    <ThingDef MayRequire="OARK.RatkinFaction.OberoniaAurea" ParentName="BuildingBase">
+        <defName>OAGene_OAGeneProcessor</defName>
+        <label>金鸢尾兰基因处理器</label>
+        <description>金鸢尾兰帝国的一种解析基因信息的设备，内置了离线版本的金鸢尾兰数据库以及一套基因处理器，能够大幅度提升基因处理的效率。</description>
+        <passability>PassThroughOnly</passability>
+        <fillPercent>0.4</fillPercent>
+        <pathCost>14</pathCost>
+        <rotatable>false</rotatable>
+        <graphicData>
+            <texPath>Things/Building/Misc/OAGene_OAGeneProcessor</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1.76, 1.88)</drawSize>
+            <shadowData>
+                <volume>(1.5, 0.4, 1.5)</volume>
+            </shadowData>
+        </graphicData>
+        <size>(2, 2)</size>
+        <canOverlapZones>false</canOverlapZones>
+        <defaultPlacingRot>North</defaultPlacingRot>
+        <designationCategory>Biotech</designationCategory>
+        <uiOrder>2100</uiOrder>
+        <researchPrerequisites>
+            <li>OA_RK_RatkinGene</li>
+        </researchPrerequisites>
+        <descriptionHyperlinks>
+            <ThingDef>GeneAssembler</ThingDef>
+            <ThingDef>GeneBank</ThingDef>
+            <ThingDef>Genepack</ThingDef>
+            <ThingDef>Xenogerm</ThingDef>
+        </descriptionHyperlinks>
+        <statBases>
+            <MaxHitPoints>300</MaxHitPoints>
+            <WorkToBuild>15600</WorkToBuild>
+            <Mass>90</Mass>
+            <Flammability>0.5</Flammability>
+            <GeneticComplexityIncrease>4</GeneticComplexityIncrease>
+        </statBases>
+        <costList>
+            <Steel>120</Steel>
+            <Plasteel>40</Plasteel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+        </costList>
+        <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+        <building>
+            <buildingTags>
+                <li>Biotech</li>
+            </buildingTags>
+        </building>
+        <placeWorkers>
+            <li>PlaceWorker_ShowFacilitiesConnections</li>
+        </placeWorkers>
+        <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>80</basePowerConsumption>
+            </li>
+            <li Class="CompProperties_Flickable" />
+            <li Class="CompProperties_InspectString">
+                <compClass>CompInspectStringGeneProcessor</compClass>
+                <inspectString>基因复杂度提升</inspectString>
+            </li>
+            <li Class="CompProperties_Facility">
+                <maxSimultaneous>100</maxSimultaneous>
+                <maxDistance>12.9</maxDistance>
+                <showMaxSimultaneous>false</showMaxSimultaneous>
+            </li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>2</glowRadius>
+				<glowColor>(200,180,180,0)</glowColor>
+				<colorPickerEnabled>false</colorPickerEnabled>
+				<darklightToggle>false</darklightToggle>
+			</li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef MayRequire="OARK.RatkinFaction.OberoniaAurea" ParentName="GeneBuildingBase">
+        <defName>OAGene_OAGeneBank</defName>
+        <label>金鸢尾兰基因储存箱</label>
+        <description>金鸢尾兰帝国用于保存基因组的一个箱型储存设施，只有通过特定的检测后才能将其打开，具有相当高的安全性。</description>
+        <graphicData>
+            <texPath>Things/Building/Misc/OAGene_OAGeneBank</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(1.70, 1.88)</drawSize>
+            <shadowData>
+                <volume>(1.7, 0.3, 0.85)</volume>
+            </shadowData>
+        </graphicData>
+		<rotatable>false</rotatable>
+        <castEdgeShadows>true</castEdgeShadows>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <tickerType>Rare</tickerType>
+        <passability>PassThroughOnly</passability>
+        <canOverlapZones>false</canOverlapZones>
+        <size>(2, 2)</size>
+        <statBases>
+            <MaxHitPoints>300</MaxHitPoints>
+            <WorkToBuild>12000</WorkToBuild>
+            <Mass>42</Mass>
+            <Flammability>0.5</Flammability>
+        </statBases>
+        <thingCategories>
+            <li>BuildingsProduction</li>
+        </thingCategories>
+		<researchPrerequisites Inherit="False">
+            <li>OA_RK_RatkinGene</li>
+        </researchPrerequisites>
+        <inspectorTabs>
+            <li>ITab_ContentsGenepackHolder</li>
+        </inspectorTabs>
+        <costList>
+            <Steel>80</Steel>
+			<Plasteel>20</Plasteel>
+            <ComponentIndustrial>4</ComponentIndustrial>
+        </costList>
+        <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+        <descriptionHyperlinks>
+            <ThingDef>Genepack</ThingDef>
+            <ThingDef>GeneAssembler</ThingDef>
+            <ThingDef>OAGene_RatkinGeneDiscriminator</ThingDef>
+            <ThingDef>OAGene_OARatkinGeneDiscriminator</ThingDef>
+        </descriptionHyperlinks>
+        <comps>
+            <li Class="CompProperties_GenepackContainer">
+                <maxCapacity>12</maxCapacity>
+            </li>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>125</basePowerConsumption>
+            </li>
+            <li Class="CompProperties_Facility">
+                <maxSimultaneous>100</maxSimultaneous>
+                <maxDistance>12.9</maxDistance>
+                <showMaxSimultaneous>false</showMaxSimultaneous>
+            </li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>2</glowRadius>
+				<glowColor>(200,180,180,0)</glowColor>
+				<colorPickerEnabled>false</colorPickerEnabled>
+				<darklightToggle>false</darklightToggle>
+			</li>
+            <li Class="CompProperties_Flickable" />
+        </comps>
+    </ThingDef>
+
+</Defs>

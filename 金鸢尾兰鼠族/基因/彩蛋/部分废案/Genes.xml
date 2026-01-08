@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    
+    <GeneDef>
+        <defName>OAGene_SlowHematopoiesis</defName>
+        <label>造血缓慢</label>
+        <description>造血缓慢描述</description>
+        <iconPath>UI/Icons/Genes/OAGene_DeepSleep</iconPath>
+        <geneClass>OberoniaAureaGene.Gene_SlowHematopoiesis</geneClass>
+		<displayOrderInCategory>500</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+        <statFactors>
+            <RestRateMultiplier>0.5</RestRateMultiplier>
+            <BedHungerRateFactor>0.25</BedHungerRateFactor>
+        </statFactors>
+    </GeneDef>
+    <ThoughtDef> <!-- 造血缓慢相关心情 -->
+        <defName>OAGene_SlowHematopoiesis</defName>
+        <workerClass>OberoniaAureaGene.ThoughtWorker_BloodLoss</workerClass>
+        <requiredGenes>
+            <li>OAGene_SlowHematopoiesis</li>
+        </requiredGenes>
+        <stages>
+            <!-- 轻微 -->
+            <li IsNull="True" />
+            <!-- 轻度 -->
+            <li IsNull="True" />
+            <li>
+                <label>中度</label>
+                <description>我应该回到我的岗位上。</description>
+                <baseMoodEffect>-1</baseMoodEffect>
+            </li>
+            <li>
+                <label>重度</label>
+                <description>只有无时无刻的工作才能让我感到安心。</description>
+                <baseMoodEffect>-2</baseMoodEffect>
+            </li>
+            <li>
+                <label>极重</label>
+                <description>只有无时无刻的工作才能让我感到安心。</description>
+                <baseMoodEffect>-4</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+ 
+    <GeneDef>
+        <defName>OAGene_SpecificHemogen</defName>
+        <label>特异血原</label>
+        <description>特异血原描述</description>
+        <iconPath>UI/Icons/Genes/OAGene_DeepSleep</iconPath>
+		<displayOrderInCategory>500</displayOrderInCategory>
+        <biostatCpx>1</biostatCpx>
+    </GeneDef>
+
+</Defs>

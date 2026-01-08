@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <GameConditionDef>
+        <defName>OAGene_Snowstorm</defName>
+        <conditionClass>OberoniaAureaGene.GameCondition_LongSnowstorm</conditionClass>
+        <label>Long snowstorm</label>
+        <description>The wind and snow have not yet gone far away, and thick clouds are suppressing everyone's hearts. Even sunlight cannot penetrate these dark clouds.</description>
+        <weatherDef>SnowGentle</weatherDef>
+        <canBePermanent>true</canBePermanent>
+        <natural>true</natural>
+        <letterText>The snowstorm is coming again, but this time it won't go away.</letterText>
+        <endMessage>The snowstorm has gone, but not forever.</endMessage>
+        <allowUnderground>false</allowUnderground>
+        <pennedAnimalsSeekShelter>false</pennedAnimalsSeekShelter>
+        <temperatureOffset>-10</temperatureOffset>
+        <layerWhitelist>
+            <li>Surface</li>
+        </layerWhitelist>
+    </GameConditionDef>
+
+    <GameConditionDef Name="OAGene_ExtremeSnowstorm">
+        <defName>OAGene_ExtremeSnowstorm</defName>
+        <conditionClass>OberoniaAureaGene.GameCondition_ExtremeSnowstormBase</conditionClass>
+        <label>Extreme snowstorm</label>
+        <description>An extreme snowstorm descended on this area.\nThis snowstorm will cause a significant drop in temperature in a short period of time, and the wind and snow will cover the vast majority of sunlight, plunging the entire region into darkness. In addition, wind turbines may also lose power due to excessive wind force.If the roof does not have enough support columns to support it, there is also a risk of it being overturned by wind and snow.\nTrying to go out in this weather is definitely not a wise move.</description>
+        <weatherDef>OAGene_SnowExtreme</weatherDef>
+        <canBePermanent>false</canBePermanent>
+        <natural>false</natural>
+        <letterText>An extreme snowstorm descended on this area.\nThis snowstorm will cause a significant drop in temperature in a short period of time, and the wind and snow will cover the vast majority of sunlight, plunging the entire region into darkness. In addition, wind turbines may also lose power due to excessive wind force.If the roof does not have enough support columns to support it, there is also a risk of it being overturned by wind and snow.\nTrying to go out in this weather is definitely not a wise move.</letterText>
+        <endMessage>The extreme snowstorm gradually subsided.</endMessage>
+        <allowUnderground>false</allowUnderground>
+        <preventNeutralVisitors>true</preventNeutralVisitors>
+        <causesTraderCaravanExit>true</causesTraderCaravanExit>
+        <pennedAnimalsSeekShelter>true</pennedAnimalsSeekShelter>
+        <temperatureOffset>-20</temperatureOffset>
+        <silencedByConditions>
+            <li MayRequire="OARK.RatkinFaction.ScenarioExpand.Snowstorm">OAGene_ExtremeIceStorm</li>
+            <li MayRequire="OARK.RatkinFaction.ScenarioExpand.Snowstorm">OAGene_StarryNight</li>
+        </silencedByConditions>
+        <layerWhitelist>
+            <li>Surface</li>
+        </layerWhitelist>
+    </GameConditionDef>
+
+</Defs>

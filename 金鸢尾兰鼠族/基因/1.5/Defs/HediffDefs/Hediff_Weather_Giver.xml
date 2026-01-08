@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <HediffDef Name="OAGene_Hediff_WeatherGiverBase" Abstract="True">
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>true</isBad>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <duplicationAllowed>false</duplicationAllowed>
+        <maxSeverity>1.0</maxSeverity>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>250</disappearsAfterTicks>
+                <showRemainingTime>false</showRemainingTime>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="OAGene_Hediff_WeatherGiverBase">
+        <defName>OAGene_Hediff_SnowExtreme</defName>
+        <label>Extreme snowstorm</label>
+        <description>Extreme weather severely interferes with movement and observation, making outdoor activities a rather bad idea in such weather conditions.</description>
+        <defaultLabelColor>(0.75,0.75,0.75)</defaultLabelColor>
+        <maxSeverity>2.0</maxSeverity>
+        <stages>
+            <li>
+                <statFactors>
+                    <MoveSpeed>0.7</MoveSpeed>
+                </statFactors>
+                <capMods>
+                    <li>
+                        <capacity>Sight</capacity>
+                        <postFactor>0.7</postFactor>
+                    </li>
+                </capMods>
+            </li>
+            <li> <!-- 拥有暴风雪的幸存者特性对应的状态阶段 -->
+                <minSeverity>2</minSeverity>
+                <statFactors>
+                    <MoveSpeed>0.8</MoveSpeed>
+                </statFactors>
+                <capMods>
+                    <li>
+                        <capacity>Sight</capacity>
+                        <postFactor>0.85</postFactor>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+        <comps>
+            <li Class="OberoniaAureaGene.HediffCompProperties_SnowExtreme" />
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="OAGene_Hediff_WeatherGiverBase">
+        <defName>OAGene_Hediff_ColdSnow</defName>
+        <label>Cold Snow</label>
+        <description>The excessively low temperature resulted in severe acute frostbite, causing all parts in contact with snowflakes to become stiff and painful.</description>
+        <defaultLabelColor>(0.66,0.66,0.90)</defaultLabelColor>
+        <stages>
+            <li>
+                <painOffset>0.2</painOffset>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <postFactor>0.9</postFactor>
+                    </li>
+                    <li>
+                        <capacity>Manipulation</capacity>
+                        <offset>-0.2</offset>
+                    </li>
+                </capMods>
+                <!--statOffsets>
+                    <ComfyTemperatureMin>4</ComfyTemperatureMin>
+                </statOffsets-->
+            </li>
+        </stages>
+        <comps>
+            <li Class="HediffCompProperties_ThoughtSetter">
+                <thought>OAGene_Thought_ColdSnow</thought>
+            </li>
+            <li Class="OberoniaAureaGene.HediffCompProperties_ColdSnow">
+                <frostbiteInterval>5000~20000</frostbiteInterval> <!--我就不信现在2-8小时还能不触发--> <!-- 4小时~1天，最初设计为3~5天，但是那样似乎太仁慈了 -->
+                <frostbiteDamageRange>2.0~5.0</frostbiteDamageRange>
+            </li>
+            <li Class="OberoniaAureaGene.HediffCompProperties_SnowstormSpeech">
+                <speechRulePack>OAGene_ColdSnowSpeech</speechRulePack>
+                <speechSection>1~4</speechSection>
+                <speechInterval>1800~7200</speechInterval>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="OAGene_Hediff_WeatherGiverBase">
+        <defName>OAGene_Hediff_ColdImmersion</defName>
+        <label>Cold immersion</label>
+        <description>The snow that had scraped onto my body had not yet melted when a new layer of snow had already covered me. The cold will continue to invade with the accumulation of snow, and will only slowly subside in environments above zero room temperature.\n\nIn such extreme cold, fatal hypothermia often occurs much faster than expected.</description>
+        <alwaysShowSeverity>true</alwaysShowSeverity>
+        <duplicationAllowed>false</duplicationAllowed>
+        <defaultLabelColor>(0.58,0.58,0.82)</defaultLabelColor>
+        <stages>
+            <li>
+                <minSeverity>0.04</minSeverity>
+                <statOffsets>
+                    <ComfyTemperatureMin>4</ComfyTemperatureMin>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>0.1</minSeverity>
+                <statOffsets>
+                    <ComfyTemperatureMin>8</ComfyTemperatureMin>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>0.2</minSeverity>
+                <statOffsets>
+                    <ComfyTemperatureMin>12</ComfyTemperatureMin>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>0.3</minSeverity>
+                <statOffsets>
+                    <ComfyTemperatureMin>16</ComfyTemperatureMin>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>0.4</minSeverity>
+                <statOffsets>
+                    <ComfyTemperatureMin>20</ComfyTemperatureMin>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>0.5</minSeverity>
+                <statOffsets>
+                    <ComfyTemperatureMin>24</ComfyTemperatureMin>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>0.6</minSeverity>
+                <statOffsets>
+                    <ComfyTemperatureMin>28</ComfyTemperatureMin>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>0.7</minSeverity>
+                <statOffsets>
+                    <ComfyTemperatureMin>32</ComfyTemperatureMin>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>0.8</minSeverity>
+                <statOffsets>
+                    <ComfyTemperatureMin>36</ComfyTemperatureMin>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>0.9</minSeverity>
+                <statOffsets>
+                    <ComfyTemperatureMin>40</ComfyTemperatureMin>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>1.0</minSeverity>
+                <statOffsets>
+                    <ComfyTemperatureMin>44</ComfyTemperatureMin>
+                </statOffsets>
+            </li>
+        </stages>
+        <comps Inherit="False">
+            <li Class="OberoniaAureaGene.HediffCompPropertiesp_ColdImmersion">
+                <hediffHuman>Hypothermia</hediffHuman>
+                <hediffInsectoid>HypothermicSlowdown</hediffInsectoid>
+            </li>
+        </comps>
+    </HediffDef>
+
+    <HediffDef ParentName="OAGene_Hediff_WeatherGiverBase">
+        <defName>OAGene_Hediff_FrozenWound</defName>
+        <label>创口冻结</label>
+        <description>Due to the excessively cold temperature, a fine layer of blood ice has already formed around the open wound.\nThese ice debris will hinder the natural healing of the wound, and some hard crushed ice may even penetrate the inside of the wound, causing unbearable pain to the patient.</description>
+        <defaultLabelColor>(0.72,0.68,0.94)</defaultLabelColor>
+        <stages>
+            <li>
+                <painOffset>0.1</painOffset>
+                <statFactors>
+                    <InjuryHealingFactor>0.25</InjuryHealingFactor>
+                </statFactors>
+            </li>
+        </stages>
+        <comps Inherit="False">
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>30000</disappearsAfterTicks> <!-- 12小时 -->
+                <showRemainingTime>true</showRemainingTime>
+            </li>
+        </comps>
+    </HediffDef>
+
+</Defs>

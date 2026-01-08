@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <Rakinia_RockRatkin.label>巖鼠王國</Rakinia_RockRatkin.label>
+
+  <Rakinia_RockRatkin.description>一個大多數種族為巖鼠的鼠族王國，外交手段比正常的鼠族王國要強硬一些，但仍然可以友善交流。</Rakinia_RockRatkin.description>
+
+  <OA_RK_Faction.pawnSingular>巖鼠</OA_RK_Faction.pawnSingular>
+  <OA_RK_Faction.pawnsPlural>巖鼠</OA_RK_Faction.pawnsPlural>
+  <OA_RK_Faction.leaderTitle>巖鼠領主</OA_RK_Faction.leaderTitle>
+  
+  <Rakinia_TravelRatkin.label>旅鼠聯邦</Rakinia_TravelRatkin.label>
+  <Rakinia_TravelRatkin.description>一個由大量的旅鼠營地組建的松散聯邦，大多數情況下他們都是相當溫和的一個勢力。</Rakinia_TravelRatkin.description>
+  <Rakinia_TravelRatkin.pawnSingular>旅鼠</Rakinia_TravelRatkin.pawnSingular>
+  <Rakinia_TravelRatkin.pawnsPlural>旅鼠</Rakinia_TravelRatkin.pawnsPlural>
+  <Rakinia_TravelRatkin.leaderTitle>聯邦領袖</Rakinia_TravelRatkin.leaderTitle>
+  
+  <Rakinia_SnowRatkin.label>雪鼠王國</Rakinia_SnowRatkin.label>
+  <Rakinia_SnowRatkin.description>由大量的雪鼠族在極寒地帶建立的鼠族王國，他們擁有極強的領地意識，但是對于炎熱地區的事物毫不關心。</Rakinia_SnowRatkin.description>
+  <Rakinia_SnowRatkin.pawnSingular>雪鼠</Rakinia_SnowRatkin.pawnSingular>
+  <Rakinia_SnowRatkin.pawnsPlural>雪鼠</Rakinia_SnowRatkin.pawnsPlural>
+  <Rakinia_SnowRatkin.leaderTitle>雪鼠領主</Rakinia_SnowRatkin.leaderTitle>
+</LanguageData>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OAGene_CommandCancelWork>取消工作</OAGene_CommandCancelWork>
+    <OAGene_CommandCancelWorkDesc>取消当前工作进程，并弹出所有内容物。</OAGene_CommandCancelWorkDesc>
+
+    <OAGene_CommandCancelLoad>取消人员装载</OAGene_CommandCancelLoad>
+    <OAGene_CommandCancelLoadDesc>取消当前人员装载进程，并弹出所有内容物。</OAGene_CommandCancelLoadDesc>
+
+    <OAGene_InsertPerson>置入人员</OAGene_InsertPerson>
+    <OAGene_InsertPersonDesc>置入人员，开始工作进程。</OAGene_InsertPersonDesc>
+
+    <OAGene_CommandAutoSelect>自动选择</OAGene_CommandAutoSelect>
+    <OAGene_CommandAutoSelectDesc>开启时，建筑将自动选择合适的人员装载并开始工作。</OAGene_CommandAutoSelectDesc>
+	
+	<OAGene_DestructiveGeneExtractorInsert>破坏性基因提取</OAGene_DestructiveGeneExtractorInsert>
+    <OAGene_DestructiveGeneExtractorInsertDesc>进行一次破坏性的基因提取，从目标体内提取出数个单独的基因组，目标拥有的基因数量越多提取的数量则越多。\n\n这种破坏性的基因提取会导致目标死亡。</OAGene_DestructiveGeneExtractorInsertDesc>
+
+    <OAGene_CommandLoadDiscriminator>辨析基因</OAGene_CommandLoadDiscriminator>
+    <OAGene_CommandLoadDiscriminatorDesc>从基因库中选择一个基因组进行辨析，并尝试将该基因组中的一个基因提取出来。</OAGene_CommandLoadDiscriminatorDesc>
+
+</LanguageData>

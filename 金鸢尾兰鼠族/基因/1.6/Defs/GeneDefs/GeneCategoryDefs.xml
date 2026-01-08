@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <GeneCategoryDef>
+        <defName>OARK_GeneExpand</defName>
+        <label>鼠族基因</label>
+        <displayPriorityInXenotype>515</displayPriorityInXenotype>
+    </GeneCategoryDef>
+
+</Defs>

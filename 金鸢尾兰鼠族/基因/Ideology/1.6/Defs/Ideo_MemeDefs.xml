@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <MemeDef>
+        <defName>OAGene_TerritorialHegemony</defName>
+        <label>Territorial hegemony</label>
+		<description>Our territorial sovereignty is supreme, and any enemy who dares to invade our territory must pay the price.</description>
+        <iconPath>UI/Icons/Ideos/OAGene_TerritorialHegemony</iconPath>
+        <groupDef>Misc</groupDef>
+        <impact>2</impact>
+		<consumableBuildings>
+			<li>SacrificialFlag</li>
+		</consumableBuildings>
+        <requireOne>
+            <li>
+                <li>Corpses_DontCare</li>
+            </li>
+            <li>
+                <li>OAGene_TerritorialConsciousness_Intense</li>
+            </li>
+        </requireOne>
+        <addDesignators>
+            <li>OAGene_HegemonicFlag</li>
+          </addDesignators>
+    </MemeDef>
+    
+</Defs>
