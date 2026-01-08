@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<LanguageData>
-
-    <OARatkin_ResearchAnalyzer.label>金鸢尾蘭科研分析儀</OARatkin_ResearchAnalyzer.label>
-    <OARatkin_ResearchAnalyzer.description>自從金鸢尾蘭帝國接觸了邊緣世界後，研究部的侍從們便常常爲邊緣世界那千奇百怪的技術發展而贊歎。爲了日後方便解讀新的科技，因此研究部的侍從們連同技術部壹起，夜以繼日的研發出了這個全新的小魔方。\n\n雖然這個設備體型很小，但是其內置的算力在短時間內足以和超級計算機相媲美。\n\n啓用後爲當前科技增加3000點研究進度。</OARatkin_ResearchAnalyzer.description>
-    <OARatkin_ResearchAnalyzer.comps.CompUsable.useLabel>使用{0_label}</OARatkin_ResearchAnalyzer.comps.CompUsable.useLabel>
-
-</LanguageData>

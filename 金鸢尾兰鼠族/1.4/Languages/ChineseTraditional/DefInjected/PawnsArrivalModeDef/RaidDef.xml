@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageData>
-
-  <OA_RK_CenterDrop.textEnemy> 一隊來自 {0} 的 {1} 通過空投發動了襲擊！</OA_RK_CenterDrop.textEnemy>
-  <OA_RK_CenterDrop.textFriendly> 一隊來自 {0} 的 {1} 通過空投前來支援！</OA_RK_CenterDrop.textFriendly>
-  <OA_RK_CenterDrop.textWillArrive>{0_pawnsPluralDef} 將通過空投抵達。</OA_RK_CenterDrop.textWillArrive>
-  
-</LanguageData>

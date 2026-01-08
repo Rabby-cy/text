@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<LanguageData>
-
-    <OARatkin_LetterLabel_NewYearEvent>金アヤメ蘭の節句の手紙</OARatkin_LetterLabel_NewYearEvent>
-    <OARatkin_Letter_NewYearEvent>金アヤメ蘭の誠実な盟友へ{MAP_label}：\n\nアヤメ暦によると、ここ数日でアヤメ暦は新しい年になる。\n過去の恨みは捨てられ、未来の調和は遠くない。この特別な日に、私は{FACTION_name}の宮廷員を代表して{MAP_label}に心からの挨拶と祝福を送りました。この新しい年の中で、金アヤメランド帝国は調和のとれた世界に向かって努力し続け、最終的には私たちのユートピアを一緒に作ることになります。\n手紙に添付された祝日のプレゼントのいくつかは、受け取ってください。\n\nこのほか、技術部の侍従たちは最近、新しい設備を研究した。彼らはこのルービックキューブが少しでもあなたの役に立つと思っているので、わざわざ手紙と一緒に添付して、彼らの友人への好意だと思ってください。\n\n明けましておめでとうございます。\n\n\n\n{FACTION_name}の{1}\n{LEADER_nameDef}。</OARatkin_Letter_NewYearEvent>
-    <OARatkin_Letter_NewYearEventLate>金アヤメ蘭の誠実な盟友へ{MAP_label}：\n\nアヤメ暦によると、ここ数日でアヤメ暦は新しい年になる。\n過去の恨みは捨てられ、未来の調和は遠くない。この特別な日に、私は{FACTION_name}の宮廷員を代表して{MAP_label}に心からの挨拶と祝福を送りました。この新しい年の中で、金アヤメランド帝国は調和のとれた世界に向かって努力し続け、最終的には私たちのユートピアを一緒に作ることになります。\n手紙に添付された祝日のプレゼントのいくつかは、受け取ってください。\n\nこのほか、技術部の侍従たちは最近、新しい設備を研究した。彼らはこのルービックキューブが少しでもあなたの役に立つと思っているので、わざわざ手紙と一緒に添付して、彼らの友人への好意だと思ってください。\n\n明けましておめでとうございます。\n\n\n\n{FACTION_name}の{1}\n{LEADER_nameDef}。</OARatkin_Letter_NewYearEventLate>
-
-</LanguageData>
