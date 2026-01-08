@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ScenarioDef ParentName="ScenarioBase">
+		<defName>OA_RK_Scenario_Navigate</defName>
+		<label>Interrupted Voyage</label>
+		<description>Every Navigation Department attendant possesses a heart yearning for free exploration, and some ambitious members, after acquiring sufficient skills and gathering suitable companions, leave the Department to purchase a small spacecraft with their pooled savings and explore freely.\n\nHowever, exploration is inevitably fraught with dangers, just like this time when they encountered a Mechanoid ship shortly after departure. Though the alarms never ceased, their exceptional piloting skills ultimately allowed the four to escape. Yet their ship's signal has been recorded - it's certain their future explorations will be accompanied by endless Mechanoid pursuit.\n\nShould they end it here, abandon the ship and return to the Iris Empire for protection? Or continue exploring, facing whatever risks may come?\n\nThis isn't really a choice.</description>
+		<scenario>
+			<summary>Perhaps they forgot to pray to the North Star before departure, but their good days ended before they even began.</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>OA_RK_PlayerFaction_B</factionDef>
+			</playerFaction>
+			<parts Inherit="False">
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnChoiceCount>4</pawnChoiceCount>
+					<pawnCount>4</pawnCount>
+				</li>
+				<li MayRequire="Ludeon.RimWorld.Biotech" Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
+					<def>ConfigurePawnsXenotypes</def>
+					<pawnChoiceCount>4</pawnChoiceCount>
+					<xenotypeCounts>
+						<li>
+							<count>4</count>
+							<requiredAtStart>True</requiredAtStart>
+							<xenotype>Ratkin_OA</xenotype>
+							<allowedDevelopmentalStages>Baby, Child, Adult</allowedDevelopmentalStages>
+						</li>
+					</xenotypeCounts>
+				</li>
+				<li Class="ScenPart_ForcedMap">
+					<def>ForcedMap</def>
+					<mapGenerator>OrbitalRelay</mapGenerator>
+					<layerDef>Orbit</layerDef>
+				</li>
+				<li Class="ScenPart_PlanetLayer">
+					<def>PlanetLayerFixed</def>
+					<tag>Orbit</tag>
+					<layer>Orbit</layer>
+					<settingsDef>Orbit</settingsDef>
+					<hide>true</hide>
+					<connections>
+						<Surface>
+							<zoomMode>ZoomIn</zoomMode>
+						</Surface>
+					</connections>
+				</li>
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>Gravship</method>
+				</li>
+				<li Class="ScenPart_PursuingMechanoids">
+					<def>PursuingMechanoids</def>
+				</li>
+	
+				<li Class="ScenPart_DisableQuest">
+					<def>DisableQuest</def>
+					<questDef>MechanoidSignal</questDef>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>BasicGravtech</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>BiofuelRefining</project>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Chemfuel</thingDef>
+					<count>200</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>WoodLog</thingDef>
+					<count>100</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Oberonia_Aurea_Chanwu_AB</thingDef>
+					<count>50</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Oberonia_Aurea_Chanwu_AC</thingDef>
+					<count>10</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>MedicineIndustrial</thingDef>
+					<count>25</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Oberonia_Aurea_Chanwu_G</thingDef>
+					<count>10</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>GravlitePanel</thingDef>
+					<count>150</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>OARK_ComponentBox</thingDef>
+					<count>3</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Steel</thingDef>
+					<count>200</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>OA_RK_Mountain_Stick_F</thingDef>
+					<quality>Good</quality>
+				</li>
+				<!--li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>OA_RK_Shotgun_B</thingDef>
+					<quality>Good</quality>
+				</li-->
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>OA_RK_Component_AB</thingDef>
+					<quality>Good</quality>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Bedroll</thingDef>
+					<stuff>Synthread</stuff>
+					<count>4</count>
+					<quality>Good</quality>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Apparel_FlakVest</thingDef>
+					<count>2</count>
+					<quality>Good</quality>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>OARK_Apparel_GravShieldBelt</thingDef>
+					<count>1</count>
+					<quality>Good</quality>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>OA_RK_New_Component_C</thingDef>
+					<count>1</count>
+				</li>
+				<li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>OARK_AirportClearanceBeacon</thingDef>
+					<count>2</count>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>OA_RK_Oberonia_Aurea_Research_B</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>OA_RK_Oberonia_Aurea_Research</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>OA_RK_Electrical_System</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>OA_RK_Cloth_Processing</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>OA_RK_Apparel_A</project>
+				</li>
+				<!--li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>OA_RK_Apparel_D</project>
+				</li-->
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>Electricity</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>CarpetMaking</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>OA_RK_Basic_Building</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>SterileMaterials</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>NobleApparel</project>
+				</li>
+				<li Class="ScenPart_StartingResearch">
+					<def>StartingResearch</def>
+					<project>TreeSowing</project>
+				</li>
+				<!--li Class="ScenPart_ForcedTrait">
+					<def>ForcedTrait</def>
+					<chance>1</chance>
+					<context>PlayerStarter</context>
+					<trait>OARK_Trait_SpaceTraveler</trait>
+				</li-->
+			<li Class="ScenPart_ScatterThingsAnywhere">
+				<def>ScatterThingsNearPlayerStart</def>
+				<thingDef>Steel</thingDef>
+				<count>300</count>
+				<allowRoofed>false</allowRoofed>
+			</li>
+			<li Class="ScenPart_ScatterThingsAnywhere">
+				<def>ScatterThingsNearPlayerStart</def>
+				<thingDef>ChunkSlagSteel</thingDef>
+				<count>40</count>
+				<allowRoofed>false</allowRoofed>
+			</li>
+			</parts>
+		</scenario>
+	</ScenarioDef>
+	
+</Defs>

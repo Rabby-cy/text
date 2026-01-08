@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>[OA]Ratkin Gene Expand</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/FactionDef[defName="OA_RK_Faction"]</xpath>
+					<value>
+						<xenotypeSet Inherit="False">
+							<xenotypeChances>
+								<Ratkin_OA>0.982</Ratkin_OA>
+								<OAGene_PrimordialRatkin>0.006</OAGene_PrimordialRatkin>
+								<OAGene_WhiteRatkin>0.004</OAGene_WhiteRatkin>
+								<OAGene_TravelRatkin>0.002</OAGene_TravelRatkin>
+								<!--OAGene_BatRatkin>0.001</OAGene_BatRatkin-->
+								<OAGene_LowlandRatkin>0.002</OAGene_LowlandRatkin>
+								<OAGene_BiochemicalRatkinI>0.001</OAGene_BiochemicalRatkinI>
+								<OAGene_BiochemicalRatkinII>0.001</OAGene_BiochemicalRatkinII>
+								<OAGene_BiochemicalRatkinIII>0.001</OAGene_BiochemicalRatkinIII>
+								<OAGene_BiochemicalRatkinIV>0.001</OAGene_BiochemicalRatkinIV>
+							</xenotypeChances>
+						</xenotypeSet>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/PawnKindDef[@Name="OA_RK_BasePawn"]</xpath>
+					<value>
+						<xenotypeSet Inherit="False">
+							<xenotypeChances>
+								<Ratkin_OA>0.981</Ratkin_OA>
+								<OAGene_PrimordialRatkin>0.006</OAGene_PrimordialRatkin>
+								<OAGene_WhiteRatkin>0.004</OAGene_WhiteRatkin>
+								<OAGene_TravelRatkin>0.002</OAGene_TravelRatkin>
+								<!--OAGene_BatRatkin>0.001</OAGene_BatRatkin-->
+								<OAGene_LowlandRatkin>0.002</OAGene_LowlandRatkin>
+								<OAGene_BiochemicalRatkinI>0.001</OAGene_BiochemicalRatkinI>
+								<OAGene_BiochemicalRatkinII>0.001</OAGene_BiochemicalRatkinII>
+								<OAGene_BiochemicalRatkinIII>0.001</OAGene_BiochemicalRatkinIII>
+								<OAGene_BiochemicalRatkinIV>0.001</OAGene_BiochemicalRatkinIV>
+							</xenotypeChances>
+						</xenotypeSet>
+					</value>
+				</li>
+			</operations>
+		</match>
+		<nomatch Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/FactionDef[defName="OA_RK_Faction"]</xpath>
+					<value>
+						<xenotypeSet Inherit="False">
+							<xenotypeChances>
+								<Ratkin_OA>999</Ratkin_OA>
+							</xenotypeChances>
+						</xenotypeSet>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs/PawnKindDef[@Name="OA_RK_BasePawn"]</xpath>
+					<value>
+						<xenotypeSet Inherit="False">
+							<xenotypeChances>
+								<Ratkin_OA>1</Ratkin_OA>
+							</xenotypeChances>
+						</xenotypeSet>
+					</value>
+				</li>
+			</operations>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/FactionDef[defName="OA_RK_PlayerFaction"]</xpath>
+		<value>
+			<xenotypeSet Inherit="False">
+				<xenotypeChances>
+					<Ratkin_OA>999</Ratkin_OA>
+				</xenotypeChances>
+			</xenotypeSet>
+		</value>
+	</Operation>
+
+</Patch>

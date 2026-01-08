@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 1級衣服 -->
+
+  <Kiiro_TShirt.label>綺羅T恤衫</Kiiro_TShirt.label>
+  <Kiiro_TShirt.description>寬鬆的T恤，穿著非常舒適。</Kiiro_TShirt.description>
+
+  <Kiiro_TShirtShort.label>綺羅T恤衫（短款）</Kiiro_TShirtShort.label>
+  <Kiiro_TShirtShort.description>短款的T恤，露出肚臍。</Kiiro_TShirtShort.description>
+
+  <Kiiro_Waistcoat.label>綺羅背心</Kiiro_Waistcoat.label>
+  <Kiiro_Waistcoat.description>深色的背心，非常隨意地穿在身上。</Kiiro_Waistcoat.description>
+
+
+  <!-- 2級衣服 -->
+
+  <Kiiro_SailorSuit.label>綺羅水手服（款一）</Kiiro_SailorSuit.label>
+  <Kiiro_SailorSuit.description>似乎是一種在古代文化中曾流行過的校服款式，在綺羅族中重新興起了。</Kiiro_SailorSuit.description>
+
+  <Kiiro_SailorSuitII.label>綺羅水手服（款二）</Kiiro_SailorSuitII.label>
+  <Kiiro_SailorSuitII.description>似乎是一種在古代文化中曾流行過的校服款式，在綺羅族中重新興起了。</Kiiro_SailorSuitII.description>
+
+  <Kiiro_Hoodie.label>綺羅可愛連帽衫</Kiiro_Hoodie.label>
+  <Kiiro_Hoodie.description>印有貓爪圖案的連帽衫，穿上應該會很舒適。</Kiiro_Hoodie.description>
+
+  <Kiiro_RunningShirt.label>綺羅運動背心</Kiiro_RunningShirt.label>
+  <Kiiro_RunningShirt.description>印有貓爪圖案的運動背心，適合運動時穿。</Kiiro_RunningShirt.description>
+
+  <Kiiro_KnittedSweater.label>綺羅針織毛衣</Kiiro_KnittedSweater.label>
+  <Kiiro_KnittedSweater.description>寬鬆的毛衣和一件打底衫，讓人聯想到慵懶的下午和陽光。</Kiiro_KnittedSweater.description>
+
+  <Kiiro_WorkerShirt.label>綺羅工作襯衫</Kiiro_WorkerShirt.label>
+  <Kiiro_WorkerShirt.description>紮好底邊的襯衫，顯得非常幹練。</Kiiro_WorkerShirt.description>
+
+  <Kiiro_LaceDress.label>綺羅蕾絲連衣裙</Kiiro_LaceDress.label>
+  <Kiiro_LaceDress.description>帶有白色花邊的黑色長裙。</Kiiro_LaceDress.description>
+
+  <Kiiro_LaceDressShort.label>綺羅蕾絲連衣裙（短款）</Kiiro_LaceDressShort.label>
+  <Kiiro_LaceDressShort.description>帶有白色花邊的短款黑色連衣裙。</Kiiro_LaceDressShort.description>
+
+  <Kiiro_GardenerDress.label>綺羅工作圍裙</Kiiro_GardenerDress.label>
+  <Kiiro_GardenerDress.description>用堅韌布料縫製的圍裙，耐髒污。</Kiiro_GardenerDress.description>
+
+  <Kiiro_CasualDress.label>綺羅休閑揹帶裙</Kiiro_CasualDress.label>
+  <Kiiro_CasualDress.description>一款舒適的揹帶裙。</Kiiro_CasualDress.description>
+
+  <Kiiro_SuspenderTrousers.label>綺羅休閑揹帶褲</Kiiro_SuspenderTrousers.label>
+  <Kiiro_SuspenderTrousers.description>一款舒適的揹帶褲。</Kiiro_SuspenderTrousers.description>
+
+  <Kiiro_HighWaistedDress.label>綺羅露肩高腰裙</Kiiro_HighWaistedDress.label>
+  <Kiiro_HighWaistedDress.description>一款露肩的高腰裙。</Kiiro_HighWaistedDress.description>
+
+
+  <!-- 夜行衣↓ -->
+
+  <Kiiro_Stealth.label>綺羅夜行衣</Kiiro_Stealth.label>
+  <Kiiro_Stealth.description>通體黑色的緊身服裝，可以幫助綺羅在夜間潛行。</Kiiro_Stealth.description>
+
+  <Kiiro_StealthII.label>綺羅影襲者戰服</Kiiro_StealthII.label>
+  <Kiiro_StealthII.description>捨棄了笨重的防禦從而最大限度發揮綺羅族靈巧優勢的戰鬥裝束，能夠大幅度提高閃避能力。\n\n可以幫助綺羅在夜間潛行。</Kiiro_StealthII.description>
+
+
+  <!-- 夜行衣↑ -->
+
+  <Kiiro_GuerrillaUniform.label>綺羅游擊隊服</Kiiro_GuerrillaUniform.label>
+  <Kiiro_GuerrillaUniform.description>綺羅游擊隊的制服，有一定的防護能力。</Kiiro_GuerrillaUniform.description>
+
+  <Kiiro_DressUniform.label>綺羅軍禮服</Kiiro_DressUniform.label>
+  <Kiiro_DressUniform.description>做工精緻的軍官服，在考慮了美觀的同時也具備一定的防護能力。</Kiiro_DressUniform.description>
+
+  <Kiiro_ValorArmor.label>綺羅勇者甲冑</Kiiro_ValorArmor.label>
+  <Kiiro_ValorArmor.description>綺羅勇者穿著的盔甲，用非常稀有的材料鍛造而成。</Kiiro_ValorArmor.description>
+
+
+</LanguageData>

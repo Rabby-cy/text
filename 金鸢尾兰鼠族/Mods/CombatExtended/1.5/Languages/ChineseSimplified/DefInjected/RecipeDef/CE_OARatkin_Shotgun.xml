@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_OAShot_Buck.label>制作 12号口径铀霰弹(鹿弹)  x200</MakeAmmo_OAShot_Buck.label>
+  <MakeAmmo_OAShot_Buck.description>制作 200 12号口径铀霰弹(鹿弹)</MakeAmmo_OAShot_Buck.description>
+  <MakeAmmo_OAShot_Buck.jobString>正在制作 12号口径铀霰弹 (鹿弹)</MakeAmmo_OAShot_Buck.jobString>
+
+  <MakeAmmo_OAShot_Slug.label>制作 12号口径铀霰弹(独头弹) x200</MakeAmmo_OAShot_Slug.label>
+  <MakeAmmo_OAShot_Slug.description>制作 200 12号口径铀霰弹(独头弹)</MakeAmmo_OAShot_Slug.description>
+  <MakeAmmo_OAShot_Slug.jobString>正在制作 12号口径铀霰弹(独头弹)</MakeAmmo_OAShot_Slug.jobString>
+
+  <MakeAmmo_OAShot_Beanbag.label>制作 12号口径铀霰弹(豆弹)  x200</MakeAmmo_OAShot_Beanbag.label>
+  <MakeAmmo_OAShot_Beanbag.description>制作 200 12号口径铀霰弹(豆弹)</MakeAmmo_OAShot_Beanbag.description>
+  <MakeAmmo_OAShot_Beanbag.jobString>正在制作 12号口径铀霰弹(豆弹)</MakeAmmo_OAShot_Beanbag.jobString>
+
+  <MakeAmmo_OAShot_Buck_C.label>制作 12号口径扫荡铀霰弹(鹿弹) x200</MakeAmmo_OAShot_Buck_C.label>
+  <MakeAmmo_OAShot_Buck_C.description>制作 200 12号口径扫荡铀霰弹(鹿弹)</MakeAmmo_OAShot_Buck_C.description>
+  <MakeAmmo_OAShot_Buck_C.jobString>正在制作 12号口径扫荡铀霰弹 (鹿弹)</MakeAmmo_OAShot_Buck_C.jobString>
+
+  <MakeAmmo_OAShot_Slug_C.label>制作 12号口径扫荡铀霰弹(独头弹) x200</MakeAmmo_OAShot_Slug_C.label>
+  <MakeAmmo_OAShot_Slug_C.description>制作 200 12号口径扫荡铀霰弹(独头弹)</MakeAmmo_OAShot_Slug_C.description>
+  <MakeAmmo_OAShot_Slug_C.jobString>正在制作 12号口径扫荡铀霰弹(独头弹)</MakeAmmo_OAShot_Slug_C.jobString>
+
+
+</LanguageData>

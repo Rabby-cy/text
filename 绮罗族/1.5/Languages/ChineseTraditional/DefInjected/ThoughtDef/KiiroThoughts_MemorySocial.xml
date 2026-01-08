@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kiiro_PaperFoldingReceived.stages.0.label>收到小禮物</Kiiro_PaperFoldingReceived.stages.0.label>
+
+  <Kiiro_PaperFoldingReceivedMood.stages.0.label>收到綺羅摺紙</Kiiro_PaperFoldingReceivedMood.stages.0.label>
+  <Kiiro_PaperFoldingReceivedMood.stages.0.description>哦...一件小小的藝術品...多麼可愛。</Kiiro_PaperFoldingReceivedMood.stages.0.description>
+
+  <Kiiro_PaperFoldingPresent.stages.0.label>送出小禮物</Kiiro_PaperFoldingPresent.stages.0.label>
+
+  <Kiiro_PaperFoldingPresentMood.stages.0.label>送出綺羅摺紙</Kiiro_PaperFoldingPresentMood.stages.0.label>
+  <Kiiro_PaperFoldingPresentMood.stages.0.description>我的朋友收下了我的禮物！</Kiiro_PaperFoldingPresentMood.stages.0.description>
+
+  <Kiiro_HearingARhyme.stages.0.label>好聽的童謠</Kiiro_HearingARhyme.stages.0.label>
+
+  <Kiiro_HearingARhymeMood.stages.0.label>聽到童謠</Kiiro_HearingARhymeMood.stages.0.label>
+  <Kiiro_HearingARhymeMood.stages.0.description>有人為我哼唱了一段歌謠，好聽。</Kiiro_HearingARhymeMood.stages.0.description>
+
+
+</LanguageData>

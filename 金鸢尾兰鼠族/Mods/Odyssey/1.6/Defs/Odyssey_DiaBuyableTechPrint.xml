@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <OberoniaAurea.DiaBuyableTechPrintDef>
+        <defName>OARK_Odyssey_GravTrap</defName>
+        <researchProject>OARK_Odyssey_GravTrap</researchProject>
+        <onlyScienceDepartment>true</onlyScienceDepartment>
+        <gravTechAssistPoints>200</gravTechAssistPoints>
+        <gravTechStage>2</gravTechStage>
+    </OberoniaAurea.DiaBuyableTechPrintDef>
+
+    <OberoniaAurea.DiaBuyableTechPrintDef>
+        <defName>OARK_Odyssey_GravFieldCore</defName>
+        <researchProject>OARK_Odyssey_GravFieldCore</researchProject>
+        <onlyScienceDepartment>true</onlyScienceDepartment>
+        <gravTechAssistPoints>500</gravTechAssistPoints>
+        <gravTechStage>4</gravTechStage>
+    </OberoniaAurea.DiaBuyableTechPrintDef>
+
+</Defs>

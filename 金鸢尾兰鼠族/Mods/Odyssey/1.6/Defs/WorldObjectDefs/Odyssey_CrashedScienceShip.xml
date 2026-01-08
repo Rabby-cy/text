@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <WorldObjectDef>
+        <defName>OARK_CrashedScienceShipPerp</defName>
+        <label>坠毁的飞船预计坠落点</label>
+        <description>一艘被金鸢尾兰帝国观测到的飞船预计将在这里坠落。不过在坠落之前，这里只是一片平平无奇的空地。</description>
+        <texture>World/OARK_CrashedShip</texture>
+        <expandingIcon>true</expandingIcon>
+        <expandingIconTexture>World/OARK_CrashedShip</expandingIconTexture>
+        <expandingIconPriority>70</expandingIconPriority>
+        <comps>
+            <li Class="WorldObjectCompProperties_Timeout" />
+        </comps>
+    </WorldObjectDef>
+
+    <WorldObjectDef>
+        <defName>OARK_CrashedScienceShip</defName>
+        <label>坠毁的飞船</label>
+        <description>一艘被金鸢尾兰帝国观测到的坠毁飞船，坠落点应该会有一些好东西。</description>
+        <worldObjectClass>OberoniaAurea_Frame.MapParent_Enterable</worldObjectClass>
+        <texture>World/OARK_CrashedShip</texture>
+        <expandingIcon>true</expandingIcon>
+        <expandingIconTexture>World/OARK_CrashedShip</expandingIconTexture>
+        <expandingIconPriority>70</expandingIconPriority>
+        <mapGenerator>OARK_CrashedScienceShip</mapGenerator>
+        <comps>
+            <li Class="WorldObjectCompProperties_Timeout" />
+            <li Class="WorldObjectCompProperties_FormCaravan" />
+        </comps>
+    </WorldObjectDef>
+
+    <MapGeneratorDef ParentName="MapCommonBase">
+        <defName>OARK_CrashedScienceShip</defName>
+        <label>OA坠毁的科研舱</label>
+    </MapGeneratorDef>
+
+</Defs>

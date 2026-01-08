@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: bulk goods trader -->
+  <OA_RK_Faction.label>金鸢尾兰帝国前哨殖民地</OA_RK_Faction.label>
+  
+  <!-- EN: shaman merchant -->
+  <OA_RK_Faction.description>这是金鸢尾兰帝国在银河系建立的前哨殖民地之一，相比起堕落帝国，他们的社会充满活力，并且愿意与任何友好的人群进行合作。\n\n金鸢尾兰帝国是一个银河系外的鼠族帝国，其母星系已确定并不与银河系临近。他们通过银河系边缘的空间异常点跨越而来，并且在初期的一系列摩擦后，成功与堕落帝国达成了武装殖民协议，最终在银河系建立了自己的殖民地作为缓冲区与前哨站。\n\n金鸢尾兰帝国发源于一个严寒星球之上，最初以氏族议会的形式存在着，后来得益于科技的发展成功走出了母星并且建立起了帝制政体。和彼此征伐不休的银河系不一样，金鸢尾兰帝国在到达银河系前未有经历过任何战争与动乱，因此他们的社会氛围充斥着和谐与友善，并且民众易于管理。\n\n如今的金鸢尾兰帝国已经与银河系进行了大量深入的交流，他们拥有着一系列独特的科技，并且已经效仿银河系建立起了自己的武装力量。</OA_RK_Faction.description>
+  
+  <!-- EN: slaver -->
+  <OA_RK_Faction.pawnSingular>金鸢尾兰鼠族</OA_RK_Faction.pawnSingular>
+  <OA_RK_Faction.pawnsPlural>金鸢尾兰鼠族</OA_RK_Faction.pawnsPlural>
+  <OA_RK_Faction.leaderTitle>殖民总长</OA_RK_Faction.leaderTitle>
+  <OA_RK_Faction.royalFavorLabel>帝国贡献</OA_RK_Faction.royalFavorLabel>
+  
+  
+  <OA_RK_PlayerFaction.label>新旅者</OA_RK_PlayerFaction.label>
+  <OA_RK_PlayerFaction.description>由金鸢尾兰的远行者们建立的小型营地。</OA_RK_PlayerFaction.description>
+  <OA_RK_PlayerFaction.pawnSingular>远行者</OA_RK_PlayerFaction.pawnSingular>
+  <OA_RK_PlayerFaction.pawnsPlural>远行者们</OA_RK_PlayerFaction.pawnsPlural>
+</LanguageData>

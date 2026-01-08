@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+<ThingDef Name="OA_RKBase_Bullet" Abstract="True">
+    <thingClass>Bullet</thingClass>
+    <graphicData>
+        <graphicClass>Graphic_Single</graphicClass>
+        <shaderType>Transparent</shaderType>
+        <drawSize>3</drawSize>
+    </graphicData>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <category>Projectile</category>
+    <tickerType>Normal</tickerType>
+    <useHitPoints>False</useHitPoints>
+    <neverMultiSelect>True</neverMultiSelect>
+</ThingDef>
+
+<ThingDef Name="OA_RKBase_ChargeBullet" Abstract="True">
+    <thingClass>OberoniaAurea.AstableBullet</thingClass>
+    <graphicData>
+        <graphicClass>Graphic_Single</graphicClass>
+        <shaderType>MoteGlow</shaderType>
+        <drawSize>3</drawSize>
+    </graphicData>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <category>Projectile</category>
+    <tickerType>Normal</tickerType>
+    <useHitPoints>False</useHitPoints>
+    <neverMultiSelect>True</neverMultiSelect>
+</ThingDef>
+
+</Defs>

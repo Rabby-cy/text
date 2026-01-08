@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_OAShot_Buck.label>12號口徑金鸢尾蘭霰彈 (鹿彈)</Ammo_OAShot_Buck.label>
+  <Ammo_OAShot_Buck.description>幾乎在所有應用中都非常常見的霰彈槍口徑，從狩獵、防暴再到軍用武器。</Ammo_OAShot_Buck.description>
+
+  <Ammo_OAShot_Slug.label>12號口徑金鸢尾蘭霰彈 (獨頭彈)</Ammo_OAShot_Slug.label>
+  <Ammo_OAShot_Slug.description>幾乎在所有應用中都非常常見的霰彈槍口徑，從狩獵、防暴再到軍用武器。</Ammo_OAShot_Slug.description>
+
+  <Ammo_OAShot_Beanbag.label>12號口徑金鸢尾蘭霰彈 (豆彈)</Ammo_OAShot_Beanbag.label>
+  <Ammo_OAShot_Beanbag.description>幾乎在所有應用中都非常常見的霰彈槍口徑，從狩獵、防暴再到軍用武器。</Ammo_OAShot_Beanbag.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_OAShot_Buck.label>鹿彈</Bullet_OAShot_Buck.label>
+  <Bullet_OAShot_Slug.label>獨頭彈</Bullet_OAShot_Slug.label>
+  <Bullet_OAShot_Beanbag.label>豆彈</Bullet_OAShot_Beanbag.label>
+
+
+</LanguageData>

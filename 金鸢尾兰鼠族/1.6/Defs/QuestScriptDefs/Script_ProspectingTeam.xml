@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <QuestScriptDef ParentName="OAFrame_HospitalityRefugeeBase_Female">
+        <defName>OARK_ProspectingTeam</defName>
+        <rootSelectionWeight>0</rootSelectionWeight>
+        <autoAccept>true</autoAccept>
+        <randomlySelectable>false</randomlySelectable>
+        <affectedByPoints>false</affectedByPoints>
+        <affectedByPopulation>false</affectedByPopulation>
+        <hideInvolvedFactionsInfo>false</hideInvolvedFactionsInfo>
+        <questNameRules>
+            <rulesStrings>
+                <li>questName->[lodgerAdj][lodgerPlural]</li>
+                <li>lodgerAdj->远道而来的</li>
+                <li>lodgerAdj->疲倦的</li>
+                <li>lodgerAdj->路过的</li>
+                <li>lodgerAdj->苦恼于深钻井的</li>
+                <li>lodgerPlural->地质勘探队</li>
+                <li>lodgerPlural->勘探队</li>
+                <li>lodgerPlural->勘察队</li>
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionAndNameRules>
+            <rulesStrings>
+                <li>lodgersLabel->勘探队员</li>
+                <li>lodgersLabelPlural->勘探队员们</li>
+            </rulesStrings>
+        </questDescriptionAndNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+                <li>questDescription->一支来自[asker_factionName]的地质勘探小队正在接近[map_definite]。她们已经完成了自身的任务并正在返程的路上，然而那台笨重的深钻井似乎严重的拖慢了她们的行程。\n\n她们似乎已经进行了相当长时间的赶路，因此正在附近进行临时的驻扎休憩。\n\n我们可以将她们邀请到[map_definite]进行招待，而作为对善意的回报，她们也会将为我们提供一些勘探上的帮助。\n\n勘探队的成员属于[asker_factionName]的公民。 如果你选择杀害、逮捕、出售或者采割[lodgersObjective]，将产生十分严重的外交后果。</li>
+            </rulesStrings>
+        </questDescriptionRules>
+        <root Class="OberoniaAurea.QuestNode_Root_ProspectingTeam" />
+    </QuestScriptDef>
+
+    <JobDef>
+        <defName>OARK_Job_TalkWithProspectingLeader</defName>
+        <driverClass>OberoniaAurea.JobDriver_TalkWithProspectingLeader</driverClass>
+        <reportString>trading with TargetA.</reportString>
+    </JobDef>
+
+</Defs>

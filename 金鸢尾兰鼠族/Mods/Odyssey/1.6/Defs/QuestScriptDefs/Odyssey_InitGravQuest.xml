@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <QuestScriptDef>
+        <defName>OARK_InitGravQuest</defName>
+        <rootSelectionWeight>0</rootSelectionWeight>
+        <isRootSpecial>true</isRootSpecial>
+        <affectedByPoints>false</affectedByPoints>
+        <randomlySelectable>false</randomlySelectable>
+        <questNameRules>
+            <rulesStrings>
+                <li>questName->来自鸢尾兰科技部的邀请</li>
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+                <li>questDescription->金鸢尾兰帝国的科研部，一个负责着金鸢尾兰最前沿的科学研究与科技发展，理论上很少与外界有所接触的宫廷部门，在刚刚向你发出了一个正式的邀请。\n\n这份邀请中提到，科研部目前正在联合多个势力对逆重科技进行着反向研究。然而由于实物的缺失以及科学理论的差异，因此科研部的工作始终难以进展。\n作为金鸢尾兰帝国的新兴友好势力，科研部认为你们可能是优秀的合作对象。为此，她们希望你能够为她们提供一些逆重板以协助她们的研究工作。而作为回报，科研部将会记录你的贡献，并对你开放通讯的接口。而在这个科技反推过程中获得的所有成果，将也会对你开放。\n\n当你接取该任务后，穿梭机将立刻抵达。</li>
+            </rulesStrings>
+        </questDescriptionRules>
+        <root Class="QuestNode_Sequence">
+            <nodes>
+
+                <li Class="OberoniaAurea.QuestNode_CheckInitGravQuestState">
+                    <questState>false</questState>
+                </li>
+
+                <li Class="OberoniaAurea_Frame.QuestNode_QuestUnique">
+                    <tag>OARK_InitGravQuest</tag>
+                    <restriction>UniqueSuccess</restriction>
+                </li>
+
+                <li Class="QuestNode_GetMap" />
+
+                <li Class="OberoniaAurea.QuestNode_GetOberoniaAureaFaction">                    <!-- 获取金鼠鼠派系 -->
+                    <storeAs>OAFaction</storeAs>
+                    <allowAlly>true</allowAlly>
+                    <allowNeutral>false</allowNeutral>
+                    <allowHostile>false</allowHostile>
+                </li>
+                <li Class="OberoniaAurea_Frame.QuestNode_GetFactionLeader">
+                    <faction>$OAFaction</faction>
+                    <storeAs>asker</storeAs>
+                </li>
+
+                <!-- Shuttle -->
+                <li Class="OberoniaAurea_Frame.QuestNode_GenerateThingDefCount">
+                    <thingDef>GravlitePanel</thingDef>
+                    <count>50</count>
+                    <storeAs>requiredItems</storeAs>
+                </li>
+
+                <li Class="QuestNode_SubScript">
+                    <def>Util_TransportShip_Pickup</def>
+                    <parms>
+                        <leaveDelayTicks>1800000</leaveDelayTicks>
+                        <requiredItems>$requiredItems</requiredItems>
+                        <leaveImmediatelyWhenSatisfied>true</leaveImmediatelyWhenSatisfied>
+                    </parms>
+                </li>
+                <li Class="QuestNode_Letter">
+                    <label TKey="LetterLabelShuttleArrived">穿梭机抵达</label>
+                    <text TKey="LetterTextShuttleArrived">一艘被科研官临时调来的穿梭机正在降落，并准备收集逆重板。</text>
+                </li>
+
+                <!-- Rewards -->
+                <li Class="OberoniaAurea.QuestNode_InitGravQuestCompleted"/>
+                <li Class="QuestNode_Signal">
+                    <inSignal>pickupShipThing.SentSatisfied</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_GenerateThing">
+                                <def>OARK_GravFieldExtender</def>
+                                <stackCount>1</stackCount>
+                                <storeAs>gravFieldExtender</storeAs>
+                            </li>
+                            <li Class="QuestNode_MakeMinified">
+                                <thing>$gravFieldExtender</thing>
+                                <storeAs>gravFieldExtenderMini</storeAs>
+                            </li>
+                            <li Class="QuestNode_AddToList">
+                                <name>rewardItems</name>
+                                <value>$gravFieldExtenderMini</value>
+                            </li>
+
+                            <li Class="QuestNode_GenerateThing">
+                                <def>OARK_GravDataBeacon</def>
+                                <stackCount>1</stackCount>
+                                <storeAs>gravDataBeacon</storeAs>
+                            </li>
+                            <li Class="QuestNode_MakeMinified">
+                                <thing>$gravDataBeacon</thing>
+                                <storeAs>gravDataBeaconMini</storeAs>
+                            </li>
+                            <li Class="QuestNode_AddToList">
+                                <name>rewardItems</name>
+                                <value>$gravDataBeaconMini</value>
+                            </li>
+
+                            <li Class="QuestNode_AddItemsReward">
+                                <items>$rewardItems</items>
+                            </li>
+                            <li Class ="OberoniaAurea.QuestNode_GravTechAssistPointsChange">
+                                <change>50</change>
+                                <isReward>true</isReward>
+                            </li>
+                            <li Class="QuestNode_Letter">
+                                <label TKey="OARK_LetterLabel_InitGravQuest">科研部的友谊</label>
+                                <text TKey="OARK_Letter_InitGravQuest">你已经成功的将逆重板交付于科研部，这将极大的改善她们目前的研究困境。而作为对你的答谢，科研部的直接通讯接口已经对你开放，现在你可以通过通讯台与金鸢尾兰的科研部进行直接的沟通交流。\n\n此外，科研部还为你投放了一个精密的设备。科研官雪花棱告诉你，这个设备可以记录逆重引擎的起降数据并传输给科研部，然而这样明显的数据流也极易引来机械族的袭击。\n因此尽管你听出雪花棱语气中的那种明显的期望，但她还是认真的告诫你，开启信标需要谨慎。</text>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Success</outcome>
+                                <sendStandardLetter>false</sendStandardLetter>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+
+                <!-- End conditions -->
+                <li Class="QuestNode_Letter">
+                    <inSignal>OAFaction.BecameHostileToPlayer</inSignal>
+                    <label TKey="LetterLabelQuestFailed">任务失败：[resolvedQuestName]</label>
+                    <text TKey="LetterTextQuestFailed">[OAFaction_name]开始与你敌对了。</text>
+                </li>
+                <li Class="QuestNode_AnySignal">
+                    <inSignals>
+                        <li>OAFaction.BecameHostileToPlayer</li>
+                        <li>pickupShipThing.SentUnsatisfied</li>
+                        <li>pickupShipThing.Destroyed</li>
+                        <li>pickupShipThing.LeftBehind</li>
+                    </inSignals>
+                    <node Class="QuestNode_End">
+                        <outcome>Fail</outcome>
+                        <sendStandardLetter>true</sendStandardLetter>
+                    </node>
+                </li>
+            </nodes>
+        </root>
+    </QuestScriptDef>
+
+</Defs>

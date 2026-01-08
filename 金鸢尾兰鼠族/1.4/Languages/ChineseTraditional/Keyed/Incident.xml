@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<LetterLabelTributeCollectorArrival_OA>金鳶尾蘭的物資徵募隊</LetterLabelTributeCollectorArrival_OA>
+	<LetterTributeCollectorArrival_OA>來自{0}的金鳶尾蘭物資徵募隊到達了我們的居住地，他們將會在這裡停留一段時間。如果我們願意，他們會接受我們提供的黃金，漿果以及合成纖維，並且記錄下我們的貢獻。當我們的貢獻達到一定數值時，他們將會接納我們並給予我們貴族身份。</LetterTributeCollectorArrival_OA>
+
+	<OA_SupplyShipShowConcernLabel>補給船慰問</OA_SupplyShipShowConcernLabel>
+	<OA_SupplyShipShowConcern>來自{0}金鳶尾蘭補給船向我們致以慰問，並且還贈與我們{1}莓果。</OA_SupplyShipShowConcern>
+
+</LanguageData>

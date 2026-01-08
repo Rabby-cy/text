@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<IncidentDef>
+		<defName>OARK_ScienceDepartmentAnnualInteraction</defName>
+		<label>科研部任务</label>
+		<targetTags>
+			<li>World</li>
+		</targetTags>
+		<workerClass>OberoniaAurea.IncidentWorker_ScienceDepartmentAnnualInteraction</workerClass>
+		<category>GiveQuest</category>
+		<baseChance>0</baseChance>
+	</IncidentDef>
+
+	<IncidentDef>
+		<defName>OARK_ScienceShipRecycle</defName>
+		<label>科研船回收</label>
+		<targetTags>
+			<li>World</li>
+		</targetTags>
+		<workerClass>OberoniaAurea.IncidentWorker_ScienceShipRecycle</workerClass>
+		<category>GiveQuest</category>
+		<baseChance>0</baseChance>
+	</IncidentDef>
+
+	<IncidentDef ParentName="GiveQuestBase">
+		<defName>OARK_ScienceShipLaunch</defName>
+		<label>科研舱发射观礼</label>
+		<questScriptDef>OARK_ScienceShipLaunch</questScriptDef>
+		<minRefireDays>15</minRefireDays>
+		<baseChance>0</baseChance>
+	</IncidentDef>
+
+</Defs>

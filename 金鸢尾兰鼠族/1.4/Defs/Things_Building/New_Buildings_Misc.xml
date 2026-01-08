@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BuildingBase">
+    <defName>OA_RK_Rese_A</defName>
+    <label>Oberonia Aurea Optical Research Platform</label>
+    <description>A research platform focused on optical research, equipped with optical instruments that can simulate different environments and achieve different effects, mainly used for research on brightness, high-energy light, and crystals. \n\nWhen the illumination is not less than 70%, provide a 15% research speed bonus for all research stations within a radius of 20 grids. Only one bonus of the same type is effective.</description>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <fillPercent>0.4</fillPercent>
+    <graphicData>
+      <texPath>Building/OA_RK_Rese_A</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.4,1.35)</drawSize>
+      <shadowData>
+        <volume>(0.8, 0.35, 0.8)</volume>
+        <offset>(0, 0, -0.2)</offset>
+      </shadowData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <rotatable>false</rotatable>
+    <building>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+    <designationCategory>Misc</designationCategory>
+    <uiOrder>2420</uiOrder>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>12000</WorkToBuild>
+      <Mass>15</Mass>
+      <Flammability>0</Flammability>
+      <Beauty>20</Beauty>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>25</Steel>
+      <Plasteel>60</Plasteel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <researchPrerequisites>
+      <li>OA_RK_Constant_Temperature_Hydroponics</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>250</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <ResearchSpeedFactor>0.15</ResearchSpeedFactor>
+        </statOffsets>
+        <maxDistance>20</maxDistance>
+      </li>
+      <li Class="OB.CompProperties_IncreaseWorkingSpeed_AoE">
+        <sunlight>0.7</sunlight>
+        <range>20</range>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>2</glowRadius>
+        <glowColor>(200,180,120,0)</glowColor>
+        <colorPickerEnabled>false</colorPickerEnabled>
+        <darklightToggle>false</darklightToggle>
+      </li>
+      <li Class="CompProperties_Flickable" />
+    </comps>
+    <placeWorkers>
+      <li>OB.PlaceWorker_OA_ShowAoE</li>
+      <!--li>PlaceWorker_NotUnderRoof</li-->
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+  </ThingDef>
+
+  <ThingDef ParentName="BenchBase">
+    <defName>OA_RK_Tailor</defName>
+    <label>Oberonia Aurea Sewing Platform</label>
+    <description>The sewing equipment commonly used in the Oberonia Aurea Empire. Compared to traditional manual sewing, this mechanical facility specialized in sewing work can significantly save meaningless repetitive work.</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <graphicData>
+      <texPath>Building/OA_RK_Tailor</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2.2,2)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <costList>
+      <Steel>120</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>10000</WorkToBuild>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>0.1</Flammability>
+      <WorkTableWorkSpeedFactor>1.40</WorkTableWorkSpeedFactor>
+    </statBases>
+    <size>(2,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>70</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(1,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+      <!--unpoweredWorkTableWorkSpeedFactor>0.50</unpoweredWorkTableWorkSpeedFactor-->
+    </building>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>250</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+          <li>OA_RK_Cloth_Processing</li>
+          <li>OA_RK_Cloth_Processing_B</li>
+        </linkableFacilities>
+      </li>
+      <li Class="CompProperties_Breakdownable" />
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>OA_RK_Cloth_Processing</li>
+    </researchPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>OA_RK_Rese_B</defName>
+    <label>Oberonia Aurea Tip Analysis Platform</label>
+    <description>The research platform used by researchers from the Oberonia Aurea Empire for precision analysis can provide a 10% research speed bonus when placed next to the advanced research platform. \n\nIn addition, if the research project is a technology from the space age or the ultimate era, the research speed bonus will be increased to 25%. Only one bonus of the same type is effective.</description>
+    <graphicData>
+      <texPath>Building/OA_RK_Rese_B</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2.25,2.15)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <uiIconScale>1.25</uiIconScale>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.35</staticSunShadowHeight>
+    <fillPercent>0.5</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <pathCost>42</pathCost>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>12000</WorkToBuild>
+      <Mass>25</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Steel>40</Steel>
+      <Plasteel>40</Plasteel>
+      <Uranium>40</Uranium>
+      <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+    </building>
+    <researchPrerequisites>
+      <li>OA_RK_Constant_Temperature_Hydroponics</li>
+    </researchPrerequisites>
+    <designationCategory>Misc</designationCategory>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>350</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <ResearchSpeedFactor>0.10</ResearchSpeedFactor>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+      </li>
+      <li Class="OB.CompProperties_Affect">
+        <value1>0.1</value1>
+        <value2>0.25</value2>
+      </li>
+      <li Class="CompProperties_Flickable" />
+    </comps>
+    <designationHotKey>Misc6</designationHotKey>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>OA_RK_Cloth_Processing_B</defName>
+    <label>Fabric recycling facilities</label>
+    <description>A machine that can automatically adjust and process the details of clothing, optimizing the structure while recycling excess fabric. \n\nThe sewing table connected to this device will be able to recycle a small amount of fiber materials when completing the production of clothing containing fiber materials.</description>
+    <graphicData>
+      <texPath>Building/OA_RK_Cloth_Processing_B</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3.05,3.05)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <rotatable>false</rotatable>
+    <staticSunShadowHeight>0.35</staticSunShadowHeight>
+    <fillPercent>0.5</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <pathCost>42</pathCost>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>16000</WorkToBuild>
+      <Mass>30</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,2)</size>
+    <costList>
+      <Steel>120</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+    </building>
+    <researchPrerequisites>
+      <li>OA_RK_Cloth_Processing</li>
+    </researchPrerequisites>
+    <designationCategory>Misc</designationCategory>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>150</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <WorkTableWorkSpeedFactor>0.08</WorkTableWorkSpeedFactor>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+      </li>
+    </comps>
+    <designationHotKey>Misc6</designationHotKey>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>OA_RK_Telescope</defName>
+    <label>Oberonia Aurea and Orchid Star Atlas Astronomical Mirror</label>
+    <description>A convenient, precise and reliable astronomical observation equipment. The operator only needs to select the observation unit in the nearby star chart, and the astronomical telescope can automatically adjust its angle to lock it. For astronomy enthusiasts, nothing is more fascinating than the vast expanse of stars.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Building/OA_RK_Telescope</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2.75,2.75)</drawSize>
+      <shadowData>
+        <volume>(0.3, 0.7, 0.3)</volume>
+        <offset>(-0.03,0,-0.35)</offset>
+      </shadowData>
+    </graphicData>
+    <canBeUsedUnderRoof>false</canBeUsedUnderRoof>
+    <fillPercent>0.15</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    <hasInteractionCell>true</hasInteractionCell>
+    <interactionCellOffset>(1,0,-1)</interactionCellOffset>
+    <passability>PassThroughOnly</passability>
+    <pathCost>30</pathCost>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <thingCategories>
+      <li>BuildingsJoy</li>
+    </thingCategories>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <building>
+      <joyKind>Telescope</joyKind>
+    </building>
+    <size>(2,2)</size>
+    <costList>
+      <Steel>120</Steel>
+      <Plasteel>40</Plasteel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <WorkToBuild>32000</WorkToBuild>
+      <MaxHitPoints>250</MaxHitPoints>
+      <Flammability>0.2</Flammability>
+      <Mass>30</Mass>
+      <JoyGainFactor>1.75</JoyGainFactor>
+      <Beauty>154</Beauty>
+    </statBases>
+    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+    <researchPrerequisites>
+      <li>OA_RK_Constant_Temperature_Hydroponics</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <basePowerConsumption>320</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>4</glowRadius>
+        <glowColor>(200,180,180,0)</glowColor>
+        <colorPickerEnabled>false</colorPickerEnabled>
+        <darklightToggle>false</darklightToggle>
+      </li>
+    </comps>
+    <designationCategory>Joy</designationCategory>
+    <placeWorkers>
+      <li>PlaceWorker_NotUnderRoof</li>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>OA_RK_Shuipei_A</defName>
+    <label>Oberonia Aurea Plant Culture Cabinet (Oberonia Aurea)</label>
+    <description>The plant cultivation cabinet of the Oberonia Aurea Empire is equipped with small sunglasses and hydroponic facilities, and has been specially adjusted for designated plants, ensuring the survival and growth of the plants in the hydroponic cabinet even if there is no one to take care of them.</description>
+    <possessionCount>1</possessionCount>
+	<tickerType>Normal</tickerType>
+    <graphicData>
+      <texPath>Building/OA_RK_Shuipei_A</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,1.7)</drawSize>
+      <shadowData>
+        <volume>(0.3, 0.7, 0.3)</volume>
+        <offset>(-0.03,0,-0.35)</offset>
+      </shadowData>
+    </graphicData>
+    <fillPercent>0.40</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>30</pathCost>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
+    <size>(2,1)</size>
+    <costList>
+      <Steel>85</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <WorkToBuild>9000</WorkToBuild>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Flammability>0.2</Flammability>
+      <Mass>30</Mass>
+      <Beauty>42</Beauty>
+    </statBases>
+    <designationCategory>Production</designationCategory>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    <researchPrerequisites>
+      <li>OA_RK_Constant_Temperature_Hydroponics_B</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <basePowerConsumption>320</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>5</glowRadius>
+        <glowColor>(130,115,103,0)</glowColor>
+        <!--glowColor>(170,153,132,0)</glowColor-->
+        <colorPickerEnabled>false</colorPickerEnabled>
+        <darklightToggle>false</darklightToggle>
+      </li>
+	  <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Spawner">
+        <requiresPower>true</requiresPower>
+        <thingToSpawn>Oberonia_Aurea</thingToSpawn>
+        <spawnCount>32</spawnCount>
+        <spawnIntervalRange>
+          <min>720000</min>
+          <max>720000</max>
+        </spawnIntervalRange>
+        <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+        <showMessageIfOwned>true</showMessageIfOwned>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>OA_RK_Shuipei_B</defName>
+    <label>Oberonia Aurea Plant Culture Cabinet (Rice)</label>
+    <description>The plant cultivation cabinet of the Oberonia Aurea Empire is equipped with small sunglasses and hydroponic facilities, and has been specially adjusted for designated plants, ensuring the survival and growth of the plants in the hydroponic cabinet even if there is no one to take care of them.</description>
+    <possessionCount>1</possessionCount>
+	<tickerType>Normal</tickerType>
+    <graphicData>
+      <texPath>Building/OA_RK_Shuipei_B</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2,1.7)</drawSize>
+      <shadowData>
+        <volume>(0.3, 0.7, 0.3)</volume>
+        <offset>(-0.03,0,-0.35)</offset>
+      </shadowData>
+    </graphicData>
+    <fillPercent>0.40</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>30</pathCost>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+      <li>BuildingsProduction</li>
+    </thingCategories>
+    <size>(2,1)</size>
+    <costList>
+      <Steel>85</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <statBases>
+      <WorkToBuild>10000</WorkToBuild>
+      <MaxHitPoints>120</MaxHitPoints>
+      <Flammability>0.2</Flammability>
+      <Mass>30</Mass>
+      <Beauty>16</Beauty>
+    </statBases>
+    <designationCategory>Production</designationCategory>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    <researchPrerequisites>
+      <li>OA_RK_Constant_Temperature_Hydroponics_B</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>false</shortCircuitInRain>
+        <basePowerConsumption>370</basePowerConsumption>
+      </li>
+	  <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Glower">
+        <glowRadius>5</glowRadius>
+        <glowColor>(170,153,132,0)</glowColor>
+        <colorPickerEnabled>false</colorPickerEnabled>
+        <darklightToggle>false</darklightToggle>
+      </li>
+      <li Class="CompProperties_Spawner">
+        <requiresPower>true</requiresPower>
+        <thingToSpawn>RawRice</thingToSpawn>
+        <spawnCount>70</spawnCount>
+        <spawnIntervalRange>
+          <min>720000</min>
+          <max>720000</max>
+        </spawnIntervalRange>
+        <writeTimeLeftToSpawn>true</writeTimeLeftToSpawn>
+        <showMessageIfOwned>true</showMessageIfOwned>
+      </li>
+    </comps>
+  </ThingDef>
+
+   <ThingDef ParentName="BuildingBase">
+    <defName>OA_RK_Zhuzi_New</defName>
+    <label>Oberonia Aurea Optical Column</label><!--不要指望它替代太阳灯，这玩意是放工作间照明的同时满足光学台需求的-->
+    <description>A support column specially designed for optical research laboratories, which is equipped with a high-energy optical component inside and can simulate various lighting conditions. When there is no research task, sometimes researchers may freely adjust colors according to their own preferences.</description>
+    <designationCategory>Structure</designationCategory>
+    <uiOrder>2041</uiOrder>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.25</fillPercent>
+    <pathCost>0</pathCost>
+    <statBases>
+      <MaxHitPoints>180</MaxHitPoints>
+      <WorkToBuild>3500</WorkToBuild>
+      <Mass>10</Mass>
+      <Flammability>0.5</Flammability>
+      <Beauty>8</Beauty>
+    </statBases>
+    <costList>
+      <Steel>55</Steel>
+	  <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <holdsRoof>true</holdsRoof>
+    <canOverlapZones>false</canOverlapZones>
+    <rotatable>false</rotatable>
+    <fertility>0</fertility>
+    <specialDisplayRadius>2.4</specialDisplayRadius>
+    <building>
+      <isInert>true</isInert>
+      <ai_chillDestination>false</ai_chillDestination>
+      <paintable>true</paintable>
+    </building>
+    <graphicData>
+      <drawSize>(1.1,1.28)</drawSize>
+      <drawOffset>(0,0,0.2)</drawOffset>
+      <texPath>Building/OA_RK_Zhuzi_D</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <!--shaderType>CutoutComplex</shaderType-->
+      <shadowData>
+        <volume>(0.3, 0.5, 0.3)</volume>
+        <offset>(0,0,-0.23)</offset>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Styleable" />
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>400</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Glower">
+	    <overlightRadius>3.4</overlightRadius>
+        <glowRadius>20</glowRadius>
+        <glowColor>(216,177,110,0)</glowColor>
+        <colorPickerEnabled>true</colorPickerEnabled>
+        <darklightToggle>true</darklightToggle>
+      </li>
+	  <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>2</heatPerSecond>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>OA_RK_Constant_Temperature_Hydroponics</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+ <ThingDef ParentName="BuildingBase">
+    <defName>OA_RK_Rese_C</defName>
+    <label>Oberonia Aurea Research Cabinet</label>
+    <description>The special cabinet equipped by the Oberonia Aurea Orchid Palace for the research room has a dedicated research network platform and personal log interface for researchers to arrange their schedules. However, occasionally researchers may also commission technical department personnel to add some peculiar customized functions.</description>
+    <graphicData>
+      <texPath>Building/OA_RK_Yanjiugui</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(2.1,1.68)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <uiIconScale>1.25</uiIconScale>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.35</staticSunShadowHeight>
+    <fillPercent>0.5</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <pathCost>42</pathCost>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToBuild>5500</WorkToBuild>
+      <Mass>15</Mass>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <size>(2,1)</size>
+    <costList>
+      <Steel>80</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+    </building>
+    <researchPrerequisites>
+      <li>OA_RK_Constant_Temperature_Hydroponics</li>
+    </researchPrerequisites>
+    <designationCategory>Misc</designationCategory>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <ResearchSpeedFactor>0.09</ResearchSpeedFactor>
+        </statOffsets>
+        <maxSimultaneous>2</maxSimultaneous>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>20</basePowerConsumption>
+      </li>
+    </comps>
+    <designationHotKey>Misc6</designationHotKey>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+  
+  
+  <TerrainDef ParentName="FloorBase">
+    <defName>OA_RK_Floor_Jishu</defName>
+    <label>金鸢尾兰技术部地板</label>
+    <renderPrecedence>200</renderPrecedence>
+    <description>金鸢尾兰宫廷技术部侍从们研发出的一种具有一定自清洁性的地板，铺设简单的同时具有相当的美观性，很适合大规模铺设制作。</description>
+    <texturePath>Building/OA_RK_Floor_Jishu</texturePath>
+    <color>(0.67, 0.67, 0.67)</color>
+    <pollutionTintColor>(0.91, 0.91, 0.86, 1)</pollutionTintColor>
+    <isPaintable>true</isPaintable>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+	<uiIconPath>Building/OA_RK_Floor_Jishu_UI</uiIconPath>
+    <statBases>
+      <WorkToBuild>1080</WorkToBuild>
+      <Cleanliness>0.35</Cleanliness>
+      <CleaningTimeFactor>0.6</CleaningTimeFactor>
+      <Beauty>4</Beauty>
+    </statBases>
+    <costList>
+      <Steel>9</Steel>
+    </costList>
+    <tags>
+      <li>Floor</li>
+    </tags>
+    <constructEffect>ConstructMetal</constructEffect>
+    <designationHotKey>Misc4</designationHotKey>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <researchPrerequisites>
+      <li>OA_RK_Apparel_E</li>
+    </researchPrerequisites>
+    <uiOrder>2116</uiOrder>
+  </TerrainDef>
+
+
+  <!--ThingDef ParentName="BuildingBase">
+    <defName>OA_RK_Cloth_Processing_B</defName>
+    <label>布料回收设施</label>
+    <description>能够对制成衣物自动进行细节调整与加工的机器，在优化结构的同时能够回收多余的布料。\n\n与该设备连接的裁缝台在完成含纤维材料的衣物制作时将能够回收少量的纤维类材料，并且制成的衣物耐久度提升50。</description>
+    <graphicData>
+      <texPath>Building/OA_RK_Cloth_Processing_B</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3.05,3.05)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+	<rotatable>false</rotatable>
+    <staticSunShadowHeight>0.35</staticSunShadowHeight>
+    <fillPercent>0.5</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <pathCost>42</pathCost>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>18200</WorkToBuild>
+      <Mass>30</Mass>
+      <Flammability>0.2</Flammability>
+    </statBases>
+    <size>(2,2)</size>
+    <costList>
+      <Steel>150</Steel>
+	  <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <building>
+      <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+    </building>
+    <researchPrerequisites>
+      <li>OA_RK_Cloth_Processing</li>
+    </researchPrerequisites>
+    <designationCategory>Misc</designationCategory>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    <comps>
+    <li Class="CompProperties_Facility">
+        <statOffsets>
+          <WorkTableWorkSpeedFactor>0.06</WorkTableWorkSpeedFactor>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+      </li>
+    </comps>
+    <designationHotKey>Misc6</designationHotKey>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef-->
+</Defs>

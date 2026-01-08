@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- ========== 金鸢尾兰仓帽 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Hat_A"]/statBases</xpath>
+		<value>
+			<Bulk>1</Bulk>
+		</value>
+	</Operation>
+
+	<!-- ========== 轻型突袭作战头盔 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Armor_Hat_A"]/equippedStatOffsets</xpath>
+		<value>
+			<SmokeSensitivity>-1</SmokeSensitivity>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_Armor_Hat_A"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>11</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_Armor_Hat_A"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>18</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<!-- ========== 全防护突袭作战头盔 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Armor_Hat_B"]/equippedStatOffsets</xpath>
+		<value>
+			<SmokeSensitivity>-1</SmokeSensitivity>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_Armor_Hat_B"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>34</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_Armor_Hat_B"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>72</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<!-- ========== 全防护突袭装甲 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_New_Windbreaker_G"]/equippedStatOffsets</xpath>
+		<value>
+			<CarryWeight>14</CarryWeight>
+			<CarryBulk>11</CarryBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_New_Windbreaker_G"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>41</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_New_Windbreaker_G"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>86</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<!-- ========== 重装作战护甲 ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_New_Windbreaker_FangzhiBUGdehouzhui"]/comps/li[@Class="CompProperties_ApparelReloadable"]/ammoCountPerCharge</xpath>
+		<value>
+			<ammoCountPerCharge>1</ammoCountPerCharge>
+		</value>
+	</Operation>
+
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_New_Windbreaker_FangzhiBUGdehouzhui_ACC"]/verbs</xpath>
+		<value>
+			<verbs>
+				<li Class="CombatExtended.VerbPropertiesCE">
+					<label>使用火箭榴弹发射器</label>
+					<verbClass>CombatExtended.Verb_LaunchProjectileStaticCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<onlyManualCast>True</onlyManualCast>
+					<range>41.9</range>
+					<warmupTime>0.8</warmupTime>
+					<minRange>5</minRange>
+					<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+					<soundCast>Shot_IncendiaryLauncher</soundCast>
+					<soundCastTail>GunTail_Medium</soundCastTail>
+					<muzzleFlashScale>14</muzzleFlashScale>
+					<drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+					<defaultProjectile>Bullet_40x46mmGrenade_HEDP</defaultProjectile>
+					<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+				</li>
+			</verbs>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_New_Windbreaker_FangzhiBUGdehouzhui"]/verbs</xpath>
+		<value>
+			<verbs>
+				<li Class="CombatExtended.VerbPropertiesCE">
+					<label>使用火箭榴弹发射器</label>
+					<verbClass>CombatExtended.Verb_LaunchProjectileStaticCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<onlyManualCast>True</onlyManualCast>
+					<range>41.9</range>
+					<warmupTime>0.8</warmupTime>
+					<minRange>5</minRange>
+					<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+					<soundCast>Shot_IncendiaryLauncher</soundCast>
+					<soundCastTail>GunTail_Medium</soundCastTail>
+					<muzzleFlashScale>14</muzzleFlashScale>
+					<drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+					<defaultProjectile>Bullet_40x46mmGrenade_HEDP</defaultProjectile>
+					<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+				</li>
+			</verbs>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_New_Windbreaker_FangzhiBUGdehouzhui_ACC"]/comps/li[@Class="CompProperties_ApparelReloadable"]/ammoDef</xpath>
+		<value>
+			<ammoDef>Ammo_40x46mmGrenade_HEDP</ammoDef>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_New_Windbreaker_FangzhiBUGdehouzhui"]/comps/li[@Class="CompProperties_ApparelReloadable"]/ammoDef</xpath>
+		<value>
+			<ammoDef>Ammo_40x46mmGrenade_HEDP</ammoDef>
+		</value>
+	</Operation>
+
+
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_New_Windbreaker_FangzhiBUGdehouzhui_ACC"]/statBases</xpath>
+		<value>
+			<Bulk>7</Bulk>
+			<WornBulk>9</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_New_Windbreaker_FangzhiBUGdehouzhui"]/statBases</xpath>
+		<value>
+			<Bulk>7</Bulk>
+			<WornBulk>9</WornBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_New_Windbreaker_FangzhiBUGdehouzhui_ACC"]/equippedStatOffsets</xpath>
+		<value>
+			<CarryWeight>71</CarryWeight>
+			<CarryBulk>21</CarryBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_New_Windbreaker_FangzhiBUGdehouzhui"]/equippedStatOffsets</xpath>
+		<value>
+			<CarryWeight>71</CarryWeight>
+			<CarryBulk>21</CarryBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_New_Windbreaker_FangzhiBUGdehouzhui_ACC"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>29</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_New_Windbreaker_FangzhiBUGdehouzhui_ACC"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>54</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_New_Windbreaker_FangzhiBUGdehouzhui"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>29</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_New_Windbreaker_FangzhiBUGdehouzhui"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>54</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<!-- ========== 突袭作战防弹插板 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Middle"]/statBases</xpath>
+		<value>
+			<Bulk>0.6</Bulk>
+			<WornBulk>0.2</WornBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_Middle"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>8</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Middle"]/statBases</xpath>
+		<value>
+			<ArmorRating_Blunt>12</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<!-- ========== 突袭作战腰带 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_BlitzBelt"]/equippedStatOffsets</xpath>
+		<value>
+			<CarryWeight>19</CarryWeight>
+			<CarryBulk>12</CarryBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_BlitzBelt"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>4</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_BlitzBelt"]/statBases</xpath>
+		<value>
+			<ArmorRating_Blunt>5</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<!-- ========== 降冲击结构背心 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_BlitzBelt"]/statBases</xpath>
+		<value>
+			<Bulk>1</Bulk>
+			<WornBulk>1</WornBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Sandwich_C"]/equippedStatOffsets</xpath>
+		<value>
+			<CarryWeight>6</CarryWeight>
+			<CarryBulk>8</CarryBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_Sandwich_C"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>11</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_Sandwich_C"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>21</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<!-- ========== 突袭作战制服 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Professional_Uniforms_D"]/statBases</xpath>
+		<value>
+			<Bulk>1.7</Bulk>
+			<WornBulk>2</WornBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Professional_Uniforms_D"]/equippedStatOffsets</xpath>
+		<value>
+			<CarryWeight>20</CarryWeight>
+			<CarryBulk>15</CarryBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_Professional_Uniforms_D"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>4</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_Professional_Uniforms_D"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>3</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<!-- ========== 突袭作战风衣 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Windbreaker_B"]/statBases</xpath>
+		<value>
+			<Bulk>3</Bulk>
+			<WornBulk>2</WornBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Windbreaker_B"]/equippedStatOffsets</xpath>
+		<value>
+			<CarryWeight>11</CarryWeight>
+			<CarryBulk>10</CarryBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_Windbreaker_B"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>7</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_Windbreaker_B"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>11</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<!-- ========== 突袭作战裙甲 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_New_Windbreaker_E"]/statBases</xpath>
+		<value>
+			<Bulk>3</Bulk>
+			<WornBulk>6</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_New_Windbreaker_E"]/equippedStatOffsets</xpath>
+		<value>
+			<CarryWeight>22</CarryWeight>
+			<CarryBulk>11</CarryBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_New_Windbreaker_E"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>15</ArmorRating_Sharp>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_New_Windbreaker_E"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>32</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_New_Windbreaker_E"]/verbs</xpath>
+		<value>
+			<verbs>
+				<li Class="CombatExtended.VerbPropertiesCE">
+					<label>使用火箭榴弹发射器</label>
+					<verbClass>CombatExtended.Verb_LaunchProjectileStaticCE</verbClass>
+					<hasStandardCommand>true</hasStandardCommand>
+					<onlyManualCast>True</onlyManualCast>
+					<range>41.9</range>
+					<warmupTime>0.6</warmupTime>
+					<minRange>5</minRange>
+					<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+					<soundCast>Shot_IncendiaryLauncher</soundCast>
+					<soundCastTail>GunTail_Medium</soundCastTail>
+					<muzzleFlashScale>14</muzzleFlashScale>
+					<drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+					<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+					<defaultProjectile>Bullet_30x29mmGrenade_HE</defaultProjectile>
+					<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+				</li>
+			</verbs>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_New_Windbreaker_E"]/comps/li[@Class="CompProperties_ApparelReloadable"]/ammoDef</xpath>
+		<value>
+			<ammoDef>Ammo_30x29mmGrenade_HE</ammoDef>
+		</value>
+	</Operation>
+
+
+	<!-- ========== 工业防护头盔 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_New_Hat_D"]/statBases</xpath>
+		<value>
+			<Bulk>1.2</Bulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_New_Hat_D"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>8</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_New_Hat_D"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>28</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<!-- ========== 工业制服 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_New_Professional_Uniforms_A"]/statBases</xpath>
+		<value>
+			<Bulk>0.9</Bulk>
+			<WornBulk>2.1</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_New_Professional_Uniforms_A"]/equippedStatOffsets</xpath>
+		<value>
+			<CarryWeight>10</CarryWeight>
+			<CarryBulk>10</CarryBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_New_Professional_Uniforms_A"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>11</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<!-- ========== 工业背心 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_New_Sandwich_A"]/statBases</xpath>
+		<value>
+			<Bulk>0.4</Bulk>
+			<WornBulk>1.2</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_New_Sandwich_A"]/equippedStatOffsets</xpath>
+		<value>
+			<CarryWeight>4</CarryWeight>
+			<CarryBulk>2</CarryBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_New_Sandwich_A"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>2</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_New_Sandwich_A"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>11</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<!-- ========== 多功能工作腰带 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Belt"]/statBases</xpath>
+		<value>
+			<Bulk>1</Bulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Belt"]/equippedStatOffsets</xpath>
+		<value>
+			<CarryWeight>14</CarryWeight>
+			<CarryBulk>7</CarryBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_Mountain_Stick"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>杖身</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>13.5</power>
+					<cooldownTime>3</cooldownTime>
+					<chanceFactor>1</chanceFactor>
+					<armorPenetrationBlunt>6.2</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>杖尖</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>16.5</power>
+					<cooldownTime>3</cooldownTime>
+					<chanceFactor>1</chanceFactor>
+					<armorPenetrationSharp>2.5</armorPenetrationSharp>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_Mountain_Stick_B"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>杖尖</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>19.5</power>
+					<cooldownTime>3</cooldownTime>
+					<chanceFactor>1</chanceFactor>
+					<armorPenetrationSharp>4.6</armorPenetrationSharp>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>刃</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>24.5</power>
+					<cooldownTime>3</cooldownTime>
+					<chanceFactor>1</chanceFactor>
+					<armorPenetrationSharp>4</armorPenetrationSharp>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_Mountain_Stick_C"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>刀背</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>11.5</power>
+					<cooldownTime>2.0</cooldownTime>
+					<chanceFactor>1.1</chanceFactor>
+					<armorPenetrationBlunt>2.6</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>刀尖</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>18</power>
+					<cooldownTime>2.0</cooldownTime>
+					<chanceFactor>2.5</chanceFactor>
+					<armorPenetrationSharp>5.6</armorPenetrationSharp>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>刀刃</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>15.5</power>
+					<cooldownTime>2.0</cooldownTime>
+					<chanceFactor>2</chanceFactor>
+					<armorPenetrationSharp>4.4</armorPenetrationSharp>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+</Patch>

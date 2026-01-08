@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <AncotLibrary.ApparelPolicyDef>
+    <defName>Kiiro_ApparelPolicy</defName>
+    <label>Kiiro</label>
+    <race>Kiiro_Race</race>
+    <apparelCategories>
+      <li>Kiiro_Apparel</li>
+    </apparelCategories>
+    <apparelTags>
+      <li>Milira_CombatDrone_Standard</li>
+      <li>Milira_CombatDrone_Large</li>
+    </apparelTags>
+    <includeApparelUtility>false</includeApparelUtility>
+  </AncotLibrary.ApparelPolicyDef>
+
+</Defs>

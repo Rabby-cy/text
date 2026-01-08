@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+ <OA_kongtouA.label>投放馬鈴薯</OA_kongtouA.label>
+  <OA_kongtouA.description>呼叫投放馬鈴薯*700。</OA_kongtouA.description>
+  
+  <OA_kongtouB.label>投放生存食物包</OA_kongtouB.label>
+  <OA_kongtouB.description>呼叫投放包生存食物包*30。</OA_kongtouB.description>
+  
+  <OA_kongtouC.label>投放白銀</OA_kongtouC.label>
+  <OA_kongtouC.description>呼叫投放白銀*800。</OA_kongtouC.description>
+  
+  <OA_kongtouD.label>投放稻米</OA_kongtouD.label>
+  <OA_kongtouD.description>呼叫投放稻米*1000。</OA_kongtouD.description>
+  
+  <OA_kongtouE.label>投放草藥</OA_kongtouE.label>
+  <OA_kongtouE.description>呼叫投放草藥*120。</OA_kongtouE.description>
+  
+  <OA_kongtouF.label>投放醫藥</OA_kongtouF.label>
+  <OA_kongtouF.description>呼叫投放醫療包*32。</OA_kongtouF.description>
+  
+  <OA_kongtouG.label>呼叫軌道轟炸</OA_kongtouG.label>
+  <OA_kongtouG.description>呼叫3發軌道轟炸。</OA_kongtouG.description>
+  
+  <OA_kongtouG_C.label>投放電子癱瘓設備</OA_kongtouG_C.label>
+  <OA_kongtouG_C.description>向指定點投放一座電子癱瘓設備。</OA_kongtouG_C.description>
+  
+  <OA_kongtouG_B.label>軌道轟炸權限</OA_kongtouG_B.label>
+  <OA_kongtouG_B.description>獲得金鳶尾蘭的軌道轟炸權限，允許用更低成本呼叫軌道轟炸。</OA_kongtouG_B.description>
+  
+  <OA_kongtouH.label>呼叫火力覆蓋</OA_kongtouH.label>
+  <OA_kongtouH.description>呼叫一次覆蓋式軌道轟炸。</OA_kongtouH.description>
+  
+  <OA_kongtouI.label>呼叫突襲小組</OA_kongtouI.label>
+  <OA_kongtouI.description>呼叫一支金鳶尾蘭的突襲小組。</OA_kongtouI.description>
+  
+  <OA_kongtouJ.label>呼叫突襲分隊</OA_kongtouJ.label>
+  <OA_kongtouJ.description>呼叫一支金鳶尾蘭的突襲分隊。</OA_kongtouJ.description>
+  
+  <OA_kongtouAA.label>呼叫軌道運輸艇</OA_kongtouAA.label>
+  <OA_kongtouAA.description>呼叫金鳶尾蘭的軌道運輸艇。</OA_kongtouAA.description>
+  
+  
+</LanguageData>

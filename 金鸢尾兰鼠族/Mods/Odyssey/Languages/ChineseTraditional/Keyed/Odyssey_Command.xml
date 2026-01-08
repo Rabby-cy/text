@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OARK_DeativeGravDataBeaconDesc>關閉{0}。\n當前狀態：已激活</OARK_DeativeGravDataBeaconDesc>
+    <OARK_ActiveGravDataBeaconDesc>激活{0}。\n當前狀態：已關閉</OARK_ActiveGravDataBeaconDesc>
+
+    <OARK_Command_TriggerStartWick>開啟設備</OARK_Command_TriggerStartWick>
+    <OARK_Command_TriggerStartWickDesc>開啟引力陷阱，對附近所有單位造成強效的牽引。</OARK_Command_TriggerStartWickDesc>
+
+    <OARK_Command_GravSuppress>重力場壓製</OARK_Command_GravSuppress>
+    <OARK_Command_GravSuppressDesc>大幅度改變區域引力強度，對生效範圍內的所有單位造成強壓製效果。</OARK_Command_GravSuppressDesc>
+
+    <OARK_SailorAssistInvitation>邀請常駐</OARK_SailorAssistInvitation>
+    <OARK_SailorAssistInvitationDesc>向金鳶尾蘭帝國發起人員常駐的申請，以令這位金鳶尾蘭公民永久的加入你的殖民地。</OARK_SailorAssistInvitationDesc>
+    <OARK_InsufficientMood>需要侍從至少擁有{0}心情。</OARK_InsufficientMood>
+    <OARk_NeedBetterBothwayOpinion>需要侍從對該殖民者至少{0}好感。</OARk_NeedBetterBothwayOpinion>
+
+    <OARK_OpenOne>打開一個</OARK_OpenOne>
+    <OARK_ComponentBoxDesc>單獨打開一個{0}。</OARK_ComponentBoxDesc>
+
+    <OARK_OpenAll>打開全部</OARK_OpenAll>
+    <OARK_ComponentBoxDesc>打開堆疊在一起的所有{0}。</OARK_ComponentBoxDesc>
+
+</LanguageData>

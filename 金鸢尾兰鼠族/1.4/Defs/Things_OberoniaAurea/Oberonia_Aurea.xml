@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_Oberonia_Aurea</defName>
+    <label>Oberonia Aurea (ornamental)</label>
+    <description>A golden variant from the genus of flowering plants in the family Orchidaceae. Originated on the soils of the home planet of the Oberonia Aurea Ratkin, hardy and able to grow on poor soil, is the symbol and national flower of the Oberonia Aurea Empire. Its color is bright but not vulgar, and exudes a subtle fragrance. The Oberonia Aurea Ratkins often pick it to brew tea.\n\nThis type of Oberonia Aurea will be automatically harvested.</description>
+     <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <Nutrition>0.05</Nutrition>
+	  <Beauty>23</Beauty>
+      <BeautyOutdoors>23</BeautyOutdoors>
+    </statBases>
+	<altitudeLayer>Building</altitudeLayer>
+    <graphicData>
+      <texPath>Plant/Oberonia_Aurea</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+	 <drawSize>(1.26,1.26)</drawSize>
+    </graphicData>
+    <selectable>true</selectable>
+    <!--pathCost>16</pathCost-->
+    <ingestible />
+    <plant>
+	  <fertilitySensitivity>0.6</fertilitySensitivity>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+	  <sowWork>920</sowWork>
+      <harvestedThingDef>Oberonia_Aurea</harvestedThingDef>
+      <harvestYield>5</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+		<li>Decorative</li>
+      </sowTags>
+	  <autoHarvestable>false</autoHarvestable>
+      <topWindExposure>0.08</topWindExposure>
+	  <growMinGlow>0.3</growMinGlow>
+      <growDays>4.25</growDays>
+      <lifespanDaysPerGrowDays>5</lifespanDaysPerGrowDays>
+      <visualSizeRange>0.3~0.8</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Beauty</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+	  <sowResearchPrerequisites>
+        <li>OA_RK_Oberonia_Aurea_Research</li>
+      </sowResearchPrerequisites>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_Oberonia_Aurea_B</defName>
+    <label>Oberonia Aurea (production)</label>
+    <description>A golen variant from the genus of flowering plants in the family Orchidaceae. Originated on the soils of the home planet of the Oberonia Aurea Ratkin, hardy and able to grow on poor soil, is the symbol and national flower of the Oberonia Aurea Empire. Its color is bright but not vulgar, and exudes a subtle fragrance. The Oberonia Aurea Ratkins often pick it to brew tea.\n\nThis type of Oberonia Aurea will not automatically harvest.</description>
+    <statBases>
+      <MaxHitPoints>70</MaxHitPoints>
+      <Nutrition>0.05</Nutrition>
+	  <Beauty>23</Beauty>
+      <BeautyOutdoors>23</BeautyOutdoors>
+    </statBases>
+	<altitudeLayer>Building</altitudeLayer>
+    <graphicData>
+      <texPath>Plant/Oberonia_Aurea</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+	 <drawSize>(1.29,1.29)</drawSize>
+    </graphicData>
+    <selectable>true</selectable>
+    <!--pathCost>16</pathCost-->
+    <ingestible />
+    <plant>
+	  <fertilitySensitivity>0.6</fertilitySensitivity>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+	  <sowWork>920</sowWork>
+      <harvestedThingDef>Oberonia_Aurea</harvestedThingDef>
+      <harvestYield>5</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+		<li>Hydroponic</li>
+      </sowTags>
+	  <autoHarvestable>true</autoHarvestable>
+      <topWindExposure>0.08</topWindExposure>
+	  <growMinGlow>0.3</growMinGlow>
+      <growDays>4.25</growDays>
+      <lifespanDaysPerGrowDays>5</lifespanDaysPerGrowDays>
+      <visualSizeRange>0.3~0.8</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Beauty</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+	  <sowResearchPrerequisites>
+        <li>OA_RK_Oberonia_Aurea_Research</li>
+      </sowResearchPrerequisites>
+    </plant>
+  </ThingDef>
+
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>Oberonia_Aurea</defName>
+    <label>Oberonia Aurea</label>
+    <description>The petals of the Oberonia Aurea, which should be great for brewing tea.</description>
+    <soundInteract>Grain_Drop</soundInteract>
+    <soundDrop>Grain_Drop</soundDrop>
+    <graphicData>
+      <texPath>Item/Oberonia_Aurea</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.0</MarketValue>
+    </statBases>
+    <ingestible>
+      <foodType>Seed</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>60</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <RecipeDef>
+    <defName>Make_Oberonia_Aurea_Tea</defName>
+    <label>Brew Oberonia Aurea tea</label>
+    <description>Brewing a cup of Oberonia Aurea tea</description>
+    <jobString>Brewing a cup of Oberonia Aurea tea</jobString>
+   <workAmount>850</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <fixedIngredientFilter Inherit="false">
+	  <!-- null -->
+    </fixedIngredientFilter>
+	<recipeUsers>
+		<li>ElectricStove</li>
+        <li>FueledStove</li>
+	</recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+			<li>Oberonia_Aurea</li>
+	      </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <products>
+      <Oberonia_Aurea_Tea>5</Oberonia_Aurea_Tea>
+    </products>
+    <defaultIngredientFilter>
+	  <thingDefs Inherit="false">
+		<li>Oberonia_Aurea</li>
+	  </thingDefs>
+    </defaultIngredientFilter>
+    <workSkill>Cooking</workSkill>
+    <researchPrerequisite>OA_RK_Oberonia_Aurea_Research</researchPrerequisite>
+    <displayPriority>1441</displayPriority>
+  </RecipeDef>
+ 
+ 
+   <ThingDef ParentName="DrugBase">
+    <defName>Oberonia_Aurea_Tea</defName>
+    <label>Oberonia Aurea tea</label>
+    <description>The floral tea brewed with Oberonia Aurea petals, exudes a refreshing aroma. The clear and slightly golden color of the tea is able to settle the restless mind just by looking at it.</description>
+    <descriptionHyperlinks>
+      <HediffDef>OA_RK_Tea</HediffDef>
+    </descriptionHyperlinks>
+	<thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <tickerType>Rare</tickerType>
+	<socialPropernessMatters>false</socialPropernessMatters>
+    <graphicData>
+      <texPath>Item/Oberonia_Aurea_Tea</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+	<stackLimit>10</stackLimit>
+    <statBases>
+      <MarketValue>4.6</MarketValue>
+      <Mass>0.15</Mass>
+      <DeteriorationRate>12</DeteriorationRate>
+      <Nutrition>0.02</Nutrition>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <ingestible>
+      <baseIngestTicks>260</baseIngestTicks>
+      <chairSearchRadius>21</chairSearchRadius>
+      <preferability>DesperateOnly</preferability>
+      <tasteThought></tasteThought>
+      <foodType>Processed</foodType>
+      <joyKind>Oberonia_Aurea_Tea_Joy</joyKind>
+      <joy>0.04</joy>
+	  <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <drugCategory>Social</drugCategory>
+      <canAutoSelectAsFoodForCaravan>true</canAutoSelectAsFoodForCaravan>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>OA_RK_Tea</hediffDef>
+          <severity>0.80</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+	<comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>1.75</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+	  <li Class="CompProperties_Drug">
+        <listOrder>1000</listOrder>
+        <overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
+      </li>
+    </comps>
+	<rotatable>false</rotatable>
+  </ThingDef>
+  
+  <HediffDef>
+    <defName>OA_RK_Tea</defName>
+    <hediffClass>Hediff_High</hediffClass>
+    <label>Clear Heart (Oberonia Aurea)</label>
+    <description>That floral tea made me feel warm and relaxed...</description>
+    <defaultLabelColor>(0.80,0.80,0.30)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-3.60</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+	  	<li Class="OberoniaAurea.HCP_ConditionIncrease">
+			<hediff>OA_RK_hediff_SkyWarmth</hediff>
+		</li>
+    </comps>
+	 <stages>
+      <li> 
+		<capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.02</offset>
+          </li> 
+		  <li>
+            <capacity>Moving</capacity>
+            <offset>-0.05</offset>
+          </li> 
+		</capMods>  
+		<statFactors>
+          <ImmunityGainSpeed>1.05</ImmunityGainSpeed>
+        </statFactors>
+		<statOffsets>
+          <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+        </statOffsets>	
+      </li>
+	</stages>
+  </HediffDef>
+  
+  <ThoughtDef>
+    <defName>OA_RK_Tea_Thought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>OA_RK_Tea</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>floral tea clears the mind</label>
+        <description>This feeling of letting go really comforts me...</description>
+        <baseMoodEffect>7</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>  
+  
+  <JoyKindDef>
+    <defName>Oberonia_Aurea_Tea_Joy</defName>
+    <label>Fresh floral fragrance</label>
+  </JoyKindDef>
+  
+   <ThingDef ParentName="PlantBase">
+    <defName>OA_RK_Rice</defName>
+    <label>Oberonia Aurea hybrid rice</label>
+    <description>This is a strain of rice developed by the Oberonia Aurea Empire utilizing their advanced genetical technology on the rice variants of the Galaxy. It is more sensitive to soil fertility compared to regular rice, yields higher, and features aesthetically pleasing gold and green interwoven panicles.</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.2</Nutrition>
+	  <Beauty>2</Beauty>
+      <BeautyOutdoors>2</BeautyOutdoors>
+    </statBases>
+    <graphicData>
+      <texPath>Plant/OA_Rice</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <selectable>true</selectable>
+    <pathCost>14</pathCost>
+    <ingestible />
+    <plant>
+	  <fertilitySensitivity>1.25</fertilitySensitivity>
+      <dieIfLeafless>true</dieIfLeafless>
+      <maxMeshCount>4</maxMeshCount>
+      <harvestTag>Standard</harvestTag>
+	  <sowWork>425</sowWork>
+      <harvestedThingDef>RawRice</harvestedThingDef>
+      <harvestYield>9</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>4</growDays>
+      <visualSizeRange>0.3~0.8</visualSizeRange>
+      <wildOrder>2</wildOrder>
+      <purpose>Food</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+	  <sowResearchPrerequisites>
+        <li>OA_RK_Constant_Temperature_Hydroponics_B</li>
+      </sowResearchPrerequisites>
+    </plant>
+  </ThingDef>
+  
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_Oberonia_Aurea_C</defName>
+    <label>金鸢尾兰（增产）</label>
+    <description>进行了产出方面的基因优化调整的金鸢尾兰花，牺牲了少量的美观性而换来了更多的产出。</description>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Nutrition>0.05</Nutrition>
+	  <Beauty>16</Beauty>
+      <BeautyOutdoors>16</BeautyOutdoors>
+    </statBases>
+	<altitudeLayer>Building</altitudeLayer>
+    <graphicData>
+      <texPath>Plant/Oberonia_Aurea_B</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	 <drawSize>(1.29,1.29)</drawSize>
+    </graphicData>
+    <selectable>true</selectable>
+    <!--pathCost>16</pathCost-->
+    <ingestible />
+    <plant>
+	  <fertilitySensitivity>0.8</fertilitySensitivity>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+	  <sowWork>1060</sowWork>
+      <harvestedThingDef>Oberonia_Aurea</harvestedThingDef>
+      <harvestYield>9</harvestYield>
+      <sowTags>
+        <li>Ground</li>
+		<li>Hydroponic</li>
+      </sowTags>
+	  <autoHarvestable>true</autoHarvestable>
+      <topWindExposure>0.08</topWindExposure>
+	  <growMinGlow>0.3</growMinGlow>
+      <growDays>4.25</growDays>
+      <lifespanDaysPerGrowDays>5</lifespanDaysPerGrowDays>
+      <visualSizeRange>0.3~0.8</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Beauty</purpose>
+      <humanFoodPlant>true</humanFoodPlant>
+	  <sowResearchPrerequisites>
+        <li>OA_RK_Constant_Temperature_Hydroponics_B</li>
+      </sowResearchPrerequisites>
+    </plant>
+  </ThingDef>
+
+</Defs>

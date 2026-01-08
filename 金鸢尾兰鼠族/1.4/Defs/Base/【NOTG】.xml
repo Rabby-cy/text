@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!-- Yes, it's something I have in every mod of mine. UwU -->
+<!-- Never mind~ -->
+<Defs>
+
+<!-- Sound -->
+<SoundDef>
+    <defName>NOTG</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+        <li>
+            <grains>
+                <li Class="AudioGrain_Clip">
+                    <clipPath>NOTG</clipPath>
+                </li>
+            </grains>
+            <volumeRange>
+                <min>0</min>
+                <max>0</max>
+            </volumeRange>
+            <distRange>
+                <min>0</min>
+                <max>10</max>
+            </distRange>
+        </li>
+    </subSounds>
+</SoundDef>
+
+</Defs>

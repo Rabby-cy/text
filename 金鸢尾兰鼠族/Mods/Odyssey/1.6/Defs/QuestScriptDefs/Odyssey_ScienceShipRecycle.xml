@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <QuestScriptDef>
+        <defName>OARK_ScienceShipRecycle</defName>
+        <minRefireDays>10</minRefireDays>
+        <rootSelectionWeight>0</rootSelectionWeight>
+        <isRootSpecial>true</isRootSpecial>
+        <affectedByPoints>false</affectedByPoints>
+        <randomlySelectable>false</randomlySelectable>
+        <expireDaysRange>9~12</expireDaysRange>
+        <questNameRules>
+            <rulesStrings>
+                <li>questName->回收科研舱</li>
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+                <li>questDescription->附近金鸢尾兰宫廷向你发送了一条消息：在不久前发射的[shipName]即将在近几日完成它的使命，并在降落时记录降落相关数据，以完成它最后的使命。然而部分机械记录的佐证用数据需要人进行实地回收，考虑到科研舱本身的贵重，以及敌对势力可能对特殊信号的探查，因此这种回收任务相当具有风险。\n\n这个任务正常情况下本应是由突袭队护送科研部侍从来完成的，但恰巧附近空港的鸢尾兰突袭队正在[busyReason]，并且其他空港距离此处又太远。而考虑到回收数据时，既需要武力也需要一定的破译能力，因此当地的科研部希望你能够帮助她们回收这批宝贵的佐证数据。而作为回报，她们愿意为你提供一定的报酬。\n\n然而需要注意的是，因为机械数据容易受到外界影响，因此为了保证数据的时效性，你的行动时间是有限的。\n\n[specialShipTypeText]\n\n最后，因为坠毁点本身便已存在强烈信号，因此科研部明确的提醒你们，最好不要大张旗鼓的进入坠毁点，否则将可能引来大量窥伺者。</li>
+                <li>busyReason-> 协助主舰清剿近地轨道的海盗</li>
+                <li>busyReason-> 协助友好势力进行防御</li>
+                <li>busyReason-> 威慑部分混乱的势力</li>
+                <li>busyReason-> 对几个劫掠哨站发动突袭</li>
+                <li>busyReason-> 追踪一个潜逃的海盗团伙</li>
+                <li>busyReason-> 保证一片区域的秩序稳定</li>
+                <li>busyReason-> 协助一个混乱的聚居点重塑秩序</li>
+                <li>busyReason-> 搜寻并救援落难的金鸢尾兰远行者</li>
+                <li>specialShipTypeText(hasShipTypeText==false)-></li>
+                <li>specialShipTypeText(hasShipTypeText==true)->科研官[scientificName]还告诉你，由于[shipTypeText]，因此你可能需要额外的在意。</li>
+                <li>scientificName -> 雪花棱·大波斯菊</li>
+                <li>scientificName -> 风信子·笨蛋</li>
+                <li>scientificName -> 夜海草·薄雾</li>
+                <li>scientificName -> 鼠耳芥·秘银信念</li>
+                <li>scientificName -> 戴莱茵·旷野心</li>
+                <li>scientificName -> 蓝花楹·勿忘草</li>
+                <li>scientificName -> 椰子·远望草</li>
+                <li>scientificName -> 太阳花·诗剧</li>
+                <li>scientificName -> 漫野花·希洛草</li>
+                <li>scientificName -> 千金藤·钢铁心</li>
+                <li>scientificName -> 啤酒花·旷野牙</li>
+                <li>scientificName -> 山茶花·香雪兰</li>
+                <li>scientificName -> 雾根花·清藤</li>
+                <li>scientificName -> 三眠花·皇家心</li>
+            </rulesStrings>
+        </questDescriptionRules>
+        <root Class="QuestNode_Sequence">
+            <nodes>
+
+                <li Class="OberoniaAurea.QuestNode_CheckInitGravQuestState">
+                    <questState>true</questState>
+                </li>
+
+                <li Class="OberoniaAurea_Frame.QuestNode_QuestUnique">
+                    <tag>OARK_ScienceShipRecycle</tag>
+                    <restriction>UniqueAvailable</restriction>
+                </li>
+
+                <li Class="OberoniaAurea.QuestNode_ScienceShipRecycleWatcher"/>
+                <li Class="OberoniaAurea.QuestNode_ScienceShip_SetQuestData"/>
+
+                <li Class="QuestNode_GetMap" />
+
+                <li Class="OberoniaAurea.QuestNode_GetOberoniaAureaFaction">                    <!-- 获取金鼠鼠派系 -->
+                    <storeAs>OAFaction</storeAs>
+                    <allowAlly>true</allowAlly>
+                    <allowNeutral>true</allowNeutral>
+                    <allowHostile>false</allowHostile>
+                </li>
+
+                <li Class="OberoniaAurea_Frame.QuestNode_GetFactionLeader">
+                    <faction>$OAFaction</faction>
+                    <storeAs>asker</storeAs>
+                </li>
+
+                <li Class="OberoniaAurea_Frame.QuestNode_GetMapParent">
+                    <storeAs>playerHome</storeAs>
+                    <targetMap>$map</targetMap>
+                </li>
+
+                <li Class="OberoniaAurea_Frame.QuestNode_GetNearTile">
+                    <storeAs>shipTile</storeAs>
+                    <worldObject>$playerHome</worldObject>
+                    <minDist>3</minDist>
+                    <maxDist>12</maxDist>
+                </li>
+
+                <li Class="QuestNode_GenerateWorldObject">
+                    <storeAs>crashedShipPerp</storeAs>
+                    <def>OARK_CrashedScienceShipPerp</def>
+                    <tile>$shipTile</tile>
+                </li>
+                <li Class="QuestNode_SpawnWorldObjects">
+                    <worldObjects>$crashedShipPerp</worldObjects>
+                    <tile>$shipTile</tile>
+                </li>
+                <li Class="QuestNode_WorldObjectTimeout">
+                    <delayTicks>179940</delayTicks>
+                    <destroyOnCleanup>true</destroyOnCleanup>
+                    <worldObject>$crashedShipPerp</worldObject>
+                </li>
+
+                <li Class="QuestNode_GenerateWorldObject">
+                    <storeAs>crashedShip</storeAs>
+                    <def>OARK_CrashedScienceShip</def>
+                    <tile>$shipTile</tile>
+                </li>
+
+                <li Class="QuestNode_Set">
+                    <name>questDurationTick</name>
+                    <value>$(randInt(10,12)*60000 + 60)</value>
+                </li>
+
+                <li Class="QuestNode_Delay">
+                    <delayTicks>$questDurationTick</delayTicks>
+                    <outSignalComplete>questExpired</outSignalComplete>
+                    <isQuestTimeout>true</isQuestTimeout>
+                </li>
+
+                <li Class="QuestNode_Delay">
+                    <delayTicks>180000</delayTicks>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="OberoniaAurea_Frame.QuestNode_SetQuestForWorldObject">
+                                <worldObject>$crashedShip</worldObject>
+                            </li>
+                            <li Class="QuestNode_SpawnWorldObjects">
+                                <worldObjects>$crashedShip</worldObjects>
+                                <tile>$shipTile</tile>
+                            </li>
+                            <li Class="QuestNode_WorldObjectTimeout">
+                                <delayTicks>$($questDurationTick - 180060)</delayTicks>
+                                <destroyOnCleanup>true</destroyOnCleanup>
+                                <worldObject>$crashedShip</worldObject>
+                            </li>
+                            <li Class="QuestNode_Letter">
+                                <label TKey="LetterLabelScienceShipEnterable">科研舱再入大气层</label>
+                                <text TKey="LetterScienceShipEnterable">根据金鸢尾兰科学部的观测，[shipName]已经再入大气层，很快将坠落至预期地点。现在你可以动身前往科研舱坠落地了。</text>
+                                <letterDef>PositiveEvent</letterDef>
+                                <lookTargets>$crashedShip</lookTargets>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+
+                <li Class="QuestNode_Signal">
+                    <inSignal>crashedShip.MapGenerated</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_Delay">
+                                <delayTicks>$(randInt(600,1200))</delayTicks>
+                                <node Class="OberoniaAurea_Frame.QuestNode_FireIncident">
+                                    <incidentDef>OARK_ScienceShipCrashDown</incidentDef>
+                                    <parms>
+                                        <forced>true</forced>
+                                    </parms>
+                                    <mapParent>$crashedShip</mapParent>
+                                </node>
+                            </li>
+                            <li Class="QuestNode_Delay">
+                                <delayTicks>10000</delayTicks>
+                                <inSignalDisable>crashedShip.CrashShipSpawned</inSignalDisable>
+                                <node Class="QuestNode_Sequence">
+                                    <nodes>
+                                        <li Class="QuestNode_Letter">
+                                            <label TKey="LetterLabelScienceShipDisappear">消失的科研舱</label>
+                                            <text TKey="LetterScienceShipDisappear">你来到了预计坠落地点，并等待了许久，但仍未见到科研舱的踪影。询问金鸢尾兰科学部后得知，在你动身前往预计坠落地的旅程中，[shipName]的信号神秘消失了。或许它的下落将会是一个永远的谜。</text>
+                                            <letterDef>NeutralEvent</letterDef>
+                                        </li>
+                                        <li Class="QuestNode_End">
+                                            <outcome>Fail</outcome>
+                                            <sendStandardLetter>false</sendStandardLetter>
+                                        </li>
+                                    </nodes>
+                                </node>
+
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+
+                <!-- Rewards -->
+
+                <li Class="QuestNode_Signal">
+                    <inSignal>crashedShip.DataUploaded</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_GiveRewards">
+                                <parms>
+                                    <rewardValue>$rewardMarketValue</rewardValue>
+                                    <thingRewardItemsOnly>true</thingRewardItemsOnly>
+                                </parms>
+                                <variants>3</variants>
+                                <useDifficultyFactor>false</useDifficultyFactor>
+                            </li>
+                            <li Class="OberoniaAurea.QuestNode_GravTechAssistPointsChange">
+                                <change>120</change>
+                                <isReward>true</isReward>
+                            </li>
+                            <li Class="OberoniaAurea.QuestNode_OaAssistPointsChange">
+                                <change>20</change>
+                                <isReward>true</isReward>
+                            </li>
+                            <li Class="QuestNode_ChangeFactionGoodwill">
+                                <faction>$OAFaction</faction>
+                                <change>25</change>
+                                <reason>OARK_CrashedGravshipHelp</reason>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Success</outcome>
+                                <sendStandardLetter>true</sendStandardLetter>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+
+                <li Class="QuestNode_AnySignal">
+                    <inSignals>
+                        <li>questExpired</li>
+                        <li>crashedShip.MapRemoved</li>
+                        <li>crashedShip.Destroyed</li>
+                        <li>crashedShip.DestoryedBeforeDataUpload</li>
+                    </inSignals>
+                    <node Class="QuestNode_End">
+                        <outcome>Fail</outcome>
+                        <sendStandardLetter>true</sendStandardLetter>
+                    </node>
+                </li>
+
+            </nodes>
+        </root>
+    </QuestScriptDef>
+
+</Defs>

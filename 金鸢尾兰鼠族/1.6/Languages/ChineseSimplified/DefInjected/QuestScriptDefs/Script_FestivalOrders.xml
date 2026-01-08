@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OA_FestivalOrders.questNameRules.rulesStrings>
+        <li>questName->金鸢尾兰节日订单</li>
+        <li>questName->紧急的花糕订单</li>
+        <li>questName->节日的庆典订单</li>
+        <li>questName->[OAFaction_leaderTitle]的花糕订单</li>
+        <li>questName->[asker_nameFull]的协助请求</li>
+        <li>questName->花糕难题</li>
+        <li>questName->节日的订单</li>
+    </OA_FestivalOrders.questNameRules.rulesStrings>
+
+    <OA_FestivalOrders.questDescriptionRules.rulesStrings>
+        <li>questDescription->[OAFaction_name]的一个传统文化节日即将到来。往年的这个日子[OAFaction_name]的宫廷会为所在地的公民统一发放花糕，以分享节日的喜悦并增强节日氛围。然而今年的[OAFaction_name]遇到了一个难题：\n由于[Reasonfortask]，某地的金鸢尾兰宫廷工业部当前正面临严重的鼠手不足，以至于他们连节日的花糕需求都无法去满足。因此金鸢尾兰的[OAFaction_leaderTitle]，[asker_nameFull]希望你能够协助当地宫廷完成节日的花糕需求，这将显著改善当地宫廷对你的观感。\n\n根据当地统筹部的判断，他们大概还拥有着[requestedThingCount]份[requestedThing_label]的数量缺口（总价值：[requestedThingMarketValue_money]。）若是我们接受这个请求，[OAFaction_name]将会提供生产所需的原材料和一台花糕工艺机，一台穿梭机将会在不久后到达来收集花糕。\n\n若我们完成该订单，则[OAFaction_name]为我们提供援助的意愿将会增加。但若是我们没能完成订单，[OAFaction_name]与当地的金鸢尾兰公民将会对我们非常失望。\n\n原材料在接受后会在殖民者聚集的地方空投降落，在此之前请确保附近不存在屋顶等可能造成坠落伤害的结构。</li>
+        <li>Reasonfortask->正在进行一系列的建设工程</li>
+        <li>Reasonfortask->正在制造一系列的生产设备</li>
+        <li>Reasonfortask->新建立的聚居点抽调了部分人员</li>
+        <li>Reasonfortask->正在建立基础的生产车间</li>
+        <li>Reasonfortask->聚居点大量的建设工程抽调了绝大多数人员</li>
+        <li>Reasonfortask->极端的暴风雪使得聚居点正在进行紧急加固</li>
+        <li>Reasonfortask->大量的工业部人员因为食物中毒而住院</li>
+        <li>Reasonfortask->大量新人正在接受培训</li>
+    </OA_FestivalOrders.questDescriptionRules.rulesStrings>
+
+</LanguageData>

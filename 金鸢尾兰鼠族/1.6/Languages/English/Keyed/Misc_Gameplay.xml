@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OA_curCircuitStability>Current stability: {0}</OA_curCircuitStability>
+    <OA_curLoadElectricity>Current load: {0}W</OA_curLoadElectricity>
+    <OA_curCircuitStabilityLoss>Current stability loss: {0}/Hour</OA_curCircuitStabilityLoss>
+
+    <OA_ElectromagneticInterference>Electromagnetic Interference × {0}</OA_ElectromagneticInterference>
+
+    <OA_SpecialtyFactor>Specialty</OA_SpecialtyFactor>
+
+</LanguageData>

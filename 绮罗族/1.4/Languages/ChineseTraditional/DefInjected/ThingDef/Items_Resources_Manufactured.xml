@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kiiro_MixMedicineHerbal.label>荊芥混合草藥</Kiiro_MixMedicineHerbal.label>
+  <Kiiro_MixMedicineHerbal.description>將荊芥與草藥按一定比例混合搗碎后得到的糊狀草藥，相比普通草藥擁有更好的治療效果。</Kiiro_MixMedicineHerbal.description>
+
+  <Kiiro_Nepetalactone.label>荊芥內酯粉末</Kiiro_Nepetalactone.label>
+  <Kiiro_Nepetalactone.description>從荊芥葉片種提取出來的物質，呈白色粉末狀。是貓薄荷的主要成分。</Kiiro_Nepetalactone.description>
+
+  <Kiiro_Paper.label>綺羅宣紙</Kiiro_Paper.label>
+  <Kiiro_Paper.description>使用原木製作的特殊紙張。這種紙張具有光而不滑、潔白稠密、紋理純凈、搓折無損等特點，唯一的缺點就是不能用來寫字。</Kiiro_Paper.description>
+
+  <Kiiro_PT_HMGAmmo.label>綺羅原型重機槍彈箱</Kiiro_PT_HMGAmmo.label>
+  <Kiiro_PT_HMGAmmo.description>一箱重機槍子彈，共400發。</Kiiro_PT_HMGAmmo.description>
+
+  <Shell_Flare.label>照明彈</Shell_Flare.label>
+  <Shell_Flare.description>一枚用於照明的迫擊炮彈，引爆后能進行大範圍照明，持續一段時間。</Shell_Flare.description>
+
+  <KiiroBullet_Shell_Flare.label>flare shell</KiiroBullet_Shell_Flare.label>
+  <KiiroProjectile_Flare_Releasing.label>flare glow</KiiroProjectile_Flare_Releasing.label>
+
+
+</LanguageData>

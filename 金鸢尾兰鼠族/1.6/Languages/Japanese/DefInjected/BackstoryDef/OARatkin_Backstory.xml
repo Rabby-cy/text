@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <OA_RK_NEW_Backstory_B_A.title>OA·星々に愛された子供</OA_RK_NEW_Backstory_B_A.title>
+  <OA_RK_NEW_Backstory_B_A.titleShort>小さな寵愛児</OA_RK_NEW_Backstory_B_A.titleShort>
+  <OA_RK_NEW_Backstory_B_A.description>[PAWN_nameDef]の子供時代はカラフルなものだったが、中でも特に目立ったのは[PAWN_pronoun]が星々の加護を受けたような幸運の持ち主だったことだ。理由は誰にも説明できなかったが、[PAWN_nameDef]が搭乗する宇宙船は常に並外れた安定性で航行を完遂したため、[PAWN_pronoun]は地域の通航部で最も歓迎される乗客となった。</OA_RK_NEW_Backstory_B_A.description>
+
+  <OA_RK_NEW_Backstory_B_B.title>OA·未知の開拓者</OA_RK_NEW_Backstory_B_B.title>
+  <OA_RK_NEW_Backstory_B_B.titleShort>小さな開拓者</OA_RK_NEW_Backstory_B_B.titleShort>
+  <OA_RK_NEW_Backstory_B_B.description>子供の好奇心か、知識への渇望か、確かなのは[PAWN_nameDef]が未知への憧れで満ちた心を持っていたことだ。この探求者の心は[PAWN_pronoun]を安全な快適圏にとどまらせず、最も深遠な秘密を探求するよう駆り立てた。</OA_RK_NEW_Backstory_B_B.description>
+
+  <OA_RK_NEW_Backstory_B_C.title>OA·小さなフローティング</OA_RK_NEW_Backstory_B_C.title>
+  <OA_RK_NEW_Backstory_B_C.titleShort>小さな浮遊者</OA_RK_NEW_Backstory_B_C.titleShort>
+  <OA_RK_NEW_Backstory_B_C.description>重力場装置の調整ミスにより、[PAWN_nameDef]の子供時代には1時間ほど空に浮かんで降りられない体験があった。後に医療部の医師たちが[PAWN_pronoun]を心配して取り囲んだ理由は理解できなかったが、あの「飛んだ」不思議な体験は[PAWN_nameDef]の心に強く刻まれ、忘れられないものとなった。</OA_RK_NEW_Backstory_B_C.description>
+
+  <OA_RK_NEW_Backstory_B_D.title>OA·空港の子供</OA_RK_NEW_Backstory_B_D.title>
+  <OA_RK_NEW_Backstory_B_D.titleShort>子供</OA_RK_NEW_Backstory_B_D.titleShort>
+  <OA_RK_NEW_Backstory_B_D.description>「特別な」空港の原住民として、[PAWN_nameDef]は幼い頃から自分が帝国で最も通航部員に適したネズミだと信じていた。この生来の使命感は[PAWN_nameDef]に常に高い基準を課し、地上の様々な物事に憧れても、簡単には地上行きの便に乗らないほどだった。\n\n[PAWN_pronoun]を知っている乗客がいない便なら別だが。</OA_RK_NEW_Backstory_B_D.description>
+
+  <OA_RK_NEW_Backstory_B_E.title>OA·小さな整備士</OA_RK_NEW_Backstory_B_E.title>
+  <OA_RK_NEW_Backstory_B_E.titleShort>小さな技師</OA_RK_NEW_Backstory_B_E.titleShort>
+  <OA_RK_NEW_Backstory_B_E.description>[PAWN_nameDef]の家は空港にあった。特殊な地理的条件のおかげで、[PAWN_nameDef]は簡単に通航部の従者や乗組員と打ち解け、彼らから本気と冗談が入り混じった専門知識の指導を受けた。この環境で、[PAWN_nameDef]は宇宙船で使える知識を本当に少しだけ学び取ったようだ。</OA_RK_NEW_Backstory_B_E.description>
+
+  <OA_RK_NEW_Backstory_B_F.title>OA·勇敢な小さな救世主</OA_RK_NEW_Backstory_B_F.title>
+  <OA_RK_NEW_Backstory_B_F.titleShort>小さな探検家</OA_RK_NEW_Backstory_B_F.titleShort>
+  <OA_RK_NEW_Backstory_B_F.description>探検、救出、保護！どこで学んだのかわからないこのスローガンは、[PAWN_nameDef]が深く信じるものとなった。このスローガンは[PAWN_nameDef]の子供時代の行動規範であり、[PAWN_pronoun]がずっと守り続ける理想でもあった。[PAWN_nameDef]の心の中で、探検と保護は常に同等の優先度を持っていた。</OA_RK_NEW_Backstory_B_F.description>
+
+  <OA_RK_NEW_Backstory_B_G.title>OA・「宇宙探検マスター」</OA_RK_NEW_Backstory_B_G.title>
+  <OA_RK_NEW_Backstory_B_G.titleShort>小さな征服者</OA_RK_NEW_Backstory_B_G.titleShort>
+  <OA_RK_NEW_Backstory_B_G.description>どこから来たのかわからない自信だったが、[PAWN_nameDef]は自分がいつの日か偉大な大探検家になると確信していた。[PAWN_pronoun]は疑問を持たれ、また励まされ、最終的にこれらの懐疑は[PAWN_nameDef]の頑固な努力によって静かな祝福へと変わった。\n\nいつか、「[PAWN_nameDef]号」が私たちに奇跡を見せてくれる日が来るかもしれない。</OA_RK_NEW_Backstory_B_G.description>
+
+  <OA_RK_NEW_Backstory_B_AA.title>OA・世界の小さな分析官</OA_RK_NEW_Backstory_B_AA.title>
+  <OA_RK_NEW_Backstory_B_AA.titleShort>小さなアナリスト</OA_RK_NEW_Backstory_B_AA.titleShort>
+  <OA_RK_NEW_Backstory_B_AA.description>[PAWN_nameDef]はネズミ生とは大きな問題だと考え、[PAWN_pronoun]の目標はその答えを見つけることだった。正確な答えを得るため、幼い[PAWN_pronoun]は星系間便で帝国の都市を渡り歩き、ネズミ生の様々な様相を収集し理解しようとした。</OA_RK_NEW_Backstory_B_AA.description>
+
+  <OA_RK_NEW_Backstory_B_AB.title>OA・星間の小さな旅ネズミ</OA_RK_NEW_Backstory_B_AB.title>
+  <OA_RK_NEW_Backstory_B_AB.titleShort>小さな旅行者</OA_RK_NEW_Backstory_B_AB.titleShort>
+  <OA_RK_NEW_Backstory_B_AB.description>「ああ！あれは何だ！」\nそう、[PAWN_nameDef]はまた驚きと好奇心に満ちていた。おそらく天性のものだろう、[PAWN_nameDef]は最も些細な、しかし未経験の物事にも驚嘆することができた。この驚きは[PAWN_pronoun]を旅ネズミのように各地へ旅立たせ、他の者が飽きても、[PAWN_nameDef]は依然として楽しんでいた。</OA_RK_NEW_Backstory_B_AB.description>
+
+  <OA_RK_NEW_Backstory_B_AC.title>OA・優しい使者</OA_RK_NEW_Backstory_B_AC.title>
+  <OA_RK_NEW_Backstory_B_AC.titleShort>子供</OA_RK_NEW_Backstory_B_AC.titleShort>
+  <OA_RK_NEW_Backstory_B_AC.description>可愛さのためか、静かさのためか、とにかく小さな[PAWN_nameDef]は宮廷の従者たちから最も寵愛された子供だった。この寵愛の中で、[PAWN_nameDef]は「愛情」と「優しさ」の温かみを感じ取り、不器用ながらも誠実にその気持ちを他者に伝えようとした。</OA_RK_NEW_Backstory_B_AC.description>
+  
+  <OA_RK_NEW_Backstory_B_AD.title>OA・通航部の航法士</OA_RK_NEW_Backstory_B_AD.title>
+  <OA_RK_NEW_Backstory_B_AD.titleShort>航法士</OA_RK_NEW_Backstory_B_AD.titleShort>
+  <OA_RK_NEW_Backstory_B_AD.description>「[PAWN_nameDef]はどこにいるか知ってる？」「[PAWN_pronoun]は星図室にいるよ」\nこれは冗談ではなく、[PAWN_nameDef]の日常を最もよく表す言葉だ。通航部には帝国随一の航法設備があるが、予期せぬ事態は常に起こり得る。船への愛と仲間への責任感から、[PAWN_nameDef]は常に最も危険な航路状況に備えている。</OA_RK_NEW_Backstory_B_AD.description>
+
+  <OA_RK_NEW_Backstory_B_AE.title>OA・通航部の灯台守</OA_RK_NEW_Backstory_B_AE.title>
+  <OA_RK_NEW_Backstory_B_AE.titleShort>信号員</OA_RK_NEW_Backstory_B_AE.titleShort>
+  <OA_RK_NEW_Backstory_B_AE.description>[PAWN_nameDef]の仕事は空港の航船信号ビーコン発信機の保守だ。この仕事は退屈で単純かもしれないが、無数の航船の運命と密接に関わっていることに疑いはない。多くの人は[PAWN_nameDef]の仕事の意義を理解していないが、帰還した船員たちは皆、[PAWN_nameDef]の寝室の前を通りかかる時、手元の紙にメモを書きドアに貼る：\n\n「今日もあなたは北極星のように大切だ」</OA_RK_NEW_Backstory_B_AE.description>
+
+  <OA_RK_NEW_Backstory_B_AF.title>OA・通航部の航路設計士</OA_RK_NEW_Backstory_B_AF.title>
+  <OA_RK_NEW_Backstory_B_AF.titleShort>航路設計士</OA_RK_NEW_Backstory_B_AF.titleShort>
+  <OA_RK_NEW_Backstory_B_AF.description>巨大な星間帝国の航路は膨大な計画の末に設計されるが、[PAWN_nameDef]はこの偉大な航路を維持する一員だ。\n\nほとんどの航路は既に設計済みだが、時間の経過と共に新規航路の追加や廃止が発生し、これらの計画は最終的に[PAWN_nameDef]によって設計され、実行に移される。</OA_RK_NEW_Backstory_B_AF.description>
+
+  <OA_RK_NEW_Backstory_B_AG.title>OA・緊急ディスパッチャー</OA_RK_NEW_Backstory_B_AG.title>
+  <OA_RK_NEW_Backstory_B_AG.titleShort>調整員</OA_RK_NEW_Backstory_B_AG.titleShort>
+  <OA_RK_NEW_Backstory_B_AG.description>人権は平等だが、通航権は必ずしも平等ではない。特に、より多くの人を救うために危険を冒す救助船や補給船は別だ。\n\nこれらの船が空港に到着する度、[PAWN_nameDef]のような専門の調整員が、これらの重要船舶の緊急整備と通航順序の調整を指揮し、最高効率でより多くの人を支援できるようにする。</OA_RK_NEW_Backstory_B_AG.description>
+
+  <OA_RK_NEW_Backstory_B_BA.title>OA・勤勉なディスパッチャー</OA_RK_NEW_Backstory_B_BA.title>
+  <OA_RK_NEW_Backstory_B_BA.titleShort>調整員</OA_RK_NEW_Backstory_B_BA.titleShort>  
+  <OA_RK_NEW_Backstory_B_BA.description>航船の通航順序は学問だ。大型航船が通航する時、近くの出航口の人員や小型航船を移動させ、熱被害を防ぐ必要がある。\n\n幸い、確かな基礎と勤勉な態度のおかげで、[PAWN_nameDef]の在任中は事故が一度もなく、今後もそのままであることが予想される。</OA_RK_NEW_Backstory_B_BA.description>
+
+  <OA_RK_NEW_Backstory_B_BB.title>OA・部門横断コーディネーター</OA_RK_NEW_Backstory_B_BB.title>
+  <OA_RK_NEW_Backstory_B_BB.titleShort>調整官</OA_RK_NEW_Backstory_B_BB.titleShort>
+  <OA_RK_NEW_Backstory_B_BB.description>通航部で最も忙しいのは誰か？航法士でも調整員でもなく、この部門横断のコーディネーターだ。\n\n宮廷部、統括部、通航部の3部門のデータ連携任務を担う[PAWN_nameDef]の仕事量は、統括部の従者たちでさえ想像できない。通航部の従者たちは[PAWN_nameDef]のオフィスの前を通る度、温かいミルクを差し入れる――[PAWN_pronoun]の仕事ぶりへの敬意と、[PAWN_pronoun]の後退する生え際への心配からだ。</OA_RK_NEW_Backstory_B_BB.description>
+
+  <OA_RK_NEW_Backstory_B_BC.title>OA・係船指揮官</OA_RK_NEW_Backstory_B_BC.title>
+  <OA_RK_NEW_Backstory_B_BC.titleShort>係船員</OA_RK_NEW_Backstory_B_BC.titleShort>
+  <OA_RK_NEW_Backstory_B_BC.description>整然と停泊した空港は常に良い第一印象を与えるが、この印象を作るには[PAWN_nameDef]のような係船指揮官が不可欠だ。\n\n船の数がどれほど多く、係船場の航路がどれほど混雑していても、[PAWN_nameDef]は即座に各航船をきちんと配置できる。航路渋滞に悩む船長たちにとって、[PAWN_nameDef]の係船誘導は最大の福音だ。</OA_RK_NEW_Backstory_B_BC.description>
+
+  <OA_RK_NEW_Backstory_B_BD.title>OA・空港統計官</OA_RK_NEW_Backstory_B_BD.title>
+  <OA_RK_NEW_Backstory_B_BD.titleShort>統計官</OA_RK_NEW_Backstory_B_BD.titleShort>
+  <OA_RK_NEW_Backstory_B_BD.description>全ての空港には、係船中の不必要な衝突を防ぐため、航船の物資所有権と需要を統計する担当者がいる。\n\n間違いなく、[PAWN_nameDef]は優秀な空港統計官だ。[PAWN_pronoun]はせっかちな船長から正確な要求を聞き出せれば、内気な船員にも優しく物資数量を報告させられる。どの空港にとっても、[PAWN_pronoun]は標準的な職業模範だ。</OA_RK_NEW_Backstory_B_BD.description>
+
+  <OA_RK_NEW_Backstory_B_BE.title>OA・補給船アーキビスト</OA_RK_NEW_Backstory_B_BE.title>
+  <OA_RK_NEW_Backstory_B_BE.titleShort>統計官</OA_RK_NEW_Backstory_B_BE.titleShort>
+  <OA_RK_NEW_Backstory_B_BE.description>[PAWN_nameDef]ほど補給船の統計任務を完璧にこなせる者はいない。[PAWN_nameDef]にとって、補給船のデータ統計はもはや呼吸のように自然なスキルだ。\n\n他の者が補給船の複雑な物資所有権と種類に頭を悩ませている時、[PAWN_nameDef]は既に2隻目の統計を始めている。補給支援への名誉感からか、[PAWN_nameDef]はこの仕事を愛し、熟達している。</OA_RK_NEW_Backstory_B_BE.description>
+
+  <OA_RK_NEW_Backstory_B_BF.title>OA・のんびり航路設計士</OA_RK_NEW_Backstory_B_BF.title>
+  <OA_RK_NEW_Backstory_B_BF.titleShort>航路設計士</OA_RK_NEW_Backstory_B_BF.titleShort>
+  <OA_RK_NEW_Backstory_B_BF.description>昔々、[PAWN_nameDef]はのどかな星域の航路設計士だった。当時の[PAWN_pronoun]は1日に3～4本の航路状態を確認するだけで、終業までゆっくり過ごせた。有能な[PAWN_pronoun]にとって、これは1日の労働時間が1時間にも満たないことを意味した...\n\n全ては[PAWN_pronoun]が通航部の星系間異動を受けた日まで。その日から、全てのんびりは終わった。</OA_RK_NEW_Backstory_B_BF.description>
+  
+  <OA_RK_NEW_Backstory_B_BG.title>OA・航路調査官</OA_RK_NEW_Backstory_B_BG.title>
+  <OA_RK_NEW_Backstory_B_BG.titleShort>航路調査官</OA_RK_NEW_Backstory_B_BG.titleShort>
+  <OA_RK_NEW_Backstory_B_BG.description>航路の計画と最終審査は航路設計士の責任だが、[PAWN_nameDef]の責任は実際に船を操縦して航路の実現可能性を検証することだ。\n\nこの仕事は通航部内でも高リスクだが、通航部には栄誉感と責任感に満ちた従者が不足しない。そのため何度も危険に遭遇しても、[PAWN_nameDef]は一度も不平を漏らしたことがない。</OA_RK_NEW_Backstory_B_BG.description>
+
+  <OA_RK_NEW_Backstory_B_CA.title>OA・星空の抱擁者</OA_RK_NEW_Backstory_B_CA.title>
+  <OA_RK_NEW_Backstory_B_CA.titleShort>通航部従者</OA_RK_NEW_Backstory_B_CA.titleShort>
+  <OA_RK_NEW_Backstory_B_CA.description>通航部も全てが論理的な分析官ばかりではない。[PAWN_nameDef]のような従者は通航部のロマンそのものだ。\n\n栄誉感から通航部に入った者もいれば、責任感から入った者もいる。だが[PAWN_nameDef]が通航部に入った理由は純粋な愛だ。[PAWN_pronoun]は深宇宙を愛し、星海を愛し、ついに航船に乗り込み、憧れの星々と共に旅するようになった。</OA_RK_NEW_Backstory_B_CA.description>
+
+  <OA_RK_NEW_Backstory_B_CB.title>OA・探求心旺盛な従者</OA_RK_NEW_Backstory_B_CB.title>
+  <OA_RK_NEW_Backstory_B_CB.titleShort>通航部従者</OA_RK_NEW_Backstory_B_CB.titleShort>
+  <OA_RK_NEW_Backstory_B_CB.description>[PAWN_nameDef]は通航部の探求精神そのものと言える。[PAWN_pronoun]には探検する勇気、危機に対処する冷静さ、帰還時の優しさがある。これらの特徴が[PAWN_nameDef]の真の姿――正真正銘の通航部従者を形作っている。</OA_RK_NEW_Backstory_B_CB.description>
+
+  <OA_RK_NEW_Backstory_B_CC.title>OA・補給船ボランティア</OA_RK_NEW_Backstory_B_CC.title>
+  <OA_RK_NEW_Backstory_B_CC.titleShort>市民</OA_RK_NEW_Backstory_B_CC.titleShort>
+  <OA_RK_NEW_Backstory_B_CC.description>[PAWN_nameDef]の愛は広大で、星域を超え、見返りを求めない。この強く無私の博愛が[PAWN_nameDef]を補給船の一員にさせ、通航部の基礎船員訓練を受けた後、異星系の開拓者同胞へ真心こもる挨拶と祝福を届けるため、正式に星系間航路の一員となった。</OA_RK_NEW_Backstory_B_CC.description>
+
+  <OA_RK_NEW_Backstory_B_CD.title>OA・航路需要伝達官</OA_RK_NEW_Backstory_B_CD.title>
+  <OA_RK_NEW_Backstory_B_CD.titleShort>通航部従者</OA_RK_NEW_Backstory_B_CD.titleShort>
+  <OA_RK_NEW_Backstory_B_CD.description>航路の開拓と設計は無目的ではない。特に重要な補給航路は、宮廷各部が自らの要求を通航部と調整した結果だ。\n\n[PAWN_nameDef]は宮廷各部の需要を統計し伝達する任務を担っている。[PAWN_pronoun]は駆け回る使者であり、コミュニケーションの架け橋でもある。</OA_RK_NEW_Backstory_B_CD.description>
+
+  <OA_RK_NEW_Backstory_B_CE.title>OA・空港補佐官</OA_RK_NEW_Backstory_B_CE.title>
+  <OA_RK_NEW_Backstory_B_CE.titleShort>補佐官</OA_RK_NEW_Backstory_B_CE.titleShort>
+  <OA_RK_NEW_Backstory_B_CE.description>巨大な空港を管理するのは一人では不可能だ。優れたAIの支援があっても、一人で空港全体を管理するのは難しい。\n\n通航部で最も優秀な従者の一人である[PAWN_nameDef]は、当然のように空港補佐官に任命された。この職責は楽ではないが、それが象徴する栄誉と責任は、通航部のどの従者も全てを捧げる価値があり、[PAWN_nameDef]もそうしている。</OA_RK_NEW_Backstory_B_CE.description>
+
+  <OA_RK_NEW_Backstory_B_CF.title>OA・熟練の通航官</OA_RK_NEW_Backstory_B_CF.title>
+  <OA_RK_NEW_Backstory_B_CF.titleShort>通航官</OA_RK_NEW_Backstory_B_CF.titleShort>
+  <OA_RK_NEW_Backstory_B_CF.description>[PAWN_nameDef]は老練な通航官だ。[PAWN_pronoun]は最も混乱した小惑星帯を航過し、危険な真空漏れも処理した。[PAWN_nameDef]の乗組員は太陽を信じるように[PAWN_pronoun]を信頼している。彼らは知っているからだ\n\n太陽は明日も昇るように、[PAWN_nameDef]の航船も明日も安全に航行することを。</OA_RK_NEW_Backstory_B_CF.description>
+
+  <OA_RK_NEW_Backstory_B_CG.title>OA・航路を探る通航官</OA_RK_NEW_Backstory_B_CG.title>
+  <OA_RK_NEW_Backstory_B_CG.titleShort>通航官</OA_RK_NEW_Backstory_B_CG.titleShort>
+  <OA_RK_NEW_Backstory_B_CG.description>[PAWN_nameDef]の通航部での地位は、天文愛好者にとっての北極星のようなものだ。\n\n危険な航路を検証するために経験豊富な人材が必要な時、[PAWN_nameDef]は間違いなく第一候補となる。\n\n[PAWN_pronoun]の技術は常に卓越している。最も危険な星域を探索する時も、規則を無視して素早く離陸し瞬く間に見えなくなる時も。</OA_RK_NEW_Backstory_B_CG.description>
+
+  <OA_RK_NEW_Backstory_B_DA.title>OA・危難をくぐり抜けた通航官</OA_RK_NEW_Backstory_B_DA.title>
+  <OA_RK_NEW_Backstory_B_DA.titleShort>通航官</OA_RK_NEW_Backstory_B_DA.titleShort>
+  <OA_RK_NEW_Backstory_B_DA.description>航船が危険に遭遇した時、訓練を積んだ通航部乗組員でさえ不安を感じることがあるが、[PAWN_nameDef]は決してそうではない。\n\n他の者にとって危険な故障も、[PAWN_nameDef]には日常茶飯事だ。幾度も危難を経験したことで、[PAWN_pronoun]の意志は鋼のように強靭で揺るがない...ただしなぜそんなに頻繁に危険に遭遇するかは、また別の話だ。</OA_RK_NEW_Backstory_B_DA.description>
+
+  <OA_RK_NEW_Backstory_B_DB.title>OA・空港の調整官</OA_RK_NEW_Backstory_B_DB.title>
+  <OA_RK_NEW_Backstory_B_DB.titleShort>統括部従者</OA_RK_NEW_Backstory_B_DB.titleShort>
+  <OA_RK_NEW_Backstory_B_DB.description>空港の重力装置と低重力環境は初めて見るととても新奇だが、長く住むと少々退屈に感じることもある。[PAWN_nameDef]にとってこの体験は非常に印象的だ。[PAWN_pronoun]は思う、もし念力で人を殴れるなら、データ処理を手伝わせようとしたあの通航官は夢の中で何度も殴っているだろう、と。\n\nしかし生活は続く。文句を言った後、[PAWN_nameDef]はいつも、不平を言いながらも手放せない空港データを再び手に取る。</OA_RK_NEW_Backstory_B_DB.description>
+
+  <OA_RK_NEW_Backstory_B_DC.title>OA・臨時駐留の襲撃隊員</OA_RK_NEW_Backstory_B_DC.title>
+  <OA_RK_NEW_Backstory_B_DC.titleShort>襲撃隊員</OA_RK_NEW_Backstory_B_DC.titleShort>
+  <OA_RK_NEW_Backstory_B_DC.description>[PAWN_nameDef]は空港襲撃隊の正式メンバーではなく、任務執行のために一時的に空港に配属され、作戦時に迅速に展開できるよう待機している。\n\nほとんどの時間を地上で過ごしてきた[PAWN_nameDef]にとって、空港の全ては新鮮だ。真空環境でさえ[PAWN_pronoun]には魅力的だった――もし空港襲撃隊員が重力場ベルトを装着して真空暴露中の[PAWN_nameDef]を連れ戻さなければ、の話だが。</OA_RK_NEW_Backstory_B_DC.description>
+  
+  <OA_RK_NEW_Backstory_B_DD.title>OA・空港襲撃隊員</OA_RK_NEW_Backstory_B_DD.title>
+  <OA_RK_NEW_Backstory_B_DD.titleShort>襲撃隊員</OA_RK_NEW_Backstory_B_DD.titleShort>
+  <OA_RK_NEW_Backstory_B_DD.description>空港の襲撃隊員は大抵空港の原住民で構成される。彼女たちは宇宙の低重力や無重力環境により適応しているからだ。\n\n宇宙原住民である[PAWN_nameDef]が日常で最も楽しみにしているのは、任務で臨時に配属された地上の襲撃隊同僚が誤って真空区域に入り、自分が抱きかかえて連れ戻すことだ。\n\n空港の日常防衛に加え、地上の襲撃隊が対応できない時、[PAWN_nameDef]のような空港襲撃隊員は迅速対応部隊として活躍し、常に任務を完遂する。</OA_RK_NEW_Backstory_B_DD.description>
+
+  <OA_RK_NEW_Backstory_B_DE.title>OA・随船襲撃隊員</OA_RK_NEW_Backstory_B_DE.title>
+  <OA_RK_NEW_Backstory_B_DE.titleShort>襲撃隊員</OA_RK_NEW_Backstory_B_DE.titleShort>
+  <OA_RK_NEW_Backstory_B_DE.description>ほとんどの襲撃隊員にとって、船護衛任務は退屈で単調なものだが、[PAWN_nameDef]は例外だ。\n\n広大な星海、新奇な低重力訓練環境、船内の豪華な食堂...これら全てが[PAWN_nameDef]にとって憧れであり、手放せないものだ。[PAWN_nameDef]の心の中では、もし天国に名前があるなら、それはきっとあの船の名前に違いない。</OA_RK_NEW_Backstory_B_DE.description>
+
+  <OA_RK_NEW_Backstory_B_DF.title>OA・駐留襲撃隊長</OA_RK_NEW_Backstory_B_DF.title>
+  <OA_RK_NEW_Backstory_B_DF.titleShort>襲撃隊長</OA_RK_NEW_Backstory_B_DF.titleShort>
+  <OA_RK_NEW_Backstory_B_DF.description>名目上は空港防衛を担当しているが、[PAWN_nameDef]は理解している。もし本当に敵が空港周辺の護衛艦を突破したら、自分が出る幕はないだろうと。\n\nそのため[PAWN_nameDef]の日常業務は、駐留襲撃隊員の低重力環境下での訓練に重点を置き、通常時と同等の戦闘効率を維持することだ。</OA_RK_NEW_Backstory_B_DF.description>
+
+  <OA_RK_NEW_Backstory_B_DG.title>OA・奇跡を求める船員</OA_RK_NEW_Backstory_B_DG.title>
+  <OA_RK_NEW_Backstory_B_DG.titleShort>船員</OA_RK_NEW_Backstory_B_DG.titleShort>
+  <OA_RK_NEW_Backstory_B_DG.description>この世界に真の虫群が存在するか考えたことはあるか？あるいはアイスクリームでできた奇妙な生物は？これらの考えはSF的だが、まさに[PAWN_nameDef]らしい。\n\n「宇宙は奇跡に満ちた奇跡だ」この言葉は[PAWN_nameDef]がSF小説で読んだもので、[PAWN_pronoun]の全ての思想をよく表している。この奇跡への好奇心が[PAWN_pronoun]を通航部の船に導き、真の「宇宙の奇跡」を目撃する日を待ち望んでいる。</OA_RK_NEW_Backstory_B_DG.description>
+
+  <OA_RK_NEW_Backstory_B_EA.title>OA・艦船勤務の達人</OA_RK_NEW_Backstory_B_EA.title>
+  <OA_RK_NEW_Backstory_B_EA.titleShort>勤務の達人</OA_RK_NEW_Backstory_B_EA.titleShort>
+  <OA_RK_NEW_Backstory_B_EA.description>人を一つのレッテルで定義するのは適切ではないが、[PAWN_nameDef]の場合、[PAWN_pronoun]の特徴は極めて顕著で、レッテルは固定観念ではなく最高の賛辞となる。\n\n他人にとって「勤務の達人」は誇張された一面かもしれないが、[PAWN_nameDef]にとってこれは日常業務の完璧な要約だ。</OA_RK_NEW_Backstory_B_EA.description>
+
+  <OA_RK_NEW_Backstory_B_EB.title>OA・艦船を愛する船員</OA_RK_NEW_Backstory_B_EB.title>
+  <OA_RK_NEW_Backstory_B_EB.titleShort>船員</OA_RK_NEW_Backstory_B_EB.titleShort>
+  <OA_RK_NEW_Backstory_B_EB.description>義務感で仕事をする普通の船員と違い、[PAWN_nameDef]は心からこの仕事を愛している。[PAWN_pronoun]の所属艦への感情は通常の言葉では表現しがたく、強いて言えば理由のない深い愛だ。\n\nこの愛が[PAWN_nameDef]の船務を完璧なものにし、最終的に船上で最も信頼できる船員の一人となった。\n\nもっとも、艦船を「愛妻」と呼ぶ癖さえなければ完璧なのだが。</OA_RK_NEW_Backstory_B_EB.description>
+
+  <OA_RK_NEW_Backstory_B_EC.title>OA・星象学者</OA_RK_NEW_Backstory_B_EC.title>
+  <OA_RK_NEW_Backstory_B_EC.titleShort>船員</OA_RK_NEW_Backstory_B_EC.titleShort>
+  <OA_RK_NEW_Backstory_B_EC.description>人は常に抽象的で神秘的な概念に好奇心を抱く。[PAWN_nameDef]の星象学への執着もその一つだ。近水楼台の利もあり、[PAWN_nameDef]の星象学研究は実践的で捉えどころがない。この執着心に同船の通航官は頭を悩ませ、異常な星空の輝きを見ると反射的に[PAWN_nameDef]の所在を確認するほどだ。\n\nほら、窓外の北斗七星がまた輝いている。</OA_RK_NEW_Backstory_B_EC.description>
+
+  <OA_RK_NEW_Backstory_B_ED.title>OA・艦船の博学者</OA_RK_NEW_Backstory_B_ED.title>
+  <OA_RK_NEW_Backstory_B_ED.titleShort>船員</OA_RK_NEW_Backstory_B_ED.titleShort>
+  <OA_RK_NEW_Backstory_B_ED.description>[PAWN_nameDef]は家庭の伝統がなければ、今頃は科研部で最先端理論を研究していただろうと思っているが、誰の目にも[PAWN_pronoun]の真の望みは通航部の船に乗ることだとわかる。\n\n言い訳をし、隠そうとするが、[PAWN_nameDef]のベッドサイドに積まれた宇宙航行の教科書と小説が[PAWN_pronoun]の情熱の証だ。\n\nもちろん、[PAWN_nameDef]は決して認めないだろう。少なくとも口では。</OA_RK_NEW_Backstory_B_ED.description>
+
+  <OA_RK_NEW_Backstory_B_EE.title>OA・ベテラン船員</OA_RK_NEW_Backstory_B_EE.title>
+  <OA_RK_NEW_Backstory_B_EE.titleShort>船員</OA_RK_NEW_Backstory_B_EE.titleShort>
+  <OA_RK_NEW_Backstory_B_EE.description>優秀な船長が船の魂なら、[PAWN_nameDef]のようなベテラン船員は船に不可欠な骨格だ。普段は違いがわからないかもしれないが、本当の危機に直面した時、[PAWN_nameDef]は常に船上で最も頼りになる存在の一人となる。</OA_RK_NEW_Backstory_B_EE.description>
+
+  <OA_RK_NEW_Backstory_B_EF.title>OA・船員家系の船員</OA_RK_NEW_Backstory_B_EF.title>
+  <OA_RK_NEW_Backstory_B_EF.titleShort>船員</OA_RK_NEW_Backstory_B_EF.titleShort>
+  <OA_RK_NEW_Backstory_B_EF.description>通航部は伝統と栄誉を重んじる部門だ。典型的な通航部家庭に育った[PAWN_nameDef]が通航部の船に乗るのは、ごく自然で当然のことのように思える。\n\n家系の栄誉は[PAWN_nameDef]を傲慢にせず、むしろ自己への厳しい要求の基盤となった。[PAWN_nameDef]の目には、栄誉は地位の報酬であると同時に、拒否したり裏切ったりできない使命として映っている。</OA_RK_NEW_Backstory_B_EF.description>
+  
+  <OA_RK_NEW_Backstory_B_EG.title>OA・船外作業員</OA_RK_NEW_Backstory_B_EG.title>
+  <OA_RK_NEW_Backstory_B_EG.titleShort>船員</OA_RK_NEW_Backstory_B_EG.titleShort>
+  <OA_RK_NEW_Backstory_B_EG.description>星間航行が高度に発達した金鳶尾蘭帝国においても、船外作業は依然としてリスクを伴う行為だ。しかし大多数の通航部従者と同様、[PAWN_nameDef]はこれを避けるべき危険とは考えず、むしろ栄誉と能力の証と見なしている。そのため艦船が船外作業を行う時、巨大な艦体の外に[PAWN_nameDef]の小さな姿が見えることがある。</OA_RK_NEW_Backstory_B_EG.description>
+
+  <OA_RK_NEW_Backstory_B_FA.title>OA・艦船整備士</OA_RK_NEW_Backstory_B_FA.title>
+  <OA_RK_NEW_Backstory_B_FA.titleShort>整備員</OA_RK_NEW_Backstory_B_FA.titleShort>
+  <OA_RK_NEW_Backstory_B_FA.description>星間航行における艦船の事故は、惑星上の航海時代よりもはるかに危険だ。惑星上の海難が激しい悲劇なら、星海での海難は静かなため息のようなもの。\n\nこのような災いを防ぐため、[PAWN_nameDef]は艦船の点検と整備を常に真剣に行う。平凡な航海は退屈かもしれないが、恐怖の航程よりはましだ。</OA_RK_NEW_Backstory_B_FA.description>
+
+  <OA_RK_NEW_Backstory_B_FB.title>OA・勤勉な事務船員</OA_RK_NEW_Backstory_B_FB.title>
+  <OA_RK_NEW_Backstory_B_FB.titleShort>船員</OA_RK_NEW_Backstory_B_FB.titleShort>
+  <OA_RK_NEW_Backstory_B_FB.description>データ記録、機器運転チェック、航路確認、空港情報受信...こうした細かい業務が積み重なると、[PAWN_nameDef]のような勤勉な船員でも手に負えなくなる。しかし疲れを感じても、[PAWN_nameDef]の心に諦めの念はない。[PAWN_pronoun]が勤務する艦船が静かに航路を進むように、[PAWN_nameDef]も確固として職務を全うする。</OA_RK_NEW_Backstory_B_FB.description>
+
+  <OA_RK_NEW_Backstory_B_FC.title>OA・平穏な船員</OA_RK_NEW_Backstory_B_FC.title>
+  <OA_RK_NEW_Backstory_B_FC.titleShort>船員</OA_RK_NEW_Backstory_B_FC.titleShort>
+  <OA_RK_NEW_Backstory_B_FC.description>[PAWN_nameDef]の生活は規則的で穏やかだ。昨日と同じように起床し、昨日と同じように仕事をこなし、昨日と同じように余暇を過ごし、昨日と同じように就寝する。[PAWN_nameDef]の生活は常に安定して変化がない。これは目立った貢献ができないことを意味するかもしれないが、同時に頭の痛い問題を引き起こさないことも意味する。\n\n艦船にとって、平穏無事こそが最大の功績だ。</OA_RK_NEW_Backstory_B_FC.description>
+
+  <OA_RK_NEW_Backstory_B_FD.title>OA・星区の有名船員</OA_RK_NEW_Backstory_B_FD.title>
+  <OA_RK_NEW_Backstory_B_FD.titleShort>船員</OA_RK_NEW_Backstory_B_FD.titleShort>
+  <OA_RK_NEW_Backstory_B_FD.description>遠征船員の社交圏も通常は同船の乗組員に限られるが、[PAWN_nameDef]の社交は度を越して広い。\n\nどうやって実現したのか誰も知らないが、[PAWN_nameDef]は自分自身と勤務艦を星区全体の有名人にした。この名声と注目は同船の乗組員を少し悩ませるが、他の同僚からの熱烈な挨拶と尊敬を思えば、どんな悩みも心からの誇りと小さな喜びに変わる。</OA_RK_NEW_Backstory_B_FD.description>
+
+  <OA_RK_NEW_Backstory_B_FE.title>OA・逆浪する船員</OA_RK_NEW_Backstory_B_FE.title>
+  <OA_RK_NEW_Backstory_B_FE.titleShort>船員</OA_RK_NEW_Backstory_B_FE.titleShort>
+  <OA_RK_NEW_Backstory_B_FE.description>穏やかな海は優れた船員を育てない――これが[PAWN_nameDef]の人生信条だ。どんな危険な状況でも[PAWN_pronoun]の決意を揺るがすことはできない。[PAWN_nameDef]にとって、平穏な航海はただの義務でしかなく、リスクと挑戦に満ちた航海こそが[PAWN_pronoun]の真に望むものだ。</OA_RK_NEW_Backstory_B_FE.description>
+
+  <OA_RK_NEW_Backstory_B_FF.title>OA・厳格な技術船員</OA_RK_NEW_Backstory_B_FF.title>
+  <OA_RK_NEW_Backstory_B_FF.titleShort>船員</OA_RK_NEW_Backstory_B_FF.titleShort>
+  <OA_RK_NEW_Backstory_B_FF.description>同船の乗組員にとって、[PAWN_nameDef]は仕事中に良い同僚とは言えない。[PAWN_pronoun]は些細なミスさえも厳しく指摘するため、[PAWN_nameDef]と同僚する船員は常にプレッシャーを感じる。\n\nしかし容赦ない指摘の後、[PAWN_nameDef]は常に最初に間違いを修正する手助けをする。[PAWN_nameDef]の目には、間違いの解決と予防が、他人を悔いさせることよりはるかに重要だ。</OA_RK_NEW_Backstory_B_FF.description>
+
+  <OA_RK_NEW_Backstory_B_FG.title>OA・ロマンチックな航海士</OA_RK_NEW_Backstory_B_FG.title>
+  <OA_RK_NEW_Backstory_B_FG.titleShort>船員</OA_RK_NEW_Backstory_B_FG.titleShort>
+  <OA_RK_NEW_Backstory_B_FG.description>[PAWN_nameDef]にとって航海の本質は、単なる移動ではなく、その過程で目にする全ての光景だ。\n\n恒星の壮大さも、氷巨星の幻想的な姿も、[PAWN_nameDef]を深く魅了する。[PAWN_nameDef]の考えでは、厳しい訓練は合格した船員を育てるが、星空への愛こそが真の航海士を育む。</OA_RK_NEW_Backstory_B_FG.description>
+
+  <OA_RK_NEW_Backstory_B_GA.title>OA・舷窓の観測者</OA_RK_NEW_Backstory_B_GA.title>
+  <OA_RK_NEW_Backstory_B_GA.titleShort>船員</OA_RK_NEW_Backstory_B_GA.titleShort>
+  <OA_RK_NEW_Backstory_B_GA.description>大多数の通航部従者と同様、[PAWN_nameDef]は星海を深く愛している。しかし彼らと違って、[PAWN_nameDef]には星海へ踏み出す勇気がない。\n\nこの揺れる勇気のため、[PAWN_nameDef]は船外に出られず、舷窓越しに同僚の船外作業を見守ることしかできない。密かな憧れを抱いた後、[PAWN_pronoun]は自分の仕事に戻る。\n\nいつか[PAWN_nameDef]はあの舷窓を越え、愛するもの全てを抱きしめる日が来るかもしれない。その時は遠い未来かもしれないし、もしかしたら――明日かもしれない。</OA_RK_NEW_Backstory_B_GA.description>
+
+  <OA_RK_NEW_Backstory_B_GB.title>OA・航海日誌の記録者</OA_RK_NEW_Backstory_B_GB.title>
+  <OA_RK_NEW_Backstory_B_GB.titleShort>日誌記録者</OA_RK_NEW_Backstory_B_GB.titleShort>
+  <OA_RK_NEW_Backstory_B_GB.description>星間航行時代において、ほとんどの航海日誌は自動記録できるが、多くの通航部従者は手書きの習慣を守っている。\n\n[PAWN_nameDef]にとって航海日誌は単なる記録ではなく、栄誉と自己肯定の証だ。日誌の各ページに記された墨の文字は、情報だけでなく、過去の奮闘の縮図でもある。</OA_RK_NEW_Backstory_B_GB.description>
+  
+  <OA_RK_NEW_Backstory_B_GC.title>OA・航路の幸運星</OA_RK_NEW_Backstory_B_GC.title>
+  <OA_RK_NEW_Backstory_B_GC.titleShort>幸運の通航星</OA_RK_NEW_Backstory_B_GC.titleShort>
+  <OA_RK_NEW_Backstory_B_GC.description>通航部の従者には卓越した能力、確固たる信念、理性的判断に加え、もう一つ不思議なものが必要だ――幸運である。\n\n幼少期から幸運の星と公認されている[PAWN_nameDef]は、通航部に入った日から各通航官の熱烈な歓迎を受けた。理由は誰にも説明できないが、[PAWN_nameDef]がいる場所には必ず幸運が満ちている。</OA_RK_NEW_Backstory_B_GC.description>
+
+  <OA_RK_NEW_Backstory_B_GD.title>OA・夜勤船員</OA_RK_NEW_Backstory_B_GD.title>
+  <OA_RK_NEW_Backstory_B_GD.titleShort>船員</OA_RK_NEW_Backstory_B_GD.titleShort>
+  <OA_RK_NEW_Backstory_B_GD.description>航行中の艦船は人の生活リズムで止まることはない。そのため夜勤船員の存在が不可欠だ。\n\n夜勤船員としての[PAWN_nameDef]の職務は通常船員と大差ないが、生活リズムの影響でより大きなプレッシャーを感じている。特に同僚の一人に夢遊病の兆候が見られてからは、重い責任に加え頭痛の種と楽しみが共存する任務となった。</OA_RK_NEW_Backstory_B_GD.description>
+
+  <OA_RK_NEW_Backstory_B_GE.title>OA・夢中の航海者</OA_RK_NEW_Backstory_B_GE.title>
+  <OA_RK_NEW_Backstory_B_GE.titleShort>夢遊船員</OA_RK_NEW_Backstory_B_GE.titleShort>
+  <OA_RK_NEW_Backstory_B_GE.description>[PAWN_nameDef]は自分の船員人生が安定して目立たないものだと思っていた。この考えは、夜間に夢遊状態で航路を変更し艦船を逸脱させたあの日まで続いた。\n\nあの日以来、[PAWN_nameDef]の存在感は急上昇した。船員人生は相変わらず安定しているかもしれないが、[PAWN_pronoun]自身がかつてのように無存在感でいることはもうない。</OA_RK_NEW_Backstory_B_GE.description>
+
+  <OA_RK_NEW_Backstory_B_GF.title>OA・星海の救済者</OA_RK_NEW_Backstory_B_GF.title>
+  <OA_RK_NEW_Backstory_B_GF.titleShort>救難船員</OA_RK_NEW_Backstory_B_GF.titleShort>
+  <OA_RK_NEW_Backstory_B_GF.description>広大で荒涼とした星々の間では、艦船の故障は即座に全乗員の死を意味する。しかし[PAWN_nameDef]のような無私の存在がこの絶望的な状況を根本から変えた。\n\nどの星域であろうと、どの航路近くであろうと、遭難信号を受信すれば、[PAWN_nameDef]は必ず小型救難艇で遭難者の元に駆けつける。\n\n「誰も見捨てられるべきではない。避けられない天災であれ、夢遊病による人災であれ」[PAWN_nameDef]はそう語る。</OA_RK_NEW_Backstory_B_GF.description>
+
+  <OA_RK_NEW_Backstory_B_GG.title>OA・休暇中の船員</OA_RK_NEW_Backstory_B_GG.title>
+  <OA_RK_NEW_Backstory_B_GG.titleShort>船員</OA_RK_NEW_Backstory_B_GG.titleShort>
+  <OA_RK_NEW_Backstory_B_GG.description>心から星海に憧れていても、ほとんどの通航部従者にとって終わりのない航海は精神を圧迫する。そのため各船員は航海後に短期休暇を与えられ、[PAWN_nameDef]も丁度その期間中だ。精神的な負担をできるだけ緩和するため、[PAWN_nameDef]は噂には聞いていたが未踏のこの新星系を訪れ、何か新鮮な出来事に遭遇することを期待している。</OA_RK_NEW_Backstory_B_GG.description>
+
+  <OA_RK_NEW_Backstory_B_AAA.title>OA・自由な船員</OA_RK_NEW_Backstory_B_AAA.title>
+  <OA_RK_NEW_Backstory_B_AAA.titleShort>船員</OA_RK_NEW_Backstory_B_AAA.titleShort>
+  <OA_RK_NEW_Backstory_B_AAA.description>栄誉を重んじる通航部において、大多数は割り当てられた職務を全力でこなす。しかし[PAWN_nameDef]は異端だ。\n\n[PAWN_nameDef]は自由を愛する通航部従者で、[PAWN_pronoun]の考える自由は怠惰とは程遠いが、他人から命令されることを好まない。\n\nそのためほとんどの場合、[PAWN_nameDef]は自身の能力で自由に艦船に貢献することを許可されており、喜ばしいことに、[PAWN_nameDef]はこの信頼を一度も裏切ったことがない。</OA_RK_NEW_Backstory_B_AAA.description>
+
+  <OA_RK_NEW_Backstory_B_AAB.title>OA・星間探検見習い</OA_RK_NEW_Backstory_B_AAB.title>
+  <OA_RK_NEW_Backstory_B_AAB.titleShort>見習船員</OA_RK_NEW_Backstory_B_AAB.titleShort>
+  <OA_RK_NEW_Backstory_B_AAB.description>星間航行は困難で高度な技術を要する仕事だ。ほとんどの市民にとって、通航部の専門訓練なしに船員になることは不可能に等しい。\n\nそのため正式に宮廷に入らなくても、[PAWN_nameDef]は通航部の航行知識研修に参加した。過程は想像ほど面白くないが、[PAWN_nameDef]は真剣に学び続けている。\n\n結局のところ、恒星も微細なものから始まり、種子は塵の中で眠るのだから。</OA_RK_NEW_Backstory_B_AAB.description>
+
+  <OA_RK_NEW_Backstory_B_AAC.title>OA・星海の旅人</OA_RK_NEW_Backstory_B_AAC.title>
+  <OA_RK_NEW_Backstory_B_AAC.titleShort>船員</OA_RK_NEW_Backstory_B_AAC.titleShort>
+  <OA_RK_NEW_Backstory_B_AAC.description>誰もが明確な規則を持つ通航部に入りたいわけではない。[PAWN_nameDef]は個人所有の船に乗ることを好む。\n\nこれらの船では、[PAWN_nameDef]は対等な関係で航行支援を提供することが多いが、より多くの時間を旅の風景鑑賞に費やす。結局のところ[PAWN_nameDef]が船に乗る目的は名利ではなく、星間への純粋な愛なのだ。</OA_RK_NEW_Backstory_B_AAC.description>
+
+  <OA_RK_NEW_Backstory_B_AAD.title>OA・商会の船員</OA_RK_NEW_Backstory_B_AAD.title>
+  <OA_RK_NEW_Backstory_B_AAD.titleShort>船員</OA_RK_NEW_Backstory_B_AAD.titleShort>
+  <OA_RK_NEW_Backstory_B_AAD.description>通航部が帝国の主要物資流通を管理しているとはいえ、より細かな部分や惑星間の特産品貿易は、[PAWN_nameDef]のような民間商船の船員に依存している。\n\n[PAWN_nameDef]のような商船船員の大多数にとって、報酬以上に重要なのは故郷の特産を他の惑星に届けることだ。こうした素朴で心からの友好の願いこそが、金鳶尾蘭帝国を星間距離を超えた共同体にし、ばらばらな混乱地帯にしない原動力なのだ。</OA_RK_NEW_Backstory_B_AAD.description>
+
+  <OA_RK_NEW_Backstory_B_AAE.title>OA・栄光の船長</OA_RK_NEW_Backstory_B_AAE.title><!--每次看到荣光这两个字总是会有奇怪的画面感（）-->
+  <OA_RK_NEW_Backstory_B_AAE.titleShort>船員</OA_RK_NEW_Backstory_B_AAE.titleShort>
+  <OA_RK_NEW_Backstory_B_AAE.description>[PAWN_nameDef]は生まれながらにして平凡ではいられない運命だった。通航部と遠征者文化が混ざった家族の伝統により、[PAWN_nameDef]は幼少期から並外れた勇気と、決して満足しない探求心を示した。\n\n成人後、幼少期に父から学んだ航行技術と、青年期に発揮された航行の才能が評価され、[PAWN_nameDef]は成人式の日に通航部からの通知を受け、正式に通航部編制外の名誉航路開拓者となった。\n\n今、[PAWN_nameDef]は新たな探検を計画している。傑出した船長にとって、この胸躍る冒険こそが[PAWN_pronoun]に相応しい栄誉なのだ。</OA_RK_NEW_Backstory_B_AAE.description>
+  
+  <OA_RK_NEW_Backstory_B_AAF.title>OA・忠誠の船員</OA_RK_NEW_Backstory_B_AAF.title>
+  <OA_RK_NEW_Backstory_B_AAF.titleShort>船員</OA_RK_NEW_Backstory_B_AAF.titleShort>
+  <OA_RK_NEW_Backstory_B_AAF.description>[PAWN_nameDef]の頭の中は常に英雄物語でいっぱいだ。[PAWN_pronoun]はいつも自己研鑽に励み、いつか誰かの目に留まって伝説的な物語に参加できる日を待ち望んでいる。\n\n幸運にも、[PAWN_nameDef]はついに生涯を捧げるに値する船長と出会った。</OA_RK_NEW_Backstory_B_AAF.description>
+
+  <OA_RK_NEW_Backstory_B_AAG.title>OA・異星の写真家</OA_RK_NEW_Backstory_B_AAG.title>
+  <OA_RK_NEW_Backstory_B_AAG.titleShort>写真家</OA_RK_NEW_Backstory_B_AAG.titleShort>
+  <OA_RK_NEW_Backstory_B_AAG.description>[PAWN_nameDef]は写真で永遠の思い出を刻むのが好きだ。消えゆく景色を記録するため、[PAWN_nameDef]は空港で新しい船に乗り継ぎ、一刻も無駄にしない。[PAWN_pronoun]の時間はまだたっぷりあるが、過ぎ去った景色は二度と取り戻せないからだ。</OA_RK_NEW_Backstory_B_AAG.description>
+
+  <OA_RK_NEW_Backstory_B_ABA.title>OA・綿あめ星の航海士</OA_RK_NEW_Backstory_B_ABA.title>
+  <OA_RK_NEW_Backstory_B_ABA.titleShort>綿あめ航海士</OA_RK_NEW_Backstory_B_ABA.titleShort>
+  <OA_RK_NEW_Backstory_B_ABA.description>[PAWN_nameDef]の子供時代は、一つまた一つと素敵な童話に囲まれていた。その中で特に気に入っていたのが、綿あめの星の物語だ。\n\n時が経つにつれ、[PAWN_nameDef]も童話の本質に気付いたが、それでもなおその物語を愛し、綿あめのように甘い星を探すことを誓った。\n\n今まで見つかっていないが、新しい惑星を発見する度に湧き上がる心からの喜びと甘さは本物だ。宇宙に綿あめの星はないかもしれないが、[PAWN_nameDef]はすでに心の中の「綿あめの星」を見つけたのかもしれない。</OA_RK_NEW_Backstory_B_ABA.description>
+
+  <OA_RK_NEW_Backstory_B_ABB.title>OA・グライダー探検家</OA_RK_NEW_Backstory_B_ABB.title>
+  <OA_RK_NEW_Backstory_B_ABB.titleShort>探検家</OA_RK_NEW_Backstory_B_ABB.titleShort>
+  <OA_RK_NEW_Backstory_B_ABB.description>多くの人にとって探検は地上に限られるが、[PAWN_nameDef]のような空中探検家がその常識を打ち破る。\n\n[PAWN_nameDef]は決して型にはまらない旅行者で、むしろユニークな探検技術、特にパラグライダーでの探検を好む。\n\n空に浮かぶ時、未知の大地を見下ろす時こそ、[PAWN_nameDef]は真の探検精神を感じる――型通りではなく、着実でもなく、未知に降り立った後も胸を張る勇気こそが本物だ。</OA_RK_NEW_Backstory_B_ABB.description>
+
+  <OA_RK_NEW_Backstory_B_ABC.title>OA・異星の遠征者</OA_RK_NEW_Backstory_B_ABC.title>
+  <OA_RK_NEW_Backstory_B_ABC.titleShort>遠征者</OA_RK_NEW_Backstory_B_ABC.titleShort>
+  <OA_RK_NEW_Backstory_B_ABC.description>[PAWN_nameDef]は既知の再探検より、純粋な未知を好む。そのため、[PAWN_nameDef]は常に新発見の惑星を探検している。次なる探検が危険に満ちていても、それが真の探検の楽しみだと信じている。</OA_RK_NEW_Backstory_B_ABC.description>
+
+  <OA_RK_NEW_Backstory_B_ABD.title>OA・宇宙暮らしの遠征者</OA_RK_NEW_Backstory_B_ABD.title>
+  <OA_RK_NEW_Backstory_B_ABD.titleShort>遠征者</OA_RK_NEW_Backstory_B_ABD.titleShort>
+  <OA_RK_NEW_Backstory_B_ABD.description>同じ遠征者でも、空港の原住民である[PAWN_nameDef]には他と違う点がある。\n\n思考の深さ、宇宙への理解、異星への慎重な態度、どれをとっても[PAWN_nameDef]は同類中の逸材だ。\n\nただし、地上の重力環境への不適応もまた、同類中で群を抜いている。</OA_RK_NEW_Backstory_B_ABD.description>
+
+  <OA_RK_NEW_Backstory_B_ABE.title>OA・空港の勤勉な市民</OA_RK_NEW_Backstory_B_ABE.title>
+  <OA_RK_NEW_Backstory_B_ABE.titleShort>市民</OA_RK_NEW_Backstory_B_ABE.titleShort>
+  <OA_RK_NEW_Backstory_B_ABE.description>人の環境が思考と論理を決める。[PAWN_nameDef]はこの理論の生きた証だ。\n\n空港の原住民として、[PAWN_nameDef]の日常生活は他の金鳶尾蘭市民と大きく異なる。空港の交通利便性と貿易の発達により、[PAWN_nameDef]はほぼ毎日新しいものに触れている。この驚きに満ちた生活が[PAWN_nameDef]に日々の活力を与え、尽きることない創作のインスピレーションをもたらした。[PAWN_nameDef]は文化伝播の重要なリンクとなり、小さいながらも名の知れた芸術家となった。</OA_RK_NEW_Backstory_B_ABE.description>
+
+  <OA_RK_NEW_Backstory_B_ABF.title>OA・宇宙の工芸家</OA_RK_NEW_Backstory_B_ABF.title>
+  <OA_RK_NEW_Backstory_B_ABF.titleShort>空港工芸家</OA_RK_NEW_Backstory_B_ABF.titleShort>
+  <OA_RK_NEW_Backstory_B_ABF.description>石？彫刻素材。隕石？彫刻素材。貴重な隕石標本？それでも彫刻素材。[PAWN_nameDef]は芸術に没頭しすぎて、中性星でさえ今は使えない貴重な彫刻材料にしか見えない。\n\nこの熱狂的で純粋な創作意欲が[PAWN_nameDef]を有名な彫刻家にしたが、同時に科研部の天敵にもした――特にあの未知星域の隕石破片が[PAWN_pronoun]の作業台に載った時は。</OA_RK_NEW_Backstory_B_ABF.description>
+
+  <OA_RK_NEW_Backstory_B_ABG.title>OA・空港の小店長</OA_RK_NEW_Backstory_B_ABG.title>
+  <OA_RK_NEW_Backstory_B_ABG.titleShort>小店長</OA_RK_NEW_Backstory_B_ABG.titleShort>
+  <OA_RK_NEW_Backstory_B_ABG.description>空港生活には不便も多いが、比類ない物資の流通量がすべてを補って余りある。[PAWN_nameDef]のような小店主にとっては特にだ。\n\n様々な星域からの商船と取引することで、[PAWN_nameDef]はいつも店にユニークで新奇な品を並べられる。通常は普通の取引だけだが、客が商品の由来や文化に興味を示せば、[PAWN_nameDef]は喜んで30分でも説明してくれる。</OA_RK_NEW_Backstory_B_ABG.description>
+
+
+</LanguageData>

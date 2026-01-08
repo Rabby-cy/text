@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <AlienRace.AlienBackstoryDef Name="Kiiro_SpecialBackstoryBase" Abstract="True">
+		<requiredWorkTags>
+          <li>Violent</li>
+        </requiredWorkTags>
+		<forcedHediffs>
+		</forcedHediffs> 
+		<spawnCategories>
+			<li>Kiiro_Special</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Female</bodyTypeMale>
+	</AlienRace.AlienBackstoryDef>
+
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_SpecialBackstoryBase">
+		<defName>Kiiro_BackstorySpecial_01</defName>
+		<title>kiiro valor</title>
+		<titleShort>valor</titleShort>
+		<baseDesc>[PAWN_nameDef] is a chosen valor of kiiros. In order to save the race from danger, [PAWN_nameDef] embarked on a journey to find the legendary sword.</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>12</value>
+			</li>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>KittyValor</defName>
+				<chance>100</chance>
+			</li>
+        </forcedTraitsChance>
+		<spawnCategories>
+			<li>Kiiro_SpecialValor</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+</Defs>

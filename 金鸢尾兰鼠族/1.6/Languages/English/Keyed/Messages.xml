@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OA_MessageNoDiplomat>No suitable diplomat</OA_MessageNoDiplomat>
+    <OA_MessageNoResearcher>No suitable researcher</OA_MessageNoResearcher>
+
+    <OA_ResponsibilityConstraints>{0} temporarily maintained rationality due to a sense of responsibility</OA_ResponsibilityConstraints>
+    <OA_Atonement>{0} temporarily maintained his rationality in order to redeem himself</OA_Atonement>
+
+</LanguageData>

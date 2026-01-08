@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <!-- 科研峰會 -->
+    <OA_LetterLabelResearchSummit_Disaster>科研峰會：會外之人</OA_LetterLabelResearchSummit_Disaster>
+    <OA_LetterResearchSummit_Disaster>很遺憾，與那些科研人員相比，我們的與會者顯得過於格格不入，以至於在這場充斥著思想碰撞的會議上，我們的與會者記得最清楚的是金鳶尾蘭的花糕很好吃。</OA_LetterResearchSummit_Disaster>
+
+    <OA_LetterLabelResearchSummit_Backfire>科研峰會：勉強融入</OA_LetterLabelResearchSummit_Backfire>
+    <OA_LetterResearchSummit_Backfire>儘管你的與會者盡力嘗試去理解，但他依然難以融入那些學術大拿們的交流。</OA_LetterResearchSummit_Backfire>
+
+    <OA_LetterLabelResearchSummit_Flounder>科研峰會：會談融洽</OA_LetterLabelResearchSummit_Flounder>
+    <OA_LetterResearchSummit_Flounder>你的與會者融洽的參與進了學術討論，並且在其中收穫了相當多的知識。</OA_LetterResearchSummit_Flounder>
+
+    <OA_LetterLabelResearchSummit_Normal>科研峰會：如魚得水</OA_LetterLabelResearchSummit_Normal>
+    <OA_LetterResearchSummit_Normal>你的與會者在這場會議上如魚得水，無論是什麼樣的討論他都可以參與進去，並且在其中充分的與他人進行交流。</OA_LetterResearchSummit_Normal>
+
+    <OA_LetterLabelResearchSummit_Success>科研峰會：風頭無兩</OA_LetterLabelResearchSummit_Success>
+    <OA_LetterResearchSummit_Success>你的與會者在這場會議上出了相當多的風頭，很多難題只要到他手裡不出一會便能夠得到解答，這使得想要與他交流的人甚至排起了隊列</OA_LetterResearchSummit_Success>
+
+    <OA_LetterLabelResearchSummit_Triumph>科研峰會：智近乎妖</OA_LetterLabelResearchSummit_Triumph>
+    <OA_LetterResearchSummit_Triumph>你的與會者的智識水平幾乎對參與者形成了降維打擊。其他人眼中的難題對他而言就彷彿兒童的算術一樣簡單，而他們所擁有的管控知識則往往會在不經意間被你的與會者盡數套出，以至於後來與會者不得不避開你的參與者，儘管他們真的很想得到他的指教。</OA_LetterResearchSummit_Triumph>
+
+    <OA_ResearchProgressChange>{0}進度增加{1}</OA_ResearchProgressChange>
+    <OA_ResearchSummitIntellectualXPGain>你的研究者，{PAWN_labelShort}，獲得了{1}智識經驗值。</OA_ResearchSummitIntellectualXPGain>
+
+    <!-- 科研峰會 附屬事件 -->
+    <!-- 附屬事件 學者訪問 需要翻譯的內容在對應QuestScript中 -->
+    <OA_LetterLabelResearchSummit_Fair>峰會集市</OA_LetterLabelResearchSummit_Fair>
+    <OA_LetterResearchSummit_Fair>由於這場峰會聚集了相當的人流量，因此與會者們以及他們的隨從在附近形成了一個小型的貿易集市，那裡似乎有著大量的書籍與少量珍貴的部件可供交易。</OA_LetterResearchSummit_Fair>
+    <OA_Visit_RSFair>前往{0}購物</OA_Visit_RSFair>
+
+    <OA_LetterLabelResearchSummitSamePeopleJoin>科研峰會：同道中人</OA_LetterLabelResearchSummitSamePeopleJoin>
+    <OA_LetterResearchSummitSamePeopleJoin>這場峰會中，當其他與會者們在進行激烈的爭吵或者交流的時候，你的與會者也在與餐桌上的花糕進行著激烈的互動。而在這場與花糕的無聲衝突中，你的與會者意外的發現了一位同樣濫竽充數來混吃混喝的同道中人————{PAWN_labelShort}。\n在經過了一番友好交流以及對彼此的認可後，你的與會者得知了{PAWN_labelShort}目前是一位居無定所的流浪者，並且他很樂意加入你們的團體。若是你決定招募他，他將會在打包自己的行囊後，於數日內自行抵達你的殖民地。</OA_LetterResearchSummitSamePeopleJoin>
+
+    <OA_LetterLabelResearchSummit_Bonus>科研峰會：額外收穫</OA_LetterLabelResearchSummit_Bonus>
+    <OA_LetterResearchSummit_Bonus>在這場峰會結束的時候，你的與會者發現了一旁的餐廳內有著相當多的花糕都尚未拆封。在秉持著來都來了的原則下，你的與會者從不知道什麼地方找來了一個口袋，並將這些花糕統統的收入囊中。而在臨走之時，你的與會者還發現桌子上有一本不知被誰被遺忘的小說，於是便順手將它一同帶了回來。\n\n獲得：\n金鳶尾蘭花糕 × {0} \n小說：{BOOK_label} × 1</OA_LetterResearchSummit_Bonus>
+
+    <OA_LetterLabelResearchSummit_ResearcherGift>科研峰會：研究員的告別</OA_LetterLabelResearchSummit_ResearcherGift>
+    <OA_LetterResearchSummit_ResearcherGift>在這場峰會中，你的與會者與一名來自金鳶尾蘭的研究員聊的相當投機，從學術話題一路聊到個人愛好以及彼此的家常。最終在臨別之際，這位研究員贈予了你的與會者一整盒花糕，並親手為其泡了一杯花茶。當這場峰會結束時，她告訴你的與會者，若下次來到 {SETTLEMENT_label} 請務必來拜訪她。然而可惜的是，你的與會者直到走出了會場才意識到自己忘了詢問那位研究員的名字。\n\n獲得：\n金鳶尾蘭花糕 × 10 \n金鳶尾蘭花茶 × 1</OA_LetterResearchSummit_ResearcherGift>
+
+    <OA_LetterLabelResearchSummit_ScholarGift>科研峰會：學者贈禮</OA_LetterLabelResearchSummit_ScholarGift>
+    <OA_LetterResearchSummit_ScholarGift>在這場會議中，一位無勢力的學者被你的與會者那出眾的學識所折服，並在結束時向你贈送了一份禮物，希望日後能與你們保持良好的關係。</OA_LetterResearchSummit_ScholarGift>
+
+    <!-- 科研峰會 附屬事件 落腳點-->
+    <OA_LetterLabelResearchSummit_ResearcherSite>科研峰會：落腳點</OA_LetterLabelResearchSummit_ResearcherSite>
+    <OA_LetterResearchSummit_ResearcherSite>在這場會議臨近尾聲的時候，你的與會者在路過一個小群體的時候，意外的聽到了這群學者們正在討論他們離開路線，以及回家路上的休息點。\n這些學者們將會在休息點準備一天左右才會出發，你可以在這場峰會結束時向這群馬虎的學者們進行勒索，也可以對這群學者們直接進行劫掠。但小心，當地的金鳶尾蘭宮庭絕對不希望自己的客人在回家路上遇到危險。</OA_LetterResearchSummit_ResearcherSite>
+
+    <OA_LetterLabelRobResearcherCamp>收取保護費</OA_LetterLabelRobResearcherCamp>
+    <OA_LetterRobResearcherCamp>你的遠行隊突然出現在了這群倒霉的學者面前，並且恐嚇他們如果不交出一定保護費就會遇到極為恐怖的事情，而這群受驚的學者們立刻照你說的交出了他們的大部分財物。\n\n獲得： \n白銀 × {0}\n\n而在你剛清點完他們交付的白銀，想要告訴他們他們可以離開了的時候，你才發現這伙學者們已經背著他們睡袋逃之夭夭，不見蹤影了。</OA_LetterRobResearcherCamp>
+    <OA_RobResearcherCamp>向{0}勒索白銀</OA_RobResearcherCamp>
+
+    <OA_LetterLabelAttackResearcherCamp>攻擊與會成員</OA_LetterLabelAttackResearcherCamp>
+    <OA_LetterAttackResearcherCamp>當地的金鳶尾蘭宮庭得知你攻擊了科研峰會的與會成員，對此{1}十分憤怒並向你們發出了嚴正警告。\n\n與{0}的關係：{2}</OA_LetterAttackResearcherCamp>
+
+    <OA_LetterLabelResearchSummit_ResearcherPeacetalk>科研峰會：和平談判</OA_LetterLabelResearchSummit_ResearcherPeacetalk>
+    <OA_LetterResearchSummit_ResearcherPeacetalk>在這場峰會中，你的與會者展現了常人難以企及的學識水平，並成功折服了一大批來自各地的學者。這其中，來自 {0} 的學者對你的與會者感到深深的欽佩，並為你們之間的敵對立場感到相當的可惜。\n在峰會結束後，來自 {0} 的使者向你傳達了一份和平談判的邀請。你從使者那無奈的神情中得知，在峰會結束後那位學者便一直要求著{0}的高層與你們保持良好關係，而在這一次次的語言轟炸中{0}的高層最終選擇了同意與妥協。</OA_LetterResearchSummit_ResearcherPeacetalk>
+
+    <!-- 科研峰會 附屬事件 約架-->
+    <OA_Visit_RSAcademicDispute>前往觀戰{0}</OA_Visit_RSAcademicDispute>
+
+    <OA_LetterLabelResearchSummit_AcademicDispute>科研峰會：約架</OA_LetterLabelResearchSummit_AcademicDispute>
+    <OA_LetterResearchSummit_AcademicDispute>在這場科研峰會中，有兩伙來自不同派系的學者們為了一個議題的兩種可能性發生了激烈的爭吵。當你的與會者好奇的前往圍觀的時候，他們的矛盾已經從簡單的學術矛盾上升到了派系之間的摩擦，並且激化到無可調和的地步。\n為了緩和矛盾局面與峰會氛圍，金鳶尾蘭的侍從們強行介入了雙方的爭吵，並令雙方冷靜下來，以求用其他相對溫和的手段來解決彼此之間的矛盾，然而這一想法被在爭吵中吵出了火氣的雙方斷然拒絕，並險些再次引發衝突。\n\n最終，在金鳶尾蘭的調解與介入下，雙方的與會者約定在峰會結束時舉行一場不涉及生命危險的鬥毆，以發泄對彼此的不滿並且打擊對方的信心。\n你的與會者從在場的侍從那裡得到了這場約架的約定地點，若是你們前往觀摩，將會令所有人都獲得一定的格鬥經驗。</OA_LetterResearchSummit_AcademicDispute>
+
+    <OA_LetterLabelVisit_RSAcademicDispute>觀摩結果</OA_LetterLabelVisit_RSAcademicDispute>
+    <OA_LetterVisit_RSAcademicDispute>儘管雙方有著充足的火氣並因此在打鬥中額外賣力，但由於與會者們大多數都是不擅格鬥的科研人員，以及金鳶尾蘭的侍從一直在一旁管控秩序防止場面失控，最終這場充滿著儀式感的約架變成了毫無技術含量的街頭鬥毆。\n在約架雙方的科研人員捂著腦袋罵罵咧咧的退場時，遠行隊中的每個人都得到了{0}點格鬥經驗。\n\n在所有人都離開後，你在不遠處的草叢里發現了一個不知道屬於哪個倒霉蛋的錢袋，並順手將其收入囊中。 \n\n獲得： \n 白銀 × {1}</OA_LetterVisit_RSAcademicDispute>
+
+    <!-- 科研峰會 附屬事件 廢品旁的學者-->
+    <OA_LetterLabelResearchSummit_EccentricScholar>廢品旁的學者</OA_LetterLabelResearchSummit_EccentricScholar>
+    <OA_LetterResearchSummit_EccentricScholar>這場科研峰會結束後，在離開的路上你的與會者發現了一個正在一堆廢品旁發愁的學者，也許你們可以去問問他想要做什麼，並且小小的幫助他一下。</OA_LetterResearchSummit_EccentricScholar>
+
+    <OA_ResearchSummit_EccentricScholarText>隨著你逐漸走近，你聽清了這個學者嘴裏不斷的咕噥著諸如「不懂科學的笨蛋」，「他們才是廢品」之類的抱怨。\n\n經過短暫的交流後，你勉強從這個學者那無休止的抱怨中明白了事情的經過————為了這場科研峰會，這位學者將他的實驗室中的所有器械一股腦的打包了過來，並且希望它們能夠在峰會中大放異彩，令其他的學者感到折服。\n\n然而事情總是不如所願，這位學者的那些設備不僅僅沒能夠讓其他的學者折服，反而還被他們稱為「廢品」，甚至就連路過的搬運車也表示「廢品不在搬運範圍內」，最終這位學者只能站在路邊看著這堆東西發愁。\n\n如果你能夠幫助他把這一堆實驗設備搬運至他的臨時住所，那麼你將收獲這位學者的感激，以及他為你準備的報酬。\n\n\n如果他真的有準備的話。</OA_ResearchSummit_EccentricScholarText>
+    <OA_ResearchSummit_EccentricScholarConfirm>幫助這個學者（花費{0}）</OA_ResearchSummit_EccentricScholarConfirm>
+    <OA_ResearchSummit_EccentricScholarIngore>無視這個看上去很不靠譜的家夥</OA_ResearchSummit_EccentricScholarIngore>
+
+    <OA_ResearchSummit_EccentricScholarWorking>協助搬運中</OA_ResearchSummit_EccentricScholarWorking>
+    <OA_FixedCaravanRSEccentricScholar_TimeLeft>協助搬運設備中，剩余{0}</OA_FixedCaravanRSEccentricScholar_TimeLeft>
+
+    <OA_ResearchSummit_EccentricScholarFinish>在花費了大量力氣後，你的{0}終於把那些奇形怪狀的設備搬運到了學者的臨時住所。而為了表達他對你的感激，這位學者足足為你的{0}介紹了三四個小時這些機械的作用，如果不是你的{0}趁著他不註意然後一點點挪到了門邊並最終奪門而去，可想而知這個學者還會一直在那說個不停。\n\n此外，盡管你的{0}很小心，但那些看上去就隨時可能散架的設備最終毫不意外的散架了相當一部分。而在那位學者為之痛心的時候，你的{0}悄悄撿起了其中一些看上去可能會有用的部件，並成功的把這些零件揣進了自己的腰包中。\n\n獲得：{1}零部件，{2}鋼鐵，所有參與者獲得{3}點智識經驗。</OA_ResearchSummit_EccentricScholarFinish>
+
+    <!-- 科研峰會 附屬事件 神秘的兜售者-->
+    <OA_LetterLabelResearchSummit_MysteriousTrader>神秘的兜售者</OA_LetterLabelResearchSummit_MysteriousTrader>
+    <OA_LetterResearchSummit_MysteriousTrader>在峰會結束時，你發現有一個衣著樸素的人神神秘秘的向過路人兜售著什麼，而一轉眼他便已經走遠，或許你可以問問他到底在賣什麼。</OA_LetterResearchSummit_MysteriousTrader>
+
+    <OA_ResearchSummit_MysteriousTrader>當你的遠行隊走到這個神秘的傢伙面前時，還未等你開口，這個神秘的兜售者便迫不及待的開始向你推銷起他背包裡面的幾本書。\n\n“你不知道，我這幾本書啊，那可是相當的珍貴，只有有緣人才能得到。據說，這幾本書的上任主任在得到他們之後，便當場飛黃騰達，而我也是有幸才能搞到他們。跟你們說，要不是我現在有點缺錢，我才不會把這幾本書賣給別人咧！......”\n\n儘管眼前的這個人把他的書吹得天花亂墜，但每當你想要先查看一下書內內容時，他便立刻把書背在了身後，並且表示只有買下後才能翻閱。\n\n他那貪婪的眼神正在目不轉睛的盯著你的錢包。</OA_ResearchSummit_MysteriousTrader>
+    <OA_RSMysteriousTrader_BuyTech>購買這幾本書（花費1500白銀）</OA_RSMysteriousTrader_BuyTech>
+    <OA_RSMysteriousTrader_ConfirmBuy>這幾本書對某些技術有著相當詳細的記載於說明。在翻閱了這幾本書後，你獲得了科技：</OA_RSMysteriousTrader_ConfirmBuy>
+    <OA_RSMysteriousTrader_NoAvailableResearch>沒有可用科技</OA_RSMysteriousTrader_NoAvailableResearch>
+
+    <!-- 科研峰會 附屬事件 金鳶尾蘭協助者募集點 -->
+    <OA_LetterLabelResearchSummit_AssistWork>金鳶尾蘭協助者募集點</OA_LetterLabelResearchSummit_AssistWork>
+    <OA_LetterResearchSummit_AssistWork>儘管峰會已經結束，但不遠處因峰會吸引而建立的集市仍然在運營。出於促進各派系交流以及加深瞭解等原因，鳶尾蘭邀請各派系或者無派系的人來共同協助維持集市秩序，而對應的鳶尾蘭將會提供每日飲食與報酬。</OA_LetterResearchSummit_AssistWork>
+
+    <OA_FixedCaravanRSAssistWork_TimeLeft>協助工作中，剩余{0}</OA_FixedCaravanRSAssistWork_TimeLeft>
+    <OA_FixedCaravanRSAssistWork_workPoints>當前工作協助點數：{0}</OA_FixedCaravanRSAssistWork_workPoints>
+
+    <OA_FixedCaravanRSAssistWork_SmoothWork>你的協助者工作過程較為順利，沒有發生什麼特殊的情況。</OA_FixedCaravanRSAssistWork_SmoothWork>
+    <OA_FixedCaravanRSAssistWork_FriendlyCollaboration>金鳶尾蘭的侍從們對你的協助者的工作提供了力所能及的幫助，你們相處的十分融洽。</OA_FixedCaravanRSAssistWork_FriendlyCollaboration>
+
+    <OA_FixedCaravanRSAssistWork_TradeDisputesSuccess>你的協助者們遇到了一場買賣爭執，不過最後協助者們成功的處理了這場衝突。</OA_FixedCaravanRSAssistWork_TradeDisputesSuccess>
+    <OA_FixedCaravanRSAssistWork_TradeDisputesFail>你的協助者們遇到了一場買賣爭執，但是協助者們沒能解決這場衝突，最終只得呼喚金鳶尾蘭的人員進行收場。</OA_FixedCaravanRSAssistWork_TradeDisputesFail>
+
+    <OA_LetterLabelRSAssistWork_LeaveHalfway>中途離開</OA_LetterLabelRSAssistWork_LeaveHalfway>
+    <OA_LetterRSAssistWork_LeaveHalfway>你的遠行隊主動結束了當日的工作。</OA_LetterRSAssistWork_LeaveHalfway>
+
+    <OA_LetterLabelRSAssistWork_FinishedWork>工作完成</OA_LetterLabelRSAssistWork_FinishedWork>
+    <OA_LetterRSAssistWork_FinishedWork>你的遠行隊完成了當日集市的所有協助工時，並順利收工。</OA_LetterRSAssistWork_FinishedWork>
+
+    <OA_LetterLabelRSAssistWork_CausingArgument>引發口角</OA_LetterLabelRSAssistWork_CausingArgument>
+    <OA_LetterRSAssistWork_CausingArgument>你的協助者們與集市人員爆發了一場意外的衝突，由於這場突如其然的口角爭執，金鳶尾蘭人員不得不提前結束了你的協助工作。</OA_LetterRSAssistWork_CausingArgument>
+
+    <OA_RSAssistWork_GetReward>出於你的遠行隊的工作結果，當地的金鳶尾蘭宮庭為你提供了以下報酬：\n\n白銀 × {0} \n支援點數 × {1}</OA_RSAssistWork_GetReward>
+
+    <!-- 科研峰會 附屬事件 參會旅行者 -->
+    <OA_ResearchSummitTraveller_Arrival>一夥來自{0}的旅行者正路過此地，他們正在向沿途的聚居點購買食物以保證他們能夠去訪問{SETTLEMENT_label}的科研峰會</OA_ResearchSummitTraveller_Arrival>
+
+</LanguageData>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <TraitDef>
+        <defName>OARK_Trait_SpaceTraveler</defName>
+        <commonality>0</commonality>
+        <degreeDatas>
+            <li>
+                <label>深空旅人</label>
+                <description>{PAWN_nameDef}的过去基本上都是在太空中度过的，这让{PAWN_pronoun}比大多数人都更加明白如何驾驶一艘太空船，也让{PAWN_pronoun}的思维层次与其他人有所不同。</description>
+                <statOffsets>
+                    <PilotingAbility>0.25</PilotingAbility>
+					<ResearchSpeed>0.10</ResearchSpeed>
+                </statOffsets>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+</Defs>

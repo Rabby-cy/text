@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <QuestScriptDef>
+        <defName>OARK_CrashedGravship</defName>
+        <rootSelectionWeight>0</rootSelectionWeight>
+        <isRootSpecial>true</isRootSpecial>
+        <affectedByPoints>false</affectedByPoints>
+        <randomlySelectable>false</randomlySelectable>
+        <expireDaysRange>8~12</expireDaysRange>
+        <questNameRules>
+            <rulesStrings>
+                <li>questName->坠毁的飞船</li>
+                <li>questName->未知势力的遇难船</li>
+                <li>questName->解体的飞船</li>
+                <li>questName->天空的遇难船</li>
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+                <li>questDescription->附近的一个金鸢尾兰空港注意到了在这片空域内有一艘飞船的信号突然消失了。而根据最后的信号轨迹与强度，空港的通航部侍从们判断这艘飞船极大概率坠毁在了你的殖民地附近。\n\n出于盟友利益的考虑，当地的空港管理者将具体的坐标范围提供给了你，你可以自由的前往搜刮物资，取得坠毁飞船的资料库权限并获取你想要的知识，也可以放弃这个机会选择忽视这条信息。\n\n然而空港的管理者还提醒你，[reason]，附近的近地轨道藏匿着一个海盗的劫掠港。她们无法确定这艘船的归属，除非你抵达并为她们提供相关信息。如果这艘船属于海盗，那么你的搜刮过程中将有可能遭到海盗的袭击。</li>
+                <li>reason->由于大量小行星碎片的遮挡</li>
+                <li>reason->由于轨道商会那强烈的领地意识，以及他们实际上到处漏风的空域管控</li>
+                <li>reason->由于轨道侦测设备的组装件尚未运达，以至于当地空港的轨道侦测能力存在缺陷</li>
+                <li>reason->由于该空港所属的近地舰与小型舰正在执行对地面海盗势力的清剿任务</li>
+                <li>reason->由于该空港的通航部侍从们因为大量的航运任务已经过度负荷</li>
+                <li>reason->由于大多数通航部侍从们正在各地对盟友进行协助</li>
+            </rulesStrings>
+        </questDescriptionRules>
+        <root Class="QuestNode_Sequence">
+            <nodes>
+
+                <li Class="OberoniaAurea.QuestNode_CheckInitGravQuestState">
+                    <questState>true</questState>
+                </li>
+
+                <li Class="QuestNode_GetMap" />
+
+                <li Class="OberoniaAurea.QuestNode_GetOberoniaAureaFaction">                    <!-- 获取金鼠鼠派系 -->
+                    <storeAs>OAFaction</storeAs>
+                    <allowAlly>true</allowAlly>
+                    <allowNeutral>false</allowNeutral>
+                    <allowHostile>false</allowHostile>
+                </li>
+                <li Class="OberoniaAurea_Frame.QuestNode_GetFaction">
+                    <storeAs>empire</storeAs>
+                    <factionDef>Empire</factionDef>
+                    <allowEnemy>true</allowEnemy>
+
+                </li>
+                <li Class="OberoniaAurea_Frame.QuestNode_GetFaction">
+                    <storeAs>tradersGuild</storeAs>
+                    <factionDef>TradersGuild</factionDef>
+                    <allowEnemy>true</allowEnemy>
+                </li>
+
+                <li Class="OberoniaAurea_Frame.QuestNode_GetFactionLeader">
+                    <faction>$OAFaction</faction>
+                    <storeAs>asker</storeAs>
+                </li>
+
+                <li Class="OberoniaAurea_Frame.QuestNode_GetMapParent">
+                    <storeAs>playerHome</storeAs>
+                    <targetMap>$map</targetMap>
+                </li>
+
+                <li Class="OberoniaAurea_Frame.QuestNode_GetNearTile">
+                    <storeAs>shipTile</storeAs>
+                    <worldObject>$playerHome</worldObject>
+                    <minDist>3</minDist>
+                    <maxDist>12</maxDist>
+                </li>
+
+                <li Class="QuestNode_GenerateWorldObject">
+                    <storeAs>crashedShip</storeAs>
+                    <def>OARK_CrashedGravship</def>
+                    <tile>$shipTile</tile>
+                </li>
+                <li Class="OberoniaAurea_Frame.QuestNode_SetQuestForWorldObject">
+                    <worldObject>$crashedShip</worldObject>
+                </li>
+                <li Class="QuestNode_SpawnWorldObjects">
+                    <worldObjects>$crashedShip</worldObjects>
+                    <tile>$shipTile</tile>
+                </li>
+                <li Class="QuestNode_WorldObjectTimeout">
+                    <delayTicks>$(randInt(12,15)*60000)</delayTicks>
+                    <outSignalComplete>questExpired</outSignalComplete>
+                    <isQuestTimeout>true</isQuestTimeout>
+                    <destroyOnCleanup>true</destroyOnCleanup>
+                    <worldObject>$crashedShip</worldObject>
+                </li>
+
+                <li Class="QuestNode_Signal">
+                    <inSignal>crashedShip.AcceptOberoniaAureaRequest</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="OberoniaAurea.QuestNode_OaAssistPointsChange">
+                                <change>20</change>
+                            </li>
+                            <li Class="QuestNode_ChangeFactionGoodwill">
+                                <faction>$OAFaction</faction>
+                                <change>25</change>
+                                <reason>OARK_CrashedGravshipHelp</reason>
+                            </li>
+                            <li Class="QuestNode_ChangeFactionGoodwill">
+                                <faction>$empire</faction>
+                                <change>5</change>
+                                <reason>OARK_CrashedGravshipHelp</reason>
+                            </li>
+                            <li Class="QuestNode_ChangeFactionGoodwill">
+                                <faction>$tradersGuild</faction>
+                                <change>40</change>
+                                <reason>OARK_CrashedGravshipHelp</reason>
+                            </li>
+                            <li Class="OberoniaAurea_Frame.QuestNode_AllFactionsGoodwillChange">
+                                <goodwillChange>10</goodwillChange>
+                                <historyEvent>OARK_CrashedGravshipHelp</historyEvent>
+                            </li>
+                            <li Class="QuestNode_GenerateThing">
+                                <def>Silver</def>
+                                <stackCount>500</stackCount>
+                                <addToList>RewardItems</addToList>
+                            </li>
+                            <li Class="OberoniaAurea_Frame.QuestNode_GetDropSpot">
+                                <storeAs>dropSpot</storeAs>
+                                <useTradeSpot>true</useTradeSpot>
+                                <preferCenterClose>true</preferCenterClose>
+                                <preferCloseColony>true</preferCloseColony>
+                                <minDistanceFromEdge>20</minDistanceFromEdge>
+                            </li>
+                            <li Class="QuestNode_DropPods">
+                                <contents>$RewardItems</contents>
+                                <dropSpot>$dropSpot</dropSpot>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Success</outcome>
+                                <sendStandardLetter>true</sendStandardLetter>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+
+                <li Class="QuestNode_Signal">
+                    <inSignal>crashedShip.HackCompleted</inSignal>
+                    <node Class="QuestNode_End">
+                        <outcome>Success</outcome>
+                        <sendStandardLetter>true</sendStandardLetter>
+                    </node>
+                </li>
+
+                <li Class="QuestNode_AnySignal">
+                    <inSignals>
+                        <li>questExpired</li>
+                        <li>crashedShip.HackForceEnded</li>
+                        <li>crashedShip.MapRemoved</li>
+                        <li>crashedShip.Destroyed</li>
+                    </inSignals>
+                    <node Class="QuestNode_End">
+                        <outcome>Fail</outcome>
+                        <sendStandardLetter>true</sendStandardLetter>
+                    </node>
+                </li>
+
+            </nodes>
+        </root>
+    </QuestScriptDef>
+
+</Defs>

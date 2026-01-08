@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	
+<OARK_DeativeGravDataBeaconDesc>{0} 비활성화\n현재 상태: 활성화됨</OARK_DeativeGravDataBeaconDesc>
+<OARK_ActiveGravDataBeaconDesc>{0} 활성화\n현재 상태: 닫힘</OARK_ActiveGravDataBeaconDesc>
+
+<OARK_Command_TriggerStartWick>장치 가동</OARK_Command_TriggerStartWick>
+<OARK_Command_TriggerStartWickDesc>중력 함정을 작동시켜 주변 모든 유닛에게 강력한 견인 효과를 적용합니다.</OARK_Command_TriggerStartWickDesc>
+
+<OARK_Command_GravSuppress>중력장 억제</OARK_Command_GravSuppress>
+<OARK_Command_GravSuppressDesc>지역 중력 강도를 크게 변화시켜 효과 범위 내 모든 유닛에게 강력한 억제 효과를 적용합니다.</OARK_Command_GravSuppressDesc>
+
+<OARK_SailorAssistInvitation>상주 초대</OARK_SailorAssistInvitation>
+<OARK_SailorAssistInvitationDesc>금 아이리스 제국에 인원 상주 신청을 제출하여 이 금 아이리스 시민이 영구적으로 당신의 콜로니에 합류하도록 합니다.</OARK_SailorAssistInvitationDesc>
+<OARK_InsufficientMood>시종의 기분이 최소 {0} 이상이어야 합니다.</OARK_InsufficientMood>
+<OARK_NeedBetterBothwayOpinion>시종이 해당 식민지 주민에게 최소 {0} 이상의 호감을 가져야 합니다.</OARK_NeedBetterBothwayOpinion>
+
+<OARK_OpenOne>하나 열기</OARK_OpenOne>
+<OARK_ComponentBoxDesc>{0} 하나를 개별적으로 엽니다.</OARK_ComponentBoxDesc>
+
+<OARK_OpenAll>전체 열기</OARK_OpenAll>
+<OARK_ComponentBoxDesc>쌓여 있는 모든 {0}을(를) 엽니다.</OARK_ComponentBoxDesc>
+
+</LanguageData>

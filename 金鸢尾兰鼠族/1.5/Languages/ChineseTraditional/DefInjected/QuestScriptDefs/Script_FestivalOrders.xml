@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OA_FestivalOrders.questNameRules.rulesStrings>
+        <li>questName->金鸢尾蘭節日訂單</li>
+        <li>questName->緊急的花糕訂單</li>
+        <li>questName->節日的慶典訂單</li>
+        <li>questName->[OAFaction_leaderTitle]的花糕訂單</li>
+        <li>questName->[asker_nameFull]的協助請求</li>
+        <li>questName->花糕難題</li>
+        <li>questName->節日的訂單</li>
+    </OA_FestivalOrders.questNameRules.rulesStrings>
+
+    <OA_FestivalOrders.questDescriptionRules.rulesStrings>
+        <li>questDescription->[OAFaction_name]的壹個傳統文化節日即將到來。往年的這個日子[OAFaction_name]的宮廷會爲所在地的公民統壹發放花糕，以分享節日的喜悅並增強節日氛圍。然而今年的[OAFaction_name]遇到了壹個難題：\n由于[Reasonfortask]，某地的金鸢尾蘭宮廷工業部當前正面臨嚴重的鼠手不足，以至于他們連節日的花糕需求都無法去滿足。因此金鸢尾蘭的[OAFaction_leaderTitle]，[asker_nameFull]希望妳能夠協助當地宮廷完成節日的花糕需求，這將顯著改善當地宮廷對妳的觀感。\n\n根據當地統籌部的判斷，他們大概還擁有著[requestedThingCount]份[requestedThing_label]的數量缺口（總價值：[requestedThingMarketValue_money]。）若是我們接受這個請求，[OAFaction_name]將會提供生産所需的原材料和壹台花糕工藝機，壹台穿梭機將會在不久後到達來收集花糕。\n\n若我們完成該訂單，則[OAFaction_name]爲我們提供援助的意願將會增加。但若是我們沒能完成訂單，[OAFaction_name]與當地的金鸢尾蘭公民將會對我們非常失望。</li>
+        <li>Reasonfortask->正在進行壹系列的建設工程</li>
+        <li>Reasonfortask->正在制造壹系列的生産設備</li>
+        <li>Reasonfortask->新建立的聚居點抽調了部分人員</li>
+        <li>Reasonfortask->正在建立基礎的生産車間</li>
+        <li>Reasonfortask->聚居點大量的建設工程抽調了絕大多數人員</li>
+        <li>Reasonfortask->極端的暴風雪使得聚居點正在進行緊急加固</li>
+        <li>Reasonfortask->大量的工業部人員因爲食物中毒而住院</li>
+        <li>Reasonfortask->大量新人正在接受培訓</li>
+    </OA_FestivalOrders.questDescriptionRules.rulesStrings>
+
+</LanguageData>

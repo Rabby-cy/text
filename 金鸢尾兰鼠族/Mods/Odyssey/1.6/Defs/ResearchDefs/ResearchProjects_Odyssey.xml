@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>OARK_Odyssey_GravityApplication</defName>
+		<label>金鸢尾兰引力运用</label>
+		<description>学习运用最基础的引力生成装置，并运用此技术解锁人类也能穿戴的【金鸢尾兰真空力场腰带】，以方便进行太空作业。</description>
+		<tab>RatkinTech</tab>
+		<baseCost>1500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>OA_RK_Constant_Temperature_Hydroponics</li>
+		</prerequisites>
+		<researchViewX>9</researchViewX>
+		<researchViewY>6</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>OARK_Odyssey_GravTrap</defName>
+		<label>引力陷阱</label>
+		<description>将力场理论进行进一步的实践，解锁【金鸢尾兰引力陷阱】，通过制造瞬间的引力波动以彻底打乱进攻者的脚步。</description>
+		<tab>RatkinTech</tab>
+		<baseCost>1200</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>OARK_Odyssey_GravityApplication</li>
+			<li>OA_RK_Apparel_E</li>
+		</prerequisites>
+		<researchViewX>12</researchViewX>
+		<researchViewY>6</researchViewY>
+		<techprintCount>1</techprintCount>
+		<techprintCommonality>0</techprintCommonality>
+		<techprintMarketValue>4000</techprintMarketValue>
+		<heldByFactionCategoryTags>
+			<li>None</li>
+		</heldByFactionCategoryTags>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>OARK_Odyssey_GravFieldCore</defName>
+		<label>力场核心</label>
+		<description>接触金鸢尾兰力场学的最前沿进展，解锁【小型引力约束装置】与【金鸢尾兰逆重延展装置】，以创造或者强化一个已有的引力核心。</description>
+		<tab>RatkinTech</tab>
+		<baseCost>4500</baseCost>
+		<techLevel>Ultra</techLevel>
+		<prerequisites>
+			<li>OARK_Odyssey_GravTrap</li>
+		</prerequisites>
+		<researchViewX>13</researchViewX>
+		<researchViewY>6</researchViewY>
+		<techprintCount>1</techprintCount>
+		<techprintCommonality>0</techprintCommonality>
+		<techprintMarketValue>6000</techprintMarketValue>
+		<heldByFactionCategoryTags>
+			<li>None</li>
+		</heldByFactionCategoryTags>
+	</ResearchProjectDef>
+</Defs>

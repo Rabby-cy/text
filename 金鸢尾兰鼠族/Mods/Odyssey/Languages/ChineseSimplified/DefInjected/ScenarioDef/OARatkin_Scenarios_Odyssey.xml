@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <OA_RK_Scenario_Navigate.label>被中断的航行</OA_RK_Scenario_Navigate.label>
+  <OA_RK_Scenario_Navigate.description>每一个通航部侍从都拥有着自由探索的心，而这其中有些富有野心的成员，便会在学到了充足的技术与招募到合适的同伴后脱离通航部，用几人合资的积蓄采购一艘小型飞船并自由的进行探索。\n\n然而探索必然是危险重重的，就像这次离港没多久便迎面撞上了机械族飞船一样。尽管警报从未停止，但好在过硬的驾驶技术最终成功让四人逃了出来。然而飞船的信号已经被记录，可以预见的是未来几人的探索必然将会伴随着机械族那无休止的追杀。\n\n究竟是到此为止，放弃飞船返回鸢尾兰帝国接受保护，还是继续探索，哪怕再大的风险也直面前行？\n\n这并不是一个选择。</OA_RK_Scenario_Navigate.description>
+  <OA_RK_Scenario_Navigate.scenario.name>被中断的航行</OA_RK_Scenario_Navigate.scenario.name>
+  <OA_RK_Scenario_Navigate.scenario.summary>可能是出航前忘了向北极星祷告的缘由，但好日子尚未开始便已结束。</OA_RK_Scenario_Navigate.scenario.summary>
+  <OA_RK_Scenario_Navigate.scenario.description>每一个通航部侍从都拥有着自由探索的心，而这其中有些富有野心的成员，便会在学到了充足的技术与招募到合适的同伴后脱离通航部，用几人合资的积蓄采购一艘小型飞船并自由的进行探索。\n\n然而探索必然是危险重重的，就像这次离港没多久便迎面撞上了机械族飞船一样。尽管警报从未停止，但好在过硬的驾驶技术最终成功让四人逃了出来。然而飞船的信号已经被记录，可以预见的是未来几人的探索必然将会伴随着机械族那无休止的追杀。\n\n究竟是到此为止，放弃飞船返回鸢尾兰帝国接受保护，还是继续探索，哪怕再大的风险也直面前行？\n\n这并不是一个选择。</OA_RK_Scenario_Navigate.scenario.description>
+
+</LanguageData>

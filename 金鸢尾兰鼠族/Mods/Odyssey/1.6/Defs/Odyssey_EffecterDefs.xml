@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <EffecterDef>
+        <defName>OARK_Effect_GravTrapIED</defName>
+        <maintainTicks>40</maintainTicks>
+        <children>
+            <li>
+                <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+                <burstCount>1</burstCount>
+                <positionOffset>(0, 0, 0)</positionOffset>
+                <fleckDef>OARK_Fleck_GravIEDRiserRing</fleckDef>
+                <positionRadius>0</positionRadius>
+                <positionRadiusMin>0</positionRadiusMin>
+                <scale>2</scale>
+                <speed>0</speed>
+                <rotation>0</rotation>
+                <rotationRate>0</rotationRate>
+                <angle>0~0</angle>
+                <spawnLocType>OnTarget</spawnLocType>
+            </li>
+        </children>
+    </EffecterDef>
+
+</Defs>

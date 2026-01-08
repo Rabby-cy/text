@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OA_OpportunitySite_PunishmentExecutor.questNameRules.rulesStrings>
+        <li>questName->惩戒的执行者</li>
+    </OA_OpportunitySite_PunishmentExecutor.questNameRules.rulesStrings>
+
+    <OA_OpportunitySite_PunishmentExecutor.questDescriptionRules.rulesStrings>
+        <li>questDescription->[asker_faction_name]的[asker_faction_leaderTitle]，[asker_nameFull]向我们发来一条消息，她告诉我们有一伙来自[siteFaction_name]的[enemyFaction_pawnsPlural]近期多次劫掠路过的金鸢尾兰的远行者与公民，已经对该地区公民的生活造成了严重影响，因此[asker_faction_name]决定彻底击溃这伙强盗以示惩戒。\n由于[asker_faction_name]需要处理的事务过于繁杂，因此他们没有多余的精力来专门针对这群匪徒，于是希望你能代为进行处理。\n[asker_nameDef]告诉我们这一批强盗近期在我们附近建立了一座[sitePart0_description]，因此她希望你能够帮助金鸢尾兰摧毁[label]以示惩罚。由于该行为可能导致[siteFaction_name]的报复袭击，因此[asker_nameDef]会赠予我们一个轨道能量束靶向器以防意外。\n\n摧毁该营地将可能招致[siteFaction_name]在数天内进行1~2波的报复性袭击。</li>
+    </OA_OpportunitySite_PunishmentExecutor.questDescriptionRules.rulesStrings>
+
+</LanguageData>

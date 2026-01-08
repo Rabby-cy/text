@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kiiro_Underwear.label>內衣</Kiiro_Underwear.label>
+
+
+  <!-- <ApparelLayerDef>
+	<defName>Kiiro_Middle</defName>
+	<label>夾層</label>
+	<drawOrder>1</drawOrder>
+</ApparelLayerDef> -->
+
+  <Kiiro_OnSkin.label>貼身</Kiiro_OnSkin.label>
+  <Kiiro_Pants.label>褲裝</Kiiro_Pants.label>
+  <Kiiro_Bag.label>揹包</Kiiro_Bag.label>
+  <Kiiro_Shell.label>外套</Kiiro_Shell.label>
+
+
+</LanguageData>

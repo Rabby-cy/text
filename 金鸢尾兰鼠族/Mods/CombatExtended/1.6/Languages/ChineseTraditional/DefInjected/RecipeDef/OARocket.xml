@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_OARocket_HE.label>make OA Rockets(HE) x10</MakeAmmo_OARocket_HE.label>
+  <MakeAmmo_OARocket_HE.description>Craft 10 OA Rockets(HE).</MakeAmmo_OARocket_HE.description>
+  <MakeAmmo_OARocket_HE.jobString>Making OA Rockets(HE).</MakeAmmo_OARocket_HE.jobString>
+
+  <MakeAmmo_OARocket_EMP.label>make OA Rockets(EMP) x10</MakeAmmo_OARocket_EMP.label>
+  <MakeAmmo_OARocket_EMP.description>Craft 10 OA Rockets(EMP).</MakeAmmo_OARocket_EMP.description>
+  <MakeAmmo_OARocket_EMP.jobString>Making OA Rockets(EMP).</MakeAmmo_OARocket_EMP.jobString>
+
+
+</LanguageData>

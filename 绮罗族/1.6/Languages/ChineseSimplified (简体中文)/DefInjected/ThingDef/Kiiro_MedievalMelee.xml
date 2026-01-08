@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kiiro_Spear.label>绮罗长矛</Kiiro_Spear.label>
+  <Kiiro_Spear.description>攻击方式以刺击为主的长柄武器。</Kiiro_Spear.description>
+  <Kiiro_Spear.tools.0.label>handle</Kiiro_Spear.tools.0.label>
+  <Kiiro_Spear.tools.1.label>head</Kiiro_Spear.tools.1.label>
+
+  <KiiroSpecial_Spear.label>绮罗长矛</KiiroSpecial_Spear.label>
+
+  <Kiiro_DaggerAxe.label>绮罗长戈</Kiiro_DaggerAxe.label>
+  <Kiiro_DaggerAxe.description>攻击方式以啄击为主的长柄武器。</Kiiro_DaggerAxe.description>
+  <Kiiro_DaggerAxe.tools.0.label>handle</Kiiro_DaggerAxe.tools.0.label>
+  <Kiiro_DaggerAxe.tools.1.label>head</Kiiro_DaggerAxe.tools.1.label>
+  <Kiiro_DaggerAxe.tools.2.label>edge</Kiiro_DaggerAxe.tools.2.label>
+
+  <KiiroSpecial_DaggerAxe.label>绮罗长戈</KiiroSpecial_DaggerAxe.label>
+
+  <Kiiro_LongHandledBlade.label>绮罗朴刀</Kiiro_LongHandledBlade.label>
+  <Kiiro_LongHandledBlade.description>一种长柄的刀刃。</Kiiro_LongHandledBlade.description>
+  <Kiiro_LongHandledBlade.tools.0.label>handle</Kiiro_LongHandledBlade.tools.0.label>
+  <Kiiro_LongHandledBlade.tools.1.label>blade</Kiiro_LongHandledBlade.tools.1.label>
+
+  <Kiiro_TwoHandSword.label>绮罗双手剑</Kiiro_TwoHandSword.label>
+  <Kiiro_TwoHandSword.description>一把大剑，需要双手使用才能挥动。</Kiiro_TwoHandSword.description>
+  <Kiiro_TwoHandSword.tools.0.label>point</Kiiro_TwoHandSword.tools.0.label>
+  <Kiiro_TwoHandSword.tools.1.label>edge</Kiiro_TwoHandSword.tools.1.label>
+
+
+</LanguageData>

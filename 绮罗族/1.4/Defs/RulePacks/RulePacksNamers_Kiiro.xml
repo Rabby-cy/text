@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>NamerPerson_Kiiro</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[Kiiro_FirstName] [Kiiro_LastName]</li>
+      </rulesStrings>
+	  <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>Kiiro_FirstName</keyword>
+          <path>Names/Kiiro_First</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Kiiro_LastName</keyword>
+          <path>Names/Kiiro_Last</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+
+</Defs>

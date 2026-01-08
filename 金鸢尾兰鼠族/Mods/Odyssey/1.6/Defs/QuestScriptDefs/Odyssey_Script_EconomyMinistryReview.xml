@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <QuestScriptDef ParentName="OAFrame_HospitalityRefugeeBase_Female">
+        <defName>OARK_EconomyMinistryReview</defName>
+        <minRefireDays>15</minRefireDays>
+        <rootMinPoints>0</rootMinPoints>
+        <autoAccept>true</autoAccept>
+        <defaultCharity>false</defaultCharity>
+        <affectedByPoints>false</affectedByPoints>
+        <randomlySelectable>false</randomlySelectable>
+        <affectedByPopulation>false</affectedByPopulation>
+        <hideInvolvedFactionsInfo>false</hideInvolvedFactionsInfo>
+        <successHistoryEvent Inherit="False" />
+        <failedOrExpiredHistoryEvent Inherit="False" />
+        <questNameRules>
+            <rulesStrings>
+                <li>questName->电，花糕和逆重板</li>
+                <li>questName->关于[asker_nameDef]的统筹审计</li>
+                <li>questName->科研部的[asker_nameDef]审查</li>
+                <!--li>questName->统筹部的勇者与科研部的恶龙</li-->
+                <li>questName->统筹部与科研部</li>
+                <li>questName->科研部的劫难</li>
+                <li>questName->统筹部的审查</li>
+                <li>questName->统筹部之怒</li>
+                <li>questName->统筹官的噩梦</li>
+                <li>questName->“既无理性，也不逻辑，更非科研”</li>
+                <li>CaseName->流心花糕</li>
+                <li>CaseName->混乱账目</li>
+                <li>CaseName->逆重板损耗</li>
+                <li>CaseName->逆重核心损耗</li>
+                <li>CaseName->器材损毁</li>
+                <li>CaseName->物资需求混乱</li>
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionAndNameRules>
+            <rulesStrings>
+                <li>lodgersLabel->统筹官</li>
+                <li>lodgersLabelPlural->统筹官</li>
+            </rulesStrings>
+        </questDescriptionAndNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+
+                <li>questDescription->你接到一则来自科研部侍从们的集体求助讯息。\n\n在这条讯息中，你得知因为科研部长期的优渥待遇，使得她们逐渐对物资的损耗失去概念。而这段时间因为一次又一次的花糕亏空，逆重板损毁以及长期滥用设备导致的设备老化，最终忍无可忍的统筹部向她们递出了命中注定的审查通知。\n\n然而无论是主观上还是客观上，也无论是科研官还是常规侍从，整个科研部从上到下都凑不出一份完整的账目记录。这样的物资损耗显然是无法通过这场审查的，因此科研部的成员们希望你能够帮助她们完成这些混乱资料的整理，以度过统筹部的审查。\n\n你可以预料到，这次统筹部绝对不会轻易的放过科研部，而接过整个科研部的信任与期望的你便是决定走向的关键。\n究竟是帮助科研部度过这场劫难，还是协助统筹部完成这场教训，亦或者找到第三种解决办法？\n\n答案尚未明朗，就如同科研部的账本一样。</li>
+
+            </rulesStrings>
+        </questDescriptionRules>
+        <questContentRules>
+            <rulesStrings>
+
+                <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] 离开</li>
+                <li>lodgersLeavingLetterText->因为账目资料的整理完成与审查工作的结束，[asker_nameDef]已经没有留下的必要，为此她已自行离开。\n她感谢你对她突然造访的包容，以及你在本次审查中做出的所有贡献。</li>
+                
+            </rulesStrings>
+        </questContentRules>
+        <root Class="OberoniaAurea.QuestNode_Root_EconomyMinistryReview" />
+    </QuestScriptDef>
+
+</Defs>

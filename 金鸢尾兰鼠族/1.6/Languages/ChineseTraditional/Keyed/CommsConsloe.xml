@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 通訊台相關 -->
+<LanguageData>
+
+
+    <OA_AllianceDurationShort>需要至少聯盟{0}天</OA_AllianceDurationShort>
+    <OA_AlliancePointsNotEnough>需要至少{0}點支援點數</OA_AlliancePointsNotEnough> <!-- 新 -->
+
+    <OA_CallForLargeScaleTrade>呼叫大型商隊</OA_CallForLargeScaleTrade>
+    <OA_CallForLargeScaleTradeConfirm>{0}將會授意一支大型商隊前來。</OA_CallForLargeScaleTradeConfirm>
+
+    <OA_SponsorOberoniaAurea>對金鳶尾蘭帝國的殖民基地進行贊助</OA_SponsorOberoniaAurea>
+    <OA_DoSponsorOberoniaAurea>贊助{0}白銀</OA_DoSponsorOberoniaAurea>
+    <OA_SponsorThanks>{0}對於我們的贊助表示感謝，這筆資金將讓金鳶尾蘭帝國的殖民基地更加繁榮，並表示金鳶尾蘭帝國將會記住所有為帝國做出貢獻的朋友。</OA_SponsorThanks>
+
+    <OA_SponsorAssistPointsGet>支援點數增加{0}</OA_SponsorAssistPointsGet> <!-- 新 -->
+    <OA_SponsorRoyaltyFavorGain>{0}獲得{1}榮譽點數</OA_SponsorRoyaltyFavorGain>
+    <OA_SponsorThanksAgain>{0}很感謝我們為金鳶尾蘭做出的貢獻，但殖民基地現在暫時不需要更多的協助，並且希望我們能夠將這些用於照顧自己。</OA_SponsorThanksAgain>
+
+    <OA_BuyTechPrint>請求購買金鳶尾蘭科技藍圖</OA_BuyTechPrint>
+    <OA_BuyTechPrintNode>{0}思考了一會後，將一份清單發給了你。</OA_BuyTechPrintNode>
+    <OA_TechPrintChoice>購買：{0} 價值{1}白銀</OA_TechPrintChoice>
+    <OA_TechPrintNeedAllianceDuration>需要聯盟：{0}天</OA_TechPrintNeedAllianceDuration>
+    <OA_TechPrintNeedRoyalTitle>需要頭銜：{0}</OA_TechPrintNeedRoyalTitle>
+    <OA_TechPrintChoiceConfirm>{0}同意我們的請求，科技藍圖將很快送達</OA_TechPrintChoiceConfirm>
+    <OA_BuyTechPrintDeniedDueTitle>{FACTION_name}無法向你調配藍圖，因為{NEGOTIATOR_nameDef}沒有足夠的頭銜（至少是{TITLE}）。</OA_BuyTechPrintDeniedDueTitle>
+    <OA_TechPrintArrive>{FACTION_name}向你空投的{1}已經到達</OA_TechPrintArrive>
+
+    <OA_AssistWithTrouble>尋求一些援助</OA_AssistWithTrouble>
+    <OA_AssistWithTroubleInfo>當前可用支援點數：{0} \n當前支援點數自然增長上限：{1} \n\n支援點數會每日自然增長1點，與金鳶尾蘭結盟越久，自然增長的上限閾值越高。 \n此外還可以通過對金鳶尾蘭殖民基地進行贊助，拜訪金鳶尾蘭居住點並進行深入交涉，亦或者完成特殊任務獲得額外的支援點數。</OA_AssistWithTroubleInfo>
+
+    <OA_AssistPointsStoppage>支援點數自然增長停止中，增長停止賸餘{0}天。</OA_AssistPointsStoppage>
+
+    <OA_WeAreStarving>請求食品援助</OA_WeAreStarving>
+    <OA_WeAreStarvingConfirm>{0}表示她明白了你們的需要，她已經將一些食品調撥給了你們。</OA_WeAreStarvingConfirm>
+
+    <OA_WeHadAFamine>請求大規模食品援助</OA_WeHadAFamine>
+    <OA_WeHadAFamineConfirm>{0}表示她明白了你們的需要，她已經將一批食品調撥給了你們。</OA_WeHadAFamineConfirm>
+
+    <OA_WeNeedEmergencyMedicine>請求調撥應急藥品</OA_WeNeedEmergencyMedicine>
+    <OA_WeNeedEmergencyMedicineConfirm>{0}表示她明白了你們的需要，她已經將一批藥品調撥給了你們。</OA_WeNeedEmergencyMedicineConfirm>
+
+    <OA_WeAreInFinancialTrouble>請求資金援助</OA_WeAreInFinancialTrouble>
+    <OA_WeAreInFinancialTroubleConfirm>{0}表示她明白了你們的需要，她將會撥出一些資金對你們進行援助。</OA_WeAreInFinancialTroubleConfirm>
+
+    <OA_WeNeedLongTermAssistance>請求長期的人員協助</OA_WeNeedLongTermAssistance>
+    <OA_WeNeedLongTermAssistanceConfirm>{0}表示她明白了你們的想法，兩名金鳶尾蘭的侍從將會前來長期協助你們。</OA_WeNeedLongTermAssistanceConfirm>
+
+    <OA_CallForTributeCollector>請求派遣一支物資徵募隊</OA_CallForTributeCollector>
+    <OA_CallForTributeCollectorConfirm>{0}表示附近有一支物資徵募隊已經接到了你們的請求，不久後他們將會到達。</OA_CallForTributeCollectorConfirm>
+
+    <OA_WeAreBeingAttacked>請求一支突襲小組協助</OA_WeAreBeingAttacked>
+    <OA_WeAreBeingAttackedConfirm>{0}表示她明白了你們的需要，一支金鳶尾蘭突襲小組將會協助你們作戰。</OA_WeAreBeingAttackedConfirm>
+
+    <OA_WeNeedUrgentBackup>請求一支突襲分隊支援</OA_WeNeedUrgentBackup>
+    <OA_WeNeedUrgentBackupConfirm>{0}表示她明白了你們的需要，一支金鳶尾蘭的突襲分隊將立刻出發。</OA_WeNeedUrgentBackupConfirm>
+
+    <OA_WeNeedMilitaryDeployment>請求進行數天的軍事部署</OA_WeNeedMilitaryDeployment>
+    <OA_WeNeedMilitaryDeploymentConfirm>{0}表示她明白了你們的需要，已經有一支金鳶尾蘭的作戰單位在你們周圍部署，在你們遭到襲擊時他們將會立刻支援。</OA_WeNeedMilitaryDeploymentConfirm>
+
+    <OA_MealSurvivalPackArrive>{0}向你空投的{1}份包裝生存食品已經到達</OA_MealSurvivalPackArrive>
+    <OA_EmergencyMedicineArrive>{0}向你空投的應急藥品已經到達</OA_EmergencyMedicineArrive>
+    <OA_SilverArrive>{0}向你空投的{1}份白銀已經到達</OA_SilverArrive>
+
+    <OA_AssistPawnArrival>人員抵達</OA_AssistPawnArrival>
+    <OA_AssistPawnArrivalDetail>來自{0}的{1}位{2}已經抵達，她們是：</OA_AssistPawnArrivalDetail>
+    <OA_AssistPawnJoin>她們將加入你的殖民地以便進行長期協助。</OA_AssistPawnJoin>
+
+</LanguageData>

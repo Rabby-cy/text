@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kiiro_SmokePopBelt.label>綺羅煙罐包</Kiiro_SmokePopBelt.label>
+  <Kiiro_SmokePopBelt.description>適合綺羅穿戴的便攜煙幕發生裝置。啟用時釋放能夠妨礙瞄準和防止炮塔鎖定的煙霧。</Kiiro_SmokePopBelt.description>
+  <Kiiro_SmokePopBelt.verbs.0.label>激發煙幕</Kiiro_SmokePopBelt.verbs.0.label>
+
+  <Kiiro_FirefoamPopPack.label>綺羅泡沫揹包</Kiiro_FirefoamPopPack.label>
+  <Kiiro_FirefoamPopPack.description>啟用就會釋放大範圍阻燃泡沫的消防用揹包。由於每次用完都要花很長時間清理粘了滿身的泡沫，綺羅們不太喜歡使用。</Kiiro_FirefoamPopPack.description>
+  <Kiiro_FirefoamPopPack.verbs.0.label>激發泡沫</Kiiro_FirefoamPopPack.verbs.0.label>
+
+  <Kiiro_ShieldBelt.label>綺羅護盾腰帶</Kiiro_ShieldBelt.label>
+  <Kiiro_ShieldBelt.description>綺羅族研製的護盾腰帶，效能和人類使用的版本相近，但擁有更少的護盾量和更快的充能速度。被EMP擊中會立刻失效。</Kiiro_ShieldBelt.description>
+
+
+</LanguageData>

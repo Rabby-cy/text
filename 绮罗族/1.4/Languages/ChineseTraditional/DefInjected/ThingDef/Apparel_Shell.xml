@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kiiro_SimpleCape.label>綺羅簡易披肩</Kiiro_SimpleCape.label>
+  <Kiiro_SimpleCape.description>一塊小巧的披肩。</Kiiro_SimpleCape.description>
+
+  <Kiiro_LeisureCoat.label>綺羅休閑外套</Kiiro_LeisureCoat.label>
+  <Kiiro_LeisureCoat.description>風格前衛的休閑外套，非常隨意。</Kiiro_LeisureCoat.description>
+
+  <Kiiro_WinterRobe.label>綺羅毛絨棉袍</Kiiro_WinterRobe.label>
+  <Kiiro_WinterRobe.description>毛茸茸的棉袍，十分暖和。</Kiiro_WinterRobe.description>
+
+  <Kiiro_WhiteGown.label>綺羅白工作服</Kiiro_WhiteGown.label>
+  <Kiiro_WhiteGown.description>潔凈的白色大褂，醫務人員和研究員的最愛。</Kiiro_WhiteGown.description>
+  
+  <Kiiro_GraduationGown.label>綺羅學士服</Kiiro_GraduationGown.label>
+  <Kiiro_GraduationGown.description>寬大精緻的長袍，相傳是在學位授予儀式上穿戴的、具有學位象徵的正式禮服。\n\n——2023.6.21</Kiiro_GraduationGown.description>
+
+  <Kiiro_PhantomCloak.label>綺羅魅影斗篷</Kiiro_PhantomCloak.label>
+  <Kiiro_PhantomCloak.description>黑色的斗篷，質地堅韌，特製的外層可以防火。</Kiiro_PhantomCloak.description>
+
+
+</LanguageData>

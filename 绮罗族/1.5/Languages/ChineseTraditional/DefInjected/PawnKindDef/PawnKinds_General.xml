@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kiiro_Colonist.label>綺羅殖民者</Kiiro_Colonist.label>
+  <Kiiro_Colonist.labelPlural>綺羅殖民者</Kiiro_Colonist.labelPlural>
+  <Kiiro_Colonist.labelMale>綺羅殖民者</Kiiro_Colonist.labelMale>
+  <Kiiro_Colonist.labelMalePlural>綺羅殖民者</Kiiro_Colonist.labelMalePlural>
+  <Kiiro_Colonist.labelFemale>綺羅殖民者</Kiiro_Colonist.labelFemale>
+  <Kiiro_Colonist.labelFemalePlural>綺羅殖民者</Kiiro_Colonist.labelFemalePlural>
+
+  <Kiiro_Towner.label>綺羅小鎮居民</Kiiro_Towner.label>
+  <Kiiro_Towner.labelPlural>綺羅小鎮居民</Kiiro_Towner.labelPlural>
+  <Kiiro_Towner.labelMale>綺羅小鎮居民</Kiiro_Towner.labelMale>
+  <Kiiro_Towner.labelMalePlural>綺羅小鎮居民</Kiiro_Towner.labelMalePlural>
+  <Kiiro_Towner.labelFemale>綺羅小鎮居民</Kiiro_Towner.labelFemale>
+  <Kiiro_Towner.labelFemalePlural>綺羅小鎮居民</Kiiro_Towner.labelFemalePlural>
+
+  <Kiiro_TownerII.label>綺羅小鎮居民</Kiiro_TownerII.label>
+  <Kiiro_TownerII.labelPlural>綺羅小鎮居民</Kiiro_TownerII.labelPlural>
+  <Kiiro_TownerII.labelMale>綺羅小鎮居民</Kiiro_TownerII.labelMale>
+  <Kiiro_TownerII.labelMalePlural>綺羅小鎮居民</Kiiro_TownerII.labelMalePlural>
+  <Kiiro_TownerII.labelFemale>綺羅小鎮居民</Kiiro_TownerII.labelFemale>
+  <Kiiro_TownerII.labelFemalePlural>綺羅小鎮居民</Kiiro_TownerII.labelFemalePlural>
+
+  <Kiiro_Trader.label>綺羅小鎮商人</Kiiro_Trader.label>
+  <Kiiro_Trader.labelPlural>綺羅小鎮商人</Kiiro_Trader.labelPlural>
+  <Kiiro_Trader.labelMale>綺羅小鎮商人</Kiiro_Trader.labelMale>
+  <Kiiro_Trader.labelMalePlural>綺羅小鎮商人</Kiiro_Trader.labelMalePlural>
+  <Kiiro_Trader.labelFemale>綺羅小鎮商人</Kiiro_Trader.labelFemale>
+  <Kiiro_Trader.labelFemalePlural>綺羅小鎮商人</Kiiro_Trader.labelFemalePlural>
+
+  <Kiiro_Leader.label>綺羅小鎮鎮長</Kiiro_Leader.label>
+  <Kiiro_Leader.labelPlural>綺羅小鎮鎮長</Kiiro_Leader.labelPlural>
+  <Kiiro_Leader.labelMale>綺羅小鎮鎮長</Kiiro_Leader.labelMale>
+  <Kiiro_Leader.labelMalePlural>綺羅小鎮鎮長</Kiiro_Leader.labelMalePlural>
+  <Kiiro_Leader.labelFemale>綺羅小鎮鎮長</Kiiro_Leader.labelFemale>
+  <Kiiro_Leader.labelFemalePlural>綺羅小鎮鎮長</Kiiro_Leader.labelFemalePlural>
+
+  <Kiiro_Refugee.label>綺罹難民</Kiiro_Refugee.label>
+  <Kiiro_Refugee.labelPlural>綺罹難民</Kiiro_Refugee.labelPlural>
+  <Kiiro_Refugee.labelMale>綺罹難民</Kiiro_Refugee.labelMale>
+  <Kiiro_Refugee.labelMalePlural>綺罹難民</Kiiro_Refugee.labelMalePlural>
+  <Kiiro_Refugee.labelFemale>綺罹難民</Kiiro_Refugee.labelFemale>
+  <Kiiro_Refugee.labelFemalePlural>綺罹難民</Kiiro_Refugee.labelFemalePlural>
+
+  <Kiiro_WoundedSoldier.label>綺羅傷兵</Kiiro_WoundedSoldier.label>
+  <Kiiro_WoundedSoldier.labelPlural>綺羅傷兵</Kiiro_WoundedSoldier.labelPlural>
+  <Kiiro_WoundedSoldier.labelMale>綺羅傷兵</Kiiro_WoundedSoldier.labelMale>
+  <Kiiro_WoundedSoldier.labelMalePlural>綺羅傷兵</Kiiro_WoundedSoldier.labelMalePlural>
+  <Kiiro_WoundedSoldier.labelFemale>綺羅傷兵</Kiiro_WoundedSoldier.labelFemale>
+  <Kiiro_WoundedSoldier.labelFemalePlural>綺羅傷兵</Kiiro_WoundedSoldier.labelFemalePlural>
+  
+  <Kiiro_Maid.label>綺羅女僕</Kiiro_Maid.label>
+  <Kiiro_Maid.labelPlural>綺羅女僕</Kiiro_Maid.labelPlural>
+  <Kiiro_Maid.labelMale>綺羅女僕</Kiiro_Maid.labelMale>
+  <Kiiro_Maid.labelMalePlural>綺羅女僕</Kiiro_Maid.labelMalePlural>
+  <Kiiro_Maid.labelFemale>綺羅女僕</Kiiro_Maid.labelFemale>
+  <Kiiro_Maid.labelFemalePlural>綺羅女僕</Kiiro_Maid.labelFemalePlural>
+
+
+</LanguageData>

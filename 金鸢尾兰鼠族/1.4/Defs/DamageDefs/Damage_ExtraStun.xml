@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <DamageDef>
+        <defName>OA_RK_ExtraStun</defName>
+        <label>OA_RK_ExtraStun</label>
+        <canInterruptJobs>true</canInterruptJobs>
+        <makesBlood>false</makesBlood>
+        <defaultDamage>1</defaultDamage>
+        <additionalHediffs>
+            <li>
+                <hediff>OA_RK_ExtraStun</hediff>
+                <severityFixed>1</severityFixed>
+            </li>
+        </additionalHediffs>
+        <harmsHealth>true</harmsHealth>
+    </DamageDef>
+
+</Defs>

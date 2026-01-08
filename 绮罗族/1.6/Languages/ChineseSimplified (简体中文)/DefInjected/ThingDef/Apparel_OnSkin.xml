@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 1级衣服 -->
+
+  <Kiiro_TShirt.label>绮罗T恤衫</Kiiro_TShirt.label>
+  <Kiiro_TShirt.description>宽松的T恤，穿着非常舒适。</Kiiro_TShirt.description>
+
+  <Kiiro_TShirtShort.label>绮罗T恤衫（短款）</Kiiro_TShirtShort.label>
+  <Kiiro_TShirtShort.description>短款的T恤，露出肚脐。</Kiiro_TShirtShort.description>
+
+  <Kiiro_Waistcoat.label>绮罗背心</Kiiro_Waistcoat.label>
+  <Kiiro_Waistcoat.description>深色的背心，非常随意地穿在身上。</Kiiro_Waistcoat.description>
+
+
+  <!-- 2级衣服 -->
+
+  <Kiiro_SailorSuit.label>绮罗水手服（款一）</Kiiro_SailorSuit.label>
+  <Kiiro_SailorSuit.description>似乎是一种在古代文化中曾流行过的校服款式，在绮罗族中重新兴起了。</Kiiro_SailorSuit.description>
+
+  <Kiiro_SailorSuitII.label>绮罗水手服（款二）</Kiiro_SailorSuitII.label>
+  <Kiiro_SailorSuitII.description>似乎是一种在古代文化中曾流行过的校服款式，在绮罗族中重新兴起了。</Kiiro_SailorSuitII.description>
+
+  <Kiiro_Hoodie.label>绮罗可爱连帽衫</Kiiro_Hoodie.label>
+  <Kiiro_Hoodie.description>印有猫爪图案的连帽衫，穿上应该会很舒适。</Kiiro_Hoodie.description>
+
+  <Kiiro_RunningShirt.label>绮罗运动背心</Kiiro_RunningShirt.label>
+  <Kiiro_RunningShirt.description>印有猫爪图案的运动背心，适合运动时穿。</Kiiro_RunningShirt.description>
+
+  <Kiiro_KnittedSweater.label>绮罗针织毛衣</Kiiro_KnittedSweater.label>
+  <Kiiro_KnittedSweater.description>宽松的毛衣和一件打底衫，让人联想到慵懒的下午和阳光。</Kiiro_KnittedSweater.description>
+
+  <Kiiro_WorkerShirt.label>绮罗工作衬衫</Kiiro_WorkerShirt.label>
+  <Kiiro_WorkerShirt.description>扎好底边的衬衫，显得非常干练。</Kiiro_WorkerShirt.description>
+
+  <Kiiro_LaceDress.label>绮罗蕾丝连衣裙</Kiiro_LaceDress.label>
+  <Kiiro_LaceDress.description>带有白色花边的黑色长裙。</Kiiro_LaceDress.description>
+
+  <Kiiro_LaceDressShort.label>绮罗蕾丝连衣裙（短款）</Kiiro_LaceDressShort.label>
+  <Kiiro_LaceDressShort.description>带有白色花边的短款黑色连衣裙。</Kiiro_LaceDressShort.description>
+
+  <Kiiro_GardenerDress.label>绮罗工作围裙</Kiiro_GardenerDress.label>
+  <Kiiro_GardenerDress.description>用坚韧布料缝制的围裙，耐脏污。</Kiiro_GardenerDress.description>
+
+  <Kiiro_CasualDress.label>绮罗休闲背带裙</Kiiro_CasualDress.label>
+  <Kiiro_CasualDress.description>一款舒适的背带裙。</Kiiro_CasualDress.description>
+
+  <Kiiro_SuspenderTrousers.label>绮罗休闲背带裤</Kiiro_SuspenderTrousers.label>
+  <Kiiro_SuspenderTrousers.description>一款舒适的背带裤。</Kiiro_SuspenderTrousers.description>
+
+  <Kiiro_HighWaistedDress.label>绮罗露肩高腰裙</Kiiro_HighWaistedDress.label>
+  <Kiiro_HighWaistedDress.description>一款露肩的高腰裙。</Kiiro_HighWaistedDress.description>
+
+
+  <!-- 夜行衣↓ -->
+
+  <Kiiro_Stealth.label>绮罗夜行衣</Kiiro_Stealth.label>
+  <Kiiro_Stealth.description>通体黑色的紧身服装，可以帮助绮罗在夜间潜行。</Kiiro_Stealth.description>
+
+  <Kiiro_StealthII.label>绮罗影袭者战服</Kiiro_StealthII.label>
+  <Kiiro_StealthII.description>舍弃了笨重的防御从而最大限度发挥绮罗族灵巧优势的战斗装束，能够大幅度提高闪避能力。\n\n可以帮助绮罗在夜间潜行。</Kiiro_StealthII.description>
+
+
+  <!-- 夜行衣↑ -->
+
+  <Kiiro_GuerrillaUniform.label>绮罗游击队服</Kiiro_GuerrillaUniform.label>
+  <Kiiro_GuerrillaUniform.description>绮罗游击队的制服，有一定的防护能力。</Kiiro_GuerrillaUniform.description>
+
+  <Kiiro_DressUniform.label>绮罗军礼服</Kiiro_DressUniform.label>
+  <Kiiro_DressUniform.description>做工精致的军官服，在考虑了美观的同时也具备一定的防护能力。</Kiiro_DressUniform.description>
+
+  <Kiiro_ValorArmor.label>绮罗勇者甲胄</Kiiro_ValorArmor.label>
+  <Kiiro_ValorArmor.description>绮罗勇者穿着的盔甲，用非常稀有的材料锻造而成。</Kiiro_ValorArmor.description>
+
+
+</LanguageData>

@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="OARatkin_MeleeWeaponBase">
+		<defName>OA_RK_Mountain_Stick</defName>
+		<label>Oberonia Aurea Stick</label>
+		<description>An intricately carved alloy walking stick with a fine floral pattern. Often used by Oberonia Aurea nobles or travelers because of its outstanding beauty and practicality.</description>
+		<graphicData>
+			<texPath>Weapons/OA_RK_Mountain_Stick</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Spacer</techLevel>
+		<weaponTags Inherit="false">
+			<li>OA_RK_Stick</li>
+		</weaponTags>
+		<costList>
+			<Silver>90</Silver>
+			<Uranium>65</Uranium>
+		</costList>
+		<statBases>
+			<WorkToMake>40000</WorkToMake>
+			<Mass>1.2</Mass>
+			<Beauty>18</Beauty>
+		</statBases>
+		<equippedStatOffsets>
+			<SocialImpact>0.15</SocialImpact>
+			<NegotiationAbility>0.15</NegotiationAbility>
+			<TradePriceImprovement>0.15</TradePriceImprovement>
+		</equippedStatOffsets>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>杖身</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>13</power>
+				<cooldownTime>3.0</cooldownTime>
+			</li>
+			<li>
+				<label>杖尖</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>16.5</power>
+				<cooldownTime>3.0</cooldownTime>
+			</li>
+		</tools>
+		<recipeMaker>
+			<researchPrerequisite>OA_RK_Apparel_B</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="OARatkin_MeleeWeaponBase">
+		<defName>OA_RK_Mountain_Stick_B</defName>
+		<label>Oberonia Aurea Walking Stick</label>
+		<description>A walking stick commonly used by Oberonia Aurea travelers. It offers greater reliability and adaptability compared to ordinary hiking sticks. Its multiple detachable components are designed to manage a variety of complex terrains.</description>
+		<graphicData>
+			<texPath>Weapons/OA_RK_Mountain_Stick_B</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Spacer</techLevel>
+		<weaponTags Inherit="false">
+			<li>OA_RK_Stick_B</li>
+		</weaponTags>
+		<costList>
+			<Uranium>80</Uranium>
+		</costList>
+		<statBases>
+			<WorkToMake>17000</WorkToMake>
+			<Mass>1.5</Mass>
+		</statBases>
+		<equippedAngleOffset>-20</equippedAngleOffset>
+		<tools>
+			<li>
+				<label>杖身</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>16.5</power>
+				<cooldownTime>3.0</cooldownTime>
+				<chanceFactor>0.9</chanceFactor>
+			</li>
+			<li>
+				<label>杖尖</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>23.5</power>
+				<cooldownTime>3.0</cooldownTime>
+				<armorPenetration>0.46</armorPenetration>
+				<chanceFactor>2.0</chanceFactor>
+			</li>
+			<li>
+				<label>杖刃</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>28</power>
+				<cooldownTime>2.7</cooldownTime>
+				<armorPenetration>0.40</armorPenetration>
+				<chanceFactor>2.8</chanceFactor>
+			</li>
+		</tools>
+		<recipeMaker>
+			<researchPrerequisite>OA_RK_Apparel_D</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="OARatkin_MeleeWeaponBase">
+		<defName>OA_RK_Mountain_Stick_C</defName>
+		<label>Oberonia Aurea Snow Blade</label>
+		<description>A highly reliable multifunctional dagger that is capable of carving stone or chopping wood with ease. It features a transmitter at the base, and its hollow handle can store essential items. Some Oberonia Aurea adventurers carry this blade with them on their travels.</description>
+		<graphicData>
+			<texPath>Weapons/OA_RK_Mountain_Stick_C</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<techLevel>Spacer</techLevel>
+		<weaponTags Inherit="false">
+			<li>OA_RK_Stick_B</li>
+		</weaponTags>
+		<costList>
+			<Uranium>60</Uranium>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>14700</WorkToMake>
+			<Mass>0.6</Mass>
+		</statBases>
+		<equippedStatOffsets>
+			<PlantWorkSpeed>0.1</PlantWorkSpeed>
+			<MiningSpeed>0.1</MiningSpeed>
+		</equippedStatOffsets>
+		<tools>
+			<li>
+				<label>刀背</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>11.5</power>
+				<armorPenetration>0.26</armorPenetration>
+				<cooldownTime>2.0</cooldownTime>
+				<chanceFactor>1.1</chanceFactor>
+			</li>
+			<li>
+				<label>刀尖</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>18.5</power>
+				<cooldownTime>2.0</cooldownTime>
+				<armorPenetration>0.56</armorPenetration>
+				<chanceFactor>2.5</chanceFactor>
+			</li>
+			<li>
+				<label>刀刃</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>16.5</power>
+				<cooldownTime>2.0</cooldownTime>
+				<armorPenetration>0.44</armorPenetration>
+				<chanceFactor>2.0</chanceFactor>
+			</li>
+		</tools>
+		<recipeMaker>
+			<researchPrerequisite>OA_RK_Apparel_D</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+	</ThingDef>
+
+</Defs>

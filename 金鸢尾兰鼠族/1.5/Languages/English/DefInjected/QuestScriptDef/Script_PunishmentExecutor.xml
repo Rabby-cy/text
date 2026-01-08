@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <OA_OpportunitySite_PunishmentExecutor.questDescriptionRules.rulesStrings>
+    <li>questDescription->The [asker_faction_leaderTitle][asker_nameFull] of [asker_faction_name] sent us a message, informing us that a group of [enemyFaction_pawnsPlural] from [siteFaction_name] has recently plundered a group of travelers and citizens passing by the Golden Iris Orchid, causing serious impact on the lives of the local citizens. Therefore, [asker_faction_name] has decided to completely defeat this group of robbers as a punishment.\nDue to the complexity of the transactions that [asker_faction_name] needs to handle, they do not have the extra energy to specifically target this group of bandits, so they hope you can handle them on their behalf.\n [asker_nameDef] told us that this group of robbers recently built a [sitePart0_description] near us, so she hopes you can help the Golden Iris Orchid destroy [label] as punishment. Due to the possibility of retaliatory attacks by [siteFaction_name], [asker_nameDef] will gift us an orbital energy beam targeting device in case of accidents.\n\n\Destroying the campsite may lead to 1-2 waves of retaliatory attacks by [siteFaction_name] within a few days.</li>
+  </OA_OpportunitySite_PunishmentExecutor.questDescriptionRules.rulesStrings>
+  <OA_OpportunitySite_PunishmentExecutor.questNameRules.rulesStrings>
+    <li>questName->The executor of punishment</li>
+  </OA_OpportunitySite_PunishmentExecutor.questNameRules.rulesStrings>
+  
+</LanguageData>

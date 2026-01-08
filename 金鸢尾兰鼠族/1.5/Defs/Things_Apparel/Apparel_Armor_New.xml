@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<!-- 突袭作战裙甲  -->
+	<ThingDef Class="NewRatkin.CustomThingDef" ParentName="OARatkin_ArmorMakeableBase">
+		<defName>OA_RK_New_Windbreaker_E</defName>
+		<label>Assault Combat Skirt Armor</label>
+		<description>The light armor developed by the Golden Iris Empire for raid teams in highly turbulent areas provides more reliable protection compared to windbreakers. \n\nThe armor is equipped with high-strength specially made lightweight armor plates in the main parts, which can protect the firepower of small caliber firearms, and the parts without attached armor plates are also made of specialized dense fibers. \nIn addition, the armor is equipped with two disposable grenade launchers, which perform particularly well in small-scale high-intensity combat environments.</description>
+		<graphicData>
+			<texPath>Apparel/OA_RK_New_Windbreaker_E</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<costList>
+			<Synthread>85</Synthread>
+			<Uranium>90</Uranium>
+			<ComponentIndustrial>8</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<techLevel>Spacer</techLevel>
+		<statBases>
+			<MaxHitPoints>440</MaxHitPoints>
+			<WorkToMake>52600</WorkToMake>
+			<Mass>5.2</Mass>
+			<ArmorRating_Sharp>0.975</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.57</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.18</ArmorRating_Heat>
+			<Insulation_Cold>26</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+			<EquipDelay>4.5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<Flammability>-0.80</Flammability>
+			<MoveSpeed>0.1</MoveSpeed>
+			<StaggerDurationFactor MayRequire="Ludeon.RimWorld.Biotech">-0.5</StaggerDurationFactor>
+		</equippedStatOffsets>
+		<comps>
+			<li Class="CompProperties_ApparelReloadable">
+				<maxCharges>2</maxCharges>
+				<ammoDef>OA_RK_TurretGun_Bullet</ammoDef>
+				<ammoCountPerCharge>1</ammoCountPerCharge>
+				<baseReloadTicks>90</baseReloadTicks>
+				<soundReload>Standard_Reload</soundReload>
+				<hotKey>Misc4</hotKey>
+				<chargeNoun>火箭榴弹</chargeNoun>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+		</comps>
+		<verbs>
+			<li>
+				<label>使用火箭榴弹发射器</label>
+				<verbClass>Verb_LaunchProjectileStatic</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<onlyManualCast>True</onlyManualCast>
+				<range>27.9</range>
+				<forcedMissRadius>1.4</forcedMissRadius>
+				<warmupTime>0.6</warmupTime>
+				<noiseRadius>4</noiseRadius>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				<soundCast>Shot_IncendiaryLauncher</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>14</muzzleFlashScale>
+				<drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<defaultProjectile>OA_RK_Turret_Bullet_A</defaultProjectile>
+				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+			</li>
+		</verbs>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<drawData>
+				<defaultData>
+					<layer>30</layer>
+				</defaultData>
+			</drawData>
+			<wornGraphicPath>Apparel/OA_RK_New_Windbreaker_E</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+		</apparel>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>15</Crafting>
+			</skillRequirements>
+			<useIngredientsForColor>false</useIngredientsForColor>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>OA_RK_Apparel_C</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+    <!-- 重装突袭作战护甲  -->
+	<ThingDef Class="NewRatkin.CustomThingDef" ParentName="OARatkin_ArmorMakeableBase">
+		<defName>OA_RK_New_Windbreaker_FangzhiBUGdehouzhui_ACC</defName>
+		<label>Heavy assault armor</label>
+		<description>After adopting advanced military concepts and power armor culture from the Milky Way, the Golden Iris Empire combined its own technology to develop cutting-edge individual armor. \nThe armor is designed with a complex sensing circuit inside, greatly reducing the wearable load, while the multi-layer impact reduction structure in the interlayer and the design of the dense armor attached have excellent firepower resistance. Even the bombardment of small caliber artillery may not cause serious damage to the wearer. In addition, the armor also incorporates the ultimate fabric produced by the cutting-edge textile technology of the Golden Iris Orchid, which further enhances its already excellent protection and gives it excellent toughness. \nHowever, the only drawback is that due to the complexity of the armor process and the fact that most of the required fabrics are cutting-edge products, as well as the immaturity of the corresponding production lines, even the Golden Iris Empire has not yet been able to carry out standardized assembly, and has only been allocated for raid teams in highly turbulent areas. \n\nThanks to the exquisite textile craftsmanship, uranium craftsmanship, and clothing design art of the Golden Iris Orchid, this armor has extremely superior protection and can evenly distribute the impact pressure, greatly reducing the impact force. When equipping, multiply the damage coefficient by 75%. \nThe cloak on the armor is woven from the ultimate fabric of the golden iris orchid, which can greatly weaken the shock wave generated by explosions in the microstructure and reduce the damage received by explosions by 25%. \nFinally, for groundbreaking considerations, the armor is also equipped with two disposable grenade launchers, making it particularly outstanding in small-scale high-intensity combat environments.</description>
+		<graphicData>
+			<texPath>Apparel/OA_RK_New_Windbreaker_F_A</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<costList>
+			<Synthread>120</Synthread>
+			<Uranium>220</Uranium>
+			<Hyperweave>60</Hyperweave>
+			<ComponentIndustrial>8</ComponentIndustrial>
+			<ComponentSpacer>14</ComponentSpacer>
+		</costList>
+		<techLevel>Spacer</techLevel>
+		<statBases>
+			<MaxHitPoints>725</MaxHitPoints>
+			<WorkToMake>140200</WorkToMake>
+			<Mass>11.75</Mass>
+			<ArmorRating_Sharp>1.225</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.88</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.40</ArmorRating_Heat>
+			<Insulation_Cold>70</Insulation_Cold>
+			<Insulation_Heat>46</Insulation_Heat>
+			<EquipDelay>7.0</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<Flammability>-1.50</Flammability>
+			<MoveSpeed>-0.45</MoveSpeed>
+			<MeleeDodgeChance>2.00</MeleeDodgeChance>
+			<CarryingCapacity>26</CarryingCapacity>
+			<StaggerDurationFactor MayRequire="Ludeon.RimWorld.Biotech">-0.9</StaggerDurationFactor>
+			<DecompressionResistance MayRequire="kentington.saveourship2">0.75</DecompressionResistance>
+			<VacuumSpeedMultiplier MayRequire="kentington.saveourship2">4</VacuumSpeedMultiplier>
+		</equippedStatOffsets>
+		<comps>
+			<!--li Class="OberoniaAurea.CompProperties_IgnoreDamage">
+				<damageDef>EMP</damageDef>
+			</li-->			<!--免疫EMP-->
+			<li Class="OberoniaAurea.CompProperties_ExtraAllDamageRelief">
+				<reliefFactor>0.25</reliefFactor>
+			</li>
+			<li Class="CompProperties_CauseHediff_Apparel">
+				<hediff>OA_RK_SandWichC</hediff>
+				<part>Body</part>
+			</li>
+			<li Class="CompProperties_ApparelReloadable">
+				<maxCharges>2</maxCharges>
+				<ammoDef>OA_RK_TurretGun_Bullet</ammoDef>
+				<ammoCountPerCharge>1</ammoCountPerCharge>
+				<baseReloadTicks>90</baseReloadTicks>
+				<soundReload>Standard_Reload</soundReload>
+				<hotKey>Misc4</hotKey>
+				<chargeNoun>火箭榴弹</chargeNoun>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+		</comps>
+		<verbs>
+			<li>
+				<label>使用火箭榴弹发射器</label>
+				<verbClass>Verb_LaunchProjectileStatic</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<onlyManualCast>True</onlyManualCast>
+				<range>27.9</range>
+				<forcedMissRadius>1.4</forcedMissRadius>
+				<warmupTime>0.6</warmupTime>
+				<noiseRadius>4</noiseRadius>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				<soundCast>Shot_IncendiaryLauncher</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>14</muzzleFlashScale>
+				<drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<defaultProjectile>OA_RK_Turret_Bullet_A</defaultProjectile>
+				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+			</li>
+		</verbs>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li>Hands</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<drawData>
+				<defaultData>
+					<layer>30</layer>
+				</defaultData>
+			</drawData>
+			<wornGraphicPath>Apparel/OA_RK_New_Windbreaker_F_A</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+		</apparel>
+		<recipeMaker>
+			<recipeUsers Inherit="false">
+				<li>FabricationBench</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>16</Crafting>
+			</skillRequirements>
+			<useIngredientsForColor>false</useIngredientsForColor>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>OA_RK_Apparel_F</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+    <!-- 重装突袭作战护甲（无披风）  -->
+	<ThingDef Class="NewRatkin.CustomThingDef" ParentName="OARatkin_ArmorMakeableBase">
+		<defName>OA_RK_New_Windbreaker_FangzhiBUGdehouzhui</defName>
+		<label>Heavy assault armor B</label>
+		<description>After adopting advanced military concepts and power armor culture, the Golden Iris Empire combined its own technology to develop cutting-edge individual armor. \nThe armor is designed with a complex sensing circuit inside, greatly reducing the wearable load, while the multi-layer impact reduction structure in the interlayer and the design of the dense armor attached have excellent firepower resistance. Even the bombardment of small caliber artillery may not cause serious damage to the wearer. In addition, the armor also incorporates the ultimate fabric produced by the cutting-edge textile technology of the Golden Iris Orchid, which further enhances its already excellent protection and gives it excellent toughness. \However, the only drawback is that due to the complexity of the armor process and the fact that most of the required fabrics are cutting-edge products, as well as the immaturity of the corresponding production lines, even the Golden Iris Empire has not yet been able to carry out standardized assembly, and has only been allocated for raid teams in highly turbulent areas. \nThe armor does not adopt an anti detection cloak design or some designs that require pointed fabric, which to some extent reduces the difficulty and cost of manufacturing, but also has a certain impact on the protection and durability of the armor. \n\nThanks to the exquisite textile craftsmanship, uranium craftsmanship, and clothing design art of the Golden Iris Orchid, this armor has extremely superior protection and can evenly distribute the impact pressure, greatly reducing the impact force. When equipping, multiply the damage coefficient by 75%. \nFor groundbreaking considerations, this armor is also equipped with two disposable grenade launchers, making it particularly outstanding in small-scale high-intensity combat environments.</description>
+		<graphicData>
+			<texPath>Apparel/OA_RK_New_Windbreaker_F_B</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<costList>
+			<Synthread>160</Synthread>
+			<Uranium>220</Uranium>
+			<Hyperweave>10</Hyperweave>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentSpacer>12</ComponentSpacer>
+		</costList>
+		<techLevel>Spacer</techLevel>
+		<statBases>
+			<MaxHitPoints>700</MaxHitPoints>
+			<WorkToMake>126000</WorkToMake>
+			<Mass>11.5</Mass>
+			<ArmorRating_Sharp>1.185</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.81</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.10</ArmorRating_Heat>
+			<Insulation_Cold>66</Insulation_Cold>
+			<Insulation_Heat>40</Insulation_Heat>
+			<EquipDelay>7.0</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<Flammability>-1.20</Flammability>
+			<MoveSpeed>-0.45</MoveSpeed>
+			<MeleeDodgeChance>2.00</MeleeDodgeChance>
+			<CarryingCapacity>26</CarryingCapacity>
+			<StaggerDurationFactor MayRequire="Ludeon.RimWorld.Biotech">-0.9</StaggerDurationFactor>
+			<DecompressionResistance MayRequire="kentington.saveourship2">0.75</DecompressionResistance>
+			<VacuumSpeedMultiplier MayRequire="kentington.saveourship2">4</VacuumSpeedMultiplier>
+		</equippedStatOffsets>
+		<comps>
+			<li Class="CompProperties_CauseHediff_Apparel">
+				<hediff>OA_RK_SandWichC</hediff>
+				<part>Body</part>
+			</li>
+			<li Class="CompProperties_ApparelReloadable">
+				<maxCharges>2</maxCharges>
+				<ammoDef>OA_RK_TurretGun_Bullet</ammoDef>
+				<ammoCountPerCharge>1</ammoCountPerCharge>
+				<baseReloadTicks>90</baseReloadTicks>
+				<soundReload>Standard_Reload</soundReload>
+				<hotKey>Misc4</hotKey>
+				<chargeNoun>火箭榴弹</chargeNoun>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+		</comps>
+		<verbs>
+			<li>
+				<label>使用火箭榴弹发射器</label>
+				<verbClass>Verb_LaunchProjectileStatic</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<onlyManualCast>True</onlyManualCast>
+				<range>27.9</range>
+				<forcedMissRadius>1.4</forcedMissRadius>
+				<warmupTime>0.6</warmupTime>
+				<noiseRadius>4</noiseRadius>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				<soundCast>Shot_IncendiaryLauncher</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>14</muzzleFlashScale>
+				<drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<defaultProjectile>OA_RK_Turret_Bullet_A</defaultProjectile>
+				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+			</li>
+		</verbs>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li>Hands</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<drawData>
+				<defaultData>
+					<layer>30</layer>
+				</defaultData>
+			</drawData>
+			<wornGraphicPath>Apparel/OA_RK_New_Windbreaker_F_B</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+		</apparel>
+		<recipeMaker>
+			<recipeUsers Inherit="false">
+				<li>FabricationBench</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>16</Crafting>
+			</skillRequirements>
+			<useIngredientsForColor>false</useIngredientsForColor>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>OA_RK_Apparel_F</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+    <!-- 全防护突袭装甲  -->
+	<ThingDef Class="NewRatkin.CustomThingDef" ParentName="OARatkin_ArmorMakeableBase">
+		<defName>OA_RK_New_Windbreaker_G</defName>
+		<label>Full protective assault armor</label>
+		<description>The Golden Iris Empire imitated and produced products after its first exposure to the power armor culture of the Milky Way. \nThe protection of this armor is almost unquestionable, but the cost is that its wearable load is almost unaffordable. Due to the overly one-sided emphasis on protection, the weight of this armor has reached an astonishing level, and the simple neural sensing network is completely unable to bear this weight, resulting in a significant decrease in mobility when worn. \nHowever, apart from the extremely poor wearing experience, this armor can almost be called an unstoppable tower on the battlefield. \n\nThanks to the thick armor plate and built-in impact reduction design, the wear resistance coefficient is reduced to 70%. \nThanks to the thick armor plate, there will be a small amount of emotional punishment when wearing it.</description>
+		<graphicData>
+			<texPath>Apparel/OA_RK_New_Windbreaker_G</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<costList>
+			<Synthread>60</Synthread>
+			<Uranium>275</Uranium>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentSpacer>6</ComponentSpacer>
+		</costList>
+		<techLevel>Spacer</techLevel>
+		<statBases>
+			<MaxHitPoints>650</MaxHitPoints>
+			<WorkToMake>131000</WorkToMake>
+			<Mass>20.0</Mass>
+			<ArmorRating_Sharp>1.31</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.89</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.8</ArmorRating_Heat>
+			<Insulation_Cold>42</Insulation_Cold>
+			<Insulation_Heat>70</Insulation_Heat>
+			<EquipDelay>12.0</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<Flammability>-0.96</Flammability>
+			<MoveSpeed>-1.55</MoveSpeed>
+			<MeleeDodgeChance>-5.00</MeleeDodgeChance>
+			<StaggerDurationFactor MayRequire="Ludeon.RimWorld.Biotech">-1.0</StaggerDurationFactor>
+			<DecompressionResistance MayRequire="kentington.saveourship2">0.75</DecompressionResistance>
+			<VacuumSpeedMultiplier MayRequire="kentington.saveourship2">4</VacuumSpeedMultiplier>
+		</equippedStatOffsets>
+		<comps>
+			<li Class="CompProperties_CauseHediff_Apparel">
+				<hediff>OA_RK_SandWichD</hediff>
+				<part>Body</part>
+			</li>
+		</comps>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li>Hands</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<drawData>
+				<defaultData>
+					<layer>30</layer>
+				</defaultData>
+			</drawData>
+			<wornGraphicPath>Apparel/OA_RK_New_Windbreaker_G</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+		</apparel>
+		<recipeMaker>
+			<recipeUsers Inherit="false">
+				<li>FabricationBench</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>16</Crafting>
+			</skillRequirements>
+			<useIngredientsForColor>false</useIngredientsForColor>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>OA_RK_Apparel_G</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+</Defs>

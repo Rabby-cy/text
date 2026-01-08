@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <IncidentDef>
+        <defName>OARK_UnlockedFile</defName>
+        <label>未上锁的文件</label>
+        <workerClass>OberoniaAurea.IncidentWorker_UnlockedFile</workerClass>
+        <category>Misc</category>
+        <targetTags>
+            <li>Map_PlayerHome</li>
+        </targetTags>
+        <baseChance>0</baseChance>
+    </IncidentDef>
+
+    <IncidentDef>
+        <defName>OARK_CrashedGravship_FollowUp</defName>
+        <label>坠毁的飞船</label>
+        <workerClass>OberoniaAurea.IncidentWorker_CrashedGravship_FollowUp</workerClass>
+        <category>Misc</category>
+        <targetTags>
+            <li>World</li>
+        </targetTags>
+        <baseChance>0</baseChance>
+    </IncidentDef>
+
+    <IncidentDef>
+        <defName>OARK_ScienceDepartmentFriendly</defName>
+        <label>科研部友好事件</label>
+        <workerClass>OberoniaAurea.IncidentWorker_ScienceDepartmentFriendly</workerClass>
+        <category>Misc</category>
+        <targetTags>
+            <li>World</li>
+        </targetTags>
+        <baseChance>0</baseChance>
+    </IncidentDef>
+
+    <IncidentDef>
+        <defName>OARK_ScienceShipCrashDown</defName>
+        <label>坠毁科研舱</label>
+        <workerClass>OberoniaAurea.IncidentWroker_ScienceShipCrashDown</workerClass>
+        <category>Misc</category>
+        <hidden>true</hidden>
+        <targetTags>
+            <li>Map_Misc</li>
+            <li>Map_PlayerHome</li>
+            <li>Map_TempIncident</li>
+        </targetTags>
+        <baseChance>0</baseChance>
+    </IncidentDef>
+
+    <IncidentDef>
+        <defName>OARK_ScienceShip_OASupport</defName>
+        <label>金鸢尾兰的支援</label>
+        <workerClass>OberoniaAurea.IncidentWorker_ScienceShip_OASupport</workerClass>
+        <category>Misc</category>
+        <hidden>true</hidden>
+        <targetTags>
+            <li>Map_Misc</li>
+            <li>Map_PlayerHome</li>
+            <li>Map_TempIncident</li>
+        </targetTags>
+        <baseChance>0</baseChance>
+    </IncidentDef>
+
+    <IncidentDef>
+        <defName>OARK_ScienceShip_TravelRKReward</defName>
+        <label>旅鼠联邦的谢礼</label>
+        <workerClass>OberoniaAurea.IncidentWorker_ScienceShip_TravelRKReward</workerClass>
+        <category>Misc</category>
+        <targetTags>
+            <li>World</li>
+        </targetTags>
+        <baseChance>0</baseChance>
+    </IncidentDef>
+
+    <IncidentDef>
+        <defName>OARK_EconomyMinistryReview_Outcome</defName>
+        <label>统筹部审查</label>
+        <workerClass>OberoniaAurea.IncidentWorker_EconomyMinistryReview_Outcome</workerClass>
+        <category>Misc</category>
+        <targetTags>
+            <li>World</li>
+        </targetTags>
+        <baseChance>0</baseChance>
+    </IncidentDef>
+
+</Defs>

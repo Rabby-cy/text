@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- 托孤的母亲 -->
+  <PawnKindDef ParentName="Kiiro_PawnBase">
+    <defName>Kiiro_Refuge_Mom</defName>
+    <label>kiiro refugee</label>
+    <combatPower>20</combatPower>
+    <itemQuality>Poor</itemQuality>
+    <isFighter>false</isFighter>
+    <factionLeader>false</factionLeader>
+    <apparelMoney>500~1000</apparelMoney>
+    <invNutrition>0</invNutrition>
+    <maxGenerationAge>35</maxGenerationAge>
+	  <minGenerationAge>25</minGenerationAge>
+    <apparelTags>
+      <li>Kiiro_Simplewear</li>
+    </apparelTags>
+    <apparelRequired>
+      <li>Kiiro_SimpleUnderwear</li>
+    </apparelRequired>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+    <weaponTags>
+    </weaponTags>
+    <backstoryFiltersOverride>
+      <li>
+        <categoriesChildhood>
+          <li>Kiiro_General</li>
+        </categoriesChildhood>
+        <categoriesAdulthood>
+          <li>Kiiro_Refugee</li>
+        </categoriesAdulthood>
+      </li>
+    </backstoryFiltersOverride>
+    <inventoryOptions>
+      <skipChance>0.25</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Kiiro_BabyCatTreat</thingDef>
+          <countRange>
+            <min>3</min>
+            <max>20</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+</Defs>

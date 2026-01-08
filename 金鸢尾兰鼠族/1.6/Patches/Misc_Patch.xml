@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="RawBerries"]/statBases</xpath>
+		<value>
+			<RoyalFavorValue>0.002</RoyalFavorValue>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Synthread"]/statBases</xpath>
+		<value>
+			<RoyalFavorValue>0.0045</RoyalFavorValue>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="RK_ApparelMakeableBase"]/recipeMaker/recipeUsers</xpath>
+		<value>
+			<li>OA_RK_Tailor</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/JoyGiverDef[defName="UseTelescope"]/thingDefs</xpath>
+		<value>
+			<li>OA_RK_Telescope</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/WorkGiverDef[defName="DoBillsMakeApparel"]/fixedBillGiverDefs</xpath>
+		<value>
+			<li>OA_RK_Tailor</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/WorkGiverDef[defName="DoBillsCook"]/fixedBillGiverDefs</xpath>
+		<value>
+			<li>OA_OberoniaCakeProducter</li>
+		</value>
+	</Operation>
+
+	<Operation Class="OberoniaAurea_Frame.PatchOperationCheckDLC">
+		<Anomaly>true</Anomaly>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/AbilityDef[defName = "PsychicSlaughter"]/comps/li[@Class="CompProperties_PsychicSlaughter"]</xpath>
+			<value>
+				<compClass>OberoniaAurea.CompAbilityEffect_PsychicSlaughter</compClass>
+			</value>
+		</match>
+	</Operation>
+
+</Patch>

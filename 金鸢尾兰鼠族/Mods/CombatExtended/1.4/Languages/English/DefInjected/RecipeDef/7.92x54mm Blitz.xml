@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_792x54DU.label>make 7.92x54mm depleted uranium cartridge x500</MakeAmmo_792x54DU.label>
+  <MakeAmmo_792x54DU.description>Craft 500 7.92x54mm depleted uranium cartridges.</MakeAmmo_792x54DU.description>
+  <MakeAmmo_792x54DU.jobString>Making 7.92x54mm depleted uranium cartridges.</MakeAmmo_792x54DU.jobString>
+
+
+</LanguageData>

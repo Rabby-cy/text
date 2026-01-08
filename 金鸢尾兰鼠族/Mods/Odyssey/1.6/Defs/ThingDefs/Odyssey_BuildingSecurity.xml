@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- 金鸢尾兰引力陷阱 -->
+    <ThingDef ParentName="TrapIEDBase">
+        <defName>OARK_TrapIED_Gravity</defName>
+        <label>Oberonia Aurea Gravity Trap</label>
+        <description>A disposable device system that can temporarily form a strong gravitational field. When activated, it will forcibly pull all units within a certain range towards it.\n\nNote: A unit will develop resistance if pulled by a strong gravitational field multiple times in a short period.\nRequires manual activation.</description>
+        <graphicData>
+			<drawSize>(1.25,1.25)</drawSize>
+            <texPath>Building/OARK_TrapIED_Gravity</texPath>
+        </graphicData>
+		<statBases>
+            <Mass>2</Mass>
+			<WorkToBuild>10200</WorkToBuild>
+        </statBases>
+		<costList>
+			<Uranium>60</Uranium>
+			<GravlitePanel>40</GravlitePanel>
+			<ComponentIndustrial>4</ComponentIndustrial>
+        </costList>
+        <researchPrerequisites>
+            <li>OARK_Odyssey_GravTrap</li>
+        </researchPrerequisites>
+        <comps>
+            <li Class="OberoniaAurea.CompProperties_GravityTrapIED">
+                <explosiveRadius>8.9</explosiveRadius>
+                <startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+                <wickTicks>60</wickTicks>
+                <startWickOnDamageTaken>
+                    <li>Bullet</li>
+                    <li>Arrow</li>
+                    <li>ArrowHighVelocity</li>
+                </startWickOnDamageTaken>
+
+                <giveHediff>OARK_Hediff_GravityTrapIEDShock</giveHediff>
+                <immuneHediff>OARK_Hediff_GravityTrapIEDShockImmu</immuneHediff>
+            </li>
+        </comps>
+        <modExtensions>
+            <li Class="OberoniaAurea.DisplacementExplosionExtension">
+                <isRepel>false</isRepel>
+                <displacementRadius>8.9</displacementRadius>
+                <defaultDisplacement>8.0</defaultDisplacement>
+                <affectedByDistance>true</affectedByDistance>
+                <displacementCurveFromDistance>
+                    <points>
+                        <li>(0,0)</li>
+                        <li>(1,0.1)</li>
+                        <li>(9,1)</li>
+                    </points>
+                </displacementCurveFromDistance>
+                <affectedByMass>false</affectedByMass>
+                <doExplosion>false</doExplosion>
+
+                <effecter>OARK_Effect_GravTrapIED</effecter>
+            </li>
+        </modExtensions>
+        <specialDisplayRadius>8.9</specialDisplayRadius>
+    </ThingDef>
+
+</Defs>

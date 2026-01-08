@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OA_UrbanConstruction.questNameRules.rulesStrings>
+        <li>questName->金鸢尾兰建设支援</li>
+        <li>questName->[settlement_label]的建设难题</li>
+        <li>questName->金鸢尾兰城镇建设</li>
+        <li>questName->[special][construction]</li>
+        <li>special->[settlement_label]的</li>
+        <li>special->特殊的</li>
+        <li>special->紧急的</li>
+        <li>construction->石砖采购</li>
+        <li>construction->物料订单</li>
+    </OA_UrbanConstruction.questNameRules.rulesStrings>
+
+    <OA_UrbanConstruction.questDescriptionRules.rulesStrings>
+        <li>questDescription->位于我们殖民地附近的鼠族定居点[settlement_label]，向我们发送了一条特殊的采购订单。\n[Reasonfortask]，她们在近期准备开启一系列新的建筑项目。然而由于对应的建筑材料供应不足，因此她们想要从我们这里采购以下物资：\n\n 任意[requestedCategory_label] x [requestedThingCount]（总价值：[requestedThingMarketValue_money]）\n\n如果我们接受这份交易订单，则需要派出一支携带相应物资的远行队前往目标地点。\n旅途预估时间：[estimatedTravelTime_duration]。\n\n若我们完成该订单，金鸢尾兰帝国为我们提供援助的意愿将会增加。\n\n注：石砖允许分批交付。</li>
+        <li>Reasonfortask->出于扩张金鸢尾兰帝国势力范围的考虑</li>
+        <li>Reasonfortask->为了促进经济交流与商业往来</li>
+        <li>Reasonfortask->为了建造新的外城居住区</li>
+        <li>Reasonfortask->为了建设新的难民营以维持地区稳定</li>
+        <li>Reasonfortask->为了扩张居住区以容纳更多居民</li>
+        <li>Reasonfortask->为了建设新的工业区域，以促进殖民地发展速度</li>
+        <li>Reasonfortask->为了制作一个冲突缓冲地带</li>
+        <li>Reasonfortask->为了建造新的文化馆与天文馆</li>
+        <li>Reasonfortask->出于救助更多难民的考虑以践行人道主义的考虑</li>
+    </OA_UrbanConstruction.questDescriptionRules.rulesStrings>
+
+</LanguageData>

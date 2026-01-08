@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<LetterDef ParentName="CustomChoiceLetterBase">
+		<defName>OA_RK_OptionalQuest</defName>
+		<letterClass>OberoniaAurea.ChoiceLetter_OptionalQuest</letterClass>
+	</LetterDef>
+
+    <LetterDef ParentName="CustomChoiceLetterBase">
+		<defName>OA_RK_AcceptJoinerViewInfo</defName>
+		<letterClass>OberoniaAurea.ChoiceLetter_AcceptJoinerViewInfo</letterClass>
+	</LetterDef>
+
+</Defs>

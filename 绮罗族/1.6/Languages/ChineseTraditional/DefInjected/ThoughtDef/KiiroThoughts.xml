@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kiiro_CatmintStimulate.stages.0.label>貓薄荷清香</Kiiro_CatmintStimulate.stages.0.label>
+  <Kiiro_CatmintStimulate.stages.0.description>我能聞到空氣中瀰漫的貓薄荷香氣！</Kiiro_CatmintStimulate.stages.0.description>
+
+  <Kiiro_CatmintFragrance.stages.0.label>草葉清香</Kiiro_CatmintFragrance.stages.0.label>
+  <Kiiro_CatmintFragrance.stages.0.description>空氣里瀰漫著一股若有若無的草葉清香……好吧，還不賴。</Kiiro_CatmintFragrance.stages.0.description>
+
+  <Kiiro_AteCatmintMeal.stages.0.label>吃了貓薄荷食物</Kiiro_AteCatmintMeal.stages.0.label>
+  <Kiiro_AteCatmintMeal.stages.0.description>食物里摻了貓薄荷欸~</Kiiro_AteCatmintMeal.stages.0.description>
+
+  <Kiiro_AteCatmintPill.stages.0.label>貓薄荷藥片</Kiiro_AteCatmintPill.stages.0.label>
+  <Kiiro_AteCatmintPill.stages.0.description>吃下了能讓我更加健康的藥片……還是貓薄荷味的！</Kiiro_AteCatmintPill.stages.0.description>
+
+  <Kiiro_AteBabyFood.stages.0.label>食用嬰兒貓條</Kiiro_AteBabyFood.stages.0.label>
+  <Kiiro_AteBabyFood.stages.0.description>我已經不是小寶寶啦……</Kiiro_AteBabyFood.stages.0.description>
+
+
+</LanguageData>

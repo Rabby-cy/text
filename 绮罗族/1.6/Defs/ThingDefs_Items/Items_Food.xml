@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--<ThingDef ParentName="MealCooked">
+    <defName>Kiiro_SimpleFood</defName>
+    <label>简单猫饭</label>
+    <description>A simple meal quickly cooked from one main ingredient.</description>
+    <graphicData>
+      <texPath>Kiiro/Meal/SimpleKiiroFood</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.75</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>15</MarketValue>
+      <WorkToMake>300</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+	  <tasteThought>Kiiro_AteCatmintMeal</tasteThought>
+	  <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>Kiiro_AteCatmint</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef>-->
+
+  <ThingDef ParentName="MealBase">
+    <defName>Kiiro_CannedCatFood</defName>
+    <label>kiiro canned cat food</label>
+    <description>A small jar of nutritionally balanced food that is portable and non-perishable, perfect for storage and travel. For kiiro only.</description>
+    <graphicData>
+      <texPath>Kiiro/Meal/CannedCatFood</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>0.25</DeteriorationRate>
+      <MarketValue>15</MarketValue>
+      <Mass>0.2</Mass>
+      <WorkToMake>480</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <optimalityOffsetHumanlikes>-5</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-10</optimalityOffsetFeedingAnimals>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+    <allowedArchonexusCount>40</allowedArchonexusCount>
+  </ThingDef>
+
+  <ThingDef ParentName="MealBase">
+    <defName>Kiiro_CannedMintedCatFood</defName>
+    <label>kiiro catmint canned cat food</label>
+    <description>A small jar of nutritionally balanced food with the addition of catnip that kiiro's love, easy to carry and non-perishable, perfect for storage and travel. For kiiro only.</description>
+    <graphicData>
+      <texPath>Kiiro/Meal/CannedMintedCatFood</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>0.25</DeteriorationRate>
+      <MarketValue>15</MarketValue>
+      <Mass>0.2</Mass>
+      <WorkToMake>540</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <joyKind>Chemical</joyKind>
+      <joy>0.15</joy>
+      <optimalityOffsetHumanlikes>-4</optimalityOffsetHumanlikes>
+      <optimalityOffsetFeedingAnimals>-12</optimalityOffsetFeedingAnimals>
+      <tasteThought>Kiiro_AteCatmintMeal</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>Kiiro_AteCatmint</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <allowedArchonexusCount>40</allowedArchonexusCount>
+  </ThingDef>
+
+</Defs>

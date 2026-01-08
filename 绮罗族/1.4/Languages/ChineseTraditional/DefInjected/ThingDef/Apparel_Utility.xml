@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kiiro_Apparel_ThrowingKnives.label>綺羅暗器飛刀</Kiiro_Apparel_ThrowingKnives.label>
+  <Kiiro_Apparel_ThrowingKnives.description>藏在腰間的柳葉飛刀。</Kiiro_Apparel_ThrowingKnives.description>
+  <Kiiro_Apparel_ThrowingKnives.comps.CompReloadable.chargeNoun>飛刀</Kiiro_Apparel_ThrowingKnives.comps.CompReloadable.chargeNoun>
+  <Kiiro_Apparel_ThrowingKnives.verbs.0.label>扔飛刀</Kiiro_Apparel_ThrowingKnives.verbs.0.label>
+
+  <Kiiro_Apparel_ThrowingCrossKnives.label>綺羅暗器飛鏢</Kiiro_Apparel_ThrowingCrossKnives.label>
+  <Kiiro_Apparel_ThrowingCrossKnives.description>藏在腰間的小型飛鏢。</Kiiro_Apparel_ThrowingCrossKnives.description>
+  <Kiiro_Apparel_ThrowingCrossKnives.comps.CompReloadable.chargeNoun>飛鏢</Kiiro_Apparel_ThrowingCrossKnives.comps.CompReloadable.chargeNoun>
+  <Kiiro_Apparel_ThrowingCrossKnives.verbs.0.label>扔飛鏢</Kiiro_Apparel_ThrowingCrossKnives.verbs.0.label>
+
+  <Kiiro_Apparel_DorsalCrossbow.label>綺羅背弩</Kiiro_Apparel_DorsalCrossbow.label>
+  <Kiiro_Apparel_DorsalCrossbow.description>附在後背的弓弩，能夠趁敵人不備之際發動致命的攻擊。</Kiiro_Apparel_DorsalCrossbow.description>
+  <Kiiro_Apparel_DorsalCrossbow.comps.CompReloadable.chargeNoun>弩箭</Kiiro_Apparel_DorsalCrossbow.comps.CompReloadable.chargeNoun>
+  <Kiiro_Apparel_DorsalCrossbow.verbs.0.label>發射弩箭</Kiiro_Apparel_DorsalCrossbow.verbs.0.label>
+
+  <KiiroArrow_DorsalCrossbow.label>綺羅背弩箭矢</KiiroArrow_DorsalCrossbow.label>
+
+  <Kiiro_Apparel_ChainAttacker.label>綺羅袖箭</Kiiro_Apparel_ChainAttacker.label>
+  <Kiiro_Apparel_ChainAttacker.description>藏在袖子里的特製彈射裝置，可以發射小型箭矢。</Kiiro_Apparel_ChainAttacker.description>
+  <Kiiro_Apparel_ChainAttacker.comps.CompReloadable.chargeNoun>袖箭</Kiiro_Apparel_ChainAttacker.comps.CompReloadable.chargeNoun>
+  <Kiiro_Apparel_ChainAttacker.verbs.0.label>發射袖箭</Kiiro_Apparel_ChainAttacker.verbs.0.label>
+
+  <KiiroArrow_ChainAttacker.label>綺羅袖箭箭矢</KiiroArrow_ChainAttacker.label>
+
+
+  <!-- 毒藥瓶 -->
+
+  <Kiiro_Apparel_PoisonBottleDeadly.label>綺羅致命毒瓶</Kiiro_Apparel_PoisonBottleDeadly.label>
+  <Kiiro_Apparel_PoisonBottleDeadly.description>一枚盛裝了致命毒藥的瓶子，可以用於箭矢的浸毒。</Kiiro_Apparel_PoisonBottleDeadly.description>
+
+  <Kiiro_Apparel_PoisonBottleParalytic.label>綺羅麻痹毒瓶</Kiiro_Apparel_PoisonBottleParalytic.label>
+  <Kiiro_Apparel_PoisonBottleParalytic.description>一枚盛裝了麻痹毒藥的瓶子，可以用於箭矢的浸毒。</Kiiro_Apparel_PoisonBottleParalytic.description>
+
+
+  <!-- 手榴彈腰帶 -->
+
+  <Kiiro_Apparel_GrenadeFrag.label>綺羅木柄手榴彈腰帶</Kiiro_Apparel_GrenadeFrag.label>
+  <Kiiro_Apparel_GrenadeFrag.description>一串掛在腰間的木柄手榴彈。</Kiiro_Apparel_GrenadeFrag.description>
+  <Kiiro_Apparel_GrenadeFrag.comps.CompReloadable.chargeNoun>木柄手榴彈</Kiiro_Apparel_GrenadeFrag.comps.CompReloadable.chargeNoun>
+  <Kiiro_Apparel_GrenadeFrag.verbs.0.label>投擲木柄手榴彈</Kiiro_Apparel_GrenadeFrag.verbs.0.label>
+
+  <Kiiro_Apparel_GrenadeSmoke.label>綺羅煙霧手榴彈腰帶</Kiiro_Apparel_GrenadeSmoke.label>
+  <Kiiro_Apparel_GrenadeSmoke.description>一串掛在腰間的煙霧手榴彈。</Kiiro_Apparel_GrenadeSmoke.description>
+  <Kiiro_Apparel_GrenadeSmoke.comps.CompReloadable.chargeNoun>煙霧手榴彈</Kiiro_Apparel_GrenadeSmoke.comps.CompReloadable.chargeNoun>
+  <Kiiro_Apparel_GrenadeSmoke.verbs.0.label>投擲煙霧手榴彈</Kiiro_Apparel_GrenadeSmoke.verbs.0.label>
+  
+  <Kiiro_Apparel_GrenadeFlash.label>綺羅閃光手榴彈腰帶</Kiiro_Apparel_GrenadeFlash.label>
+  <Kiiro_Apparel_GrenadeFlash.description>一串掛在腰間的閃光手榴彈。</Kiiro_Apparel_GrenadeFlash.description>
+  <Kiiro_Apparel_GrenadeFlash.comps.CompReloadable.chargeNoun>閃光手榴彈</Kiiro_Apparel_GrenadeFlash.comps.CompReloadable.chargeNoun>
+  <Kiiro_Apparel_GrenadeFlash.verbs.0.label>投擲閃光手榴彈</Kiiro_Apparel_GrenadeFlash.verbs.0.label>
+
+
+  <!-- 原型單兵火箭筒 -->
+
+  <Kiiro_Apparel_PT_RPG.label>綺羅原型單兵火箭筒</Kiiro_Apparel_PT_RPG.label>
+  <Kiiro_Apparel_PT_RPG.description>由綺羅族最頂尖的技術員研發的便於攜帶的單人用火箭筒，裝填一發。雖然理論上是一次性使用，但考慮到成本和生產問題設計成了可再裝填。</Kiiro_Apparel_PT_RPG.description>
+  <Kiiro_Apparel_PT_RPG.comps.CompReloadable.chargeNoun>火箭彈</Kiiro_Apparel_PT_RPG.comps.CompReloadable.chargeNoun>
+  <Kiiro_Apparel_PT_RPG.verbs.0.label>發射火箭彈</Kiiro_Apparel_PT_RPG.verbs.0.label>
+
+  <KiiroProjectile_PT_RPG.label>綺羅原型單兵火箭</KiiroProjectile_PT_RPG.label>
+
+
+  <!-- 機巧弩揹包 -->
+
+  <Kiiro_AutoCrossBowPack.label>綺羅穿云弩揹包</Kiiro_AutoCrossBowPack.label>
+  <Kiiro_AutoCrossBowPack.description>裝有一具弩機的揹包，使用時在身邊展開由機簧和彈片驅動的機巧穿云弩，一經部署無法回收；機關儲存的彈性勢能將維持弩機運作60秒。</Kiiro_AutoCrossBowPack.description>
+  <Kiiro_AutoCrossBowPack.comps.CompReloadable.chargeNoun>弩機</Kiiro_AutoCrossBowPack.comps.CompReloadable.chargeNoun>
+  <Kiiro_AutoCrossBowPack.verbs.0.label>部署穿云弩</Kiiro_AutoCrossBowPack.verbs.0.label>
+
+  <Kiiro_AutoCrossBowIIPack.label>綺羅飛星弩揹包</Kiiro_AutoCrossBowIIPack.label>
+  <Kiiro_AutoCrossBowIIPack.description>裝有一具弩機的揹包，使用時在身邊展開由機簧和彈片驅動的機巧飛星弩，一經部署無法回收；機關儲存的彈性勢能將維持弩機運作60秒。</Kiiro_AutoCrossBowIIPack.description>
+  <Kiiro_AutoCrossBowIIPack.comps.CompReloadable.chargeNoun>弩機</Kiiro_AutoCrossBowIIPack.comps.CompReloadable.chargeNoun>
+  <Kiiro_AutoCrossBowIIPack.verbs.0.label>部署飛星弩</Kiiro_AutoCrossBowIIPack.verbs.0.label>
+
+  <Kiiro_AutoEMPLauncherPack.label>綺羅便攜自動EMP榴彈發射器</Kiiro_AutoEMPLauncherPack.label>
+  <Kiiro_AutoEMPLauncherPack.description>一種輕巧的發射器揹包，能夠隨身攜帶。使用時在身邊部署一臺維持執行90秒的帶有自動瞄準擊發裝置的EMP發射器。</Kiiro_AutoEMPLauncherPack.description>
+  <Kiiro_AutoEMPLauncherPack.comps.CompReloadable.chargeNoun>投射器</Kiiro_AutoEMPLauncherPack.comps.CompReloadable.chargeNoun>
+  <Kiiro_AutoEMPLauncherPack.verbs.0.label>部署自動EMP榴彈發射器</Kiiro_AutoEMPLauncherPack.verbs.0.label>
+
+  <Kiiro_AutoHE_FRAGLauncherPack.label>綺羅便攜自動破片榴彈發射器</Kiiro_AutoHE_FRAGLauncherPack.label>
+  <Kiiro_AutoHE_FRAGLauncherPack.description>一種輕巧的發射器揹包，能夠隨身攜帶。使用時在身邊部署一臺維持執行90秒的帶有自動瞄準擊發裝置的破片榴彈發射器，發射器共有10發彈容量，失效之前可以再裝填，但失效時不返還裝填消耗。</Kiiro_AutoHE_FRAGLauncherPack.description>
+  <Kiiro_AutoHE_FRAGLauncherPack.comps.CompReloadable.chargeNoun>投射器</Kiiro_AutoHE_FRAGLauncherPack.comps.CompReloadable.chargeNoun>
+  <Kiiro_AutoHE_FRAGLauncherPack.verbs.0.label>部署自動破片榴彈發射器</Kiiro_AutoHE_FRAGLauncherPack.verbs.0.label>
+
+  <Kiiro_AutoSmokeLauncherPack.label>綺羅便攜自動煙霧彈發射器</Kiiro_AutoSmokeLauncherPack.label>
+  <Kiiro_AutoSmokeLauncherPack.description>一種輕巧的發射器揹包，能夠隨身攜帶。使用時在身邊部署一臺維持執行90秒的帶有自動瞄準擊發裝置的煙霧彈發射器。</Kiiro_AutoSmokeLauncherPack.description>
+  <Kiiro_AutoSmokeLauncherPack.comps.CompReloadable.chargeNoun>投射器</Kiiro_AutoSmokeLauncherPack.comps.CompReloadable.chargeNoun>
+  <Kiiro_AutoSmokeLauncherPack.verbs.0.label>部署自動煙霧彈發射器</Kiiro_AutoSmokeLauncherPack.verbs.0.label>
+
+
+</LanguageData>

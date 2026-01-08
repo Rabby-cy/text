@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <OA_RK_ProtocolRifle.label>金鸢尾兰古典步枪</OA_RK_ProtocolRifle.label>
+  <OA_RK_ProtocolRifle.description>金鸢尾兰帝国在接触银河系之前所采用的制式步枪，先进的制造工艺无法掩盖落后的军事理念带来的缺点，因此如今它更多被作为礼仪用枪使用。\n\n但即便如此，采用了铀弹的它依然有着不俗的杀伤能力。</OA_RK_ProtocolRifle.description>
+
+  <OA_RK_PrototypeBlitzRifle.label>原型突袭武器</OA_RK_PrototypeBlitzRifle.label>
+  <OA_RK_PrototypeBlitzRifle.description>金鸢尾兰帝国在初次接触银河系后，紧急进行军备更迭时所产生的产物。相比起常规的突击步枪，它更重视杀伤性与破坏力，然而精度方面依然存在着或多或少的问题。</OA_RK_PrototypeBlitzRifle.description>
+
+  <OA_RK_BlitzRifle.label>突袭作战步枪</OA_RK_BlitzRifle.label>
+  <OA_RK_BlitzRifle.description>金鸢尾兰帝国的现役制式步枪，在全距离都有着稳定的杀伤能力，并且铀弹的设计可以有效的对重甲敌人造成伤害。</OA_RK_BlitzRifle.description>
+
+  <OA_RK_BlitzSMG.label>突袭作战冲锋枪</OA_RK_BlitzSMG.label>
+  <OA_RK_BlitzSMG.description>金鸢尾兰帝国的现役制式冲锋枪，相比起突袭作战步枪更重视近距离的杀伤能力，弹鼓的大弹容可以有效的达成近距离火力压制的目的。</OA_RK_BlitzSMG.description>
+
+  <OA_RK_BlitzSSR.label>突袭作战支援步枪</OA_RK_BlitzSSR.label>
+  <OA_RK_BlitzSSR.description>金鸢尾兰帝国的现役制式支援步枪，在全距离都有着稳定的杀伤能力，中距离的精度足以与狙击枪媲美。</OA_RK_BlitzSSR.description>
+
+  <OA_RK_BlitzLMG.label>突袭作战支援机枪</OA_RK_BlitzLMG.label>
+  <OA_RK_BlitzLMG.description>金鸢尾兰帝国的现役制式机枪，在尽量保障精度与射击稳定的同时，还拥有着杰出的轻单位杀伤能力，在提供火力压制时表现尤为出色。</OA_RK_BlitzLMG.description>
+
+  <OA_RK_BlitzAMR.label>突袭反重甲步枪</OA_RK_BlitzAMR.label>
+  <OA_RK_BlitzAMR.description>金鸢尾兰帝国的反机械体特化武器之一，枪膛加压器与特化铀弹的设计令其穿甲效能与杀伤能力都达到了一个惊人的水平。没有生物会想要被它锁定。</OA_RK_BlitzAMR.description>
+
+  <OA_RK_BlitzAMR_B.label>原型反重甲武器</OA_RK_BlitzAMR_B.label>
+  <OA_RK_BlitzAMR_B.description>金鸢尾兰帝国在初次接触银河系后，紧急进行军备更迭时所产生的产物，在牺牲射速，少量精度以及便携性的情况下将火力提升到了极致的地步。\n\n“我不管这把枪多么难用，但起码我们必须要有一个能击穿机械体的东西。”</OA_RK_BlitzAMR_B.description>
+
+  <OA_RK_BlitzAMLMG.label>突袭反重甲机枪</OA_RK_BlitzAMLMG.label>
+  <OA_RK_BlitzAMLMG.description>金鸢尾兰帝国的反机械体特化武器之一，枪膛加压器与特化铀弹的设计令其穿甲效能与杀伤能力都达到了一个惊人的水平。即便是在中远距离上，也可以提供较为稳定的反甲火力支援。</OA_RK_BlitzAMLMG.description>
+
+  <OA_RK_AdvancedBlitzRifle.label>改型突袭作战步枪</OA_RK_AdvancedBlitzRifle.label>
+  <OA_RK_AdvancedBlitzRifle.description>为了远距离交火而特化改装的突袭作战步枪，在枪体进行了一系列的改装。与原版相比，精度有很大幅度的提升。</OA_RK_AdvancedBlitzRifle.description>
+
+  <OA_RK_AdvancedBlitzSMG.label>改型突袭作战冲锋枪</OA_RK_AdvancedBlitzSMG.label>
+  <OA_RK_AdvancedBlitzSMG.description>为了远距离交火而特化改装的突袭作战冲锋枪。在枪体进行了一系列的改装。与原版相比，精度有很大幅度的提升。</OA_RK_AdvancedBlitzSMG.description>
+
+  <OA_RK_ChargeSSR.label>不稳定电荷支援步枪</OA_RK_ChargeSSR.label>
+  <OA_RK_ChargeSSR.description>金鸢尾兰帝国在接触初次银河系后，紧急进行军备更迭时所产生的产物。虽然是应急产物，但不知为何却相当成功。不稳定电荷傲人的杀伤性能足以弥补精度的缺憾。\n\n因为电荷能的不稳定，该武器的实际伤害将会在40%~120%之间浮动。\n\n“相比起那两个重得要死的东西，我宁愿用这把武器，起码它不会让队友感到害怕。”某位突袭队的成员这样评价道。</OA_RK_ChargeSSR.description>
+
+  <OA_RK_UnstableChargeDriver.label>不稳定电荷团直射器</OA_RK_UnstableChargeDriver.label>
+  <OA_RK_UnstableChargeDriver.description>金鸢尾兰帝国在接触初次银河系后，紧急进行军备更迭时所产生的产物。虽然是应急产物，但不知为何却相当成功。在牺牲了精度与便携性后，不稳定电荷团直射器的杀伤能力已经达到了登峰造极的地步。\n\n因为电荷能的不稳定，该武器的实际伤害将会在40%~120%之间浮动。\n\n“大就是美。”另一位金鸢尾兰科研人员附和道。</OA_RK_UnstableChargeDriver.description>
+
+  <OA_RK_UnstableChargeThrower.label>不稳定电荷团速射器</OA_RK_UnstableChargeThrower.label>
+  <OA_RK_UnstableChargeThrower.description>金鸢尾兰帝国在接触初次银河系后，紧急进行军备更迭时所产生的产物。虽然是应急产物，但不知为何却相当成功。通过覆盖式的饱和打击，该武器可以有效的摧毁敌人的防御阵地。\n\n因为电荷能的不稳定，该武器的实际伤害将会在40%~120%之间浮动。\n\n“多就是好！”一位金鸢尾兰科研人员如此说道。</OA_RK_UnstableChargeThrower.description>
+
+  <OA_RK_Mountain_Stick.label>金鸢尾兰手杖</OA_RK_Mountain_Stick.label>
+  <OA_RK_Mountain_Stick.description>一种雕琢着精美花纹的复杂合金手杖。由于其美观性与实用性都非常杰出，因此常常被金鸢尾兰贵族或者远行者所采用。</OA_RK_Mountain_Stick.description>
+
+  <OA_RK_Mountain_Stick_B.label>金鸢尾兰远行杖</OA_RK_Mountain_Stick_B.label>
+  <OA_RK_Mountain_Stick_B.description>金鸢尾兰远行者们常用的手杖，相比起常见的登山杖更具有可靠性与适用性，多个可拆卸的组件能够应对各种复杂环境。</OA_RK_Mountain_Stick_B.description>
+
+  <OA_RK_Mountain_Stick_C.label>金鸢尾兰雪地刀</OA_RK_Mountain_Stick_C.label>
+  <OA_RK_Mountain_Stick_C.description>一种可靠性很强的多功能匕首，无论是凿石还是伐木都可以做到。底部拥有着一个发信器，中空的刀柄可以储存一些关键物资。一些金鸢尾兰远行者会随身携带这把刀。</OA_RK_Mountain_Stick_C.description>
+
+  <OA_RK_ProtocolRifle_B.label>金鸢尾兰远行者步枪</OA_RK_ProtocolRifle_B.label>
+  <OA_RK_ProtocolRifle_B.description>金鸢尾兰帝国在接触银河系之前为远行者研发的半自动步枪，只有经验老练的远行者准备进行一次有风险的探险时，才能够申请调配这把枪械。其大口径的步枪弹可以有效的制止野兽的行动，保障远行者的安全。</OA_RK_ProtocolRifle_B.description>
+
+  <OA_RK_Mountain_Stick_D.label>金鸢尾兰猎兽刀</OA_RK_Mountain_Stick_D.label>
+  <OA_RK_Mountain_Stick_D.description>一把工艺复杂，十分锋利的短刀，其刀刃可以轻易的割开皮肤，能够有效的对野兽造成威慑与伤害。</OA_RK_Mountain_Stick_D.description>
+
+  <OA_RK_Mountain_Stick_E.label>技术官防身匕首</OA_RK_Mountain_Stick_E.label>
+  <OA_RK_Mountain_Stick_E.description>金鸢尾兰帝国尚未正式列装的实验性武器，其刀刃内置自触发式EMP核心，命中敌人时会同时对敌人造成EMP打击。\n\n由于该武器目前正在研发阶段还未投入量产，因此大多数暂时被配发给银河系的技术官作为防身武器使用。</OA_RK_Mountain_Stick_E.description>
+
+  <OA_RK_Mountain_Stick_F.label>技术官手杖</OA_RK_Mountain_Stick_F.label>
+  <OA_RK_Mountain_Stick_F.description>金鸢尾兰帝国为身处银河系的技术官统一配发的手杖，在保证美观性的同时进行了一些防身改装。其内装载了一枚EMP脉冲装置，在面对机械体时可以发挥一定的压制能力。</OA_RK_Mountain_Stick_F.description>
+
+  <OA_RK_Jishu_SMG.label>技术官防身冲锋枪</OA_RK_Jishu_SMG.label>
+  <OA_RK_Jishu_SMG.description>金鸢尾兰帝国尚未正式列装的实验性武器，弹药为特制的EMP弹药，命中后可以对机械体造成瘫痪效果。此外虽然枪身较小，但由于装配了电磁加速枪管，因此破坏力也不容小觑。\n\n由于该武器目前正在研发阶段还未投入量产，因此大多数暂时被配发给银河系的技术官作为防身武器使用。</OA_RK_Jishu_SMG.description>
+
+  <OA_RK_BlitzRifle_Heavy.label>重装突袭步枪</OA_RK_BlitzRifle_Heavy.label>
+  <OA_RK_BlitzRifle_Heavy.description>为了更加凶狠的破坏力而采用了可更换式加压舱的重型枪械。相比而言没有正常的突袭步枪灵活，但胜在火力更加凶狠，在面对重型敌人时能够发挥奇效。\n\n出于安全性与枪械寿命考虑，该枪械的加压舱平时会处于低负荷状态，只有在开火时才会得到激活。\n每次射击都会提升10%的伤害与穿甲值，提升50%后达到满负荷状态。</OA_RK_BlitzRifle_Heavy.description>
+
+  <OA_RK_BlitzSMG_Heavy.label>重装突袭冲锋枪</OA_RK_BlitzSMG_Heavy.label>
+  <OA_RK_BlitzSMG_Heavy.description>为了更加凶狠的破坏力而采用了可更换式加压舱的重型枪械。在近距离的火力倾泻上不如常规冲锋枪，但胜在单点火力更加凶狠，在面对重型敌人时能够发挥奇效。\n\n出于安全性与枪械寿命考虑，该枪械的加压舱平时会处于低负荷状态，只有在开火时才会得到激活。\n每次射击都会提升10%的伤害与穿甲值，提升50%后达到满负荷状态。</OA_RK_BlitzSMG_Heavy.description>
+
+  <OA_RK_AT.label>突袭作战无后坐力炮</OA_RK_AT.label>
+  <OA_RK_AT.description>金鸢尾兰帝国的制式单兵支援武器，轻量化材质制成的炮身几乎不会为射手带来负担。不同于反重甲武器，这门单兵火炮采用的榴弹更适合对成片的敌人造成杀伤，而非专注于某个重型单位。</OA_RK_AT.description>
+
+  <OA_RK_Shotgun_A.label>金鸢尾兰远行者防身霰弹枪</OA_RK_Shotgun_A.label>
+  <OA_RK_Shotgun_A.description>金鸢尾兰帝国为野兽频繁出没地区的远行者与宫廷人员配发的防身霰弹枪，开枪时巨大的噪音可以有效的对野兽造成恐吓与威慑，在近距离拥有相当可观的杀伤力。\n\n该枪械在开火时会根据距离对目标造成0~15枚弹丸的伤害，在5格内伤害达到最高。\n\n若目标与使用者距离在5~23格内，则还会对目标周围1.5格内的所有单位造成一次0~2弹丸的溅射伤害。</OA_RK_Shotgun_A.description>
+
+  <OA_RK_Shotgun_B.label>技术官防身霰弹枪</OA_RK_Shotgun_B.label>
+  <OA_RK_Shotgun_B.description>金鸢尾兰帝国尚未正式列装的实验性武器，该武器的每个弹丸都内置了触发式的微型EMP核心，无论是对抗机械族还是正常的近距离交火都能发挥不小的作用。此外，由于采取了实验性的膛内设计，因此即便是较远的距离也能保证弹丸的集中。\n\n由于该武器目前正在研发阶段还未投入量产，因此大多数暂时被配发给银河系的技术官作为防身武器使用。\n\n该枪械在开火时会根据距离对目标造成1~10枚弹丸的伤害，在6格内伤害达到最高。</OA_RK_Shotgun_B.description>
+
+  <OA_RK_Shotgun_C.label>重装扫荡霰弹枪</OA_RK_Shotgun_C.label>
+  <OA_RK_Shotgun_C.description>金鸢尾兰帝国为高烈度地区的突袭队专门研发的特制霰弹枪，加装了巷战专用的瞬压加压舱，在近距离拥有着毁灭性的输出能力，无论是室内突袭还是巷战歼灭都有着无可替代的作用。\n然而可惜的是，瞬发式的加压使得武器会在中距离便失去精度，因此该武器在中远距离作战中相当的劣势。\n\n该枪械在开火时会根据距离对目标造成1~12枚弹丸的伤害，在5格内伤害达到最高。\n\n若目标与使用者距离在5~14格内，则还会对目标周围1.5格内的所有单位造成一次1~3弹丸的溅射伤害。</OA_RK_Shotgun_C.description>
+
+  <OA_RK_Mountain_Stick_G.label>金鸢尾兰医护拐杖</OA_RK_Mountain_Stick_G.label>
+  <OA_RK_Mountain_Stick_G.description>金鸢尾兰宫廷中医护部所采用的制式医用拐杖。其结构十分符合人体力学，并且内部的系统能够根据压力反馈来进行自动助力，有效的提升了伤患的移动能力。</OA_RK_Mountain_Stick_G.description>
+
+  <OA_RK_GouSuo.label>金鸢尾兰远行者钩索枪</OA_RK_GouSuo.label>
+  <OA_RK_GouSuo.description>金鸢尾兰达的远行者们所携带的一种轻便探险器械，可以向指定方位射出一枚带着钢缆的高强度固定钩索，以方便进行攀登与翻越。此外除了常规钩索，远行者们往往还会携带数枚鱼叉矛头，以在需要时进行更替以保护自身。</OA_RK_GouSuo.description>
+
+  <OA_RK_BlitzSSR_B.label>突袭反重甲支援步枪</OA_RK_BlitzSSR_B.label>
+  <OA_RK_BlitzSSR_B.description>金鸢尾兰帝国研发的反机械体特化武器之一，拥有着出色的中距离火力。虽然火力强悍，但由于过于笨重且定位模糊，因此并未得到制式列装，而是参考该枪械研发出了后续的重装武器系列与反重甲步枪。</OA_RK_BlitzSSR_B.description>
+
+  <OA_RK_BlitzAMR_C.label>突袭反重甲炮台步枪</OA_RK_BlitzAMR_C.label>
+  <OA_RK_BlitzAMR_C.description>金鸢尾兰帝国研发的反机械体特化武器之一。由于设计理念的缺陷，因此尽管该武器虽然有着惊人的杀伤性，但过于笨重的枪身，以及它极差的射击体验使其难以称之为一把单兵武器，因此该枪械并未得以制式列装。</OA_RK_BlitzAMR_C.description>
+
+  <OA_RK_BlitzSMG_B.label>突袭作战火力冲锋枪</OA_RK_BlitzSMG_B.label>
+  <OA_RK_BlitzSMG_B.description>金鸢尾兰帝国早期军备研发的产物，由于过于片面强调冲锋枪的火力压制作用，因此导致该枪械极难操控。即便后来发现了该缺点而随之加装了新的握把，也没能拯救其糟糕的操控性，最终没有得以列装。</OA_RK_BlitzSMG_B.description>
+
+  <OA_RK_Mountain_Stick_AA.label>金鸢尾兰工业焊刀</OA_RK_Mountain_Stick_AA.label>
+  <OA_RK_Mountain_Stick_AA.description>金鸢尾兰帝国的工业部中常见的维修工具，极高温的激光刀片只需稍微划过焊接处便可完成焊接。\n为了防止意外伤人，该工具有着正面生物探测以及按压出刃的机制，因此若想使用该武器进行攻击将会需要一定的技巧。</OA_RK_Mountain_Stick_AA.description>
+
+  <OA_RK_Mountain_Stick_AB.label>金鸢尾兰振荡清洁箱</OA_RK_Mountain_Stick_AB.label>
+  <OA_RK_Mountain_Stick_AB.description>金鸢尾兰宫廷中的一种清洁工具，通过低频微幅振荡来使得黏着的灰尘更易清理。而若是有心人将其进行改装，那么极高频的巨幅震荡将对生物的内脏器官造成极大的伤害并造成晕眩。\n但尽管如此，用这个笨重的东西战斗依然不会是明智之举。</OA_RK_Mountain_Stick_AB.description>
+
+</LanguageData>

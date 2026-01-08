@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kiiro_TRWeapon_Rifle.label>绮罗试做步枪</Kiiro_TRWeapon_Rifle.label>
+  <Kiiro_TRWeapon_Rifle.description>绮罗族仿照栓动步枪制造的试做拉栓式步枪，在射程和威力上都逊色于原版，但好在制造成本足够低廉。</Kiiro_TRWeapon_Rifle.description>
+  <Kiiro_TRWeapon_Rifle.tools.0.label>stock</Kiiro_TRWeapon_Rifle.tools.0.label>
+  <Kiiro_TRWeapon_Rifle.tools.1.label>barrel</Kiiro_TRWeapon_Rifle.tools.1.label>
+
+  <Kiiro_TRWeapon_RifleII.label>绮罗试做步枪（刺刀）</Kiiro_TRWeapon_RifleII.label>
+  <Kiiro_TRWeapon_RifleII.description>绮罗族仿照栓动步枪制造的试做拉栓式步枪，加上了刺刀，可以用于近距离搏杀。</Kiiro_TRWeapon_RifleII.description>
+  <Kiiro_TRWeapon_RifleII.tools.0.label>stock</Kiiro_TRWeapon_RifleII.tools.0.label>
+  <Kiiro_TRWeapon_RifleII.tools.1.label>barrel</Kiiro_TRWeapon_RifleII.tools.1.label>
+
+  <KiiroBullet_TRRifle.label>绮罗试做步枪子弹</KiiroBullet_TRRifle.label>
+
+  <Kiiro_TRWeapon_ShotGun.label>绮罗试做霰弹枪</Kiiro_TRWeapon_ShotGun.label>
+  <Kiiro_TRWeapon_ShotGun.description>绮罗族仿造泵式霰弹枪制造的一种试做双管霰弹枪，由绮罗使用起来十分顺手，美中不足的是威力并不强。</Kiiro_TRWeapon_ShotGun.description>
+  <Kiiro_TRWeapon_ShotGun.tools.0.label>stock</Kiiro_TRWeapon_ShotGun.tools.0.label>
+  <Kiiro_TRWeapon_ShotGun.tools.1.label>barrel</Kiiro_TRWeapon_ShotGun.tools.1.label>
+
+  <KiiroBullet_TRShotGun.label>绮罗试做霰弹枪子弹</KiiroBullet_TRShotGun.label>
+
+  <Kiiro_TRWeapon_SMG.label>绮罗试做冲锋枪</Kiiro_TRWeapon_SMG.label>
+  <Kiiro_TRWeapon_SMG.description>绮罗族仿造冲锋手枪制造的试做冲锋枪，设计时更加侧重了快速反应，能够在很短的时间内完成一轮射击。相应地在威力方面就弱上不少了。</Kiiro_TRWeapon_SMG.description>
+  <Kiiro_TRWeapon_SMG.tools.0.label>stock</Kiiro_TRWeapon_SMG.tools.0.label>
+  <Kiiro_TRWeapon_SMG.tools.1.label>barrel</Kiiro_TRWeapon_SMG.tools.1.label>
+
+  <KiiroBullet_TRSMG.label>绮罗试做冲锋枪子弹</KiiroBullet_TRSMG.label>
+
+  <Kiiro_TRWeapon_LMG.label>绮罗试做轻机枪</Kiiro_TRWeapon_LMG.label>
+  <Kiiro_TRWeapon_LMG.description>绮罗族仿造轻机枪制造的试做轻机枪，为了顾及灵活性而在威力和射程等方面的性能降低了。</Kiiro_TRWeapon_LMG.description>
+  <Kiiro_TRWeapon_LMG.tools.0.label>stock</Kiiro_TRWeapon_LMG.tools.0.label>
+  <Kiiro_TRWeapon_LMG.tools.1.label>barrel</Kiiro_TRWeapon_LMG.tools.1.label>
+
+  <KiiroBullet_TRLMG.label>绮罗试做轻机枪子弹</KiiroBullet_TRLMG.label>
+
+  <Kiiro_PTWeapon_SMG.label>绮罗原型冲锋枪</Kiiro_PTWeapon_SMG.label>
+  <Kiiro_PTWeapon_SMG.description>由绮罗族最顶尖的技术员研发的原型冲锋枪，性能在巷战和游击战中尤为出彩。由于难以大量生产，绮罗族极少有装备这种武器的队伍。</Kiiro_PTWeapon_SMG.description>
+  <Kiiro_PTWeapon_SMG.tools.0.label>stock</Kiiro_PTWeapon_SMG.tools.0.label>
+  <Kiiro_PTWeapon_SMG.tools.1.label>barrel</Kiiro_PTWeapon_SMG.tools.1.label>
+
+  <KiiroBullet_PTSMG.label>绮罗原型冲锋枪子弹</KiiroBullet_PTSMG.label>
+
+  <Kiiro_PTWeapon_PrecisionRifle.label>绮罗原型步枪</Kiiro_PTWeapon_PrecisionRifle.label>
+  <Kiiro_PTWeapon_PrecisionRifle.description>由绮罗族最顶尖的技术员研发的原型步枪，其在射程方面的性能几乎可以与人类使用的狙击枪相媲美。由于难以大量生产，绮罗族极少有装备这种武器的队伍。</Kiiro_PTWeapon_PrecisionRifle.description>
+  <Kiiro_PTWeapon_PrecisionRifle.tools.0.label>stock</Kiiro_PTWeapon_PrecisionRifle.tools.0.label>
+  <Kiiro_PTWeapon_PrecisionRifle.tools.1.label>barrel</Kiiro_PTWeapon_PrecisionRifle.tools.1.label>
+
+  <KiiroBullet_PTPrecisionRifle.label>绮罗原型步枪子弹</KiiroBullet_PTPrecisionRifle.label>
+
+  <Kiiro_PTWeapon_SniperRifle.label>绮罗原型狙击步枪</Kiiro_PTWeapon_SniperRifle.label>
+  <Kiiro_PTWeapon_SniperRifle.description>由绮罗族最顶尖的技术员研发的原型狙击步枪，射程上几乎完美地适配了绮罗族在射击方面的特长。由于难以大量生产，绮罗族极少有装备这种武器的队伍。\n\n持有者的射击等级越高，这把武器越容易命中目标的要害部位。</Kiiro_PTWeapon_SniperRifle.description>
+  <Kiiro_PTWeapon_SniperRifle.tools.0.label>stock</Kiiro_PTWeapon_SniperRifle.tools.0.label>
+  <Kiiro_PTWeapon_SniperRifle.tools.1.label>barrel</Kiiro_PTWeapon_SniperRifle.tools.1.label>
+
+  <KiiroBullet_PTSniperRifle.label>绮罗原型狙击步枪子弹</KiiroBullet_PTSniperRifle.label>
+  <KiiroBullet_PTSniperRifleII.label>绮罗原型狙击步枪子弹</KiiroBullet_PTSniperRifleII.label>
+
+  <Kiiro_PTWeapon_LMG.label>绮罗原型机枪</Kiiro_PTWeapon_LMG.label>
+  <Kiiro_PTWeapon_LMG.description>由绮罗族最顶尖的技术员研发的原型机枪，在灵活性上有着同类武器无与伦比的优势。由于难以大量生产，绮罗族极少有装备这种武器的队伍。</Kiiro_PTWeapon_LMG.description>
+  <Kiiro_PTWeapon_LMG.tools.0.label>stock</Kiiro_PTWeapon_LMG.tools.0.label>
+  <Kiiro_PTWeapon_LMG.tools.1.label>barrel</Kiiro_PTWeapon_LMG.tools.1.label>
+
+  <KiiroBullet_PTLMG.label>绮罗原型机枪子弹</KiiroBullet_PTLMG.label>
+
+  <Kiiro_PTWeapon_GrenadeLauncher.label>绮罗烟雾弹发射器</Kiiro_PTWeapon_GrenadeLauncher.label>
+  <Kiiro_PTWeapon_GrenadeLauncher.description>一把用于抛投烟雾弹的榴弹发射器，能够在短时间内散布大面积致盲烟雾。</Kiiro_PTWeapon_GrenadeLauncher.description>
+  <Kiiro_PTWeapon_GrenadeLauncher.tools.0.label>stock</Kiiro_PTWeapon_GrenadeLauncher.tools.0.label>
+  <Kiiro_PTWeapon_GrenadeLauncher.tools.1.label>barrel</Kiiro_PTWeapon_GrenadeLauncher.tools.1.label>
+
+  <KiiroBullet_PTGrenadeLauncher.label>绮罗烟雾弹</KiiroBullet_PTGrenadeLauncher.label>
+  <KiiroProjectile_Smoke_Releasing.label>Smoke Grenade</KiiroProjectile_Smoke_Releasing.label>
+
+
+</LanguageData>

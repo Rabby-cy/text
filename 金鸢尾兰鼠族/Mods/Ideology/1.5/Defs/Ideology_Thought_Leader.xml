@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThoughtDef>
+		<defName>OA_RK_HaveLeader</defName>
+		<workerClass>OberoniaAurea.ThoughtWorker_HaveAliveLeader</workerClass>
+		<stages>
+			<li>
+				<label>Have a leader</label>
+				<description>One leader in name is at least better than wondering aimlessly.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+			<li>
+				<label>Guided</label>
+				<description>I believe our leader will guide us to success.</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+			<li>
+				<label>Lack of leader</label>
+				<description>Can we really survive without proper leadership...?</description>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+			<li>
+				<label>Lost</label>
+				<description>We must have someone to show us the way！</description>
+				<baseMoodEffect>-4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>OA_RK_HaveOutstandingLeader</defName>
+		<workerClass>OberoniaAurea.ThoughtWorker_HaveOutstandingLeader</workerClass>
+		<stages>
+			<li>
+				<label>Good leadership</label>
+				<description>It is so fortunate to have a good leader.</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+			<li>
+				<label>Exceptional leadership</label>
+				<description>Such exceptional leader! I am certain we will triumph if we follow leader's steps. </description>
+				<baseMoodEffect>4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>OA_RK_LeaderDowned</defName>
+		<workerClass>OberoniaAurea.ThoughtWorker_LeaderDowned</workerClass>
+		<stages>
+			<li>
+				<label>Leader incapacitated</label>
+				<description>Our leader is not able move...which seldom a good sign.</description>
+				<baseMoodEffect>-6</baseMoodEffect>
+			</li>
+			<li>
+				<label>Leader down</label>
+				<description>we cannot lose our leader...Nothing shall happen to our leader!</description>
+				<baseMoodEffect>-12</baseMoodEffect><!--原来麻醉居然也会导致领袖倒地心情状态，有点难绷-->
+			</li>
+		</stages>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>OA_RK_LeaderOpinion</defName>
+		<thoughtClass>Thought_SituationalSocial</thoughtClass>
+		<workerClass>OberoniaAurea.ThoughtWorker_LeaderOpinion</workerClass>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+			<li>Jealous</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>Leader respect</label>
+				<baseOpinionOffset>15</baseOpinionOffset>
+			</li>
+			<li>
+				<label>Leader adoration</label>
+				<baseOpinionOffset>35</baseOpinionOffset>
+			</li>
+
+		</stages>
+	</ThoughtDef>
+</Defs>

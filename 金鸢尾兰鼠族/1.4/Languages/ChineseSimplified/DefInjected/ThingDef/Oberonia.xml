@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: ambulance chaser -->
+  <Plant_Oberonia_Aurea.label>金鸢尾兰（观赏）</Plant_Oberonia_Aurea.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <Plant_Oberonia_Aurea.description>一种兰科鸢尾兰属植物，诞生于金鸢尾兰鼠族的母星，耐寒且可以在贫瘠的土壤中生长，是金鸢尾兰帝国的象征与国花。其色彩鲜艳而不落俗，同时散发着一股幽香，金鸢尾兰鼠族常常将其采摘泡茶。\n\n这种类型的金鸢尾兰不会自动收割。</Plant_Oberonia_Aurea.description>
+  
+  <!-- EN: ambulance chaser -->
+  <Plant_Oberonia_Aurea_B.label>金鸢尾兰（产出）</Plant_Oberonia_Aurea_B.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <Plant_Oberonia_Aurea_B.description>一种兰科鸢尾兰属植物，诞生于金鸢尾兰鼠族的母星，耐寒且可以在贫瘠的土壤中生长，是金鸢尾兰帝国的象征与国花。其色彩鲜艳而不落俗，同时散发着一股幽香，金鸢尾兰鼠族常常将其采摘泡茶。\n\n这种类型的金鸢尾兰会被自动收割。</Plant_Oberonia_Aurea_B.description>
+  
+  
+  <!-- EN: ambulance chaser -->
+  <Oberonia_Aurea.label>金鸢尾兰</Oberonia_Aurea.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <Oberonia_Aurea.description>金鸢尾兰的花瓣，应该很适合用来泡茶。</Oberonia_Aurea.description>
+  
+   <!-- EN: ambulance chaser -->
+  <Oberonia_Aurea_Tea.label>金鸢尾兰 花茶</Oberonia_Aurea_Tea.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <Oberonia_Aurea_Tea.description>用金鸢尾兰花瓣冲泡的花茶，散发着一阵阵清幽的香气。澄澈而略带有淡金色的茶水只需要看一眼，便能够使浮躁的心安顿下来。</Oberonia_Aurea_Tea.description>
+    
+  <!-- EN: ambulance chaser -->
+  <OA_RK_Rice.label>金鸢尾兰改进水稻</OA_RK_Rice.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_Rice.description>金鸢尾兰帝国运用自身科技对银河系水稻进行改进后得出的品种。相比起正常水稻对肥沃度更加敏感，并且产量更高，同时金绿色的稻穗夹杂交错，显得较为美观。</OA_RK_Rice.description>
+  
+  <!-- EN: ambulance chaser -->
+  <Oberonia_Aurea_Chanwu_A.label>金鸢尾兰炒花饼</Oberonia_Aurea_Chanwu_A.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <Oberonia_Aurea_Chanwu_A.description>金鸢尾兰的传统食品，通过将金鸢尾兰花与其他食材一同翻炒制成。制作工艺简单，保证口感的同时而少有油腻。</Oberonia_Aurea_Chanwu_A.description>
+    
+	  <!-- EN: ambulance chaser -->
+  <Oberonia_Aurea_Chanwu_B.label>金鸢尾兰花饼</Oberonia_Aurea_Chanwu_B.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <Oberonia_Aurea_Chanwu_B.description>金鸢尾兰的传统食品，需要一定的手法才能制成。花香沁人，入口松软，甜而不腻。</Oberonia_Aurea_Chanwu_B.description>
+    
+	  <!-- EN: ambulance chaser -->
+  <Oberonia_Aurea_Chanwu_C.label>金鸢尾兰莓果花饼</Oberonia_Aurea_Chanwu_C.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <Oberonia_Aurea_Chanwu_C.description>金鸢尾兰的传统食品，制作工艺复杂，需要有耐心才能制成。通过在花饼中加入适量的莓果，辅以优秀的烹饪手法，最终达成了花香与莓果的甜润的完美配合，每一口都是如梦般的幸福。</Oberonia_Aurea_Chanwu_C.description>
+    
+	  <!-- EN: ambulance chaser -->
+  <Oberonia_Aurea_Chanwu_D.label>金鸢尾兰花蜜</Oberonia_Aurea_Chanwu_D.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <Oberonia_Aurea_Chanwu_D.description>金鸢尾兰的传统食品，将金鸢尾兰花本身碾为粉末后，再混杂以少量蜂蜜，白糖与纯净水调和制成。无论是直接食用，还是作为酱料，都是上佳的食材。</Oberonia_Aurea_Chanwu_D.description>
+    
+	  <!-- EN: ambulance chaser -->
+  <Oberonia_Aurea_Chanwu_AA.label>金鸢尾兰炸花丸</Oberonia_Aurea_Chanwu_AA.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <Oberonia_Aurea_Chanwu_AA.description>金鸢尾兰的传统食品，由稻米丸加上新鲜的金鸢尾兰花瓣炸制，随后浇上金鸢尾兰的花蜜制成。诞生于金鸢尾兰繁荣星球的炸花丸并不是划算的求生食品，但若是能有时间去细细品尝，那么它那清新的甜味与外脆内糯的口感能缓解整天的坏心情。</Oberonia_Aurea_Chanwu_AA.description>
+    
+	  <!-- EN: ambulance chaser -->
+  <Oberonia_Aurea_Chanwu_AB.label>金鸢尾兰花糕</Oberonia_Aurea_Chanwu_AB.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <Oberonia_Aurea_Chanwu_AB.description>金鸢尾兰的传统食品，由稻米混合被碾碎的金鸢尾兰花瓣蒸煮加工而制成，口感糯软香甜。这种花糕大多数采取内真空的包装，便于保存，可以长久存放。\n\n大多数的金鸢尾兰鼠族都会在节日送出这种花糕，来与亲朋好友共同分享节日的喜悦。</Oberonia_Aurea_Chanwu_AB.description>
+    
+	  <!-- EN: ambulance chaser -->
+  <Oberonia_Aurea_Chanwu_AC.label>金鸢尾兰流心花糕</Oberonia_Aurea_Chanwu_AC.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <Oberonia_Aurea_Chanwu_AC.description>金鸢尾兰的传统食品，由稻米混合被碾碎的金鸢尾兰花瓣蒸煮加工，而后通过特殊工艺向其内与表面浇灌花蜜而制成，软润的稻米搭配清甜的花蜜吃起来润口而不甜腻。这种花糕大多数采取内真空的包装，便于保存，可以长久存放。\n\n大多数的金鸢尾兰鼠族都会在节日送出这种花糕，来与亲朋好友共同分享节日的喜悦。</Oberonia_Aurea_Chanwu_AC.description>
+    
+	  <!-- EN: ambulance chaser -->
+  <Oberonia_Aurea_Chanwu_E.label>金鸢尾兰花清素</Oberonia_Aurea_Chanwu_E.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <Oberonia_Aurea_Chanwu_E.description>一种药效温和的提取液，注入后可以小幅度的提升免疫速度与促进伤口愈合。</Oberonia_Aurea_Chanwu_E.description>
+    
+	  <!-- EN: ambulance chaser -->
+  <Oberonia_Aurea_Chanwu_G.label>金鸢尾兰提取液</Oberonia_Aurea_Chanwu_G.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <Oberonia_Aurea_Chanwu_G.description>金鸢尾兰帝国常见的一种提取液，注入后可以短时间内提升大量的免疫力，是金鸢尾兰的医疗体系中不可或缺的药物。</Oberonia_Aurea_Chanwu_G.description>
+    
+	  <!-- EN: ambulance chaser -->
+  <Oberonia_Aurea_Chanwu_F.label>金鸢尾兰浓缩液</Oberonia_Aurea_Chanwu_F.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <Oberonia_Aurea_Chanwu_F.description>一种浓度极高的提取液，相比起正常的提取液药效猛烈了很多，并且有不良的副作用反应。该药物过量摄入有可能导致生命危险，不到万不得已的情况下金鸢尾兰的医师绝不会使用这种药剂。</Oberonia_Aurea_Chanwu_F.description>
+    
+</LanguageData>

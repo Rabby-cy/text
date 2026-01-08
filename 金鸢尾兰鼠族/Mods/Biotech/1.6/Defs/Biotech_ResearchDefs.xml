@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ResearchProjectDef MayRequire="OARK.RatkinFaction.GeneExpand">
+		<defName>OA_RK_RatkinGene</defName>
+		<label>金鸢尾兰基因技术</label>
+		<description>研发一系列金鸢尾兰帝国所独有的基因技术，解锁包括【基因片段截取仪】在内的一系列基因相关建筑。</description>
+		<tab>RatkinTech</tab>
+		<baseCost>1500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>9</researchViewX>
+		<researchViewY>5.5</researchViewY>
+		<prerequisites>
+			<li>RatkinGene</li>
+			<li>OA_RK_Constant_Temperature_Hydroponics</li>
+		</prerequisites> 
+	</ResearchProjectDef>
+
+</Defs>

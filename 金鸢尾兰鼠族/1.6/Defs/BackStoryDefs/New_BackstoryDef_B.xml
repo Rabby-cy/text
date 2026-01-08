@@ -1,0 +1,2082 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!--Melee>0</Melee>
+            <Shooting>0</Shooting>
+            <Mining>0</Mining>
+            <Construction>0</Construction>
+            <Plants>0</Plants>
+            <Cooking>0</Cooking>
+            <Animals>0</Animals>
+            <Crafting>0</Crafting>
+            <Medicine>0</Medicine>
+            <Artistic>0</Artistic>
+	        <Social>0</Social>
+            <Intellectual>0</Intellectual-->
+
+    <!--li>OA_RK_Civilian</li>
+			<li>OA_RK_Armed_Civilian</li>
+			<li>OA_RK_Tourist</li>
+			<li>OARatkin_Traveller</li>
+			<li>OA_RK_Court_Member</li>
+			<li>OA_RK_Gongye_Member</li>
+			<li>OA_RK_Jishu_Member</li>
+			<li>OA_RK_Navigate_Member</li>
+			<li>OA_RK_Elite_Court_Member</li>
+			<li>OA_RK_Assault_Captain</li>
+			<li>OA_RK_Assault_Member</li>
+			<li>OA_RK_Assault_Paramedics</li>
+			<li>OA_RK_Guard_Member</li>
+			<li>OA_RK_Guard_Captain</li-->
+
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_A</defName>
+        <title>OA·Star-Blessed Child</title>
+        <titleShort>Little Favored One</titleShort>
+        <description>[PAWN_nameDef] enjoyed an extraordinary childhood, most notably through what seemed like celestial favor. For inexplicable reasons, ships carrying [PAWN_pronoun] consistently completed voyages with unprecedented smoothness, making [PAWN_nameDef] the Navigation Department's most prized passenger.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Artistic>1</Artistic>
+            <Social>6</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Civilian</li>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Tourist</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Elite_Court_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_B</defName>
+        <title>OA·The Unknown Pioneer</title>
+        <titleShort>Little Explorer</titleShort>
+        <description>Whether from childish curiosity or thirst for knowledge, [PAWN_nameDef] undoubtedly possesses a heart yearning for the unknown. This explorer's spirit drives [PAWN_pronoun] to seek profound mysteries rather than remain in safe comfort zones.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Melee>2</Melee>
+            <Social>1</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Civilian</li>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Tourist</li>
+            <li>OARatkin_Traveller</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Gongye_Member</li>
+            <li>OA_RK_Jishu_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Elite_Court_Member</li>
+            <li>OA_RK_Assault_Captain</li>
+            <li>OA_RK_Assault_Member</li>
+            <li>OA_RK_Assault_Paramedics</li>
+            <li>OA_RK_Guard_Member</li>
+            <li>OA_RK_Guard_Captain</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_C</defName>
+        <title>OA·The Little Wanderer</title>
+        <titleShort>Little Wanderer</titleShort>
+        <description>Due to a gravity generator malfunction, [PAWN_nameDef] spent an unforgettable childhood hour floating midair. Though bewildered by the medical team's frantic examinations afterward, that magical "flight" experience became permanently etched in [PAWN_nameDef]'s heart.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Artistic>4</Artistic>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Civilian</li>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Tourist</li>
+            <li>OARatkin_Traveller</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Gongye_Member</li>
+            <li>OA_RK_Jishu_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Elite_Court_Member</li>
+            <li>OA_RK_Assault_Captain</li>
+            <li>OA_RK_Assault_Member</li>
+            <li>OA_RK_Assault_Paramedics</li>
+            <li>OA_RK_Guard_Member</li>
+            <li>OA_RK_Guard_Captain</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_D</defName>
+        <title>OA·Spaceport Child</title>
+        <titleShort>Child</titleShort>
+        <description>As a "special" spaceport native, [PAWN_nameDef] grew up convinced [PAWN_pronoun] was destined to join the Navigation Department. This innate sense of mission makes [PAWN_nameDef] hold [PAWN_pronoun]self to high standards - even when tempted by terrestrial wonders, [PAWN_pronoun] resists boarding shuttles... unless no acquaintances are aboard.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Civilian</li>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Tourist</li>
+            <li>OARatkin_Traveller</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Gongye_Member</li>
+            <li>OA_RK_Jishu_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Elite_Court_Member</li>
+            <li>OA_RK_Assault_Captain</li>
+            <li>OA_RK_Assault_Member</li>
+            <li>OA_RK_Assault_Paramedics</li>
+            <li>OA_RK_Guard_Member</li>
+            <li>OA_RK_Guard_Captain</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_E</defName>
+        <title>OA·The Junior Technician</title>
+        <titleShort>Little Engineer</titleShort>
+        <description>Growing up aboard a spaceport, [PAWN_nameDef] easily befriended navigation crews who half-seriously taught [PAWN_pronoun] professional knowledge. Through this exposure, [PAWN_nameDef] genuinely absorbed some spaceship expertise - if only a little.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Construction>2</Construction>
+            <Crafting>4</Crafting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Civilian</li>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OARatkin_Traveller</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Gongye_Member</li>
+            <li>OA_RK_Jishu_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Elite_Court_Member</li>
+            <li>OA_RK_Assault_Captain</li>
+            <li>OA_RK_Assault_Member</li>
+            <li>OA_RK_Assault_Paramedics</li>
+            <li>OA_RK_Guard_Member</li>
+            <li>OA_RK_Guard_Captain</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_F</defName>
+        <title>OA·The Brave Little Rescuer</title>
+        <titleShort>Little Adventurer</titleShort>
+        <description>"Explore! Rescue! Protect!" Though unsure where this motto originated, [PAWN_nameDef] embraces it wholeheartedly. These words became [PAWN_pronoun]'s childhood creed and enduring ideal. To [PAWN_nameDef], adventure and protection share equal priority.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Melee>3</Melee>
+            <Shooting>2</Shooting>
+            <Animals>2</Animals>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OARatkin_Traveller</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Elite_Court_Member</li>
+            <li>OA_RK_Assault_Captain</li>
+            <li>OA_RK_Assault_Member</li>
+            <li>OA_RK_Assault_Paramedics</li>
+            <li>OA_RK_Guard_Member</li>
+            <li>OA_RK_Guard_Captain</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li>
+                <defName Degree="1">Nerves</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_G</defName>
+        <title>OA·“Master of Space Exploration”</title>
+        <titleShort>Little Conqueror</titleShort>
+        <description>Though the source remains mysterious, [PAWN_nameDef] firmly believes [PAWN_pronoun] will become a great explorer. Through skepticism and encouragement alike, [PAWN_nameDef]'s stubborn perseverance gradually turned doubters into silent well-wishers.\n\nPerhaps someday we'll witness the "[PAWN_nameDef]" making history.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>4</Shooting>
+            <Social>-2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OARatkin_Traveller</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Elite_Court_Member</li>
+            <li>OA_RK_Assault_Captain</li>
+            <li>OA_RK_Assault_Member</li>
+            <li>OA_RK_Assault_Paramedics</li>
+            <li>OA_RK_Guard_Member</li>
+            <li>OA_RK_Guard_Captain</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li>
+                <defName>Tough</defName>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_AA</defName>
+        <title>OA·The World's Little Analyst</title>
+        <titleShort>Little Analyst</titleShort>
+        <description>[PAWN_nameDef] views life as one grand question, and [PAWN_pronoun]'s purpose is finding answers. To collect data, young [PAWN_nameDef] traveled across star systems, visiting imperial cities to study diverse lifestyles.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Artistic>1</Artistic>
+            <Social>1</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Civilian</li>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Tourist</li>
+            <li>OARatkin_Traveller</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Gongye_Member</li>
+            <li>OA_RK_Jishu_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Elite_Court_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_AB</defName>
+        <title>OA·The Interstellar Lemming</title>
+        <titleShort>Little Lemming</titleShort>
+        <description>"Oh! What's that!" Yes, [PAWN_nameDef] is marveling again. Perhaps innately curious, [PAWN_pronoun] finds wonder in the most mundane novelties. This endless amazement sends [PAWN_nameDef] journeying like a lemming - while others grow weary, [PAWN_pronoun] remains endlessly delighted.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Plants>1</Plants>
+            <Animals>1</Animals>
+            <Artistic>1</Artistic>
+            <Social>3</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Civilian</li>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Tourist</li>
+            <li>OARatkin_Traveller</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Gongye_Member</li>
+            <li>OA_RK_Jishu_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Elite_Court_Member</li>
+            <li>OA_RK_Assault_Captain</li>
+            <li>OA_RK_Assault_Member</li>
+            <li>OA_RK_Assault_Paramedics</li>
+            <li>OA_RK_Guard_Member</li>
+            <li>OA_RK_Guard_Captain</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li>
+                <defName Degree="2">NaturalMood</defName>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_AC</defName>
+        <title>OA·Gentle Messenger</title>
+        <titleShort>Child</titleShort>
+        <description>Whether due to cuteness or quiet demeanor, little [PAWN_nameDef] became the palace attendants' most cherished child. Through their doting, [PAWN_nameDef] learned the warmth of "affection" and "gentleness," now clumsily yet sincerely trying to share these feelings with others.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <skillGains>
+            <Melee>-2</Melee>
+            <Shooting>-2</Shooting>
+            <Medicine>2</Medicine>
+            <Artistic>4</Artistic>
+            <Social>6</Social>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Civilian</li>
+            <li>OA_RK_Tourist</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Gongye_Member</li>
+            <li>OA_RK_Jishu_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Elite_Court_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_AD</defName>
+        <title>OA·Navigation Department Pilot</title>
+        <titleShort>Navigator</titleShort>
+        <description>"Do you know where [PAWN_nameDef] is?" "In the astrometrics room." This isn't a joke but an accurate summary of [PAWN_nameDef]'s routine. Though the Navigation Department has the empire's finest navigation systems, emergencies happen. Driven by love for ships and duty to crewmates, [PAWN_nameDef] stands ever ready to face the most perilous voyages.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Plants>-2</Plants>
+            <Crafting>2</Crafting>
+            <Intellectual>8</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_AE</defName>
+        <title>OA·The Beacon Keeper</title>
+        <titleShort>Signal Officer</titleShort>
+        <description>[PAWN_nameDef] maintains a spaceport's navigation beacons. The work may seem mundane, but it profoundly impacts countless ships' fates. While most don't understand its importance, every returning crewmember leaves notes on [PAWN_nameDef]'s door: "You remain as vital as Polaris today."</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Construction>4</Construction>
+            <Plants>-2</Plants>
+            <Crafting>6</Crafting>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li>
+                <defName Degree="1">Nerves</defName>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_AF</defName>
+        <title>OA·Route Strategist</title>
+        <titleShort>Navigation Planner</titleShort>
+        <description>An interstellar empire's shipping lanes require meticulous planning, and [PAWN_nameDef] helps maintain this grand network. Though most routes are established, constant changes demand new designs and retirements - all requiring [PAWN_nameDef]'s expertise and official notifications.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Plants>-2</Plants>
+            <Crafting>2</Crafting>
+            <Social>3</Social>
+            <Intellectual>5</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_AG</defName>
+        <title>OA·Emergency Dispatcher</title>
+        <titleShort>Dispatcher</titleShort>
+        <description>All are equal, but transit rights aren't - especially for rescue and supply ships risking everything. When these vessels dock, specialists like [PAWN_nameDef] prioritize their maintenance and departure schedules, ensuring maximum efficiency to save more lives.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Plants>-2</Plants>
+            <Social>5</Social>
+            <Intellectual>5</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_BA</defName>
+        <title>OA·The Conscientious Dispatcher</title>
+        <titleShort>Dispatcher</titleShort>
+        <description>Ship scheduling is an art. Large vessels require clearing nearby docks of personnel and small craft to avoid thermal hazards. Thanks to rigorous training and dedication, [PAWN_nameDef]'s watch has never seen accidents - a record likely to continue.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Plants>-2</Plants>
+            <Crafting>2</Crafting>
+            <Social>4</Social>
+            <Intellectual>6</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li>
+                <defName Degree="1">Industriousness</defName>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_BB</defName>
+        <title>OA·Cross-Department Coordinator</title>
+        <titleShort>Coordinator</titleShort>
+        <description>Who's the busiest in Navigation? Not pilots or dispatchers, but cross-department coordinators. Tasked with data exchange between Palace, Logistics, and Navigation divisions, [PAWN_nameDef]'s workload stuns even veteran staff. Colleagues often deliver warm milk - both admiring [PAWN_pronoun]'s dedication and worrying about [PAWN_pronoun]'s receding hairline.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Intellectual>8</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li>
+                <defName Degree="1">Neurotic</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_BC</defName>
+        <title>OA·Docking Controller</title>
+        <titleShort>Dockmaster</titleShort>
+        <description>Orderly docks create excellent first impressions, requiring experts like [PAWN_nameDef]. Regardless of traffic volume, [PAWN_nameDef] efficiently organizes every ship. For captains accustomed to congested lanes, [PAWN_pronoun]'s guidance is nothing short of divine.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Construction>2</Construction>
+            <Plants>-2</Plants>
+            <Crafting>2</Crafting>
+            <Social>4</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_BD</defName>
+        <title>OA·paceport Logistician</title>
+        <titleShort>Logistics Officer</titleShort>
+        <description>Every spaceport needs logisticians to track ship inventories and needs, preventing conflicts during layovers. Undoubtedly skilled, [PAWN_nameDef] extracts accurate requirements from impatient captains while gently guiding shy crew to report correct quantities. [PAWN_nameDef] sets the gold standard for the profession.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Plants>-2</Plants>
+            <Social>6</Social>
+            <Intellectual>6</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_BE</defName>
+        <title>OA·Supply Ship Archivist</title>
+        <titleShort>Logistician</titleShort>
+        <description>No one understands supply ship inventory better than [PAWN_nameDef]. For [PAWN_pronoun], cataloging supplies has become as natural as breathing.\n\nWhile others struggle with complex cargo classifications, [PAWN_nameDef] finishes one ship and moves to the next. Perhaps driven by the honor of supporting voyages, [PAWN_nameDef] has mastered and cherishes this duty.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Plants>3</Plants>
+            <Cooking>3</Cooking>
+            <Social>4</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Elite_Court_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_BF</defName>
+        <title>OA·The Leisurely Route Planner</title>
+        <titleShort>Navigator</titleShort>
+        <description>Long ago, [PAWN_nameDef] was just a route planner in a quiet sector. Reviewing three or four routes daily left [PAWN_pronoun] ample leisure time - for someone of [PAWN_pronoun]'s skill, the work took less than an hour...\n\nThis ended when the Navigation Department transferred [PAWN_pronoun] across sectors. Since that day, leisure became history.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Plants>-2</Plants>
+            <Crafting>1</Crafting>
+            <Social>6</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li>
+                <defName Degree="-1">Industriousness</defName>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_BG</defName>
+        <title>OA·Route Surveyor</title>
+        <titleShort>Pathfinder</titleShort>
+        <description>While navigators approve final routes, [PAWN_nameDef] personally tests their feasibility.\n\nEven within the Navigation Department, this high-risk work attracts only the most honorable and devoted. Despite numerous close calls, [PAWN_nameDef] has never complained.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>1</Melee>
+            <Shooting>3</Shooting>
+            <Plants>-2</Plants>
+            <Crafting>3</Crafting>
+            <Intellectual>6</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li>
+                <defName>Nimble</defName>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_CA</defName>
+        <title>OA·Stellar Embrace</title>
+        <titleShort>Navigation Attendant</titleShort>
+        <description>The Navigation Department isn't all analytical minds - attendants like [PAWN_nameDef] embody its romantic spirit.\n\nSome join for honor, others for duty - but [PAWN_nameDef] joined for pure love. Love for the void, for starscapes, ultimately compelling [PAWN_pronoun] to sail among [PAWN_pronoun]'s beloved constellations.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Plants>-2</Plants>
+            <Crafting>2</Crafting>
+            <Artistic>3</Artistic>
+            <Intellectual>5</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_CB</defName>
+        <title>OA·The Dauntless Attendant</title>
+        <titleShort>Navigation Attendant</titleShort>
+        <description>[PAWN_nameDef] personifies the Navigation Department's exploratory spirit. With courage to venture, composure in crisis, and gentleness when homebound, [PAWN_nameDef] epitomizes the ideal attendant.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Construction>2</Construction>
+            <Plants>-2</Plants>
+            <Crafting>2</Crafting>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_CC</defName>
+        <title>OA·Supply Ship Volunteer</title>
+        <titleShort>Civilian</titleShort>
+        <description>[PAWN_nameDef]'s love spans star systems, asking nothing in return. This selfless devotion led [PAWN_pronoun] to volunteer aboard supply ships. After basic training, [PAWN_nameDef] now traverses interstellar routes, delivering sincere goodwill to frontier settlers.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Plants>1</Plants>
+            <Cooking>4</Cooking>
+            <Social>4</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Civilian</li>
+            <li>OA_RK_Armed_Civilian</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_CD</defName>
+        <title>OA·Route Liaison</title>
+        <titleShort>Navigation Attendant</titleShort>
+        <description>Route planning isn't arbitrary - especially vital supply lines result from court departments coordinating needs.\n\n[PAWN_nameDef] gathers and relays these requirements, serving as both messenger and bridge between institutions.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Crafting>1</Crafting>
+            <Social>7</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_CE</defName>
+        <title>OA·Spaceport Coordinator</title>
+        <titleShort>Facilitator</titleShort>
+        <description>No single person can manage a massive spaceport, even with AI assistance.\n\nAs one of the Navigation Department's finest, [PAWN_nameDef] earned this honorable role. The demanding position warrants complete dedication - which [PAWN_nameDef] gives unreservedly.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Construction>2</Construction>
+            <Plants>-4</Plants>
+            <Crafting>2</Crafting>
+            <Social>6</Social>
+            <Intellectual>6</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Elite_Court_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li>
+                <defName Degree="2">Industriousness</defName>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_CF</defName>
+        <title>OA·Seasoned Navigator</title>
+        <titleShort>Navigator</titleShort>
+        <description>[PAWN_nameDef] is a veteran navigator. Having piloted through asteroid fields and contained vacuum breaches, [PAWN_pronoun] commands absolute trust. Crews rely on [PAWN_nameDef] as surely as sunrise - knowing tomorrow's voyage will be equally secure.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Construction>3</Construction>
+            <Plants>-2</Plants>
+            <Crafting>3</Crafting>
+            <Intellectual>7</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Guard_Member</li>
+            <li>OA_RK_Elite_Court_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_CG</defName>
+        <title>OA·Pathfinding Navigator</title>
+        <titleShort>Navigator</titleShort>
+        <description>Within the Navigation Department, [PAWN_nameDef] shines like Polaris for astronomers.\n\nWhen dangerous routes need verification, [PAWN_nameDef] is the unquestioned choice.\n\n[PAWN_pronoun]'s skills dazzle equally when exploring hazardous sectors or making unauthorized (yet flawless) departures from docking bays.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Construction>4</Construction>
+            <Plants>-2</Plants>
+            <Crafting>4</Crafting>
+            <Social>-2</Social>
+            <Intellectual>8</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Guard_Member</li>
+            <li>OA_RK_Elite_Court_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li>
+                <defName>Nimble</defName>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_DA</defName>
+        <title>OA·Battle-Hardened Navigator</title>
+        <titleShort>Navigator</titleShort>
+        <description>When ships face danger, even well-trained Navigation Department crew may feel unease - but never [PAWN_nameDef].\n\nWhat others consider perilous malfunctions are just routine for [PAWN_nameDef]. Countless emergencies have tempered [PAWN_pronoun]'s will into unshakable steel... Though why [PAWN_pronoun] keeps encountering disasters is another story altogether.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Construction>2</Construction>
+            <Plants>-2</Plants>
+            <Crafting>3</Crafting>
+            <Medicine>2</Medicine>
+            <Social>2</Social>
+            <Intellectual>7</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Guard_Member</li>
+            <li>OA_RK_Elite_Court_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li>
+                <defName Degree="2">Nerves</defName>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_DB</defName>
+        <title>OA·The Spaceport Coordinator</title>
+        <titleShort>Logistics Attendant</titleShort>
+        <description>While spaceport gravity systems and low-G environments seem novel at first, long-term residents eventually find them dull. This truth struck [PAWN_nameDef] hard. [PAWN_pronoun] believes if thoughts could punch, that navigation officer who recruited [PAWN_pronoun] for data work would've been beaten countless times in dreams.\n\nYet life continues. After complaining, [PAWN_nameDef] always picks up those endlessly criticized yet indispensable spaceport reports again.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>-1</Melee>
+            <Plants>-1</Plants>
+            <Crafting>4</Crafting>
+            <Intellectual>8</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_DC</defName>
+        <title>OA·The Temporarily Stationed Assault</title>
+        <titleShort>Assault Team Member</titleShort>
+        <description>[PAWN_nameDef] isn't part of the spaceport Assault team, but was temporarily assigned for an upcoming mission requiring rapid deployment.\n\nHaving spent most [PAWN_pronoun]'s life planetside, everything about the spaceport fascinates [PAWN_nameDef]. Even vacuum holds deadly allure - had the raiders not retrieved [PAWN_pronoun] wearing gravity belts during [PAWN_pronoun]'s accidental exposure.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>5</Melee>
+            <Shooting>7</Shooting>
+            <Medicine>2</Medicine>
+            <Artistic>-2</Artistic>
+            <Intellectual>-1</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Assault_Member</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_DD</defName>
+        <title>OA·Spaceport Assault Team Member</title>
+        <titleShort>Assault Team Member</titleShort>
+        <description>Spaceport Assault typically comprise space-born natives adapted to low/zero gravity.\n\nAs such, [PAWN_nameDef] particularly enjoys watching planetary raiders struggle during temporary assignments, especially when they accidentally drift into vacuum and need rescuing in [PAWN_pronoun]'s arms.\n\nBeyond routine security, [PAWN_nameDef]'s team serves as rapid responders when planetary forces cannot react in time - missions they consistently complete successfully.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>4</Melee>
+            <Shooting>8</Shooting>
+            <Plants>-2</Plants>
+            <Medicine>3</Medicine>
+            <Artistic>-2</Artistic>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Assault_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_DE</defName>
+        <title>OA·Shipboard Assault Team Member</title>
+        <titleShort>Assault Team Member</titleShort>
+        <description>Most Assault find shipboard escort duty tedious - but not [PAWN_nameDef].\n\nThe vast starscape, novel low-G training environments, and ships' luxurious dining halls all captivate [PAWN_nameDef] beyond measure. To [PAWN_pronoun], if paradise had names, they would be those of great starships.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>5</Melee>
+            <Shooting>6</Shooting>
+            <Cooking>1</Cooking>
+            <Medicine>2</Medicine>
+            <Artistic>-2</Artistic>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Assault_Member</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_DF</defName>
+        <title>OA·Spaceport Assault Commander</title>
+        <titleShort>Assault Captain</titleShort>
+        <description>Though nominally responsible for spaceport defense, [PAWN_nameDef] knows if enemies breach the护卫 fleet, [PAWN_pronoun]'s team likely won't turn the tide.\n\nThus [PAWN_nameDef] focuses daily on training [PAWN_pronoun]'s raiders to maintain combat efficiency in low gravity.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>6</Melee>
+            <Shooting>8</Shooting>
+            <Plants>-2</Plants>
+            <Medicine>2</Medicine>
+            <Artistic>-2</Artistic>
+            <Social>2</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Assault_Captain</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_DG</defName>
+        <title>OA·The Miracle-Seeking Crew</title>        <!-- 乐观 -->
+        <titleShort>Crew Member</titleShort>
+        <description>Have you imagined real Zerg swarms existing? Or creatures made of ice cream? These sci-fi concepts epitomize [PAWN_nameDef].\n\n"The universe is a miracle of miracles" - this quote from a novel perfectly summarizes [PAWN_nameDef]'s worldview. This thirst for wonders ultimately led [PAWN_pronoun] aboard Navigation ships, awaiting true cosmic marvels.</description>        <!--理论上，鸢尾兰的星港是能通过异常点进行小规模跃迁的，但考虑到玩家的接受程度还是不写在里面了吧。-->
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Plants>-2</Plants>
+            <Artistic>4</Artistic>
+            <Social>2</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_EA</defName>
+        <title>OA·The Ship's Duty Master</title>
+        <titleShort>Duty Master</titleShort>
+        <description>While labels rarely define people, [PAWN_nameDef] embodies [PAWN_pronoun]'s title so completely that it becomes highest praise rather than stereotype.\n\nWhere "Duty Master" might seem exaggerated for others, for [PAWN_nameDef] it simply describes [PAWN_pronoun]'s daily excellence.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Construction>2</Construction>
+            <Plants>-2</Plants>
+            <Crafting>4</Crafting>
+            <Social>2</Social>
+            <Intellectual>6</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Elite_Court_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li>
+                <defName Degree="1">NaturalMood</defName>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_EB</defName>
+        <title>OA·The Ship-Devoted Crew</title>
+        <titleShort>Crew Member</titleShort>
+        <description>Unlike those merely fulfilling duties, [PAWN_nameDef] genuinely loves [PAWN_pronoun]'s work. [PAWN_nameDef]'s bond with [PAWN_pronoun]'s ship defies description - perhaps best called unconditional devotion.\n\nThis passion makes [PAWN_nameDef]'s work impeccable, establishing [PAWN_pronoun] as one of the ship's most reliable hands.\n\nIf only [PAWN_pronoun] wouldn't keep calling the ship "[PAWN_pronoun]'s wife"...</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Construction>2</Construction>
+            <Plants>-2</Plants>
+            <Crafting>2</Crafting>
+            <Artistic>2</Artistic>
+            <Social>2</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li>
+                <defName>Asexual</defName>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_EC</defName>
+        <title>OA·The Celestial Augur</title>
+        <titleShort>Crew Member</titleShort>
+        <description>Humans forever chase mysterious concepts - like [PAWN_nameDef]'s obsession with astromancy. Perhaps due to [PAWN_pronoun]'s environment, [PAWN_nameDef]'s stellar studies take alarmingly practical turns. This dedication gives [PAWN_pronoun]'s navigation officers headaches - they now instinctively ask "[PAWN_nameDef]'s location?" whenever stars behave unusually.\n\nLook - Ursa Major's blinking again outside the viewport.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Plants>-2</Plants>
+            <Crafting>2</Crafting>
+            <Artistic>6</Artistic>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_ED</defName>
+        <title>OA·The Ship's Polymath</title>
+        <titleShort>Crew Member</titleShort>
+        <description>Though [PAWN_nameDef] believes [PAWN_pronoun] would be researching cutting-edge theories in the Research Department if not for family traditions, everyone can see [PAWN_nameDef]'s true passion lies with Navigation Department ships.\n\n[PAWN_nameDef] may make excuses or try to hide it, but the stack of spaceflight textbooks and novels by [PAWN_pronoun]'s bed speaks volumes.\n\nOf course, [PAWN_nameDef] will likely never admit this - at least not verbally.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Construction>3</Construction>
+            <Plants>-3</Plants>
+            <Crafting>3</Crafting>
+            <Medicine>3</Medicine>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Elite_Court_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li>
+                <defName>GreatMemory</defName>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_EE</defName>
+        <title>OA·The Veteran Mariner</title>
+        <titleShort>Crew Member</titleShort>
+        <description>If an excellent captain is a ship's soul, then veteran crew like [PAWN_nameDef] form its indispensable skeleton. The difference may not show in calm waters, but when true danger strikes, [PAWN_nameDef] consistently proves among the ship's most reliable hands.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Construction>3</Construction>
+            <Plants>-3</Plants>
+            <Crafting>4</Crafting>
+            <Intellectual>5</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Elite_Court_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_EF</defName>        <!--意志坚定-->        <!--速学者-->
+        <title>OA·Crew of a Seafaring Dynasty</title>
+        <titleShort>Crew Member</titleShort>
+        <description>The Navigation Department values heritage and honor, and as scion of a typical department family, [PAWN_nameDef]'s presence aboard its ships seems both natural and inevitable.\n\nThis inherited honor hasn't bred arrogance, but rather become the foundation for [PAWN_nameDef]'s rigorous self-discipline. To [PAWN_pronoun], honor is both reward and irrevocable duty.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>2</Melee>
+            <Shooting>2</Shooting>
+            <Construction>4</Construction>
+            <Plants>-4</Plants>
+            <Crafting>4</Crafting>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Elite_Court_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li>
+                <defName Degree="1">Nerves</defName>
+            </li>
+            <li>
+                <defName>FastLearner</defName>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_EG</defName>
+        <title>OA·The EVA Specialist</title>
+        <titleShort>Crew Member</titleShort>
+        <description>Even in the technologically advanced Oberonia Aurea Empire, extravehicular activity remains risky. Yet like most Navigation Department attendants, [PAWN_nameDef] considers this not a hazard to avoid, but a badge of honor and capability. During EVA operations, [PAWN_nameDef]'s small figure can always be glimpsed moving across the vast hull.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>2</Melee>
+            <Construction>4</Construction>
+            <Plants>-2</Plants>
+            <Crafting>2</Crafting>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_FA</defName>
+        <title>OA·The Ship's Engineer</title>
+        <titleShort>Technician</titleShort>
+        <description>For interstellar vessels, accidents in the void are far deadlier than planetary maritime disasters. Where oceanic shipwrecks are dramatic tragedies, stellar mishaps become silent sighs.\n\nTo prevent such catastrophes, [PAWN_nameDef] maintains ships with meticulous care. Uneventful voyages may seem dull, but they beat terrifying odysseys.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>0</Shooting>
+            <Construction>3</Construction>
+            <Plants>-2</Plants>
+            <Crafting>5</Crafting>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_FB</defName>        <!--工作勤奋-->
+        <title>OA·The Diligent Duty Officer</title>
+        <titleShort>Crew Member</titleShort>
+        <description>Data logging, instrument checks, course verification, spaceport communications... When hundreds of such tasks accumulate, even conscientious crew like [PAWN_nameDef] struggle. Yet though exhausted, [PAWN_nameDef] never considers quitting. Like [PAWN_pronoun]'s steadfast ship, [PAWN_nameDef] quietly upholds [PAWN_pronoun]'s duties.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Construction>1</Construction>
+            <Plants>-2</Plants>
+            <Crafting>1</Crafting>
+            <Medicine>1</Medicine>
+            <Social>3</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li>
+                <defName Degree="1">Industriousness</defName>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_FC</defName>
+        <title>OA·The Steady Hand</title>        <!-- 舰船上无过就是最大的功 -->
+        <titleShort>Crew Member</titleShort>
+        <description>[PAWN_nameDef]'s life follows predictable rhythms: rising, working, relaxing, and sleeping with clockwork regularity. This stability means [PAWN_nameDef] rarely delivers spectacular achievements - but also never causes headaches.\n\nFor a starship, uneventful competence is the greatest merit.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Construction>2</Construction>
+            <Plants>-2</Plants>
+            <Crafting>2</Crafting>
+            <Social>3</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_FD</defName>
+        <title>OA·The Star Sector Celebrity</title>
+        <titleShort>Crew Member</titleShort>
+        <description>Even veteran crews' social circles rarely extend beyond their ships - but [PAWN_nameDef]'s connections seem improbably vast.\n\nNo one knows how [PAWN_pronoun] manages it, but [PAWN_nameDef] has made both [PAWN_pronoun]self and [PAWN_pronoun]'s ship famous throughout the sector. While the attention sometimes vexes crewmates, their colleagues' enthusiastic admiration transforms any annoyance into genuine pride.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Construction>2</Construction>
+            <Plants>-2</Plants>
+            <Crafting>2</Crafting>
+            <Social>6</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li>
+                <defName Degree="2">Beauty</defName>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_FE</defName>        <!--信念坚定-->
+        <title>OA·The Current Defier</title>
+        <titleShort>Crew Member</titleShort>
+        <description>"Calm seas never made skilled sailors" has always been [PAWN_nameDef]'s creed. No danger can shake [PAWN_pronoun]'s resolve. To [PAWN_nameDef], peaceful voyages are merely dull obligations - only perilous journeys truly stir [PAWN_pronoun]'s soul.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>2</Melee>
+            <Construction>4</Construction>
+            <Plants>-2</Plants>
+            <Crafting>4</Crafting>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li>
+                <defName>Faith</defName>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_FF</defName>        <!--直来直往-->
+        <title>OA·The Exact Technician</title>
+        <titleShort>Crew Member</titleShort>
+        <description>To crewmates, [PAWN_nameDef] isn't the easiest colleague during shifts. [PAWN_pronoun] strictly points out every mistake, even trivial ones, making coworkers feel tremendous pressure.\n\nYet after merciless criticism, [PAWN_nameDef] is always first to help fix errors. To [PAWN_pronoun], solving and preventing mistakes matters far more than assigning blame.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Construction>5</Construction>
+            <Plants>-2</Plants>
+            <Crafting>5</Crafting>
+            <Social>-2</Social>
+            <Intellectual>6</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Elite_Court_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li>
+                <defName>Abrasive</defName>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_FG</defName>
+        <title>OA·The Romantic Voyager</title>
+        <titleShort>Crew Member</titleShort>
+        <description>To [PAWN_nameDef], voyages aren't mere point-to-point travel, but the wonders witnessed along the way.\n\nWhether stellar spectacles or ice giants' dreamlike beauty, these sights entrance [PAWN_nameDef]. Strict training produces competent spacers, but only love for the cosmos births true navigators.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Construction>2</Construction>
+            <Plants>-2</Plants>
+            <Crafting>2</Crafting>
+            <Artistic>6</Artistic>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Elite_Court_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_GA</defName>
+        <title>OA·The Viewport Observer</title>        <!-- 懦弱 -->        <!--崩溃艺术家-->
+        <titleShort>Crew Member</titleShort>
+        <description>Like most Navigation Department attendants, [PAWN_nameDef] loves the starry void - but unlike them, [PAWN_pronoun] lacks courage to venture outside.\n\nThis hesitation keeps [PAWN_nameDef] watching through viewports as colleagues conduct EVAs, returning to work after silent envy.\n\nPerhaps someday [PAWN_nameDef] will cross that threshold to embrace what [PAWN_pronoun] loves. This moment may come far in the future - or perhaps tomorrow.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>-4</Melee>
+            <Plants>-2</Plants>
+            <Crafting>4</Crafting>
+            <Artistic>5</Artistic>
+            <Social>2</Social>
+            <Intellectual>5</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li>
+                <defName>Wimp</defName>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_GB</defName>
+        <title>OA·The Chronicler of Voyage Logs</title>
+        <titleShort>Logkeeper</titleShort>
+        <description>Though most voyage logs in the interstellar age can be automatically backed up through data recording, many Navigation Department attendants still maintain the habit of handwritten logs.\n\nTo [PAWN_nameDef], voyage logs are not mere records but affirmations of honor and self-worth. Each page's ink-black handwriting captures not just information, but the essence of every past struggle.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Plants>-2</Plants>
+            <Artistic>2</Artistic>
+            <Social>2</Social>
+            <Intellectual>6</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_GC</defName>
+        <title>OA·The Lucky Star of Voyages</title>        <!-- 乐天派 -->
+        <titleShort>Lucky Navigator</titleShort>
+        <description>Navigation Department attendants require not just exceptional skills, steadfast resolve, and rational judgment—but also something far more elusive: luck.\n\nAs someone recognized since childhood as a lucky charm, [PAWN_nameDef] was warmly welcomed by every navigation officer upon joining the department. No one can explain why, but wherever [PAWN_nameDef] goes, good fortune follows.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Construction>3</Construction>
+            <Plants>-2</Plants>
+            <Crafting>3</Crafting>
+            <Social>6</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Elite_Court_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li>
+                <defName Degree="2">NaturalMood</defName>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_GD</defName>
+        <title>OA·The Night Shift Crew</title>        <!-- 夜猫子 -->
+        <titleShort>Crew Member</titleShort>
+        <description>A ship does not stop its journey for human schedules—thus, night shift crew are indispensable.\n\nAs a night shift worker, [PAWN_nameDef]'s duties differ little from regular crew, yet the pressure is amplified by disrupted circadian rhythms. Especially after a colleague began showing signs of sleepwalking, this already demanding role gained an extra layer of headache-inducing—yet oddly amusing—responsibility.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Construction>2</Construction>
+            <Plants>-2</Plants>
+            <Crafting>2</Crafting>
+            <Medicine>2</Medicine>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li>
+                <defName>NightOwl</defName>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+        <linkedBackstory>OA_RK_NEW_Backstory_B_A</linkedBackstory>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_GE</defName>
+        <title>OA·The Dream Voyager</title>        <!-- 夜猫子 -->
+        <titleShort>Sleepwalking Crew</titleShort>
+        <description>[PAWN_nameDef] once believed [PAWN_pronoun]'s crew career was stable yet unremarkable—until the night [PAWN_pronoun] sleepwalked and altered the ship's course, causing an unintended detour.\n\nSince that day, [PAWN_nameDef]'s visibility skyrocketed. Perhaps [PAWN_pronoun]'s career remains steady, but [PAWN_pronoun] will never again fade into the background as before.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Construction>1</Construction>
+            <Plants>-2</Plants>
+            <Crafting>1</Crafting>
+            <Medicine>2</Medicine>
+            <Artistic>4</Artistic>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li>
+                <defName>NightOwl</defName>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_GF</defName>
+        <title>OA·The Rescuer Among Stars</title>        <!-- 信念坚定 -->
+        <titleShort>Search-and-Rescue Crew</titleShort>
+        <description>In the vast, desolate sea of stars, a ship's malfunction often spells doom for its entire crew—yet selfless beings like [PAWN_nameDef] fundamentally change this bleak reality.\n\nNo matter the star sector or shipping lane, whenever a distress signal appears, [PAWN_nameDef] will inevitably arrive in a rescue craft.\n\n"No one should be abandoned. Not by unavoidable disasters, nor by sleepwalking-induced mishaps," [PAWN_nameDef] declares.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Plants>-2</Plants>
+            <Crafting>2</Crafting>
+            <Medicine>2</Medicine>
+            <Social>4</Social>
+            <Intellectual>5</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_GG</defName>
+        <title>OA·The Crew on Leave</title>
+        <titleShort>Crew Member</titleShort>
+        <description>Though drawn to the stars, endless voyages would break any Navigation Department attendant's spirit. Thus, each receives brief leave after completing a journey—and [PAWN_nameDef] is currently on such respite. To unwind, [PAWN_pronoun] chose to visit this long-heard-of but never-before-seen star system, hoping for fresh experiences.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Plants>-2</Plants>
+            <Artistic>2</Artistic>
+            <Social>3</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_AAA</defName>
+        <title>OA·The Free-Spirited Crew</title>
+        <titleShort>Crew Member</titleShort>
+        <description>In the honor-driven Navigation Department, most diligently fulfill assigned roles to prove their worth—but [PAWN_nameDef] is an exception.\n\nA free-spirited attendant, [PAWN_nameDef]'s concept of freedom differs from laziness, yet [PAWN_pronoun] resists taking orders.\n\nThus, [PAWN_nameDef] is usually permitted to contribute freely through [PAWN_pronoun]'s skills—and fortunately, [PAWN_pronoun] has never betrayed this trust.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>3</Shooting>
+            <Construction>3</Construction>
+            <Plants>-2</Plants>
+            <Crafting>3</Crafting>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Guard_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_AAB</defName>
+        <title>OA·The Stellar Exploration Apprentice</title>        <!-- 后续为非官方船员 -->
+        <titleShort>Cadet Crew</titleShort>
+        <description>Interstellar navigation is arduous, skill-intensive work. For most citizens without specialized training, becoming crew would be impossible.\n\nThus, though not formally joining the court, [PAWN_nameDef] enrolled in the Navigation Department's training program. While less exciting than imagined, [PAWN_nameDef] persists in learning.\n\nAfter all, stars begin as embers, and seeds slumber in dust.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>2</Shooting>
+            <Construction>2</Construction>
+            <Plants>-1</Plants>
+            <Crafting>2</Crafting>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Civilian</li>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Navigate_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_AAC</defName>
+        <title>OA·The Starfarer</title>        <!-- 自由船员 -->
+        <titleShort>Crew Member</titleShort>
+        <description>Not everyone wishes to join the rule-bound Navigation Department—[PAWN_nameDef] prefers private ships.\n\nAboard these vessels, [PAWN_nameDef] often provides navigation assistance as an equal, but mostly [PAWN_pronoun] simply admires the journey's vistas. For [PAWN_nameDef] sails not for fame or profit, but for pure love of the stars.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>1</Shooting>
+            <Construction>2</Construction>
+            <Plants>-2</Plants>
+            <Crafting>2</Crafting>
+            <Artistic>4</Artistic>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Civilian</li>
+            <li>OA_RK_Armed_Civilian</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_AAD</defName>
+        <title>OA·The Merchant Crew</title>        <!-- 物资运输，依然是良善倾向 -->
+        <titleShort>Crew Member</titleShort>
+        <description>Though the Navigation Department manages imperial resource flows, finer details and interplanetary specialty trades still rely on private merchant crews like [PAWN_nameDef].\n\nMost such crew work less for payment than to share their homeworld's specialties with other planets. It's these simple, sincere acts of goodwill that unite the Oberonia Aurea Empire across stellar distances—preventing fragmentation into chaotic isolation.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>1</Shooting>
+            <Construction>2</Construction>
+            <Plants>-2</Plants>
+            <Crafting>2</Crafting>
+            <Social>5</Social>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Civilian</li>
+            <li>OA_RK_Armed_Civilian</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_AAE</defName>
+        <title>OA·The Glorious Captain</title>        <!-- 家族荣耀，远行者传统，私人舰船 -->        <!--速学者，意志坚定-->
+        <titleShort>Crew Member</titleShort>
+        <description>[PAWN_nameDef] was destined for greatness from birth. Thanks to a family tradition blending the Navigation Department and Farstrider culture, [PAWN_nameDef] displayed extraordinary courage and an insatiable thirst for exploration and progress from a young age.\n\nUpon reaching adulthood, drawing from childhood experiences learning navigation skills from [PAWN_nameDef]'s father and a natural talent for sailing evident in youth, [PAWN_nameDef] officially received a notice from the Navigation Department on [PAWN_pronoun]'s coming-of-age day, seamlessly becoming an honorary route explorer outside the department's formal roster.\n\nNow, [PAWN_nameDef] is planning a new expedition. For an outstanding captain, only a thrilling adventure is worthy of the honor [PAWN_pronoun] deserves.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Plants>-4</Plants>
+            <Crafting>4</Crafting>
+            <Medicine>2</Medicine>
+            <Social>6</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li>
+                <defName>Faith</defName>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_AAF</defName>
+        <title>OA·The Loyal Crew Member</title>        <!-- 上一人的延伸 -->
+        <titleShort>Crew Member</titleShort>
+        <description>[PAWN_nameDef]'s mind was always filled with tales of heroism, driving [PAWN_pronoun] to constantly improve [PAWN_pronoun]self in hopes of being noticed and invited to participate in legendary stories one day.\n\nFortunately, [PAWN_nameDef] eventually met the captain worthy of [PAWN_pronoun]'s lifelong devotion.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Construction>4</Construction>
+            <Plants>-4</Plants>
+            <Social>4</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Armed_Civilian</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li>
+                <defName>Faith</defName>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_AAG</defName>
+        <title>OA·The Alien Photographer</title>        <!-- 非船员 -->
+        <titleShort>Photographer</titleShort>
+        <description>[PAWN_nameDef] loves capturing eternal memories through photographs. To document vanishing landscapes, [PAWN_nameDef] is always transferring to new ships at spaceports, unwilling to waste any time. After all, [PAWN_pronoun] has plenty of time, but those lost scenes can never be recovered.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>1</Shooting>
+            <Plants>-2</Plants>
+            <Artistic>5</Artistic>
+            <Social>2</Social>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Civilian</li>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OARatkin_Traveller</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_ABA</defName>
+        <title>OA·The Navigator of Cotton Candy Star</title>        <!-- 追寻着童话中棉花糖一样甜蜜的星球的航海家。完全的童话，认清现实后依然有着浪漫幻想。 -->        <!--乐天派-->
+        <titleShort>Cotton Candy Navigator</titleShort>
+        <description>[PAWN_nameDef]'s childhood was spent immersed in one fairy tale after another. If asked which story [PAWN_pronoun] loved most, it would undoubtedly be the tale of the cotton candy planet.\n\nAs time passed, [PAWN_nameDef] gradually understood the nature of fairy tales. Unlike most, however, [PAWN_pronoun] grew even fonder of that story and vowed to find the planet as sweet as cotton candy.\n\nThough [PAWN_nameDef] has yet to discover that planet, the genuine joy and sweetness [PAWN_pronoun] feels with each new planetary discovery is undeniable. Perhaps the cotton candy planet doesn't exist in the universe—or perhaps [PAWN_nameDef] has already found the "cotton candy planet" in [PAWN_pronoun]'s heart.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Construction>2</Construction>
+            <Plants>-4</Plants>
+            <Crafting>2</Crafting>
+            <Medicine>2</Medicine>
+            <Artistic>6</Artistic>
+            <Social>2</Social>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Elite_Court_Member</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li>
+                <defName>Faith</defName>
+            </li>
+            <li>
+                <defName Degree="1">NaturalMood</defName>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_ABB</defName>
+        <title>OA·The Gliding Explorer</title>        <!-- 意志如钢，坚韧 -->
+        <titleShort>Explorer</titleShort>
+        <description>In most people's minds, exploration is limited to the ground, but aerial explorers like [PAWN_nameDef] shatter that notion.\n\n[PAWN_nameDef] is no conventional Farstrider. On the contrary, [PAWN_pronoun] specializes in unique exploration techniques, with paragliding being the most iconic.\n\nWhen soaring through the sky, facing the unknown terrain below, [PAWN_nameDef] truly embodies the spirit of exploration—not through routine or steady progress, but through the courage to land in the unknown time and again, always standing tall.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>4</Melee>
+            <Mining>2</Mining>
+            <Crafting>2</Crafting>
+            <Medicine>2</Medicine>
+            <Intellectual>2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OARatkin_Traveller</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_ABC</defName>
+        <title>OA·The Farstrider of Alien Worlds</title>
+        <titleShort>Farstrider</titleShort>
+        <description>[PAWN_nameDef] dislikes re-exploring the known, preferring the pure thrill of the unknown. Thus, [PAWN_pronoun] is always venturing to newly discovered planets. The next expedition may be perilous, but to [PAWN_nameDef], that's the true joy of exploration.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Melee>3</Melee>
+            <Plants>3</Plants>
+            <Animals>1</Animals>
+            <Intellectual>3</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OARatkin_Traveller</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_ABD</defName>
+        <title>OA·The Spaceborne Farstrider</title>
+        <titleShort>Farstrider</titleShort>
+        <description>Though a Farstrider, as a native of spaceports, [PAWN_nameDef] differs slightly from [PAWN_pronoun]'s peers.\n\nWhether in depth of thought, understanding of space, or caution and awareness of alien worlds, [PAWN_nameDef] often stands out among [PAWN_pronoun]'s kind.\n\nOf course, [PAWN_nameDef] also excels in one other area: an acute discomfort with planetary gravity.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Shooting>4</Shooting>
+            <Medicine>2</Medicine>
+            <Intellectual>4</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OARatkin_Traveller</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_ABE</defName>
+        <title>OA·The Diligent Citizen of Spaceports</title>        <!-- 有着规律作息与朝气 -->
+        <titleShort>Citizen</titleShort>
+        <description>One's environment shapes their thoughts and logic, and [PAWN_nameDef] is living proof of this theory.\n\nAs a native of spaceports, [PAWN_nameDef]'s daily life starkly contrasts with other Oberonia Aurea citizens. Thanks to the convenience and bustling trade of spaceports, [PAWN_nameDef] encounters something new almost every day. This life of constant surprises keeps [PAWN_pronoun] motivated and endlessly inspired, making [PAWN_nameDef] a vital link in cultural dissemination and a minor celebrity in artistic creation.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Crafting>3</Crafting>
+            <Artistic>3</Artistic>
+            <Social>1</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Civilian</li>
+            <li>OA_RK_Armed_Civilian</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_ABF</defName>
+        <title>OA·The Artisan of Space</title>        <!-- 常用太空中的东西作为原材料，因此成为科研部的常态关注者与吐槽者，防止他把某些太空的重要样本也拿去雕刻 -->
+        <titleShort>Spaceport Artisan</titleShort>
+        <description>Stone? Carving material. Meteorite? Carving material. Precious meteorite specimen? Still carving material. [PAWN_nameDef] is so consumed by [PAWN_pronoun]'s artistic pursuits that even a neutron star might just be a currently unusable carving treasure in [PAWN_pronoun]'s eyes.\n\nThis fervent, pure artistic drive has made [PAWN_nameDef] a renowned master sculptor—but also the Research Department's archnemesis, especially when that rare meteorite fragment from an unknown star system lands on [PAWN_pronoun]'s carving table.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Mining>2</Mining>
+            <Crafting>2</Crafting>
+            <Artistic>8</Artistic>
+            <Social>-2</Social>
+            <Intellectual>-2</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Civilian</li>
+            <li>OA_RK_Armed_Civilian</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+
+    <AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_ABG</defName>
+        <title>OA·The Little Shopkeeper of Spaceports</title>        <!-- 善于通过与航船贸易卖新东西，温和的见识传播者 -->
+        <titleShort>Shopkeeper</titleShort>
+        <description>Life in spaceports may have its inconveniences, but their unparalleled frequency of goods exchange makes up for it—especially for small shop owners like [PAWN_nameDef].\n\nBy trading with merchant ships from all star sectors, [PAWN_nameDef] always stocks [PAWN_pronoun]'s little shop with unique and novel items. While most transactions are routine, if a curious customer asks about an item's origin or cultural significance, [PAWN_nameDef] won't hesitate to explain for half an hour.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+            <Crafting>1</Crafting>
+            <Artistic>2</Artistic>
+            <Social>5</Social>
+            <Intellectual>1</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Civilian</li>
+            <li>OA_RK_Armed_Civilian</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">
+                <defName>OARK_Trait_SpaceTraveler</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_ACA</defName>
+        <title>OA·OA·The Calculating Child</title>
+        <titleShort>Child</titleShort>
+        <description>A long time ago, [PAWN_nameDef] was not so sensitive to numbers. However, ever since [PAWN_possessive] parents, before leaving on a long journey, failed to leave enough food for the young [PAWN_pronoun] due to a miscalculation, which directly led to [PAWN_nameDef] having to survive by eating the domesticated gold iris plants, [PAWN_pronoun] has never trusted anyone else's calculations again.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Childhood</slot>
+        <skillGains>
+			<Plants>2</Plants>
+            <Social>-2</Social>
+            <Intellectual>7</Intellectual>
+        </skillGains>
+        <spawnCategories>
+            <li>OA_RK_Civilian</li>
+            <li>OA_RK_Armed_Civilian</li>
+            <li>OA_RK_Tourist</li>
+            <li>OARatkin_Traveller</li>
+            <li>OA_RK_Court_Member</li>
+            <li>OA_RK_Gongye_Member</li>
+            <li>OA_RK_Jishu_Member</li>
+            <li>OA_RK_Navigate_Member</li>
+            <li>OA_RK_Elite_Court_Member</li>
+            <li>OA_RK_Assault_Captain</li>
+            <li>OA_RK_Assault_Member</li>
+            <li>OA_RK_Assault_Paramedics</li>
+            <li>OA_RK_Guard_Member</li>
+            <li>OA_RK_Guard_Captain</li>
+			<li>OA_RK_Elite_Court_Member_B</li>
+        </spawnCategories>
+        <forcedTraitsChance>
+            <li>
+                <defName Degree="2">Nerves</defName>
+            </li>
+        </forcedTraitsChance>
+    </AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="BaseOberoniaAureaRatkinBackStory">
+        <defName>OA_RK_NEW_Backstory_B_ACB</defName>
+        <title>OA·OA·The Unerring Coordinator</title>
+        <titleShort>Coordinator</titleShort>
+        <description>[PAWN_nameDef] is, by any measure, an exceptional coordinator, particularly due to [PAWN_possessive] utter intolerance for vague and inaccurate data.\n\n[PAWN_nameDef] has a profound understanding of the duties of the Coordination Department. [PAWN_pronoun] knows that every piece of data corresponds to a link in the empire's administrative chain, and any negligence could lead to a disaster. Therefore, [PAWN_pronoun] always meticulously verifies every piece of data and has never made an error.</description>
+        <bodyTypeMale>Thin</bodyTypeMale>
+        <bodyTypeFemale>Thin</bodyTypeFemale>
+        <slot>Adulthood</slot>
+        <skillGains>
+			<Crafting>4</Crafting>
+            <Intellectual>8</Intellectual>
+        </skillGains>
+        <spawnCategories>
+			<li>OA_RK_Elite_Court_Member</li>
+			<li>OA_RK_Elite_Court_Member_B</li>
+        </spawnCategories>
+    </AlienRace.AlienBackstoryDef>
+</Defs>

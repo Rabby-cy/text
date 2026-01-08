@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OA_RK_Professional_Uniforms_D.label>突襲作戰制服</OA_RK_Professional_Uniforms_D.label>
+    <OA_RK_Professional_Uniforms_D.description>金鸢尾蘭突襲隊統壹采用的制服，特質的致密面料擁有著優越的保護性，並且可以有效隔熱。裙子運用了易撕裂的止血面料制作，戰時可以撕下用作繃帶。\n\n穿戴時流血速度降低至75%。</OA_RK_Professional_Uniforms_D.description>
+
+    <OA_RK_Sandwich_C.label>降沖擊結構背心</OA_RK_Sandwich_C.label>
+    <OA_RK_Sandwich_C.description>金鸢尾蘭突襲隊的制式裝備。整體采用了極爲堅韌的防彈面料制作，背心內部擁有壹系列精密的緩沖結構設計，可以極大幅度的緩解受到的沖擊與傷害。\n\n裝備時傷害承受降低爲80%。</OA_RK_Sandwich_C.description>
+
+    <OA_RK_Windbreaker_B.label>突襲作戰風衣</OA_RK_Windbreaker_B.label>
+    <OA_RK_Windbreaker_B.description>金鸢尾蘭突襲隊所裝備的制式風衣，內部疊層的設計可以有效的緩解沖擊，特質的面料能夠反制常規的探測方式。</OA_RK_Windbreaker_B.description>
+
+    <!-- New Armor -->
+    <OA_RK_New_Windbreaker_E.label>突襲作戰裙甲</OA_RK_New_Windbreaker_E.label>
+    <OA_RK_New_Windbreaker_E.description>金鸢尾蘭帝國爲高動亂地區的突襲隊所研發的輕型甲胄，相比起風衣擁有更加可靠的防護性。\n該護甲在主要部位配備了高強度的特制輕型裝甲板，能夠防護住小口徑槍械的火力，而未附著裝甲板的部分也采用專用的致密纖維制成。\n此外，該護甲還配備了兩把壹次性榴彈發射器，在小範圍的高強度作戰環境中表現尤爲出色。</OA_RK_New_Windbreaker_E.description>
+
+    <OA_RK_New_Windbreaker_FangzhiBUGdehouzhui_ACC.label>重裝突襲作戰護甲</OA_RK_New_Windbreaker_FangzhiBUGdehouzhui_ACC.label>
+    <OA_RK_New_Windbreaker_FangzhiBUGdehouzhui_ACC.description>金鳶尾蘭帝國的新式裝甲，結合了尖端的紡織工藝，夾層減震設計與內置神經回路所製成，在提供出色防護性的同時對個體的負擔也顯著下降。\n\n得益於尖端纖維與復雜減震設計的影響，裝備時承傷系數乘以75%。\n該裝甲配備了兩把火箭榴彈發射器，可提供小範圍火力壓製。</OA_RK_New_Windbreaker_FangzhiBUGdehouzhui_ACC.description>
+
+    <OA_RK_New_Windbreaker_FangzhiBUGdehouzhui.label>重裝突襲作戰護甲（無披風）</OA_RK_New_Windbreaker_FangzhiBUGdehouzhui.label>
+    <OA_RK_New_Windbreaker_FangzhiBUGdehouzhui.description>金鳶尾蘭帝國的新式裝甲，結合了尖端的紡織工藝，夾層減震設計與內置神經回路所製成，在提供出色防護性的同時對個體的負擔也顯著下降。\n\n得益於尖端纖維與復雜減震設計的影響，裝備時承傷系數乘以75%。\n該裝甲配備了兩把火箭榴彈發射器，可提供小範圍火力壓製。</OA_RK_New_Windbreaker_FangzhiBUGdehouzhui.description>
+
+    <OA_RK_New_Windbreaker_G.label>全防護突襲裝甲</OA_RK_New_Windbreaker_G.label>
+    <OA_RK_New_Windbreaker_G.description>金鳶尾蘭帝國在結合了銀河系動力甲技術後，結合自身工藝研發的重型裝甲。\n這種裝甲擁有極為優越的防護性，足以被稱之為不倒之塔，然而過度的防護性也同樣對穿戴者造成了顯著的影響與負擔。\n\n得益於那厚重的裝甲板以及內置的降沖擊設計，穿戴時承傷系數降低為70%，心情略微下降。</OA_RK_New_Windbreaker_G.description>
+
+</LanguageData>

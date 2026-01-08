@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+<!-- UnstableChargeDriver -->
+<SoundDef>
+    <defName>OA_RKSO_UnstableChargeDriverAim</defName>
+    <sustain>true</sustain>
+    <context>MapOnly</context>
+    <maxSimultaneous>2</maxSimultaneous>
+    <priorityMode>PrioritizeNearest</priorityMode>
+    <subSounds>
+        <li>
+            <tempoAffectedByGameSpeed>true</tempoAffectedByGameSpeed>
+            <grains>
+                <li Class="AudioGrain_Clip">
+                    <clipPath>Weapons/Aim/UnstableChargeAim</clipPath>
+                </li>
+            </grains>
+            <volumeRange>10.0~15.0</volumeRange>
+            <pitchRange>0.9~1.1</pitchRange>
+        </li>
+    </subSounds>
+</SoundDef>
+
+<!-- UnstableChargeThrower -->
+<SoundDef>
+    <defName>OA_RKSO_UnstableChargeThrowerAim</defName>
+    <sustain>true</sustain>
+    <context>MapOnly</context>
+    <maxSimultaneous>2</maxSimultaneous>
+    <priorityMode>PrioritizeNearest</priorityMode>
+    <subSounds>
+        <li>
+            <tempoAffectedByGameSpeed>true</tempoAffectedByGameSpeed>
+            <grains>
+                <li Class="AudioGrain_Clip">
+                    <clipPath>Weapons/Aim/UnstableChargeAim</clipPath>
+                </li>
+            </grains>
+            <volumeRange>10.0~15.0</volumeRange>
+            <pitchRange>1.1~1.4</pitchRange>
+        </li>
+    </subSounds>
+</SoundDef>
+
+</Defs>

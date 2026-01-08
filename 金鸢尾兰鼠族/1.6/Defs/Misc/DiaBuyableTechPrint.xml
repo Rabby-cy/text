@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <OberoniaAurea.DiaBuyableTechPrintDef>
+        <defName>OA_RK_Electrical_System_B</defName>
+        <researchProject>OA_RK_Electrical_System_B</researchProject>
+        <price>1500</price>
+        <gravTechAssistPoints>100</gravTechAssistPoints>
+    </OberoniaAurea.DiaBuyableTechPrintDef>
+
+    <OberoniaAurea.DiaBuyableTechPrintDef>
+        <defName>OA_RK_EMP_Building</defName>
+        <researchProject>OA_RK_EMP_Building</researchProject>
+        <price>1500</price>
+        <gravTechAssistPoints>100</gravTechAssistPoints>
+    </OberoniaAurea.DiaBuyableTechPrintDef>
+
+    <OberoniaAurea.DiaBuyableTechPrintDef>
+        <defName>OA_RK_Weapon_C</defName>
+        <researchProject>OA_RK_Weapon_C</researchProject>
+        <price>2800</price>
+        <gravTechAssistPoints>190</gravTechAssistPoints>
+    </OberoniaAurea.DiaBuyableTechPrintDef>
+
+    <OberoniaAurea.DiaBuyableTechPrintDef>
+        <defName>OA_RK_Weapon_D</defName>
+        <researchProject>OA_RK_Weapon_D</researchProject>
+        <price>3250</price>
+        <allianceDuration>90</allianceDuration>
+        <gravTechAssistPoints>220</gravTechAssistPoints>
+    </OberoniaAurea.DiaBuyableTechPrintDef>
+
+    <OberoniaAurea.DiaBuyableTechPrintDef>
+        <defName>OA_RK_Weapon_H</defName>
+        <researchProject>OA_RK_Weapon_H</researchProject>
+        <price>3800</price>
+        <allianceDuration>120</allianceDuration>
+        <royalTitleDef>OA_RK_Title_B</royalTitleDef>
+        <gravTechAssistPoints>255</gravTechAssistPoints>
+    </OberoniaAurea.DiaBuyableTechPrintDef>
+
+    <OberoniaAurea.DiaBuyableTechPrintDef>
+        <defName>OA_RK_Weapon_E</defName>
+        <researchProject>OA_RK_Weapon_E</researchProject>
+        <price>3800</price>
+        <allianceDuration>120</allianceDuration>
+        <royalTitleDef>OA_RK_Title_B</royalTitleDef>
+        <gravTechAssistPoints>255</gravTechAssistPoints>
+    </OberoniaAurea.DiaBuyableTechPrintDef>
+
+    <OberoniaAurea.DiaBuyableTechPrintDef>
+        <defName>OA_RK_Apparel_C</defName>
+        <researchProject>OA_RK_Apparel_C</researchProject>
+        <price>3250</price>
+        <allianceDuration>90</allianceDuration>
+        <royalTitleDef>OA_RK_Title_B</royalTitleDef>
+        <gravTechAssistPoints>220</gravTechAssistPoints>
+    </OberoniaAurea.DiaBuyableTechPrintDef>
+
+    <OberoniaAurea.DiaBuyableTechPrintDef>
+        <defName>OA_RK_Apparel_E</defName>
+        <researchProject>OA_RK_Apparel_E</researchProject>
+        <price>2500</price>
+        <allianceDuration>60</allianceDuration>
+        <royalTitleDef>OA_RK_Title_A</royalTitleDef>
+        <gravTechAssistPoints>170</gravTechAssistPoints>
+    </OberoniaAurea.DiaBuyableTechPrintDef>
+
+    <OberoniaAurea.DiaBuyableTechPrintDef>
+        <defName>OA_RK_Apparel_G</defName>
+        <researchProject>OA_RK_Apparel_G</researchProject>
+        <price>3500</price>
+        <allianceDuration>90</allianceDuration>
+        <royalTitleDef>OA_RK_Title_B</royalTitleDef>
+        <gravTechAssistPoints>235</gravTechAssistPoints>
+    </OberoniaAurea.DiaBuyableTechPrintDef>
+
+    <OberoniaAurea.DiaBuyableTechPrintDef>
+        <defName>OA_RK_Apparel_F</defName>
+        <researchProject>OA_RK_Apparel_F</researchProject>
+        <price>3800</price>
+        <allianceDuration>120</allianceDuration>
+        <royalTitleDef>OA_RK_Title_C</royalTitleDef>
+        <gravTechAssistPoints>255</gravTechAssistPoints>
+    </OberoniaAurea.DiaBuyableTechPrintDef>
+
+    <OberoniaAurea.DiaBuyableTechPrintDef>
+        <defName>OA_RK_Ningguangnuanhui</defName>
+        <researchProject>OA_RK_Ningguangnuanhui</researchProject>
+        <price>2200</price>
+        <allianceDuration>60</allianceDuration>
+        <royalTitleDef>OA_RK_Title_B</royalTitleDef>
+        <gravTechAssistPoints>150</gravTechAssistPoints>
+    </OberoniaAurea.DiaBuyableTechPrintDef>
+
+</Defs>

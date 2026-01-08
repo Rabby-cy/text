@@ -1,0 +1,162 @@
+﻿<Defs>
+	<ThingCategoryDef>
+		<defName>Ammo35x181mmUnstableCharged</defName>
+		<label>35x181mm Unstable Charged</label>
+		<parent>AmmoAdvanced</parent>
+		<iconPath>UI/Icons/ThingCategories/CaliberChargeLarge</iconPath>
+	</ThingCategoryDef>
+
+	<!--  ==================== AmmoSet ==========================  -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_35x181mmUnstableCharged</defName>
+		<label>35x181mm Unstable Charged</label>
+		<ammoTypes>
+			<Ammo_35x181mmUnstableCharged>Bullet_35x181mmUnstableCharged</Ammo_35x181mmUnstableCharged>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+	<!--  ==================== Ammo ==========================  -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" Name="35x181mmUnstableChargedBase" ParentName="SpacerMediumAmmoBase" Abstract="True">
+		<description>terrifying giant charged shot ammo used in Cataphract Centipede's weapons.</description>
+		<statBases>
+			<Mass>0.129</Mass>
+			<Bulk>0.17</Bulk>
+		</statBases>
+		<thingCategories>
+			<li>Ammo35x181mmUnstableCharged</li>
+		</thingCategories>
+		<tradeTags>
+			<li>CE_AutoEnableTrade_Sellable</li>
+			<li>CE_AutoEnableCrafting_FabricationBench</li>
+		</tradeTags>
+		<stackLimit>500</stackLimit>
+	</ThingDef>
+	
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="35x181mmUnstableChargedBase">
+		<defName>Ammo_35x181mmUnstableCharged</defName>
+		<label>35x181mm Charged cartridge</label>
+		<graphicData>
+			<texPath>Things/Ammo/PlasmaCell/Rifle</texPath>
+			<graphicClass>CombatExtended.Graphic_StackCountRanged</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>64.80</MarketValue>
+		</statBases>
+		<ammoClass>Charged</ammoClass>
+	</ThingDef>
+
+
+	<!--  ================== Projectiles ==================  -->
+
+	<ThingDef Name="Base35x181mmUnstableChargedBullet" ParentName="BaseBulletCE" Abstract="true">
+		<graphicData>
+			<texPath>Bullets/OA_UnstableChargeDriver</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.4,1.4)</drawSize>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bullet</damageDef>
+			<speed>96</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="Base35x181mmUnstableChargedBullet">
+		<defName>Bullet_35x181mmUnstableCharged</defName>
+		<label>35x181mm Unstable Charged bullet</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>OA_RKDA_ChargeDriverExplosion</damageDef>
+			<damageAmountBase>135</damageAmountBase>
+			<explosionRadius>5.9</explosionRadius>
+			<soundExplode>MortarBomb_Explode</soundExplode>
+			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<damageAmountBase>159</damageAmountBase>
+				<explosiveDamageType>EMP</explosiveDamageType>
+				<explosiveRadius>5.9</explosiveRadius>
+				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			</li>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Fragment_UnstableCharged>23</Fragment_UnstableCharged>
+				</fragments>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseFragment">
+		<defName>Fragment_UnstableCharged</defName>
+		<label>Unstable Charged</label>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<graphicData>
+			<texPath>Bullets/OA_UnstableChargeThrower</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>25</damageAmountBase>
+			<speed>20</speed>
+			<armorPenetrationSharp>67</armorPenetrationSharp>
+			<armorPenetrationBlunt>537</armorPenetrationBlunt>
+			<gravityFactor>15</gravityFactor>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<damageAmountBase>10</damageAmountBase>
+				<explosionSound>OA_RKSO_UnstableChargeDriverExplosion</explosionSound>
+				<explosiveDamageType>EMP</explosiveDamageType>
+				<explosiveRadius>1.9</explosiveRadius>
+			</li>
+		</comps>
+	</ThingDef>
+	<!--  ==================== Recipes ==========================  -->
+	<RecipeDef ParentName="ChargeAmmoRecipeBase">
+		<defName>MakeAmmo_35x181mmUnstableCharged</defName>
+		<label>make 35x181mm Unstable Charged cartridge x100</label>
+		<description>Craft 100 35x181mm Unstable Charged cartridges.</description>
+		<jobString>Making 35x181mm Unstable Charged cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>120</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Uranium</li>
+					</thingDefs>
+				</filter>
+				<count>44</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plasteel</li>
+				<li>Uranium</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_35x181mmUnstableCharged>20</Ammo_35x181mmUnstableCharged>
+		</products>
+		<workAmount>28600</workAmount>
+		<researchPrerequisites>
+			<li>OA_RK_Weapon_F</li>
+		</researchPrerequisites>
+	</RecipeDef>
+</Defs>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kiiro_Make_TextBook.label>编写教材</Kiiro_Make_TextBook.label>
+  <Kiiro_Make_TextBook.description>使用宣纸编写教材。</Kiiro_Make_TextBook.description>
+  <Kiiro_Make_TextBook.jobString>编写教材</Kiiro_Make_TextBook.jobString>
+
+  <Kiiro_Make_Novel.label>创作小说</Kiiro_Make_Novel.label>
+  <Kiiro_Make_Novel.description>使用宣纸创作小说。</Kiiro_Make_Novel.description>
+  <Kiiro_Make_Novel.jobString>创作小说</Kiiro_Make_Novel.jobString>
+
+
+</LanguageData>

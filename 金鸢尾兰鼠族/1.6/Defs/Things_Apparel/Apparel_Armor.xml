@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- 突袭作战制服 -->
+    <ThingDef Class="NewRatkin.CustomThingDef" ParentName="OARatkin_ArmorMakeableBase">
+        <defName>OA_RK_Professional_Uniforms_D</defName>
+        <label>Blitz combat uniform</label>
+        <description>The uniform of the Oberonia Aurea assualt squad is made of a special dense fabric that provides superior protection and insulation from the heat. Its skirt part is made of tearable hemostatic fabric that can be torn off and used as a bandage during battle. \n\nThe bleeding rate is reduced to 75% when worn.</description>
+        <graphicData>
+            <texPath>Apparel/OA_RK_Professional_Uniforms_D</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <WorkToMake>35600</WorkToMake>
+            <Mass>1.0</Mass>
+            <MaxHitPoints>275</MaxHitPoints>
+            <ArmorRating_Sharp>0.44</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+            <ArmorRating_Heat>1.15</ArmorRating_Heat>
+            <StuffEffectMultiplierArmor>0.22</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.75</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.75</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>3.0</EquipDelay>
+        </statBases>
+        <costList>
+            <Synthread>100</Synthread>
+            <ComponentIndustrial>6</ComponentIndustrial>
+        </costList>
+        <costStuffCount>50</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <equippedStatOffsets>
+            <MoveSpeed>0.15</MoveSpeed>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Apparel/OA_RK_Professional_Uniforms_D</wornGraphicPath>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Neck</li>
+                <li>Arms</li>
+                <li>Legs</li>
+                <li>Hands</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <layers>
+                <li>OnSkin</li>
+            </layers>
+            <tags>
+                <li>OARatkin_AssaulterArmor</li>
+				<li>OARatkin_Spaceport_AssaulterArmor</li>
+            </tags>
+        </apparel>
+        <recipeMaker>
+            <researchPrerequisite>OA_RK_Apparel_C</researchPrerequisite>
+        </recipeMaker>
+        <comps>
+            <li Class="CompProperties_CauseHediff_Apparel">
+                <hediff>OA_RK_SandWichB</hediff>
+                <part>Body</part>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <!-- 降冲击结构背心 -->
+	<ThingDef Class="NewRatkin.CustomThingDef" ParentName="OARatkin_ArmorMakeableBase">
+		<defName>OA_RK_Sandwich_C</defName>
+		<label>Shockproof vest</label>
+		<description>The standard equipment of the Oberonia Aurea assualt squad. The wholebody is made of extremely tough bulletproof fabric, and the inside of the undershirt was designed with varies sophisticated cushioning structures, which can significantly reduce the impact and damage received. \n\nReduce damage received to 80% when worn.</description>
+		<graphicData>
+			<texPath>Apparel/OA_RK_Sandwich_C</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<techLevel>Spacer</techLevel>
+		<statBases>
+			<MaxHitPoints>220</MaxHitPoints>
+			<WorkToMake>31000</WorkToMake>
+			<Mass>1.0</Mass>
+			<ArmorRating_Sharp>0.94</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.62</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.60</ArmorRating_Heat>
+			<Insulation_Cold>3.0</Insulation_Cold>
+			<Insulation_Heat>1.5</Insulation_Heat>
+			<EquipDelay>3</EquipDelay>
+		</statBases>
+		<costList>
+			<Synthread>75</Synthread>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</costList>
+		<equippedStatOffsets>
+			<MoveSpeed>0.15</MoveSpeed>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Apparel/OA_RK_Sandwich_C</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+			</layers>
+			<tags>
+				<li>OARatkin_AssaulterArmor</li>
+				<li>OARatkin_Spaceport_AssaulterArmor</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="CompProperties_CauseHediff_Apparel">
+				<hediff>OA_RK_SandWich</hediff>
+				<part>Body</part>
+			</li>
+		</comps>
+		<recipeMaker>
+			<useIngredientsForColor>false</useIngredientsForColor>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<researchPrerequisite>OA_RK_Apparel_C</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+    <!-- 突袭作战风衣 -->
+	<ThingDef Class="NewRatkin.CustomThingDef" ParentName="OARatkin_ArmorMakeableBase">
+		<defName>OA_RK_Windbreaker_B</defName>
+		<label>Blizt combat trench coat</label>
+		<description>The standardized trench coat equipped by the Oberonia Aurea assault squad. The coat is designed with internal laminated layers for effective impact mitigation, and its specialized fabric can counter conventional detection methods.</description>
+		<graphicData>
+			<texPath>Apparel/OA_RK_Windbreaker_B</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<costList>
+			<Synthread>145</Synthread>
+			<ComponentIndustrial>7</ComponentIndustrial>
+		</costList>
+		<techLevel>Spacer</techLevel>
+		<costStuffCount>35</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<statBases>
+			<MaxHitPoints>340</MaxHitPoints>
+			<WorkToMake>40200</WorkToMake>
+			<Mass>3.2</Mass>
+			<ArmorRating_Sharp>0.86</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.34</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.92</ArmorRating_Heat>
+			<StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.85</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.90</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>3.3</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<Flammability>-0.74</Flammability>
+			<MoveSpeed>0.25</MoveSpeed>
+		</equippedStatOffsets>
+		<apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<drawData>
+				<defaultData>
+					<layer>30</layer>
+				</defaultData>
+			</drawData>
+			<wornGraphicPath>Apparel/OA_RK_Windbreaker_B</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>OARatkin_AssaulterArmor</li>
+				<li>OARatkin_Spaceport_AssaulterArmor</li>
+			</tags>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>OA_RK_Apparel_C</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 慵懶 -->
+
+  <Kiiro_Lethargic.label>慵懶</Kiiro_Lethargic.label>
+  <Kiiro_Lethargic.description>這種基因的攜帶者更容易犯困，並且難以在學習和研究時集中精神。</Kiiro_Lethargic.description>
+
+
+  <!-- 交際貓 -->
+
+  <Kiiro_SocialCat.label>交際貓</Kiiro_SocialCat.label>
+  <Kiiro_SocialCat.description>這種基因的攜帶者更熱愛並擅長社交。</Kiiro_SocialCat.description>
+
+
+  <!-- 細心烹飪 -->
+
+  <Kiiro_FineCook.label>細心烹飪</Kiiro_FineCook.label>
+  <Kiiro_FineCook.description>這種基因的攜帶者烹飪會花費更多時間，但是會大幅度降低做出有毒食物的概率；也會花費更多屠宰時間以產出更多產物。</Kiiro_FineCook.description>
+
+
+  <!-- 不擅醫療 -->
+
+  <Kiiro_MedicWeak.label>不擅醫療</Kiiro_MedicWeak.label>
+  <Kiiro_MedicWeak.description>這種基因的攜帶者不擅長醫療。</Kiiro_MedicWeak.description>
+
+
+  <!-- 不擅機械 -->
+
+  <Kiiro_MechineWeak.label>不擅機械</Kiiro_MechineWeak.label>
+  <Kiiro_MechineWeak.description>這種基因的攜帶者不擅長機械。</Kiiro_MechineWeak.description>
+
+
+  <!-- 不擅種植 -->
+
+  <Kiiro_PlantsWeak.label>不擅種植</Kiiro_PlantsWeak.label>
+  <Kiiro_PlantsWeak.description>這種基因的攜帶者不擅長種植。</Kiiro_PlantsWeak.description>
+
+
+  <!-- 不擅採礦 -->
+
+  <Kiiro_MiningWeak.label>不擅採礦</Kiiro_MiningWeak.label>
+  <Kiiro_MiningWeak.description>這種基因的攜帶者不擅長採礦。</Kiiro_MiningWeak.description>
+
+
+  <!-- 敏捷格鬥 -->
+
+  <Kiiro_NimbleCombat.label>敏捷格鬥</Kiiro_NimbleCombat.label>
+  <Kiiro_NimbleCombat.description>這種基因的攜帶者天生擁有敏捷的格鬥技巧。</Kiiro_NimbleCombat.description>
+
+
+  <!-- 精確射擊 -->
+
+  <Kiiro_PreciseAiming.label>精確射擊</Kiiro_PreciseAiming.label>
+  <Kiiro_PreciseAiming.description>這種基因的攜帶者天生擁有更精確的射擊能力。</Kiiro_PreciseAiming.description>
+
+
+  <!-- 易碎的心 -->
+
+  <Kiiro_FragileHeart.label>易碎的心</Kiiro_FragileHeart.label>
+  <Kiiro_FragileHeart.description>這種基因的攜帶者更容易崩潰。</Kiiro_FragileHeart.description>
+
+
+  <!-- 怕痛 -->
+
+  <Kiiro_PainFearing.label>怕痛</Kiiro_PainFearing.label>
+  <Kiiro_PainFearing.description>這種基因的攜帶者更容易疼痛休克。</Kiiro_PainFearing.description>
+
+
+</LanguageData>

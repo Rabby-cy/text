@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kiiro_GrenadeFrag.label>綺羅木柄手榴彈</Kiiro_GrenadeFrag.label>
+  <Kiiro_GrenadeFrag.description>根據人類使用的破片手榴彈研製的木柄手榴彈，在威力上遜色不少，但得益於其形狀更容易被扔到較遠的地方。</Kiiro_GrenadeFrag.description>
+  <Kiiro_GrenadeFrag.verbs.0.label>投擲木柄手榴彈</Kiiro_GrenadeFrag.verbs.0.label>
+
+  <KiiroProjectile_GrenadeFrag.label>綺羅木柄手榴彈</KiiroProjectile_GrenadeFrag.label>
+
+  <Kiiro_GrenadeSmoke.label>綺羅煙霧手榴彈</Kiiro_GrenadeSmoke.label>
+  <Kiiro_GrenadeSmoke.description>裝填了特殊藥物的手榴彈，雖然爆炸不會造成任何傷害，但會釋放大量致盲煙霧。</Kiiro_GrenadeSmoke.description>
+  <Kiiro_GrenadeSmoke.verbs.0.label>投擲煙霧手榴彈</Kiiro_GrenadeSmoke.verbs.0.label>
+
+  <KiiroProjectile_GrenadeSmoke.label>綺羅煙霧手榴彈</KiiroProjectile_GrenadeSmoke.label>
+  <KiiroGrenade_Smoke_Releasing.label>Smoke Grenade</KiiroGrenade_Smoke_Releasing.label>
+
+  <Kiiro_GrenadeFlash.label>綺羅閃光手榴彈</Kiiro_GrenadeFlash.label>
+  <Kiiro_GrenadeFlash.description>特殊作戰時有在使用的手榴彈，爆炸時發出強光。</Kiiro_GrenadeFlash.description>
+  <Kiiro_GrenadeFlash.verbs.0.label>投擲閃光手榴彈</Kiiro_GrenadeFlash.verbs.0.label>
+
+  <KiiroProjectile_GrenadeFlash.label>綺羅閃光手榴彈</KiiroProjectile_GrenadeFlash.label>
+
+
+</LanguageData>

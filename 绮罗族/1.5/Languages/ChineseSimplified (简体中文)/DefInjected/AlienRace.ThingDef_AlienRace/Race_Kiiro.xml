@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kiiro_Race.label>绮罗族</Kiiro_Race.label>
+  <Kiiro_Race.description>拥有形似猫耳和猫尾肢体的类人物种，绮罗族。
+	作为在边缘世界生活了数千年的原住民，绮罗族的科技水平在达到中世纪水平后发展缓慢：比起发展科学技术，她们总是有更多的事情要做，比如打盹、闲聊、晒太阳和享受悠闲时光。即使搬出了空闲时间来工作，她们也更乐意做一些和艺术相关的事情。由于绮罗们温和而不喜争斗的性格，在漫长的历史长河中她们的社会总是维持着高度的和谐与稳定，极少出现矛盾和争端，而这也造成了绮罗们虽然拥有敏捷灵巧的战斗天赋，但却并不擅长战斗的现状。
+	而这一切随着粗野的外来者们着陆到边缘世界并站稳脚跟开始改变：缺乏战斗经验和训练，科技也没有得到长足发展的绮罗们在面对外敌的袭击时显得非常无力，很多村落和城镇遭受到攻击并陷落，绮罗族的生存一度陷入了危机，这使得绮罗族不得不放弃和平的生活，转而踏上了艰辛的漫漫求生之路。
+	但是，外敌的入侵除了播撒战乱以外，却也给绮罗族带来了科技发展的机会。随着接触外来者带来的科技，绮罗族的科技水平在短期内通过引入和模仿得到了爆发式的发展，工业时代的种子在这古老而落后的种族内已经悄然萌芽......</Kiiro_Race.description>
+  <Kiiro_Race.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</Kiiro_Race.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <Kiiro_Race.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>hair</Kiiro_Race.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+  <Kiiro_Race.alienRace.generalSettings.alienPartGenerator.colorChannels.2.name>Blank</Kiiro_Race.alienRace.generalSettings.alienPartGenerator.colorChannels.2.name>
+  <Kiiro_Race.tools.0.label>左爪</Kiiro_Race.tools.0.label>
+  <Kiiro_Race.tools.1.label>右爪</Kiiro_Race.tools.1.label>
+  <Kiiro_Race.tools.2.label>牙</Kiiro_Race.tools.2.label>
+  <Kiiro_Race.tools.3.label>头</Kiiro_Race.tools.3.label>
+
+
+</LanguageData>

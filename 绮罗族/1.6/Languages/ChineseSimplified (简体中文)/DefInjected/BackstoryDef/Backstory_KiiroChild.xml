@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <Kiiro_BackstoryChild_01.description>[PAWN_nameDef]在一个绮罗聚居的村落里长大。像每一个普通的绮罗小孩那样，[PAWN_nameDef]拥有完整且幸福的童年。</Kiiro_BackstoryChild_01.description>
+  <Kiiro_BackstoryChild_01.title>绮罗 乡村孩童</Kiiro_BackstoryChild_01.title>
+  <Kiiro_BackstoryChild_01.titleShort>乡村孩童</Kiiro_BackstoryChild_01.titleShort>
+  
+  <Kiiro_BackstoryChild_02.description>[PAWN_nameDef]热爱学习，在学校里颇受老师们的喜欢。</Kiiro_BackstoryChild_02.description>
+  <Kiiro_BackstoryChild_02.title>绮罗 三好学生</Kiiro_BackstoryChild_02.title>
+  <Kiiro_BackstoryChild_02.titleShort>好学生</Kiiro_BackstoryChild_02.titleShort>
+  
+  <Kiiro_BackstoryChild_03.description>[PAWN_nameDef]早早地学会了勤俭持家，经常在家里做一些力所能及的家务活儿。</Kiiro_BackstoryChild_03.description>
+  <Kiiro_BackstoryChild_03.title>绮罗 乖小孩</Kiiro_BackstoryChild_03.title>
+  <Kiiro_BackstoryChild_03.titleShort>乖小孩</Kiiro_BackstoryChild_03.titleShort>
+  
+  <Kiiro_BackstoryChild_04.description>[PAWN_nameDef]没有像其他同龄人一样接受教育，而是选择留在家里帮助照顾农田。</Kiiro_BackstoryChild_04.description>
+  <Kiiro_BackstoryChild_04.title>绮罗 农家小孩</Kiiro_BackstoryChild_04.title>
+  <Kiiro_BackstoryChild_04.titleShort>农家小孩</Kiiro_BackstoryChild_04.titleShort>
+  
+  <Kiiro_BackstoryChild_05.description>[PAWN_nameDef]喜欢和动物相处。尽管年纪轻轻，她还是成为了一名可靠的放牧人。[PAWN_nameDef]会唱一些牧歌。</Kiiro_BackstoryChild_05.description>
+  <Kiiro_BackstoryChild_05.title>绮罗 牧童</Kiiro_BackstoryChild_05.title>
+  <Kiiro_BackstoryChild_05.titleShort>牧童</Kiiro_BackstoryChild_05.titleShort>
+  
+  <Kiiro_BackstoryChild_06.description>[PAWN_nameDef]自幼学习纸艺。她的师父希望她能够传承这份手艺。</Kiiro_BackstoryChild_06.description>
+  <Kiiro_BackstoryChild_06.title>绮罗 纸艺学徒</Kiiro_BackstoryChild_06.title>
+  <Kiiro_BackstoryChild_06.titleShort>纸艺学徒</Kiiro_BackstoryChild_06.titleShort>
+  
+  <Kiiro_BackstoryChild_07.description>[PAWN_nameDef]害怕与人交流，总是一个人窝在房间里。独处让她有很多时间自己思考，所以[PAWN_nameDef]可能会比同龄人想得更多一点也说不定？</Kiiro_BackstoryChild_07.description>
+  <Kiiro_BackstoryChild_07.title>绮罗 自闭小孩</Kiiro_BackstoryChild_07.title>
+  <Kiiro_BackstoryChild_07.titleShort>自闭小孩</Kiiro_BackstoryChild_07.titleShort>
+  
+  <Kiiro_BackstoryChild_08.description>[PAWN_nameDef]吃百家饭长大；[PAWN_nameDef]的亲人在她年幼时因为一场灾难永远地离开了她。但经历过一段时间的挣扎后她重新振作了起来：打不倒她的终将使她更坚强。</Kiiro_BackstoryChild_08.description>
+  <Kiiro_BackstoryChild_08.title>绮罗 遗孤</Kiiro_BackstoryChild_08.title>
+  <Kiiro_BackstoryChild_08.titleShort>遗孤</Kiiro_BackstoryChild_08.titleShort>
+  
+  <Kiiro_BackstoryChild_09.description>[PAWN_nameDef]有花不完的精力，虽然她的活泼好动总是给身边的人带来麻烦。</Kiiro_BackstoryChild_09.description>
+  <Kiiro_BackstoryChild_09.title>绮罗 淘气鬼</Kiiro_BackstoryChild_09.title>
+  <Kiiro_BackstoryChild_09.titleShort>淘气鬼</Kiiro_BackstoryChild_09.titleShort>
+  
+  <Kiiro_BackstoryChild_10.description>[PAWN_nameDef]很喜欢看书，她把所有的空闲时间都花进了书里，花进了那些数不尽的，各种各样的世界里。</Kiiro_BackstoryChild_10.description>
+  <Kiiro_BackstoryChild_10.title>绮罗 小书虫</Kiiro_BackstoryChild_10.title>
+  <Kiiro_BackstoryChild_10.titleShort>小书虫</Kiiro_BackstoryChild_10.titleShort>
+  
+  <Kiiro_BackstoryChild_11.description>[PAWN_nameDef]从小跟随在一位经验丰富的铁匠身边做一些打杂的活儿。每当[PAWN_nameDef]为火焰中诞生的铁器而迷醉，问起师父什么时候自己才能亲手来做的时候，她的师父回想起曾经[PAWN_nameDef]那差点挥到自己脑袋上的铁锤总是不寒而栗。</Kiiro_BackstoryChild_11.description>
+  <Kiiro_BackstoryChild_11.title>绮罗 铁匠铺学徒</Kiiro_BackstoryChild_11.title>
+  <Kiiro_BackstoryChild_11.titleShort>铁匠学徒</Kiiro_BackstoryChild_11.titleShort>
+  
+  <Kiiro_BackstoryChild_12.description>[PAWN_nameDef]的童年总是经历一些倒霉的事情，似乎所有的一切都跟她过不去，不过在习惯这样的生活后[PAWN_nameDef]反而逐渐变得乐观开朗了起来。</Kiiro_BackstoryChild_12.description>
+  <Kiiro_BackstoryChild_12.title>绮罗 倒霉蛋</Kiiro_BackstoryChild_12.title>
+  <Kiiro_BackstoryChild_12.titleShort>倒霉蛋</Kiiro_BackstoryChild_12.titleShort>
+  
+  <Kiiro_BackstoryChild_13.description>[PAWN_nameDef]的双亲在[PAWN_nameDef]还小的时候就离开了她，[PAWN_nameDef]也不知道她们都去了哪里，但[PAWN_nameDef]每天都期待着她们回来。</Kiiro_BackstoryChild_13.description>
+  <Kiiro_BackstoryChild_13.title>绮罗 留守儿童</Kiiro_BackstoryChild_13.title>
+  <Kiiro_BackstoryChild_13.titleShort>留守儿童</Kiiro_BackstoryChild_13.titleShort>
+  
+  <Kiiro_BackstoryChild_14.description>[PAWN_nameDef]在一个科技水平正在蓬勃发展的城镇中长大，不断引入的新鲜事物无时无刻不吸引着[PAWN_nameDef]，这使得她对这些东西产生了极大的兴趣。</Kiiro_BackstoryChild_14.description>
+  <Kiiro_BackstoryChild_14.title>绮罗 城镇孩童</Kiiro_BackstoryChild_14.title>
+  <Kiiro_BackstoryChild_14.titleShort>城镇孩童</Kiiro_BackstoryChild_14.titleShort>
+  
+  <Kiiro_BackstoryChild_15.description>[PAWN_nameDef]从小就表现出了异于常人的智力，她快速而准确的思维逻辑总是引得身边的人称赞不已。</Kiiro_BackstoryChild_15.description>
+  <Kiiro_BackstoryChild_15.title>绮罗 小天才</Kiiro_BackstoryChild_15.title>
+  <Kiiro_BackstoryChild_15.titleShort>小天才</Kiiro_BackstoryChild_15.titleShort>
+  
+  <Kiiro_BackstoryChild_16.description>[PAWN_nameDef]经常在一个小镇里帮一家报社派送报纸，以此来换取一些额外的零花钱。有时[PAWN_nameDef]也会自己看报，她从上面了解到了不少平时接触不到的东西。</Kiiro_BackstoryChild_16.description>
+  <Kiiro_BackstoryChild_16.title>绮罗 报童</Kiiro_BackstoryChild_16.title>
+  <Kiiro_BackstoryChild_16.titleShort>报童</Kiiro_BackstoryChild_16.titleShort>
+  
+  <Kiiro_BackstoryChild_17.description>城镇中那些蜿蜒曲折、堆满杂物的小巷，在成年绮罗眼中或许平平无奇，但在[PAWN_nameDef]的童年里，却是充满秘密和惊喜的探险乐园。[PAWN_pronoun]有着猫一般的好奇心和敏捷的身手，常常能从不起眼的角落发现一些被遗忘的小玩意儿，或是观察到其他居民日常生活中不易察觉的细节。这些早期的探索经历，培养了[PAWN_nameDef]敏锐的观察力和对环境的适应能力。</Kiiro_BackstoryChild_17.description>
+  <Kiiro_BackstoryChild_17.title>绮罗 小巷探险家</Kiiro_BackstoryChild_17.title>
+  <Kiiro_BackstoryChild_17.titleShort>小巷探险家</Kiiro_BackstoryChild_17.titleShort>
+  
+  <Kiiro_BackstoryChild_18.description>与同龄的孩童相比，[PAWN_nameDef]似乎总是显得更懂事一些。[PAWN_pronoun]会主动帮助家里做一些力所能及的小事，比如给花草浇水、整理自己的玩具，或者在父母忙碌时安静地待在一旁不添乱。这种早熟的体贴和责任感，让[PAWN_nameDef]在长辈眼中是个省心的小孩，也让[PAWN_pronoun]更早地学会了照顾自己和体谅他人。</Kiiro_BackstoryChild_18.description>
+  <Kiiro_BackstoryChild_18.title>绮罗 小大人</Kiiro_BackstoryChild_18.title>
+  <Kiiro_BackstoryChild_18.titleShort>小大人</Kiiro_BackstoryChild_18.titleShort>
+  
+  <Kiiro_BackstoryChild_19.description>[PAWN_nameDef]的童年有很多时间是趴在窗台上度过的，[PAWN_pronoun]喜欢静静地观察窗外来来往往的街坊邻居，看街头小贩叫卖，看邻居们聊天，看天气的阴晴变化。这种安静的观察让[PAWN_nameDef]对周围的世界有了自己独特的理解，也培养了[PAWN_pronoun]内向而细腻的性格。对[PAWN_nameDef]而言，小小的窗户就是[PAWN_pronoun]认识世界的画框。</Kiiro_BackstoryChild_19.description>
+  <Kiiro_BackstoryChild_19.title>绮罗 窗台上的观察者</Kiiro_BackstoryChild_19.title>
+  <Kiiro_BackstoryChild_19.titleShort>窗台上的观察者</Kiiro_BackstoryChild_19.titleShort>
+  
+  <Kiiro_BackstoryChild_20.description>[PAWN_nameDef]总是跟随大人们在战乱后的废墟里拾荒。[PAWN_pronoun]学会了如何在瓦砾中穿行，如何辨别有用的东西，以及如何在危险来临时迅速躲藏。这段经历让[PAWN_nameDef]过早地体会了生存的不易，也锻炼了[PAWN_pronoun]的警觉性和生存本能。</Kiiro_BackstoryChild_20.description>
+  <Kiiro_BackstoryChild_20.title>绮罗 小拾荒者</Kiiro_BackstoryChild_20.title>
+  <Kiiro_BackstoryChild_20.titleShort>小拾荒者</Kiiro_BackstoryChild_20.titleShort>
+  
+  <Kiiro_BackstoryChild_21.description>在一些临时的避难所或大家庭中，年幼的绮罗们常常会挤在一起，形成一个温暖而安全的"集体睡窝"。[PAWN_nameDef]的童年大部分时间都是在这样的环境中度过的，[PAWN_pronoun]习惯了与其他人分享空间，也学会了在群体中找到自己的位置。这种经历让[PAWN_nameDef]对集体生活有较强的适应性，但也可能缺乏独立性。</Kiiro_BackstoryChild_21.description>
+  <Kiiro_BackstoryChild_21.title>绮罗 难民小不点</Kiiro_BackstoryChild_21.title>
+  <Kiiro_BackstoryChild_21.titleShort>难民小不点</Kiiro_BackstoryChild_21.titleShort>
+  
+  <Kiiro_BackstoryChild_22.description>[PAWN_nameDef]的童年最爱去的地方就是城镇房屋的屋顶。在那里，[PAWN_pronoun]可以俯瞰整个城镇，看炊烟袅袅和行人来来往往，更可以不受打扰地仰望天空，追逐云彩的变幻，或是对着星空发呆。屋顶是[PAWN_nameDef]的秘密基地，也是[PAWN_pronoun]想象力自由翱翔的场所，[PAWN_pronoun]常常在那里编织着各种不切实际的梦想。</Kiiro_BackstoryChild_22.description>
+  <Kiiro_BackstoryChild_22.title>绮罗 屋顶上的人</Kiiro_BackstoryChild_22.title>
+  <Kiiro_BackstoryChild_22.titleShort>屋顶上的人</Kiiro_BackstoryChild_22.titleShort>
+  
+  <Kiiro_BackstoryChild_23.description>不知为何，[PAWN_nameDef]的童年似乎总是与各种小麻烦和意外相伴。打翻墨水瓶、不小心弄坏邻居家的花盆、或者是在不该出现的地方被发现……[PAWN_nameDef]并非有意捣蛋，但麻烦似乎总是会自动找上门来。这段"多灾多难"的童年，虽然让[PAWN_nameDef]吃了不少苦头，但也锻炼了[PAWN_nameDef]的应变能力和……嗯，道歉的技巧。</Kiiro_BackstoryChild_23.description>
+  <Kiiro_BackstoryChild_23.title>绮罗 自动闯祸机</Kiiro_BackstoryChild_23.title>
+  <Kiiro_BackstoryChild_23.titleShort>自动闯祸机</Kiiro_BackstoryChild_23.titleShort>
+  
+  <Kiiro_BackstoryChild_24.description>[PAWN_nameDef]的童年，厨房是[PAWN_pronoun]最喜欢的地方之一，不是因为喜欢帮忙，而是因为总能第一个尝到新鲜出炉的食物。无论是妈妈正在炖煮的浓汤，还是面包师刚烤好的面包边角，[PAWN_nameDef]都会好好品鉴一番。这培养了[PAWN_nameDef]对味道的敏感度和对美食的初步认知，以及可能略微圆润的小肚子。</Kiiro_BackstoryChild_24.description>
+  <Kiiro_BackstoryChild_24.title>绮罗 小尝味师</Kiiro_BackstoryChild_24.title>
+  <Kiiro_BackstoryChild_24.titleShort>小尝味师</Kiiro_BackstoryChild_24.titleShort>
+  
+  <Kiiro_BackstoryChild_25.description>如果[PAWN_nameDef]的家庭经营香料生意或者特别讲究烹饪调味，那么[PAWN_nameDef]的童年记忆里一定少不了各种香料的浓郁气味和烹煮香料的咕嘟声。[PAWN_pronoun]会帮着父母筛选、晾晒和用小石臼研磨各种香料，虽然常常弄得自己一身香气或喷嚏连连，但也让[PAWN_nameDef]对不同香料的特性和搭配有了最初的了解。</Kiiro_BackstoryChild_25.description>
+  <Kiiro_BackstoryChild_25.title>绮罗 香料小助手</Kiiro_BackstoryChild_25.title>
+  <Kiiro_BackstoryChild_25.titleShort>香料小助手</Kiiro_BackstoryChild_25.titleShort>
+  
+  <Kiiro_BackstoryChild_26.description>城镇里有甜品店是[PAWN_nameDef]童年最向往的地方。[PAWN_pronoun]会帮忙跑腿抑或是用可怜巴巴的眼神从甜点师那里换取一小块点心或糖果。对甜食的热爱，让[PAWN_nameDef]对糖、蜂蜜、果酱等甜味剂的运用有了深刻的体会，也可能激发了[PAWN_nameDef]日后学习制作甜点的兴趣。</Kiiro_BackstoryChild_26.description>
+  <Kiiro_BackstoryChild_26.title>绮罗 甜品猎手</Kiiro_BackstoryChild_26.title>
+  <Kiiro_BackstoryChild_26.titleShort>甜品猎手</Kiiro_BackstoryChild_26.titleShort>
+  
+  <Kiiro_BackstoryChild_27.description>并非所有绮罗都天生亲水，[PAWN_nameDef]小时候对深邃、流动的水抱有强烈的恐惧。因此，居住在河边的[PAWN_nameDef]顶多也只是在岸边玩耍：比起戏水，堆起河岸的鹅卵石显然更有趣。</Kiiro_BackstoryChild_27.description>
+  <Kiiro_BackstoryChild_27.title>绮罗 恐水小孩</Kiiro_BackstoryChild_27.title>
+  <Kiiro_BackstoryChild_27.titleShort>恐水小孩</Kiiro_BackstoryChild_27.titleShort>
+  
+  <Kiiro_BackstoryChild_28.description>[PAWN_nameDef]痴迷于制作能够漂浮的东西。从一片宽大的树叶，到用结实的芦苇秆捆扎成的小筏，[PAWN_nameDef]的小小船队承载着[PAWN_possessive]想象，在溪流的缓坡上远航。</Kiiro_BackstoryChild_28.description>
+  <Kiiro_BackstoryChild_28.title>绮罗 芦苇船长</Kiiro_BackstoryChild_28.title>
+  <Kiiro_BackstoryChild_28.titleShort>芦苇船长</Kiiro_BackstoryChild_28.titleShort>
+  
+  <Kiiro_BackstoryChild_29.description>[PAWN_nameDef]从小在渔船上长大。[PAWN_pronoun]会为家里做一些力所能及的小事，比如整理渔线、修补渔网上的小破洞，又或是提着小桶把刚捕获的鲜鱼送到镇上的市场。</Kiiro_BackstoryChild_29.description>
+  <Kiiro_BackstoryChild_29.title>绮罗 渔家小孩</Kiiro_BackstoryChild_29.title>
+  <Kiiro_BackstoryChild_29.titleShort>渔家小孩</Kiiro_BackstoryChild_29.titleShort>
+  
+  <Kiiro_BackstoryChild_30.description>[PAWN_nameDef]的童年大部分时间都在村落旁的小溪度过。[PAWN_pronoun]喜欢与伙伴们追逐那些在浅水中游弋的小鱼，翻开石头寻找螃蟹和田螺，或者只是静静地坐在岸边，用[PAWN_possessive]尾巴尖轻轻拨弄水面，看着圈圈涟漪散开。</Kiiro_BackstoryChild_30.description>
+  <Kiiro_BackstoryChild_30.title>绮罗 溪边玩伴</Kiiro_BackstoryChild_30.title>
+  <Kiiro_BackstoryChild_30.titleShort>溪边玩伴</Kiiro_BackstoryChild_30.titleShort>
+  
+</LanguageData>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_OBLGrenade_HEAT.label>make Oberonia Aurea Light Grenade x15</MakeAmmo_OBLGrenade_HEAT.label>
+  <MakeAmmo_OBLGrenade_HEAT.description>Craft 15 Oberonia Aurea Light Grenade.</MakeAmmo_OBLGrenade_HEAT.description>
+  <MakeAmmo_OBLGrenade_HEAT.jobString>Making Oberonia Aurea Light Grenade.</MakeAmmo_OBLGrenade_HEAT.jobString>
+
+  <MakeAmmo_OBLGrenade_HE.label>make 83mm Oberonia Aurea Light Grenade x15</MakeAmmo_OBLGrenade_HE.label>
+  <MakeAmmo_OBLGrenade_HE.description>Craft 15 Oberonia Aurea Light Grenade.</MakeAmmo_OBLGrenade_HE.description>
+  <MakeAmmo_OBLGrenade_HE.jobString>Making Oberonia Aurea Light Grenade.</MakeAmmo_OBLGrenade_HE.jobString>
+
+  <MakeAmmo_OBLGrenade_EMP.label>make Oberonia Aurea Light Grenade x15</MakeAmmo_OBLGrenade_EMP.label>
+  <MakeAmmo_OBLGrenade_EMP.description>Craft 15 Oberonia Aurea Light Grenade.</MakeAmmo_OBLGrenade_EMP.description>
+  <MakeAmmo_OBLGrenade_EMP.jobString>Making Oberonia Aurea Light Grenade.</MakeAmmo_OBLGrenade_EMP.jobString>
+
+
+</LanguageData>

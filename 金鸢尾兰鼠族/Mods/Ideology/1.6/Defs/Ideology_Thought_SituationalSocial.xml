@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThoughtDef>
+		<defName>OA_RK_TraitOpinionInMeme_Kind</defName>
+		<thoughtClass>Thought_SituationalSocial</thoughtClass>
+		<workerClass>OberoniaAurea.ThoughtWorker_MemeTraitOpinion</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>Kind(approved by ideology)</label>
+				<baseOpinionOffset>15</baseOpinionOffset>
+			</li>
+		</stages>
+		<modExtensions>
+			<li Class="OberoniaAurea.MemeTraitOpinionExtension">
+				<meme>OA_RK_meme_Friendly</meme>
+				<trait>Kind</trait>
+			</li>
+		</modExtensions>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>OA_RK_TraitOpinionInMeme_Abrasive</defName>
+		<thoughtClass>Thought_SituationalSocial</thoughtClass>
+		<workerClass>OberoniaAurea.ThoughtWorker_MemeTraitOpinion</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>Abrasive(disapporved by ideology）</label>
+				<baseOpinionOffset>-15</baseOpinionOffset>
+			</li>
+		</stages>
+		<modExtensions>
+			<li Class="OberoniaAurea.MemeTraitOpinionExtension">
+				<meme>OA_RK_meme_Friendly</meme>
+				<trait>Abrasive</trait>
+			</li>
+		</modExtensions>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>OA_RK_TraitOpinionInMeme_Bloodlust</defName>
+		<thoughtClass>Thought_SituationalSocial</thoughtClass>
+		<workerClass>OberoniaAurea.ThoughtWorker_MemeTraitOpinion</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+			<li>Cannibal</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>bloodlust(disapproved by ideology）</label>
+				<baseOpinionOffset>-20</baseOpinionOffset>
+			</li>
+		</stages>
+		<modExtensions>
+			<li Class="OberoniaAurea.MemeTraitOpinionExtension">
+				<meme>OA_RK_meme_Friendly</meme>
+				<trait>Bloodlust</trait>
+			</li>
+		</modExtensions>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>OA_RK_TraitOpinionInMeme_Psychopath</defName>
+		<thoughtClass>Thought_SituationalSocial</thoughtClass>
+		<workerClass>OberoniaAurea.ThoughtWorker_MemeTraitOpinion</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>Psychopath（disapporved by ideology）</label>
+				<baseOpinionOffset>-20</baseOpinionOffset>
+			</li>
+		</stages>
+		<modExtensions>
+			<li Class="OberoniaAurea.MemeTraitOpinionExtension">
+				<meme>OA_RK_meme_Friendly</meme>
+				<trait>Psychopath</trait>
+			</li>
+		</modExtensions>
+	</ThoughtDef>
+
+	<ThoughtDef>
+		<defName>OA_RK_TraitOpinionInMeme_Cannibal</defName>
+		<thoughtClass>Thought_SituationalSocial</thoughtClass>
+		<workerClass>OberoniaAurea.ThoughtWorker_MemeTraitOpinion</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<nullifyingTraits>
+			<li>Psychopath</li>
+			<li>Cannibal</li>
+		</nullifyingTraits>
+		<stages>
+			<li>
+				<label>Cannibal（disapporved by ideology）</label>
+				<baseOpinionOffset>-40</baseOpinionOffset>
+			</li>
+		</stages>
+		<modExtensions>
+			<li Class="OberoniaAurea.MemeTraitOpinionExtension">
+				<meme>OA_RK_meme_Friendly</meme>
+				<trait>Cannibal</trait>
+			</li>
+		</modExtensions>
+	</ThoughtDef>
+</Defs>

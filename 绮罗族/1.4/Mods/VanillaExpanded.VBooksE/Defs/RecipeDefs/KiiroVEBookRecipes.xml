@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <RecipeDef Name="KiiroBookBase" Abstract="True">
+		<workSpeedStat>ResearchSpeed</workSpeedStat>
+		<effectWorking>Sculpt</effectWorking>
+		<soundWorking>Recipe_Write</soundWorking>
+		<workAmount>334000</workAmount>
+		<unfinishedThingDef>VBE_UnfinishedBook</unfinishedThingDef>
+		<fixedIngredientFilter>
+          <categories>
+            <li>Leathers</li>
+          </categories>
+		  <thingDefs>
+			<li>Kiiro_Paper</li>
+		  </thingDefs>
+        </fixedIngredientFilter>
+		<defaultIngredientFilter>
+          <categories>
+            <li>Leathers</li>
+          </categories>
+          <disallowedCategories>
+          </disallowedCategories>
+          <disallowedThingDefs>
+          </disallowedThingDefs>
+        </defaultIngredientFilter>
+		<ingredients>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>Kiiro_Paper</li>
+			  </thingDefs>
+			</filter>
+			<count>20</count>
+		  </li>
+          <li>
+            <filter>
+              <categories>
+                <li>Leathers</li>
+              </categories>
+            </filter>
+            <count>20</count>
+          </li>
+        </ingredients>
+		<recipeUsers>
+		  <li>VBE_WritersTable</li>
+		  <li>VBE_TypewritersTable</li>
+		</recipeUsers>
+		<researchPrerequisites>
+		  <li>Kiiro_PaperMaking</li>
+		  <li>VBE_Writing</li>
+		</researchPrerequisites>	
+	</RecipeDef>
+	
+	
+	<RecipeDef ParentName="KiiroBookBase">
+		<defName>Kiiro_WriteBook_Shooting</defName>
+		<label>写射击书</label>
+		<description>用绮罗宣纸制作射击书。</description>
+		<jobString>用绮罗宣纸制作射击书。</jobString>
+		<products>
+		  <VBE_BookShooting>1</VBE_BookShooting>
+		</products>
+		<workSkill>Shooting</workSkill>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="KiiroBookBase">
+		<defName>Kiiro_WriteBook_Animals</defName>
+		<label>写驯兽书</label>
+		<description>用绮罗宣纸制作驯兽书。</description>
+		<jobString>用绮罗宣纸制作驯兽书。</jobString>
+		<products>
+		  <VBE_BookAnimals>1</VBE_BookAnimals>
+		</products>
+		<workSkill>Animals</workSkill>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="KiiroBookBase">
+		<defName>Kiiro_WriteBook_Art</defName>
+		<label>写艺术书</label>
+		<description>用绮罗宣纸制作艺术书。</description>
+		<jobString>用绮罗宣纸制作艺术书。</jobString>
+		<products>
+		  <VBE_BookArt>1</VBE_BookArt>
+		</products>
+		<workSkill>Artistic</workSkill>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="KiiroBookBase">
+		<defName>Kiiro_WriteBook_Construction</defName>
+		<label>写建造书</label>
+		<description>用绮罗宣纸制作建造书。</description>
+		<jobString>用绮罗宣纸制作建造书。</jobString>
+		<products>
+		  <VBE_BookConstruction>1</VBE_BookConstruction>
+		</products>
+		<workSkill>Construction</workSkill>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="KiiroBookBase">
+		<defName>Kiiro_WriteBook_Cooking</defName>
+		<label>写烹饪书</label>
+		<description>用绮罗宣纸制作烹饪书。</description>
+		<jobString>用绮罗宣纸制作烹饪书。</jobString>
+		<products>
+		  <VBE_BookCooking>1</VBE_BookCooking>
+		</products>
+		<workSkill>Cooking</workSkill>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="KiiroBookBase">
+		<defName>Kiiro_WriteBook_Crafting</defName>
+		<label>写手工书</label>
+		<description>用绮罗宣纸制作手工书。</description>
+		<jobString>用绮罗宣纸制作手工书。</jobString>
+		<products>
+		  <VBE_BookCrafting>1</VBE_BookCrafting>
+		</products>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="KiiroBookBase">
+		<defName>Kiiro_WriteBook_Intellectual</defName>
+		<label>写智识书</label>
+		<description>用绮罗宣纸制作智识书。</description>
+		<jobString>用绮罗宣纸制作智识书。</jobString>
+		<products>
+		  <VBE_BookIntellectual>1</VBE_BookIntellectual>
+		</products>
+		<workSkill>Intellectual</workSkill>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="KiiroBookBase">
+		<defName>Kiiro_WriteBook_Medical</defName>
+		<label>写医疗书</label>
+		<description>用绮罗宣纸制作医疗书。</description>
+		<jobString>用绮罗宣纸制作医疗书。</jobString>
+		<products>
+		  <VBE_BookMedical>1</VBE_BookMedical>
+		</products>
+		<workSkill>Medicine</workSkill>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="KiiroBookBase">
+		<defName>Kiiro_WriteBook_Melee</defName>
+		<label>写格斗书</label>
+		<description>用绮罗宣纸制作格斗书</description>
+		<jobString>用绮罗宣纸制作格斗书。</jobString>
+		<products>
+		  <VBE_BookMelee>1</VBE_BookMelee>
+		</products>
+		<workSkill>Melee</workSkill>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="KiiroBookBase">
+		<defName>Kiiro_WriteBook_Mining</defName>
+		<label>写采矿书</label>
+		<description>用绮罗宣纸制作采矿书</description>
+		<jobString>用绮罗宣纸制作采矿书。</jobString>
+		<products>
+		  <VBE_BookMining>1</VBE_BookMining>
+		</products>
+		<workSkill>Mining</workSkill>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="KiiroBookBase">
+		<defName>Kiiro_WriteBook_Growing</defName>
+		<label>写种植书</label>
+		<description>用绮罗宣纸制作种植书。</description>
+		<jobString>用绮罗宣纸制作种植书。</jobString>
+		<products>
+		  <VBE_BookGrowing>1</VBE_BookGrowing>
+		</products>
+		<workSkill>Plants</workSkill>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="KiiroBookBase">
+		<defName>Kiiro_WriteBook_Social</defName>
+		<label>写社交书</label>
+		<description>用绮罗宣纸制作社交书。</description>
+		<jobString>用绮罗宣纸制作社交书。</jobString>
+		<products>
+		  <VBE_BookSocial>1</VBE_BookSocial>
+		</products>
+		<workSkill>Social</workSkill>
+	</RecipeDef>
+	
+
+
+
+</Defs>

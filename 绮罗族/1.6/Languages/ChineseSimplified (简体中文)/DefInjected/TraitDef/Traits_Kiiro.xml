@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LazyCat.degreeDatas.0.label>小懒猫</LazyCat.degreeDatas.0.label>
+  <LazyCat.degreeDatas.0.description>{PAWN_nameDef}很喜欢睡觉，并且总是睡不够。</LazyCat.degreeDatas.0.description>
+
+  <GreedyCat.degreeDatas.0.label>小馋猫</GreedyCat.degreeDatas.0.label>
+  <GreedyCat.degreeDatas.0.description>{PAWN_nameDef}随身带着很多小零食，{PAWN_pronoun}的嘴一刻也不会闲着。</GreedyCat.degreeDatas.0.description>
+
+  <FireFear.degreeDatas.0.label>畏火</FireFear.degreeDatas.0.label>
+  <FireFear.degreeDatas.0.description>出于一些经历，{PAWN_nameDef}十分畏惧火焰。</FireFear.degreeDatas.0.description>
+
+  <ToxicResistance.degreeDatas.0.label>抵抗力</ToxicResistance.degreeDatas.0.label>
+  <ToxicResistance.degreeDatas.0.description>{PAWN_nameDef}先天拥有对毒物的抵抗能力。</ToxicResistance.degreeDatas.0.description>
+
+  <SharpEye.degreeDatas.0.label>锐瞳</SharpEye.degreeDatas.0.label>
+  <SharpEye.degreeDatas.0.description>{PAWN_nameDef}视力奇佳。</SharpEye.degreeDatas.0.description>
+
+  <OldWound.degreeDatas.0.label>旧伤</OldWound.degreeDatas.0.label>
+  <OldWound.degreeDatas.0.description>{PAWN_nameDef}的身体曾经受到过严重的创伤，这对身体的损坏已经达到了无法完全治愈的地步。</OldWound.degreeDatas.0.description>
+
+  <KittyValor.degreeDatas.0.label>猫咪勇者！</KittyValor.degreeDatas.0.label>
+  <KittyValor.degreeDatas.0.description>{PAWN_nameDef}是被绮罗们拥护的勇者。</KittyValor.degreeDatas.0.description>
+
+
+</LanguageData>

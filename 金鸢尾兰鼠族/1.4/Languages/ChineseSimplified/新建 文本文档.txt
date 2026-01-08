@@ -1,0 +1,44 @@
+有改动的翻译文本
+
+  <OA_RK_Court_Member.title>OA·宫廷部侍从</OA_RK_Court_Member.title>
+  <OA_RK_Court_Member.titleShort>侍从</OA_RK_Court_Member.titleShort>
+  <OA_RK_Court_Member.baseDesc>宫廷的运转需要大量的侍从来维持，而[PAWN_nameDef]便是侍从的一员。身为侍从，无论是服侍贵族的生活，还是宫廷内部的杂事，[PAWN_nameDef]都知道该如何处理。</OA_RK_Court_Member.baseDesc>
+
+  <OA_RK_Court_Member_A.title>OA·外务部侍从</OA_RK_Court_Member_A.title>
+  <OA_RK_Court_Member_A.titleShort>外员</OA_RK_Court_Member_A.titleShort>
+  <OA_RK_Court_Member_A.baseDesc>作为宫廷的外务成员，[PAWN_nameDef]在大多数时候都会在街区内巡逻以处理突发情况————无论是急救，还是设备的紧急维修，[PAWN_nameDef]都有接受过相关的培训练习。</OA_RK_Court_Member_A.baseDesc>  
+
+    <OA_RK_Technical_Court_Member_B.title>OA·维护员</OA_RK_Technical_Court_Member_B.title>
+  <OA_RK_Technical_Court_Member_B.titleShort>维护员</OA_RK_Technical_Court_Member_B.titleShort>
+  <OA_RK_Technical_Court_Member_B.baseDesc>[PAWN_nameDef]是宫廷技术部的一员。无论是核能，电气，机械还是前沿能源，[PAWN_pronoun]都知道该怎么去维护它们。</OA_RK_Technical_Court_Member_B.baseDesc>  
+  
+  <OA_RK_Technical_Court_Member_E.title>OA·侍书</OA_RK_Technical_Court_Member_E.title>
+  <OA_RK_Technical_Court_Member_E.titleShort>侍书</OA_RK_Technical_Court_Member_E.titleShort>
+  <OA_RK_Technical_Court_Member_E.baseDesc>[PAWN_nameDef]是金鸢尾兰政务决策部中的一员。通常情况下[PAWN_nameDef]需要跟随在一位贵族身边，并记录其的言行与政务指令，随后在与下一位侍书交接工作后将记录的事项汇总并落实。\n\n偶尔当地贵族政务处理不过来时，[PAWN_nameDef]往往也会参与基础政务的处理。</OA_RK_Technical_Court_Member_E.baseDesc>  
+  
+  
+  <OA_RK_Technical_Court_Member_K.title>OA·宫廷部总管</OA_RK_Technical_Court_Member_K.title>
+  <OA_RK_Technical_Court_Member_K.titleShort>总管</OA_RK_Technical_Court_Member_K.titleShort>
+  <OA_RK_Technical_Court_Member_K.baseDesc>想要把一个庞大的宫廷的日常安排的井井有条是一件很困难的事情，但对于[PAWN_nameDef]而言这些却并不算得上是一件难事。在绝大多数的时间里[PAWN_nameDef]都在海量的信息交互中度过，但令人惊异的是[PAWN_pronoun]却依然能够有条不紊的处理这些事项。</OA_RK_Technical_Court_Member_K.baseDesc>  
+    
+  <OA_RK_Court_Member_D.title>OA·宫廷核心侍从</OA_RK_Court_Member_D.title>
+  <OA_RK_Court_Member_D.titleShort>侍从</OA_RK_Court_Member_D.titleShort>
+  <OA_RK_Court_Member_D.baseDesc>[PAWN_nameDef]是宫廷的核心侍从之一，丰富的阅历让[PAWN_pronoun]在各个领域都略有涉及。当大多数人不知所措的时候，[PAWN_pronoun]往往能够给出最好的解决方案。</OA_RK_Court_Member_D.baseDesc>  
+    
+  
+  <OA_RK_Civilian_AG.title>OA·宫廷医师</OA_RK_Civilian_AG.title>
+  <OA_RK_Civilian_AG.titleShort>医师</OA_RK_Civilian_AG.titleShort>
+  <OA_RK_Civilian_AG.baseDesc>[PAWN_nameDef]是宫廷的医护部中的医师。由于医护部大多数时候并不需要满负荷运转，因此平日里[PAWN_pronoun]大多数在自己家中待着，只有在宫廷需要或者轮班到自己的时候，[PAWN_pronoun]才会前往宫廷。</OA_RK_Civilian_AG.baseDesc>  
+  
+  <OA_RK_Civilian_BE.title>OA·宫廷设计师</OA_RK_Civilian_BE.title>
+  <OA_RK_Civilian_BE.titleShort>设计师</OA_RK_Civilian_BE.titleShort>
+  <OA_RK_Civilian_BE.baseDesc>在[PAWN_nameDef]初到宫廷时，[PAWN_pronoun]在工作闲暇时将大部分的精力投入到学习艺术与金鸢尾兰的建筑学上，因此后来[PAWN_pronoun]被委派到了工业部，参与金鸢尾兰建筑的设计，并保证它们的安全性与雅观。</OA_RK_Civilian_BE.baseDesc>  
+  
+  <OA_RK_Civilian_F.title>OA·宫廷嫡系侍从</OA_RK_Civilian_F.title>
+  <OA_RK_Civilian_F.titleShort>侍从</OA_RK_Civilian_F.titleShort>
+  <OA_RK_Civilian_F.baseDesc>[PAWN_nameDef]从小便在宫廷中长大，因此成年后顺理成章的加入了宫廷中，成为了宫廷的嫡系侍从之一。</OA_RK_Civilian_F.baseDesc>  
+  
+  <RK_OA_gene_Social.label>鸢尾兰激素</RK_OA_gene_Social.label>
+  <RK_OA_gene_Social.description>该基因的携带者会分泌一种特殊的激素，这种激素迫使他们寻求拥有同激素的生物报团以获得安全感。当他们的团体过小时，他们会感到不安，反之则会感到安心，并且变得温顺。</RK_OA_gene_Social.description>
+
+金鸢尾兰帝国通用的交流平台，日常生活的各种功能一应俱全，能够很方便的了解各殖民地的状况以及办公。\n\n装备时可以与金鸢尾兰帝国进行直接通讯。

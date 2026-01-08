@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kiiro_BackstoryChild_01.title>綺羅 鄉村孩童</Kiiro_BackstoryChild_01.title>
+  <Kiiro_BackstoryChild_01.titleShort>鄉村孩童</Kiiro_BackstoryChild_01.titleShort>
+  <Kiiro_BackstoryChild_01.description>[PAWN_nameDef]在一個綺羅聚居的村落裡長大。像每一個普通的綺羅小孩那樣，[PAWN_nameDef]擁有完整且幸福的童年。</Kiiro_BackstoryChild_01.description>
+
+  <Kiiro_BackstoryChild_02.title>綺羅 三好學生</Kiiro_BackstoryChild_02.title>
+  <Kiiro_BackstoryChild_02.titleShort>好學生</Kiiro_BackstoryChild_02.titleShort>
+  <Kiiro_BackstoryChild_02.description>[PAWN_nameDef]熱愛學習，在學校里頗受老師們的喜歡。</Kiiro_BackstoryChild_02.description>
+
+  <Kiiro_BackstoryChild_03.title>綺羅 乖小孩</Kiiro_BackstoryChild_03.title>
+  <Kiiro_BackstoryChild_03.titleShort>乖小孩</Kiiro_BackstoryChild_03.titleShort>
+  <Kiiro_BackstoryChild_03.description>[PAWN_nameDef]早早地學會了勤儉持家，經常在家裡做一些力所能及的家務活兒。</Kiiro_BackstoryChild_03.description>
+
+  <Kiiro_BackstoryChild_04.title>綺羅 農家小孩</Kiiro_BackstoryChild_04.title>
+  <Kiiro_BackstoryChild_04.titleShort>農家小孩</Kiiro_BackstoryChild_04.titleShort>
+  <Kiiro_BackstoryChild_04.description>[PAWN_nameDef]沒有像其他同齡人一樣接受教育，而是選擇留在家裡幫助照顧農田。</Kiiro_BackstoryChild_04.description>
+
+  <Kiiro_BackstoryChild_05.title>綺羅 牧童</Kiiro_BackstoryChild_05.title>
+  <Kiiro_BackstoryChild_05.titleShort>牧童</Kiiro_BackstoryChild_05.titleShort>
+  <Kiiro_BackstoryChild_05.description>[PAWN_nameDef]喜歡和動物相處。儘管年紀輕輕，她還是成爲了一名可靠的放牧人。[PAWN_nameDef]會唱一些牧歌。</Kiiro_BackstoryChild_05.description>
+
+  <Kiiro_BackstoryChild_06.title>綺羅 紙藝學徒</Kiiro_BackstoryChild_06.title>
+  <Kiiro_BackstoryChild_06.titleShort>紙藝學徒</Kiiro_BackstoryChild_06.titleShort>
+  <Kiiro_BackstoryChild_06.description>[PAWN_nameDef]自幼學習紙藝。她的師父希望她能夠傳承這份手藝。</Kiiro_BackstoryChild_06.description>
+
+  <Kiiro_BackstoryChild_07.title>綺羅 自閉小孩</Kiiro_BackstoryChild_07.title>
+  <Kiiro_BackstoryChild_07.titleShort>自閉小孩</Kiiro_BackstoryChild_07.titleShort>
+  <Kiiro_BackstoryChild_07.description>[PAWN_nameDef]害怕與人交流，總是一個人窩在房間里。獨處讓她有很多時間自己思考，所以[PAWN_nameDef]可能會比同齡人想得更多一點也說不定？</Kiiro_BackstoryChild_07.description>
+
+  <Kiiro_BackstoryChild_08.title>綺羅 遺孤</Kiiro_BackstoryChild_08.title>
+  <Kiiro_BackstoryChild_08.titleShort>遺孤</Kiiro_BackstoryChild_08.titleShort>
+  <Kiiro_BackstoryChild_08.description>[PAWN_nameDef]吃百家飯長大；[PAWN_nameDef]的親人在她年幼時因為一場災難永遠地離開了她。但經歷過一段時間的掙扎后她重新振作了起來：打不倒她的終將使她更堅強。</Kiiro_BackstoryChild_08.description>
+
+  <Kiiro_BackstoryChild_09.title>綺羅 淘氣鬼</Kiiro_BackstoryChild_09.title>
+  <Kiiro_BackstoryChild_09.titleShort>淘氣鬼</Kiiro_BackstoryChild_09.titleShort>
+  <Kiiro_BackstoryChild_09.description>[PAWN_nameDef]有花不完的精力，雖然她的活潑好動總是給身邊的人帶來麻煩。</Kiiro_BackstoryChild_09.description>
+
+  <Kiiro_BackstoryChild_10.title>綺羅 小書蟲</Kiiro_BackstoryChild_10.title>
+  <Kiiro_BackstoryChild_10.titleShort>小書蟲</Kiiro_BackstoryChild_10.titleShort>
+  <Kiiro_BackstoryChild_10.description>[PAWN_nameDef]很喜歡看書，她把所有的空閑時間都花進了書里，花進了那些數不盡的，各種各樣的世界裡。</Kiiro_BackstoryChild_10.description>
+
+  <Kiiro_BackstoryChild_11.title>綺羅 鐵匠鋪學徒</Kiiro_BackstoryChild_11.title>
+  <Kiiro_BackstoryChild_11.titleShort>鐵匠學徒</Kiiro_BackstoryChild_11.titleShort>
+  <Kiiro_BackstoryChild_11.description>[PAWN_nameDef]從小跟隨在一位經驗豐富的鐵匠身邊做一些打雜的活兒。每當[PAWN_nameDef]為火焰中誕生的鐵器而迷醉，問起師父什麼時候自己才能親手來做的時候，她的師父回想起曾經[PAWN_nameDef]那差點揮到自己腦袋上的鐵錘總是不寒而慄。</Kiiro_BackstoryChild_11.description>
+
+  <Kiiro_BackstoryChild_12.title>綺羅 倒霉蛋</Kiiro_BackstoryChild_12.title>
+  <Kiiro_BackstoryChild_12.titleShort>倒霉蛋</Kiiro_BackstoryChild_12.titleShort>
+  <Kiiro_BackstoryChild_12.description>[PAWN_nameDef]的童年總是經歷一些倒霉的事情，似乎所有的一切都跟她過不去，不過在習慣這樣的生活后[PAWN_nameDef]反而逐漸變得樂觀開朗了起來。</Kiiro_BackstoryChild_12.description>
+
+  <Kiiro_BackstoryChild_13.title>綺羅 留守兒童</Kiiro_BackstoryChild_13.title>
+  <Kiiro_BackstoryChild_13.titleShort>留守兒童</Kiiro_BackstoryChild_13.titleShort>
+  <Kiiro_BackstoryChild_13.description>[PAWN_nameDef]的雙親在[PAWN_nameDef]還小的時候就離開了她，[PAWN_nameDef]也不知道她們都去了哪裡，但[PAWN_nameDef]每天都期待著她們回來。</Kiiro_BackstoryChild_13.description>
+
+  <Kiiro_BackstoryChild_14.title>綺羅 城鎮孩童</Kiiro_BackstoryChild_14.title>
+  <Kiiro_BackstoryChild_14.titleShort>城鎮孩童</Kiiro_BackstoryChild_14.titleShort>
+  <Kiiro_BackstoryChild_14.description>[PAWN_nameDef]在一個科技水平正在蓬勃發展的城鎮中長大，不斷引入的新鮮事物無時無刻不吸引著[PAWN_nameDef]，這使得她對這些東西產生了極大的興趣。</Kiiro_BackstoryChild_14.description>
+
+  <Kiiro_BackstoryChild_15.title>綺羅 小天才</Kiiro_BackstoryChild_15.title>
+  <Kiiro_BackstoryChild_15.titleShort>小天才</Kiiro_BackstoryChild_15.titleShort>
+  <Kiiro_BackstoryChild_15.description>[PAWN_nameDef]從小就表現出了異於常人的智力，她快速而準確的思維邏輯總是引得身邊的人稱讚不已。</Kiiro_BackstoryChild_15.description>
+
+  <Kiiro_BackstoryChild_16.title>綺羅 報童</Kiiro_BackstoryChild_16.title>
+  <Kiiro_BackstoryChild_16.titleShort>報童</Kiiro_BackstoryChild_16.titleShort>
+  <Kiiro_BackstoryChild_16.description>[PAWN_nameDef]經常在一個小鎮里幫一家報社派送報紙，以此來換取一些額外的零花錢。有時[PAWN_nameDef]也會自己看報，她從上面瞭解到了不少平時接觸不到的東西。</Kiiro_BackstoryChild_16.description>
+
+  <Kiiro_BackstoryChild_17.description>城鎮中那些蜿蜒曲折、堆滿雜物的小巷，在成年綺羅眼中或許平平無奇，但在[PAWN_nameDef]的童年裡，卻是充滿秘密和驚喜的探險樂園。[PAWN_pronoun]有著貓一般的好奇心和敏捷的身手，常常能從不起眼的角落發現一些被遺忘的小玩意兒，或是觀察到其他居民日常生活中不易察覺的細節。這些早期的探索經歷，培養了[PAWN_nameDef]敏銳的觀察力和對環境的適應能力。</Kiiro_BackstoryChild_17.description>
+  <Kiiro_BackstoryChild_17.title>綺羅 小巷探險家</Kiiro_BackstoryChild_17.title>
+  <Kiiro_BackstoryChild_17.titleShort>小巷探險家</Kiiro_BackstoryChild_17.titleShort>
+  
+  <Kiiro_BackstoryChild_18.description>與同齡的孩童相比，[PAWN_nameDef]似乎總是顯得更懂事一些。[PAWN_pronoun]會主動幫助家裡做一些力所能及的小事，比如給花草澆水、整理自己的玩具，或者在父母忙碌時安靜地待在一旁不添亂。這種早熟的體貼和責任感，讓[PAWN_nameDef]在長輩眼中是個省心的小孩，也讓[PAWN_pronoun]更早地學會了照顧自己和體諒他人。</Kiiro_BackstoryChild_18.description>
+  <Kiiro_BackstoryChild_18.title>綺羅 小大人</Kiiro_BackstoryChild_18.title>
+  <Kiiro_BackstoryChild_18.titleShort>小大人</Kiiro_BackstoryChild_18.titleShort>
+  
+  <Kiiro_BackstoryChild_19.description>[PAWN_nameDef]的童年有很多時間是趴在窗臺上度過的，[PAWN_pronoun]喜歡靜靜地觀察窗外來來往往的街坊鄰居，看街頭小販叫賣，看鄰居們聊天，看天氣的陰晴變化。這種安靜的觀察讓[PAWN_nameDef]對周圍的世界有了自己獨特的理解，也培養了[PAWN_pronoun]內向而細膩的性格。對[PAWN_nameDef]而言，小小的窗戶就是[PAWN_pronoun]認識世界的畫框。</Kiiro_BackstoryChild_19.description>
+  <Kiiro_BackstoryChild_19.title>綺羅 窗臺上的觀察者</Kiiro_BackstoryChild_19.title>
+  <Kiiro_BackstoryChild_19.titleShort>窗臺上的觀察者</Kiiro_BackstoryChild_19.titleShort>
+  
+  <Kiiro_BackstoryChild_20.description>[PAWN_nameDef]總是跟隨大人們在戰亂后的廢墟里拾荒。[PAWN_pronoun]學會瞭如何在瓦礫中穿行，如何辨別有用的東西，以及如何在危險來臨時迅速躲藏。這段經歷讓[PAWN_nameDef]過早地體會了生存的不易，也鍛鍊了[PAWN_pronoun]的警覺性和生存本能。</Kiiro_BackstoryChild_20.description>
+  <Kiiro_BackstoryChild_20.title>綺羅 小拾荒者</Kiiro_BackstoryChild_20.title>
+  <Kiiro_BackstoryChild_20.titleShort>小拾荒者</Kiiro_BackstoryChild_20.titleShort>
+  
+  <Kiiro_BackstoryChild_21.description>在一些臨時的避難所或大家庭中，年幼的綺羅們常常會擠在一起，形成一個溫暖而安全的"集體睡窩"。[PAWN_nameDef]的童年大部分時間都是在這樣的環境中度過的，[PAWN_pronoun]習慣了與其他人分享空間，也學會了在群體中找到自己的位置。這種經歷讓[PAWN_nameDef]對集體生活有較強的適應性，但也可能缺乏獨立性。</Kiiro_BackstoryChild_21.description>
+  <Kiiro_BackstoryChild_21.title>綺羅 難民小不點</Kiiro_BackstoryChild_21.title>
+  <Kiiro_BackstoryChild_21.titleShort>難民小不點</Kiiro_BackstoryChild_21.titleShort>
+  
+  <Kiiro_BackstoryChild_22.description>[PAWN_nameDef]的童年最愛去的地方就是城鎮房屋的屋頂。在那裡，[PAWN_pronoun]可以俯瞰整個城鎮，看炊煙裊裊和行人來來往往，更可以不受打擾地仰望天空，追逐雲彩的變幻，或是對著星空發呆。屋頂是[PAWN_nameDef]的秘密基地，也是[PAWN_pronoun]想像力自由翱翔的場所，[PAWN_pronoun]常常在那裡編織著各種不切實際的夢想。</Kiiro_BackstoryChild_22.description>
+  <Kiiro_BackstoryChild_22.title>綺羅 屋頂上的人</Kiiro_BackstoryChild_22.title>
+  <Kiiro_BackstoryChild_22.titleShort>屋頂上的人</Kiiro_BackstoryChild_22.titleShort>
+  
+  <Kiiro_BackstoryChild_23.description>不知為何，[PAWN_nameDef]的童年似乎總是與各種小麻煩和意外相伴。打翻墨水瓶、不小心弄壞鄰居家的花盆、或者是在不該出現的地方被發現……[PAWN_nameDef]並非有意搗蛋，但麻煩似乎總是會自動找上門來。這段"多災多難"的童年，雖然讓[PAWN_nameDef]吃了不少苦頭，但也鍛鍊了[PAWN_nameDef]的應變能力和……嗯，道歉的技巧。</Kiiro_BackstoryChild_23.description>
+  <Kiiro_BackstoryChild_23.title>綺羅 自動闖禍機</Kiiro_BackstoryChild_23.title>
+  <Kiiro_BackstoryChild_23.titleShort>自動闖禍機</Kiiro_BackstoryChild_23.titleShort>
+  
+  <Kiiro_BackstoryChild_24.description>[PAWN_nameDef]的童年，廚房是[PAWN_pronoun]最喜歡的地方之一，不是因為喜歡幫忙，而是因為總能第一個嚐到新鮮出爐的食物。無論是媽媽正在燉煮的濃湯，還是麵包師剛烤好的麵包邊角，[PAWN_nameDef]都會好好品鑑一番。這培養了[PAWN_nameDef]對味道的敏感度和對美食的初步認知，以及可能略微圓潤的小肚子。</Kiiro_BackstoryChild_24.description>
+  <Kiiro_BackstoryChild_24.title>綺羅 小嚐味師</Kiiro_BackstoryChild_24.title>
+  <Kiiro_BackstoryChild_24.titleShort>小嚐味師</Kiiro_BackstoryChild_24.titleShort>
+  
+  <Kiiro_BackstoryChild_25.description>如果[PAWN_nameDef]的家庭經營香料生意或者特別講究烹飪調味，那麼[PAWN_nameDef]的童年記憶里一定少不了各種香料的濃郁氣味和烹煮香料的咕嘟聲。[PAWN_pronoun]會幫著父母篩選、晾曬和用小石臼研磨各種香料，雖然常常弄得自己一身香氣或噴嚏連連，但也讓[PAWN_nameDef]對不同香料的特性和搭配有了最初的瞭解。</Kiiro_BackstoryChild_25.description>
+  <Kiiro_BackstoryChild_25.title>綺羅 香料小助手</Kiiro_BackstoryChild_25.title>
+  <Kiiro_BackstoryChild_25.titleShort>香料小助手</Kiiro_BackstoryChild_25.titleShort>
+  
+  <Kiiro_BackstoryChild_26.description>城鎮里有甜品店是[PAWN_nameDef]童年最嚮往的地方。[PAWN_pronoun]會幫忙跑腿抑或是用可憐巴巴的眼神從甜點師那裡換取一小塊點心或糖果。對甜食的熱愛，讓[PAWN_nameDef]對糖、蜂蜜、果醬等甜味劑的運用有了深刻的體會，也可能激發了[PAWN_nameDef]日後學習製作甜點的興趣。</Kiiro_BackstoryChild_26.description>
+  <Kiiro_BackstoryChild_26.title>綺羅 甜品獵手</Kiiro_BackstoryChild_26.title>
+  <Kiiro_BackstoryChild_26.titleShort>甜品獵手</Kiiro_BackstoryChild_26.titleShort>
+
+</LanguageData>

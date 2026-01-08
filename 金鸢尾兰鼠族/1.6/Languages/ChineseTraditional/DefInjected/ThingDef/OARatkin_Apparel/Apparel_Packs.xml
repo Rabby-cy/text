@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <OA_RK_EMPBelt.label>電磁癱瘓投放背包</OA_RK_EMPBelt.label>
+  <OA_RK_EMPBelt.description>金鸢尾蘭帝國突襲隊所攜帶的空投靶向標，使用後將會激活對應編號的空投設施，並向目標坐標投放壹次性電子設備癱瘓設施。</OA_RK_EMPBelt.description>
+
+  <OA_RK_FirstAid.label>生命維持急救包</OA_RK_FirstAid.label>
+  <OA_RK_FirstAid.description>金鸢尾蘭帝國突襲隊標配的戰場急救用品，其內包含著先進的戰場急救用品與四枚凝滯因子針劑。</OA_RK_FirstAid.description>
+
+  <OA_RK_LifeformDetect.label>生命體偵測裝置</OA_RK_LifeformDetect.label>
+  <OA_RK_LifeformDetect.description>金鸢尾蘭爲了反制靈能隱身而配備的偵測裝置，當隱身者足夠靠近時將會提醒佩戴者目標所在方位。</OA_RK_LifeformDetect.description>
+
+</LanguageData>

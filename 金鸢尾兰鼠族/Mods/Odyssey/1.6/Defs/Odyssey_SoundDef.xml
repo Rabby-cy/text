@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <SoundDef>
+        <defName>OARK_Sound_GravBomb</defName>
+        <context>MapOnly</context>
+        <eventNames />
+        <subSounds>
+            <li>
+                <onCamera>True</onCamera>
+                <grains>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Odyssey_Sound_GravBomb</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>
+                    <min>50</min>
+                    <max>60</max>
+                </volumeRange>
+                <pitchRange>
+                    <min>1.0</min>
+                    <max>1.5</max>
+                </pitchRange>
+            </li>
+        </subSounds>
+    </SoundDef>
+
+</Defs>

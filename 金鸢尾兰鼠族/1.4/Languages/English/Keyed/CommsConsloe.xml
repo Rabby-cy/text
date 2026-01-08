@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 通讯台相关 -->
+<LanguageData>
+
+
+    <OA_AllianceDurationShort>Need at least {0} days for alliance</OA_AllianceDurationShort>
+    <OA_AlliancePointsNotEnough>At least {0} support points are required</OA_AlliancePointsNotEnough> <!-- 新 -->
+
+    <OA_CallForLargeScaleTrade>Call for large caravans</OA_CallForLargeScaleTrade>
+    <OA_CallForLargeScaleTradeConfirm>{0} will instruct a large caravan to come.</OA_CallForLargeScaleTradeConfirm>
+
+    <OA_SponsorOberoniaAurea>Sponsorship of the colonial base of the Golden Iris Empire</OA_SponsorOberoniaAurea>
+    <OA_DoSponsorOberoniaAurea>Sponsorship {0} Silver</OA_DoSponsorOberoniaAurea>
+    <OA_SponsorThanks>{0} expresses gratitude for our sponsorship, which will make the colonial base of the Golden Iris Empire more prosperous, and expresses that the Golden Iris Empire will remember all friends who have contributed to the empire.</OA_SponsorThanks>
+
+    <OA_SponsorAssistPointsGet>Support points increased by {0}</OA_SponsorAssistPointsGet> <!-- 新 -->
+    <OA_SponsorRoyaltyFavorGain>{0} obtained {1} honor points</OA_SponsorRoyaltyFavorGain>
+    <OA_SponsorThanksAgain>{0} is very grateful for our contribution to the Golden Iris Orchid, but the colonial base currently does not require any further assistance, and we hope to use these to take care of ourselves.</OA_SponsorThanksAgain>
+
+    <OA_BuyTechPrint>Request to purchase the Golden Iris Technology Blueprint</OA_BuyTechPrint>
+    <OA_BuyTechPrintNode>After thinking for a while, {0} sent you a list.</OA_BuyTechPrintNode>
+    <OA_TechPrintChoice>Purchase: {0} Value {1} Silver</OA_TechPrintChoice>
+    <OA_TechPrintNeedAllianceDuration>Need alliance: {0} days</OA_TechPrintNeedAllianceDuration>
+    <OA_TechPrintNeedRoyalTitle>Title required: {0}</OA_TechPrintNeedRoyalTitle>
+    <OA_TechPrintChoiceConfirm>{0} agrees to our request, and the technology blueprint will be delivered soon</OA_TechPrintChoiceConfirm>
+    <OA_BuyTechPrintDeniedDueTitle>{FACTION_name} is unable to allocate blueprints to you because {NEGOTIATOR_nameDef} does not have enough titles (at least {TITLE})。</OA_BuyTechPrintDeniedDueTitle>
+    <OA_TechPrintArrive>{FACTION_name}向你空投的{1}已经到达</OA_TechPrintArrive>
+
+    <OA_AssistWithTrouble>Seeking some assistance</OA_AssistWithTrouble>
+    <OA_AssistWithTroubleInfo>Current available support points: {0} \n Current maximum natural increase in support points: {1} \n\n Support points will naturally increase by 1 point per day. The longer you ally with the Golden Iris Orchid, the higher the threshold for natural growth. \In addition, you can also sponsor the Golden Iris Colony, visit the Golden Iris settlement and engage in in-depth negotiations, or complete special missions to obtain additional support points.</OA_AssistWithTroubleInfo>
+
+    <OA_AssistPointsStoppage>The natural growth of support points is stopping, and there are {0} days left after the growth stops.</OA_AssistPointsStoppage>
+
+    <OA_WeAreStarving>Requesting food assistance</OA_WeAreStarving>
+    <OA_WeAreStarvingConfirm>{0} indicates that she understands your needs and has already allocated some food to you.</OA_WeAreStarvingConfirm>
+
+    <OA_WeHadAFamine>Requesting large-scale food aid</OA_WeHadAFamine>
+    <OA_WeHadAFamineConfirm>{0} indicates that she understands your needs and has already allocated a batch of food to you.</OA_WeHadAFamineConfirm>
+
+    <OA_WeNeedEmergencyMedicine>Requesting the allocation of emergency drugs</OA_WeNeedEmergencyMedicine>
+    <OA_WeNeedEmergencyMedicineConfirm>{0} indicates that she understands your needs and has already allocated a batch of drugs to you.</OA_WeNeedEmergencyMedicineConfirm>
+
+    <OA_WeAreInFinancialTrouble>Requesting financial assistance</OA_WeAreInFinancialTrouble>
+    <OA_WeAreInFinancialTroubleConfirm>{0} indicates that she understands your needs and will allocate some funds to assist you.</OA_WeAreInFinancialTroubleConfirm>
+
+    <OA_WeNeedLongTermAssistance>Requesting long-term personnel assistance</OA_WeNeedLongTermAssistance>
+    <OA_WeNeedLongTermAssistanceConfirm>{0} indicates that she understands your thoughts, and two attendants of the Golden Iris Orchid will come to assist you for a long time.</OA_WeNeedLongTermAssistanceConfirm>
+
+    <OA_CallForTributeCollector>Requesting the dispatch of a material recruitment team</OA_CallForTributeCollector>
+    <OA_CallForTributeCollectorConfirm>{0} indicates that a nearby material recruitment team has received your request and will arrive soon.</OA_CallForTributeCollectorConfirm>
+
+    <OA_WeAreBeingAttacked>Requesting assistance from a raid team</OA_WeAreBeingAttacked>
+    <OA_WeAreBeingAttackedConfirm>{0} indicates that she understands your needs, and a Golden Iris Assault Team will assist you in the battle.</OA_WeAreBeingAttackedConfirm>
+
+    <OA_WeNeedUrgentBackup>Requesting support from a raid squad</OA_WeNeedUrgentBackup>
+    <OA_WeNeedUrgentBackupConfirm>{0} indicates that she understands your needs, and a raid squad of Golden Iris Orchid will set off immediately.</OA_WeNeedUrgentBackupConfirm>
+
+    <OA_WeNeedMilitaryDeployment>Requesting several days of military deployment</OA_WeNeedMilitaryDeployment>
+    <OA_WeNeedMilitaryDeploymentConfirm>{0} indicates that she understands your needs and has a Golden Iris combat unit deployed around you. They will immediately support you when you are attacked.</OA_WeNeedMilitaryDeploymentConfirm>
+
+    <OA_MealSurvivalPackArrive>The {1} packaged survival food that {0} airdropped to you has arrived</OA_MealSurvivalPackArrive>
+    <OA_EmergencyMedicineArrive>The emergency medicine airdropped to you by {0} has arrived</OA_EmergencyMedicineArrive>
+    <OA_SilverArrive>The {1} pieces of silver airdropped to you by {0} have arrived</OA_SilverArrive>
+
+    <OA_AssistPawnArrival>Personnel arrival</OA_AssistPawnArrival>
+    <OA_AssistPawnArrivalDetail>The {1} positions {2} from {0} have arrived, and they are:</OA_AssistPawnArrivalDetail>
+    <OA_AssistPawnJoin>They will join your colony for long-term assistance.</OA_AssistPawnJoin>
+
+</LanguageData>

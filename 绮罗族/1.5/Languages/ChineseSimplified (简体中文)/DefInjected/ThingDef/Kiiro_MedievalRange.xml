@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 弓类 -->
+
+  <Kiiro_RecurveBow.label>绮罗反曲弓</Kiiro_RecurveBow.label>
+  <Kiiro_RecurveBow.description>绮罗族最常使用的弓，普通绮罗稍加训练就能够使用。</Kiiro_RecurveBow.description>
+  <Kiiro_RecurveBow.tools.0.label>limb</Kiiro_RecurveBow.tools.0.label>
+
+  <KiiroArrow_RecurveBow.label>绮罗反曲弓箭矢</KiiroArrow_RecurveBow.label>
+
+  <Kiiro_HunterBow.label>绮罗猎人短弓</Kiiro_HunterBow.label>
+  <Kiiro_HunterBow.description>狩猎用的弓。射程和威力上都不出彩，不过用来打猎绰绰有余了。</Kiiro_HunterBow.description>
+  <Kiiro_HunterBow.tools.0.label>limb</Kiiro_HunterBow.tools.0.label>
+
+  <KiiroArrow_HunterBow.label>绮罗猎人短弓箭矢</KiiroArrow_HunterBow.label>
+
+  <Kiiro_LongBow.label>绮罗长弓</Kiiro_LongBow.label>
+  <Kiiro_LongBow.description>一张很大的弓，拥有极远的射程的同时威力也不容小觑，但需要大量训练才能掌握。</Kiiro_LongBow.description>
+  <Kiiro_LongBow.tools.0.label>limb</Kiiro_LongBow.tools.0.label>
+
+  <KiiroArrow_LongBow.label>绮罗长弓箭矢</KiiroArrow_LongBow.label>
+
+
+  <!-- 弩类 -->
+
+  <Kiiro_CrossBow.label>绮罗十字弩</Kiiro_CrossBow.label>
+  <Kiiro_CrossBow.description>具备了机括结构的弓弩，可以提前储存一根弩箭用于发射，但装填时间较长。</Kiiro_CrossBow.description>
+  <Kiiro_CrossBow.tools.0.label>limb</Kiiro_CrossBow.tools.0.label>
+
+  <KiiroArrow_CrossBow.label>绮罗十字弩箭矢</KiiroArrow_CrossBow.label>
+
+  <Kiiro_RepeatingCrossbow.label>绮罗连弩</Kiiro_RepeatingCrossbow.label>
+  <Kiiro_RepeatingCrossbow.description>具备了复杂机括结构的弓弩，能够连续发射弩箭。</Kiiro_RepeatingCrossbow.description>
+  <Kiiro_RepeatingCrossbow.tools.0.label>limb</Kiiro_RepeatingCrossbow.tools.0.label>
+
+  <KiiroArrow_RepeatingCrossbow.label>绮罗连弩箭矢</KiiroArrow_RepeatingCrossbow.label>
+
+
+  <!-- 飞镖 -->
+
+  <Kiiro_ThrowingKnife.label>绮罗柳叶飞刀</Kiiro_ThrowingKnife.label>
+  <Kiiro_ThrowingKnife.description>一把匀称的飞刀，能够以飞快的速度被投掷出去。</Kiiro_ThrowingKnife.description>
+  <Kiiro_ThrowingKnife.tools.0.label>blade</Kiiro_ThrowingKnife.tools.0.label>
+
+  <KiiroProjectile_ThrowingKnife.label>绮罗柳叶飞刀</KiiroProjectile_ThrowingKnife.label>
+
+  <Kiiro_ThrowingCrossKnives.label>绮罗星镖</Kiiro_ThrowingCrossKnives.label>
+  <Kiiro_ThrowingCrossKnives.description>一叠小巧的四角飞镖，能够以飞快的速度被投掷出去。</Kiiro_ThrowingCrossKnives.description>
+  <Kiiro_ThrowingCrossKnives.tools.0.label>blade</Kiiro_ThrowingCrossKnives.tools.0.label>
+
+  <KiiroProjectile_ThrowingCrossKnives.label>绮罗星镖</KiiroProjectile_ThrowingCrossKnives.label>
+
+  <Kiiro_BlowGun.label>绮罗吹箭筒</Kiiro_BlowGun.label>
+  <Kiiro_BlowGun.description>用于发射吹箭的轻巧木筒，尽管本身不能造成多少杀伤，但是吹箭的细小隐秘总是令人难以防备，一般搭配毒药使用。</Kiiro_BlowGun.description>
+  <Kiiro_BlowGun.tools.0.label>筒身</Kiiro_BlowGun.tools.0.label>
+
+  <KiiroProjectile_BlowArrow.label>绮罗吹箭</KiiroProjectile_BlowArrow.label>
+
+
+</LanguageData>

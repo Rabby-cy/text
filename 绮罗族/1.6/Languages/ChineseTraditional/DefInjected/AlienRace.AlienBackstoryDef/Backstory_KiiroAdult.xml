@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kiiro_BackstoryAdult_01.title>綺羅 小鎮居民</Kiiro_BackstoryAdult_01.title>
+  <Kiiro_BackstoryAdult_01.titleShort>鎮民</Kiiro_BackstoryAdult_01.titleShort>
+  <Kiiro_BackstoryAdult_01.description>[PAWN_nameDef]是小鎮里的一名普通綺羅，生活對她來說閒適而美好。</Kiiro_BackstoryAdult_01.description>
+
+  <Kiiro_BackstoryAdult_02.title>綺羅 花匠</Kiiro_BackstoryAdult_02.title>
+  <Kiiro_BackstoryAdult_02.titleShort>花匠</Kiiro_BackstoryAdult_02.titleShort>
+  <Kiiro_BackstoryAdult_02.description>雖然大部分綺羅不擅長和植物相關的東西，但[PAWN_nameDef]不同。[PAWN_nameDef]在鎮子上經營著一家自己的花店，她每天的工作就是在店裡修剪她那些花卉的枝枝蔓蔓。日復一日，樂此不疲。每當花兒們迎著陽光綻放時，她心裡的花也盛開著。</Kiiro_BackstoryAdult_02.description>
+
+  <Kiiro_BackstoryAdult_03.title>綺羅 農場主</Kiiro_BackstoryAdult_03.title>
+  <Kiiro_BackstoryAdult_03.titleShort>農場主</Kiiro_BackstoryAdult_03.titleShort>
+  <Kiiro_BackstoryAdult_03.description>[PAWN_nameDef]管理著一大片農田。綺羅們不擅長耕田，但總得有人站出來負責，[PAWN_nameDef]就是其中之一。作為農場主她並不總是需要自己下地耕田，更多的是瞭解作物特點與時令，正確指揮其他人耕種。這往往比耕種本身更辛苦。</Kiiro_BackstoryAdult_03.description>
+
+  <Kiiro_BackstoryAdult_04.title>綺羅 農民</Kiiro_BackstoryAdult_04.title>
+  <Kiiro_BackstoryAdult_04.titleShort>農民</Kiiro_BackstoryAdult_04.titleShort>
+  <Kiiro_BackstoryAdult_04.description>[PAWN_nameDef]大部分時間都在田地裡勞作。相比其他族人來說，[PAWN_nameDef]在耕種方面更有經驗。儘管如此，她知道的作物知識其實並不多，畢竟大部分時候只要聽農場主的指揮就對了。</Kiiro_BackstoryAdult_04.description>
+
+  <Kiiro_BackstoryAdult_05.title>綺羅 村民</Kiiro_BackstoryAdult_05.title>
+  <Kiiro_BackstoryAdult_05.titleShort>村民</Kiiro_BackstoryAdult_05.titleShort>
+  <Kiiro_BackstoryAdult_05.description>[PAWN_nameDef]生活在一個規模不大的村子裡。雖然日子簡單而樸素，但她對這一切都很滿意。她總是很喜歡在傍晚時分和朋友坐在田埂上嘮家常，落下的夕陽和大家的歡聲笑語把時間拉得彷彿無限長。</Kiiro_BackstoryAdult_05.description>
+
+  <Kiiro_BackstoryAdult_06.title>綺羅 游商</Kiiro_BackstoryAdult_06.title>
+  <Kiiro_BackstoryAdult_06.titleShort>游商</Kiiro_BackstoryAdult_06.titleShort>
+  <Kiiro_BackstoryAdult_06.description>[PAWN_nameDef]領著商隊在各個城鎮之間來往，她每次通常只在鎮子里待一小會兒，就又要踏上前往下一個鎮子的路。這樣的生活究竟過去了多少年，[PAWN_nameDef]自己也說不清楚了。偶爾她也會去一些其他派系的城鎮兜售，但每次都因為一種莫名產生的「感覺會被打劫」的預感而以失敗告終。</Kiiro_BackstoryAdult_06.description>
+
+  <Kiiro_BackstoryAdult_07.title>綺羅 木匠</Kiiro_BackstoryAdult_07.title>
+  <Kiiro_BackstoryAdult_07.titleShort>木匠</Kiiro_BackstoryAdult_07.titleShort>
+  <Kiiro_BackstoryAdult_07.description>[PAWN_nameDef]是村子裡的木匠。大到房屋木樑，小到木製雕塑，她做起來都得心應手。每當族人們對她的產品讚不絕口，問起她為何選擇了從事木工行業時，[PAWN_nameDef]總是不好意思說最開始想做木匠只是因為喜歡刨花。</Kiiro_BackstoryAdult_07.description>
+
+  <Kiiro_BackstoryAdult_08.title>綺羅 鐵匠</Kiiro_BackstoryAdult_08.title>
+  <Kiiro_BackstoryAdult_08.titleShort>鐵匠</Kiiro_BackstoryAdult_08.titleShort>
+  <Kiiro_BackstoryAdult_08.description>[PAWN_nameDef]在鄉下有一間自己的鐵匠鋪。其實最早她的鋪子開在鎮子里，生意也還算不錯；但是自從某一天鎮子里建設了叫做「工廠」的東西之後，她的鋪子慢慢沒人再來了。儘管每次提到這件事的時候[PAWN_nameDef]都氣鼓鼓地嘟著嘴，表示鎮上那玩意也沒什麼大不了的；但工廠開辦的技術講座和展覽會她一場也沒落下。</Kiiro_BackstoryAdult_08.description>
+
+  <Kiiro_BackstoryAdult_09.title>綺羅 裁縫</Kiiro_BackstoryAdult_09.title>
+  <Kiiro_BackstoryAdult_09.titleShort>裁縫</Kiiro_BackstoryAdult_09.titleShort>
+  <Kiiro_BackstoryAdult_09.description>[PAWN_nameDef]喜歡縫紉的感覺。她一針一線編織著衣裳，就像編織著自己的快樂一樣：雖然細小，但綿延不斷。所以儘管效率更高的縫紉機已經投入使用好一段時間，[PAWN_nameDef]還是堅持使用她的寶貝縫衣針來工作；但這並不代表她不會使用縫紉機，如果有緊急訂單的話，[PAWN_nameDef]會向顧客展現她縫紉機方面的高超技術的。</Kiiro_BackstoryAdult_09.description>
+
+  <Kiiro_BackstoryAdult_10.title>綺羅 紙藝師</Kiiro_BackstoryAdult_10.title>
+  <Kiiro_BackstoryAdult_10.titleShort>紙藝師</Kiiro_BackstoryAdult_10.titleShort>
+  <Kiiro_BackstoryAdult_10.description>[PAWN_nameDef]傳承著紙藝這項傳統藝術。只需要一些紙就能疊出各種各樣的東西，如今這項特別的技藝也變得少見了。雖說現在的綺羅們大多也還會疊一些簡單的東西，但這門藝術總歸是不如早些年那樣壯大。[PAWN_nameDef]認為綺羅不該拋棄這樣的傳統文化，她日復一日地刻苦練習著，期盼著有朝一日能將紙藝再次發揚光大。</Kiiro_BackstoryAdult_10.description>
+
+  <Kiiro_BackstoryAdult_11.title>綺羅 鄉村教師</Kiiro_BackstoryAdult_11.title>
+  <Kiiro_BackstoryAdult_11.titleShort>鄉村教師</Kiiro_BackstoryAdult_11.titleShort>
+  <Kiiro_BackstoryAdult_11.description>和鎮子上的老師相比，[PAWN_nameDef]掌握的知識並沒有那麼多，教學的方式也顯得有些笨拙。但[PAWN_nameDef]總是願意花很多時間在自己的學生們身上。</Kiiro_BackstoryAdult_11.description>
+
+  <Kiiro_BackstoryAdult_12.title>綺羅 教師</Kiiro_BackstoryAdult_12.title>
+  <Kiiro_BackstoryAdult_12.titleShort>教師</Kiiro_BackstoryAdult_12.titleShort>
+  <Kiiro_BackstoryAdult_12.description>[PAWN_nameDef]相比其他族人有更加豐富的學識，她在鎮子上的一所學校里工作。儘管綺羅族系統的教育體系發展才剛剛起步，包括[PAWN_nameDef]在內的不少族人對此仍然抱有疑問，但每當[PAWN_nameDef]看到學生們眼睛裡的好奇時，這樣的念頭便煙消雲散了。</Kiiro_BackstoryAdult_12.description>
+
+  <Kiiro_BackstoryAdult_13.title>綺羅 信使</Kiiro_BackstoryAdult_13.title>
+  <Kiiro_BackstoryAdult_13.titleShort>信使</Kiiro_BackstoryAdult_13.titleShort>
+  <Kiiro_BackstoryAdult_13.description>[PAWN_nameDef]負責了一小塊區域內各個城鎮和鄉村之間資訊的傳遞。自從那些天上落下來的人站穩腳跟后，綺羅族維繫多年的安定生活被打破了。而大部分綺羅聚落得以存續至今，很大程度上歸功於信使們的奔走相告。雖然如今綺羅族主要的城鎮之間建立了可靠的電子通訊，但這項技術沒能夠得到迅速普及，因此信使們仍然在被需要的地方活躍著。</Kiiro_BackstoryAdult_13.description>
+
+  <Kiiro_BackstoryAdult_14.title>綺羅 斥候</Kiiro_BackstoryAdult_14.title>
+  <Kiiro_BackstoryAdult_14.titleShort>斥候</Kiiro_BackstoryAdult_14.titleShort>
+  <Kiiro_BackstoryAdult_14.description>[PAWN_nameDef]是綺羅族的「眼睛」。從成為斥候的那一天起，[PAWN_nameDef]就註定要告別文明，餘生相伴荒林。她會隱秘地監視著周邊的一切，一旦嗅到危險的訊號，她會立刻趕回聚落通風報信，並通知臨近的信使將資訊傳遞到更遠的地方。風餐露宿的生活總是很辛苦，但[PAWN_nameDef]明白自己肩負的責任。</Kiiro_BackstoryAdult_14.description>
+
+  <Kiiro_BackstoryAdult_15.title>綺羅 赤腳醫生</Kiiro_BackstoryAdult_15.title>
+  <Kiiro_BackstoryAdult_15.titleShort>赤腳醫生</Kiiro_BackstoryAdult_15.titleShort>
+  <Kiiro_BackstoryAdult_15.description>[PAWN_nameDef]懂一些醫術，她總是在工作之餘抽出自己的時間來給人看病。雖然在專業知識上欠缺很多，但好在[PAWN_nameDef]經驗還算豐富。</Kiiro_BackstoryAdult_15.description>
+
+  <Kiiro_BackstoryAdult_16.title>綺羅 疫病倖存者</Kiiro_BackstoryAdult_16.title>
+  <Kiiro_BackstoryAdult_16.titleShort>疫病倖存者</Kiiro_BackstoryAdult_16.titleShort>
+  <Kiiro_BackstoryAdult_16.description>一片突如其來的毒霧席捲了[PAWN_nameDef]所在的村子，除開[PAWN_nameDef]外無一人倖免。</Kiiro_BackstoryAdult_16.description>
+
+  <Kiiro_BackstoryAdult_17.title>綺羅 鐘錶匠</Kiiro_BackstoryAdult_17.title>
+  <Kiiro_BackstoryAdult_17.titleShort>鐘錶匠</Kiiro_BackstoryAdult_17.titleShort>
+  <Kiiro_BackstoryAdult_17.description>[PAWN_nameDef]使用細小精密的零件組裝機械錶。這種表只要擰好發條就能工作很長時間，最近開始在綺羅族內部流行起來，而[PAWN_nameDef]正是少數能夠製作這個小玩意的綺羅之一。</Kiiro_BackstoryAdult_17.description>
+
+  <Kiiro_BackstoryAdult_18.title>綺羅 珠寶匠</Kiiro_BackstoryAdult_18.title>
+  <Kiiro_BackstoryAdult_18.titleShort>珠寶匠</Kiiro_BackstoryAdult_18.titleShort>
+  <Kiiro_BackstoryAdult_18.description>[PAWN_nameDef]平時的工作大概就是將一些看起來亮閃閃的石頭鑲嵌到各式各樣的首飾裡面，再把它們推薦給喜歡打扮的族人們；她靠這門手藝維持著生計。偶爾會有人告訴[PAWN_nameDef]她售賣的這些珠寶首飾里其實有非常稀有的寶石，單拿出來賣肯定能大賺一筆；但[PAWN_nameDef]不以為意，對於她來說只要石頭足夠好看，那就都是一樣的。</Kiiro_BackstoryAdult_18.description>
+
+  <Kiiro_BackstoryAdult_19.title>綺羅 礦工</Kiiro_BackstoryAdult_19.title>
+  <Kiiro_BackstoryAdult_19.titleShort>礦工</Kiiro_BackstoryAdult_19.titleShort>
+  <Kiiro_BackstoryAdult_19.description>挖礦對於身材嬌小纖細的綺羅們來說是一個非常困難的體力活兒，但[PAWN_nameDef]有自己的發力技巧，這讓她能夠更加輕巧地鑿開巖石。每當族人們參觀她的工作並表達出驚奇和讚歎時，[PAWN_nameDef]只是謙虛地說著熟能生巧，但被揮動得越來越賣力的礦鎬卻掩飾不住她心中的得意。</Kiiro_BackstoryAdult_19.description>
+
+  <Kiiro_BackstoryAdult_20.title>綺羅 麵包師</Kiiro_BackstoryAdult_20.title>
+  <Kiiro_BackstoryAdult_20.titleShort>麵包師</Kiiro_BackstoryAdult_20.titleShort>
+  <Kiiro_BackstoryAdult_20.description>[PAWN_nameDef]深受孩子們的歡迎，因為她能夠製作出色澤金黃、鬆軟香甜的麵包。[PAWN_nameDef]最近的願望是換一臺用電的烤箱。</Kiiro_BackstoryAdult_20.description>
+
+  <Kiiro_BackstoryAdult_21.title>綺羅 獵戶</Kiiro_BackstoryAdult_21.title>
+  <Kiiro_BackstoryAdult_21.titleShort>獵戶</Kiiro_BackstoryAdult_21.titleShort>
+  <Kiiro_BackstoryAdult_21.description>[PAWN_nameDef]依靠打獵為生：一把弓、一壺箭，[PAWN_nameDef]總是習慣在清晨踏入森林，在中午就拎著獵物回來；下午就打點一下收穫：把肉賣給隔壁的屠戶，再儲存好毛皮等著客人上門收購。遠道而來的游商告訴[PAWN_nameDef]說最近野生動物的皮毛價格開始上漲了，因為有很多異族人想要，她可以藉此機會賺個盆滿缽滿；但[PAWN_nameDef]只希望過得更輕鬆些。</Kiiro_BackstoryAdult_21.description>
+
+  <Kiiro_BackstoryAdult_22.title>綺羅 獵戶</Kiiro_BackstoryAdult_22.title>
+  <Kiiro_BackstoryAdult_22.titleShort>獵戶</Kiiro_BackstoryAdult_22.titleShort>
+  <Kiiro_BackstoryAdult_22.description>[PAWN_nameDef]依靠打獵為生：她在附近的森林裡放了一些捕獸夾和捕鳥籠，寄希望於它們能夠抓住一些倒霉的獵物；而自己只需要隔三岔五去檢查一次就行。[PAWN_nameDef]總是擔心自己的陷阱會不會誤傷到人，不過好在這樣的事情並沒有發生過。</Kiiro_BackstoryAdult_22.description>
+
+  <Kiiro_BackstoryAdult_23.title>綺羅 鑄造廠工人</Kiiro_BackstoryAdult_23.title>
+  <Kiiro_BackstoryAdult_23.titleShort>鑄造廠工人</Kiiro_BackstoryAdult_23.titleShort>
+  <Kiiro_BackstoryAdult_23.description>[PAWN_nameDef]在鎮子上剛建立的鑄造廠工作。對於綺羅族來說，機械化和流水線生產都是十分新鮮的東西，而[PAWN_nameDef]正好樂於嘗試。</Kiiro_BackstoryAdult_23.description>
+
+  <Kiiro_BackstoryAdult_24.title>綺羅 旅行家</Kiiro_BackstoryAdult_24.title>
+  <Kiiro_BackstoryAdult_24.titleShort>旅行家</Kiiro_BackstoryAdult_24.titleShort>
+  <Kiiro_BackstoryAdult_24.description>和其他習慣於安居樂業的族人不同，[PAWN_nameDef]更喜歡走出聚落好好看一看這個世界。她享受荒野上一個人漫步，期待每一次未知的相遇，也樂於接受不同的文化。每次旅行結束回到鎮子，她總是如數家珍般向朋友們講述自己的遊歷。</Kiiro_BackstoryAdult_24.description>
+
+  <Kiiro_BackstoryAdult_25.title>綺羅 流動小販</Kiiro_BackstoryAdult_25.title>
+  <Kiiro_BackstoryAdult_25.titleShort>流動小販</Kiiro_BackstoryAdult_25.titleShort>
+  <Kiiro_BackstoryAdult_25.description>[PAWN_nameDef]習慣清晨就推著自己心愛的小推車去到鎮子上的廣場叫賣，然後在中午就收攤回家好好睡個午覺，下午再備好第二天的貨；至於晚上就隨便到鎮子上四處逛逛，打發時間。這樣的生活日復一日年復一年，[PAWN_nameDef]樂在其中。</Kiiro_BackstoryAdult_25.description>
+
+  <Kiiro_BackstoryAdult_26.title>綺羅 吟遊詩人</Kiiro_BackstoryAdult_26.title>
+  <Kiiro_BackstoryAdult_26.titleShort>吟遊詩人</Kiiro_BackstoryAdult_26.titleShort>
+  <Kiiro_BackstoryAdult_26.description>[PAWN_nameDef]喜歡漫步在鄉間的田野上，感受溫暖的陽光與和煦的微風。這樣的情景總是令她想要即興作詩來讚美當下的美好，引得周圍的綺羅駐足聆聽；悠揚的歌聲也總是乘著風傳的很遠很遠。</Kiiro_BackstoryAdult_26.description>
+
+  <Kiiro_BackstoryAdult_27.title>綺羅 傷兵</Kiiro_BackstoryAdult_27.title>
+  <Kiiro_BackstoryAdult_27.titleShort>傷兵</Kiiro_BackstoryAdult_27.titleShort>
+  <Kiiro_BackstoryAdult_27.description>[PAWN_nameDef]曾經是游擊隊的一員，扛過槍，對抗過入侵者，連年的遊擊作戰為[PAWN_nameDef]積累了豐富的戰鬥經驗。在一次野外遭遇戰中[PAWN_nameDef]爲了補充隊伍的彈藥而冒險在撤退時分神去撿陣亡敵人的槍支，不幸被追趕上來的敵人擊中了。雖然[PAWN_nameDef]急中生智滾入了一旁的灌木叢逃過了搜查，但還是落下了殘疾。不再適合戰鬥的[PAWN_nameDef]也因此退出了游擊隊，回到了生養她的小鎮。</Kiiro_BackstoryAdult_27.description>
+
+  <Kiiro_BackstoryAdult_28.title>綺羅 傷兵</Kiiro_BackstoryAdult_28.title>
+  <Kiiro_BackstoryAdult_28.titleShort>傷兵</Kiiro_BackstoryAdult_28.titleShort>
+  <Kiiro_BackstoryAdult_28.description>[PAWN_nameDef]曾經是游擊隊的先鋒，在多年的戰鬥中憑藉敏捷的身手立過不少戰功。但在一次巷戰中，[PAWN_nameDef]被一顆敵人偽裝成絆雷的遙控雷所傷，儘管[PAWN_nameDef]察覺到危險時已經做出了尋找掩體的反應，但還是沒能躲過。萬幸的是[PAWN_nameDef]並沒有因此喪命，昏迷的她被隨後趕來的隊伍所救，最終也得到了全面的醫治；只是一些過深的傷口還是讓她落下了殘疾。康復后的[PAWN_nameDef]就近找了一處村莊落腳，那裡有隊長為她安排的住所。</Kiiro_BackstoryAdult_28.description>
+
+  <Kiiro_BackstoryAdult_29.title>綺羅 傷兵</Kiiro_BackstoryAdult_29.title>
+  <Kiiro_BackstoryAdult_29.titleShort>傷兵</Kiiro_BackstoryAdult_29.titleShort>
+  <Kiiro_BackstoryAdult_29.description>[PAWN_nameDef]是全村唯一擁有霰彈槍的獵人，這也總是引得村裡同爲獵戶的綺羅們羨慕不已。每當有人對她的獵槍發出讚歎時，[PAWN_nameDef]總是報以豪爽的大笑，任誰也聽得出其中的得意與自豪。\n[PAWN_nameDef]來到這個村莊有些年頭了，雖然戰爭帶給她的傷疤使她行動不再像以前那樣靈巧，但[PAWN_nameDef]還是隔三岔五地進山打獵，因為她總能在瞄準和扣動扳機時找回當年在游擊隊的感覺。如果有一天族群的生存再次需要她，[PAWN_nameDef]會帶上她的獵槍義無反顧地站在族人身前。</Kiiro_BackstoryAdult_29.description>
+
+  <Kiiro_BackstoryAdult_30.title>綺羅 護林人</Kiiro_BackstoryAdult_30.title>
+  <Kiiro_BackstoryAdult_30.titleShort>護林人</Kiiro_BackstoryAdult_30.titleShort>
+  <Kiiro_BackstoryAdult_30.description>[PAWN_nameDef]守護著村落旁的一片小樹林。她總是在清晨就帶好乾糧踏入樹林，一直巡視到傍晚才回來，雖然很辛苦，但[PAWN_nameDef]樂在其中：她喜歡清晨的每一滴露珠，喜歡腳下咯吱作響的落葉，喜歡盛夏時灑下的團團林蔭...一切對[PAWN_nameDef]來說都是那麼愜意。</Kiiro_BackstoryAdult_30.description>
+
+  <Kiiro_BackstoryAdult_31.title>綺羅 研究員</Kiiro_BackstoryAdult_31.title>
+  <Kiiro_BackstoryAdult_31.titleShort>研究員</Kiiro_BackstoryAdult_31.titleShort>
+  <Kiiro_BackstoryAdult_31.description>[PAWN_nameDef]是綺羅族科研技術的前沿，致力於科技的進步和技術的精進。最近有不少外來者的技術流入了綺羅社會，[PAWN_nameDef]爲了研究這些新奇的技術總是廢寢忘食，一做就是通宵，以至於她總是頂著兩個熊貓眼哈欠連天；但她的眼神里卻透露著從未有過的振奮。</Kiiro_BackstoryAdult_31.description>
+
+  <Kiiro_BackstoryAdult_32.title>綺羅 戰亂倖存者</Kiiro_BackstoryAdult_32.title>
+  <Kiiro_BackstoryAdult_32.titleShort>戰亂倖存者</Kiiro_BackstoryAdult_32.titleShort>
+  <Kiiro_BackstoryAdult_32.description>[PAWN_nameDef]經歷過一場不幸的戰亂：她所在的村落遭到了野蠻的襲擊並最終失陷了。不過[PAWN_nameDef]是幸運的，她僥倖地從這場劫難中生還了。在流浪了數個月后，[PAWN_nameDef]找到了另一個綺羅的村莊並在那裡定居，村民們因為同情她的經歷總是十分照顧她。</Kiiro_BackstoryAdult_32.description>
+  
+  <Kiiro_BackstoryAdult_32_1.title>綺羅 戰亂倖存者</Kiiro_BackstoryAdult_32_1.title>
+  <Kiiro_BackstoryAdult_32_1.titleShort>戰亂倖存者</Kiiro_BackstoryAdult_32_1.titleShort>
+  <Kiiro_BackstoryAdult_32_1.description>[PAWN_nameDef]經歷過一場不幸的戰亂：她所在的村落遭到了野蠻的襲擊並最終失陷了。不過[PAWN_nameDef]是幸運的，她僥倖地從這場劫難中生還了。在勉強平復好悲傷的心情之後，[PAWN_nameDef]收集了村落里僅剩的物資，踏上了漫漫流浪之旅。</Kiiro_BackstoryAdult_32_1.description>
+
+  <Kiiro_BackstoryAdult_33.title>綺羅 護理工</Kiiro_BackstoryAdult_33.title>
+  <Kiiro_BackstoryAdult_33.titleShort>護理工</Kiiro_BackstoryAdult_33.titleShort>
+  <Kiiro_BackstoryAdult_33.description>[PAWN_nameDef]在鎮子上的醫院幫忙照看病患，雖然醫學方面的知識[PAWN_nameDef]懂得不多，但她擅長病人的康復和生活護理，懂得怎樣才能讓病患快點好起來。長期的護理工作讓[PAWN_nameDef]變得溫柔而耐心，和她在一起會感覺心裡暖暖的。</Kiiro_BackstoryAdult_33.description>
+
+  <Kiiro_BackstoryAdult_34.title>綺羅 醫師</Kiiro_BackstoryAdult_34.title>
+  <Kiiro_BackstoryAdult_34.titleShort>醫師</Kiiro_BackstoryAdult_34.titleShort>
+  <Kiiro_BackstoryAdult_34.description>[PAWN_nameDef]在鎮子上的醫院為族人療傷治病。其實[PAWN_nameDef]並沒有得到過系統的醫學教育，但她懷著一顆仁心，努力地通過自學摸索和觀摩學習掌握了基礎的醫療方法，進而學習到了一些更加深層次的東西。</Kiiro_BackstoryAdult_34.description>
+
+  <Kiiro_BackstoryAdult_35.title>綺羅 藥劑師</Kiiro_BackstoryAdult_35.title>
+  <Kiiro_BackstoryAdult_35.titleShort>藥劑師</Kiiro_BackstoryAdult_35.titleShort>
+  <Kiiro_BackstoryAdult_35.description>[PAWN_nameDef]在製藥方面表現出了超常的天賦，並且她也樂於此道。[PAWN_nameDef]每天的生活就是上山採藥，再帶回家用瓶瓶罐罐搗鼓一番。儘管周圍的朋友每每談起她那散發著奇怪氣味的煉藥間都會露出苦澀的笑容，但[PAWN_nameDef]還是隔三岔五地邀請她的朋友們來參觀她的研究成果。[PAWN_nameDef]最近正在攢錢購買一組新的燒瓶。</Kiiro_BackstoryAdult_35.description>
+
+  <Kiiro_BackstoryAdult_36.title>綺羅 牧羊人</Kiiro_BackstoryAdult_36.title>
+  <Kiiro_BackstoryAdult_36.titleShort>牧羊人</Kiiro_BackstoryAdult_36.titleShort>
+  <Kiiro_BackstoryAdult_36.description>[PAWN_nameDef]在她的村子裡放牧著一大群綿羊，村落里大部分織物的材料都源自於她的這群綿羊，這讓[PAWN_nameDef]感到由衷的自豪。她每天早上驅趕著羊群出來啃食帶著露滴的青草，傍晚再趁著夕陽唱著牧歌帶羊群回家，而[PAWN_nameDef]也十分享受這充實的一天：傍晚在街邊費勁地跟喝醉的吟遊詩人解釋棉花不是出自綿羊的那一天除外。</Kiiro_BackstoryAdult_36.description>
+
+  <Kiiro_BackstoryAdult_37.title>綺羅 女僕</Kiiro_BackstoryAdult_37.title>
+  <Kiiro_BackstoryAdult_37.titleShort>女僕</Kiiro_BackstoryAdult_37.titleShort>
+  <Kiiro_BackstoryAdult_37.description>[PAWN_nameDef]是一名女僕。雖然繁雜的家務瑣事可能對於大多數人來說是個頭疼的事，但[PAWN_nameDef]樂在其中，而長期從事家政工作也使得[PAWN_nameDef]在各個方面都得心應手。</Kiiro_BackstoryAdult_37.description>
+
+  <Kiiro_BackstoryAdult_38.title>綺羅 見習女僕</Kiiro_BackstoryAdult_38.title>
+  <Kiiro_BackstoryAdult_38.titleShort>見習女僕</Kiiro_BackstoryAdult_38.titleShort>
+  <Kiiro_BackstoryAdult_38.description>[PAWN_nameDef]最近對家務和照顧他人萌生了濃厚的興趣，她開始嘗試著幫助附近的朋友們做各種家務，無論是烹飪美食、打掃衛生還是照顧小孩，她都會在自己力所能及的範圍內做到最好。不久前[PAWN_nameDef]聽說自己做的這些事和一種叫做家政服務的工作非常相似，於是找到附近的家政團欣然加入了。至今[PAWN_nameDef]對這份工作非常滿意，只是仍然不太能理解為什麼工作的時候要穿女僕裝。</Kiiro_BackstoryAdult_38.description>
+
+  <Kiiro_BackstoryAdult_39.title>綺羅 女僕coser</Kiiro_BackstoryAdult_39.title>
+  <Kiiro_BackstoryAdult_39.titleShort>女僕coser</Kiiro_BackstoryAdult_39.titleShort>
+  <Kiiro_BackstoryAdult_39.description>[PAWN_nameDef]很喜歡女僕裝，並且從配色，布料到款式，她都有自己獨到的理解。[PAWN_nameDef]曾經嘗試過自己縫製一條富有自己特色的女僕裝，她買好了上好的布料、染料和針線，最後終於在一下午穿針引線的時光里敗下陣來。[PAWN_nameDef]加入家政團純屬偶然，最開始她以為這是一個同好聚會，於是興奮地就自顧自加入了；中途開始才知道不是自己想的那樣。雖然[PAWN_nameDef]並不擅長家務活兒，不過機會難得，本著「沉浸體驗一下也不錯」的想法，[PAWN_nameDef]會努力扮演好真正的女僕的。</Kiiro_BackstoryAdult_39.description>
+  
+  <Kiiro_BackstoryAdult_40.title>綺羅 砌石匠</Kiiro_BackstoryAdult_40.title>
+  <Kiiro_BackstoryAdult_40.titleShort>砌石匠</Kiiro_BackstoryAdult_40.titleShort>
+  <Kiiro_BackstoryAdult_40.description>[PAWN_nameDef]是鎮上的砌石匠。儘管因為近期戰亂頻發的原因很多綺羅總是忙於搬遷，房屋也為此多用木材簡單搭建，但[PAWN_nameDef]的砌石技術仍然會在許多場合派上用場。\n總有一天綺羅族能夠結束流離失所的苦難，大家都可以住進石磚砌成的精緻房子；[PAWN_nameDef]如此相信著，於是每天開採或是搬運石材的體力活也似乎變得不那麼累了。</Kiiro_BackstoryAdult_40.description>
+
+  <Kiiro_BackstoryAdult_41.description>[PAWN_nameDef]對甜食有著無限的熱情和奇思妙想。[PAWN_possessive]房間總是堆滿了從森林裡採摘來的新鮮漿果、堅果和香甜的花蜜，即使在物資不算充裕的時期，[PAWN_nameDef]也能用有限的材料製作出令人驚歎的美味點心和糖果。[PAWN_nameDef]相信，一點點的甜就能驅散生活中的許多苦澀，尤其是當孩子們圍著[PAWN_possessive]攤位，眼睛裡閃爍著期待的光芒時。</Kiiro_BackstoryAdult_41.description>
+  <Kiiro_BackstoryAdult_41.title>綺羅 甜點師</Kiiro_BackstoryAdult_41.title>
+  <Kiiro_BackstoryAdult_41.titleShort>甜點師</Kiiro_BackstoryAdult_41.titleShort>
+  
+  <Kiiro_BackstoryAdult_42.description>[PAWN_nameDef]的茶館是小鎮上最受歡迎的去處之一。無論是清晨的第一縷陽光，還是黃昏的最後一抹餘暉，總有綺羅喜歡聚集在這裡，品嚐[PAWN_nameDef]精心泡製的各種花草茶和果茶，閑散地談天說地，抑或只是靜靜地享受著寧靜。[PAWN_nameDef]擅長傾聽，也樂於與顧客分享一些有趣的故事，久而久之[PAWN_possessive]茶館成爲了當地溫暖的社區中心，撫慰著大家疲憊的心靈。</Kiiro_BackstoryAdult_42.description>
+  <Kiiro_BackstoryAdult_42.title>綺羅 茶館老闆</Kiiro_BackstoryAdult_42.title>
+  <Kiiro_BackstoryAdult_42.titleShort>茶館老闆</Kiiro_BackstoryAdult_42.titleShort>
+  
+  <Kiiro_BackstoryAdult_43.description>[PAWN_nameDef]擁有一雙巧手和發現美的眼睛，[PAWN_pronoun]收集那些被遺棄或損壞的舊物——破損的陶器、斷裂的工具、褪色的織物；[PAWN_pronoun]不僅僅是簡單地修復它們，更會融入自己的巧思，讓這些舊物煥發出新的生命力，有時甚至比新的還要漂亮和獨特。[PAWN_possessive]工作室裡堆滿了各種蒐羅來的"寶貝"，[PAWN_pronoun]相信萬物皆有其價值。</Kiiro_BackstoryAdult_43.description>
+  <Kiiro_BackstoryAdult_43.title>綺羅 舊器匠人</Kiiro_BackstoryAdult_43.title>
+  <Kiiro_BackstoryAdult_43.titleShort>舊器匠人</Kiiro_BackstoryAdult_43.titleShort>
+  
+  <Kiiro_BackstoryAdult_44.description>隨著綺羅族被迫遷徙和流動的增加，一些臨時的旅店或家庭式的客棧開始出現在聚居地中，為路過的難民、商販或信使提供一個歇腳的地方。[PAWN_nameDef]就是這樣一位看管人，[PAWN_pronoun]的住處不大，但總是收拾得乾淨整潔，並且會準備簡單的食物和熱水，讓疲憊的旅人在異鄉也能感受到家的溫暖。[PAWN_pronoun]喜歡聽客人們講述路上的見聞，也樂於提供一些當地的資訊。</Kiiro_BackstoryAdult_44.description>
+  <Kiiro_BackstoryAdult_44.title>綺羅 旅店主人</Kiiro_BackstoryAdult_44.title>
+  <Kiiro_BackstoryAdult_44.titleShort>旅店主人</Kiiro_BackstoryAdult_44.titleShort>
+  
+  <Kiiro_BackstoryAdult_45.description>在沒有太多娛樂活動的村落里，聽故事是綺羅村民們重要的消遣方式。[PAWN_nameDef]擁有過人的記憶力和生動的口才，[PAWN_pronoun]將古老傳說、英雄事蹟、或是自己編撰的奇聞逸事講述得繪聲繪色，引人入勝。茶餘飯後，或是在節慶的聚會上，[PAWN_nameDef]的周圍總是圍滿了聚精會神的聽眾，[PAWN_nameDef]便將準備好的故事娓娓道來，將人們帶入[PAWN_pronoun]所編織的世界。</Kiiro_BackstoryAdult_45.description>
+  <Kiiro_BackstoryAdult_45.title>綺羅 說書人</Kiiro_BackstoryAdult_45.title>
+  <Kiiro_BackstoryAdult_45.titleShort>說書人</Kiiro_BackstoryAdult_45.titleShort>
+  
+  <Kiiro_BackstoryAdult_46.description>隨著系統化的教育體系逐漸在綺羅的社會中得以推廣和建立，小型的圖書室或檔案室也開始在一些城鎮普及起來，保管著書籍檔案和技術資料。[PAWN_nameDef]負責整理這些寶貴的資料，進行簡單的分類和修補，併爲前來查閱的居民提供幫助。[PAWN_pronoun]深知這些紙張上承載著族群的未來，[PAWN_nameDef]會小心翼翼地守護它們。</Kiiro_BackstoryAdult_46.description>
+  <Kiiro_BackstoryAdult_46.title>綺羅 圖書管理員</Kiiro_BackstoryAdult_46.title>
+  <Kiiro_BackstoryAdult_46.titleShort>圖書管理員</Kiiro_BackstoryAdult_46.titleShort>
+  
+  <Kiiro_BackstoryAdult_47.description>長時間的勞作、遷徙的疲憊或是戰鬥留下的舊傷，常常讓綺羅們感到身體不適。[PAWN_nameDef]掌握著獨到的按摩經驗和藥敷知識，[PAWN_pronoun]能夠通過輕柔或有力的按壓、揉捏，幫助族人緩解肌肉的痠痛，舒活筋骨，放鬆緊張的神經。許多族人在[PAWN_pronoun]的照料下都重新恢復了活力。</Kiiro_BackstoryAdult_47.description>
+  <Kiiro_BackstoryAdult_47.title>綺羅 理療師</Kiiro_BackstoryAdult_47.title>
+  <Kiiro_BackstoryAdult_47.titleShort>理療師</Kiiro_BackstoryAdult_47.titleShort>
+  
+  <Kiiro_BackstoryAdult_48.description>[PAWN_nameDef]對氣味有著貓一般敏銳的直覺。[PAWN_possessive]工作室裡總是瀰漫著各種奇妙的芬芳——那是從森林深處採集的稀有花瓣、清晨帶著露珠的草葉，或是經過精心晾曬的香木。[PAWN_nameDef]將它們巧妙地混合、研磨，製成能安撫心靈的薰香、驅趕蚊蟲的香包，或是在慶典中增添氛圍的特調香氛。對[PAWN_nameDef]而言，每一種氣味都是一個故事，一種情緒，[PAWN_pronoun]樂於用這些無形的藝術，為族人的生活編織一縷嗅覺的詩意。</Kiiro_BackstoryAdult_48.description>
+  <Kiiro_BackstoryAdult_48.title>綺羅 香氛調配師</Kiiro_BackstoryAdult_48.title>
+  <Kiiro_BackstoryAdult_48.titleShort>香氛調配師</Kiiro_BackstoryAdult_48.titleShort>
+  
+  <Kiiro_BackstoryAdult_49.description>[PAWN_nameDef]擅長用各種布料、棉花和綵線縫製出形態各異、憨態可掬的玩偶。當孩子們的寶貝玩偶不小心破損或弄髒時，[PAWN_nameDef]也總能用[PAWN_pronoun]靈巧的雙手將它們修復如初。[PAWN_pronoun]的房間里充滿著溫暖和柔軟的氣息。</Kiiro_BackstoryAdult_49.description>
+  <Kiiro_BackstoryAdult_49.title>綺羅 布偶匠</Kiiro_BackstoryAdult_49.title>
+  <Kiiro_BackstoryAdult_49.titleShort>布偶匠</Kiiro_BackstoryAdult_49.titleShort>
+  
+  <Kiiro_BackstoryAdult_50.description>[PAWN_nameDef]深信美麗的環境能滋養心靈。因此，[PAWN_nameDef]將大部分時間都投入到照料城鎮的公共花圃和小型景觀中，[PAWN_pronoun]精心挑選各種花卉和觀賞植物，根據它們的習性和色彩進行搭配，修剪枝葉，佈置小巧的石徑和木製擺件。在[PAWN_nameDef]的打理下，再冰冷的地方也會因為這些生機勃勃、錯落有致的綠意和花海而變得溫馨宜人。</Kiiro_BackstoryAdult_50.description>
+  <Kiiro_BackstoryAdult_50.title>綺羅 園藝師</Kiiro_BackstoryAdult_50.title>
+  <Kiiro_BackstoryAdult_50.titleShort>園藝師</Kiiro_BackstoryAdult_50.titleShort>
+  
+  <Kiiro_BackstoryAdult_51.description>[PAWN_nameDef]擅長捕捉風的聲音，並將其化為悅耳的旋律。[PAWN_pronoun]會收集各種能發出清脆聲響的材料——薄薄的貝殼、打磨光滑的竹管、小巧的金屬片，甚至是經過特殊處理的堅硬果殼。通過精心的設計和串聯，[PAWN_nameDef]製作出一串串造型各異、音色獨特的風鈴。當微風拂過，這些風鈴便會在城鎮的庭院或居室的窗邊奏鳴出輕靈的樂章。</Kiiro_BackstoryAdult_51.description>
+  <Kiiro_BackstoryAdult_51.title>綺羅 風鈴匠人</Kiiro_BackstoryAdult_51.title>
+  <Kiiro_BackstoryAdult_51.titleShort>風鈴匠人</Kiiro_BackstoryAdult_51.titleShort>
+  
+  <Kiiro_BackstoryAdult_52.description>[PAWN_nameDef]是調製香料的專家，[PAWN_pronoun]擅長種植出優質的荊芥和木天蓼，懂得如何將它們與其他香草混合，調配出不同風味和效力的芬芳劑。這些產品會被製作成小香包、填充玩具或是可以直接食用的食用香料，在休閑場所或節日慶典上供大家使用。</Kiiro_BackstoryAdult_52.description>
+  <Kiiro_BackstoryAdult_52.title>綺羅 香料調製師</Kiiro_BackstoryAdult_52.title>
+  <Kiiro_BackstoryAdult_52.titleShort>香料調製師</Kiiro_BackstoryAdult_52.titleShort>
+  
+  <Kiiro_BackstoryAdult_53.description>沒有什麼比一個完美的睡窩更能體現綺羅們對舒適的追求，而[PAWN_nameDef]正好在這方面有著得天獨厚的天賦。[PAWN_pronoun]會選用最柔軟的填充物，如精梳的獸毛、曬乾的香草葉或蓬鬆的棉花，搭配親膚的布料，縫製出各種形狀和大小的睡窩——有的像一個溫暖的洞穴，有的則像一朵盛開的花朵。此外，[PAWN_nameDef]還擅長用堅韌的藤條或柔軟的繩索編織出能輕輕搖晃的吊牀，懸掛在陽光能夠照到的廊下或樹蔭間，是綺羅們午後小憩的絕佳選擇。</Kiiro_BackstoryAdult_53.description>
+  <Kiiro_BackstoryAdult_53.title>綺羅 寢具匠</Kiiro_BackstoryAdult_53.title>
+  <Kiiro_BackstoryAdult_53.titleShort>寢具匠</Kiiro_BackstoryAdult_53.titleShort>
+  
+  <Kiiro_BackstoryAdult_54.description>在城鎮中一些綺羅居民會自發組織夜間巡邏隊，在城鎮的街道和小巷中悄無聲息地巡查，留意是否有異常情況發生。[PAWN_nameDef]便是其中一員，[PAWN_pronoun]習慣於在月光和陰影中穿行，用自己的方式守護大家的安寧。久而久之，[PAWN_nameDef]也養成了晝夜顛倒的習慣。</Kiiro_BackstoryAdult_54.description>
+  <Kiiro_BackstoryAdult_54.title>綺羅 守夜人</Kiiro_BackstoryAdult_54.title>
+  <Kiiro_BackstoryAdult_54.titleShort>守夜人</Kiiro_BackstoryAdult_54.titleShort>
+  
+  <Kiiro_BackstoryAdult_55.description>綺羅的書籍大多使用紙張或獸皮卷軸記載，連年的戰亂使得不少書籍因為經常需要搬運而面臨著損壞的風險，其中不乏一些記載了珍貴資訊的古籍。[PAWN_nameDef]致力於修復這些破損的書籍，或是一字一句地將重要的內容重新抄寫下來，用自己的雙手延續著文明的脈絡。</Kiiro_BackstoryAdult_55.description>
+  <Kiiro_BackstoryAdult_55.title>綺羅 補書匠</Kiiro_BackstoryAdult_55.title>
+  <Kiiro_BackstoryAdult_55.titleShort>補書匠</Kiiro_BackstoryAdult_55.titleShort>
+  
+  <Kiiro_BackstoryAdult_56.description>[PAWN_nameDef]並不攜帶貨物進行交易，而是在行囊里裝滿了從一個地方聽到，然後準備帶到另一個地方的故事、歌謠和奇聞逸事。[PAWN_pronoun]在不同的城鎮間遊歷，與當地的居民交換彼此的故事與見聞，也為大家帶來遠方的訊息。無數個像[PAWN_nameDef]這樣的旅者，將不同聚居點之間的文化和資訊交織起來。</Kiiro_BackstoryAdult_56.description>
+  <Kiiro_BackstoryAdult_56.title>綺羅 游吟旅者</Kiiro_BackstoryAdult_56.title>
+  <Kiiro_BackstoryAdult_56.titleShort>游吟旅者</Kiiro_BackstoryAdult_56.titleShort>
+  
+  <Kiiro_BackstoryAdult_57.description>[PAWN_nameDef]帶領著鎮子里的斥候小隊在附近的野外活動著，根據可疑的軌跡解讀可能來犯的敵人，並在必要時進行小規模的騷擾或突襲。每一次成功帶回情報並確保隊員安全歸來，就是最讓[PAWN_pronoun]欣慰的事。</Kiiro_BackstoryAdult_57.description>
+  <Kiiro_BackstoryAdult_57.title>綺羅 斥候隊長</Kiiro_BackstoryAdult_57.title>
+  <Kiiro_BackstoryAdult_57.titleShort>斥候隊長</Kiiro_BackstoryAdult_57.titleShort>
+  
+  <Kiiro_BackstoryAdult_58.description>隨著城鎮開始嘗試使用簡易的有線電報或其他通訊裝置，[PAWN_nameDef]成爲了少數懂得如何安裝、操作和維護這些新奇玩意兒的綺羅之一。[PAWN_nameDef]需要確保這些電子裝置能在關鍵時刻傳遞重要的資訊，聯繫遠方的城鎮。這項工作充滿了挑戰，但也讓[PAWN_nameDef]感受到了科技帶來的力量。</Kiiro_BackstoryAdult_58.description>
+  <Kiiro_BackstoryAdult_58.title>綺羅 通訊員</Kiiro_BackstoryAdult_58.title>
+  <Kiiro_BackstoryAdult_58.titleShort>通訊員</Kiiro_BackstoryAdult_58.titleShort>
+  
+  <Kiiro_BackstoryAdult_59.description>連年的戰亂使得綺羅們被迫承擔起戰鬥的責任。[PAWN_nameDef]雖然在戰鬥方面沒有天分，但[PAWN_pronoun]通過學習和觀察，總結出了一些適合綺羅的簡單戰術和自衛技巧，並努力將其傳授給其他缺乏經驗的族人們，藉此提高大家在遭遇敵人時的生還機率。</Kiiro_BackstoryAdult_59.description>
+  <Kiiro_BackstoryAdult_59.title>綺羅 教官</Kiiro_BackstoryAdult_59.title>
+  <Kiiro_BackstoryAdult_59.titleShort>教官</Kiiro_BackstoryAdult_59.titleShort>
+  
+  <Kiiro_BackstoryAdult_60.description>即使是在艱難的時期，綺羅們也會抓住機會舉行小型的慶典或聚會，[PAWN_nameDef]是這些特殊場合的掌勺人。每每[PAWN_pronoun]都拿出看家本領，用有限的食材烹飪出豐盛美味的菜餚，[PAWN_nameDef]用這樣的行動鼓舞著大家。</Kiiro_BackstoryAdult_60.description>
+  <Kiiro_BackstoryAdult_60.title>綺羅 宴會主廚</Kiiro_BackstoryAdult_60.title>
+  <Kiiro_BackstoryAdult_60.titleShort>宴會主廚</Kiiro_BackstoryAdult_60.titleShort>
+  
+  <Kiiro_BackstoryAdult_61.description>在野外開採裸露的礦石對於綺羅來說有不小的風險，也許向地下發展是個好主意。[PAWN_nameDef]就是這些勇敢的開拓者之一，[PAWN_pronoun]日復一日地在黑暗、狹窄的礦井深處勞作，用簡單的工具開鑿堅硬的巖石，並負責開拓和維護通往礦脈深處的巷道。這項工作壓抑而又艱辛，但[PAWN_nameDef]知道自己肩負的責任。</Kiiro_BackstoryAdult_61.description>
+  <Kiiro_BackstoryAdult_61.title>綺羅 深井礦工</Kiiro_BackstoryAdult_61.title>
+  <Kiiro_BackstoryAdult_61.titleShort>深井礦工</Kiiro_BackstoryAdult_61.titleShort>
+  
+  <Kiiro_BackstoryAdult_62.description>開採到的礦石並非都能直接使用，它們需要經過分揀和初步的處理加工。[PAWN_nameDef]能夠快速準確地從混雜的礦石中挑選出有價值的部分，並對其進行破碎、篩選和簡單的提純，以便後續的冶煉或加工。這項工作雖然有些單調，但卻直接影響著礦產資源的利用效率。</Kiiro_BackstoryAdult_62.description>
+  <Kiiro_BackstoryAdult_62.title>綺羅 選礦工</Kiiro_BackstoryAdult_62.title>
+  <Kiiro_BackstoryAdult_62.titleShort>選礦工</Kiiro_BackstoryAdult_62.titleShort>
+  
+  <Kiiro_BackstoryAdult_63.description>[PAWN_nameDef]對天空的雲彩變幻、風向的轉變、動植物對季節更迭的反應等自然現像有著敏銳的觀察力和記錄習慣。[PAWN_pronoun]試圖從中找出規律，預測氣候變化，為城鎮的農業、遷徙或防禦提供參考。雖然方法很原始，但這都是[PAWN_nameDef]的經驗之談。</Kiiro_BackstoryAdult_63.description>
+  <Kiiro_BackstoryAdult_63.title>綺羅 氣象學者</Kiiro_BackstoryAdult_63.title>
+  <Kiiro_BackstoryAdult_63.titleShort>氣象學者</Kiiro_BackstoryAdult_63.titleShort>
+  
+  <Kiiro_BackstoryAdult_64.description>綺羅族有著悠久的草藥使用傳統，但這些知識大多零散地掌握在少數醫師或採藥人手中。[PAWN_nameDef]致力於系統地收集、整理這些關於草藥種類、功效、用法用量的知識，並嘗試通過觀察和簡單的實驗來進一步研究其藥理作用，希望能編纂出一部相對完整的醫藥典籍，造福更多族人。</Kiiro_BackstoryAdult_64.description>
+  <Kiiro_BackstoryAdult_64.title>綺羅 藥理學者</Kiiro_BackstoryAdult_64.title>
+  <Kiiro_BackstoryAdult_64.titleShort>藥理學者</Kiiro_BackstoryAdult_64.titleShort>
+  
+  <Kiiro_BackstoryAdult_65.description>有時[PAWN_nameDef]會抱著[PAWN_possessive]那把磨得光滑的木製絃琴，坐在城鎮廣場的角落。當[PAWN_possessive]手指撥動琴絃，悠揚的旋律便會緩緩流淌出來，吸引著過往的居民們駐足聆聽。琴聲時而輕快如林間小溪，時而深沉如夜空星辰。一曲終了，[PAWN_nameDef]會輕輕撫摸著琴身，對聽眾們點頭致意，眼中仍帶著一絲沉醉。</Kiiro_BackstoryAdult_65.description>
+  <Kiiro_BackstoryAdult_65.title>綺羅 樂師</Kiiro_BackstoryAdult_65.title>
+  <Kiiro_BackstoryAdult_65.titleShort>樂師</Kiiro_BackstoryAdult_65.titleShort>
+  
+  <Kiiro_BackstoryAdult_66.description>有些重要的信件在夜色的掩護下運送會更安全，[PAWN_nameDef]便是執行這項任務的綺羅之一。[PAWN_possessive]身影在月光下如同輕盈的貓一般，悄無聲息地穿梭在密林或是荒野，避開所有不必要的注意。當[PAWN_nameDef]將信件安全送達目的地，通常只是和收信人進行簡單地交接，就隨後再次消失在夜幕之中。</Kiiro_BackstoryAdult_66.description>
+  <Kiiro_BackstoryAdult_66.title>綺羅 夜巡信使</Kiiro_BackstoryAdult_66.title>
+  <Kiiro_BackstoryAdult_66.titleShort>夜巡信使</Kiiro_BackstoryAdult_66.titleShort>
+  
+  <Kiiro_BackstoryAdult_67.description>[PAWN_nameDef]負責看管城鎮中珍貴的文獻和重要記錄。從古老的卷軸到新近的通告，[PAWN_nameDef]都會仔細分類、編目並妥善保管，確保這些承載著歷史和智慧的資料能夠得以延續。在有人需要查閱某些資訊時，[PAWN_nameDef]也能迅速準確地提供幫助。</Kiiro_BackstoryAdult_67.description>
+  <Kiiro_BackstoryAdult_67.title>綺羅 檔案管理員</Kiiro_BackstoryAdult_67.title>
+  <Kiiro_BackstoryAdult_67.titleShort>檔案管理員</Kiiro_BackstoryAdult_67.titleShort>
+  
+  <Kiiro_BackstoryAdult_68.description>[PAWN_nameDef]負責城鎮內的信件和小型包裹的收集與派送。無論是鄰里間的便條，還是來自遠方聚居地的公文，[PAWN_pronoun]都會仔細登記，並準時送達到指定的對象手中。這份工作需要熟悉城鎮的每一個角落，擁有良好的溝通能力和高度的責任心，是維繫城鎮資訊流暢的重要一環；而[PAWN_nameDef]恰好是合適的人選。</Kiiro_BackstoryAdult_68.description>
+  <Kiiro_BackstoryAdult_68.title>綺羅 城鎮郵差</Kiiro_BackstoryAdult_68.title>
+  <Kiiro_BackstoryAdult_68.titleShort>城鎮郵差</Kiiro_BackstoryAdult_68.titleShort>
+  
+  <Kiiro_BackstoryAdult_69.description>[PAWN_nameDef]的工作室裡總是瀰漫著濕潤泥土的芬芳和窯火的暖意。[PAWN_pronoun]喜歡在旋轉的陶輪上，隨著指尖的引導，感受泥土在[PAWN_possessive]手中逐漸成型。從日常使用的碗碟到造型獨特的藝術花瓶，每一件陶器都彷彿融入了[PAWN_possessive]對水與土的感悟，帶著自然的韻律和樸素的美感。</Kiiro_BackstoryAdult_69.description>
+  <Kiiro_BackstoryAdult_69.title>綺羅 陶藝師</Kiiro_BackstoryAdult_69.title>
+  <Kiiro_BackstoryAdult_69.titleShort>陶藝師</Kiiro_BackstoryAdult_69.titleShort>
+  
+  <Kiiro_BackstoryAdult_70.description>當城鎮的大多數居民還在沉睡時，[PAWN_nameDef]的麵包房裡已經亮起了溫暖的爐火。[PAWN_nameDef]揉捏著麵團，將它們捏出形狀送入烤爐。當第一縷晨曦照亮城鎮，空氣中便瀰漫開來新烤麵包的香甜氣味，為大家帶來一天開始的溫暖和能量。</Kiiro_BackstoryAdult_70.description>
+  <Kiiro_BackstoryAdult_70.title>綺羅 麵包師</Kiiro_BackstoryAdult_70.title>
+  <Kiiro_BackstoryAdult_70.titleShort>麵包師</Kiiro_BackstoryAdult_70.titleShort>
+  
+  <Kiiro_BackstoryAdult_71.description>[PAWN_nameDef]的工作室裡掛滿了各種羽毛和精心削制的箭桿。[PAWN_pronoun]製作的箭矢以輕盈、筆直和穩定的飛行軌跡著稱。從挑選合適的木材製作箭桿，到用堅硬的石片或金屬打磨箭頭，再到用鳥羽製作尾翼，每一個步驟[PAWN_nameDef]都一絲不茍，確保獵手們能擁有最可靠的武器。</Kiiro_BackstoryAdult_71.description>
+  <Kiiro_BackstoryAdult_71.title>綺羅 制箭匠</Kiiro_BackstoryAdult_71.title>
+  <Kiiro_BackstoryAdult_71.titleShort>制箭匠</Kiiro_BackstoryAdult_71.titleShort>
+  
+  <Kiiro_BackstoryAdult_72.description>[PAWN_nameDef]小時候就很喜歡在樹梢之間睡覺，於是[PAWN_nameDef]長大后也找了一份可以在樹梢上睡覺的工作。白天的[PAWN_nameDef]非常努力，不僅要護理植物和樹木，更要注意迷路在樹林里的孩童並帶領她們回家。這份工作相當累人，但[PAWN_nameDef]從不抱怨，這也許就是責任感吧？在平靜寧和的日子裡，[PAWN_nameDef]也可以偶爾趴著樹梢上睡午覺，這樣便好。</Kiiro_BackstoryAdult_72.description>
+  <Kiiro_BackstoryAdult_72.title>綺羅 護林員</Kiiro_BackstoryAdult_72.title>
+  <Kiiro_BackstoryAdult_72.titleShort>護林員</Kiiro_BackstoryAdult_72.titleShort>
+  
+  <Kiiro_BackstoryAdult_73.description>[PAWN_nameDef]的腦袋裡總是充滿了各種奇妙的想法，說起話來有些奇怪，但常年的奇思妙想讓[PAWN_pronoun]充滿了藝術感。[PAWN_nameDef]在看待事物也會有不同於常人的看法。</Kiiro_BackstoryAdult_73.description>
+  <Kiiro_BackstoryAdult_73.title>綺羅 幻想者</Kiiro_BackstoryAdult_73.title>
+  <Kiiro_BackstoryAdult_73.titleShort>幻想者</Kiiro_BackstoryAdult_73.titleShort>
+  
+</LanguageData>

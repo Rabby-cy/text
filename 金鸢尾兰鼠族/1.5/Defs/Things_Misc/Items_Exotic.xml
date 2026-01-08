@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>OARatkin_ResearchAnalyzer</defName>
+        <label>research analyzer</label>
+        <thingClass>ThingWithComps</thingClass>
+        <description>Ever since the Oberonia Aurea Empire came into contact with the edge world, the research Department attendants have often marveled at the strange technological development of the rimworld. In order to facilitate the interpretation of new technologies in the future, so the research department's attendants, together with the technology department, worked day and night to develop this new little thing. \n\nAlthough this device is small in size, its built-in computing power is comparable to that of a supercomputer in a short period of time. \nAfter activation, it will increase the research progress by 3000 points for the current technology.</description>
+        <graphicData>
+            <texPath>Item/OARatkin_ResearchAnalyzer</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(0.65,0.65)</drawSize>
+        </graphicData>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <stackLimit>1</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+            <MarketValue>1100</MarketValue>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Mass>2.0</Mass>
+            <Flammability>0.2</Flammability>
+        </statBases>
+        <thingCategories>
+            <li>ItemsMisc</li>
+        </thingCategories>
+        <tradeability>Sellable</tradeability>
+        <techLevel>Ultra</techLevel>
+        <tradeTags>
+            <li>ExoticMisc</li>
+        </tradeTags>
+        <comps>
+            <li Class="CompProperties_Usable">
+                <useJob>UseItem</useJob>
+                <useLabel>Use {0_label}</useLabel>
+                <showUseGizmo>true</showUseGizmo>
+            </li>
+            <li Class="OberoniaAurea.CompProperties_UseEffect_ResearchAnalyzer">
+                <researchAmount>3000</researchAmount>
+            </li>
+            <li Class="CompProperties_UseEffectDestroySelf" />
+        </comps>
+        <thingSetMakerTags>
+            <li>RewardStandardCore</li>
+        </thingSetMakerTags>
+    </ThingDef>
+
+</Defs>

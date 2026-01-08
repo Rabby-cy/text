@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<StorytellerDef ParentName="BaseStoryteller">
+		<defName>Begonia_Oberonia_Aurea</defName>
+		<label>"Ruler" Begonia Oberonia Aurea</label>
+		<description>If you want to wear the crown, you must bear its weight. \n As one of the Crown Princes of the Oberonia Aurea Empire, Begonia kept improving her studying on rule and management, which makes her tend to focus on the major events that are urgent most of the time, rather than procrastinating too much on the minor events. \n\nThe stories she recounts will often involve other factions, whether it be diplomacy or wars, which are things that need to paid attention to; while minor events have a relatively low probability of occurring. \n\nInteractions with other factions are routine here, and turmoil will occur from time to time, an experienced ruler will be a duck to water in such situations.</description>
+		<portraitLarge>Storyteller/Begonia_Oberonia_Aurea</portraitLarge>
+		<portraitTiny>Storyteller/Begonia_Oberonia_Aurea_TINY</portraitTiny>
+		<listOrder>64</listOrder>
+		<comps>
+			<!-- Home all -->
+			<li Class="StorytellerCompProperties_RandomMain">
+				<allowedTargetTags>
+					<li>Map_PlayerHome</li>
+				</allowedTargetTags>
+				<minDaysPassed>1</minDaysPassed>
+				<mtbDays>1.10</mtbDays>
+				<maxThreatBigIntervalDays>15</maxThreatBigIntervalDays>
+				<minIncChancePopulationIntentFactor>0.2</minIncChancePopulationIntentFactor>
+				<randomPointsFactorRange>1.2~2.6</randomPointsFactorRange>
+				<skipThreatBigIfRaidBeacon>true</skipThreatBigIfRaidBeacon>
+				<categoryWeights>
+					<Misc>4.55</Misc>
+					<ThreatBig>0.96</ThreatBig>
+					<OrbitalVisitor>1.25</OrbitalVisitor>
+					<FactionArrival>1.80</FactionArrival>
+					<ThreatSmall>1.0</ThreatSmall>
+					<ShipChunkDrop>0.28</ShipChunkDrop>
+				</categoryWeights>
+			</li>
+			<li Class="StorytellerCompProperties_Disease">
+				<category>DiseaseHuman</category>
+				<minDaysPassed>4</minDaysPassed>
+			</li>
+			<li Class="StorytellerCompProperties_Disease">
+				<category>DiseaseAnimal</category>
+				<minDaysPassed>4</minDaysPassed>
+			</li>
+			<!-- Home special threats -->
+			<li Class="StorytellerCompProperties_ThreatsGenerator">
+				<allowedTargetTags>
+					<li>Map_RaidBeacon</li>
+				</allowedTargetTags>
+				<parms>
+					<allowedThreats>Raids</allowedThreats>
+					<onDays>0.8</onDays>
+					<offDays>0.8</offDays>
+					<minSpacingDays>0.03</minSpacingDays>
+					<numIncidentsRange>1~2</numIncidentsRange>
+				</parms>
+			</li>
+			<!-- Ally/neutral interaction -->
+			<li Class="StorytellerCompProperties_FactionInteraction">
+				<incident>RaidFriendly</incident>
+				<baseIncidentsPerYear>19</baseIncidentsPerYear>
+				<minSpacingDays>0.4</minSpacingDays>
+				<fullAlliesOnly>true</fullAlliesOnly>
+				<minDanger>High</minDanger>
+			</li>
+			<!-- Caravan / temp map -->
+			<li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
+				<category>Misc</category>
+				<allowedTargetTags>
+					<li>Caravan</li>
+					<li>Map_TempIncident</li>
+				</allowedTargetTags>
+			</li>
+			<li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
+				<category>ThreatSmall</category>
+				<applyCaravanVisibility>true</applyCaravanVisibility>
+				<allowedTargetTags>
+					<li>Caravan</li>
+					<li>Map_TempIncident</li>
+				</allowedTargetTags>
+			</li>
+			<li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
+				<category>ThreatBig</category>
+				<applyCaravanVisibility>true</applyCaravanVisibility>
+				<allowedTargetTags>
+					<li>Caravan</li>
+					<li>Map_TempIncident</li>
+				</allowedTargetTags>
+			</li>
+			<!-- Quests - non-Royalty -->
+			<li Class="StorytellerCompProperties_RandomQuest">
+				<category>GiveQuest</category>
+				<allowedTargetTags>
+					<li>World</li>
+				</allowedTargetTags>
+				<onDays>8.5</onDays>
+				<numIncidentsRange>2~4</numIncidentsRange>
+				<acceptFractionByDaysPassedCurve>
+					<points>
+						<li>(3, 0)</li>
+						<li>(20, 0.6)</li>
+						<li>(40, 0.3)</li>
+						<li>(60, 1)</li>
+					</points>
+				</acceptFractionByDaysPassedCurve>
+				<minSpacingDays>0.15</minSpacingDays>
+				<disableIfAnyModActive>
+					<li>Ludeon.RimWorld.Royalty</li>
+				</disableIfAnyModActive>
+			</li>
+			<!-- Quests - Royalty -->
+			<li Class="StorytellerCompProperties_RandomQuest">
+				<category>GiveQuest</category>
+				<allowedTargetTags>
+					<li>World</li>
+				</allowedTargetTags>
+				<onDays>9</onDays>
+				<numIncidentsRange>2~3</numIncidentsRange>
+				<acceptFractionByDaysPassedCurve>
+					<points>
+						<li>(3, 0)</li>
+						<li>(15, 1)</li>
+						<li>(35, 0.4)</li>
+						<li>(75, 1)</li>
+					</points>
+				</acceptFractionByDaysPassedCurve>
+				<minSpacingDays>0.15</minSpacingDays>
+				<enableIfAnyModActive>
+					<li>Ludeon.RimWorld.Royalty</li>
+				</enableIfAnyModActive>
+			</li>
+			<!-- World misc incidents-->
+			<li Class="StorytellerCompProperties_CategoryMTB">
+				<category>Misc</category>
+				<allowedTargetTags>
+					<li>World</li>
+				</allowedTargetTags>
+				<minDaysPassed>1</minDaysPassed>
+				<mtbDays>13.5</mtbDays>
+			</li>
+			<!-- Triggered -->
+			<li Class="StorytellerCompProperties_Triggered">
+				<incident>RatkinVagabondJoin</incident>
+				<delayTicks>180</delayTicks>
+			</li>
+			<li Class="StorytellerCompProperties_FactionInteraction">
+				<incident>TraderCaravanArrival</incident>
+				<minDaysPassed>3</minDaysPassed>
+				<baseIncidentsPerYear>9</baseIncidentsPerYear>
+				<allowedTargetTags>
+					<li>Map_PlayerHome</li>
+				</allowedTargetTags>
+			</li>
+			<li Class="StorytellerCompProperties_OnOffCycle">
+				<incident>OA_RK_SupplyShipShowConcern</incident>
+				<onDays>15</onDays>
+				<offDays>45</offDays>
+				<numIncidentsRange>1~1</numIncidentsRange>
+				<minSpacingDays>10</minSpacingDays>
+				<allowedTargetTags>
+					<li>Map_PlayerHome</li>
+				</allowedTargetTags>
+			</li>
+			<li Class="StorytellerCompProperties_OnOffCycle">
+				<incident>OA_RK_MultiPartyTalks</incident>
+				<onDays>45</onDays>
+				<offDays>120</offDays>
+				<numIncidentsRange>1~1</numIncidentsRange>
+				<minSpacingDays>10</minSpacingDays>
+				<allowedTargetTags>
+					<li>World</li>
+				</allowedTargetTags>
+			</li>
+		</comps>
+	</StorytellerDef>
+	
+		<StorytellerDef ParentName="BaseStoryteller">
+		<defName>OA_RK_Penoy</defName>
+		<label>"The Squire" Paeonia</label>
+		<description>As the eldest daughter of the Squire Clan, Paeonia has followed her parents around the palace for as long as she can remember, learning how to serve the master's family. After she formally followed her master's family, she managed to keep their lives in order and became their most trusted squire. \n\n Most of the stories she recounts are on the daily side, tedious and plain, but easy to adapt to. \n\n It's very easy for minor threats and other trivial things to happen here, while large threats such as assaults are rare and low-intensity, so there's no need to worry about adapting to them.</description>
+		<portraitLarge>Storyteller/Peony</portraitLarge>
+		<portraitTiny>Storyteller/Peony_TINY</portraitTiny>
+		<listOrder>65</listOrder>
+		<comps>
+			<!-- Home all -->
+			<li Class="StorytellerCompProperties_RandomMain">
+				<allowedTargetTags>
+					<li>Map_PlayerHome</li>
+				</allowedTargetTags>
+				<minDaysPassed>1</minDaysPassed>
+				<mtbDays>0.82</mtbDays>
+				<maxThreatBigIntervalDays>18</maxThreatBigIntervalDays>
+				<minIncChancePopulationIntentFactor>0.2</minIncChancePopulationIntentFactor>
+				<randomPointsFactorRange>0.6~1.4</randomPointsFactorRange>
+				<skipThreatBigIfRaidBeacon>true</skipThreatBigIfRaidBeacon>
+				<categoryWeights>
+					<Misc>4.90</Misc>
+					<ThreatBig>0.46</ThreatBig>
+					<OrbitalVisitor>0.9</OrbitalVisitor>
+					<FactionArrival>1.38</FactionArrival>
+					<ThreatSmall>2.16</ThreatSmall>
+					<ShipChunkDrop>0.44</ShipChunkDrop>
+				</categoryWeights>
+			</li>
+			<li Class="StorytellerCompProperties_Disease">
+				<category>DiseaseHuman</category>
+				<minDaysPassed>4</minDaysPassed>
+			</li>
+			<li Class="StorytellerCompProperties_Disease">
+				<category>DiseaseAnimal</category>
+				<minDaysPassed>4</minDaysPassed>
+			</li>
+			<!-- Home special threats -->
+			<li Class="StorytellerCompProperties_ThreatsGenerator">
+				<allowedTargetTags>
+					<li>Map_RaidBeacon</li>
+				</allowedTargetTags>
+				<parms>
+					<allowedThreats>Raids</allowedThreats>
+					<onDays>1.5</onDays>
+					<offDays>2.0</offDays>
+					<minSpacingDays>0.06</minSpacingDays>
+					<numIncidentsRange>1~2</numIncidentsRange>
+				</parms>
+			</li>
+			<!-- Ally/neutral interaction -->
+			<li Class="StorytellerCompProperties_FactionInteraction">
+				<incident>RaidFriendly</incident>
+				<baseIncidentsPerYear>12</baseIncidentsPerYear>
+				<minSpacingDays>0.4</minSpacingDays>
+				<fullAlliesOnly>true</fullAlliesOnly>
+				<minDanger>High</minDanger>
+			</li>
+			<!-- Caravan / temp map -->
+			<li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
+				<category>Misc</category>
+				<allowedTargetTags>
+					<li>Caravan</li>
+					<li>Map_TempIncident</li>
+				</allowedTargetTags>
+			</li>
+			<li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
+				<category>ThreatSmall</category>
+				<applyCaravanVisibility>true</applyCaravanVisibility>
+				<allowedTargetTags>
+					<li>Caravan</li>
+					<li>Map_TempIncident</li>
+				</allowedTargetTags>
+			</li>
+			<li Class="StorytellerCompProperties_CategoryIndividualMTBByBiome">
+				<category>ThreatBig</category>
+				<applyCaravanVisibility>true</applyCaravanVisibility>
+				<allowedTargetTags>
+					<li>Caravan</li>
+					<li>Map_TempIncident</li>
+				</allowedTargetTags>
+			</li>
+			<!-- Quests - non-Royalty -->
+			<li Class="StorytellerCompProperties_RandomQuest">
+				<category>GiveQuest</category>
+				<allowedTargetTags>
+					<li>World</li>
+				</allowedTargetTags>
+				<onDays>10</onDays>
+				<numIncidentsRange>1</numIncidentsRange>
+				<acceptFractionByDaysPassedCurve>
+					<points>
+						<li>(5, 0)</li>
+						<li>(40, 1)</li>
+					</points>
+				</acceptFractionByDaysPassedCurve>
+				<minSpacingDays>0.2</minSpacingDays>
+				<disableIfAnyModActive>
+					<li>Ludeon.RimWorld.Royalty</li>
+				</disableIfAnyModActive>
+			</li>
+			<!-- Quests - Royalty -->
+			<li Class="StorytellerCompProperties_RandomQuest">
+				<category>GiveQuest</category>
+				<allowedTargetTags>
+					<li>World</li>
+				</allowedTargetTags>
+				<onDays>11.5</onDays>
+				<numIncidentsRange>1~3</numIncidentsRange>
+				<acceptFractionByDaysPassedCurve>
+					<points>
+						<li>(5, 0)</li>
+						<li>(24, 1)</li>
+					</points>
+				</acceptFractionByDaysPassedCurve>
+				<minSpacingDays>0.25</minSpacingDays>
+				<enableIfAnyModActive>
+					<li>Ludeon.RimWorld.Royalty</li>
+				</enableIfAnyModActive>
+			</li>
+			<!-- World misc incidents-->
+			<li Class="StorytellerCompProperties_CategoryMTB">
+				<category>Misc</category>
+				<allowedTargetTags>
+					<li>World</li>
+				</allowedTargetTags>
+				<minDaysPassed>1</minDaysPassed>
+				<mtbDays>17.5</mtbDays>
+			</li>
+			<!-- Triggered -->
+			<li Class="StorytellerCompProperties_Triggered">
+				<incident>RatkinVagabondJoin</incident>
+				<delayTicks>180</delayTicks>
+			</li>
+			<li Class="StorytellerCompProperties_FactionInteraction">
+				<incident>TraderCaravanArrival</incident>
+				<minDaysPassed>3</minDaysPassed>
+				<baseIncidentsPerYear>6</baseIncidentsPerYear>
+				<allowedTargetTags>
+					<li>Map_PlayerHome</li>
+				</allowedTargetTags>
+			</li>
+		</comps>
+	</StorytellerDef>
+
+</Defs>

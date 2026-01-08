@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kiiro_Pantynose_Black.label>綺羅深色連褲襪內衣</Kiiro_Pantynose_Black.label>
+  <Kiiro_Pantynose_Black.description>深色的內衣套裝配上深色連褲襪。</Kiiro_Pantynose_Black.description>
+
+  <Kiiro_Pantynose_White.label>綺羅淺色連褲襪內衣</Kiiro_Pantynose_White.label>
+  <Kiiro_Pantynose_White.description>淺色的內衣套裝配上淺色連褲襪。</Kiiro_Pantynose_White.description>
+
+  <Kiiro_Stocking_Black.label>綺羅深色絲襪內衣</Kiiro_Stocking_Black.label>
+  <Kiiro_Stocking_Black.description>深色的內衣套裝配上深色過膝襪。</Kiiro_Stocking_Black.description>
+
+  <Kiiro_Stocking_White.label>綺羅淺色絲襪內衣</Kiiro_Stocking_White.label>
+  <Kiiro_Stocking_White.description>淺色的內衣套裝配上淺色過膝襪。</Kiiro_Stocking_White.description>
+
+  <Kiiro_Underwear_Normal.label>綺羅內衣</Kiiro_Underwear_Normal.label>
+  <Kiiro_Underwear_Normal.description>一套內衣，可以染成任何喜歡的顏色。</Kiiro_Underwear_Normal.description>
+
+  <Kiiro_HandWarmer.label>綺羅貓爪暖手寶</Kiiro_HandWarmer.label>
+  <Kiiro_HandWarmer.description>小小的布袋，繡著貓爪圖案。裝入的熱水能夠長時間保溫，揣在懷裡暖暖的。</Kiiro_HandWarmer.description>
+
+  <Kiiro_CoolSleeves.label>綺羅絨絨涼袖</Kiiro_CoolSleeves.label>
+  <Kiiro_CoolSleeves.description>套在手臂上的涼袖，能有效幫助身體散熱。</Kiiro_CoolSleeves.description>
+
+  <Kiiro_Woundplast.label>綺羅草藥敷</Kiiro_Woundplast.label>
+  <Kiiro_Woundplast.description>將糊狀混合草藥包裹進布里製成的藥敷，藥的成分會緩慢地通過面板吸收。可以加快身體的恢復。\n不要貼在奇怪的地方！</Kiiro_Woundplast.description>
+
+  <Kiiro_CatmintPerfume.label>綺羅貓薄荷香水</Kiiro_CatmintPerfume.label>
+  <Kiiro_CatmintPerfume.description>一個精緻的小瓶子，盛裝了含荊芥內建成分的揮發性液體，散發著淡淡的清香。</Kiiro_CatmintPerfume.description>
+
+
+  <!-- 紙藝吊墜 -->
+
+  <Kiiro_PaperFoldingPendantStar.label>綺羅紙藝吊墜（五角星）</Kiiro_PaperFoldingPendantStar.label>
+  <Kiiro_PaperFoldingPendantStar.description>用紙張摺疊出的精緻五角星形狀吊墜，做了防水保護。戴上后莫名地讓人健談了起來。</Kiiro_PaperFoldingPendantStar.description>
+
+  <Kiiro_PaperFoldingPendantHeart.label>綺羅紙藝吊墜（愛心）</Kiiro_PaperFoldingPendantHeart.label>
+  <Kiiro_PaperFoldingPendantHeart.description>用紙張摺疊出的精緻愛心形狀吊墜，做了防水保護。戴上后似乎會讓人變得更加安心。</Kiiro_PaperFoldingPendantHeart.description>
+
+  <Kiiro_PaperFoldingPendantCross.label>綺羅紙藝吊墜（十字架）</Kiiro_PaperFoldingPendantCross.label>
+  <Kiiro_PaperFoldingPendantCross.description>用紙張摺疊出的精緻十字架形狀吊墜，做了防水保護。總感覺戴上后變得更有說服力呢。</Kiiro_PaperFoldingPendantCross.description>
+
+
+</LanguageData>

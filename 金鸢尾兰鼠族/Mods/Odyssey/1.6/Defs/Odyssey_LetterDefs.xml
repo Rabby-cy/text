@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <LetterDef ParentName="PositiveEvent">
+        <defName>OARK_BrokenPilotConsoleLetter</defName>
+        <letterClass>OberoniaAurea.ChoiceLetter_BrokenPilotConsole</letterClass>
+    </LetterDef>
+
+    <LetterDef ParentName="PositiveEvent">
+        <defName>OARK_UnlockedFileLetter</defName>
+        <letterClass>OberoniaAurea.ChoiceLetter_UnlockedFile</letterClass>
+    </LetterDef>
+
+    <LetterDef ParentName="PositiveEvent">
+        <defName>OARK_UnlockedFilePeepLetter</defName>
+        <letterClass>OberoniaAurea.ChoiceLetter_UnlockedFile_Peep</letterClass>
+    </LetterDef>
+
+    <LetterDef ParentName="PositiveEvent">
+        <defName>OARK_ScienceDepartmentFriendlyLetter</defName>
+        <letterClass>OberoniaAurea.ChoiceLetter_ScienceDepartmentFriendly</letterClass>
+    </LetterDef>
+
+        <LetterDef ParentName="PositiveEvent">
+        <defName>OARK_EMReviewLetter</defName>
+        <letterClass>OberoniaAurea.ChoiceLetter_EMReview</letterClass>
+    </LetterDef>
+
+    <LetterDef ParentName="PositiveEvent">
+        <defName>OARK_EMReview_RejectLetter</defName>
+        <letterClass>OberoniaAurea.ChoiceLetter_EMReview_Reject</letterClass>
+    </LetterDef>
+
+</Defs>

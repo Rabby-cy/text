@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="OA_RK_ApparelBase"]/statBases</xpath>
+		<value>
+			<Bulk>1</Bulk>
+			<WornBulk>0.7</WornBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="OA_RK_ApparelBase"]/statBases</xpath>
+		<value>
+			<ArmorRating_Sharp>3</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="OA_RK_ApparelBase"]/statBases</xpath>
+		<value>
+			<ArmorRating_Blunt>2</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<!-- ========== 金鸢尾兰自清洁服 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Professional_Uniforms_A"]/statBases</xpath>
+		<value>
+			<Bulk>1.6</Bulk>
+			<WornBulk>1</WornBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_Professional_Uniforms_A"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>5</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_Professional_Uniforms_A"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>3</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<!-- ========== 金鸢尾兰研究服 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Professional_Uniforms_E"]/statBases</xpath>
+		<value>
+			<Bulk>1.6</Bulk>
+			<WornBulk>1</WornBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_Professional_Uniforms_E"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>3</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_Professional_Uniforms_E"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>2</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<!-- ========== 金鸢尾兰祭服 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Professional_Uniforms_B"]/statBases</xpath>
+		<value>
+			<Bulk>4</Bulk>
+			<WornBulk>2</WornBulk>
+		</value>
+	</Operation>
+
+	<!-- ========== 金鸢尾兰宫廷制服 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Professional_Uniforms_C"]/statBases</xpath>
+		<value>
+			<Bulk>2</Bulk>
+			<WornBulk>1.3</WornBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_Professional_Uniforms_C"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>7.2</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_Professional_Uniforms_C"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>3.6</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<!-- ========== 金鸢尾兰连衣裙 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Apparel_A"]/statBases</xpath>
+		<value>
+			<Bulk>1</Bulk>
+			<WornBulk>0.7</WornBulk>
+		</value>
+	</Operation>
+
+	<!-- ========== 金鸢尾兰短服裙 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Apparel_B"]/statBases</xpath>
+		<value>
+			<Bulk>0.7</Bulk>
+			<WornBulk>0.7</WornBulk>
+		</value>
+	</Operation>
+
+	<!-- ========== 金鸢尾兰古典长裙 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Apparel_C"]/statBases</xpath>
+		<value>
+			<Bulk>2</Bulk>
+			<WornBulk>1.2</WornBulk>
+	</value>
+	</Operation>
+
+	<!-- ========== 金鸢尾兰鸢尾裙 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Apparel_D"]/statBases</xpath>
+		<value>
+			<Bulk>2</Bulk>
+			<WornBulk>1.2</WornBulk>
+		</value>
+	</Operation>
+
+	<!-- ========== 金鸢尾兰风雪长裙 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Apparel_E"]/statBases</xpath>
+		<value>
+			<Bulk>3</Bulk>
+			<WornBulk>1.8</WornBulk>
+		</value>
+	</Operation>
+	
+	<!-- ========== 金鸢尾兰披肩长裙 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Apparel_F"]/statBases</xpath>
+		<value>
+			<Bulk>2</Bulk>
+			<WornBulk>1.2</WornBulk>
+		</value>
+	</Operation>
+
+	<!-- ========== 金鸢尾兰远行长袍 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Traveller_A"]/statBases</xpath>
+		<value>
+			<Bulk>3</Bulk>
+			<WornBulk>2</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Traveller_A"]/equippedStatOffsets</xpath>
+		<value>
+			<CarryWeight>8</CarryWeight>
+			<CarryBulk>10</CarryBulk>
+		</value>
+	</Operation>
+
+	<!-- ========== 金鸢尾兰风雪行衣 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Traveller_B"]/statBases</xpath>
+		<value>
+			<Bulk>3</Bulk>
+			<WornBulk>2</WornBulk>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Traveller_B"]/equippedStatOffsets</xpath>
+		<value>
+			<CarryWeight>8</CarryWeight>
+			<CarryBulk>10</CarryBulk>
+		</value>
+	</Operation>
+
+	<!-- ========== 金鸢尾兰绶带 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Sandwich_A"]/statBases</xpath>
+		<value>
+			<Bulk>0.2</Bulk>
+			<WornBulk>0.2</WornBulk>
+		</value>
+	</Operation>
+
+	<!-- ========== 金鸢尾兰荣誉绶带 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Sandwich_B"]/statBases</xpath>
+		<value>
+			<Bulk>0.2</Bulk>
+			<WornBulk>0.2</WornBulk>
+		</value>
+	</Operation>
+
+	<!-- ========== 金鸢尾兰长摆风衣 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Windbreaker_A"]/statBases</xpath>
+		<value>
+			<Bulk>1.3</Bulk>
+			<WornBulk>1</WornBulk>
+		</value>
+	</Operation>
+
+	<!-- ========== 金鸢尾兰宫廷风衣 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Windbreaker_C"]/statBases</xpath>
+		<value>
+			<Bulk>2</Bulk>
+			<WornBulk>1.3</WornBulk>
+		</value>
+	</Operation>
+
+	<!-- ========== 金鸢尾兰披肩 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Windbreaker_D"]/statBases</xpath>
+		<value>
+			<Bulk>0.5</Bulk>
+			<WornBulk>0.5</WornBulk>
+		</value>
+	</Operation>
+
+	<!-- ========== 金鸢尾兰御寒披肩 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Windbreaker_E"]/statBases</xpath>
+		<value>
+			<Bulk>0.8</Bulk>
+			<WornBulk>0.8</WornBulk>
+		</value>
+	</Operation>
+
+	<!-- ========== 金鸢尾兰御寒披袍 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Windbreaker_F"]/statBases</xpath>
+		<value>
+			<Bulk>2</Bulk>
+			<WornBulk>2.5</WornBulk>
+		</value>
+	</Operation>
+
+	<!-- ========== 金鸢尾兰祭袍 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Windbreaker_G"]/statBases</xpath>
+		<value>
+			<Bulk>3</Bulk>
+			<WornBulk>3</WornBulk>
+		</value>
+	</Operation>
+
+	<!-- ========== 金鸢尾兰银叶发饰 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Hat_B"]/statBases</xpath>
+		<value>
+			<Bulk>0.2</Bulk>
+			<WornBulk>0</WornBulk>
+		</value>
+	</Operation>
+
+	<!-- ========== 金鸢尾兰宫廷银叶发饰 ========== -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="OA_RK_Hat_C"]/statBases</xpath>
+		<value>
+			<Bulk>0.3</Bulk>
+			<WornBulk>0</WornBulk>
+		</value>
+	</Operation>
+
+
+</Patch>

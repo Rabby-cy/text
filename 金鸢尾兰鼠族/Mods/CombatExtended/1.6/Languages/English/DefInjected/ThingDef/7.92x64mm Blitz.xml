@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_792x64DU.label>7.92x64mm depleted uranium</Ammo_792x64DU.label>
+  <Ammo_792x64DU.description>Depleted uranium. Kill people imitate sacks when they are hit.</Ammo_792x64DU.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_792x64DU.label>7.92x64mm depleted uranium bullet</Bullet_792x64DU.label>
+  <Bullet_792x64DU_Adv.label>7.92x64mm depleted uranium bullet</Bullet_792x64DU_Adv.label>
+  <Bullet_792x64DU_Heavy_a.label>7.92x64mm depleted uranium bullet</Bullet_792x64DU_Heavy_a.label>
+  <Bullet_792x64DU_Heavy.label>7.92x64mm depleted uranium bullet</Bullet_792x64DU_Heavy.label>
+
+
+</LanguageData>

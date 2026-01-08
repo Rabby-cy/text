@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OA_MessageNoDiplomat>沒有合適的外交官</OA_MessageNoDiplomat>
+    <OA_MessageNoResearcher>沒有合適的研究員</OA_MessageNoResearcher>
+
+    <OA_ResponsibilityConstraints>{0}因為責任感而暫時保持了理智</OA_ResponsibilityConstraints>
+    <OA_Atonement>{0}為了贖罪而暫時保持了理智</OA_Atonement>
+
+</LanguageData>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <!-- 奖励详情 -->
+    <OARK_AssistPoint>支援点数</OARK_AssistPoint>
+    <OARK_AssistPointTip>衡量{0}提供支援意愿的点数。</OARK_AssistPointTip>
+
+    <OARK_NotHackableNow>目前无法骇入</OARK_NotHackableNow>
+
+    <OA_curCircuitStability>当前稳定度：{0}</OA_curCircuitStability>
+    <OA_curLoadElectricity>当前负载：{0}W</OA_curLoadElectricity>
+    <OA_curCircuitStabilityLoss>当前稳定度损失：{0}/时</OA_curCircuitStabilityLoss>
+
+    <OA_ElectromagneticInterference>电磁干扰 × {0}</OA_ElectromagneticInterference>
+
+    <OA_SpecialtyFactor>特产</OA_SpecialtyFactor>
+
+</LanguageData>

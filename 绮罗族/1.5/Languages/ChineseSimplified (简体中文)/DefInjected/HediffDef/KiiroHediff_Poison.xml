@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kiiro_ParalyticPoison.label>麻痹毒</Kiiro_ParalyticPoison.label>
+  <Kiiro_ParalyticPoison.description>特制的速效麻痹毒素，会导致中毒者迅速失去知觉，但并不致命。</Kiiro_ParalyticPoison.description>
+  <Kiiro_ParalyticPoison.stages.0.label>轻微</Kiiro_ParalyticPoison.stages.0.label>
+  <Kiiro_ParalyticPoison.stages.1.label>较轻</Kiiro_ParalyticPoison.stages.1.label>
+  <Kiiro_ParalyticPoison.stages.2.label>较重</Kiiro_ParalyticPoison.stages.2.label>
+  <Kiiro_ParalyticPoison.stages.3.label>麻痹</Kiiro_ParalyticPoison.stages.3.label>
+  <Kiiro_ParalyticPoison.stages.4.label>消退</Kiiro_ParalyticPoison.stages.4.label>
+
+  <Kiiro_DeadlyPoison.label>致命毒</Kiiro_DeadlyPoison.label>
+  <Kiiro_DeadlyPoison.description>特制的毒药，在中毒早期对身体机能几乎没有任何影响，但若没有得到及时的医疗，中毒者会在数天内毒发身亡。</Kiiro_DeadlyPoison.description>
+  <Kiiro_DeadlyPoison.stages.0.label>轻微</Kiiro_DeadlyPoison.stages.0.label>
+  <Kiiro_DeadlyPoison.stages.1.label>较轻</Kiiro_DeadlyPoison.stages.1.label>
+  <Kiiro_DeadlyPoison.stages.2.label>较重</Kiiro_DeadlyPoison.stages.2.label>
+  <Kiiro_DeadlyPoison.stages.3.label>严重</Kiiro_DeadlyPoison.stages.3.label>
+
+
+</LanguageData>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<GeneDef>
+		<defName>RK_OA_gene_Social</defName>
+		<label>Oberonia hormone</label>
+		<description>Carriers of this gene secrete a special hormone that forces them to seek a biological group with the same hormone for a sense of security. When their group is too young, they will feel uneasy, otherwise they will feel at ease and become gentle.</description>
+		<iconPath>Ui/RK_OA_gene_Social</iconPath>
+		<displayCategory>Violence</displayCategory>
+		<displayOrderInCategory>-10</displayOrderInCategory>
+		<biostatCpx>2</biostatCpx>
+		<biostatMet>1</biostatMet>
+	</GeneDef>
+
+	<ThoughtDef>
+		<defName>RK_OA_Social</defName>
+		<workerClass>OberoniaAurea.ThoughtWorker_Social</workerClass>
+		<requiredGenes>
+			<li>RK_OA_gene_Social</li>
+		</requiredGenes>
+		<stages>
+			<li>
+				<label>Lonely</label>
+				<description>Feel so alone....this feeling of solitude discomforts me.</description>
+				<baseMoodEffect>-7</baseMoodEffect>
+			</li>
+			<li>
+				<label>Small camp</label>
+				<description>A nest of few seldom succeed...</description>
+				<baseMoodEffect>-3</baseMoodEffect>
+			</li>
+			<li>
+				<label>Secured settlement</label>
+				<description>More or less,at least I have my friends at my back.</description>
+				<baseMoodEffect>2</baseMoodEffect>
+			</li>
+			<li>
+				<label>Prospering homeland</label>
+				<description>What a big heartwarming big family I got here.</description>
+				<baseMoodEffect>4</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+</Defs>

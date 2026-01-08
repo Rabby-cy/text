@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>AmmoOARocket</defName>
+		<label />
+		<parent>AmmoRockets</parent>
+		<iconPath>UI/Icons/ThingCategories/CaliberRocket</iconPath>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>AmmoOAEMPRocket</defName>
+		<label />
+		<parent>AmmoRockets</parent>
+		<iconPath>UI/Icons/ThingCategories/CaliberRocket</iconPath>
+	</ThingCategoryDef>
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_OARocket</defName>
+		<label>金鸢尾兰火箭榴弹</label>
+		<ammoTypes>
+			<Ammo_OARocket_HE>Bullet_OARocket_HE</Ammo_OARocket_HE>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_OARocket_direct</defName>
+		<label>金鸢尾兰火箭榴弹</label>
+		<ammoTypes>
+			<Ammo_OARocket_HE>Bullet_OARocket_HE_direct</Ammo_OARocket_HE>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_OAEMPRocket</defName>
+		<label>OA rocket</label>
+		<ammoTypes>
+			<Ammo_OARocket_HE>Bullet_OARocket_EMP</Ammo_OARocket_HE>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" Name="OARocketBase" ParentName="MediumAmmoBase" Abstract="True">
+		<description>金鸢尾兰的火箭炮类防御设施所需要的弹药，相比起边缘世界那简陋的炮弹包装更具有安全性，但若是受到剧烈冲击依然有爆炸的可能性。</description>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+		</statBases>
+		<tradeTags>
+			<li>CE_AutoEnableTrade</li>
+			<li>CE_AutoEnableCrafting_TableMachining</li>
+		</tradeTags>
+		<thingCategories>
+			<li>AmmoOARocket</li>
+		</thingCategories>
+		<stackLimit>25</stackLimit>
+		<cookOffFlashScale>25</cookOffFlashScale>
+		<cookOffSound>MortarBomb_Explode</cookOffSound>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="OARocketBase">
+		<defName>Ammo_OARocket_HE</defName>
+		<label>金鸢尾兰火箭榴弹 (HE)</label>
+		<graphicData>
+			<texPath>Item/OA_RK_TurretGun_Bullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.40</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>44.76</MarketValue>
+			<Mass>4.5</Mass>
+			<Bulk>7.07</Bulk>
+		</statBases>
+		<ammoClass>GrenadeHE</ammoClass>
+		<detonateProjectile>Bullet_OARocket_HE</detonateProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="OARocketBase">
+		<defName>Ammo_OARocket_EMP</defName>
+		<label>金鸢尾兰火箭榴弹 (EMP)</label>
+		<graphicData>
+			<texPath>Item/OA_RK_TurretGun_Bullet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.40</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>44.76</MarketValue>
+			<Mass>4.5</Mass>
+			<Bulk>7.07</Bulk>
+		</statBases>
+		<ammoClass>GrenadeEMP</ammoClass>
+		<detonateProjectile>Bullet_OARocket_HE</detonateProjectile>
+	</ThingDef>
+
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef Name="BaseOARocket" ParentName="BaseExplosiveBullet" Abstract="true">
+		<graphicData>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>0</speed>
+			<soundAmbient>RocketPropelledLoop_Small</soundAmbient>
+			<dropsCasings>false</dropsCasings>
+			<flyOverhead>true</flyOverhead>
+			<gravityFactor>23</gravityFactor>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseOARocket">
+		<defName>Bullet_OARocket_HE</defName>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<label>OA rocket (HE)</label>
+		<graphicData>
+			<texPath>Bullets/OA_RK_Paodan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.70</drawSize>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>147</damageAmountBase>
+			<explosionRadius>3.5</explosionRadius>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Fragment_Medium>43</Fragment_Medium>
+				</fragments>
+			</li>
+			<li Class="CombatExtended.CompProperties_ProjectileFleck">
+				<FleckDatas>
+					<li>
+						<fleck>Fleck_CERocketFlame</fleck>
+						<emissionsPerTick>7</emissionsPerTick>
+						<flecksPerEmission>3</flecksPerEmission>
+						<cutoffTickRange>60~120</cutoffTickRange>
+					</li>
+					<li>
+						<fleck>Fleck_CERocketSmokeTrail</fleck>
+						<emissionsPerTick>0.5</emissionsPerTick>
+						<rotation>0~360</rotation>
+						<scale>2</scale>
+						<flecksPerEmission>1</flecksPerEmission>
+					</li>
+					<li>
+						<fleck>Fleck_CERocketSmoke</fleck>
+						<emissionsPerTick>0.5</emissionsPerTick>
+						<rotation>0~360</rotation>
+						<flecksPerEmission>1</flecksPerEmission>
+						<cutoffTickRange>120~240</cutoffTickRange>
+					</li>
+				</FleckDatas>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseOARocket">
+		<defName>Bullet_OARocket_EMP</defName>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<label>OA rocket (EMP)</label>
+		<graphicData>
+			<texPath>Bullets/OA_RK_Paodan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.70</drawSize>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>EMP</damageDef>
+			<damageFalloff>true</damageFalloff>
+			<damageAmountBase>113</damageAmountBase>
+			<explosionRadius>5.2</explosionRadius>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef Name="BaseOARocket_direct" ParentName="BaseExplosiveBullet" Abstract="true">
+		<graphicData>
+			<shaderType>TransparentPostLight</shaderType>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>0</speed>
+			<soundAmbient>RocketPropelledLoop_Small</soundAmbient>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="BaseRPG7Grenade">
+		<defName>Bullet_OARocket_HE_direct</defName>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<label>OA rocket (HE)</label>
+		<graphicData>
+			<texPath>Bullets/OA_RK_Paodan</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.70</drawSize>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>43</damageAmountBase>
+			<armorPenetrationSharp>50</armorPenetrationSharp>
+			<armorPenetrationBlunt>86</armorPenetrationBlunt>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<damageAmountBase>51</damageAmountBase>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<explosiveRadius>3.5</explosiveRadius>
+				<explosionSound>Explosion_Rocket</explosionSound>
+				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			</li>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Fragment_Medium>43</Fragment_Medium>
+				</fragments>
+			</li>
+		</comps>
+	</ThingDef>
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="LauncherAmmoRecipeBase">
+		<defName>MakeAmmo_OARocket_HE</defName>
+		<label>make OA HE rockets x10</label>
+		<description>Craft 10 OA HE rockets.</description>
+		<jobString>Making OA HE rockets.</jobString>
+		<workAmount>11000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Uranium</li>
+					</thingDefs>
+				</filter>
+				<count>140</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Uranium</li>
+				<li>FSX</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_OARocket_HE>28</Ammo_OARocket_HE>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="LauncherAmmoRecipeBase">
+		<defName>MakeAmmo_OARocket_EMP</defName>
+		<label>make OA EMP rockets x10</label>
+		<description>Craft 10 OA EMP rockets.</description>
+		<jobString>Making OA EMP rockets.</jobString>
+		<workAmount>11000</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Uranium</li>
+					</thingDefs>
+				</filter>
+				<count>140</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>32</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Uranium</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_OARocket_EMP>28</Ammo_OARocket_EMP>
+		</products>
+	</RecipeDef>
+
+</Defs>

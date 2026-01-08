@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="Kiiro_OnSkinBase" ParentName="Kiiro_ApparelBase" Abstract="True">
+    <statBases>
+      <Mass>0.8</Mass>
+	  <Insulation_Cold>4</Insulation_Cold>
+      <Insulation_Heat>2</Insulation_Heat>
+      <EquipDelay>1.8</EquipDelay>
+    </statBases>
+    <apparel>
+      <layers>
+        <li>OnSkin</li>
+      </layers>
+	  <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+    </apparel>
+    <thingCategories>
+      <li>Kiiro_Apparel_OnSkin</li>
+    </thingCategories>
+  </ThingDef>
+  
+  <ThingDef Name="Kiiro_OnSkinBaseI" ParentName="Kiiro_OnSkinBase" Abstract="True">
+    <recipeMaker>
+      <!--<displayPriority>1000</displayPriority>-->
+      <researchPrerequisite>Kiiro_Apparel_I</researchPrerequisite>
+    </recipeMaker>
+    <apparel>
+      <tags>
+        <li>Kiiro_OnSkin</li>
+      </tags>
+    </apparel>
+	<tradeTags>
+      <li>Kiiro_DailyClothing</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <ThingDef Name="Kiiro_OnSkinBaseII" ParentName="Kiiro_OnSkinBase" Abstract="True">
+    <recipeMaker>
+      <!--<displayPriority>1100</displayPriority>-->
+      <researchPrerequisite>Kiiro_Apparel_II</researchPrerequisite>
+    </recipeMaker>
+    <apparel>
+      <tags>
+        <li>Kiiro_OnSkin</li>
+      </tags>
+    </apparel>
+	<tradeTags>
+      <li>Kiiro_DailyClothing</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <ThingDef Name="Kiiro_OnSkinBaseIII" ParentName="Kiiro_OnSkinBase" Abstract="True">
+    <recipeMaker>
+      <!--<displayPriority>1200</displayPriority>-->
+      <researchPrerequisite>Kiiro_Apparel_III</researchPrerequisite>
+    </recipeMaker>
+    <apparel>
+      <tags>
+        <li>Kiiro_OnSkin</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  
+  <ThingDef Name="Kiiro_OnSkinBaseIV" ParentName="Kiiro_OnSkinBase" Abstract="True">
+    <recipeMaker>
+      <!--<displayPriority>1300</displayPriority>-->
+      <researchPrerequisite>Kiiro_Apparel_IV</researchPrerequisite>
+    </recipeMaker>
+    <apparel>
+      <tags>
+        <li>Kiiro_OnSkin</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  
+  <ThingDef Name="Kiiro_OnSkinBaseSpecial" ParentName="Kiiro_OnSkinBase" Abstract="True">
+    <recipeMaker Inherit="false"></recipeMaker>
+    <apparel>
+      <tags>
+        <li>Kiiro_OnSkin</li>
+        <li>Kiiro_SpecialApparel</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  
+  <!--1级衣服-->
+  <ThingDef ParentName="Kiiro_OnSkinBaseI"><!-- 绮罗T恤衫 -->
+    <defName>Kiiro_TShirt</defName>
+    <label>kiiro T-shirt</label>
+    <description>A loose-fitting T-shirt, comfortable to wear.</description>
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <graphicData>
+      <texPath>Kiiro/Apparel/OnSkin/TShirt/TShirt</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>3200</WorkToMake>
+      <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <apparel>
+      <useWornGraphicMask>false</useWornGraphicMask>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Kiiro/Apparel/OnSkin/TShirt/TShirt</wornGraphicPath>
+      <tags>
+        <li>Kiiro_DailyWear</li>
+        <li>Kiiro_Daily</li>
+      </tags>
+    </apparel>
+    <equippedStatOffsets>
+      <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+    </equippedStatOffsets>
+    <!-- <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="MYDE_Kiiro.CompProperties_Stealth">
+      </li>
+    </comps> -->
+  </ThingDef>
+  
+  <ThingDef ParentName="Kiiro_OnSkinBaseI"><!-- 绮罗T恤衫（短款） -->
+    <defName>Kiiro_TShirtShort</defName>
+    <label>kiiro T-shirt short</label>
+    <description>A cropped T-shirt, revealing the belly button.</description>
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <graphicData>
+      <texPath>Kiiro/Apparel/OnSkin/TShirtShort/TShirtShort</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>3200</WorkToMake>
+      <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <apparel>
+      <useWornGraphicMask>false</useWornGraphicMask>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Kiiro/Apparel/OnSkin/TShirtShort/TShirtShort</wornGraphicPath>
+      <tags>
+        <li>Kiiro_DailyWear</li>
+        <li>Kiiro_Daily</li>
+      </tags>
+    </apparel>
+    <equippedStatOffsets>
+      <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+    </equippedStatOffsets>
+  </ThingDef>
+  
+  <ThingDef ParentName="Kiiro_OnSkinBaseI"><!-- 绮罗背心 -->
+    <defName>Kiiro_Waistcoat</defName>
+    <label>kiiro waist coat</label>
+    <description>A dark-colored vest, casually worn on the body.</description>
+    <costStuffCount>40</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <graphicData>
+      <texPath>Kiiro/Apparel/OnSkin/Waistcoat/Waistcoat</texPath>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>3200</WorkToMake>
+      <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <apparel>
+      <useWornGraphicMask>false</useWornGraphicMask>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <bodyPartGroups Inherit="false">
+        <li>Torso</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Kiiro/Apparel/OnSkin/Waistcoat/Waistcoat</wornGraphicPath>
+      <tags>
+        <li>Kiiro_DailyWear</li>
+        <li>Kiiro_Daily</li>
+      </tags>
+    </apparel>
+    <equippedStatOffsets>
+      <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+    </equippedStatOffsets>
+  </ThingDef>
+  
+  
+  <!--2级衣服-->
+  <ThingDef ParentName="Kiiro_OnSkinBaseII"><!-- 绮罗水手服（款一） -->
+    <defName>Kiiro_SailorSuit</defName>
+    <label>kiiro sailor suit (style I)</label>
+    <description>It seems to be a style of school uniform that was popular in ancient culture and has been revived among the kiiros.</description>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <graphicData>
+      <texPath>Kiiro/Apparel/OnSkin/SailorSuit/SailorSuit</texPath>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>4200</WorkToMake>
+      <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <apparel>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Kiiro/Apparel/OnSkin/SailorSuit/SailorSuit</wornGraphicPath>
+      <tags>
+        <li>Kiiro_DailyWear</li>
+        <li>Kiiro_Student</li>
+        <li>Kiiro_Daily</li>
+      </tags>
+    </apparel>
+    <equippedStatOffsets>
+      <MentalBreakThreshold>-0.03</MentalBreakThreshold>
+      <GlobalLearningFactor>0.05</GlobalLearningFactor>
+    </equippedStatOffsets>
+  </ThingDef>
+  
+  <ThingDef ParentName="Kiiro_OnSkinBaseII"><!-- 绮罗水手服（款二） -->
+    <defName>Kiiro_SailorSuitII</defName>
+    <label>kiiro sailor suit (style II)</label>
+    <description>It seems to be a style of school uniform that was popular in ancient culture and has been revived among the kiiros.</description>
+    <costStuffCount>50</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <graphicData>
+      <texPath>Kiiro/Apparel/OnSkin/SailorSuitII/SailorSuitII</texPath>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>4200</WorkToMake>
+      <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <apparel>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Kiiro/Apparel/OnSkin/SailorSuitII/SailorSuitII</wornGraphicPath>
+      <tags>
+        <li>Kiiro_DailyWear</li>
+        <li>Kiiro_Student</li>
+        <li>Kiiro_Daily</li>
+      </tags>
+    </apparel>
+    <equippedStatOffsets>
+      <MentalBreakThreshold>-0.03</MentalBreakThreshold>
+      <GlobalLearningFactor>0.05</GlobalLearningFactor>
+    </equippedStatOffsets>
+  </ThingDef>
+  
+  <ThingDef ParentName="Kiiro_OnSkinBaseII"><!-- 绮罗可爱连帽衫 -->
+    <defName>Kiiro_Hoodie</defName>
+    <label>kiiro cute hoodie</label>
+    <description>A hoodie with cat paw prints, it should be very comfortable to wear.</description>
+    <costList>
+      <Cloth>15</Cloth>
+    </costList>
+    <costStuffCount>45</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <graphicData>
+      <texPath>Kiiro/Apparel/OnSkin/Hoodie/Hoodie</texPath>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>4800</WorkToMake>
+      <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <apparel>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Kiiro/Apparel/OnSkin/Hoodie/Hoodie</wornGraphicPath>
+      <tags>
+        <li>Kiiro_DailyWear</li>
+        <li>Kiiro_Daily</li>
+      </tags>
+    </apparel>
+    <equippedStatOffsets>
+      <MentalBreakThreshold>-0.03</MentalBreakThreshold>
+      <SocialImpact>0.12</SocialImpact>
+    </equippedStatOffsets>
+  </ThingDef>
+  
+  <ThingDef ParentName="Kiiro_OnSkinBaseII"><!-- 绮罗运动背心 -->
+    <defName>Kiiro_RunningShirt</defName>
+    <label>kiiro tank top</label>
+    <description>A sports tank top with cat paw prints, suitable for wearing during exercise.</description>
+    <costList>
+      <Cloth>15</Cloth>
+    </costList>
+    <costStuffCount>45</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <graphicData>
+      <texPath>Kiiro/Apparel/OnSkin/RunningShirt/RunningShirt</texPath>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>4800</WorkToMake>
+      <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <apparel>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Kiiro/Apparel/OnSkin/RunningShirt/RunningShirt</wornGraphicPath>
+      <tags>
+        <li>Kiiro_DailyWear</li>
+        <li>Kiiro_Daily</li>
+      </tags>
+    </apparel>
+    <equippedStatOffsets>
+      <MentalBreakThreshold>-0.03</MentalBreakThreshold>
+      <MoveSpeed>0.05</MoveSpeed>
+    </equippedStatOffsets>
+  </ThingDef>
+  
+  <ThingDef ParentName="Kiiro_OnSkinBaseII"><!-- 绮罗针织毛衣 -->
+    <defName>Kiiro_KnittedSweater</defName>
+    <label>kiiro knitted sweater</label>
+    <description>A loose-fitting sweater and a turtleneck shirt, reminiscent of lazy afternoons and sunshine.</description>
+    <costList>
+      <Cloth>15</Cloth>
+    </costList>
+    <costStuffCount>45</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <graphicData>
+      <texPath>Kiiro/Apparel/OnSkin/KnittedSweater/KnittedSweater</texPath>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>4800</WorkToMake>
+      <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <apparel>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Kiiro/Apparel/OnSkin/KnittedSweater/KnittedSweater</wornGraphicPath>
+      <tags>
+        <li>Kiiro_DailyWear</li>
+        <li>Kiiro_Daily</li>
+        <li>Kiiro_Researcher</li>
+      </tags>
+    </apparel>
+    <equippedStatOffsets>
+      <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+      <SocialImpact>0.08</SocialImpact>
+    </equippedStatOffsets>
+  </ThingDef>
+  
+  <ThingDef ParentName="Kiiro_OnSkinBaseII"><!-- 绮罗工作衬衫 -->
+    <defName>Kiiro_WorkerShirt</defName>
+    <label>kiior work shirt</label>
+    <description>A shirt that is neatly tucked in, giving wearer a professional look.</description>
+    <costList>
+      <Cloth>15</Cloth>
+    </costList>
+    <costStuffCount>45</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <graphicData>
+      <texPath>Kiiro/Apparel/OnSkin/WorkerShirt/WorkerShirt</texPath>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToMake>4800</WorkToMake>
+      <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <apparel>
+      <useWornGraphicMask>false</useWornGraphicMask>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Kiiro/Apparel/OnSkin/WorkerShirt/WorkerShirt</wornGraphicPath>
+      <tags>
+        <li>Kiiro_DailyWear</li>
+        <li>Kiiro_Daily</li>
+        <!-- <li>Kiiro_Researcher</li> -->
+      </tags>
+    </apparel>
+    <equippedStatOffsets>
+      <MentalBreakThreshold>-0.03</MentalBreakThreshold>
+      <SocialImpact>0.03</SocialImpact>
+      <GeneralLaborSpeed>0.05</GeneralLaborSpeed>
+    </equippedStatOffsets>
+  </ThingDef>
+  
+  <ThingDef ParentName="Kiiro_OnSkinBaseII"><!-- 绮罗蕾丝连衣裙 -->
+    <defName>Kiiro_LaceDress</defName>
+    <label>kiiro lace dress</label>
+    <description>A black dress with white lace trim.</description>
+    <costList>
+      <Cloth>15</Cloth>
+    </costList>
+    <costStuffCount>75</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <graphicData>
+      <texPath>Kiiro/Apparel/OnSkin/LaceDress/LaceDress</texPath>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>220</MaxHitPoints>
+      <WorkToMake>8400</WorkToMake>
+      <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <apparel>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <layers>
+        <li>Kiiro_Pants</li>
+      </layers>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Kiiro/Apparel/OnSkin/LaceDress/LaceDress</wornGraphicPath>
+      <tags>
+        <li>Kiiro_DaliyDress</li>
+        <li>Kiiro_Daily</li>
+        <li>Kiiro_Pants</li>
+      </tags>
+    </apparel>
+    <equippedStatOffsets>
+      <MentalBreakThreshold>-0.08</MentalBreakThreshold>
+      <SocialImpact>0.1</SocialImpact>
+    </equippedStatOffsets>
+  </ThingDef>
+  
+  <ThingDef ParentName="Kiiro_OnSkinBaseII"><!-- 绮罗蕾丝连衣裙（短款） -->
+    <defName>Kiiro_LaceDressShort</defName>
+    <label>kiiro lace dress short</label>
+    <description>A short black dress with white lace trim.</description>
+    <costList>
+      <Cloth>15</Cloth>
+    </costList>
+    <costStuffCount>75</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <graphicData>
+      <texPath>Kiiro/Apparel/OnSkin/LaceDressShort/LaceDressShort</texPath>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>220</MaxHitPoints>
+      <WorkToMake>8200</WorkToMake>
+      <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <apparel>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <layers>
+        <li>Kiiro_Pants</li>
+      </layers>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Kiiro/Apparel/OnSkin/LaceDressShort/LaceDressShort</wornGraphicPath>
+      <tags>
+        <li>Kiiro_DaliyDress</li>
+        <li>Kiiro_Daily</li>
+        <li>Kiiro_Pants</li>
+      </tags>
+    </apparel>
+    <equippedStatOffsets>
+      <MentalBreakThreshold>-0.08</MentalBreakThreshold>
+      <SocialImpact>0.1</SocialImpact>
+    </equippedStatOffsets>
+  </ThingDef>
+  
+  <ThingDef ParentName="Kiiro_OnSkinBaseII"><!-- 绮罗工作围裙 -->
+    <defName>Kiiro_GardenerDress</defName>
+    <label>kiiro work apron</label>
+    <description>An apron made of durable fabric, resistant to dirt and stains.</description>
+    <costList>
+      <Cloth>15</Cloth>
+    </costList>
+    <costStuffCount>75</costStuffCount>
+    <stuffCategories>
+      <li>Leathery</li>
+    </stuffCategories>
+    <graphicData>
+      <texPath>Kiiro/Apparel/OnSkin/GardenerDress/GardenerDress</texPath>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>220</MaxHitPoints>
+      <WorkToMake>8200</WorkToMake>
+      <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <apparel>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <layers>
+        <li>Kiiro_Pants</li>
+      </layers>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Kiiro/Apparel/OnSkin/GardenerDress/GardenerDress</wornGraphicPath>
+      <tags>
+        <li>Kiiro_DaliyDress</li>
+        <li>Kiiro_Daily</li>
+        <li>Kiiro_Pants</li>
+        <li>Kiiro_Worker</li>
+      </tags>
+    </apparel>
+    <equippedStatOffsets>
+      <MentalBreakThreshold>-0.06</MentalBreakThreshold>
+      <GeneralLaborSpeed>0.10</GeneralLaborSpeed>
+    </equippedStatOffsets>
+  </ThingDef>
+  
+  <ThingDef ParentName="Kiiro_OnSkinBaseII"><!-- 绮罗休闲背带裙 -->
+    <defName>Kiiro_CasualDress</defName>
+    <label>kiiro casual dress</label>
+    <description>A comfortable overall dress.</description>
+    <costList>
+      <Cloth>15</Cloth>
+    </costList>
+    <costStuffCount>75</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <graphicData>
+      <texPath>Kiiro/Apparel/OnSkin/CasualDress/CasualDress</texPath>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>220</MaxHitPoints>
+      <WorkToMake>8200</WorkToMake>
+      <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <apparel>
+      <useWornGraphicMask>false</useWornGraphicMask>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <layers>
+        <li>Kiiro_Pants</li>
+      </layers>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Kiiro/Apparel/OnSkin/CasualDress/CasualDress</wornGraphicPath>
+      <tags>
+        <li>Kiiro_DaliyDress</li>
+        <li>Kiiro_Daily</li>
+        <li>Kiiro_Pants</li>
+        <li>Kiiro_Researcher</li>
+        <li>Kiiro_Worker</li>
+      </tags>
+    </apparel>
+    <equippedStatOffsets>
+      <MentalBreakThreshold>-0.15</MentalBreakThreshold>
+    </equippedStatOffsets>
+  </ThingDef>
+  
+  <ThingDef ParentName="Kiiro_OnSkinBaseII"><!-- 绮罗休闲背带裤 -->
+    <defName>Kiiro_SuspenderTrousers</defName>
+    <label>kiiro suspender trousers</label>
+    <description>Comfortable suspender trousers.</description>
+    <costList>
+      <Cloth>15</Cloth>
+    </costList>
+    <costStuffCount>75</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <graphicData>
+      <texPath>Kiiro/Apparel/OnSkin/SuspenderTrousers/SuspenderTrousers</texPath>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>220</MaxHitPoints>
+      <WorkToMake>8200</WorkToMake>
+      <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <apparel>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <layers>
+        <li>Kiiro_Pants</li>
+      </layers>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Kiiro/Apparel/OnSkin/SuspenderTrousers/SuspenderTrousers</wornGraphicPath>
+      <tags>
+        <li>Kiiro_DaliyDress</li>
+        <li>Kiiro_Daily</li>
+        <li>Kiiro_Pants</li>
+        <li>Kiiro_Worker</li>
+      </tags>
+    </apparel>
+    <equippedStatOffsets>
+      <MentalBreakThreshold>-0.15</MentalBreakThreshold>
+    </equippedStatOffsets>
+  </ThingDef>
+  
+  <ThingDef ParentName="Kiiro_OnSkinBaseII"><!-- 绮罗露肩高腰裙 -->
+    <defName>Kiiro_HighWaistedDress</defName>
+    <label>kiiro high waisted dress</label>
+    <description>An off-shoulder high-waisted skirt.</description>
+    <costList>
+      <Cloth>15</Cloth>
+    </costList>
+    <costStuffCount>75</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <graphicData>
+      <texPath>Kiiro/Apparel/OnSkin/HighWaistedDress/HighWaistedDress</texPath>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>220</MaxHitPoints>
+      <WorkToMake>8400</WorkToMake>
+      <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <apparel>
+      <useWornGraphicMask>false</useWornGraphicMask>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <layers>
+        <li>Kiiro_Pants</li>
+      </layers>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Kiiro/Apparel/OnSkin/HighWaistedDress/HighWaistedDress</wornGraphicPath>
+      <tags>
+        <li>Kiiro_DaliyDress</li>
+        <li>Kiiro_Daily</li>
+        <li>Kiiro_Pants</li>
+        <li>Kiiro_Researcher</li>
+      </tags>
+    </apparel>
+    <equippedStatOffsets>
+      <MentalBreakThreshold>-0.08</MentalBreakThreshold>
+      <SocialImpact>0.1</SocialImpact>
+    </equippedStatOffsets>
+  </ThingDef>
+  
+  <!--夜行衣↓-->
+  <ThingDef ParentName="Kiiro_OnSkinBaseIV"><!-- 绮罗夜行衣 -->
+    <defName>Kiiro_Stealth</defName>
+    <label>kiiro stealth clothes</label>
+    <description>A solid black form-fitting outfit that help kiiros stealth around during the night.</description>
+    <costList>
+      <DevilstrandCloth>75</DevilstrandCloth>
+    </costList>
+    <costStuffCount>160</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <graphicData>
+      <texPath>Kiiro/Apparel/OnSkin/Stealth/Stealth</texPath>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>220</MaxHitPoints>
+      <WorkToMake>72000</WorkToMake>
+      <ArmorRating_Sharp>0.60</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.45</ArmorRating_Heat>
+      <StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <apparel>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <developmentalStageFilter>Adult</developmentalStageFilter>
+      <layers>
+        <li>Kiiro_Pants</li>
+      </layers>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Legs</li>
+        <li>Arms</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Feet</li>
+        <li>Hands</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Kiiro/Apparel/OnSkin/Stealth/Stealth</wornGraphicPath>
+      <tags>
+        <li>Kiiro_SCS</li>
+      </tags>
+    </apparel>
+    <equippedStatOffsets>
+      <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+      <HuntingStealth>0.4</HuntingStealth>
+      <PainShockThreshold>0.15</PainShockThreshold>
+    </equippedStatOffsets>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <!--<li Class="Kiiro.CompProperties_ClothingConditionalInvisibility">
+        <minLightLevel>0.3</minLightLevel>
+        <enemyDetectionRadius>10</enemyDetectionRadius>
+        <invisibilityHediff>Kiiro_DarkStealth</invisibilityHediff>
+      </li>-->
+    </comps>
+    <thingClass>MYDE_Kiiro.Stealth</thingClass>
+  </ThingDef>
+
+  <ThingDef ParentName="Kiiro_OnSkinBaseIV"><!-- 绮罗影袭者战服 -->
+    <defName>Kiiro_StealthII</defName>
+    <label>kiiro shadow strike suit</label>
+    <description>A combat suit that maximizes the nimbleness of kiiro race by giving up defenses. Greatly improves dodge chance.\n\nHelp kiiros stealth around during the night.</description>
+    <costList>
+      <DevilstrandCloth>75</DevilstrandCloth>
+    </costList>
+    <costStuffCount>160</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <graphicData>
+      <texPath>Kiiro/Apparel/OnSkin/StealthII/StealthII</texPath>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>220</MaxHitPoints>
+      <WorkToMake>72000</WorkToMake>
+      <ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.25</ArmorRating_Heat>
+      <StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <apparel>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <developmentalStageFilter>Adult</developmentalStageFilter>
+      <layers>
+        <li>Kiiro_Pants</li>
+        <li>Kiiro_Shell</li>
+        <li>Middle</li>
+      </layers>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Legs</li>
+        <li>Arms</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Feet</li>
+        <li>Hands</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Kiiro/Apparel/OnSkin/StealthII/StealthII</wornGraphicPath>
+      <tags>
+        <li>Kiiro_ShadowStrike</li>
+      </tags>
+    </apparel>
+    <equippedStatOffsets>
+      <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+      <HuntingStealth>0.5</HuntingStealth>
+      <PainShockThreshold>0.20</PainShockThreshold>
+      <MeleeHitChance>8</MeleeHitChance>
+      <MeleeDodgeChance>5</MeleeDodgeChance>
+      <Kiiro_RangeDodgeChance>0.12</Kiiro_RangeDodgeChance>
+      <MoveSpeed>0.2</MoveSpeed>
+    </equippedStatOffsets>
+    <tickerType>Normal</tickerType>
+    <comps>
+    </comps>
+    <thingClass>MYDE_Kiiro.Stealth</thingClass>
+  </ThingDef>
+
+  <HediffDef>
+    <defName>Kiiro_DarkStealth</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Stealth</label>
+    <description>The stealth clothes maximizes kiiro's stealth capabilities, allowing them to completely conceal their tracks in dark or smoky environments.</description>
+    <defaultLabelColor>(0.6,0.8,0.6)</defaultLabelColor>
+    <initialSeverity>1</initialSeverity>
+    <maxSeverity>1</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <showRemainingTime>false</showRemainingTime>
+        <disappearsAfterTicks>90</disappearsAfterTicks>
+      </li>
+      <li Class="HediffCompProperties_DisappearsOnDeath" />
+      <li Class="HediffCompProperties">
+        <compClass>HediffComp_Invisibility</compClass>
+      </li>
+      <li Class="MYDE_Kiiro.HediffCompProperties_BreakAfterUsedVerb"></li>
+    </comps>
+    <stages>
+      <li>
+        <statFactors>
+          <RestFallRateFactor>1.2</RestFallRateFactor>
+        </statFactors>
+      </li>
+    </stages>
+  </HediffDef>
+  <!--夜行衣↑-->
+  
+  <ThingDef ParentName="Kiiro_OnSkinBaseIII"><!-- 绮罗游击队服 -->
+    <defName>Kiiro_GuerrillaUniform</defName>
+    <label>kiiro guerrilla uniform</label>
+    <description>The uniform of the kiiro guerrilla, offering a certain level of protection.</description>
+    <costList>
+      <Cloth>25</Cloth>
+    </costList>
+    <costStuffCount>85</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <graphicData>
+      <texPath>Kiiro/Apparel/OnSkin/GuerrillaUniform/GuerrillaUniform</texPath>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>240</MaxHitPoints>
+      <WorkToMake>10800</WorkToMake>
+      <ArmorRating_Sharp>0.30</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.20</ArmorRating_Heat>
+      <StuffEffectMultiplierArmor>0.20</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <apparel>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <developmentalStageFilter>Adult</developmentalStageFilter>
+      <layers>
+        <li>Kiiro_Pants</li>
+      </layers>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Legs</li>
+        <li>Arms</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Feet</li>
+        <li>Hands</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Kiiro/Apparel/OnSkin/GuerrillaUniform/GuerrillaUniform</wornGraphicPath>
+      <tags>
+        <li>Kiiro_GuerrillaWear</li>
+      </tags>
+    </apparel>
+    <equippedStatOffsets>
+      <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+      <PainShockThreshold>0.12</PainShockThreshold>
+    </equippedStatOffsets>
+  </ThingDef>
+  
+  <ThingDef ParentName="Kiiro_OnSkinBaseIII"><!-- 绮罗军礼服 -->
+    <defName>Kiiro_DressUniform</defName>
+    <label>kiiro dress uniform</label>
+    <description>A finely crafted military officer uniform, designed with aesthetics in mind while also providing a certain level of protection.</description>
+    <costList>
+      <DevilstrandCloth>25</DevilstrandCloth>
+    </costList>
+    <costStuffCount>115</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <graphicData>
+      <texPath>Kiiro/Apparel/OnSkin/DressUniform/DressUniform</texPath>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>240</MaxHitPoints>
+      <WorkToMake>12000</WorkToMake>
+      <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.45</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.25</ArmorRating_Heat>
+      <StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <apparel>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <developmentalStageFilter>Adult</developmentalStageFilter>
+      <layers>
+        <li>Kiiro_Pants</li>
+      </layers>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Legs</li>
+        <li>Arms</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Feet</li>
+        <li>Hands</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Kiiro/Apparel/OnSkin/DressUniform/DressUniform</wornGraphicPath>
+      <tags>
+        <li>Kiiro_ComanderWear</li>
+      </tags>
+    </apparel>
+    <equippedStatOffsets>
+      <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+      <SocialImpact>0.1</SocialImpact>
+	  <PainShockThreshold>0.12</PainShockThreshold>
+      <!-- <RangedCooldownFactor>-0.05</RangedCooldownFactor> -->
+    </equippedStatOffsets>
+  </ThingDef>
+  
+  <ThingDef ParentName="Kiiro_OnSkinBaseSpecial"><!-- 绮罗勇者甲胄 -->
+    <defName>Kiiro_ValorArmor</defName>
+    <label>kiiro valor armor</label>
+    <description>The armor worn by the kiiro valor, crafted from incredibly rare materials.</description>
+    <costList>
+      <DevilstrandCloth>85</DevilstrandCloth>
+    </costList>
+    <graphicData>
+      <texPath>Kiiro/Apparel/OnSkin/ValorArmor/ValorArmor</texPath>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>1200</MaxHitPoints>
+      <WorkToMake>8200</WorkToMake>
+      <ArmorRating_Sharp>1.8</ArmorRating_Sharp>
+      <ArmorRating_Blunt>1.2</ArmorRating_Blunt>
+      <ArmorRating_Heat>1.0</ArmorRating_Heat>
+      <Insulation_Cold>30</Insulation_Cold>
+      <Insulation_Heat>25</Insulation_Heat>
+    </statBases>
+    <apparel>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <developmentalStageFilter>Adult</developmentalStageFilter>
+      <layers>
+        <li>Kiiro_Pants</li>
+        <li>Middle</li>
+        <li>Kiiro_Shell</li>
+      </layers>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Legs</li>
+        <li>Arms</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Feet</li>
+        <li>Hands</li>
+      </bodyPartGroups>
+      <tags>
+        <li>Kirro_HideTail</li>
+        <li>Kiiro_ValorArmor</li>
+        <li>Kiiro_Legend</li>
+      </tags>
+      <wornGraphicPath>Kiiro/Apparel/OnSkin/ValorArmor/ValorArmor</wornGraphicPath>
+    </apparel>
+    <equippedStatOffsets>
+      <MentalBreakThreshold>-0.1</MentalBreakThreshold>
+    </equippedStatOffsets>
+    <comps></comps>
+  </ThingDef>
+</Defs>

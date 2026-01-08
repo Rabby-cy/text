@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <HediffDef ParentName="CombatRoleAuraBuffHediffBase">
+        <defName>OA_RK_Jishu_Hediff</defName>
+        <label>technical guidance</label>
+        <description>The nearby technical officer is providing technical guidance to the unit.</description>
+        <stages>
+            <li>
+                <statOffsets>
+                    <GeneralLaborSpeed>0.08</GeneralLaborSpeed>
+                    <ResearchSpeed>0.05</ResearchSpeed>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+</Defs>

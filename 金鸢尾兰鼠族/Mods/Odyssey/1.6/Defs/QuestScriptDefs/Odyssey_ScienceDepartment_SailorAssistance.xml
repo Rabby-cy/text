@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <QuestScriptDef>
+        <defName>OARK_ScienceDepartment_SailorsAssistance</defName>
+        <isRootSpecial>true</isRootSpecial>
+        <autoAccept>true</autoAccept>
+        <defaultHidden>true</defaultHidden>
+        <affectedByPoints>false</affectedByPoints>
+        <randomlySelectable>false</randomlySelectable>
+        <questDescriptionAndNameRules>
+            <rulesStrings>
+                <li>questName->通航部的人员协助</li>
+                <li>questDescription->两名来自金鸢尾兰通航部的侍从正在对你们提供临时的协助，在协助工作完成后他们便将返回通航部。\n\n当侍从们感到开心，且对你的殖民者抱有充分的好感时，你便可以发出申请以让她们留在你的殖民地，而无需返回。</li>
+            </rulesStrings>
+        </questDescriptionAndNameRules>
+        <root Class="QuestNode_Sequence">
+            <nodes>
+
+                <li Class="QuestNode_GetMap" />
+
+                <li Class="OberoniaAurea.QuestNode_GetOberoniaAureaFaction">                    <!-- 获取金鼠鼠派系 -->
+                    <storeAs>OAFaction</storeAs>
+                    <allowAlly>true</allowAlly>
+                    <allowNeutral>true</allowNeutral>
+                    <allowHostile>false</allowHostile>
+                </li>
+
+                <!-- Generate sailors -->
+                <li Class="QuestNode_Set">
+                    <name>sailorsCount</name>
+                    <value>2</value>
+                </li>
+                <li Class="QuestNode_LoopCount">
+                    <loopCount>$sailorsCount</loopCount>
+                    <node Class="QuestNode_GeneratePawn">
+                        <kindDef>OA_RK_Court_Member_D</kindDef>
+                        <faction>$OAFaction</faction>
+                        <addToList>sailors</addToList>
+                        <allowAddictions>false</allowAddictions>
+                        <biocodeWeaponChance>1</biocodeWeaponChance>
+                        <biocodeApparelChance>1</biocodeApparelChance>
+                        <allowPregnant>false</allowPregnant>
+                    </node>
+                </li>
+
+                <!-- Lock their apparel -->
+                <li Class="QuestNode_SetAllApparelLocked">
+                    <pawns>$sailors</pawns>
+                </li>
+                <!-- Give on duty thought -->
+                <li Class="QuestNode_AddMemoryThought">
+                    <pawns>$sailors</pawns>
+                    <def>OnDuty</def>
+                </li>
+                <li Class="QuestNode_AddHediff">
+                    <pawns>$sailors</pawns>
+                    <hediffDef>OARK_Hediff_SailorAssistance</hediffDef>
+                </li>
+
+                <li Class="OberoniaAurea_Frame.QuestNode_TransToHardcodedSignalWithQuestID">
+                    <storeAs>invitedSignal</storeAs>
+                    <originalSignal>sailors.Invited</originalSignal>
+                </li>
+
+                <li Class="QuestNode_ExtraFaction">
+                    <faction>$OAFaction</faction>
+                    <pawns>$sailors</pawns>
+                    <factionType>HomeFaction</factionType>
+                    <inSignalsRemovePawn>
+                        <li>sailors.RanWild</li>
+                        <li>sailors.BecameMutant</li>
+                        <li>$invitedSignal</li>
+                    </inSignalsRemovePawn>
+                </li>
+
+                <li Class="QuestNode_JoinPlayer">
+                    <pawns>$sailors</pawns>
+                    <joinPlayer>True</joinPlayer>
+                    <makePrisoners>False</makePrisoners>
+                </li>
+
+                <li Class="QuestNode_LeaveOnCleanup">
+                    <pawns>$sailors</pawns>
+                    <sendStandardLetter>false</sendStandardLetter>
+                    <inSignalRemovePawn>$invitedSignal</inSignalRemovePawn>
+                </li>
+
+                <!-- Sailors arrive by shuttle -->
+                <li Class="QuestNode_Set">
+                    <name>sailorsDurationDays</name>
+                    <value>20</value>
+                </li>
+                <li Class="QuestNode_SubScript">
+                    <def>Util_TransportShip_DropOff</def>
+                    <parms>
+                        <contents>$sailors</contents>
+                        <owningFaction>$OAFaction</owningFaction>
+                    </parms>
+                </li>
+                <li Class="QuestNode_Letter">
+                    <label TKey="LetterLabelSailorssArrived">船员已经抵达</label>
+                    <text TKey="LetterTextSailorsArrived">来自[OAFaction_name]的船员们已经抵达。一艘穿梭机将在[sailorsDurationDays]天后接走他们。</text>
+                    <lookTargets>$sailors</lookTargets>
+                    <filterDeadPawnsFromLookTargets>True</filterDeadPawnsFromLookTargets>
+                </li>
+                <!-- Arrival shuttle is destroyed -->
+                <li Class="QuestNode_Set">
+                    <name>goodwillChangeOnShuttleDestroyed</name>
+                    <value>-25</value>
+                </li>
+                <li Class="QuestNode_Signal">
+                    <inSignal>dropoffShipThing.Destroyed</inSignal>
+                    <node Class="QuestNode_ChangeFactionGoodwill">
+                        <faction>$OAFaction</faction>
+                        <change>$goodwillChangeOnShuttleDestroyed</change>
+                        <reason>ShuttleDestroyed</reason>
+                    </node>
+                </li>
+
+                <!-- Departure shuttle -->
+                <li Class="QuestNode_ShuttleDelay">
+                    <delayTicks>$($sailorsDurationDays * 60000)</delayTicks>
+                    <lodgers>$sailors</lodgers>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_SubScript">
+                                <def>Util_TransportShip_Pickup</def>
+                                <parms>
+                                    <leaveDelayTicks>$(1*60000)</leaveDelayTicks>
+                                    <requiredPawns>$sailors</requiredPawns>
+                                </parms>
+                            </li>
+                            <li Class="QuestNode_Letter">
+                                <label TKey="LetterLabelShuttleArrived">穿梭机抵达</label>
+                                <text TKey="LetterTextShuttleArrivedForSailors">一艘穿梭机已抵达，以接走来自[OAFaction_name]的船员。</text>
+                                <lookTargets>$pickupShipThing</lookTargets>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+
+                <li Class="OberoniaAurea.QuestNode_SailorsAssistanceWatcher">
+                    <inSignal>sailors.Invited</inSignal>
+                    <outSignal>sailors.AllInvited</outSignal>
+                    <sailorsCount>$sailorsCount</sailorsCount>
+                    <shuttle>$pickupShipThing</shuttle>
+                </li>
+
+                <!-- Sailor killed: Goodwill impact. Don't end quest. -->
+                <li Class="QuestNode_Set">
+                    <name>goodwillPenaltyPawn</name>
+                    <value>-12</value>
+                </li>
+                <li Class="QuestNode_Signal">
+                    <inSignal>sailors.Destroyed</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_Letter">
+                                <label TKey="LetterLabelSailorDied">船员死亡：: {SUBJECT_definite}</label>
+                                <text TKey="LetterTextSailorsDied">由[OAFaction_name]派遣来帮你的一名船员死亡了。你与[OAFaction_name]的好感度降低了[goodwillPenaltyPawn]。</text>
+                            </li>
+                            <li Class="QuestNode_ChangeFactionGoodwill">
+                                <faction>$OAFaction</faction>
+                                <change>$goodwillPenalty</change>
+                                <reason>QuestPawnLost</reason>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+
+                <!-- Missing sailors on departure shuttle. Goodwill impact -->
+                <li Class="QuestNode_ChangeGoodwillForAlivePawnsMissingFromShuttle">
+                    <inSignal>pickupShipThing.SentUnsatisfied</inSignal>
+                    <pawns>$sailors</pawns>
+                    <faction>$OAFaction</faction>
+                    <goodwillChange>$goodwillPenaltyPawn</goodwillChange>                    <!-- Per missing sailor -->
+                    <reason>LaborersMissedShuttle</reason>
+                </li>
+
+                <!-- - - - - - - -  -->
+                <!--      End       -->
+                <!-- - - - - - - -  -->
+
+                <!-- Sailor left behind: End quest. -->
+                <li Class="QuestNode_Signal">
+                    <inSignal>sailors.LeftBehind</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_Letter">
+                                <label TKey="LetterLabelSailorLeftBehind">船员遗弃：{SUBJECT_definite}</label>
+                                <text TKey="LetterTextSailorLeftBehind">由[OAFaction_name]派遣来帮你的一名船员被遗弃了。剩余的船员都将离开。</text>
+                            </li>
+                            <li Class="QuestNode_End" />
+                        </nodes>
+                    </node>
+                </li>
+
+                <!-- Departure shuttle is destroyed -->
+                <li Class="QuestNode_Signal">
+                    <inSignal>pickupShipThing.Destroyed</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_ChangeFactionGoodwill">
+                                <faction>$OAFaction</faction>
+                                <change>$goodwillChangeOnShuttleDestroyed</change>
+                                <reason>ShuttleDestroyed</reason>
+                            </li>
+                            <li Class="QuestNode_End" />
+                        </nodes>
+                    </node>
+                </li>
+
+                <!-- Departure shuttle is left behind -->
+                <li Class="QuestNode_Signal">
+                    <inSignal>pickupShipThing.LeftBehind</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_ChangeFactionGoodwill">
+                                <faction>$OAFaction</faction>
+                                <change>$goodwillPenaltyPawn</change>
+                                <reason>LaborersMissedShuttle</reason>
+                            </li>
+                            <li Class="QuestNode_End" />
+                        </nodes>
+                    </node>
+                </li>
+
+                <li Class="QuestNode_AnySignal">
+                    <inSignals>
+                        <li>sailors.AllInvited</li>
+                        <li>pickupShipThing.SentUnsatisfied</li>
+                        <li>pickupShipThing.SentSatisfied</li>
+                        <li>OAFaction.BecameHostileToPlayer</li>
+                    </inSignals>
+                    <node Class="QuestNode_End" />
+                </li>
+
+            </nodes>
+        </root>
+    </QuestScriptDef>
+
+</Defs>

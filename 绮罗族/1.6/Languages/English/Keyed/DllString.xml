@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Kiiro_PoisonBottle_Label>use poison bottle</Kiiro_PoisonBottle_Label>
+  <Kiiro_PoisonBottle_Desc>Toggle the use of carried poison. When enabled, Kiiro will be able to apply poison to arrows or throwing weapons. Each shot consumes one unit of poison reserves.</Kiiro_PoisonBottle_Desc>
+  <Kiiro_StealthSkill_Label>stealth skill</Kiiro_StealthSkill_Label>
+  <Kiiro_StealthSkill_Desc>Toggle the stealth skill. When enabled, Kiiro is able to conceal their movements in dark or smoky environments. However, performing any attack action will break the stealth and expose them.</Kiiro_StealthSkill_Desc>
+  <Kiiro_HostileToKiiro_Label>Kiiro relationship: hostile</Kiiro_HostileToKiiro_Label>
+  <Kiiro_HostileToKiiro_Desc>Perceiving the hostility we have displayed, the Kiiros believe that towns exposed in our sight will no longer be safe. Kiiro messengers will spread the news of our hostile actions to all their towns for a certain period of time.</Kiiro_HostileToKiiro_Desc>
+  <Kiiro_NeutralToKiiro_Label>Kiiro relationship: neutral</Kiiro_NeutralToKiiro_Label>
+  <Kiiro_NeutralToKiiro_Desc>The relationship with the Kiiros has been restored to neutral. However, we have not gained their full trust, and until we demonstrate sufficient goodwill, the Kiiros will remain cautious of our actions.</Kiiro_NeutralToKiiro_Desc>
+  <Kiiro_AllyToKiiro_Label>Kiiro relationship: ally</Kiiro_AllyToKiiro_Label>
+  <Kiiro_AllyToKiiro_Desc>We have allied ourselves with the kiiros, and they now consider us to be a trusted friend. Kiiro messengers will spread the news of our alliance to distant towns, which will take some time.</Kiiro_AllyToKiiro_Desc>
+  <Kiiro_KiiroHide_Label>Kiiro messengers are on their way</Kiiro_KiiroHide_Label>
+  <Kiiro_KiiroHide_Desc>Kiiro messengers are running between the towns, spreading the news about our hostile actions.</Kiiro_KiiroHide_Desc>
+  <Kiiro_KiiroHide_Desc_Schedule>Progress of message delivery:</Kiiro_KiiroHide_Desc_Schedule>
+  <Kiiro_KiiroNightRaid_Label>Kiiro special forces raid</Kiiro_KiiroNightRaid_Label>
+  <Kiiro_KiiroNightRaid_Desc>A small, highly trained elite special forces of Kiiros has launched a surprise attack under the cover of darkness! They will commence the assault immediately.</Kiiro_KiiroNightRaid_Desc>
+  <Kiiro_KiiroSettlementRemove_Label>{0_label} has been abandoned.</Kiiro_KiiroSettlementRemove_Label>
+  <Kiiro_KiiroSettlementRemove_A_Desc>{0_label} has disappeared from our map.</Kiiro_KiiroSettlementRemove_A_Desc>
+  <Kiiro_KiiroSettlementRemove_B_Desc>{0_label} no longer exists, leaving behind only empty and deserted buildings in its place.</Kiiro_KiiroSettlementRemove_B_Desc>
+  <Kiiro_KiiroSettlementRemove_C_Desc>We have lost the location information of {0_label}.</Kiiro_KiiroSettlementRemove_C_Desc>
+  <Kiiro_KiiroSettlementRemove_D_Desc>It appears that all the residents of {0_label} have already migrated, turning the town into an empty and abandoned city.</Kiiro_KiiroSettlementRemove_D_Desc>
+  <Kiiro_KiiroFactionRemove_Label>All the Kiiro towns have disappeared</Kiiro_KiiroFactionRemove_Label>
+  <Kiiro_KiiroFactionRemove_Desc>All the Kiiro towns have become aware of our hostile actions, and we can no longer find any Kiiro settlements on the map. The Kiiros has severed all ties with us completely.</Kiiro_KiiroFactionRemove_Desc>
+  <Kiiro_Setting_Initialization>Default</Kiiro_Setting_Initialization>
+  <Kiiro_Setting_Label>Kiiro Race</Kiiro_Setting_Label>
+  <Kiiro_Setting_True>enable</Kiiro_Setting_True>
+  <Kiiro_Setting_False>disable</Kiiro_Setting_False>
+  <Kiiro_Setting_If_OpenMechanism>Kiiro faction interactions</Kiiro_Setting_If_OpenMechanism>
+  <Kiiro_Setting_If_OpenMechanism_Desc>Decide whether to enable the entire faction interaction system, including mood, town abandonment, and special forces raids. Only recommended to disable when mod conflict occurs.</Kiiro_Setting_If_OpenMechanism_Desc>
+  <Kiiro_Setting_If_OpenFactionRemove>Town abandonment</Kiiro_Setting_If_OpenFactionRemove>
+  <Kiiro_Setting_If_OpenFactionRemove_Desc>Decide whether to enable the Kiiro faction town abandonment system. When enabled, Kiiro towns will gradually disappear as the duration of faction hostility increases. Only recommended to disable when mod conflict occurs.</Kiiro_Setting_If_OpenFactionRemove_Desc>
+  <Kiiro_Setting_If_OpenNightRaid>night raid</Kiiro_Setting_If_OpenNightRaid>
+  <Kiiro_Setting_If_OpenNightRaid_Desc>Decide whether to enable the Special Forces Raid event. Only recommended to disable when mod conflict occurs.</Kiiro_Setting_If_OpenNightRaid_Desc>
+  <Kiiro_Setting_If_OpenPoisonBottle>AI uses poison bottle</Kiiro_Setting_If_OpenPoisonBottle>
+  <Kiiro_Setting_If_OpenPoisonBottle_Desc>Decide whether non-player factions of the Kiiro can use poison bottles.</Kiiro_Setting_If_OpenPoisonBottle_Desc>
+
+  <Kiiro_Setting_If_OnlyUseRaceRestrictedApparel>Kiiro Apparel Restrict</Kiiro_Setting_If_OnlyUseRaceRestrictedApparel>
+  <Kiiro_Setting_If_OnlyUseRaceRestrictedApparel_Desc>Decide if the kiiro can only wear apparels within the restrictons.\n\nExperimental function. When disabled, kiiro will be able to wear any apparel. Not responsible for any possible conflicts or errors.</Kiiro_Setting_If_OnlyUseRaceRestrictedApparel_Desc>
+  
+  <Kiiro_Setting_If_UseShellaStoryTellerTex>Shella Background Storyteller Texture</Kiiro_Setting_If_UseShellaStoryTellerTex>
+  <Kiiro_Setting_If_UseShellaStoryTellerTex_Desc>Whether to enable Shella background-style kiiro storyteller texture. Restart to apply the changes.</Kiiro_Setting_If_UseShellaStoryTellerTex_Desc>
+
+
+  <StatsReport_KiiroRangeDodge>melee dodge rate</StatsReport_KiiroRangeDodge>
+</LanguageData>

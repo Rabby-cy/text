@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<HediffDef ParentName="AddedBodyPartBase">
+	<defName>Kiiro_ArtificialTailInstalled</defName>
+	<label>installed artificial tail</label>
+	<labelNoun>an installed artificial tail</labelNoun>
+	<description>The balance of kiiro's movement depends largely on a flexible tail. Installing an artificial tail cannot fully compensate for the inconvenience of losing the original one, but it's better than having none at all.</description>
+	<descriptionHyperlinks>
+	  <ThingDef>Kiiro_ArtificialTail</ThingDef>
+	</descriptionHyperlinks>
+	<spawnThingOnRemoved>Kiiro_ArtificialTail</spawnThingOnRemoved>
+	<woundAnchorRange>0</woundAnchorRange>
+	<addedPartProps>
+		<solid>true</solid>
+		<partEfficiency>0.9</partEfficiency>
+		<betterThanNatural>false</betterThanNatural>
+	</addedPartProps>
+</HediffDef>
+
+  <HediffDef ParentName="AddedBodyPartBase">
+    <defName>Kiiro_BionicTailInstalled</defName>
+    <label>installed bionic tail</label>
+    <labelNoun>an installed bionic tail</labelNoun>
+    <description>an installed bionic tail.</description>
+    <descriptionHyperlinks>
+	  <ThingDef>Kiiro_BionicTail</ThingDef>
+	</descriptionHyperlinks>
+    <spawnThingOnRemoved>Kiiro_BionicTail</spawnThingOnRemoved>
+    <woundAnchorRange>0</woundAnchorRange>
+    <addedPartProps>
+      <solid>true</solid>
+      <partEfficiency>1.25</partEfficiency>
+      <betterThanNatural>true</betterThanNatural>
+    </addedPartProps>
+  </HediffDef>
+
+</Defs>

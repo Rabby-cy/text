@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <HistoryEventDef>
+    <defName>OARK_ProspectingTeam</defName>
+    <label>勘探队</label>
+  </HistoryEventDef>
+
+  <HistoryEventDef>
+    <defName>OA_PsychicSlaughter</defName>
+    <label>残忍的心灵宰杀</label>
+  </HistoryEventDef>
+
+  <!-- Diplomatic interactions -->
+
+  <HistoryEventDef>
+    <defName>OA_ResearchSummit</defName>
+    <label>科研峰会</label>
+  </HistoryEventDef>
+
+  <HistoryEventDef>
+    <defName>OA_AttackResearcherCamp</defName>
+    <label>袭击了参与峰会的人员</label>
+  </HistoryEventDef>
+
+  <HistoryEventDef>
+    <defName>OA_DiplomaticSummit_LeaveHalfway</defName>
+    <label>利益谈判 - 中途离开</label>
+  </HistoryEventDef>
+
+  <HistoryEventDef>
+    <defName>OA_DiplomaticSummit_Disaster</defName>
+    <label>利益谈判 - 惨痛失败 </label>
+  </HistoryEventDef>
+
+  <HistoryEventDef>
+    <defName>OA_DiplomaticSummit_Flounder</defName>
+    <label>利益谈判 - 微小失败</label>
+  </HistoryEventDef>
+
+  <HistoryEventDef>
+    <defName>OA_DiplomaticSummit_Triumph</defName>
+    <label>利益谈判 - 辉煌成功</label>
+  </HistoryEventDef>
+
+</Defs>

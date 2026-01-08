@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<RulePackDef>
+		<defName>OARK_RulePack_ScienceShipQuiz</defName>
+		<rulePack>
+			<rulesStrings>
+				
+				<li>r_text->Your observer asked the on-site research department attendants some trivial questions, which gave your observer a few new insights.</li>
+				<li>r_text->Your observer asked the on-site research department attendants some questions about the research process, which gave your observer a few new insights.</li>
+				<li>r_text->Your observer asked the on-site research department attendants some questions about the difference between flower cakes and lava flower cakes, which gave your observer a few new insights.</li>
+				<li>r_text->Your observer asked the on-site research department attendants some questions about research safety, which gave your observer a few new insights.</li>
+				<li>r_text->Your observer asked the on-site research department attendants some questions about the application of universal formulas, which gave your observer a few new insights.</li>
+				<li>r_text->Your observer asked the on-site research department attendants some superficial questions about the research pods, which gave your observer a few new insights.</li>
+				<li>r_text->Your observer asked the on-site research department attendants some questions about trial and error and research correction, which gave your observer a few new insights.</li>
+				<li>r_text->Your observer asked the on-site research department attendants some questions about the loss of research materials, but the research department attendants were vague about it.</li>
+				<li>r_text(envirType==WeakGravity)->Your observer asked the research department attendants what the gravity model of this research pod will be like.\n\nThe research department attendant tells you it will probably be a weak gravity model, and if correction is needed, it can usually be solved by adjusting it upwards.</li>
+				<li>r_text(envirType==StrongWeakGravity)->Your observer asked the research department attendants what the gravity model of this research pod will be like.\n\nThe research department attendant tells you it will probably be a strong gravity model, and if correction is needed, it can usually be solved by adjusting it downwards.</li>
+				<li>r_text(envirType==DisorderedGravity)->Your observer asked the research department attendants what the gravity model of this research pod will be like.\n\nThe research department attendant tells you it might be a disordered model, in which case it usually needs to be re-calibrated first.</li>
+				<li>r_text(envirType==DisorderedMagnetism)->Your observer asked the research department attendants what the gravity model of this research pod will be like.\n\nThe research department attendant tells you it will cause electromagnetic disorder, and this kind of electromagnetic environment can usually be achieved by disrupting the strongest gravity field.</li>
+				<li>r_text(envirType==TravelRK)->Your observer asked the research department attendants why this research pod has the logo of the Lemming Federation.\n\nThe research department attendant tells you the main reason is the friendly relationship between the two parties, as for the secondary reason...</li>
+				<li>r_text(envirType==Fragile)->Your observer asked the research department attendants why this research pod looks like it's pieced together from scrap.\n\nThe research department attendant looks at you with a gloomy expression and says nothing.\n\nIt seems you were right.</li>
+				<li>r_text(envirType==HighSignal)->Your observer asked the research department attendants why the signal impact of this research pod is so strong.\n\nThe research department attendant tells you it's for easy recovery, of course.\n\nIt seems they haven't conducted any recovery operations.</li>
+	
+				<!--li>r_text->你的观礼者向科研部的侍从们询问了为什么科研舱的升空要有观礼的流程。\n\n科研部的侍从对此进行了解答。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了这个科研舱和穿梭机的区别在哪里。\n\n科研部的侍从告诉你因为科研舱没有舱门。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了这个科研舱的落点是否确定。\n\n科研部的侍从告诉你可能会确定，但确定不太可能。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了为什么科研舱的观礼送的不是流心花糕。\n\n科研部的侍从告诉你因为流心花糕在上一次科研峰会中被全部打包带走了。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了为什么这个科研舱有两个太阳能板？他平时只见到过一个。\n\n科研部的侍从告诉你因为你平时见到的另一个太阳能板往往在地里。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了这个观礼的意义在哪里。\n\n科研部的侍从想了想，但她们似乎也没想出答案。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了这个观礼的意义在哪里。\n\n科研部的侍从告诉你，在宫廷部的构思里这件事是有意义的，不过目前看来似乎又是一次花糕大放送。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了这个科研舱的坚固程度如何。\n\n科研部的侍从告诉你非常坚固，然而不知道为什么会被部落人特有的斧子几下给凿穿。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了她们能不能提前离开。\n\n科研部的侍从用无声的眼神告诉了你答案。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了那个传说中的飞行托盘在哪里。\n\n科研部的侍从指了指附近的医护部的方向。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了流心花糕的味道到底是什么样的。\n\n科研部的侍从想了想，然后告诉你香甜而软糯。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了那个传说中的金阑尾炎的怪谈。\n\n科研部的侍从指了指你的脑袋，示意你不要多说，仿佛空气中有着一个无处不在的恐怖存在。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了科研舱的原理是什么。\n\n科研部的侍从终于正经的为你解答了一次。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了为什么有时候她们会这么缺石砖？\n\n科研部的侍从表示她们也不知道，这件事要去问工业部的需求。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了该怎么邀请金鸢尾兰公民前往你的殖民地。\n\n科研部的侍从指了指自己，又指了指天上那个涂装着通航八角星的近地舰。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了科研官们的日常。\n\n科研部的侍从直接把你拉到了角落，并悄悄的和你说着那些常人完全想象不到的事情。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了为什么他总是找不到金鸢尾兰的空港。\n\n科研部的侍从一脸高深的告诉你心在哪里，那么空港就在哪里。\n\n你感觉她在骗你。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了科研部和技术部为什么显得这么亲近。\n\n科研部的侍从告诉你次要的原因是她们运用我们的理论，主要的原因是飞行托盘好玩。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了统筹部的侍从戴上帽子的原因是不是遮盖她们的秃头。\n\n科研部的侍从告诉你这是不可言说的。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了为什么科研舱设计的这么不靠谱。\n\n科研部的侍从为你认为她们靠谱这件事感到相当惊奇。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了怎么样才能让一个宫廷部的侍从变得不这么优雅。\n\n科研部的侍从告诉你“意外”地“不小心”弄湿她的茶包。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了她们有没有想过改善全防护头盔那丑陋的设计。\n\n科研部的侍从告诉你经费有限永远是扼杀想象力的第一因素。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了工业部和技术部的关系。\n\n科研部的侍从告诉你她们之间的关系比科研部和统筹部之间还要热闹。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了统筹部的一些事情。\n\n科研部的侍从警告你小心你的支援点数。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了为什么物资征募队会收购莓果。\n\n科研部的侍从反问你为什么不收购。她们似乎认为鼠族需要莓果是天经地义的。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了金鸢尾兰空港上会是什么样的生活。\n\n科研部的侍从告诉你那是瞬息万变但却又常常不变的。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了为什么金鸢尾兰总是那样的和谐。\n\n科研部的侍从告诉你因为彼此的包容，理解与关怀，足够战胜一切阻碍。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了为什么金鸢尾兰的装备似乎都是为了暴风雪准备的。\n\n科研部的侍从对你不知道金鸢尾兰母星是极地星球这件事感到困惑。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了为什么金鸢尾兰帝国的公民身份标准这么高。\n\n科研部的侍从疑惑的询问你那种对和谐的理解难道不是出生自带的吗。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了为什么金鸢尾兰帝国总是在向外发布花糕订单。\n\n科研部的侍从支支吾吾的语焉不详。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了不稳定电荷武器到底是谁发明的。\n\n科研部的侍从找了个借口逃开了。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了她们现在在这里聊天到底是为了什么。\n\n科研部的侍从表示因为无事可做所以只能找点事做了。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了为什么科研部看起来这样普通。\n\n科研部的侍从开始思考自己是否要给你飞一个看看来满足你的好奇。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了科研部的那些黑暗料理的最终去向。\n\n科研部的侍从一本正经的告诉你探索总是伴随着未知的牺牲。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了科研部为什么总是这么不着调。\n\n科研部的侍从告诉你因为她们知道她们从空中坠下后，其他的部门会接住她们。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了金鸢尾兰公民和宫廷之间的关系。\n\n科研部的侍从告诉你每个宫廷成员都首先是一位金鸢尾兰公民。</li>
+				<li>r_text->你的观礼者向科研部的侍从们询问了科研官们的一些私下关系。\n\n科研部的侍从在义正言辞地告诉你八卦是不对的之后，又说了一句所以我们不是八卦并立刻拉着你走到了角落。</li-->
+
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+</Defs>

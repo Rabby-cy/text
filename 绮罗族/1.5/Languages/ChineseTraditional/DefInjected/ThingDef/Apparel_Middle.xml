@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kiiro_MessengerBag.label>綺羅貓貓斜挎包</Kiiro_MessengerBag.label>
+  <Kiiro_MessengerBag.description>印有貓貓圖案的斜挎包，空間不太大，能裝一些零碎的東西。</Kiiro_MessengerBag.description>
+
+  <Kiiro_BackBag.label>綺羅貓貓雙肩包</Kiiro_BackBag.label>
+  <Kiiro_BackBag.description>印有貓爪圖案的雙肩揹包。</Kiiro_BackBag.description>
+
+  <Kiiro_PacksackBag.label>綺羅貓貓旅行揹包</Kiiro_PacksackBag.label>
+  <Kiiro_PacksackBag.description>容量很大的揹包:背上揹包去旅行~</Kiiro_PacksackBag.description>
+
+  <Kiiro_Scarf.label>綺羅條紋圍巾</Kiiro_Scarf.label>
+  <Kiiro_Scarf.description>條狀花紋的圍巾，提供一點保暖。</Kiiro_Scarf.description>
+
+  <Kiiro_SimpleLeatherArmor.label>綺羅簡易皮甲</Kiiro_SimpleLeatherArmor.label>
+  <Kiiro_SimpleLeatherArmor.description>一小塊用皮革製成的護甲，防禦能力有限。</Kiiro_SimpleLeatherArmor.description>
+
+  <Kiiro_ChestPlate.label>綺羅輕型胸甲</Kiiro_ChestPlate.label>
+  <Kiiro_ChestPlate.description>一塊輕型胸甲，能夠為軀幹提供簡單的保護。</Kiiro_ChestPlate.description>
+
+  <Kiiro_LoadCarrier.label>綺羅戰術攜行具</Kiiro_LoadCarrier.label>
+  <Kiiro_LoadCarrier.description>配備了戰鬥道具和防彈插板的防具。</Kiiro_LoadCarrier.description>
+
+
+</LanguageData>

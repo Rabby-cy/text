@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef ParentName="BenchBase">
+        <defName>OA_OberoniaCakeProducter</defName>
+        <label>Flower Cake Craft Machinery</label>
+        <description>The Golden Iris Orchid Empire is a process machine used for mass production of flower cakes and flowing flower cakes, which is easy and fast to operate without worrying about food poisoning. Even people who have not been in contact with it can easily get started.\n\nWorking may cause some slight heat release.</description>
+        <thingClass>Building_WorkTable_HeatPush</thingClass>
+        <generateCommonality>0</generateCommonality>
+        <generateAllowChance>0</generateAllowChance>
+        <graphicData>
+            <texPath>Building/OA_OberoniaCakeProducter</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(2.2,2.0)</drawSize>
+            <damageData>
+                <cornerTL>Damage/Corner</cornerTL>
+                <cornerTR>Damage/Corner</cornerTR>
+                <cornerBL>Damage/Corner</cornerBL>
+                <cornerBR>Damage/Corner</cornerBR>
+            </damageData>
+        </graphicData>
+        <size>(2,1)</size>
+        <castEdgeShadows>true</castEdgeShadows>
+        <staticSunShadowHeight>0.20</staticSunShadowHeight>
+        <surfaceType>Item</surfaceType>
+		<minifiedDef>MinifiedThing</minifiedDef>
+        <altitudeLayer>Building</altitudeLayer>
+        <hasInteractionCell>True</hasInteractionCell>
+        <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+        <statBases>
+            <WorkToBuild>38000</WorkToBuild>
+            <MaxHitPoints>150</MaxHitPoints>
+            <Flammability>0.2</Flammability>
+			<WorkTableWorkSpeedFactor>1.10</WorkTableWorkSpeedFactor>
+        </statBases>
+		<costList>
+			<Plasteel>30</Plasteel>
+			<Steel>120</Steel>
+			<ComponentIndustrial>8</ComponentIndustrial>
+		</costList>
+        <pathCost>55</pathCost>
+        <fillPercent>0.55</fillPercent>
+        <useHitPoints>True</useHitPoints>
+        <tradeability>Sellable</tradeability>
+        <passability>PassThroughOnly</passability>
+        <building>
+            <isMealSource>true</isMealSource>
+            <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+            <heatPerTickWhileWorking>0.10</heatPerTickWhileWorking>
+        </building>
+        <recipes Inherit="false" />
+        <inspectorTabs>
+            <li>ITab_Bills</li>
+        </inspectorTabs>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <shortCircuitInRain>true</shortCircuitInRain>
+                <basePowerConsumption>900</basePowerConsumption>
+            </li>
+            <li Class="CompProperties_Flickable" />
+            <li Class="CompProperties_Breakdownable" />
+            <li Class="CompProperties_HeatPusher">
+                <compClass>CompHeatPusherPowered</compClass>
+                <heatPerSecond>4</heatPerSecond>
+            </li>
+        </comps>
+        <placeWorkers>
+            <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+        </placeWorkers>
+    </ThingDef>
+
+    <RecipeDef ParentName="CookMealFineBase">
+        <defName>Make_Oberonia_Aurea_Chanwu_ABB</defName>
+        <label>使用工艺机制作金鸢尾兰花糕。</label>
+        <description>使用工艺机制作金鸢尾兰花糕。</description>
+        <jobString>使用工艺机制作花糕中。</jobString>
+        <workAmount>7680</workAmount>
+        <fixedIngredientFilter>
+            <disallowedThingDefs>
+                <li>Oberonia_Aurea</li>
+                <li>Oberonia_Aurea_Chanwu_D</li>
+            </disallowedThingDefs>
+        </fixedIngredientFilter>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Oberonia_Aurea</li>
+                    </thingDefs>
+                </filter>
+                <count>6.25</count>
+            </li>
+            <li>
+                <filter>
+                    <categories>
+                        <li>FoodRaw</li>
+                    </categories>
+                </filter>
+                <count>3.75</count>
+            </li>
+        </ingredients>
+        <products>
+            <Oberonia_Aurea_Chanwu_AB>16</Oberonia_Aurea_Chanwu_AB>
+        </products>
+        <recipeUsers Inherit="false">
+            <li>OA_OberoniaCakeProducter</li>
+        </recipeUsers>
+        <skillRequirements>
+            <Cooking>8</Cooking>
+        </skillRequirements>
+    </RecipeDef>
+
+    <RecipeDef ParentName="CookMealFineBase">
+        <defName>Make_Oberonia_Aurea_Chanwu_ACB</defName>
+        <label>使用工艺机制作金鸢尾兰流心花糕</label>
+        <description>使用工艺机制作金鸢尾兰流心花糕。</description>
+        <jobString>使用工艺机制作流心花糕中。</jobString>
+        <workAmount>10080</workAmount>
+        <fixedIngredientFilter>
+            <disallowedThingDefs>
+                <li>Oberonia_Aurea</li>
+                <li>Oberonia_Aurea_Chanwu_D</li>
+            </disallowedThingDefs>
+        </fixedIngredientFilter>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Oberonia_Aurea</li>
+                    </thingDefs>
+                </filter>
+                <count>7.50</count>
+            </li>
+            <li>
+                <filter>
+                    <categories>
+                        <li>FoodRaw</li>
+                    </categories>
+                </filter>
+                <count>3.75</count>
+            </li>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Oberonia_Aurea_Chanwu_D</li>
+                    </thingDefs>
+                </filter>
+                <count>0.4</count>
+            </li>
+        </ingredients>
+        <products>
+            <Oberonia_Aurea_Chanwu_AC>16</Oberonia_Aurea_Chanwu_AC>
+        </products>
+        <recipeUsers Inherit="false">
+            <li>OA_OberoniaCakeProducter</li>
+        </recipeUsers>
+        <skillRequirements>
+            <Cooking>8</Cooking>
+        </skillRequirements>
+    </RecipeDef>
+</Defs>

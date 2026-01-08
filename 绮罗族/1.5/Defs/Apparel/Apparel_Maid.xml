@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef Name="Kiiro_OnSkinBaseMaid" ParentName="Kiiro_OnSkinBase" Abstract="True">
+	<recipeMaker>
+		<researchPrerequisite>Kiiro_Apparel_Maid</researchPrerequisite>
+	</recipeMaker>
+	<statBases>
+		<MaxHitPoints>180</MaxHitPoints>
+		<WorkToMake>10200</WorkToMake>
+		<ArmorRating_Sharp>0.10</ArmorRating_Sharp>
+        <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+        <ArmorRating_Heat>0.12</ArmorRating_Heat>
+		<StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
+		<Insulation_Cold>14</Insulation_Cold>
+        <Insulation_Heat>12</Insulation_Heat>
+		<StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<costList>
+		<DevilstrandCloth>45</DevilstrandCloth>
+	</costList>
+	<costStuffCount>145</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<apparel>
+	    <useWornGraphicMask>true</useWornGraphicMask>
+		<layers>
+			<li>Kiiro_Pants</li>
+			<li>Middle</li>
+			<li>Shell</li>
+		</layers>
+		<tags>
+			<li>Kiiro_OnSkin</li>
+			<li>Kiiro_Maid</li>
+		</tags>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+			<li>Arms</li>
+			<li>Neck</li>
+			<li>Shoulders</li>
+			<li>Feet</li>
+			<li>Hands</li>
+		</bodyPartGroups>
+		<drawData>
+			<dataNorth><layer>40</layer></dataNorth>
+		</drawData>
+	</apparel>
+	<tradeTags>
+		<li>Kiiro_Maid</li>
+	</tradeTags>
+</ThingDef>
+
+<ThingDef Name="Kiiro_OverheadBaseMaid" ParentName="Kiiro_OverheadBase" Abstract="True">
+	<recipeMaker>
+		<researchPrerequisite>Kiiro_Apparel_Maid</researchPrerequisite>
+	</recipeMaker>
+	<costList>
+		<DevilstrandCloth>15</DevilstrandCloth>
+	</costList>
+	<costStuffCount>35</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToMake>4800</WorkToMake>
+		<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<apparel>
+	    <useWornGraphicMask>true</useWornGraphicMask>
+		<tags>
+			<li>Kiiro_OverHead</li>
+			<li>Kiiro_Maid</li>
+		</tags>
+		<bodyPartGroups>
+			<li>UpperHead</li>
+		</bodyPartGroups>
+	</apparel>
+</ThingDef>
+
+<!-- 绮罗女仆服（款式1） -->
+<ThingDef ParentName="Kiiro_OnSkinBaseMaid">
+	<defName>Kiiro_MaidDressI</defName>
+	<label>kiiro maid dress (style I)</label>
+	<description>a maid dress.</description>
+	<graphicData>
+		<texPath>Kiiro/Apparel/OnSkin/MaidDressI/MaidDressI</texPath>
+		<shaderType>CutoutComplex</shaderType>
+	</graphicData>
+	<apparel>
+		<wornGraphicPath>Kiiro/Apparel/OnSkin/MaidDressI/MaidDressI</wornGraphicPath>
+	</apparel>
+	<equippedStatOffsets>
+		<CleaningSpeed>0.25</CleaningSpeed>
+		<SocialImpact>0.15</SocialImpact>
+		<PlantHarvestYield>0.08</PlantHarvestYield>
+		<AnimalsLearningFactor>0.12</AnimalsLearningFactor>
+		<TameAnimalChance>0.20</TameAnimalChance>
+		<AnimalGatherYield>0.08</AnimalGatherYield>
+		<TrainAnimalChance>0.10</TrainAnimalChance>
+		<PlantWorkSpeed>0.05</PlantWorkSpeed>
+		<AnimalGatherSpeed>0.15</AnimalGatherSpeed>
+		<CookSpeed>0.15</CookSpeed>
+	</equippedStatOffsets>
+</ThingDef>
+
+<!-- 绮罗女仆帽（款式1） -->
+<ThingDef ParentName="Kiiro_OverheadBaseMaid">
+	<defName>Kiiro_MaidCapI</defName>
+	<label>kiiro maid cap (style I)</label>
+	<description>a maid cap.</description>
+	<graphicData>
+		<texPath>Kiiro/Apparel/OverHead/MaidCapI/MaidCapI</texPath>
+		<shaderType>CutoutComplex</shaderType>
+	</graphicData>
+	<apparel>
+		<wornGraphicPath>Kiiro/Apparel/OverHead/MaidCapI/MaidCapI</wornGraphicPath>
+	</apparel>
+	<equippedStatOffsets>
+		<SocialImpact>0.1</SocialImpact>
+	</equippedStatOffsets>
+</ThingDef>
+
+
+<!-- 绮罗女仆服（款式2） -->
+<ThingDef ParentName="Kiiro_OnSkinBaseMaid">
+	<defName>Kiiro_MaidDressII</defName>
+	<label>kiiro maid dress (style II)</label>
+	<description>a maid dress.</description>
+	<graphicData>
+		<texPath>Kiiro/Apparel/OnSkin/MaidDressII/MaidDressII</texPath>
+		<shaderType>CutoutComplex</shaderType>
+	</graphicData>
+	<apparel>
+		<wornGraphicPath>Kiiro/Apparel/OnSkin/MaidDressII/MaidDressII</wornGraphicPath>
+	</apparel>
+	<equippedStatOffsets>
+		<CleaningSpeed>0.25</CleaningSpeed>
+		<SocialImpact>0.15</SocialImpact>
+		<PlantHarvestYield>0.08</PlantHarvestYield>
+		<AnimalsLearningFactor>0.12</AnimalsLearningFactor>
+		<TameAnimalChance>0.20</TameAnimalChance>
+		<AnimalGatherYield>0.08</AnimalGatherYield>
+		<TrainAnimalChance>0.10</TrainAnimalChance>
+		<PlantWorkSpeed>0.05</PlantWorkSpeed>
+		<AnimalGatherSpeed>0.15</AnimalGatherSpeed>
+		<CookSpeed>0.15</CookSpeed>
+	</equippedStatOffsets>
+</ThingDef>
+
+<!-- 绮罗女仆帽（款式2） -->
+<ThingDef ParentName="Kiiro_OverheadBaseMaid">
+	<defName>Kiiro_MaidCapII</defName>
+	<label>kiiro maid cap (style II)</label>
+	<description>a maid cap.</description>
+	<graphicData>
+		<texPath>Kiiro/Apparel/OverHead/MaidCapII/MaidCapII</texPath>
+		<shaderType>CutoutComplex</shaderType>
+	</graphicData>
+	<apparel>
+		<wornGraphicPath>Kiiro/Apparel/OverHead/MaidCapII/MaidCapII</wornGraphicPath>
+		<tags>
+			<li>Kiiro_SouthEarCover</li>
+		</tags>
+	</apparel>
+	<equippedStatOffsets>
+		<SocialImpact>0.1</SocialImpact>
+	</equippedStatOffsets>
+</ThingDef>
+
+
+<!-- 绮罗女仆服（款式3） -->
+<ThingDef ParentName="Kiiro_OnSkinBaseMaid">
+	<defName>Kiiro_MaidDressIII</defName>
+	<label>kiiro maid dress (style III)</label>
+	<description>a maid dress.</description>
+	<graphicData>
+		<texPath>Kiiro/Apparel/OnSkin/MaidDressIII/MaidDressIII</texPath>
+		<shaderType>CutoutComplex</shaderType>
+	</graphicData>
+	<apparel>
+		<wornGraphicPath>Kiiro/Apparel/OnSkin/MaidDressIII/MaidDressIII</wornGraphicPath>
+	</apparel>
+	<equippedStatOffsets>
+		<CleaningSpeed>0.25</CleaningSpeed>
+		<SocialImpact>0.15</SocialImpact>
+		<PlantHarvestYield>0.08</PlantHarvestYield>
+		<AnimalsLearningFactor>0.12</AnimalsLearningFactor>
+		<TameAnimalChance>0.20</TameAnimalChance>
+		<AnimalGatherYield>0.08</AnimalGatherYield>
+		<TrainAnimalChance>0.10</TrainAnimalChance>
+		<PlantWorkSpeed>0.05</PlantWorkSpeed>
+		<AnimalGatherSpeed>0.15</AnimalGatherSpeed>
+		<CookSpeed>0.15</CookSpeed>
+	</equippedStatOffsets>
+</ThingDef>
+
+<!-- 绮罗女仆帽（款式3） -->
+<ThingDef ParentName="Kiiro_OverheadBaseMaid">
+	<defName>Kiiro_MaidCapIII</defName>
+	<label>kiiro maid cap (style III)</label>
+	<description>a maid cap.</description>
+	<graphicData>
+		<texPath>Kiiro/Apparel/OverHead/MaidCapIII/MaidCapIII</texPath>
+		<shaderType>CutoutComplex</shaderType>
+	</graphicData>
+	<apparel>
+		<wornGraphicPath>Kiiro/Apparel/OverHead/MaidCapIII/MaidCapIII</wornGraphicPath>
+		<tags>
+			<li>Kiiro_SouthEarCover</li>
+		</tags>
+	</apparel>
+	<equippedStatOffsets>
+		<SocialImpact>0.1</SocialImpact>
+	</equippedStatOffsets>
+</ThingDef>
+
+
+<!-- 绮罗女仆服（款式4） -->
+<ThingDef ParentName="Kiiro_OnSkinBaseMaid">
+	<defName>Kiiro_MaidDressIV</defName>
+	<label>kiiro maid dress (style IV)</label>
+	<description>a maid dress.</description>
+	<graphicData>
+		<texPath>Kiiro/Apparel/OnSkin/MaidDressIV/MaidDressIV</texPath>
+		<shaderType>CutoutComplex</shaderType>
+	</graphicData>
+	<apparel>
+		<wornGraphicPath>Kiiro/Apparel/OnSkin/MaidDressIV/MaidDressIV</wornGraphicPath>
+	</apparel>
+	<equippedStatOffsets>
+		<CleaningSpeed>0.25</CleaningSpeed>
+		<SocialImpact>0.15</SocialImpact>
+		<PlantHarvestYield>0.08</PlantHarvestYield>
+		<AnimalsLearningFactor>0.12</AnimalsLearningFactor>
+		<TameAnimalChance>0.20</TameAnimalChance>
+		<AnimalGatherYield>0.08</AnimalGatherYield>
+		<TrainAnimalChance>0.10</TrainAnimalChance>
+		<PlantWorkSpeed>0.05</PlantWorkSpeed>
+		<AnimalGatherSpeed>0.15</AnimalGatherSpeed>
+		<CookSpeed>0.15</CookSpeed>
+	</equippedStatOffsets>
+</ThingDef>
+
+<!-- 绮罗女仆帽（款式4） -->
+<ThingDef ParentName="Kiiro_OverheadBaseMaid">
+	<defName>Kiiro_MaidCapIV</defName>
+	<label>kiiro maid cap (style IV)</label>
+	<description>a maid cap.</description>
+	<graphicData>
+		<texPath>Kiiro/Apparel/OverHead/MaidCapIV/MaidCapIV</texPath>
+		<shaderType>CutoutComplex</shaderType>
+	</graphicData>
+	<apparel>
+		<wornGraphicPath>Kiiro/Apparel/OverHead/MaidCapIV/MaidCapIV</wornGraphicPath>
+		<tags>
+			<li>Kiiro_SouthEarCover</li>
+		</tags>
+	</apparel>
+	<equippedStatOffsets>
+		<SocialImpact>0.1</SocialImpact>
+	</equippedStatOffsets>
+</ThingDef>
+
+
+<!-- 绮罗女仆服（款式5） -->
+<ThingDef ParentName="Kiiro_OnSkinBaseMaid">
+	<defName>Kiiro_MaidDressV</defName>
+	<label>kiiro maid dress (style V)</label>
+	<description>a maid dress.</description>
+	<graphicData>
+		<texPath>Kiiro/Apparel/OnSkin/MaidDressV/MaidDressV</texPath>
+		<shaderType>CutoutComplex</shaderType>
+	</graphicData>
+	<apparel>
+		<wornGraphicPath>Kiiro/Apparel/OnSkin/MaidDressV/MaidDressV</wornGraphicPath>
+	</apparel>
+	<equippedStatOffsets>
+		<CleaningSpeed>0.25</CleaningSpeed>
+		<SocialImpact>0.15</SocialImpact>
+		<PlantHarvestYield>0.08</PlantHarvestYield>
+		<AnimalsLearningFactor>0.12</AnimalsLearningFactor>
+		<TameAnimalChance>0.20</TameAnimalChance>
+		<AnimalGatherYield>0.08</AnimalGatherYield>
+		<TrainAnimalChance>0.10</TrainAnimalChance>
+		<PlantWorkSpeed>0.05</PlantWorkSpeed>
+		<AnimalGatherSpeed>0.15</AnimalGatherSpeed>
+		<CookSpeed>0.15</CookSpeed>
+	</equippedStatOffsets>
+</ThingDef>
+
+</Defs>

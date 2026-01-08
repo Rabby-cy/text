@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <QuestScriptDef>
+        <defName>OARK_GravResearchExchange</defName>
+        <rootSelectionWeight>0</rootSelectionWeight>
+        <isRootSpecial>true</isRootSpecial>
+        <autoAccept>true</autoAccept>
+        <defaultHidden>true</defaultHidden>
+        <affectedByPoints>false</affectedByPoints>
+        <randomlySelectable>false</randomlySelectable>
+        <questNameRules>
+            <rulesStrings>
+                <li>questName->科研旅行</li>
+                <li>questName->学术旅行</li>
+                <li>questName->学术参观</li>
+                <li>questName->金鸢尾兰的接待</li>
+                <li>questName->科研部的友好接待</li>
+                <li>questName->友好科研访问</li>
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+                <li>questDescription->出于答谢的目的，金鸢尾兰帝国的科研部成员们将专门为你的殖民者筹划一场独特的旅行。这场旅行会在科研部内部进行，并且将包含包括前沿科技成果的展示，以及科研部日常的运转与部分科研过程的展示。而为了便于理解，本次旅行还将有专门的科研部侍从负责提供介绍与解答。\n\n这场学术旅行会为你的殖民者提供全新的科研见解，并在三天的旅行中收获能够持续良久的好心情。</li>
+
+                <li>pawnListHaveConjugation(colonistsToLendCount==1)->已经</li>
+                <li>pawnListHaveConjugation(colonistsToLendCount>1)->已经</li>
+            </rulesStrings>
+        </questDescriptionRules>
+        <root Class="QuestNode_Sequence">
+            <nodes>
+
+                <li Class="OberoniaAurea.QuestNode_CheckInitGravQuestState">
+                    <questState>true</questState>
+                </li>
+
+                <li Class="QuestNode_Set">
+                    <name>colonistsToLendCount</name>
+                    <value>1</value>
+                </li>
+                <li Class="QuestNode_Set">
+                    <name>lendForDays</name>
+                    <value>3</value>
+                </li>
+                <li Class="QuestNode_ExpansionActive">
+                    <modID>Ludeon.RimWorld.Biotech</modID>
+                    <node Class="QuestNode_Set">
+                        <name>minAge</name>
+                        <value>13</value>
+                    </node>
+                    <elseNode Class="QuestNode_Set">
+                        <name>minAge</name>
+                        <value>0</value>
+                    </elseNode>
+                </li>
+
+                <li Class="QuestNode_GetMap">
+                    <preferMapWithMinFreeColonists>$colonistsToLendCount</preferMapWithMinFreeColonists>
+                </li>
+
+                <li Class="OberoniaAurea.QuestNode_GetOberoniaAureaFaction">                    <!-- 获取金鼠鼠派系 -->
+                    <storeAs>OAFaction</storeAs>
+                    <allowAlly>true</allowAlly>
+                    <allowNeutral>false</allowNeutral>
+                    <allowHostile>false</allowHostile>
+                </li>
+                <li Class="OberoniaAurea_Frame.QuestNode_GetFactionLeader">
+                    <faction>$OAFaction</faction>
+                    <storeAs>asker</storeAs>
+                </li>
+
+                <!-- Shuttle -->
+                <li Class="QuestNode_ShuttleDelay">
+                    <delayTicks>1200</delayTicks>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_SubScript">
+                                <def>Util_TransportShip_Pickup</def>
+                                <parms>
+                                    <leaveDelayTicks>30000</leaveDelayTicks>
+                                    <leaveImmediatelyWhenSatisfied>true</leaveImmediatelyWhenSatisfied>
+                                    <acceptColonists>true</acceptColonists>
+                                    <acceptChildren>false</acceptChildren>
+                                    <onlyAcceptColonists>true</onlyAcceptColonists>
+                                    <onlyAcceptHealthy>true</onlyAcceptHealthy>
+                                    <requireColonistCount>$colonistsToLendCount</requireColonistCount>
+                                    <minAge>$minAge</minAge>
+                                </parms>
+                            </li>
+
+                            <li Class="QuestNode_Letter">
+                                <label TKey="LetterLabelShuttleArrived">穿梭机抵达</label>
+                                <text TKey="LetterTextShuttleArrived">穿梭机来接[colonistsToLendCount]殖民者了。</text>
+                                <lookTargets>$pickupShipThing</lookTargets>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+
+                <!-- Shuttle sent away -->
+                <li Class="QuestNode_Signal">
+                    <inSignal>pickupShipThing.SentSatisfied</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_LendColonistsToFaction">
+                                <shuttle>$pickupShipThing</shuttle>
+                                <lendColonistsToFactionOf>$asker</lendColonistsToFactionOf>
+                                <returnLentColonistsInTicks>$($lendForDays*60000)</returnLentColonistsInTicks>
+                                <outSignalComplete>ColonistsReturned</outSignalComplete>
+                                <outSignalColonistsDied>ColonistsDied</outSignalColonistsDied>
+                            </li>
+
+                        </nodes>
+                    </node>
+                </li>
+
+                <!-- Shuttle destroyed -->
+                <li Class="QuestNode_AnySignal">
+                    <inSignals>
+                        <li>pickupShipThing.SentUnsatisfied</li>
+                        <li>pickupShipThing.Destroyed</li>
+                        <li>pickupShipThing.LeftBehind</li>
+                    </inSignals>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_Letter">
+                                <label TKey="LetterLabelShuttleDestroyed">穿梭机被摧毁</label>
+                                <text TKey="LetterTextShuttleDestroyed">被派来接殖民者的穿梭机被摧毁了。</text>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Fail</outcome>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+
+                <li Class="QuestNode_Signal">
+                    <inSignal>ColonistsReturned</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="OberoniaAurea.QuestNode_PawnGravResearchExchange"/>
+                            <li Class="QuestNode_Letter">
+                                <label TKey="LetterLabelColonistsReturned">殖民者返回</label>
+                                <text TKey="LetterColonistsReturned">{PAWNS} 在同 [asker_faction_name] 的科学部进行一次学术旅行后回来了。</text>
+                                <letterDef>PositiveEvent</letterDef>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Success</outcome>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+
+                <li Class="QuestNode_Signal">
+                    <inSignal>ColonistsDied</inSignal>
+                    <node Class="QuestNode_End">
+                        <outcome>Success</outcome>
+                    </node>
+                </li>
+
+            </nodes>
+        </root>
+    </QuestScriptDef>
+
+</Defs>

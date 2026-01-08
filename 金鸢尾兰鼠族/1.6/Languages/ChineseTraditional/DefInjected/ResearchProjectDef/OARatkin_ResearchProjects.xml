@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <OA_RK_Oberonia_Aurea_Research.label>金鸢尾蘭</OA_RK_Oberonia_Aurea_Research.label>
+  <OA_RK_Oberonia_Aurea_Research.description>研究金鸢尾蘭花的種植方式，以及金鸢尾蘭花茶的沖泡方法，並在這期間逐步了解金鸢尾蘭帝國本身。</OA_RK_Oberonia_Aurea_Research.description>
+
+  <OA_RK_Electrical_System.label>金鸢尾蘭電力系統</OA_RK_Electrical_System.label>
+  <OA_RK_Electrical_System.description>研究金鸢尾蘭特色的電力系統，解鎖【自發電蓄電池】，提供大容量的電力儲備，以及少量的電力供應。很奇怪的是它總是能在沒有連接電網的情況下獨立運作，我們的工程師至今也搞不懂這個原理。</OA_RK_Electrical_System.description>
+
+  <OA_RK_Electrical_System_B.label>改進型反應堆</OA_RK_Electrical_System_B.label>
+  <OA_RK_Electrical_System_B.description>改進【自發電蓄電池】的反應堆，提供更高額的電力輸出。</OA_RK_Electrical_System_B.description>
+
+  <OA_RK_Basic_Building.label>金鸢尾蘭基礎建築</OA_RK_Basic_Building.label>
+  <OA_RK_Basic_Building.description>研究金鸢尾蘭的基礎建築設施，解鎖【金鸢尾蘭恒溫箱】以及壹系列金鸢尾蘭特色建築。</OA_RK_Basic_Building.description>
+
+  <OA_RK_Constant_Temperature_Hydroponics.label>金鸢尾蘭複雜機械</OA_RK_Constant_Temperature_Hydroponics.label>
+  <OA_RK_Constant_Temperature_Hydroponics.description>研究壹系列金鸢尾蘭的複雜機械設備，解鎖【金鸢尾蘭恒溫水培箱】，【金鸢尾蘭光學研究台】，【金鸢尾蘭尖端研究台】等壹系列設備。</OA_RK_Constant_Temperature_Hydroponics.description>
+
+  <OA_RK_Cloth_Processing.label>金鸢尾蘭縫紉設施</OA_RK_Cloth_Processing.label>
+  <OA_RK_Cloth_Processing.description>研究金鸢尾蘭的布料與紡織工藝，得知金鸢尾蘭帝國提煉合成纖維的獨特方法，並解鎖【金鸢尾蘭縫紉台】與壹系列相關的縫紉設備。\n（合成纖維于提煉設備制作）</OA_RK_Cloth_Processing.description>
+
+  <OA_RK_EMP_Building.label>電子設備癱瘓設施</OA_RK_EMP_Building.label>
+  <OA_RK_EMP_Building.description>了解金鸢尾蘭帝國對于EMP的研究，並嘗試制作對應的設施。解鎖【電子設備癱瘓設施】，建造後可以以原地爲中心，釋放壹次大範圍的高額EMP沖擊。</OA_RK_EMP_Building.description>
+
+  <OA_RK_Constant_Temperature_Hydroponics_B.label>金鸢尾蘭改進作物</OA_RK_Constant_Temperature_Hydroponics_B.label>
+  <OA_RK_Constant_Temperature_Hydroponics_B.description>通過金鸢尾蘭的農業科技與基因技術，對常見的農作物與金鸢尾蘭花進行相關改進，提升它們的産量與肥沃度敏感性，並解鎖對應的專屬培養櫃。</OA_RK_Constant_Temperature_Hydroponics_B.description>
+
+  <OA_RK_Weapon_A.label>金鸢尾蘭古典槍械</OA_RK_Weapon_A.label>
+  <OA_RK_Weapon_A.description>學習金鸢尾蘭帝國傳統的槍械工藝與特色的鈾彈工藝，解鎖【金鸢尾蘭古典槍械】的制造。</OA_RK_Weapon_A.description>
+
+  <OA_RK_Weapon_B.label>試做型突襲武器</OA_RK_Weapon_B.label>
+  <OA_RK_Weapon_B.description>研究金鸢尾蘭帝國的加壓器工藝，解鎖【原型突襲武器】的制造，開啓突襲武器的研究。</OA_RK_Weapon_B.description>
+
+  <OA_RK_Weapon_C.label>金鸢尾蘭制式突襲武器</OA_RK_Weapon_C.label>
+  <OA_RK_Weapon_C.description>了解金鸢尾蘭帝國在接觸銀河系後的軍備更叠，並以此爲基礎，反推金鸢尾蘭帝國的現役制式武器設計。解鎖【突襲作戰步槍】等金鸢尾蘭制式突襲武器。</OA_RK_Weapon_C.description>
+
+  <OA_RK_Weapon_D.label>金鸢尾蘭反重甲武器</OA_RK_Weapon_D.label>
+  <OA_RK_Weapon_D.description>在原有的加壓器上進壹步的改進強化，解鎖【突襲作戰反重甲支援機槍】與【突襲作戰反重甲支援步槍】。</OA_RK_Weapon_D.description>
+
+  <OA_RK_Weapon_G.label>金鸢尾蘭制式武器改進</OA_RK_Weapon_G.label>
+  <OA_RK_Weapon_G.description>將大型加壓器進行輕量化改裝，並且改良原有的制式槍械，解鎖【改型突襲作戰步槍】與【改型突襲作戰沖鋒槍】。</OA_RK_Weapon_G.description>
+
+  <OA_RK_Weapon_E.label>不穩定電荷技術</OA_RK_Weapon_E.label>
+  <OA_RK_Weapon_E.description>在通用電荷技術的基礎上，研發更加狂暴而難以掌控的不穩定電荷技術，解鎖【不穩定電荷支援步槍】。</OA_RK_Weapon_E.description>
+
+  <OA_RK_Weapon_F.label>重型不穩定電荷武器</OA_RK_Weapon_F.label>
+  <OA_RK_Weapon_F.description>更加深入對于不穩定電荷技術的研究，解鎖【不穩定電荷直射器】與【不穩定電荷速射器】。</OA_RK_Weapon_F.description>、
+  
+  <OA_RK_Apparel_A.label>金鸢尾蘭基礎服飾</OA_RK_Apparel_A.label>
+  <OA_RK_Apparel_A.description>了解金鸢尾蘭帝國的服裝特色，以及設計風格。解鎖金鸢尾蘭風格的基礎服飾與道具。</OA_RK_Apparel_A.description>
+
+  <OA_RK_Apparel_B.label>金鸢尾蘭宮廷服飾</OA_RK_Apparel_B.label>
+  <OA_RK_Apparel_B.description>嘗試更加複雜的設計，並仿制金鸢尾蘭帝國的宮廷服飾與道具。解鎖金鸢尾蘭帝國宮廷服飾。</OA_RK_Apparel_B.description>
+
+  <OA_RK_Apparel_C.label>突襲作戰制服</OA_RK_Apparel_C.label>
+  <OA_RK_Apparel_C.description>結合金鸢尾蘭的服裝設計思想，現代的纖維材料與先進的軍事設計理念，制作適合作戰的突襲作戰制服與設備。</OA_RK_Apparel_C.description>、
+  
+  <OA_RK_Apparel_D.label>金鸢尾蘭遠行服飾</OA_RK_Apparel_D.label>
+  <OA_RK_Apparel_D.description>模仿金鸢尾蘭遠行者的服飾，制作壹系列實用的服裝與防身武器。</OA_RK_Apparel_D.description>、
+ 
+  <OA_RK_Ningguangnuanhui.label>暖輝設施</OA_RK_Ningguangnuanhui.label>
+  <OA_RK_Ningguangnuanhui.description>結合生命維持急救包技術以及相關先進科技，反向研究金鸢尾蘭帝國先進的公共場所設施【暖輝設施】。</OA_RK_Ningguangnuanhui.description>
+
+  <OA_RK_Oberonia_Aurea_Research_B.label>金鸢尾蘭傳統食品</OA_RK_Oberonia_Aurea_Research_B.label>
+  <OA_RK_Oberonia_Aurea_Research_B.description>了學會各種各樣的金鸢尾蘭加工方式，以將金鸢尾蘭花制成令人喜愛的美食。</OA_RK_Oberonia_Aurea_Research_B.description>
+
+  <OA_RK_Oberonia_Aurea_Research_C.label>金鸢尾蘭花清素提煉</OA_RK_Oberonia_Aurea_Research_C.label>
+  <OA_RK_Oberonia_Aurea_Research_C.description>從金鸢尾蘭花中提煉出特殊的醫用成分，以制成能夠促進免疫與傷口愈合的藥品。</OA_RK_Oberonia_Aurea_Research_C.description>
+
+  <OA_RK_GunTurrets.label>金鸢尾蘭火箭陣列</OA_RK_GunTurrets.label>
+  <OA_RK_GunTurrets.description>研究金鸢尾蘭的火箭榴彈防禦系統，解鎖【自動火箭炮台】與【火箭陣列】。</OA_RK_GunTurrets.description>
+
+  <OA_RK_Weapon_H.label>重裝突襲武器</OA_RK_Weapon_H.label>
+  <OA_RK_Weapon_H.description>進行壹系列重裝武器與加壓艙科技的相關研究，解鎖重裝突襲步槍，重裝突襲沖鋒槍與突襲作戰無後坐力炮。</OA_RK_Weapon_H.description>
+
+  <OA_RK_Apparel_E.label>金鸢尾蘭技術制服</OA_RK_Apparel_E.label>
+  <OA_RK_Apparel_E.description>對金鸢尾蘭的技術制服進行參考與研究，解鎖適合進行專業工作的金鸢尾蘭技術制服以及技術官武器。</OA_RK_Apparel_E.description>、
+  
+  <OA_RK_Electrical_System_C.label>反應堆精密加工</OA_RK_Electrical_System_C.label>
+  <OA_RK_Electrical_System_C.description>通過運用全新的技術工具，來實現對反應堆産出的進壹步提升。</OA_RK_Electrical_System_C.description>
+
+  <OA_RK_Apparel_F.label>重裝突襲護甲</OA_RK_Apparel_F.label>
+  <OA_RK_Apparel_F.description>在結合最新的護甲科技以及金鸢尾蘭的尖端布料技術後，研發金鸢尾蘭的尖端單兵裝甲【重裝突襲護甲】。</OA_RK_Apparel_F.description>
+
+  <OA_RK_Apparel_G.label>全防護突襲護甲</OA_RK_Apparel_G.label>
+  <OA_RK_Apparel_G.description>結合部分銀河系的護甲研究及裝甲科技，研發具有卓越保護性能的【全防護突襲護甲】。</OA_RK_Apparel_G.description>
+
+</LanguageData>

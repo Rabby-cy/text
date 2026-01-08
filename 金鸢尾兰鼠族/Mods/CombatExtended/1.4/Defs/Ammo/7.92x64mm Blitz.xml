@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>Ammo792x64DU</defName>
+		<label>7.92x64mm depleted uranium Ammo.</label>
+		<parent>AmmoRifles</parent>
+		<iconPath>UI/Icons/ThingCategories/CaliberRifle</iconPath>
+	</ThingCategoryDef>
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_792x64DU</defName>
+		<label>7.92x64mm depleted uranium Ammo.</label>
+		<ammoTypes>
+			<Ammo_792x64DU>Bullet_792x64DU</Ammo_792x64DU>
+		</ammoTypes>
+		<similarTo>AmmoSet_Rifle</similarTo>
+	</CombatExtended.AmmoSetDef>
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_792x64DU_Adv</defName>
+		<label>7.92x64mm depleted uranium Ammo.</label>
+		<ammoTypes>
+			<Ammo_792x64DU>Bullet_792x64DU_Adv</Ammo_792x64DU>
+		</ammoTypes>
+		<similarTo>AmmoSet_Rifle</similarTo>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" Name="792x64DUBase" ParentName="SmallAmmoBase" Abstract="True">
+		<description>Depleted uranium. Kill people imitate sacks when they are hit.</description>
+		<statBases>
+			<Mass>0.037</Mass>
+			<Bulk>0.03</Bulk>
+		</statBases>
+		<tradeTags>
+			<li>CE_AutoEnableTrade</li>
+			<li>CE_AutoEnableCrafting</li>
+		</tradeTags>
+		<thingCategories>
+			<li>Ammo792x64DU</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="792x64DUBase">
+		<defName>Ammo_792x64DU</defName>
+		<label>7.92x64mm depleted uranium</label>
+		<graphicData>
+			<texPath>Things/Ammo/Rifle/Clip/Sabot</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.31</MarketValue>
+			<Mass>0.029</Mass>
+		</statBases>
+		<ammoClass>Sabot</ammoClass>
+		<cookOffProjectile>Bullet_792x64DU</cookOffProjectile>
+	</ThingDef>
+
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef Name="Base792x64DUBullet" ParentName="BaseBulletCE" Abstract="true">
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bullet</damageDef>
+			<speed>171</speed>
+			<dropsCasings>true</dropsCasings>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="Base792x64DUBullet">
+		<defName>Bullet_792x64DU</defName>
+		<label>7.92x64mm depleted uranium bullet</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>17</damageAmountBase>
+			<secondaryDamage>
+				<li>
+					<def>Flame_Secondary</def>
+					<amount>11</amount>
+				</li>
+			</secondaryDamage>
+			<armorPenetrationSharp>30</armorPenetrationSharp>
+			<armorPenetrationBlunt>189.12</armorPenetrationBlunt>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="Base792x64DUBullet">
+		<defName>Bullet_792x64DU_Adv</defName>
+		<label>7.92x64mm depleted uranium bullet</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>21</damageAmountBase>
+			<secondaryDamage>
+				<li>
+					<def>Flame_Secondary</def>
+					<amount>13</amount>
+				</li>
+			</secondaryDamage>
+			<armorPenetrationSharp>35</armorPenetrationSharp>
+			<armorPenetrationBlunt>189.12</armorPenetrationBlunt>
+		</projectile>
+	</ThingDef>
+
+	<!-- ==================== Recipes ========================== -->
+	<RecipeDef ParentName="AdvancedAmmoRecipeBase">
+		<defName>MakeAmmo_792x64DU</defName>
+		<label>make 7.92x64mm depleted uranium cartridge x500</label>
+		<description>Craft 500 7.92x64mm depleted uranium cartridges.</description>
+		<jobString>Making 7.92x64mm depleted uranium cartridges.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Uranium</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>9</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Uranium</li>
+				<li>FSX</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_792x64DU>500</Ammo_792x64DU>
+		</products>
+		<workAmount>6600</workAmount>
+		<researchPrerequisites>
+			<li>OA_RK_Weapon_B</li>
+		</researchPrerequisites>
+	</RecipeDef>
+
+</Defs>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef Abstract="True" Name="KiiroMeleeWeaponLegend" ParentName="BaseWeapon">
+    <techLevel>Industrial</techLevel>
+    <tradeability>Sellable</tradeability>
+    <statBases>
+      <MarketValue>2800</MarketValue>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Flammability>0.1</Flammability>
+    </statBases>
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponMelee</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponMelee</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+      <li Class="CompProperties_Biocodable"/>
+    </comps>
+    <smeltable>false</smeltable>
+    <burnableByRecipe>true</burnableByRecipe>
+    <thingCategories>
+      <li>WeaponsMelee</li>
+    </thingCategories>
+    <weaponTags>
+      <li>Kiiro_LegendMelee</li>
+    </weaponTags>
+    <!--<tradeTags>
+      <li>WeaponMelee</li>
+    </tradeTags>-->
+    <weaponClasses>
+      <li>Melee</li>
+      <li>Ultratech</li>
+    </weaponClasses>
+    <!--<thingSetMakerTags>
+      <li>RewardStandardMidFreq</li>
+    </thingSetMakerTags>-->
+  </ThingDef>
+
+  <AncotLibrary.ThingDef_Custom ParentName="KiiroMeleeWeaponLegend">
+    <defName>Kiiro_ValorSabre</defName>
+    <label>kiiro valor sabre</label>
+    <description>A magnificent longsword inlaid with sapphires that cuts iron like mud. One of the famous swords of kiiros. Each attack has 30% chance to instantly reset the melee cooldown, this effect can trigger up to 3 times in a row.</description>
+    <thingClass>AncotLibrary.ThingWithComps_OverSizedWeapon</thingClass>
+    <graphicData>
+      <texPath>Kiiro/Weapon/Special/ValorSabre/ValorSabre</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <soundInteract>Interact_MonoSword</soundInteract>
+    <meleeHitSound>MeleeHit_MonoSword</meleeHitSound>
+    <uiIconPath>Kiiro/Weapon/Special/ValorSabre/ValorSabre</uiIconPath>
+    <uiIconScale>1.2</uiIconScale>
+    <relicChance>1</relicChance>
+    <statBases>
+      <Mass>2.8</Mass>
+    </statBases>
+    <equippedAngleOffset>-35</equippedAngleOffset>
+    <equippedStatOffsets>
+      <MeleeHitChance>4</MeleeHitChance>
+      <MeleeDodgeChance>8</MeleeDodgeChance>
+      <Ancot_RangeDodgeChance>0.06</Ancot_RangeDodgeChance>
+    </equippedStatOffsets>
+    <weaponTags>
+      <li>Kiiro_ValorSabre</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Kiiro_SabreCombo</li>
+        </capacities>
+        <power>24</power>
+        <cooldownTime>1.8</cooldownTime>
+        <armorPenetration>1.0</armorPenetration>
+      </li>
+      <li>
+        <label>edge</label>
+        <capacities>
+          <li>Kiiro_SabreCombo</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>1.5</cooldownTime>
+        <armorPenetration>0.8</armorPenetration>
+      </li>
+    </tools>
+    <comps>
+      <li Class="AncotLibrary.CompProperties_MeleeCombo">
+        <comboChance>0.3</comboChance>
+        <maxCombo>3</maxCombo>
+        <comboStanceTick>10</comboStanceTick>
+        <useWeaponCharge>false</useWeaponCharge>
+      </li>
+      <li Class="AncotLibrary.CompProperties_RenderSetDirty"/>
+    </comps>
+    <renderNodeProperties>
+      <li Class="AncotLibrary.PawnRenderNodeProperties_Weapon">
+        <debugLabel>kiiro valor sabre</debugLabel>
+        <nodeClass>AncotLibrary.PawnRenderNode_Weapon</nodeClass>
+        <workerClass>AncotLibrary.PawnRenderNodeWorker_Weapon</workerClass>
+        <pawnType>Any</pawnType>
+        <texPath>Kiiro/Weapon/Special/ValorSabre/ValorSabre</texPath>
+        <texPath_Undrafted>Kiiro/Weapon/Special/ValorSabre/ValorSabreUndrafted</texPath_Undrafted>
+        <baseLayer>60</baseLayer>
+        <parentTagDef>Body</parentTagDef>
+        <drawData>
+          <dataEast>
+            <layer>-10</layer>
+          </dataEast>
+          <dataNorth>
+            <layer>-10</layer>
+          </dataNorth>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+    <modExtensions>
+      <li Class="AncotLibrary.ExtraGraphicData_Extension">
+        <graphicData>
+          <texPath>Kiiro/Weapon/Special/ValorSabre/ValorSabre_OnHand</texPath>
+          <graphicClass>Graphic_Single</graphicClass>
+          <drawSize>(2.0,2.0)</drawSize>
+        </graphicData>
+      </li>
+    </modExtensions>
+  </AncotLibrary.ThingDef_Custom>
+  <ToolCapacityDef>
+    <defName>Kiiro_SabreCombo</defName>
+  </ToolCapacityDef>
+  <ManeuverDef>
+    <defName>Kiiro_SabreCombo</defName>
+    <requiredCapacity>Kiiro_SabreCombo</requiredCapacity>
+    <verb>
+      <verbClass>AncotLibrary.Verb_MeleeAttackDamage_Combo</verbClass>
+      <meleeDamageDef>Cut</meleeDamageDef>
+    </verb>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Scratch_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Scratch_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Scratch_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Scratch_MeleeDodge</combatLogRulesDodge>
+    <modExtensions>
+      <li Class="AncotLibrary.Effecter_Extension">
+        <effcterDef>Kiiro_ValorSabreStab</effcterDef>
+      </li>
+    </modExtensions>
+  </ManeuverDef>
+
+</Defs>

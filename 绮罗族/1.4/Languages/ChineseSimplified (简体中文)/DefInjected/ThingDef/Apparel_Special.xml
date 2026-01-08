@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Arknights -->
+
+  <Kiiro_Penance.label>厚重法官大衣</Kiiro_Penance.label>
+  <Kiiro_Penance.description>一位正直又善良的法官曾穿过的衣服。</Kiiro_Penance.description>
+
+  <Kiiro_MintHeadwear.label>月宵鲜花头饰</Kiiro_MintHeadwear.label>
+  <Kiiro_MintHeadwear.description>栩栩如生的蓝色鲜花头饰。原主人喜欢在穿着月宵长裙时佩戴这样一个鲜花头饰。</Kiiro_MintHeadwear.description>
+
+  <Kiiro_MintDress.label>月宵长裙</Kiiro_MintDress.label>
+  <Kiiro_MintDress.description>结合了多种风格的长裙，原主人喜欢用这身服装搭配欢庆的气氛。</Kiiro_MintDress.description>
+
+
+  <!-- AliceInCradle -->
+
+  <Kiiro_NoelleHat.label>补给队制服帽</Kiiro_NoelleHat.label>
+  <Kiiro_NoelleHat.description>好像是哪个精灵村的后勤医疗队制式帽子。</Kiiro_NoelleHat.description>
+
+  <Kiiro_NoelleDress.label>补给队制服裙</Kiiro_NoelleDress.label>
+  <Kiiro_NoelleDress.description>好像是哪个精灵村的后勤医疗队制式裙子。</Kiiro_NoelleDress.description>
+
+
+</LanguageData>

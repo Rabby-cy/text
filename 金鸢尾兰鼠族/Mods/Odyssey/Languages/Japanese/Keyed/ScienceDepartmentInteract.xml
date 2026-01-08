@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+ <OARK_ScienceDepartment_GravTechPointsAdded>金蘭逆重力技術の逆向き研究進捗ポイントが{0}ポイント増加</OARK_ScienceDepartment_GravTechPointsAdded>
+<OARK_ScienceDepartment_GravTechAssistPointAdded>金蘭科研貢献が{0}ポイント増加</OARK_ScienceDepartment_GravTechAssistPointAdded>
+<OARK_ScienceDepartment_GravTechAssistPointReduced>金蘭科研貢献が{0}ポイント減少</OARK_ScienceDepartment_GravTechAssistPointReduced>
+
+<OARK_GravTechAssistPointsNotEnough>最低{0}科研貢献が必要</OARK_GravTechAssistPointsNotEnough>
+<OARK_GravTechStageNeedAbove>科研ステージ{0}達成後に解除</OARK_GravTechStageNeedAbove>
+
+<OARK_Letter_GravTechStageUpgrade>あなたの助力により、科研部は逆重力技術の逆向き研究で画期的な進展を達成し、現在の研究ステージは{0}に到達しました。\n\nこの期間の貢献を称え、科研部は追加で{1}科研貢献を割り当てました。</OARK_Letter_GravTechStageUpgrade>
+
+<OARK_AccessScienceDepartment>科研部と連絡</OARK_AccessScienceDepartment>
+<OARK_AccessScienceDepartmentInfo_Empty>これは我々がまだ連絡を確立していない金蘭宮廷部門です。彼らは宮廷部のように包括的ではなく、工業部のように目立つ存在でもなく、技術部のように活発でもありません。我々は彼らについてほとんど知りません。\n\n彼らは新技術の開発に専念しているようです。\n\n現在科技部との接点はありません。\n彼らの注目を得るためには何か行動が必要かもしれません。</OARK_AccessScienceDepartmentInfo_Empty>
+
+<!-- 特殊記述 -->
+<OARK_ScienceDepartmentProgress_Assist>{0}が科研官から電話を受け取り、挨拶をして近況を語り始めました。</OARK_ScienceDepartmentProgress_Assist>
+
+<OARK_GravTechPointsStage_I>逆重力技術累積逆向き研究ポイント：{0}/{1}（ステージ1）</OARK_GravTechPointsStage_I>
+<OARK_GravTechPointsStage_II>逆重力技術累積逆向き研究ポイント：{0}/{1}（ステージ2）</OARK_GravTechPointsStage_II>
+<OARK_GravTechPointsStage_III>逆重力技術累積逆向き研究ポイント：{0}/{1}（ステージ3）</OARK_GravTechPointsStage_III>
+<OARK_GravTechPointsStage_Max>逆重力技術累積逆向き研究ポイント：{0}（学びに終わりなし）</OARK_GravTechPointsStage_Max>
+
+<OARK_PlayerTechPoints>あなたの累積貢献ポイント：{0}</OARK_PlayerTechPoints>
+<OARK_GravTechAssistPoints>所有科研貢献：{0}</OARK_GravTechAssistPoints>
+
+<OARK_QuestDonateGravlitePanel>{0}に逆重版補助研究を贈る</OARK_QuestDonateGravlitePanel>
+<OARK_QuestDonateGravlitePanelConfirm>{0}に{1}逆重版を贈呈し、これにより科学研究部の逆推論の進度は{2}向上し、あなたに{3}科学研究への貢献を提供した</OARK_QuestDonateGravlitePanelConfirm>
+
+
+<!-- ボタン関連 -->
+<OARK_AcquireDataBeacon>科研部ビーコン取得</OARK_AcquireDataBeacon>
+<OARK_AcquireDataBeaconConfirm>科研部に新しいデータビーコンを申請できます。ビーコン作動時、強力なデータ流により離着陸毎に機械族の襲撃を受けますが、同時に科研部に貴重な実時データを提供します。\n\n補給に時間がかかるため、破損後の再取得には相当な期間を要します。</OARK_AcquireDataBeaconConfirm>
+
+<OARK_DonateGravcore>逆重力コア寄贈</OARK_DonateGravcore>
+<OARK_DonateGravcoreConfirm>逆重力コア1個を寄贈し、科研進捗を{0}ポイント促進。\n\n謝礼として{1}科研貢献を付与されました。</OARK_DonateGravcoreConfirm>
+
+<OARK_DonateGravlitePanel>逆重力パネル寄贈</OARK_DonateGravlitePanel>
+<OARK_DonateGravlitePanelInfo>指定数量の逆重力パネルを提供し、科研貢献を獲得できます。</OARK_DonateGravlitePanelInfo>
+<OARK_DonateGravlitePanelDetail>{0}枚寄贈</OARK_DonateGravlitePanelDetail>
+<OARK_DonateGravlitePanelDetailConfirm>{0}枚の逆重力パネルを提供し、{1}研究ポイントを促進。\n\n{2}科研貢献を獲得。</OARK_DonateGravlitePanelDetailConfirm>
+
+<OARK_SailorAssistance>航宙部要員支援要請</OARK_SailorAssistance>
+<OARK_SailorAssistanceConfirm>航宙部員を30日間一時派遣要請。貢献消費で永続雇用可能。\n\n消費：{0}科研貢献</OARK_SailorAssistanceConfirm>
+
+<OARK_ExchangeForSDAssistance>科研支援要請</OARK_ExchangeForSDAssistance>
+<OARK_ExchangeForSDAssistanceConfirm>科研部から連絡装置が送付されました。現在研究中の技術データを取得し、研究進度を促進できます。\n\n消費：{1}科研貢献</OARK_ExchangeForSDAssistanceConfirm>
+
+<OARK_GravityDistortionBomb>重力歪曲爆撃要請</OARK_GravityDistortionBomb>
+<OARK_GravityDistortionBombConfirmInfo>警告：無差別攻撃のため、屋根下以外では深刻な重力損傷を受けます。休眠カプセルが唯一の完全回避手段です。\n\n実行確認しますか？</OARK_GravityDistortionBombConfirmInfo>
+<OARK_GravityDistortionBombConfirm>重力歪曲爆撃を要請しました。5秒後に到達。\n\n警告：速やかに休眠カプセルへ避難、または遮蔽物下へ退避してください。</OARK_GravityDistortionBombConfirm>
+
+<!-- 交換関連 -->
+<OARK_CovertGTAP>科研貢献交換</OARK_CovertGTAP>
+<OARK_CovertGTAPInfo>科研貢献を支援ポイント、銀、設計図など様々な物品と交換できます。</OARK_CovertGTAPInfo>
+
+<OARK_CovertGTAPToAP>支援ポイント交換</OARK_CovertGTAPToAP>
+<OARK_CovertGTAPToAPInfo>固定レートで帝国支援ポイントに変換可能。</OARK_CovertGTAPToAPInfo>
+<OARK_CovertGTAPToAPDetail>{0}科研貢献 → {1}支援ポイント</OARK_CovertGTAPToAPDetail>
+<OARK_CovertGTAPToAPConfirm>{0}科研貢献を{1}帝国支援ポイントに変換</OARK_CovertGTAPToAPConfirm>
+
+<OARK_CovertGTAPToSliver>銀交換</OARK_CovertGTAPToSliver>
+<OARK_CovertGTAPToSliverInfo>科研貢献を銀貨に交換。</OARK_CovertGTAPToSliverInfo>
+<OARK_CovertGTAPToSliverDetail>{0}科研貢献 → {1}銀</OARK_CovertGTAPToSliverDetail>
+<OARK_CovertGTAPToSliverConfirm>{0}科研貢献を{1}銀に交換</OARK_CovertGTAPToSliverConfirm>
+
+<OARK_ExchangeForTechPrint>技術設計図交換</OARK_ExchangeForTechPrint>
+<OARK_ExchangeForTechPrintInfo>制限なしで金蘭帝国の技術設計図を取得可能。</OARK_ExchangeForTechPrintInfo>
+<OARK_ExchangeForTechPrintDetail>{0}：{1}科研貢献</OARK_ExchangeForTechPrintDetail>
+<OARK_ExchangeForTechPrintConfirm>{1}科研貢献で{0}設計図を取得</OARK_ExchangeForTechPrintConfirm>
+
+<OARK_ExchangeForSpecialEquipment>特殊装備交換</OARK_ExchangeForSpecialEquipment>
+<OARK_ExchangeForSpecialEquipmentInfo>科研部の余剰特殊装備を交換可能。</OARK_ExchangeForSpecialEquipmentInfo>
+<OARK_ExchangeForSpecialEquipmentDetail>{0}：{1}科研貢献</OARK_ExchangeForSpecialEquipmentDetail>
+<OARK_ExchangeForSpecialEquipmentConfirm>{1}科研貢献で{0}を取得</OARK_ExchangeForSpecialEquipmentConfirm>
+
+</LanguageData>

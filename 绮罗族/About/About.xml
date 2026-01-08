@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Kiiro Race</name>
+	<author>Ancot</author>
+	<supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+		<li>1.6</li>
+	</supportedVersions>
+	<description>the kiiros.</description>
+	<packageId>Ancot.KiiroRace</packageId>
+	<modIconPath IgnoreIfNoMatchingField="True">Kiiro/Faction/Faction_Icon_2</modIconPath>
+	<modDependencies>
+		<li> 
+			<packageId>erdelf.HumanoidAlienRaces</packageId>
+			<displayName>Humanoid Alien Races 2.0</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=839005762</steamWorkshopUrl>
+		</li>
+		<li> 
+			<packageId>Ancot.AncotLibrary</packageId>
+			<displayName>Ancot Library</displayName>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2988801276</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>	
+		<li>erdelf.HumanoidAlienRaces</li>
+		<li>Ancot.AncotLibrary</li>
+	</loadAfter>
+
+</ModMetaData>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kiiro_InstallArtificialTail.label>安装绮罗义尾</Kiiro_InstallArtificialTail.label>
+  <Kiiro_InstallArtificialTail.description>安装一条义尾。</Kiiro_InstallArtificialTail.description>
+  <Kiiro_InstallArtificialTail.jobString>正在安装义尾。</Kiiro_InstallArtificialTail.jobString>
+
+  <Kiiro_InstallBionicTail.label>安装绮罗仿生尾</Kiiro_InstallBionicTail.label>
+  <Kiiro_InstallBionicTail.description>安装一条仿生尾。</Kiiro_InstallBionicTail.description>
+  <Kiiro_InstallBionicTail.jobString>正在安装仿生尾。</Kiiro_InstallBionicTail.jobString>
+
+
+</LanguageData>

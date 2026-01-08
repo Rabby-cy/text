@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+ <!-- EN: bulk goods trader -->
+  <OA_RKDA_ChargeBullet.label>電荷彈</OA_RKDA_ChargeBullet.label>
+  
+  <OA_RKDA_ChargeBullet.deathMessage>{0}被電荷彈射死了。</OA_RKDA_ChargeBullet.deathMessage>
+
+  <!-- EN: bulk goods trader -->
+  <OA_RKDA_ChargeBullet.label>不穩定電荷團</OA_RKDA_ChargeBullet.label>
+  
+  <OA_RKDA_ChargeBullet.deathMessage>{0}被不穩定電荷團的爆炸炸死了。</OA_RKDA_ChargeBullet.deathMessage>
+
+  <!-- 臥槽我血壓怎麽飆到170了臥槽 -->
+  <OA_RKDA_ChargeBullet.label>不穩定電荷團</OA_RKDA_ChargeBullet.label>
+  
+  <OA_RKDA_ChargeBullet.deathMessage>{0}被不穩定電荷團的爆炸炸死了。</OA_RKDA_ChargeBullet.deathMessage>
+
+</LanguageData>

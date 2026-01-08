@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+<OARK_QuestDiscoveredFromFaction>{0}から連絡がありました：</OARK_QuestDiscoveredFromFaction>
+
+<OARK_LowStoredEnergy>少なくとも{0}ポイントの蓄電量が必要</OARK_LowStoredEnergy>
+
+<OARK_PilotConsole_CurHackStage>現在の進捗：{0}/{1}</OARK_PilotConsole_CurHackStage>
+
+<OARK_GravTechAssistPoint>科研貢献</OARK_GravTechAssistPoint>
+<OARK_GravTechAssistPointTip>金蘭帝国の科研部が提供する資源の量を表す。高い科研貢献はより多くの援助を意味する。</OARK_GravTechAssistPointTip>
+
+<OARK_PilotConsole_CurHackStage>現在の進捗：{0}/{1}</OARK_PilotConsole_CurHackStage>
+
+<!-- 科研協力任務 報酬選択画面 -->
+<OARK_GravTechAssist_RewardChoice>あなたの協力者の助力により、科研部の逆重力技術研究は大幅に進展した。貴重な実践的知見が多くの問題を解決した。\n\n感謝の印として、科研部のメンバーはリストを送り、協力者の貢献を称えてリストから任意の1アイテムを持ち帰ることを許可した。\n\nリストには理解できない未知の物品が多数記載されている。直感的に完全に未知のものを選ぶのは賢明でないと感じるが、幸いなことにここには2つの馴染みのある物品もある。</OARK_GravTechAssist_RewardChoice>
+
+</LanguageData>

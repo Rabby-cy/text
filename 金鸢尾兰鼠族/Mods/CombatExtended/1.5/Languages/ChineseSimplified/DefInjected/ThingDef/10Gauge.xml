@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_10GaugeDU_Buck.label>10号口径金鸢尾兰霰弹 (鹿弹)</Ammo_10GaugeDU_Buck.label>
+  <Ammo_10GaugeDU_Buck.description>几乎在所有应用中都非常常见的霰弹枪口径，从狩猎、防暴再到军用武器。</Ammo_10GaugeDU_Buck.description>
+
+  <Ammo_10GaugeDU_Slug.label>10号口径金鸢尾兰霰弹 (独头弹)</Ammo_10GaugeDU_Slug.label>
+  <Ammo_10GaugeDU_Slug.description>几乎在所有应用中都非常常见的霰弹枪口径，从狩猎、防暴再到军用武器。</Ammo_10GaugeDU_Slug.description>
+
+  <Ammo_10GaugeDU_Beanbag.label>10号口径金鸢尾兰霰弹 (豆弹)</Ammo_10GaugeDU_Beanbag.label>
+  <Ammo_10GaugeDU_Beanbag.description>几乎在所有应用中都非常常见的霰弹枪口径，从狩猎、防暴再到军用武器。</Ammo_10GaugeDU_Beanbag.description>
+
+  <Ammo_10GaugeDU_ElectroSlug.label>10号口径金鸢尾兰霰弹 (EMP)</Ammo_10GaugeDU_ElectroSlug.label>
+  <Ammo_10GaugeDU_ElectroSlug.description>几乎在所有应用中都非常常见的霰弹枪口径，从狩猎、防暴再到军用武器。</Ammo_10GaugeDU_ElectroSlug.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_10GaugeDU_Buck.label>鹿弹</Bullet_10GaugeDU_Buck.label>
+  <Bullet_10GaugeDU_Slug.label>独头弹</Bullet_10GaugeDU_Slug.label>
+  <Bullet_10GaugeDU_Beanbag.label>豆弹</Bullet_10GaugeDU_Beanbag.label>
+  <Bullet_10GaugeDU_ElectroSlug.label>EMP独头弹</Bullet_10GaugeDU_ElectroSlug.label>
+
+
+</LanguageData>

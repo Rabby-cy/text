@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--===================== 朋友/仇人 =====================-->
+  <ThoughtDef ParentName="DeathMemory">
+    <defName>Kiiro_PawnWithGoodOpinionDied</defName>
+    <durationDays>10</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>My friend {0} passed away</label>
+        <description>This shouldn't be your outcome.</description>
+        <baseMoodEffect>-5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="DeathMemory">
+    <defName>Kiiro_PawnWithBadOpinionDied</defName>
+    <durationDays>5</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+    <stages>
+      <li>
+        <label>My enemy {0} passed away</label>
+        <description>Should I... feel happy about it?</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <!--===================== 家庭成员死亡 =====================-->
+  
+  <ThoughtDef Name="Kiiro_DeathMemoryFamily" ParentName="DeathMemory" Abstract="True">
+    <durationDays>15.0</durationDays>
+    <stackLimit>10</stackLimit>
+    <showBubble>true</showBubble>
+    <stackLimitForSameOtherPawn>1</stackLimitForSameOtherPawn>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="Kiiro_DeathMemoryFamily">
+    <defName>Kiiro_MySonDied</defName>
+    <stages>
+      <li>
+        <label>My son {0} left me</label>
+        <description>My son...</description>
+        <baseMoodEffect>-30</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="Kiiro_DeathMemoryFamily">
+    <defName>Kiiro_MyDaughterDied</defName>
+    <stages>
+      <li>
+        <label>My daughter {0} left me</label>
+        <description>my dear daughter...</description>
+        <baseMoodEffect>-30</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef ParentName="Kiiro_DeathMemoryFamily">
+    <defName>Kiiro_MyHusbandDied</defName>
+    <stages>
+      <li>
+        <label>My husband {0} left me</label>
+        <description>Don't leave me alone...</description>
+        <baseMoodEffect>-30</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef ParentName="Kiiro_DeathMemoryFamily">
+    <defName>Kiiro_MyWifeDied</defName>
+    <stages>
+      <li>
+        <label>My wife {0} left me</label>
+        <description>Don't leave me alone...</description>
+        <baseMoodEffect>-30</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef ParentName="Kiiro_DeathMemoryFamily">
+    <defName>Kiiro_MyFianceDied</defName>
+    <stages>
+      <li>
+        <label>My fiancé {0} left me</label>
+        <description>Don't leave me alone...</description>
+        <baseMoodEffect>-26</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef ParentName="Kiiro_DeathMemoryFamily">
+    <defName>Kiiro_MyFianceeDied</defName>
+    <stages>
+      <li>
+        <label>My fiancée {0} left me</label>
+        <description>Don't leave me alone...</description>
+        <baseMoodEffect>-26</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef ParentName="Kiiro_DeathMemoryFamily">
+    <defName>Kiiro_MyLoverDied</defName>
+    <stages>
+      <li>
+        <label>My lover {0} left me</label>
+        <description>I didn't even get a chance to say 'I love you' to you...</description>
+        <baseMoodEffect>-22</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef ParentName="Kiiro_DeathMemoryFamily">
+    <defName>Kiiro_MyBrotherDied</defName>
+    <stages>
+      <li>
+        <label>my brother {0} died</label>
+        <description>My brother has passed away... my sibling...</description>
+        <baseMoodEffect>-14</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef ParentName="Kiiro_DeathMemoryFamily">
+    <defName>Kiiro_MySisterDied</defName>
+    <stages>
+      <li>
+        <label>my sister {0} died</label>
+        <description>My sister has passed away... my sibling...</description>
+        <baseMoodEffect>-14</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="Kiiro_DeathMemoryFamily">
+    <defName>Kiiro_MyGrandchildDied</defName>
+    <stages>
+      <li>
+        <label>my grandchild {0} died</label>
+        <description>my dear grandchild...</description>
+        <baseMoodEffect>-30</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef ParentName="Kiiro_DeathMemoryFamily">
+    <defName>Kiiro_MyFatherDied</defName>
+    <stages>
+      <li>
+        <label>My father {0} left me</label>
+        <description>Dad...</description>
+        <baseMoodEffect>-25</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef ParentName="Kiiro_DeathMemoryFamily">
+    <defName>Kiiro_MyMotherDied</defName>
+    <stages>
+      <li>
+        <label>My mother {0} left me</label>
+        <description>Mom...</description>
+        <baseMoodEffect>-25</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef ParentName="Kiiro_DeathMemoryFamily">
+    <defName>Kiiro_MyNieceDied</defName>
+    <stages>
+      <li>
+        <label>my niece {0} died</label>
+        <description>My niece has passed away. She was so young...</description>
+        <baseMoodEffect>-7</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef ParentName="Kiiro_DeathMemoryFamily">
+    <defName>Kiiro_MyNephewDied</defName>
+    <stages>
+      <li>
+        <label>my nephew {0} died</label>
+        <description>My nephew has passed away. He was so young...</description>
+        <baseMoodEffect>-7</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef ParentName="Kiiro_DeathMemoryFamily">
+    <defName>Kiiro_MyHalfSiblingDied</defName>
+    <stages>
+      <li>
+        <label>my sibling {0} died</label>
+        <description>My sibling passed away.</description>
+        <baseMoodEffect>-7</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef ParentName="Kiiro_DeathMemoryFamily">
+    <defName>Kiiro_MyAuntDied</defName>
+    <stages>
+      <li>
+        <label>my aunt {0} died</label>
+        <description>My aunt passed away.</description>
+        <baseMoodEffect>-7</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef ParentName="Kiiro_DeathMemoryFamily">
+    <defName>Kiiro_MyUncleDied</defName>
+    <stages>
+      <li>
+        <label>my uncle {0} died</label>
+        <description>My uncle has passed away.</description>
+        <baseMoodEffect>-7</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef ParentName="Kiiro_DeathMemoryFamily">
+    <defName>Kiiro_MyGrandparentDied</defName>
+    <stages>
+      <li>
+        <label>my grandparent {0} died</label>
+        <description>My grandparent passed away.</description>
+        <baseMoodEffect>-22</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef ParentName="Kiiro_DeathMemoryFamily">
+    <defName>Kiiro_MyCousinDied</defName>
+    <stages>
+      <li>
+        <label>My cousin {0} died</label>
+        <description>My cousin passed away.</description>
+        <baseMoodEffect>-7</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef ParentName="Kiiro_DeathMemoryFamily">
+    <defName>Kiiro_MyKinDied</defName>
+    <stages>
+      <li>
+        <label>My kin {0} left me</label>
+        <description>My kin passed away.</description>
+        <baseMoodEffect>-6</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+
+</Defs>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+  <ScenarioDef>
+	<defName>Kiiro_Scenarios</defName>
+    <label>kiiro new home</label>
+    <description>The war forced the Kiiros to leave their hometown again. During the migration, four Kiiros unexpectedly lost contact with their companions and it became impossible for them to go back. With no other options, the four Kiiros had to embark on a journey to find a new home on their own. Thus, a new story begins.</description>
+    <scenario>
+      <summary>The displaced kiiros build their new home.</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>Kiiro_PlayerFaction</factionDef>
+      </playerFaction>
+      <parts>
+
+        <!-- Config pages -->
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+          <def>ConfigPage_ConfigureStartingPawns</def>
+          <pawnCount>4</pawnCount>
+          <pawnChoiceCount>8</pawnChoiceCount>
+        </li>
+
+        <!-- Player starting stuff spawn method-->
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <method>Standing</method>
+        </li>
+        
+        <!-- Player starting things -->
+        <li Class="ScenPart_StartingThing_Defined"><!--银子-->
+          <def>StartingThing_Defined</def>
+          <thingDef>Silver</thingDef>
+          <count>150</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined"><!--猫罐头-->
+          <def>StartingThing_Defined</def>
+          <thingDef>Kiiro_CannedCatFood</thingDef>
+          <count>20</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined"><!--混合草药-->
+          <def>StartingThing_Defined</def>
+          <thingDef>Kiiro_MixMedicineHerbal</thingDef>
+          <count>8</count>
+        </li>
+		<li Class="ScenPart_StartingThing_Defined"><!--草药-->
+          <def>StartingThing_Defined</def>
+          <thingDef>MedicineHerbal</thingDef>
+          <count>15</count>
+        </li>
+		<li Class="ScenPart_StartingThing_Defined"><!--睡袋-->
+          <def>StartingThing_Defined</def>
+          <thingDef>Bedroll</thingDef>
+		  <stuff>Cloth</stuff>
+          <count>4</count>
+        </li>
+
+        <!-- Scatter some things near player start -->
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>Steel</thingDef>
+          <count>320</count>
+        </li>
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>ScatterThingsNearPlayerStart</def>
+          <thingDef>WoodLog</thingDef>
+          <count>500</count>
+        </li>      
+
+        <!-- Scatter some things anywhere -->
+        <li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>ShipChunk</thingDef>
+          <allowRoofed>false</allowRoofed>
+          <count>8</count>
+        </li>
+        <li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>Steel</thingDef>
+          <count>420</count>
+        </li>
+        
+        <!-- Game start dialog -->
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <text>Well... then let's settle down here.</text>
+		  <textKey>GameStartDialog</textKey>
+          <closeSound>GameStartSting</closeSound>
+        </li>
+        
+      </parts>
+    </scenario>
+
+
+
+  </ScenarioDef>
+
+</Defs>

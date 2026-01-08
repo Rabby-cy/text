@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <HediffDef>
+        <defName>OARK_Hediff_WeakGravity</defName>
+        <label>引力减弱</label>
+        <description>因为引力异常而导致的行动轻便与呼吸受阻。</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>true</isBad>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <duplicationAllowed>false</duplicationAllowed>
+        <alwaysAllowMothball>true</alwaysAllowMothball>
+        <alwaysAllowMothballCached>true</alwaysAllowMothballCached>
+        <stages>
+            <li>
+                <capMods>
+                    <li>
+                        <capacity>Breathing</capacity>
+                        <postFactor>0.8</postFactor>
+                    </li>
+                </capMods>
+                <statFactors>
+                    <MoveSpeed>1.20</MoveSpeed>
+                </statFactors>
+            </li>
+        </stages>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>720</disappearsAfterTicks>
+                <showRemainingTime>false</showRemainingTime>
+            </li>
+            <li Class="HediffCompProperties_DisappearsOnDeath"/>
+        </comps>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>OARK_Hediff_StrongGravity</defName>
+        <label>引力阻碍</label>
+        <description>因为引力异常而导致的行动受阻与身体负担加重。</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>true</isBad>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <duplicationAllowed>false</duplicationAllowed>
+        <alwaysAllowMothball>true</alwaysAllowMothball>
+        <alwaysAllowMothballCached>true</alwaysAllowMothballCached>
+        <stages>
+            <li>
+                <painOffset>0.05</painOffset>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <postFactor>0.75</postFactor>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>720</disappearsAfterTicks>
+                <showRemainingTime>false</showRemainingTime>
+            </li>
+            <li Class="HediffCompProperties_DisappearsOnDeath"/>
+        </comps>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>OARK_Hediff_DisorderedGravity</defName>
+        <label>引力紊乱</label>
+        <description>因为引力紊乱而导致的行动受阻与恶心。</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>true</isBad>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <duplicationAllowed>false</duplicationAllowed>
+        <alwaysAllowMothball>true</alwaysAllowMothball>
+        <alwaysAllowMothballCached>true</alwaysAllowMothballCached>
+        <stages>
+            <li>
+                <vomitMtbDays>0.5</vomitMtbDays>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <postFactor>0.90</postFactor>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>720</disappearsAfterTicks>
+                <showRemainingTime>false</showRemainingTime>
+            </li>
+            <li Class="HediffCompProperties_DisappearsOnDeath"/>
+        </comps>
+    </HediffDef>
+
+
+    <HediffDef>
+        <defName>OARK_Hediff_DisorderedMagnetism</defName>
+        <label>电磁紊乱</label>
+        <description>因为极端的引力环境导致的内部机能失调。</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>true</isBad>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <duplicationAllowed>false</duplicationAllowed>
+        <alwaysAllowMothball>true</alwaysAllowMothball>
+        <alwaysAllowMothballCached>true</alwaysAllowMothballCached>
+        <stages>
+            <li>
+                <capMods>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <postFactor>0.8</postFactor>
+                    </li>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <postFactor>0.9</postFactor>
+                    </li>
+                    <li>
+                        <capacity>Manipulation</capacity>
+                        <postFactor>0.9</postFactor>
+                    </li>
+                </capMods>
+                <statFactors>
+                    <IncomingDamageFactor>1.25</IncomingDamageFactor>
+                </statFactors>
+            </li>
+        </stages>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>720</disappearsAfterTicks>
+                <showRemainingTime>false</showRemainingTime>
+            </li>
+            <li Class="HediffCompProperties_DisappearsOnDeath"/>
+        </comps>
+    </HediffDef>
+
+</Defs>

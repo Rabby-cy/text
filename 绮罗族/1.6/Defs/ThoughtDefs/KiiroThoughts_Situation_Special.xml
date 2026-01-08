@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ThoughtDef>
+    <defName>Kiiro_Naked</defName>
+    <workerClass>ThoughtWorker_PsychologicallyNude</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <nullifyingTraits>
+      <li>Nudist</li>
+    </nullifyingTraits>
+    <nullifyingGenes>
+      <li MayRequire="Ludeon.RimWorld.Biotech">Furskin</li>
+    </nullifyingGenes>
+    <stages>
+      <li>
+        <label>naked</label>
+        <description>please... at least let me wear a piece of clothing...!</description>
+        <baseMoodEffect>-12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+</Defs>

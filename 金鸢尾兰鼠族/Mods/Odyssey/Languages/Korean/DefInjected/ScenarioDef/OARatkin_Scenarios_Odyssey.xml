@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<OA_RK_Scenario_Navigate.label>중단된 항해</OA_RK_Scenario_Navigate.label>
+  <OA_RK_Scenario_Navigate.description>모든 통항부 시종들은 자유로운 탐험을 꿈꾸는 마음을 가지고 있으며, 그 중 야심 찬 일부는 충분한 기술을 배우고 적합한 동료들을 모은 후 통항부를 떠나, 공동으로 모은 자금으로 소형 우주선을 구입해 자유롭게 탐험한다.\n\n하지만 탐험은 필연적으로 위험과 함께하는 법, 이번에도 출항한 지 얼마 되지 않아 메카노이드 함선과 마주쳤다. 경보가 멈추지 않는 가운데, 뛰어난 조종 기술 덕분에 네 사람은 간신히 탈출에 성공했다. 하지만 함선의 신호는 이미 기록되었고, 앞으로의 탐험은 끝없는 메카노이드의 추격과 함께할 것임이 분명하다.\n\n여기서 멈추고 함선을 포기한 채 아이리스 제국으로 돌아가 보호를 받을 것인가? 아니면 탐험을 계속하며 어떤 위험도 맞닥뜨릴 것인가?\n\n이것은 선택이 아니다.</OA_RK_Scenario_Navigate.description>
+  <OA_RK_Scenario_Navigate.scenario.name>중단된 항해</OA_RK_Scenario_Navigate.scenario.name>
+  <OA_RK_Scenario_Navigate.scenario.summary>출항 전 북극성에게 기도를 잊은 탓일지도 모르지만, 좋은 날들은 시작도 전에 끝나 버렸다.</OA_RK_Scenario_Navigate.scenario.summary>
+  <OA_RK_Scenario_Navigate.scenario.description>모든 통항부 시종들은 자유로운 탐험을 꿈꾸는 마음을 가지고 있으며, 그 중 야심 찬 일부는 충분한 기술을 배우고 적합한 동료들을 모은 후 통항부를 떠나, 공동으로 모은 자금으로 소형 우주선을 구입해 자유롭게 탐험한다.\n\n하지만 탐험은 필연적으로 위험과 함께하는 법, 이번에도 출항한 지 얼마 되지 않아 메카노이드 함선과 마주쳤다. 경보가 멈추지 않는 가운데, 뛰어난 조종 기술 덕분에 네 사람은 간신히 탈출에 성공했다. 하지만 함선의 신호는 이미 기록되었고, 앞으로의 탐험은 끝없는 메카노이드의 추격과 함께할 것임이 분명하다.\n\n여기서 멈추고 함선을 포기한 채 아이리스 제국으로 돌아가 보호를 받을 것인가? 아니면 탐험을 계속하며 어떤 위험도 맞닥뜨릴 것인가?\n\n이것은 선택이 아니다.</OA_RK_Scenario_Navigate.scenario.description>
+
+</LanguageData>

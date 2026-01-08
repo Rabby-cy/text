@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OA_BestowingCeremony.questNameRules.rulesStrings>
+        <li>questName->[pawn_definite]的[newTitle]授勳儀式</li>
+    </OA_BestowingCeremony.questNameRules.rulesStrings>
+
+    <OA_BestowingCeremony.questDescriptionRules.rulesStrings>
+        <li>questDescription->[faction_name]准備在授勳儀式中授予[pawn_definite][newTitle]頭銜\n\n授勳者將乘坐穿梭機來執行儀式。\n\n[pawn_definite]將有機會獲得額外的榮譽點數，取決于有多少觀衆參加儀式。此外，每名觀衆都將獲得心情增益。\n\n如果妳錯過了儀式，或者儀式失敗了，過些時候會有新的儀式機會。如果授勳者和守衛因任何原因受到傷害，都會産生相應的外交影響。</li>
+    </OA_BestowingCeremony.questDescriptionRules.rulesStrings>
+
+</LanguageData>

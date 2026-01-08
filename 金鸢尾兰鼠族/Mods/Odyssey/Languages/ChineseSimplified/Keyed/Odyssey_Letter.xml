@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OARK_LetterLabel_GravDataBeaconLanded>数据传输完成</OARK_LetterLabel_GravDataBeaconLanded>
+    <OARK_Letter_GravDataBeaconLanded>科研部信标成功录入并传输了大量的逆重引擎起降数据，这将显著的提升科研部的研究进展。然而在这传输过程中，庞大的数据流也成为了极为醒目的信号，也许是时候该准备应对机械族的袭击了。</OARK_Letter_GravDataBeaconLanded>
+
+    <OARK_LetterLabel_EnterCrashedGravship>金鸢尾兰的数据链接</OARK_LetterLabel_EnterCrashedGravship>
+    <OARK_Letter_EnterCrashedGravship>为了帮助你更好的获取信息，金鸢尾兰的技术部已对飞船信息库进行远距离锁定。\n这将会避免你在骇入途中触发信息库的自我格式化，同时也会在你获得更多权限后，帮助你判断飞船的具体来源。</OARK_Letter_EnterCrashedGravship>
+
+    <OARK_LetterLabel_NormalPilot>飞船来源：常规</OARK_LetterLabel_NormalPilot>
+    <OARK_Letter_NormalPilot>技术部已经从你所骇入的数据中帮助你确定了这艘落难飞船的所属：这是一个小规模的太空势力，你可以放心骇入，而无需担心遭到报复袭击。</OARK_Letter_NormalPilot>
+
+    <OARK_LetterLabel_NotNormalPilot>飞船来源：海盗</OARK_LetterLabel_NotNormalPilot>
+    <OARK_Letter_NotNormalPilot>技术部已经从你所骇入的数据中帮助你确定了这艘落难飞船的所属：这是那伙太空海盗的舰船，而且根据信息库中的最后通讯来看，已经有一伙海盗正在向着此地进发。\n\n你可以选择继续骇入，但这可能导致你与海盗的正面冲突。而如果你选择放弃，那么你将失去已骇入的所有进度。</OARK_Letter_NotNormalPilot>
+
+    <OARK_LetterLabel_BrokenPilotAttack>海盗的临近</OARK_LetterLabel_BrokenPilotAttack>
+    <OARK_Letter_BrokenPilotAttack>技术部向你转达了一个消息：一群与该飞船数据信号类似的单位正在接近此地，他们极有可能就是前来回收飞船的海盗。如果你选择继续骇入，那么你与这伙海盗之间的冲突将不可避免。\n\n按照当前的信号移动速度来推测，他们将会在1小时后抵达此地。</OARK_Letter_BrokenPilotAttack>
+
+    <OARK_LetterLabel_BrokenPilotRequest>数据获取请求</OARK_LetterLabel_BrokenPilotRequest>
+    <OARK_Letter_BrokenPilotRequest>当地的金鸢尾兰宫廷向你发出了一份正式的数据移交请求。\n\n他们希望能够使用你已取得的权限，来攻破飞船的数据核心。如果你同意移交权限，那么当地宫廷将调取飞船的航行记录以寻找可能的受害者，确定区域的失踪者名单并追踪定位海盗港的具体位置，然而这样直接的信息获取将触发飞船信息库的自我格式化，并使得其他的所有数据遭到删除。\n而作为补偿，当地宫廷将会为你投放一定数量的白银，并提升你的帝国贡献以弥补你的损失并表彰你的卓越贡献。\n\n这并非一个强制性的要求，如果拒绝也不会导致任何损失。</OARK_Letter_BrokenPilotRequest>
+
+    <OARK_LetterLabel_CrashedGravshipFollowUp>遥远的烟花</OARK_LetterLabel_CrashedGravshipFollowUp>
+    <OARK_Letter_CrashedGravshipFollowUp>得益于你之前骇入海盗舰船时所提供的情报，金鸢尾兰的空港护卫舰队联合了商帮舰队，就在刚刚成功彻底摧毁了一个隐藏颇深的海盗劫掠港，这让饱受海盗困扰的商帮对你极为满意，连带着本就对你富有好感的金鸢尾兰帝国对你的印象也再次好了几分。\n\n尽管距离较远，但你依然可以看到那遥远的地方炸出来的一片片火光以及飞溅的空间站碎片，大概没有是能比这场烟花更加赏心悦目的了。</OARK_Letter_CrashedGravshipFollowUp>
+
+    <OARK_LetterLabel_BrokenPilotHacked>信息库骇入完成</OARK_LetterLabel_BrokenPilotHacked>
+    <OARK_Letter_BrokenPilotHacked_NoProjectProgress>你的殖民者完成了对飞船信息库的骇入，但可惜的是并没有找到任何有意义的数据。</OARK_Letter_BrokenPilotHacked_NoProjectProgress>
+    <OARK_Letter_BrokenPilotHacked>你的殖民者完成了对飞船信息库的骇入，并成功收集到了大量有用的数据信息。</OARK_Letter_BrokenPilotHacked>
+
+    <!-- 友好事件-->
+    <OARK_LetterLabel_ScienceDepartmentFriendly>科研部的通讯</OARK_LetterLabel_ScienceDepartmentFriendly>
+    <OARK_Letter_ScienceDepartmentFriendly>得益于上一次你所提供的逆重引擎起降数据，科研部对逆重科技的反推研究得到了突破性的进展。尽管仍然有大量科研员仍沉迷于更进一步的研究探索，但无论怎么说科研部也是难得的全面放松了起来。\n\n而作为重要的逆重数据提供者，科研官们并未将你的贡献视作理所应当，而是希望对你进行回报以表达对你的认可与谢意。于是他们向你发出了一份供应清单，以回报你的勇气，对科技的探索，以及你与鸢尾兰的友谊。\n\n你可以向他们提出以下的要求：</OARK_Letter_ScienceDepartmentFriendly>
+    <OARK_ScienceDepartmentFriendly_I>我们希望能够让我们的一位成员得到更多知识。</OARK_ScienceDepartmentFriendly_I>
+    <OARK_ScienceDepartmentFriendly_II>我们需要一些零部件来保证飞船运转。</OARK_ScienceDepartmentFriendly_II>
+    <OARK_ScienceDepartmentFriendly_III>我们希望能够得到一些金鸢尾兰帝国的特产。</OARK_ScienceDepartmentFriendly_III>
+    <OARK_ScienceDepartmentFriendly_IV>我们希望能够在航行途中得到停驻金鸢尾兰空港的许可。</OARK_ScienceDepartmentFriendly_IV>
+    <OARK_ScienceDepartmentFriendly_V>我们希望能够得到更多的科研蓝图。</OARK_ScienceDepartmentFriendly_V>
+
+    <!--OARK_ScienceDepartmentFriendly_I>我们的一位成员希望能够得到更多的知识与见解。</OARK_ScienceDepartmentFriendly_I>
+    <OARK_ScienceDepartmentFriendly_II>我们可能需要一些能够让我们飞船运转流畅的零部件。</OARK_ScienceDepartmentFriendly_II>
+    <OARK_ScienceDepartmentFriendly_III>友谊不应明码标价，但一些象征性的特产将会让我们彼此更加亲近。</OARK_ScienceDepartmentFriendly_III>
+    <OARK_ScienceDepartmentFriendly_IV>我们希望能够在飞行期间停驻鸢尾兰的补给港口并进行休整，来让我们能够更加自由的探索世界。</OARK_ScienceDepartmentFriendly_IV>
+    <OARK_ScienceDepartmentFriendly_V>我想我们应当共同推进科技的进步与发展，而不受蓝图所拘束。</OARK_ScienceDepartmentFriendly_V-->
+    <OARK_ScienceDepartmentFriendly_Default>不，为科研的献身并非利益能明码标价，而真挚的友谊也不是目的明确的交易</OARK_ScienceDepartmentFriendly_Default>
+
+    <OARK_LetterLabel_GravResearchExchange>穿梭机抵达</OARK_LetterLabel_GravResearchExchange>
+    <OARK_Letter_GravResearchExchange>科研官在稍微思考后便直接同意了你的请求。\n\n在通讯中他表示，最高效的知识教授是教授思考的方式，因此他为你的一位殖民者安排好了一次彻底的科研部实地参观流程。当你的殖民者做好准备后，便可以通过穿梭机前来造访，科研部将会热情的接待你的殖民者。</OARK_Letter_GravResearchExchange>
+
+</LanguageData>

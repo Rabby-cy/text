@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <QuestScriptDef>
+        <defName>OA_WoundedTraveler</defName>
+        <rootSelectionWeight>1.0</rootSelectionWeight>
+        <rootSelectionWeightFactorFromPointsCurve> <!-- More common at lower points values -->
+            <points>
+                <li>(0,3)</li>
+                <li>(200,3)</li>
+                <li>(500,1)</li>
+            </points>
+        </rootSelectionWeightFactorFromPointsCurve>
+        <rootMinPoints>0</rootMinPoints>
+        <expireDaysRange>4~8</expireDaysRange>
+        <hideInvolvedFactionsInfo>true</hideInvolvedFactionsInfo>
+        <affectedByPopulation>true</affectedByPopulation>
+        <affectedByPoints>false</affectedByPoints>
+        <defaultCharity>true</defaultCharity>
+        <successHistoryEvent MayRequire="Ludeon.RimWorld.Ideology">CharityFulfilled_HospitalityRefugees</successHistoryEvent>
+        <failedOrExpiredHistoryEvent MayRequire="Ludeon.RimWorld.Ideology">CharityRefused_HospitalityRefugees</failedOrExpiredHistoryEvent>
+        <questNameRules>
+            <rulesStrings>
+
+                <li>questName->[lodgerAdj][lodgerPlural]</li>
+                <!--li>questName->[asker_nameDef]的[lodgerPlural]</li-->
+
+                <li>lodgerAdj->负伤的</li>
+				<li>lodgerAdj->疲倦的</li>
+				<li>lodgerAdj->受创的</li>
+				<li>lodgerPlural->旅行者们</li>
+                <li>lodgerPlural->远行者们</li>
+				<li>lodgerPlural->探险家们</li>
+
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionAndNameRules>
+            <rulesStrings>
+                <li>lodgersLabel->远行者</li>
+                <li>lodgersLabelPlural->远行者们</li>
+            </rulesStrings>
+        </questDescriptionAndNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+
+                <!-- Misc -->
+                <li>offer->提议</li>
+
+                <!-- General use -->
+
+                <li>lodgersPronoun->她们</li>
+
+                <li>lodgersPreposition->她们自己</li>
+
+                <li>lodgersObjective->她们</li>
+                <li>lodgersObjective->[asker_nameDef]她们</li>
+
+                <li>lodgersPossessive->她们的</li>
+                <li>lodgersSingularOrPluralDef->[lodgersLabelPlural]</li>
+
+                <!-- Quest description -->
+                <li>questDescription->[approachInfo][claimInfo][asker_nameDef]请求你允许在[map_definite]待上 [questDurationTicks_duration]来让[lodgersPronoun]进行修养与整顿。\n\n作为回报， [lodgersPronoun][offer] 在此期间内免费为你工作和战斗。\n\n[joinInfo][lodgersPronoun]可能会在过后酬谢你对[lodgersObjective]的帮助。\n\n[travelerInfo]属于[asker_factionName]。 如果你选择杀害、逮捕、出售或者采割[lodgersObjective]，将产生十分严重的外交后果。</li>
+
+                <li>approachInfo->[asker_nameDef]和其他负伤的[faction_pawnSingular]正在靠近。</li>
+
+                <li>approachInfo(lodgerCount>=3)->[lodgerCount]名负伤而疲倦的[faction_pawnsPlural]正在靠近， 她们的领袖是[asker_nameDef]。</li>
+  
+                <li>claimInfo->她们遇到了突发的地质灾害，尽管她们费尽体力成功逃出了这场灾难，但依然有一名同伴在逃难过程中受到了严重的摔伤，因此请求在你的殖民地进行疗养。当所有人的伤势全部恢复后，她们就会离开。</li>
+                <li>joinInfo->如果你能让她们开心，她们中的一部分可能会提议加入你。</li>
+                <li>travelerInfo->这些[faction_pawnsPlural]</li>
+
+            </rulesStrings>
+        </questDescriptionRules>
+        <questContentRules>
+            <rulesStrings>
+
+                <!-- Misc -->
+                <li>lastOrNot->最后的</li>
+                <li>lodgersLabelSingularOrPlural->[lodgersLabelPlural]</li>
+
+                <!-- Arrived -->
+                <li>lodgersArriveLetterLabel->[lodgersLabelSingularOrPlural] 抵达</li>
+                <li>lodgersArriveLetterText->[lodgersSingularOrPluralDef] [hasHave] 抵达。 [lodgersPronoun]将会和你共处[questDurationTicks_duration]来重整旗鼓。</li>
+                <li>hasHave->已经</li>
+
+                <!-- Lodger action -->
+                <li>othersWillNotAccept->The {PAWNSALIVECOUNT_multiple ? 其他人 : 最后的 [lodgersLabel]} 不乐意接受</li>
+                <li>decidedToLeave->[othersWillNotAccept]， 并且决定离开。</li>
+                <li>whoAskedToStay->请求与你共处的人</li>
+                <li>oneOfThe->其中一个疲倦的 [whoAskedToStay]</li>
+                <li>questOver->任务 '[resolvedQuestName]' 已经结束。</li>
+
+                <!-- Interaction response: Lodger death -->
+                <li>letterIntroDeath->{SUBJECT_definite}， [oneOfThe] 已经死亡。</li>
+                <li>lodgerDiedLeaveMapLetterLabel->[lodgersLabel] 死亡：离开</li>
+                <li>lodgerDiedLeaveMapLetterText->[letterIntroDeath]\n\n[decidedToLeave]</li>
+                <li>lodgersAllDiedLetterLabel->任务失败</li>
+                <li>lodgersAllDiedLetterText->{SUBJECT_definite}，[lastOrNot] 不顾一切的 [faction_pawnSingular] （[whoAskedToStay]）， 已经死亡。\n\n[questOver]</li>
+
+                <!-- Interaction response: Lodger arrested -->
+                <li>letterIntroArrested->你逮捕了 {SUBJECT_definite} （[oneOfThe]）。</li>
+                <li>lodgerArrestedLeaveMapLetterLabel->[lodgersLabel] 逮捕：离开</li>
+                <li>lodgerArrestedLeaveMapLetterText->[letterIntroArrested]\n\n[decidedToLeave]</li>
+                <li>lodgersAllArrestedLetterLabel->任务失败</li>
+                <li>lodgersAllArrestedLetterText->你逮捕了 {SUBJECT_definite}, [lastOrNot] 不顾一切的 [faction_pawnSingular] （[whoAskedToStay]）。\n\n[questOver]</li>
+
+                <!-- Interaction response: Lodger violated by surgery -->
+                <li>letterIntroViolated->{SUBJECT_definite}， （[oneOfThe]）， 被执行了非法的手术。</li>
+                <li>lodgerViolatedLeaveMapLetterLabel->[lodgersLabel] 违法：离开</li>
+                <li>lodgerViolatedLeaveMapLetterText->[letterIntroViolated]\n\n[decidedToLeave]</li>
+
+                <!-- Quest completed -->
+                <li>lodgersLeavingEarlyLetterLabel->[lodgersLabelSingularOrPlural] 提前离开</li>
+                <li>lodgersLeavingEarlyLetterText->[asker_nameDef]感谢你允许{FACTION_leaderObjective}在这些天里待在[map_definite]。[lodgersPronoun]现在正与 {FACTION_leaderPossessive}伙伴们一同前进。\n\n[asker_nameDef]说[lodgersObjective]永远不会忘记你做的这些事。</li>
+
+                <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] 离开</li>
+                <li>lodgersLeavingLetterText->[asker_nameDef] 感谢你允许{FACTION_leaderObjective}在[questDurationTicks_duration]里待在[map_definite]。[lodgersPronoun]现在正与{FACTION_leaderPossessive}伙伴们一同前进。\n\n[asker_nameDef]说[lodgersObjective]永远不会忘记你做的这些事。</li>
+
+            </rulesStrings>
+        </questContentRules>
+        <root Class="OberoniaAurea.QuestNode_Root_WoundedTraveler" />
+    </QuestScriptDef>
+
+    <!-- 分成两个Hediff比较容易实现 -->
+    <HediffDef ParentName="DiseaseBase">
+        <defName>OA_RK_SeriousInjuryII</defName>
+        <label>严重受伤</label>
+        <description>该单位的心理与生理皆受到了严重的损伤，需要一定的时间来进行修养才能缓解。</description>
+        <initialSeverity>1</initialSeverity>
+        <stages>
+            <li>
+                <label>重度</label>
+                <statFactors>
+                    <InjuryHealingFactor>0.15</InjuryHealingFactor>
+                </statFactors>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>-0.3</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>180000</disappearsAfterTicks> <!-- 3天 -->
+            </li>
+            <li Class="OberoniaAurea.HediffCompProperties_GiveHediffWhenRemoved">
+                <hediffDef>OA_RK_SeriousInjuryI</hediffDef>
+                <skipIfAlreadyExists>true</skipIfAlreadyExists>
+            </li>
+        </comps>
+    </HediffDef>
+    <HediffDef ParentName="DiseaseBase">
+        <defName>OA_RK_SeriousInjuryI</defName>
+        <label>严重受伤</label>
+        <description>该单位的心理与生理皆受到了严重的损伤，需要一定的时间来进行修养才能缓解。</description>
+        <initialSeverity>1</initialSeverity>
+        <stages>
+            <li>
+                <label>缓和</label>
+                <statFactors>
+                    <InjuryHealingFactor>0.35</InjuryHealingFactor>
+                </statFactors>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>-0.15</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>120000</disappearsAfterTicks> <!-- 2天 -->
+            </li>
+        </comps>
+    </HediffDef>
+
+</Defs>

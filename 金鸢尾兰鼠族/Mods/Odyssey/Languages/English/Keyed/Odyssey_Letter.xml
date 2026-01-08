@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+<OARK_LetterLabel_GravDataBeaconLanded>Data Transmission Complete</OARK_LetterLabel_GravDataBeaconLanded>
+<OARK_Letter_GravDataBeaconLanded>The Research Department beacon has successfully recorded and transmitted a large amount of reverse-gravity engine landing data, which will significantly advance the Research Department's progress. However, during this transmission process, the massive data stream also created a highly conspicuous signal. Perhaps it's time to prepare for mechanoid attacks.</OARK_Letter_GravDataBeaconLanded>
+
+<OARK_LetterLabel_EnterCrashedGravship>Oberonia Aurea Orchid Data Link</OARK_LetterLabel_EnterCrashedGravship>
+<OARK_Letter_EnterCrashedGravship>To assist your data retrieval, Oberonia Aurea Orchid's technical division has remotely locked the ship's database.\nThis will prevent automatic formatting during your hacking attempt, and will help identify the ship's origin as you gain more access privileges.</OARK_Letter_EnterCrashedGravship>
+
+<OARK_LetterLabel_NormalPilot>Ship Origin: Civilian</OARK_LetterLabel_NormalPilot>
+<OARK_Letter_NormalPilot>Technical division has identified this wreck's affiliation from your hacked data: a minor space faction. You may proceed without fear of retaliatory attacks.</OARK_Letter_NormalPilot>
+
+<OARK_LetterLabel_NotNormalPilot>Ship Origin: Pirate</OARK_LetterLabel_NotNormalPilot>
+<OARK_Letter_NotNormalPilot>Technical division has identified this as a pirate vessel. Database logs indicate a pirate group is already en route.\n\nYou may continue hacking, but this may lead to direct confrontation. Abandoning now will lose all hacking progress.</OARK_Letter_NotNormalPilot>
+
+<OARK_LetterLabel_BrokenPilotAttack>Pirates Approaching</OARK_LetterLabel_BrokenPilotAttack>
+<OARK_Letter_BrokenPilotAttack>Technical division reports: vessels matching this ship's signature are approaching - likely pirates coming to salvage. Continued hacking will inevitably provoke conflict.\n\nEstimated arrival: 1 hour.</OARK_Letter_BrokenPilotAttack>
+
+<OARK_LetterLabel_BrokenPilotRequest>Data Transfer Request</OARK_LetterLabel_BrokenPilotRequest>
+<OARK_Letter_BrokenPilotRequest>Local Oberonia Aurea Orchid court formally requests data access.\n\nThey propose using your access privileges to breach the ship's core database for victim identification and pirate base tracking. This will trigger automatic data wipe, but they'll compensate with silver shipments and increased imperial standing.\n\nThis optional request carries no penalty for refusal.</OARK_Letter_BrokenPilotRequest>
+
+<OARK_LetterLabel_CrashedGravshipFollowUp>Distant Fireworks</OARK_LetterLabel_CrashedGravshipFollowUp>
+<OARK_Letter_CrashedGravshipFollowUp>Your earlier intelligence enabled joint fleets to destroy a hidden pirate base. Merchant guilds express gratitude, and Imperial opinion of you has further improved.\n\nEven at this distance, the exploding space station creates a spectacular lightshow - arguably the most satisfying fireworks display imaginable.</OARK_Letter_CrashedGravshipFollowUp>
+
+<OARK_LetterLabel_BrokenPilotHacked>Database Hack Complete</OARK_LetterLabel_BrokenPilotHacked>
+<OARK_Letter_BrokenPilotHacked_NoProjectProgress>Your colonists completed the hack but found no meaningful data.</OARK_Letter_BrokenPilotHacked_NoProjectProgress>
+<OARK_Letter_BrokenPilotHacked>Your colonists successfully extracted valuable data from the ship's database.</OARK_Letter_BrokenPilotHacked>
+
+<!-- Friendly Event -->
+<OARK_LetterLabel_ScienceDepartmentFriendly>Science Division Communication</OARK_LetterLabel_ScienceDepartmentFriendly>
+<OARK_Letter_ScienceDepartmentFriendly>Your anti-gravity engine data enabled breakthrough research. While many researchers remain absorbed in further study, the department is collectively celebrating.\n\nAs key contributors, they've prepared a reward list acknowledging your courage, scientific curiosity, and friendship with the Oberonia Aurea Orchids.\n\nYou may request:</OARK_Letter_ScienceDepartmentFriendly>
+<OARK_ScienceDepartmentFriendly_I>Advanced training for one of our members</OARK_ScienceDepartmentFriendly_I>
+<OARK_ScienceDepartmentFriendly_II>Spare ship components</OARK_ScienceDepartmentFriendly_II>
+<OARK_ScienceDepartmentFriendly_III>Imperial specialty goods</OARK_ScienceDepartmentFriendly_III>
+<OARK_ScienceDepartmentFriendly_IV>Docking privileges at Imperial spaceports</OARK_ScienceDepartmentFriendly_IV>
+<OARK_ScienceDepartmentFriendly_V>Additional research blueprints</OARK_ScienceDepartmentFriendly_V>
+
+<!--OARK_ScienceDepartmentFriendly_I>One of our members seeks greater knowledge and insight.</OARK_ScienceDepartmentFriendly_I>
+    <OARK_ScienceDepartmentFriendly_II>We could use spare parts to keep our ship running smoothly.</OARK_ScienceDepartmentFriendly_II>
+    <OARK_ScienceDepartmentFriendly_III>Friendship shouldn't be transactional, but symbolic gifts would strengthen our bond.</OARK_ScienceDepartmentFriendly_III>
+    <OARK_ScienceDepartmentFriendly_IV>We'd like docking privileges at Iris Orchid supply ports during our travels for greater exploration freedom.</OARK_ScienceDepartmentFriendly_IV>
+    <OARK_ScienceDepartmentFriendly_V>We should advance technology together, unconstrained by blueprints.</OARK_ScienceDepartmentFriendly_V-->
+    <OARK_ScienceDepartmentFriendly_Default>No, scientific dedication can't be priced, and true friendship isn't a calculated transaction</OARK_ScienceDepartmentFriendly_Default>
+
+    <OARK_LetterLabel_GravResearchExchange>Shuttle Arrival</OARK_LetterLabel_GravResearchExchange>
+    <OARK_Letter_GravResearchExchange>The research officer agreed to your request after brief consideration.\n\nIn the communication, he stated that the most effective way to teach knowledge is to teach how to think, therefore he has arranged a comprehensive on-site tour of the Research Department for one of your colonists. When your colonist is ready, they can visit via shuttle, and the Research Department will warmly welcome your colonist.</OARK_Letter_GravResearchExchange>
+
+</LanguageData>

@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: bulk goods trader -->
+  <OA_RK_Make_Hecheng.label>制作金鸢尾兰合成纤维</OA_RK_Make_Hecheng.label>
+  <OA_RK_Make_Hecheng.description>运用金鸢尾兰帝国的特殊工艺，制作60*合成纤维。</OA_RK_Make_Hecheng.description>
+    <OA_RK_Make_Hecheng.jobString>提炼合成纤维</OA_RK_Make_Hecheng.jobString>
+    
+  <!-- EN: ambulance chaser -->
+  <Make_Oberonia_Aurea_Tea.label>冲泡金鸢尾兰 花茶</Make_Oberonia_Aurea_Tea.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <Make_Oberonia_Aurea_Tea.description>冲泡金鸢尾兰 花茶</Make_Oberonia_Aurea_Tea.description>
+  <Make_Oberonia_Aurea_Tea.jobString>冲泡金鸢尾兰 花茶</Make_Oberonia_Aurea_Tea.jobString>
+ 
+  <!-- EN: ambulance chaser -->
+  <Make_OA_RK_TurretGun_Bullet.label>制作20枚金鸢尾兰火箭榴弹</Make_OA_RK_TurretGun_Bullet.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <Make_OA_RK_TurretGun_Bullet.description>制作20枚金鸢尾兰火箭榴弹</Make_OA_RK_TurretGun_Bullet.description>
+  <Make_OA_RK_TurretGun_Bullet.jobString>制作火箭榴弹</Make_OA_RK_TurretGun_Bullet.jobString>
+ 
+  
+  <!-- EN: ambulance chaser -->
+  <Make_Oberonia_Aurea_Chanwu_A.label>制作10枚金鸢尾兰炒花饼</Make_Oberonia_Aurea_Chanwu_A.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <Make_Oberonia_Aurea_Chanwu_A.description>制作10枚金鸢尾兰炒花饼</Make_Oberonia_Aurea_Chanwu_A.description>
+  <Make_Oberonia_Aurea_Chanwu_A.jobString>制作金鸢尾兰炒花饼</Make_Oberonia_Aurea_Chanwu_A.jobString>
+  
+   <!-- EN: ambulance chaser -->
+  <Make_Oberonia_Aurea_Chanwu_B.label>制作10枚金鸢尾兰花饼</Make_Oberonia_Aurea_Chanwu_B.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <Make_Oberonia_Aurea_Chanwu_B.description>制作10枚金鸢尾兰花饼</Make_Oberonia_Aurea_Chanwu_B.description>
+  <Make_Oberonia_Aurea_Chanwu_B.jobString>制作金鸢尾兰花饼</Make_Oberonia_Aurea_Chanwu_B.jobString>
+  
+   <!-- EN: ambulance chaser -->
+  <Make_Oberonia_Aurea_Chanwu_C.label>制作10枚金鸢尾兰莓果花饼</Make_Oberonia_Aurea_Chanwu_C.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <Make_Oberonia_Aurea_Chanwu_C.description>制作10枚金鸢尾兰莓果花饼</Make_Oberonia_Aurea_Chanwu_C.description>
+  <Make_Oberonia_Aurea_Chanwu_C.jobString>制作金鸢尾兰莓果花饼</Make_Oberonia_Aurea_Chanwu_C.jobString>
+  
+   <!-- EN: ambulance chaser -->
+  <Make_Oberonia_Aurea_Chanwu_D.label>制作2份金鸢尾兰花蜜</Make_Oberonia_Aurea_Chanwu_D.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <Make_Oberonia_Aurea_Chanwu_D.description>制作2份金鸢尾兰花蜜</Make_Oberonia_Aurea_Chanwu_D.description>
+  <Make_Oberonia_Aurea_Chanwu_D.jobString>制作金鸢尾兰花蜜</Make_Oberonia_Aurea_Chanwu_D.jobString>
+  
+   <!-- EN: ambulance chaser -->
+  <Make_Oberonia_Aurea_Chanwu_AA.label>制作2份金鸢尾兰炸花丸</Make_Oberonia_Aurea_Chanwu_AA.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <Make_Oberonia_Aurea_Chanwu_AA.description>制作2份金鸢尾兰炸花丸</Make_Oberonia_Aurea_Chanwu_AA.description>
+  <Make_Oberonia_Aurea_Chanwu_AA.jobString>制作金鸢尾兰炸花丸</Make_Oberonia_Aurea_Chanwu_AA.jobString>
+  
+   <!-- EN: ambulance chaser -->
+  <Make_Oberonia_Aurea_Chanwu_AB.label>制作4份金鸢尾兰花糕</Make_Oberonia_Aurea_Chanwu_AB.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <Make_Oberonia_Aurea_Chanwu_AB.description>制作4份金鸢尾兰花糕</Make_Oberonia_Aurea_Chanwu_AB.description>
+  <Make_Oberonia_Aurea_Chanwu_AB.jobString>制作金鸢尾兰花糕</Make_Oberonia_Aurea_Chanwu_AB.jobString>
+  
+   <!-- EN: ambulance chaser -->
+  <Make_Oberonia_Aurea_Chanwu_AC.label>制作4份金鸢尾兰流心花糕</Make_Oberonia_Aurea_Chanwu_AC.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <Make_Oberonia_Aurea_Chanwu_AC.description>制作4份金鸢尾兰流心花糕</Make_Oberonia_Aurea_Chanwu_AC.description>
+  <Make_Oberonia_Aurea_Chanwu_AC.jobString>制作金鸢尾兰流心花糕</Make_Oberonia_Aurea_Chanwu_AC.jobString>
+ 
+    <!-- EN: ambulance chaser -->
+  <Make_Oberonia_Aurea_Chanwu_E.label>提炼2份金鸢尾兰花清素</Make_Oberonia_Aurea_Chanwu_E.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <Make_Oberonia_Aurea_Chanwu_E.description>提炼2份金鸢尾兰花清素</Make_Oberonia_Aurea_Chanwu_E.description>
+  <Make_Oberonia_Aurea_Chanwu_E.jobString>提炼金鸢尾兰花清素</Make_Oberonia_Aurea_Chanwu_E.jobString>
+  
+  <!-- EN: ambulance chaser -->
+  <Make_Oberonia_Aurea_Chanwu_E_B.label>从花蜜中提炼2份金鸢尾兰花清素</Make_Oberonia_Aurea_Chanwu_E_B.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <Make_Oberonia_Aurea_Chanwu_E_B.description>从花蜜中提炼2份金鸢尾兰花清素</Make_Oberonia_Aurea_Chanwu_E_B.description>
+  <Make_Oberonia_Aurea_Chanwu_E_B.jobString>提炼金鸢尾兰花清素</Make_Oberonia_Aurea_Chanwu_E_B.jobString>
+  
+   <!-- EN: ambulance chaser -->
+  <Make_Oberonia_Aurea_Chanwu_G.label>提炼2份金鸢尾兰提取液</Make_Oberonia_Aurea_Chanwu_G.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <Make_Oberonia_Aurea_Chanwu_G.description>提炼2份金鸢尾兰提取液</Make_Oberonia_Aurea_Chanwu_G.description>
+  <Make_Oberonia_Aurea_Chanwu_G.jobString>提炼金鸢尾兰提取液</Make_Oberonia_Aurea_Chanwu_G.jobString>
+  
+   <!-- EN: ambulance chaser -->
+  <Make_Oberonia_Aurea_Chanwu_F.label>提炼2份金鸢尾兰浓缩液</Make_Oberonia_Aurea_Chanwu_F.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <Make_Oberonia_Aurea_Chanwu_F.description>提炼2份金鸢尾兰浓缩液</Make_Oberonia_Aurea_Chanwu_F.description>
+  <Make_Oberonia_Aurea_Chanwu_F.jobString>提炼金鸢尾兰浓缩液</Make_Oberonia_Aurea_Chanwu_F.jobString>
+ 
+ 
+</LanguageData>

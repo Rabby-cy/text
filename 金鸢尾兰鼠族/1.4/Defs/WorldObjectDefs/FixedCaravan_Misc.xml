@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <WorldObjectDef Name="OA_FixedCaravanBase" Abstract="true">
+        <texture>World/WorldObjects/Caravan</texture>
+        <useDynamicDrawer>true</useDynamicDrawer>
+        <expandingIcon>true</expandingIcon>
+        <expandingIconTexture>World/WorldObjects/Caravan</expandingIconTexture>
+        <expandingIconPriority>100</expandingIconPriority>
+    </WorldObjectDef>
+
+    <WorldObjectDef ParentName="OA_FixedCaravanBase">
+        <defName>OA_FixedCaravan_DiplomaticSummit</defName>
+        <label>谈判远行队</label>
+        <description>一个正在与当地金鸢尾兰宫廷进行谈判的远行队</description>
+        <worldObjectClass>OberoniaAurea.FixedCaravan_DiplomaticSummit</worldObjectClass>
+    </WorldObjectDef>
+
+</Defs>

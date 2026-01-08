@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_127x108DU.label>make 12.7x108mm 金鸢尾兰反装甲铀弹 x500</MakeAmmo_127x108DU.label>
+  <MakeAmmo_127x108DU.description>Craft 200 12.7x108mm 金鸢尾兰反装甲铀弹</MakeAmmo_127x108DU.description>
+  <MakeAmmo_127x108DU.jobString>Making 12.7x108mm 金鸢尾兰反装甲铀弹</MakeAmmo_127x108DU.jobString>
+
+
+</LanguageData>

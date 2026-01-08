@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <OA_RK_LeaderTitleMaker.rulePack.rulesStrings>殖民總長</OA_RK_LeaderTitleMaker.rulePack.rulesStrings>
+  
+  <!-- UNUSED -->
+  <OA_RK_LeaderTitleMaker.rulePack.rulesStrings>殖民總長</OA_RK_LeaderTitleMaker.rulePack.rulesStrings>
+
+  <OA_RK_NamerIdeo.rulePack.rulesStrings>
+    <li>r_ideoName->金鳶尾蘭文化分支</li>
+    <li>r_ideoAdjective->[keyDeity]的</li>
+    <li>r_memberName->[keyDeity]者</li>
+    <li>r_memberName->[keyDeity]信徒</li>
+    <li>r_ideoAdjective(priority=1)->[packAdjective]</li>
+    <li>r_memberName->[packMember]</li>
+    <li>creed(priority=1)->[memeCreed]</li>
+    <li>creed->[genericCreed]</li>
+    <li>genericCreed->主義</li>
+    <li>hyphenPrefix->[globalHyphenPrefix]</li>
+    <li>hyphenPrefix->[memeHyphenPrefix]</li>
+  </OA_RK_NamerIdeo.rulePack.rulesStrings>
+  
+</LanguageData>

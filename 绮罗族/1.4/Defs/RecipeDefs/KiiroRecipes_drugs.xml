@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+   <!--荆芥叶片做佩诺西林-->
+    <RecipeDef>
+		<defName>Kiiro_Make_Penoxycyline</defName>
+		<label>make penoxycyline</label>
+		<description>make penoxycyline with schizonepeta leaf.</description>
+		<jobString>make penoxycyline.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>1200</workAmount>
+		<ingredients>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>Kiiro_SchizonepetaLeaf</li>
+			  </thingDefs>
+			</filter>
+			<count>5</count>
+		  </li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>Kiiro_SchizonepetaLeaf</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+		  <li>DrugLab</li>
+		</recipeUsers>
+		<products>
+		  <Penoxycyline>1</Penoxycyline>
+		</products>
+		<skillRequirements>
+		  <Medicine>6</Medicine>
+		</skillRequirements>
+		<workSkill>Medicine</workSkill>
+		<researchPrerequisite>Kiiro_MixedMedicineHerbal</researchPrerequisite>	
+	</RecipeDef>
+
+    <RecipeDef>
+		<defName>Kiiro_Make_BulkPenoxycyline</defName>
+		<label>make 4x penoxycyline</label>
+		<description>make penoxycyline with schizonepeta leaf.</description>
+		<jobString>make bulk penoxycyline.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>4800</workAmount>
+		<ingredients>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>Kiiro_SchizonepetaLeaf</li>
+			  </thingDefs>
+			</filter>
+			<count>20</count>
+		  </li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>Kiiro_SchizonepetaLeaf</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+		  <li>DrugLab</li>
+		</recipeUsers>
+		<products>
+		  <Penoxycyline>4</Penoxycyline>
+		</products>
+		<skillRequirements>
+		  <Medicine>6</Medicine>
+		</skillRequirements>
+		<workSkill>Medicine</workSkill>
+		<researchPrerequisite>Kiiro_MixedMedicineHerbal</researchPrerequisite>	
+	</RecipeDef>	
+
+
+
+</Defs>

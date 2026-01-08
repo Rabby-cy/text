@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef Name="Kiiro_UnderwearBase" ParentName="Kiiro_ApparelBase" Abstract="True">
+	<defName>Kiiro_Apparel_Underwear</defName>
+	<recipeMaker>
+	    <!--<displayPriority>900</displayPriority>-->
+		<researchPrerequisite>Kiiro_Apparel_I</researchPrerequisite>
+	</recipeMaker>
+	<costStuffCount>25</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+	</stuffCategories>
+	<statBases>
+		<Mass>0.2</Mass>
+		<EquipDelay>1.2</EquipDelay>
+		<MaxHitPoints>150</MaxHitPoints>
+		<WorkToMake>3600</WorkToMake>
+		<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+		<Insulation_Cold>5</Insulation_Cold>
+        <Insulation_Heat>5</Insulation_Heat>
+		<StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<apparel>
+	    <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+		<layers>
+			<li>Kiiro_Underwear</li>
+		</layers>
+		<tags>
+			<li>Kiiro_Underwear</li>
+			<li>Royal</li>
+			<li>RoyalTier5</li>
+		</tags>
+	</apparel>
+	<equippedStatOffsets>
+		<MentalBreakThreshold>-0.02</MentalBreakThreshold>
+	</equippedStatOffsets>
+	<thingCategories>
+		<li>Kiiro_Apparel_Underwear</li>
+	</thingCategories>
+	<tradeTags>
+      <li>Kiiro_DailyClothing</li>
+    </tradeTags>
+</ThingDef>
+
+<!-- 绮罗深色连裤袜内衣 -->
+<ThingDef ParentName="Kiiro_UnderwearBase">
+	<defName>Kiiro_Pantynose_Black</defName>
+	<label>kiiro black pantynose</label>
+	<description>A dark-colored lingerie set paired with opaque stockings.</description>
+	<graphicData>
+		<texPath>Kiiro/Apparel/Underwear/Pantynose_Black/BlackPantynose</texPath>
+	</graphicData>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kiiro/Apparel/Underwear/Pantynose_Black/BlackPantynose</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<!-- 绮罗浅色连裤袜内衣 -->
+<ThingDef ParentName="Kiiro_UnderwearBase">
+	<defName>Kiiro_Pantynose_White</defName>
+	<label>kiiro white pantynose</label>
+	<description>A light-colored lingerie set paired with sheer stockings.</description>
+	<graphicData>
+		<texPath>Kiiro/Apparel/Underwear/Pantynose_White/WhitePantynose</texPath>
+	</graphicData>
+	<apparel>
+		<useWornGraphicMask>false</useWornGraphicMask>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kiiro/Apparel/Underwear/Pantynose_White/WhitePantynose</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<!-- 绮罗深色丝袜内衣 -->
+<ThingDef ParentName="Kiiro_UnderwearBase">
+	<defName>Kiiro_Stocking_Black</defName>
+	<label>kiiro black stocking</label>
+	<description>A dark-colored lingerie set paired with dark-colored over-the-knee socks.</description>
+	<graphicData>
+		<texPath>Kiiro/Apparel/Underwear/Stocking_Black/BlackStocking</texPath>
+	</graphicData>
+	<apparel>
+		<useWornGraphicMask>false</useWornGraphicMask>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kiiro/Apparel/Underwear/Stocking_Black/BlackStocking</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<!-- 绮罗浅色丝袜内衣 -->
+<ThingDef ParentName="Kiiro_UnderwearBase">
+	<defName>Kiiro_Stocking_White</defName>
+	<label>kiiro white stocking</label>
+	<description>A light-colored lingerie set paired with white-colored over-the-knee socks.</description>
+	<graphicData>
+		<texPath>Kiiro/Apparel/Underwear/Stocking_White/WhiteStocking</texPath>
+	</graphicData>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kiiro/Apparel/Underwear/Stocking_White/WhiteStocking</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<!-- 绮罗内衣 -->
+<ThingDef ParentName="Kiiro_UnderwearBase">
+	<defName>Kiiro_Underwear_Normal</defName>
+	<label>kiiro underwear</label>
+	<description>A set of underwear that can be dyed in any desired color.</description>
+	<graphicData>
+		<texPath>Kiiro/Apparel/Underwear/Underwear/Underwear</texPath>
+	</graphicData>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kiiro/Apparel/Underwear/Underwear/Underwear</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+
+
+<ThingDef Name="Kiiro_UnderwearPropBase" ParentName="Kiiro_ApparelBase" Abstract="True">
+	<statBases>
+		<Mass>0.2</Mass>
+		<EquipDelay>1.0</EquipDelay>
+	</statBases>
+	<graphicData>
+      <onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+	  <drawSize>1.0</drawSize>
+	  <drawOffset>(0,0,0)</drawOffset>
+    </graphicData>
+	<recipeMaker>
+		<researchPrerequisite>Kiiro_Apparel_II</researchPrerequisite>
+		<unfinishedThingDef>UnfinishedKiiroApparel</unfinishedThingDef>
+	</recipeMaker>
+	<apparel>
+	    <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+		<countsAsClothingForNudity>false</countsAsClothingForNudity>
+		<careIfWornByCorpse>false</careIfWornByCorpse>
+        <careIfDamaged>false</careIfDamaged>
+        <wearPerDay>2</wearPerDay>
+		<layers>
+			<li>Kiiro_Underwear</li>
+		</layers>
+		<tags>
+			<li>Kiiro_UnderwearProp</li>
+			<li>Royal</li>
+			<li>RoyalTier5</li>
+		</tags>
+	</apparel>
+	<comps Inherit="false"><!--不继承品质-->
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+	<thingCategories>
+      <li>Kiiro_Apparel_Utility</li>
+    </thingCategories>
+	<generateAllowChance>0</generateAllowChance>
+</ThingDef>
+
+<!-- 绮罗猫爪暖手宝 -->
+<ThingDef ParentName="Kiiro_UnderwearPropBase">
+	<defName>Kiiro_HandWarmer</defName>
+	<label>kiiro handwarmer</label>
+	<description>A small cloth bag embroidered with cat paw prints. It can hold hot water and keep it warm for a long time, providing a cozy warmth when held close.</description>
+	<costList>
+		<Cloth>40</Cloth>
+	</costList>
+	<graphicData>
+		<texPath>Kiiro/Apparel/Underwear/Props/HandWarmer</texPath>
+		<shaderType>CutoutComplex</shaderType>
+		<drawSize>0.6</drawSize>
+	</graphicData>
+	<statBases>
+		<MaxHitPoints>60</MaxHitPoints>
+		<WorkToMake>3200</WorkToMake>
+		<Insulation_Cold>10</Insulation_Cold>
+		<Insulation_Heat>-10</Insulation_Heat>
+	</statBases>
+	<apparel>
+		<useWornGraphicMask>false</useWornGraphicMask>
+		<bodyPartGroups>
+			<li>Waist</li>
+		</bodyPartGroups>
+		<tags>
+		  <li>Kiiro_HandWarmer</li>
+		</tags>
+	</apparel>
+</ThingDef>
+
+<!-- 绮罗绒绒凉袖 -->
+<ThingDef ParentName="Kiiro_UnderwearPropBase">
+	<defName>Kiiro_CoolSleeves</defName>
+	<label>kiiro cool sleeves</label>
+	<description>Arm sleeves worn to help effectively dissipate body heat, keeping you cool.</description>
+	<costList>
+		<Cloth>40</Cloth>
+	</costList>
+	<graphicData>
+		<texPath>Kiiro/Apparel/Underwear/Props/CoolSleeves</texPath>
+		<shaderType>CutoutComplex</shaderType>
+		<drawSize>0.6</drawSize>
+	</graphicData>
+	<statBases>
+		<MaxHitPoints>60</MaxHitPoints>
+		<WorkToMake>3200</WorkToMake>
+		<Insulation_Cold>-10</Insulation_Cold>
+		<Insulation_Heat>10</Insulation_Heat>
+	</statBases>
+	<apparel>
+		<useWornGraphicMask>false</useWornGraphicMask>
+		<bodyPartGroups>
+			<li>Waist</li>
+		</bodyPartGroups>
+		<tags>
+		  <li>Kiiro_CoolSleeves</li>
+		</tags>
+	</apparel>
+</ThingDef>
+
+<!-- 绮罗草药敷 -->
+<ThingDef ParentName="Kiiro_UnderwearPropBase">
+	<defName>Kiiro_Woundplast</defName>
+	<label>kiiro woundplast</label>
+	<description>A medicinal poultice made by wrapping a paste-like mixture of herbs in cloth, allowing the medicinal ingredients to slowly be absorbed through the skin. It can expedite the body's recovery.\nDo not post to weird areas!</description>
+	<costList>
+		<Cloth>5</Cloth>
+		<Kiiro_MixMedicineHerbal>1</Kiiro_MixMedicineHerbal>
+	</costList>
+	<graphicData>
+		<texPath>Kiiro/Apparel/Underwear/Props/Woundplast</texPath>
+		<shaderType>CutoutComplex</shaderType>
+		<drawSize>0.6</drawSize>
+	</graphicData>
+	<statBases>
+		<MaxHitPoints>60</MaxHitPoints>
+		<WorkToMake>3200</WorkToMake>
+	</statBases>
+	<recipeMaker>
+		<researchPrerequisites>
+		  <li>Kiiro_MixedMedicineHerbal</li>
+		</researchPrerequisites>
+	</recipeMaker>
+	<apparel>
+		<useWornGraphicMask>false</useWornGraphicMask>
+		<bodyPartGroups>
+			<li>Waist</li>
+		</bodyPartGroups>
+		<tags>
+		  <li>Kiiro_Woundplast</li>
+		</tags>
+	</apparel>
+	<equippedStatOffsets>
+		<ImmunityGainSpeed>0.05</ImmunityGainSpeed>
+	</equippedStatOffsets>
+</ThingDef>
+
+<!-- 绮罗猫薄荷香水 -->
+<ThingDef ParentName="Kiiro_UnderwearPropBase">
+	<defName>Kiiro_CatmintPerfume</defName>
+	<label>kiiro catmint perfume</label>
+	<description>A delicate small bottle containing a volatile liquid infused with nepetalactone compounds, emitting a subtle fragrance.</description>
+	<costList>
+		<Steel>15</Steel>
+		<Kiiro_Nepetalactone>10</Kiiro_Nepetalactone>
+	</costList>
+	<graphicData>
+		<texPath>Kiiro/Apparel/Underwear/Props/CatmintPerfume</texPath>
+		<drawSize>0.4</drawSize>
+	</graphicData>
+	<uiIconScale>1.0</uiIconScale>
+	<statBases>
+		<MaxHitPoints>60</MaxHitPoints>
+		<WorkToMake>6000</WorkToMake>
+	</statBases>
+	<recipeMaker>
+		<researchPrerequisites Inherit="false">
+		  <li>Kiiro_Smithing</li>
+		  <li>Kiiro_NepetalactoneExtract</li>
+		</researchPrerequisites>
+		<recipeUsers Inherit="false">
+	    <li>Kiiro_FueledSmithy</li>
+	    <li>Kiiro_ElectricSmithy</li>
+	    </recipeUsers>
+		<skillRequirements>
+        <Crafting>5</Crafting>
+		<Medicine>5</Medicine>
+      </skillRequirements>
+	</recipeMaker>
+	<apparel>
+		<useWornGraphicMask>false</useWornGraphicMask>
+		<bodyPartGroups>
+			<li>Waist</li>
+		</bodyPartGroups>
+		<tags>
+		  <li>Kiiro_CatmintPerfume</li>
+		</tags>
+	</apparel>
+	<equippedStatOffsets>
+		<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+		<SocialImpact>0.15</SocialImpact>
+		<PawnBeauty>1.0</PawnBeauty>
+	</equippedStatOffsets>
+</ThingDef>
+
+
+<!--纸艺吊坠-->
+<ThingDef Name="Kiiro_PaperFoldingPendantBase" ParentName="Kiiro_ApparelBase" Abstract="True">
+	<statBases>
+		<Mass>0.02</Mass>
+		<EquipDelay>1.0</EquipDelay>
+		<MaxHitPoints>25</MaxHitPoints>
+		<WorkToMake>8400</WorkToMake>
+	</statBases>
+	<apparel>	
+		<layers>
+			<li>Kiiro_Underwear</li>
+		</layers>
+		<useWornGraphicMask>true</useWornGraphicMask>
+		<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+		<bodyPartGroups>
+			<li>Neck</li>
+		</bodyPartGroups>
+		<tags>
+		  <li>Kiiro_PaperFoldingPendant</li>
+		</tags>
+	</apparel>
+	<thingCategories>
+		<li>Kiiro_Apparel_Utility</li>
+	</thingCategories>
+	<generateAllowChance>0</generateAllowChance>
+	<costList>
+		<Kiiro_Paper>1</Kiiro_Paper>
+	</costList>
+	<costStuffCount>10</costStuffCount>
+	<stuffCategories>
+		<li>Leathery</li>
+		<li>Fabric</li>
+	</stuffCategories>
+	<graphicData>
+	    <onGroundRandomRotateAngle>0</onGroundRandomRotateAngle>
+	    <drawSize>0.4</drawSize>
+	    <drawOffset>(0,0,0)</drawOffset>
+		<shaderType>CutoutComplex</shaderType>
+	</graphicData>
+	<uiIconScale>2.5</uiIconScale>
+	<recipeMaker>
+	    <recipeUsers Inherit="False">
+		    <li>Kiiro_PaperArtBench</li>
+		</recipeUsers>
+		<researchPrerequisites>
+		    <li>Kiiro_Apparel_I</li>
+		    <li>Kiiro_PaperFolding</li>
+		</researchPrerequisites>
+		<unfinishedThingDef>UnfinishedPaperFolding</unfinishedThingDef>
+	</recipeMaker>
+	<comps Inherit="false"><!--不继承品质-->
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+	<tradeTags>
+      <li>Kiiro_PaperFoldingPendant</li>
+    </tradeTags>
+</ThingDef>
+
+<!-- 绮罗纸艺吊坠（五角星） -->
+<ThingDef ParentName="Kiiro_PaperFoldingPendantBase">
+	<defName>Kiiro_PaperFoldingPendantStar</defName>
+	<label>kiiro paperfolding star pendant</label>
+	<description>A delicate pentagram-shaped pendant folded from paper, protected with a waterproof coating. When worn, it inexplicably makes people more talkative.</description>
+	<graphicData>
+		<texPath>Kiiro/Apparel/Underwear/Props/PaperFoldingPendantStar</texPath>
+	</graphicData>
+	<apparel>
+		<tags>
+		  <li>Kiiro_PaperFoldingPendantStar</li>
+		</tags>
+	</apparel>
+	<equippedStatOffsets>
+		<SocialImpact>0.10</SocialImpact>
+	</equippedStatOffsets>
+</ThingDef>
+
+<!-- 绮罗纸艺吊坠（爱心） -->
+<ThingDef ParentName="Kiiro_PaperFoldingPendantBase">
+	<defName>Kiiro_PaperFoldingPendantHeart</defName>
+	<label>kiiro paperfolding heart pendant</label>
+	<description>A delicate heart-shaped pendant folded from paper, protected with a waterproof coating. When worn, it seems to make people feel more at ease.</description>
+	<graphicData>
+		<texPath>Kiiro/Apparel/Underwear/Props/PaperFoldingPendantHeart</texPath>
+	</graphicData>
+	<apparel>
+		<tags>
+		  <li>Kiiro_PaperFoldingPendantHeart</li>
+		</tags>
+	</apparel>
+	<equippedStatOffsets>
+		<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+	</equippedStatOffsets>
+</ThingDef>
+
+
+
+</Defs>

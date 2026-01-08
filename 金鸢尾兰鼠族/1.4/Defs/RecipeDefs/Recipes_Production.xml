@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+ <RecipeDef>
+    <defName>OA_RK_Make_Hecheng</defName>
+    <label>Oberonia Aurea fiber synthesis</label>
+    <description>Using a special process from the Oberonia Aurea empire to make 60* synthreads.</description>
+    <jobString>Fiber synthesis</jobString>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Cremate</soundWorking>
+    <workAmount>2800</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+	<recipeUsers>
+        <li>BiofuelRefinery</li>
+	</recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>12</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Cloth</li>
+		<li>Neutroamine</li>
+		<li>Chemfuel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Synthread>60</Synthread>
+    </products>
+	<researchPrerequisite>OA_RK_Cloth_Processing</researchPrerequisite>
+    <displayPriority>1010</displayPriority>
+  </RecipeDef>
+
+</Defs>

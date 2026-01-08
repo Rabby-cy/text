@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kiiro_Body.label>綺羅</Kiiro_Body.label>
+  <Kiiro_Body.corePart.parts.4.customLabel>尾</Kiiro_Body.corePart.parts.4.customLabel>
+  <Kiiro_Body.corePart.parts.7.customLabel>左肺</Kiiro_Body.corePart.parts.7.customLabel>
+  <Kiiro_Body.corePart.parts.8.customLabel>右肺</Kiiro_Body.corePart.parts.8.customLabel>
+  <Kiiro_Body.corePart.parts.9.customLabel>左腎</Kiiro_Body.corePart.parts.9.customLabel>
+  <Kiiro_Body.corePart.parts.10.customLabel>右腎</Kiiro_Body.corePart.parts.10.customLabel>
+  <Kiiro_Body.corePart.parts.12.parts.0.parts.1.customLabel>左眼</Kiiro_Body.corePart.parts.12.parts.0.parts.1.customLabel>
+  <Kiiro_Body.corePart.parts.12.parts.0.parts.2.customLabel>右眼</Kiiro_Body.corePart.parts.12.parts.0.parts.2.customLabel>
+  <Kiiro_Body.corePart.parts.12.parts.0.parts.3.customLabel>左耳</Kiiro_Body.corePart.parts.12.parts.0.parts.3.customLabel>
+  <Kiiro_Body.corePart.parts.12.parts.0.parts.4.customLabel>右耳</Kiiro_Body.corePart.parts.12.parts.0.parts.4.customLabel>
+  <Kiiro_Body.corePart.parts.13.customLabel>左肩</Kiiro_Body.corePart.parts.13.customLabel>
+  <Kiiro_Body.corePart.parts.13.parts.0.customLabel>左鎖骨</Kiiro_Body.corePart.parts.13.parts.0.customLabel>
+  <Kiiro_Body.corePart.parts.13.parts.1.customLabel>左臂</Kiiro_Body.corePart.parts.13.parts.1.customLabel>
+  <Kiiro_Body.corePart.parts.13.parts.1.parts.0.customLabel>左肱骨</Kiiro_Body.corePart.parts.13.parts.1.parts.0.customLabel>
+  <Kiiro_Body.corePart.parts.13.parts.1.parts.1.customLabel>左橈骨</Kiiro_Body.corePart.parts.13.parts.1.parts.1.customLabel>
+  <Kiiro_Body.corePart.parts.13.parts.1.parts.2.customLabel>左手</Kiiro_Body.corePart.parts.13.parts.1.parts.2.customLabel>
+  <Kiiro_Body.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>左小指</Kiiro_Body.corePart.parts.13.parts.1.parts.2.parts.0.customLabel>
+  <Kiiro_Body.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>左無名指</Kiiro_Body.corePart.parts.13.parts.1.parts.2.parts.1.customLabel>
+  <Kiiro_Body.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>左中指</Kiiro_Body.corePart.parts.13.parts.1.parts.2.parts.2.customLabel>
+  <Kiiro_Body.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>左食指</Kiiro_Body.corePart.parts.13.parts.1.parts.2.parts.3.customLabel>
+  <Kiiro_Body.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>左拇指</Kiiro_Body.corePart.parts.13.parts.1.parts.2.parts.4.customLabel>
+  <Kiiro_Body.corePart.parts.14.customLabel>右肩</Kiiro_Body.corePart.parts.14.customLabel>
+  <Kiiro_Body.corePart.parts.14.parts.0.customLabel>右鎖骨</Kiiro_Body.corePart.parts.14.parts.0.customLabel>
+  <Kiiro_Body.corePart.parts.14.parts.1.customLabel>右臂</Kiiro_Body.corePart.parts.14.parts.1.customLabel>
+  <Kiiro_Body.corePart.parts.14.parts.1.parts.0.customLabel>右肱骨</Kiiro_Body.corePart.parts.14.parts.1.parts.0.customLabel>
+  <Kiiro_Body.corePart.parts.14.parts.1.parts.1.customLabel>右橈骨</Kiiro_Body.corePart.parts.14.parts.1.parts.1.customLabel>
+  <Kiiro_Body.corePart.parts.14.parts.1.parts.2.customLabel>右手</Kiiro_Body.corePart.parts.14.parts.1.parts.2.customLabel>
+  <Kiiro_Body.corePart.parts.14.parts.1.parts.2.parts.0.customLabel>右小指</Kiiro_Body.corePart.parts.14.parts.1.parts.2.parts.0.customLabel>
+  <Kiiro_Body.corePart.parts.14.parts.1.parts.2.parts.1.customLabel>右無名指</Kiiro_Body.corePart.parts.14.parts.1.parts.2.parts.1.customLabel>
+  <Kiiro_Body.corePart.parts.14.parts.1.parts.2.parts.2.customLabel>右中指</Kiiro_Body.corePart.parts.14.parts.1.parts.2.parts.2.customLabel>
+  <Kiiro_Body.corePart.parts.14.parts.1.parts.2.parts.3.customLabel>右食指</Kiiro_Body.corePart.parts.14.parts.1.parts.2.parts.3.customLabel>
+  <Kiiro_Body.corePart.parts.14.parts.1.parts.2.parts.4.customLabel>右拇指</Kiiro_Body.corePart.parts.14.parts.1.parts.2.parts.4.customLabel>
+  <Kiiro_Body.corePart.parts.16.customLabel>左腿</Kiiro_Body.corePart.parts.16.customLabel>
+  <Kiiro_Body.corePart.parts.16.parts.0.customLabel>左股骨</Kiiro_Body.corePart.parts.16.parts.0.customLabel>
+  <Kiiro_Body.corePart.parts.16.parts.1.customLabel>左脛骨</Kiiro_Body.corePart.parts.16.parts.1.customLabel>
+  <Kiiro_Body.corePart.parts.16.parts.2.customLabel>左足</Kiiro_Body.corePart.parts.16.parts.2.customLabel>
+  <Kiiro_Body.corePart.parts.16.parts.2.parts.0.customLabel>左小趾</Kiiro_Body.corePart.parts.16.parts.2.parts.0.customLabel>
+  <Kiiro_Body.corePart.parts.16.parts.2.parts.1.customLabel>左次小趾</Kiiro_Body.corePart.parts.16.parts.2.parts.1.customLabel>
+  <Kiiro_Body.corePart.parts.16.parts.2.parts.2.customLabel>左三趾</Kiiro_Body.corePart.parts.16.parts.2.parts.2.customLabel>
+  <Kiiro_Body.corePart.parts.16.parts.2.parts.3.customLabel>左二趾</Kiiro_Body.corePart.parts.16.parts.2.parts.3.customLabel>
+  <Kiiro_Body.corePart.parts.16.parts.2.parts.4.customLabel>左大拇趾</Kiiro_Body.corePart.parts.16.parts.2.parts.4.customLabel>
+  <Kiiro_Body.corePart.parts.17.customLabel>右腿</Kiiro_Body.corePart.parts.17.customLabel>
+  <Kiiro_Body.corePart.parts.17.parts.0.customLabel>右股骨</Kiiro_Body.corePart.parts.17.parts.0.customLabel>
+  <Kiiro_Body.corePart.parts.17.parts.1.customLabel>右脛骨</Kiiro_Body.corePart.parts.17.parts.1.customLabel>
+  <Kiiro_Body.corePart.parts.17.parts.2.customLabel>右足</Kiiro_Body.corePart.parts.17.parts.2.customLabel>
+  <Kiiro_Body.corePart.parts.17.parts.2.parts.0.customLabel>右小趾</Kiiro_Body.corePart.parts.17.parts.2.parts.0.customLabel>
+  <Kiiro_Body.corePart.parts.17.parts.2.parts.1.customLabel>右次小趾</Kiiro_Body.corePart.parts.17.parts.2.parts.1.customLabel>
+  <Kiiro_Body.corePart.parts.17.parts.2.parts.2.customLabel>右三趾</Kiiro_Body.corePart.parts.17.parts.2.parts.2.customLabel>
+  <Kiiro_Body.corePart.parts.17.parts.2.parts.3.customLabel>右二趾</Kiiro_Body.corePart.parts.17.parts.2.parts.3.customLabel>
+  <Kiiro_Body.corePart.parts.17.parts.2.parts.4.customLabel>右大拇趾</Kiiro_Body.corePart.parts.17.parts.2.parts.4.customLabel>
+
+
+</LanguageData>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <HediffDef ParentName="DiseaseBase">
+    <defName>Kiiro_ParalyticPoison</defName>
+    <label>paralytic poison</label>
+    <description>A special, quick-acting paralytic toxin that causes the victim to lose consciousness quickly but is not fatal.</description>
+    <isBad>false</isBad>
+    <initialSeverity>1</initialSeverity>
+    <maxSeverity>1</maxSeverity>
+    <comps>
+      <li Class="HediffCompProperties_Disappears">
+        <disappearsAfterTicks>60000~90000</disappearsAfterTicks>
+      </li>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>3.0</severityPerDay>        <!--==-1.5-->
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0.01</minSeverity>
+        <label>mild</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.1</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.1</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.10</minSeverity>
+        <label>moderate</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.8</setMax>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <setMax>0.65</setMax>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <setMax>0.65</setMax>
+          </li>
+          <li>
+            <capacity>Talking</capacity>
+            <setMax>0.90</setMax>
+          </li>
+          <li>
+            <capacity>Metabolism</capacity>
+            <setMax>0.85</setMax>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <setMax>0.90</setMax>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.20</minSeverity>
+        <label>severe</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.6</setMax>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <setMax>0.25</setMax>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <setMax>0.35</setMax>
+          </li>
+          <li>
+            <capacity>Talking</capacity>
+            <setMax>0.70</setMax>
+          </li>
+          <li>
+            <capacity>Metabolism</capacity>
+            <setMax>0.65</setMax>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <setMax>0.70</setMax>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.25</minSeverity>
+        <label>paralyzed</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.10</setMax>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.90</minSeverity>
+        <label>fade</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.75</setMax>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.2</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.3</offset>
+          </li>
+          <li>
+            <capacity>Talking</capacity>
+            <offset>-0.15</offset>
+          </li>
+          <li>
+            <capacity>Metabolism</capacity>
+            <offset>-0.2</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>-0.15</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <HediffDef ParentName="DiseaseBase">
+    <defName>Kiiro_DeadlyPoison</defName>
+    <label>deadly poison</label>
+    <defaultLabelColor>(0.75, 0.35, 0.35)</defaultLabelColor>
+    <description>Specially made poisons have little or no effect on bodily functions in the early stages of poisoning, but can kill the victim within days without prompt medical attention.</description>
+    <isBad>false</isBad>
+    <makesSickThought>true</makesSickThought>
+    <taleOnVisible>ToxicityRevealed</taleOnVisible>
+    <tendable>true</tendable>
+    <lethalSeverity>1</lethalSeverity>
+    <initialSeverity>0.001</initialSeverity>
+    <maxSeverity>1</maxSeverity>
+    <comps>
+      <li Class="HediffCompProperties_TendDuration">
+        <baseTendDurationHours>24</baseTendDurationHours>
+        <severityPerDayTended>-1.2</severityPerDayTended>
+      </li>
+      <li Class="HediffCompProperties_Immunizable">
+        <severityPerDayNotImmune>0.60</severityPerDayNotImmune>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <minSeverity>0.01</minSeverity>
+        <label>mild</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.05</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.40</minSeverity>
+        <label>moderate</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.80</setMax>
+          </li>
+        </capMods>
+        <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>Dementia</hediff>
+            <mtbDays>146</mtbDays>
+            <partsToAffect>
+              <li>Brain</li>
+            </partsToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>Carcinoma</hediff>
+            <mtbDays>438</mtbDays>
+            <canAffectAnyLivePart>true</canAffectAnyLivePart>
+          </li>
+        </hediffGivers>
+      </li>
+      <li>
+        <minSeverity>0.85</minSeverity>
+        <label>severe</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.10</setMax>
+          </li>
+        </capMods>
+        <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>Dementia</hediff>
+            <mtbDays>37</mtbDays>
+            <partsToAffect>
+              <li>Brain</li>
+            </partsToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>Carcinoma</hediff>
+            <mtbDays>111</mtbDays>
+            <canAffectAnyLivePart>true</canAffectAnyLivePart>
+          </li>
+        </hediffGivers>
+      </li>
+      <li>
+        <minSeverity>0.95</minSeverity>
+        <label>critical</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.05</setMax>
+          </li>
+        </capMods>
+        <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>Dementia</hediff>
+            <mtbDays>13</mtbDays>
+            <partsToAffect>
+              <li>Brain</li>
+            </partsToAffect>
+          </li>
+          <li Class="HediffGiver_Random">
+            <hediff>Carcinoma</hediff>
+            <mtbDays>39</mtbDays>
+            <canAffectAnyLivePart>true</canAffectAnyLivePart>
+          </li>
+        </hediffGivers>
+      </li>
+    </stages>
+  </HediffDef>
+
+
+</Defs>

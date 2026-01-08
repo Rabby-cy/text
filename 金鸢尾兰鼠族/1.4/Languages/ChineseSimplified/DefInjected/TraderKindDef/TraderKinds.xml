@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: bulk goods trader -->
+  <OA_RK_Orbital.label>返航的补给船</OA_RK_Orbital.label>
+  
+  <!-- EN: shaman merchant -->
+  <OA_RK_Caravan_TributeCollector.label>物资征募队</OA_RK_Caravan_TributeCollector.label>
+  
+  <!-- EN: slaver -->
+  <OA_RK_Caravan_TraderGeneral.label>物资贸易商</OA_RK_Caravan_TraderGeneral.label>
+  
+  <OA_RK_Caravan_TraderGeneral_B.label>物资贸易商</OA_RK_Caravan_TraderGeneral_B.label>
+	
+</LanguageData>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kiiro_Pantynose_Black.label>绮罗深色连裤袜内衣</Kiiro_Pantynose_Black.label>
+  <Kiiro_Pantynose_Black.description>深色的内衣套装配上深色连裤袜。</Kiiro_Pantynose_Black.description>
+
+  <Kiiro_Pantynose_White.label>绮罗浅色连裤袜内衣</Kiiro_Pantynose_White.label>
+  <Kiiro_Pantynose_White.description>浅色的内衣套装配上浅色连裤袜。</Kiiro_Pantynose_White.description>
+
+  <Kiiro_Stocking_Black.label>绮罗深色丝袜内衣</Kiiro_Stocking_Black.label>
+  <Kiiro_Stocking_Black.description>深色的内衣套装配上深色过膝袜。</Kiiro_Stocking_Black.description>
+
+  <Kiiro_Stocking_White.label>绮罗浅色丝袜内衣</Kiiro_Stocking_White.label>
+  <Kiiro_Stocking_White.description>浅色的内衣套装配上浅色过膝袜。</Kiiro_Stocking_White.description>
+
+  <Kiiro_Underwear_Normal.label>绮罗内衣</Kiiro_Underwear_Normal.label>
+  <Kiiro_Underwear_Normal.description>一套内衣，可以染成任何喜欢的颜色。</Kiiro_Underwear_Normal.description>
+
+  <Kiiro_HandWarmer.label>绮罗猫爪暖手宝</Kiiro_HandWarmer.label>
+  <Kiiro_HandWarmer.description>小小的布袋，绣着猫爪图案。装入的热水能够长时间保温，揣在怀里暖暖的。</Kiiro_HandWarmer.description>
+
+  <Kiiro_CoolSleeves.label>绮罗绒绒凉袖</Kiiro_CoolSleeves.label>
+  <Kiiro_CoolSleeves.description>套在手臂上的凉袖，能有效帮助身体散热。</Kiiro_CoolSleeves.description>
+
+  <Kiiro_Woundplast.label>绮罗草药敷</Kiiro_Woundplast.label>
+  <Kiiro_Woundplast.description>将糊状混合草药包裹进布里制成的药敷，药的成分会缓慢地通过皮肤吸收。可以加快身体的恢复。\n不要贴在奇怪的地方！</Kiiro_Woundplast.description>
+
+  <Kiiro_CatmintPerfume.label>绮罗猫薄荷香水</Kiiro_CatmintPerfume.label>
+  <Kiiro_CatmintPerfume.description>一个精致的小瓶子，盛装了含荆芥内置成分的挥发性液体，散发着淡淡的清香。</Kiiro_CatmintPerfume.description>
+
+
+  <!-- 纸艺吊坠 -->
+
+  <Kiiro_PaperFoldingPendantStar.label>绮罗纸艺吊坠（五角星）</Kiiro_PaperFoldingPendantStar.label>
+  <Kiiro_PaperFoldingPendantStar.description>用纸张折叠出的精致五角星形状吊坠，做了防水保护。戴上后莫名地让人健谈了起来。</Kiiro_PaperFoldingPendantStar.description>
+
+  <Kiiro_PaperFoldingPendantHeart.label>绮罗纸艺吊坠（爱心）</Kiiro_PaperFoldingPendantHeart.label>
+  <Kiiro_PaperFoldingPendantHeart.description>用纸张折叠出的精致爱心形状吊坠，做了防水保护。戴上后似乎会让人变得更加安心。</Kiiro_PaperFoldingPendantHeart.description>
+
+  <Kiiro_PaperFoldingPendantCross.label>绮罗纸艺吊坠（十字架）</Kiiro_PaperFoldingPendantCross.label>
+  <Kiiro_PaperFoldingPendantCross.description>用纸张折叠出的精致十字架形状吊坠，做了防水保护。总感觉戴上后变得更有说服力呢。</Kiiro_PaperFoldingPendantCross.description>
+
+
+</LanguageData>

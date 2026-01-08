@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <OARK_GravFieldExtender.label>金鸢尾兰逆重延展装置</OARK_GravFieldExtender.label>
+  <OARK_GravFieldExtender.description>金鸢尾兰科研部在对逆重科技进行反向研究后，制作的一种专门辅助逆重引擎运转的引力延伸装置。放置在逆重引擎附近可以强化逆重引擎的引力能级，提升逆重飞船可支持的基架数量。</OARK_GravFieldExtender.description>
+
+  <OARK_AirportClearanceBeacon.label>金鸢尾兰空港许可信标</OARK_AirportClearanceBeacon.label>
+  <OARK_AirportClearanceBeacon.description>金鸢尾兰帝国用于识别友好舰船的信标，激活此信标后舰船将能够临时停靠于金鸢尾兰的太空港并补给，以提升单次飞行的最大航程。\n\n注意：飞船起飞时，该信标将自动激活。\n注意：该信标为一次性用品。</OARK_AirportClearanceBeacon.description>
+
+  <OARK_SpaceportAccessPermit.label>金鸢尾兰太空港通行许可</OARK_SpaceportAccessPermit.label>
+  <OARK_SpaceportAccessPermit.description>金鸢尾兰帝国用于识别友好舰船的信标，激活此信标后舰船将能够临时停靠于金鸢尾兰的太空港并补给，以提升单次飞行的最大航程。\n\n注意：飞船起飞时，该信标将自动激活。\n注意：该信标为一次性用品。</OARK_SpaceportAccessPermit.description>
+
+  <OARK_GravFieldGenerator.label>小型引力场发生装置</OARK_GravFieldGenerator.label>
+  <OARK_GravFieldGenerator.description>一个能够持续在周围构造引力场，并附着在附近单位身上的引力装置，常被金鸢尾兰帝国用于在空港初建时提供临时的真空保护。\n\n而当空港遭到入侵时，该装置也能主动营造强引力，对范围内的所有人产生压制的效果。</OARK_GravFieldGenerator.description>
+
+  <OARK_TrapIED_Gravity.label>金鸢尾兰引力陷阱</OARK_TrapIED_Gravity.label>
+  <OARK_TrapIED_Gravity.description>一套能够临时形成强引力场的一次性设备系统，启用后会将一定范围内的所有单位强行牵扯过去。\n\n注意：同一单位短时间内多次受到强引力牵扯会产生抗性。\n需要手动开启。</OARK_TrapIED_Gravity.description>
+
+  <OARK_AirportClearanceBeaconDeactive.label>失效的空港许可信标</OARK_AirportClearanceBeaconDeactive.label>
+  <OARK_AirportClearanceBeaconDeactive.description>一个已经失效的信标，剩下的作用只有占地方与观赏性了。</OARK_AirportClearanceBeaconDeactive.description>
+
+  <OARK_BrokenPilotConsole.label>飞船操控台</OARK_BrokenPilotConsole.label>
+  <OARK_BrokenPilotConsole.description>一架坠毁飞船的操控台，尽管已经无法再用于执行本职工作，但内部的本地资料还是有着一定价值的。</OARK_BrokenPilotConsole.description>
+
+  <OARK_CrashedScienceShip.label>坠毁科研舱</OARK_CrashedScienceShip.label>
+  <OARK_CrashedScienceShip.description>坠毁的一次性无人科研舱，绝大多数数据都已经完成了传输，但少量的机械佐证数据仍然需要人来手动验证传输。</OARK_CrashedScienceShip.description>
+
+  <OARK_GravDataBeacon.label>科研部逆重数据信标</OARK_GravDataBeacon.label>
+  <OARK_GravDataBeacon.description>金鸢尾兰帝国科研部为了获取逆重引擎相关数据而设置的信标。开启信标时将记录引擎的完整起降过程并进行数据传输，每次成功的数据传输都会为数据来源积累一定的科研贡献。\n\n然而需要注意的是，由于庞大的数据流信号过于显著，因此每次数据传输完成后，都将引来机械族的袭击。</OARK_GravDataBeacon.description>
+
+</LanguageData>

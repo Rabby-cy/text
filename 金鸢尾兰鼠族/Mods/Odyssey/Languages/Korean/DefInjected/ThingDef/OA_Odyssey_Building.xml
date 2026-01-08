@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+<OARK_GravFieldExtender.label>금붓꽃 역중력 확장 장치</OARK_GravFieldExtender.label>
+  <OARK_GravFieldExtender.description>금붓꽃 과학 연구부가 역중력 기술을 역설계한 후, 역중력 엔진의 운전을 전문적으로 보조하기 위해 제작한 중력 확장 장치. 역중력 엔진 근처에 배치하면 역중력 엔진의 중력 에너지 준위를 강화하여 역중력 우주선이 지원할 수 있는 프레임 수를 늘릴 수 있습니다.</OARK_GravFieldExtender.description>
+
+  <OARK_AirportClearanceBeacon.label>금붓꽃 공항 허가 비컨</OARK_AirportClearanceBeacon.label>
+  <OARK_AirportClearanceBeacon.description>금붓꽃 제국이 우호적인 함선을 식별하는 데 사용하는 비컨. 이 비컨을 활성화하면 함선은 일시적으로 금붓꽃의 우주 공항에 정박하여 보급을 받을 수 있으며, 이를 통해 단일 비행의 최대 항속 거리를 늘릴 수 있습니다.\n\n주의: 우주선이 이륙할 때, 이 비컨은 자동으로 활성화됩니다.\n주의: 이 비컨은 일회용품입니다.</OARK_AirportClearanceBeacon.description>
+
+  <OARK_SpaceportAccessPermit.label>금붓꽃 우주 공항 통행 허가</OARK_SpaceportAccessPermit.label>
+  <OARK_SpaceportAccessPermit.description>금붓꽃 제국이 우호적인 함선을 식별하는 데 사용하는 비컨. 이 비컨을 활성화하면 함선은 일시적으로 금붓꽃의 우주 공항에 정박하여 보급을 받을 수 있으며, 이를 통해 단일 비행의 최대 항속 거리를 늘릴 수 있습니다.\n\n주의: 우주선이 이륙할 때, 이 비컨은 자동으로 활성화됩니다.\n주의: 이 비컨은 일회용품입니다.</OARK_SpaceportAccessPermit.description>
+
+  <OARK_GravFieldGenerator.label>소형 중력장 발생 장치</OARK_GravFieldGenerator.label>
+  <OARK_GravFieldGenerator.description>주변에 지속적으로 중력장을 구성하고 근처 유닛에 부착될 수 있는 중력 장치. 금붓꽃 제국이 공항 초기 건설 시 임시 진공 보호를 제공하기 위해 자주 사용합니다.\n\n또한 공항이 침입을 당했을 때, 이 장치는 능동적으로 강한 중력을 만들어 범위 내의 모든 사람에게 제압 효과를 줄 수 있습니다.</OARK_GravFieldGenerator.description>
+
+  <OARK_TrapIED_Gravity.label>금붓꽃 중력 함정</OARK_TrapIED_Gravity.label>
+  <OARK_TrapIED_Gravity.description>일시적으로 강한 중력장을 형성할 수 있는 일회용 장비 시스템. 활성화되면 일정 범위 내의 모든 유닛을 강제로 끌어당깁니다.\n\n주의: 동일한 유닛이 단시간 내에 여러 번 강한 중력에 끌리면 저항성이 생깁니다.\n수동으로 활성화해야 합니다.</OARK_TrapIED_Gravity.description>
+
+  <OARK_AirportClearanceBeaconDeactive.label>만료된 공항 허가 비컨</OARK_AirportClearanceBeaconDeactive.label>
+  <OARK_AirportClearanceBeaconDeactive.description>이미 만료된 비컨으로, 남은 역할은 공간 차지와 관상용뿐입니다.</OARK_AirportClearanceBeaconDeactive.description>
+
+  <OARK_BrokenPilotConsole.label>우주선 조종 콘솔</OARK_BrokenPilotConsole.label>
+  <OARK_BrokenPilotConsole.description>추락한 우주선의 조종 콘솔. 비록 더 이상 본래의 임무를 수행할 수는 없지만, 내부의 로컬 데이터는 여전히 일정한 가치가 있습니다.</OARK_BrokenPilotConsole.description>
+
+  <OARK_CrashedScienceShip.label>추락한 과학 연구 포드</OARK_CrashedScienceShip.label>
+  <OARK_CrashedScienceShip.description>추락한 일회용 무인 과학 연구 포드. 대부분의 데이터는 이미 전송이 완료되었지만, 소량의 기계적 증명 데이터는 여전히 수동으로 검증하고 전송해야 합니다.</OARK_CrashedScienceShip.description>
+
+  <OARK_GravDataBeacon.label>과학 연구부 역중력 데이터 비컨</OARK_GravDataBeacon.label>
+  <OARK_GravDataBeacon.description>금붓꽃 제국 과학 연구부가 역중력 엔진 관련 데이터를 얻기 위해 설치한 비컨. 비컨을 켜면 엔진의 전체 이착륙 과정을 기록하고 데이터를 전송하며, 성공적인 데이터 전송마다 데이터 출처에 일정한 과학 연구 기여도를 축적합니다.\n\n그러나 방대한 데이터 스트림 신호가 너무 눈에 띄기 때문에, 데이터 전송이 완료될 때마다 기계족의 습격을 유발한다는 점에 유의해야 합니다.</OARK_GravDataBeacon.description>
+
+  <OARK_Apparel_GravShieldBelt.label>금붓꽃 진공 실드 벨트</OARK_Apparel_GravShieldBelt.label>
+  <OARK_Apparel_GravShieldBelt.description>금붓꽃 통항부가 모든 승무원에게 통일적으로 지급하는 제식 벨트. 이 벨트는 착용자를 둘러싸는 자동 조절 중력장을 형성하여 주변 기체를 구속하고 고속 투사체를 막을 수 있습니다.\n\n그러나 중력장이 안정되는 데 시간이 필요하기 때문에 지속적인 방해에 직면하면 유지가 어려우며, 중력장의 존재는 착용자의 사격 정확도에도 영향을 미칩니다.</OARK_Apparel_GravShieldBelt.description>
+</LanguageData>

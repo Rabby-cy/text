@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- 金鸢尾兰工业背心  -->
+    <ThingDef Class="NewRatkin.CustomThingDef" ParentName="OARatkin_CourtApparelMakeableBase">
+        <defName>OA_RK_New_Sandwich_A</defName>
+        <label>Oberonia Aurea Industrial Vest</label>
+        <description>The standard work uniform adopted by the Ministry of Industry of the Oberonia Aurea Palace has weak protective properties and can carry many light tools for easy use during construction.</description>
+        <graphicData>
+            <texPath>Apparel/OA_RK_New_Sandwich_A</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <techLevel>Spacer</techLevel>
+        <statBases>
+            <MaxHitPoints>220</MaxHitPoints>
+            <WorkToMake>29900</WorkToMake>
+            <Mass>1.0</Mass>
+            <ArmorRating_Sharp>0.34</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.34</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.50</ArmorRating_Heat>
+            <Insulation_Cold>7.5</Insulation_Cold>
+            <Insulation_Heat>6.0</Insulation_Heat>
+            <EquipDelay>3</EquipDelay>
+        </statBases>
+        <costList>
+            <Synthread>75</Synthread>
+            <ComponentIndustrial>3</ComponentIndustrial>
+        </costList>
+        <equippedStatOffsets>
+            <CarryingCapacity>20</CarryingCapacity>
+            <WorkSpeedGlobal>0.08</WorkSpeedGlobal>
+        </equippedStatOffsets>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/OA_RK_New_Sandwich_A</wornGraphicPath>
+            <layers>
+                <li>Middle</li>
+            </layers>
+            <tags>
+                <li>OARatkin_IndustrialApparel</li>
+            </tags>
+        </apparel>
+        <recipeMaker>
+            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+            <researchPrerequisite>OA_RK_Apparel_E</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+
+    <!-- 金鸢尾兰披风  -->
+    <ThingDef Class="NewRatkin.CustomThingDef" ParentName="OARatkin_CommonApparelMakeableBase">
+        <defName>OA_RK_New_Windbreaker_A</defName>
+        <label>Oberonia Aurea Cloak</label>
+        <description>The clothing produced by the Oberonia Aurea Empire after being exposed to the culture of the Milky Way is more focused on intuitive and open aesthetics compared to traditional clothing, making it more vibrant.</description>
+        <graphicData>
+            <texPath>Apparel/OA_RK_New_Windbreaker_A</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costList>
+            <Synthread>70</Synthread>
+        </costList>
+        <costStuffCount>40</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToMake>20200</WorkToMake>
+            <Mass>2.8</Mass>
+            <StuffEffectMultiplierArmor>0.28</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.7</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.7</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>2.0</EquipDelay>
+        </statBases>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Neck</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Legs</li>
+            </bodyPartGroups>
+            <drawData>
+                <defaultData>
+                    <layer>30</layer>
+                </defaultData>
+            </drawData>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+            <wornGraphicPath>Apparel/OA_RK_New_Windbreaker_A</wornGraphicPath>
+            <layers>
+                <li>Shell</li>
+            </layers>
+            <tags>
+                <li>OARatkin_Noble_Tier1</li>
+            </tags>
+        </apparel>
+        <recipeMaker>
+            <researchPrerequisite>OA_RK_Apparel_A</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+
+    <!-- 金鸢尾兰山地风衣  -->
+    <ThingDef Class="NewRatkin.CustomThingDef" ParentName="OARatkin_CourtApparelMakeableBase">
+        <defName>OA_RK_New_Windbreaker_B</defName>
+        <label>Oberonia Aurea Mountain Windbreaker</label>
+        <description>The windbreakers specially designed by the distant travelers of the Oberonia Aurea Empire for the mountainous climate have excellent resistance to falls and cold.</description>
+        <graphicData>
+            <texPath>Apparel/OA_RK_New_Windbreaker_B</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costList>
+            <Synthread>65</Synthread>
+        </costList>
+        <costStuffCount>60</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <statBases>
+            <MaxHitPoints>300</MaxHitPoints>
+            <WorkToMake>29000</WorkToMake>
+            <Mass>3.5</Mass>
+            <StuffEffectMultiplierArmor>0.38</StuffEffectMultiplierArmor>
+            <ArmorRating_Blunt>0.40</ArmorRating_Blunt>
+            <StuffEffectMultiplierInsulation_Cold>1.0</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.55</StuffEffectMultiplierInsulation_Heat>
+            <Insulation_Cold>6</Insulation_Cold>
+            <EquipDelay>2.2</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <MoveSpeed>0.1</MoveSpeed>
+        </equippedStatOffsets>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Neck</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Legs</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+            <drawData>
+                <defaultData>
+                    <layer>30</layer>
+                </defaultData>
+            </drawData>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+            <wornGraphicPath>Apparel/OA_RK_New_Windbreaker_B</wornGraphicPath>
+            <layers>
+                <li>Shell</li>
+            </layers>
+            <tags>
+                <li>OARatkin_TravellerApparel</li>
+            </tags>
+        </apparel>
+        <recipeMaker>
+            <researchPrerequisite>OA_RK_Apparel_D</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+
+    <!-- 金鸢尾兰多功能大衣  -->
+    <ThingDef Class="NewRatkin.CustomThingDef" ParentName="OARatkin_CourtApparelMakeableBase">
+        <defName>OA_RK_New_Windbreaker_C</defName>
+        <label>Oberonia Aurea Multifunctional Coat</label>
+        <description>The work uniform commonly used by the Oberonia Aurea Palace has multiple modular components that can be easily connected to the work equipment of the Oberonia Aurea. In addition, it also has certain heat resistance and protective performance.</description>
+        <graphicData>
+            <texPath>Apparel/OA_RK_New_Windbreaker_C</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costList>
+            <Synthread>80</Synthread>
+            <ComponentIndustrial>4</ComponentIndustrial>
+            <Uranium>40</Uranium>
+        </costList>
+        <costStuffCount>40</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <statBases>
+            <MaxHitPoints>250</MaxHitPoints>
+            <WorkToMake>27500</WorkToMake>
+            <Mass>3.5</Mass>
+            <StuffEffectMultiplierArmor>0.20</StuffEffectMultiplierArmor>
+            <ArmorRating_Sharp>0.40</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.20</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.80</ArmorRating_Heat>
+            <StuffEffectMultiplierInsulation_Cold>0.8</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.75</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>2.2</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <GeneralLaborSpeed>0.15</GeneralLaborSpeed>
+            <WorkSpeedGlobal>0.08</WorkSpeedGlobal>
+        </equippedStatOffsets>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Neck</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Legs</li>
+            </bodyPartGroups>
+            <drawData>
+                <defaultData>
+                    <layer>30</layer>
+                </defaultData>
+            </drawData>
+            <defaultOutfitTags>
+                <li>Soldier</li>
+            </defaultOutfitTags>
+            <wornGraphicPath>Apparel/OA_RK_New_Windbreaker_C</wornGraphicPath>
+            <layers>
+                <li>Shell</li>
+            </layers>
+            <tags>
+                <li>OARatkin_TechnicalApparel</li>
+                <li>OARatkin_IndustrialApparel</li>
+            </tags>
+        </apparel>
+        <recipeMaker>
+            <researchPrerequisite>OA_RK_Apparel_B</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+
+    <!-- 金鸢尾兰技术官大衣  -->
+    <ThingDef Class="NewRatkin.CustomThingDef" ParentName="OARatkin_CommonApparelMakeableBase">
+        <defName>OA_RK_New_Windbreaker_D</defName>
+        <label>Oberonia Aurea Technical Officer Coat</label>
+        <description>The Oberonia Aurea Palace is a coat specially developed for technical officials, with little consideration for practicality, but more emphasis on comfort and aesthetics when wearing it.</description>
+        <graphicData>
+            <texPath>Apparel/OA_RK_New_Windbreaker_D</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costList>
+            <Synthread>85</Synthread>
+        </costList>
+        <costStuffCount>55</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <statBases>
+            <MaxHitPoints>300</MaxHitPoints>
+            <WorkToMake>31000</WorkToMake>
+            <Mass>3.5</Mass>
+            <ArmorRating_Heat>0.60</ArmorRating_Heat>
+            <StuffEffectMultiplierArmor>0.32</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>1.15</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.60</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>2.2</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <SocialImpact>0.15</SocialImpact>
+        </equippedStatOffsets>
+        <apparel>
+            <drawData>
+                <defaultData>
+                    <layer>30</layer>
+                </defaultData>
+            </drawData>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Neck</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Legs</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/OA_RK_New_Windbreaker_D</wornGraphicPath>
+            <layers>
+                <li>Shell</li>
+            </layers>
+            <tags>
+                <li>OARatkin_TechnicalApparel</li>
+            </tags>
+        </apparel>
+        <recipeMaker>
+            <researchPrerequisite>OA_RK_Apparel_E</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+
+    <!-- 金鸢尾兰复式连衣裙  -->
+    <ThingDef Class="NewRatkin.CustomThingDef" ParentName="OARatkin_CommonApparelMakeableBase">
+        <defName>OA_RK_New_Apparel_A</defName>
+        <label>Oberonia Aurea Duplex Dress</label>
+        <description>One of the common Oberonia Aurea costumes, the multi-layered duplex structure is highly layered, and the carefully designed patterns are no less impressive than palace costumes.</description>
+        <graphicData>
+            <texPath>Apparel/OA_RK_New_Apparel_A</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <WorkToMake>19000</WorkToMake>
+            <Mass>1.5</Mass>
+            <StuffEffectMultiplierArmor>0.30</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.56</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.35</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>3.5</EquipDelay>
+        </statBases>
+        <costList>
+            <Synthread>55</Synthread>
+        </costList>
+        <costStuffCount>55</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <equippedStatOffsets>
+            <GeneralLaborSpeed>0.08</GeneralLaborSpeed>
+            <SocialImpact>0.20</SocialImpact>
+        </equippedStatOffsets>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Neck</li>
+                <li>Arms</li>
+                <li>Legs</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/OA_RK_New_Apparel_A</wornGraphicPath>
+            <layers>
+                <li>OnSkin</li>
+            </layers>
+        </apparel>
+        <recipeMaker>
+            <researchPrerequisite>OA_RK_Apparel_A</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+
+    <!-- 金鸢尾兰古典长袍  -->
+    <ThingDef Class="NewRatkin.CustomThingDef" ParentName="OARatkin_CommonApparelMakeableBase">
+        <defName>OA_RK_New_Apparel_B</defName>
+        <label>Oberonia Aurea Classic Robe</label>
+        <description>It is one of the common clothes of Oberonia Aurea. If it is not made of synthetic fiber, it is the same as the clothes of ancient Oberonia Aurea.</description>
+        <graphicData>
+            <texPath>Apparel/OA_RK_New_Apparel_B</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <WorkToMake>17200</WorkToMake>
+            <Mass>1.5</Mass>
+            <StuffEffectMultiplierArmor>0.22</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.52</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.44</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>3.5</EquipDelay>
+        </statBases>
+        <costList>
+            <Synthread>62</Synthread>
+        </costList>
+        <costStuffCount>45</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <equippedStatOffsets>
+            <GeneralLaborSpeed>0.05</GeneralLaborSpeed>
+            <SocialImpact>0.15</SocialImpact>
+        </equippedStatOffsets>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Neck</li>
+                <li>Arms</li>
+                <li>Legs</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/OA_RK_New_Apparel_B</wornGraphicPath>
+            <layers>
+                <li>OnSkin</li>
+            </layers>
+            <tags>
+                <li>OARatkin_CourtApparel</li>
+            </tags>
+        </apparel>
+        <recipeMaker>
+            <researchPrerequisite>OA_RK_Apparel_A</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+
+    <!-- 金鸢尾兰厚摆长袍  -->
+    <ThingDef Class="NewRatkin.CustomThingDef" ParentName="OARatkin_CommonApparelMakeableBase">
+        <defName>OA_RK_New_Apparel_C</defName>
+        <label>Oberonia Aurea thick robe</label>
+        <description>One of the common daily servings of the Oberonia Aurea. By hanging and fixing additional high-quality heavy fabrics on the belt, the entire design has both classical charm and a considerable sense of solemnity and elegance.</description>        <!--腰带上的两个八角星用于固定布料，而整块布料则是宛若晾衣绳上的床单一样搭在腰带上的，灵感来源于古希腊的希顿。-->
+        <graphicData>
+            <texPath>Apparel/OA_RK_New_Apparel_C</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <WorkToMake>18200</WorkToMake>
+            <Mass>1.5</Mass>
+            <StuffEffectMultiplierArmor>0.26</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.58</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>3.5</EquipDelay>
+        </statBases>
+        <costList>
+            <Synthread>60</Synthread>
+        </costList>
+        <costStuffCount>50</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <equippedStatOffsets>
+            <GeneralLaborSpeed>0.05</GeneralLaborSpeed>
+            <SocialImpact>0.20</SocialImpact>
+        </equippedStatOffsets>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Neck</li>
+                <li>Arms</li>
+                <li>Legs</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/OA_RK_New_Apparel_C</wornGraphicPath>
+            <layers>
+                <li>OnSkin</li>
+            </layers>
+            <tags>
+                <li>OARatkin_CourtApparel</li>
+            </tags>
+        </apparel>
+        <recipeMaker>
+            <researchPrerequisite>OA_RK_Apparel_A</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+
+    <!-- 金鸢尾兰纹饰长袍  -->
+    <ThingDef Class="NewRatkin.CustomThingDef" ParentName="OARatkin_CommonApparelMakeableBase">
+        <defName>OA_RK_New_Apparel_D</defName>
+        <label>Golden iris orchid patterned robe</label>
+        <description>One of the common ways to take the Golden Iris Orchid. The multi-layered design combined with exquisite texture patterns may not be as beautiful as even aristocratic clothing.</description>
+        <graphicData>
+            <texPath>Apparel/OA_RK_New_Apparel_D</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <statBases>
+            <WorkToMake>16200</WorkToMake>
+            <Mass>1.5</Mass>
+            <StuffEffectMultiplierArmor>0.24</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.54</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.50</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>3.5</EquipDelay>
+        </statBases>
+        <costList>
+            <Synthread>60</Synthread>
+        </costList>
+        <costStuffCount>40</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <equippedStatOffsets>
+            <GeneralLaborSpeed>0.06</GeneralLaborSpeed>
+            <SocialImpact>0.15</SocialImpact>
+        </equippedStatOffsets>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Shoulders</li>
+                <li>Neck</li>
+                <li>Arms</li>
+                <li>Legs</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/OA_RK_New_Apparel_D</wornGraphicPath>
+            <layers>
+                <li>OnSkin</li>
+            </layers>
+        </apparel>
+        <recipeMaker>
+            <researchPrerequisite>OA_RK_Apparel_A</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+
+</Defs>

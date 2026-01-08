@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- 轻型突袭作战头盔 -->
+    <ThingDef Class="NewRatkin.CustomThingDef" ParentName="OARatkin_ArmorHatMakeableBase">
+        <defName>OA_RK_Armor_Hat_A</defName>
+        <label>Light Blitz combat helmet</label>
+        <description>The combat helmet is made of extremely tough bulletproof composite. It utilizes Oberonia Aurea uranium expertise for superior safety. In addition, the helmet is equipped with a small combat assist system to improve shooting accuracy.</description>
+        <graphicData>
+            <texPath>Apparel/OA_RK_Armor_Hat_A</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costList>
+            <Synthread>40</Synthread>
+            <ComponentIndustrial>5</ComponentIndustrial>
+            <Uranium>55</Uranium>
+        </costList>
+        <statBases>
+            <MaxHitPoints>275</MaxHitPoints>
+            <WorkToMake>31000</WorkToMake>
+            <Mass>0.25</Mass>
+            <EquipDelay>0.75</EquipDelay>
+            <ArmorRating_Sharp>0.98</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.38</ArmorRating_Blunt>
+            <ArmorRating_Heat>1.18</ArmorRating_Heat>
+            <Insulation_Cold>4.5</Insulation_Cold>
+            <Insulation_Heat>3.5</Insulation_Heat>
+        </statBases>
+        <recipeMaker>
+            <recipeUsers Inherit="false">
+                <li>FabricationBench</li>
+            </recipeUsers>
+            <useIngredientsForColor>false</useIngredientsForColor>
+            <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+            <researchPrerequisite>OA_RK_Apparel_C</researchPrerequisite>
+        </recipeMaker>
+        <equippedStatOffsets>
+            <MoveSpeed>0.15</MoveSpeed>
+            <ShootingAccuracyPawn>1.5</ShootingAccuracyPawn>
+            <PsychicSensitivity>-0.25</PsychicSensitivity>
+        </equippedStatOffsets>
+        <tradeTags>
+            <li>OARatkin_Apparel</li>
+        </tradeTags>
+        <apparel>
+            <bodyPartGroups>
+                <li>Eyes</li>
+                <li>Neck</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/OA_RK_Armor_Hat_A</wornGraphicPath>
+            <tags>
+                <li>OARatkin_AssaulterArmor</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+    <!-- 全防护突袭作战头盔 -->
+    <ThingDef Class="NewRatkin.CustomThingDef" ParentName="OARatkin_ArmorHatMakeableBase">
+        <defName>OA_RK_Armor_Hat_B</defName>
+        <label>Full protection Blitz combat helmet</label>
+        <description>The combat helmet is made of extremely tough bulletproof composite. It focuses on protection enhancement and combat assistance, helps the heavy weaponry operators concentrating more on fire support.</description>
+        <graphicData>
+            <texPath>Apparel/OA_RK_Armor_Hat_B</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costList>
+            <Synthread>30</Synthread>
+            <ComponentIndustrial>6</ComponentIndustrial>
+            <Uranium>70</Uranium>
+        </costList>
+        <statBases>
+            <MaxHitPoints>275</MaxHitPoints>
+            <WorkToMake>36200</WorkToMake>
+            <Mass>0.4</Mass>
+            <EquipDelay>0.75</EquipDelay>
+            <ArmorRating_Sharp>1.16</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.48</ArmorRating_Blunt>
+            <ArmorRating_Heat>1.50</ArmorRating_Heat>
+            <Insulation_Cold>5.5</Insulation_Cold>
+            <Insulation_Heat>4.5</Insulation_Heat>
+        </statBases>
+        <equippedStatOffsets>
+            <ShootingAccuracyPawn>2.5</ShootingAccuracyPawn>
+            <ToxicEnvironmentResistance>1.0</ToxicEnvironmentResistance>
+            <PsychicSensitivity>-0.40</PsychicSensitivity>
+            <HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
+            <DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
+        </equippedStatOffsets>
+        <recipeMaker>
+            <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+            <recipeUsers Inherit="false">
+                <li>FabricationBench</li>
+            </recipeUsers>
+            <useIngredientsForColor>false</useIngredientsForColor>
+            <researchPrerequisite>OA_RK_Apparel_C</researchPrerequisite>
+        </recipeMaker>
+        <tradeTags>
+            <li>OARatkin_Apparel</li>
+        </tradeTags>
+        <apparel>
+            <immuneToToxGasExposure>true</immuneToToxGasExposure>
+            <bodyPartGroups Inherit="False">
+                <li>FullHead</li>
+                <li>Neck</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Apparel/OA_RK_Armor_Hat_B</wornGraphicPath>
+            <tags>
+                <li>OARatkin_AssaulterArmor</li>
+            </tags>
+        </apparel>
+    </ThingDef>
+
+</Defs>

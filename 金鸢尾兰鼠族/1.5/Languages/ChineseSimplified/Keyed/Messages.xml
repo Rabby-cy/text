@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OARK_AssistPointsAdded>金鸢尾兰支援贡献增加{0}</OARK_AssistPointsAdded>
+    <OARK_AssistPointsReduced>金鸢尾兰支援贡献减少{0}</OARK_AssistPointsReduced>
+
+    <OA_MessageNoResearcher>没有合适的研究员</OA_MessageNoResearcher>
+
+    <OA_ResponsibilityConstraints>{0}因为责任感而暂时保持了理智</OA_ResponsibilityConstraints>
+    <OA_Atonement>{0}为了赎罪而暂时保持了理智</OA_Atonement>
+
+</LanguageData>

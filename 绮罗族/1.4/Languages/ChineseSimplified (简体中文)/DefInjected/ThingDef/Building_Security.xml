@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 机巧弩 -->
+
+  <KiiroTurret_AutoCrossBow.label>绮罗机巧穿云弩</KiiroTurret_AutoCrossBow.label>
+  <KiiroTurret_AutoCrossBow.description>完全由机关控制的弩，能够自行瞄准并发射弩箭，但由于材料强度的问题存在上弦缓慢和射程不足等缺陷。会在内置的驱动弹片失去全部势能后失效。</KiiroTurret_AutoCrossBow.description>
+
+  <KiiroArrow_AutoCrossBow.label>绮罗穿云弩矢</KiiroArrow_AutoCrossBow.label>
+
+  <KiiroTurretGun_AutoCrossBow.label>绮罗穿云弩机</KiiroTurretGun_AutoCrossBow.label>
+  <KiiroTurretGun_AutoCrossBow.description>穿云弩的核心部分，能够缓慢地自动上弦击发。</KiiroTurretGun_AutoCrossBow.description>
+
+  <KiiroTurret_AutoCrossBowII.label>绮罗机巧飞星弩</KiiroTurret_AutoCrossBowII.label>
+  <KiiroTurret_AutoCrossBowII.description>完全由机关控制的弩，能够向目标范围抛射大量箭矢。会在内置的驱动弹片失去全部势能后失效。</KiiroTurret_AutoCrossBowII.description>
+
+  <KiiroArrow_AutoCrossBowII.label>绮罗飞星箭矢</KiiroArrow_AutoCrossBowII.label>
+
+  <KiiroTurretGun_AutoCrossBowII.label>绮罗飞星弩机</KiiroTurretGun_AutoCrossBowII.label>
+  <KiiroTurretGun_AutoCrossBowII.description>飞星弩的核心部分，能够缓慢地自动上弦击发。</KiiroTurretGun_AutoCrossBowII.description>
+
+
+  <!-- 自行榴弹投射器 -->
+
+  <KiiroTurret_AutoEMPLauncher.label>绮罗自动EMP发射器</KiiroTurret_AutoEMPLauncher.label>
+  <KiiroTurret_AutoEMPLauncher.description>传统工艺与科技结合的产物，能够自动向目标发射电子脉冲榴弹。</KiiroTurret_AutoEMPLauncher.description>
+
+  <KiiroProjectile_AutoEMPLauncher.label>绮罗电子脉冲榴弹</KiiroProjectile_AutoEMPLauncher.label>
+
+  <KiiroTurretGun_AutoEMPLauncher.label>绮罗EMP发射器</KiiroTurretGun_AutoEMPLauncher.label>
+  <KiiroTurretGun_AutoEMPLauncher.description>自动EMP发射器的主体部分。</KiiroTurretGun_AutoEMPLauncher.description>
+
+  <KiiroTurret_AutoHE_FRAGLauncher.label>绮罗自动榴弹发射器</KiiroTurret_AutoHE_FRAGLauncher.label>
+  <KiiroTurret_AutoHE_FRAGLauncher.description>传统工艺与科技结合的产物，能够自动向目标发射高爆破片榴弹。</KiiroTurret_AutoHE_FRAGLauncher.description>
+
+  <KiiroProjectile_AutoHE_FRAGLauncher.label>绮罗破片榴弹</KiiroProjectile_AutoHE_FRAGLauncher.label>
+
+  <KiiroTurretGun_AutoHE_FRAGLauncher.label>绮罗榴弹投射器</KiiroTurretGun_AutoHE_FRAGLauncher.label>
+  <KiiroTurretGun_AutoHE_FRAGLauncher.description>自动榴弹发射器的主体部分。</KiiroTurretGun_AutoHE_FRAGLauncher.description>
+
+  <KiiroTurret_AutoSmokeLauncher.label>绮罗自动烟雾弹发射器</KiiroTurret_AutoSmokeLauncher.label>
+  <KiiroTurret_AutoSmokeLauncher.description>传统工艺与科技结合的产物，能够自动向目标发射烟雾弹。</KiiroTurret_AutoSmokeLauncher.description>
+
+  <KiiroProjectile_AutoSmokeLauncher.label>绮罗烟雾榴弹</KiiroProjectile_AutoSmokeLauncher.label>
+
+  <KiiroTurretGun_AutoSmokeLauncher.label>绮罗烟雾弹发射器</KiiroTurretGun_AutoSmokeLauncher.label>
+  <KiiroTurretGun_AutoSmokeLauncher.description>自动烟雾弹发射器的主体部分。</KiiroTurretGun_AutoSmokeLauncher.description>
+
+
+  <!-- 原型重机枪 -->
+
+  <KiiroTurret_PT_HMG.label>绮罗原型重机枪</KiiroTurret_PT_HMG.label>
+  <KiiroTurret_PT_HMG.description>由绮罗族前沿的技术员研发的原型重机枪，火力压制的能力极其优秀，且本身带有防弹钢板能够抵挡大量伤害；但由于携带困难和造价高昂不能大量投入使用。</KiiroTurret_PT_HMG.description>
+
+  <KiiroBullet_PT_HMG.label>绮罗原型重机枪子弹</KiiroBullet_PT_HMG.label>
+
+  <KiiroTurretGun_PT_HMG.label>绮罗原型重机枪</KiiroTurretGun_PT_HMG.label>
+  <KiiroTurretGun_PT_HMG.description>由绮罗族最前沿的技术员研发的原型重机枪，火力压制的能力极其优秀。</KiiroTurretGun_PT_HMG.description>
+
+
+</LanguageData>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OA_ViewPawnInfoButton>查看人员信息</OA_ViewPawnInfoButton>
+
+    <OARK_TalkWithProspectingLeader>你的殖民者{0}和勘探队队长{1}交谈</OARK_TalkWithProspectingLeader>
+    <OARK_ProspectingLeader_Serve>邀请她们前往殖民地休整</OARK_ProspectingLeader_Serve>
+    <OARK_ProspectingLeader_Reject>婉拒她们的申请</OARK_ProspectingLeader_Reject>
+
+</LanguageData>

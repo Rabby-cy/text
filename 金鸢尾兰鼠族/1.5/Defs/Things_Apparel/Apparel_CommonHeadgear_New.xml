@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- 金鸢尾兰花环  -->
+    <ThingDef Class="NewRatkin.CustomThingDef" ParentName="OARatkin_HatMakeableBase">
+        <defName>OA_RK_New_Hat_A</defName>
+        <label>Oberonia Aurea wreath</label>
+        <description>The wreath is woven from Oberonia Aurea and rare silver leaf grass, full of natural beauty, and has a certain health promoting effect when worn.</description>
+        <graphicData>
+            <texPath>Apparel/OA_RK_New_Hat_A</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costList>
+            <!--Synthread>2</Synthread-->
+            <Silver>3</Silver>
+            <Oberonia_Aurea>25</Oberonia_Aurea>
+        </costList>
+        <statBases>
+            <MaxHitPoints>80</MaxHitPoints>
+            <WorkToMake>5200</WorkToMake>
+            <Mass>0.1</Mass>
+            <EquipDelay>0.75</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <SocialImpact>0.1</SocialImpact>
+            <ImmunityGainSpeed>0.03</ImmunityGainSpeed>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Apparel/OA_RK_New_Hat_A</wornGraphicPath>
+            <tags>
+                <li>OARatkin_Traveller_Apparel</li>
+            </tags>
+        </apparel>
+        <recipeMaker>
+            <!--别问为什么是显示装甲，因为金鸢尾兰不属于一种材料，如果未完成的物品吃材料选择那么会出BUG--> <!--捏嘛出BUG了-->
+            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef> 
+            <researchPrerequisite>OA_RK_Apparel_A</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+
+    <!-- 金鸢尾兰雪绒帽  -->
+    <ThingDef Class="NewRatkin.CustomThingDef" ParentName="OARatkin_CommonHatMakeableBase">
+        <defName>OA_RK_New_Hat_B</defName>
+        <label>Oberonia Aurea Snow Fleece Hat</label>
+        <description>A thick, warm hat woven with a large amount of plush is one of the traditional warm clothing of the Oberonia Aurea Empire.</description>
+        <graphicData>
+            <texPath>Apparel/OA_RK_New_Hat_B</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costList>
+            <Synthread>30</Synthread>
+        </costList>
+        <costStuffCount>35</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+        </stuffCategories>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+            <WorkToMake>10600</WorkToMake>
+            <Mass>0.25</Mass>
+            <EquipDelay>0.75</EquipDelay>
+            <StuffEffectMultiplierArmor>0.20</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.65</StuffEffectMultiplierInsulation_Cold>
+        </statBases>
+        <equippedStatOffsets>
+            <SocialImpact>0.05</SocialImpact>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Apparel/OA_RK_New_Hat_B</wornGraphicPath>
+            <tags>
+                <li>OARatkin_Traveller_Apparel</li>
+                <li>OARatkin_Noble_Tier1</li>
+            </tags>
+        </apparel>
+        <recipeMaker>
+            <researchPrerequisite>OA_RK_Apparel_A</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+
+    <!-- 金鸢尾兰技术帽  -->
+    <ThingDef Class="NewRatkin.CustomThingDef" ParentName="OARatkin_HatMakeableBase">
+        <defName>OA_RK_New_Hat_C</defName>
+        <label>Oberonia Aurea Technical Hat</label>
+        <description>The technical department uniform hat of the Oberonia Aurea Palace, with a lightweight design, does not feel heavy even when worn on the head.</description>
+        <graphicData>
+            <texPath>Apparel/OA_RK_New_Hat_C</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <techLevel>Spacer</techLevel>
+        <costList>
+            <Synthread>50</Synthread>
+            <Steel>25</Steel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+        </costList>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+            <WorkToMake>17000</WorkToMake>
+            <Mass>0.25</Mass>
+            <EquipDelay>0.75</EquipDelay>
+            <ArmorRating_Sharp>0.28</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.18</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.66</ArmorRating_Heat>
+            <Insulation_Cold>6.5</Insulation_Cold>
+            <Insulation_Heat>5.0</Insulation_Heat>
+        </statBases>
+        <equippedStatOffsets>
+            <GeneralLaborSpeed>0.10</GeneralLaborSpeed>
+            <ResearchSpeed>0.25</ResearchSpeed>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Apparel/OA_RK_New_Hat_C</wornGraphicPath>
+            <tags>
+                <li>OARatkin_TechnicalApparel</li>
+            </tags>
+        </apparel>
+        <recipeMaker>
+            <researchPrerequisite>OA_RK_Apparel_E</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+
+    <!-- 金鸢尾兰工业防护头盔  -->
+    <ThingDef Class="NewRatkin.CustomThingDef" ParentName="OARatkin_HatMakeableBase">
+        <defName>OA_RK_New_Hat_D</defName>
+        <label>Oberonia Aurea industrial protective helmet</label>
+        <description>The safety helmet used during the construction of the Industrial Department of the Oberonia Aurea Palace has a good toughness alloy and a specially designed built-in buffer layer, which can effectively protect against blunt object impacts. However, it is not effective in protecting sharp objects.</description>
+        <graphicData>
+            <texPath>Apparel/OA_RK_New_Hat_D</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <techLevel>Spacer</techLevel>
+        <costList>
+            <Uranium>30</Uranium>
+            <Steel>40</Steel>
+            <ComponentIndustrial>2</ComponentIndustrial>
+        </costList>
+        <statBases>
+            <MaxHitPoints>275</MaxHitPoints>
+            <WorkToMake>19200</WorkToMake>
+            <Mass>0.25</Mass>
+            <EquipDelay>0.75</EquipDelay>
+            <ArmorRating_Sharp>0.52</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.88</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.76</ArmorRating_Heat>
+            <Insulation_Cold>2.0</Insulation_Cold>
+            <Insulation_Heat>3.0</Insulation_Heat>
+        </statBases>
+        <equippedStatOffsets>
+            <GeneralLaborSpeed>0.08</GeneralLaborSpeed>
+            <ConstructionSpeed>0.25</ConstructionSpeed>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Apparel/OA_RK_New_Hat_D</wornGraphicPath>
+            <tags>
+                <li>OARatkin_IndustrialApparel</li>
+            </tags>
+        </apparel>
+        <recipeMaker>
+            <researchPrerequisite>OA_RK_Apparel_E</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+
+</Defs>

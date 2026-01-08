@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <!-- 金鸢尾兰仓帽 -->
+    <ThingDef Class="NewRatkin.CustomThingDef" ParentName="OARatkin_CommonHatMakeableBase">
+        <defName>OA_RK_Hat_A</defName>
+        <label>Oberonia Aurea square hat</label>
+        <description>A popular hexgonal shape hat of Oberonia Aurea Empire. It is also called barn hat for its resemblance of traditional cylinder barn.</description>
+        <graphicData>
+            <texPath>Apparel/OA_RK_Hat_A</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costList>
+            <Synthread>20</Synthread>
+        </costList>
+        <costStuffCount>12</costStuffCount>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+            <WorkToMake>8800</WorkToMake>
+            <StuffEffectMultiplierArmor>0.17</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
+            <Mass>0.15</Mass>
+            <EquipDelay>0.75</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <SocialImpact>0.05</SocialImpact>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Apparel/OA_RK_Hat_A</wornGraphicPath>
+            <tags>
+                <li>OARatkin_TravellerApparel</li>
+                <li>OARatkin_Noble_Tier1</li>
+            </tags>
+        </apparel>
+        <recipeMaker>
+            <researchPrerequisite>OA_RK_Apparel_A</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+
+    <!-- 金鸢尾兰银叶发饰 -->
+    <ThingDef Class="NewRatkin.CustomThingDef" ParentName="OARatkin_CommonHatMakeableBase">
+        <defName>OA_RK_Hat_B</defName>
+        <label>Oberonia Aurea silver-leaf hairpin</label>
+        <description>Classically styled olive leaf hair ornament with a variety of patterns.</description>
+        <graphicData>
+            <texPath>Apparel/OA_RK_Hat_B</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costList>
+            <Silver>13</Silver>
+        </costList>
+        <statBases>
+            <WorkToMake>9000</WorkToMake>
+            <Mass>0.05</Mass>
+            <EquipDelay>0.75</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <NegotiationAbility>0.15</NegotiationAbility>
+            <SocialImpact>0.12</SocialImpact>
+            <TradePriceImprovement>0.05</TradePriceImprovement>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Apparel/OA_RK_Hat_B</wornGraphicPath>
+            <tags>
+                <li>OARatkin_Noble_Tier1</li>
+                <li>OARatkin_Noble_Tier2</li>
+                <li>RoyalTier6</li>
+                <li>RoyalTier7</li>
+                <li>RoyalTier8</li>
+            </tags>
+        </apparel>
+        <recipeMaker>
+            <researchPrerequisite>OA_RK_Apparel_A</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+
+    <!-- 金鸢尾兰宫廷银叶发饰 -->
+    <ThingDef Class="NewRatkin.CustomThingDef" ParentName="OARatkin_CourtHatMakeableBase">
+        <defName>OA_RK_Hat_C</defName>
+        <label>Oberonia Aurea court silver-leaf hairpin</label>
+        <description>A silver leaf hairpin with a microcomputer embedded. Can somewhat alleviate the daily chores of the court members.</description>
+        <graphicData>
+            <texPath>Apparel/OA_RK_Hat_C</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costList>
+            <Silver>11</Silver>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
+        <statBases>
+            <WorkToMake>10000</WorkToMake>
+            <Mass>0.05</Mass>
+            <EquipDelay>0.75</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <SocialImpact>0.10</SocialImpact>
+            <GeneralLaborSpeed>0.05</GeneralLaborSpeed>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Apparel/OA_RK_Hat_C</wornGraphicPath>
+        </apparel>
+        <recipeMaker>
+            <researchPrerequisite>OA_RK_Apparel_B</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+
+    <!-- 金鸢尾兰分析镜 -->
+    <ThingDef Class="NewRatkin.CustomThingDef" ParentName="OARatkin_HatMakeableBase">
+        <defName>OA_RK_Hat_D</defName>
+        <label>Oberonia Aurea scouter</label>
+        <description>A compact monocle with analytical capability. It can analyze the compositions of objects, or provide varies of assistance in reasearches. \n\n"You have a power level of only five. Huh, pitiful."</description>
+        <graphicData>
+            <texPath>Apparel/OA_RK_Hat_D</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costList>
+            <Steel>40</Steel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+        </costList>
+        <statBases>
+            <WorkToMake>19200</WorkToMake>
+            <Mass>0.05</Mass>
+            <EquipDelay>0.75</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <ResearchSpeed>0.50</ResearchSpeed>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Apparel/OA_RK_Hat_D</wornGraphicPath>
+        </apparel>
+        <recipeMaker>
+            <researchPrerequisite>OA_RK_Apparel_B</researchPrerequisite>
+            <unfinishedThingDef>UnfinishedArmor</unfinishedThingDef>
+        </recipeMaker>
+    </ThingDef>
+
+    <!-- 金鸢尾兰发饰 -->
+    <ThingDef Class="NewRatkin.CustomThingDef" ParentName="OARatkin_CommonHatMakeableBase">
+        <defName>OA_RK_Hat_E</defName>
+        <label>Oberonia Aurea silver-rose hairpin</label>
+        <description>Carefully woven hairpin that resembles a shape of white rose flower. The attached silver leaf emits innocent purity.</description>
+        <graphicData>
+            <texPath>Apparel/OA_RK_Hat_E</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <costList>
+            <Synthread>30</Synthread>
+            <Silver>15</Silver>
+        </costList>
+        <statBases>
+            <WorkToMake>9000</WorkToMake>
+            <Mass>0.1</Mass>
+            <EquipDelay>0.75</EquipDelay>
+        </statBases>
+        <equippedStatOffsets>
+            <SocialImpact>0.15</SocialImpact>
+            <TradePriceImprovement>0.05</TradePriceImprovement>
+            <NegotiationAbility>0.05</NegotiationAbility>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Apparel/OA_RK_Hat_E</wornGraphicPath>
+            <tags>
+                <li>RoyalTier6</li>
+                <li>RoyalTier7</li>
+            </tags>
+        </apparel>
+        <recipeMaker>
+            <researchPrerequisite>OA_RK_Apparel_A</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+
+</Defs>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <WorldObjectDef>
+        <defName>OA_RK_MultiPartyTalks</defName>
+        <label>多方会谈</label>
+        <description>多方会谈。</description>
+        <worldObjectClass>OberoniaAurea.WorldObject_MultiPartyTalks</worldObjectClass>
+        <texture>World/OA_RK_MultiPartyTalks</texture>
+        <expandingIcon>true</expandingIcon>
+        <expandingIconTexture>World/OA_RK_MultiPartyTalks</expandingIconTexture>
+        <expandingIconPriority>70</expandingIconPriority>
+        <comps>
+            <li Class="WorldObjectCompProperties_Timeout" />
+        </comps>
+    </WorldObjectDef>
+
+    <WorldObjectDef>
+        <defName>OA_RK_DiplomaticOffices</defName>
+        <label>外交斡旋</label>
+        <description>外交斡旋。</description>
+        <worldObjectClass>OberoniaAurea.WorldObject_DiplomaticOffices</worldObjectClass>
+        <texture>World/OA_RK_DiplomaticOffices</texture>
+        <expandingIcon>true</expandingIcon>
+        <expandingIconTexture>World/OA_RK_DiplomaticOffices</expandingIconTexture>
+        <expandingIconPriority>70</expandingIconPriority>
+        <comps>
+            <li Class="WorldObjectCompProperties_Timeout" />
+        </comps>
+    </WorldObjectDef>
+   
+</Defs>

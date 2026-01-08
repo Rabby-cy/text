@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_8x54mmUnstableCharged.label>8x54mm Charged cartridge</Ammo_8x54mmUnstableCharged.label>
+  <Ammo_8x54mmUnstableCharged.description>terrifying giant charged shot ammo used in Cataphract Centipede's weapons.</Ammo_8x54mmUnstableCharged.description>
+
+  <Ammo_8x54mmUnstableCharged_AP.label>8x54mm Unstable Charged cartridge</Ammo_8x54mmUnstableCharged_AP.label>
+  <Ammo_8x54mmUnstableCharged_AP.description>terrifying giant charged shot ammo used in Cataphract Centipede's weapons.</Ammo_8x54mmUnstableCharged_AP.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_8x54mmUnstableCharged.label>8x54mm Charged bullet</Bullet_8x54mmUnstableCharged.label>
+  <Bullet_8x54mmUnstableCharged_AP.label>8x54mm Charged bullet (Conc.)</Bullet_8x54mmUnstableCharged_AP.label>
+
+
+</LanguageData>

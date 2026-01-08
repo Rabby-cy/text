@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <OARK_GravFieldExtender.label>金鳶尾蘭逆重延展裝置</OARK_GravFieldExtender.label>
+  <OARK_GravFieldExtender.description>金鳶尾蘭科研部在對逆重科技進行反向研究後，製作的一種專門輔助逆重引擎運轉的引力延伸裝置。放置在逆重引擎附近可以強化逆重引擎的引力能級，提升逆重飛船可支持的基架數量。</OARK_GravFieldExtender.description>
+
+  <OARK_AirportClearanceBeacon.label>金鳶尾蘭空港許可信標</OARK_AirportClearanceBeacon.label>
+  <OARK_AirportClearanceBeacon.description>金鳶尾蘭帝國用於識別友好艦船的信標，激活此信標後艦船將能夠臨時停靠於金鳶尾蘭的太空港並補給，以提升單次飛行的最大航程。\n\n註意：飛船起飛時，該信標將自動激活。\n註意：該信標為一次性用品。</OARK_AirportClearanceBeacon.description>
+
+  <OARK_SpaceportAccessPermit.label>金鳶尾蘭太空港通行許可</OARK_SpaceportAccessPermit.label>
+  <OARK_SpaceportAccessPermit.description>金鳶尾蘭帝國用於識別友好艦船的信標，激活此信標後艦船將能夠臨時停靠於金鳶尾蘭的太空港並補給，以提升單次飛行的最大航程。\n\n註意：飛船起飛時，該信標將自動激活。\n註意：該信標為一次性用品。</OARK_SpaceportAccessPermit.description>
+
+  <OARK_GravFieldGenerator.label>小型引力場發生裝置</OARK_GravFieldGenerator.label>
+  <OARK_GravFieldGenerator.description>一個能夠持續在周圍構造引力場，並附著在附近單位身上的引力裝置，常被金鳶尾蘭帝國用於在空港初建時提供臨時的真空保護。\n\n而當空港遭到入侵時，該裝置也能主動營造強引力，對範圍內的所有人產生壓製的效果。</OARK_GravFieldGenerator.description>
+
+  <OARK_TrapIED_Gravity.label>金鳶尾蘭引力陷阱</OARK_TrapIED_Gravity.label>
+  <OARK_TrapIED_Gravity.description>一套能夠臨時形成強引力場的一次性設備系統，啟用後會將一定範圍內的所有單位強行牽扯過去。\n\n註意：同一單位短時間內多次受到強引力牽扯會產生抗性。\n需要手動開啟。</OARK_TrapIED_Gravity.description>
+
+  <OARK_AirportClearanceBeaconDeactive.label>失效的空港許可信標</OARK_AirportClearanceBeaconDeactive.label>
+  <OARK_AirportClearanceBeaconDeactive.description>一個已經失效的信標，剩下的作用只有占地方與觀賞性了。</OARK_AirportClearanceBeaconDeactive.description>
+
+  <OARK_BrokenPilotConsole.label>飛船操控臺</OARK_BrokenPilotConsole.label>
+  <OARK_BrokenPilotConsole.description>一架墜毀飛船的操控臺，盡管已經無法再用於執行本職工作，但內部的本地資料還是有著一定價值的。</OARK_BrokenPilotConsole.description>
+
+  <OARK_CrashedScienceShip.label>墜毀科研艙</OARK_CrashedScienceShip.label>
+  <OARK_CrashedScienceShip.description>墜毀的一次性無人科研艙，絕大多數數據都已經完成了傳輸，但少量的機械佐證數據仍然需要人來手動驗證傳輸。</OARK_CrashedScienceShip.description>
+
+  <OARK_GravDataBeacon.label>科研部逆重數據信標</OARK_GravDataBeacon.label>
+  <OARK_GravDataBeacon.description>金鳶尾蘭帝國科研部為了獲取逆重引擎相關數據而設置的信標。開啟信標時將記錄引擎的完整起降過程並進行數據傳輸，每次成功的數據傳輸都會為數據來源積累一定的科研貢獻。\n\n然而需要註意的是，由於龐大的數據流信號過於顯著，因此每次數據傳輸完成後，都將引來機械族的襲擊。</OARK_GravDataBeacon.description>
+
+</LanguageData>

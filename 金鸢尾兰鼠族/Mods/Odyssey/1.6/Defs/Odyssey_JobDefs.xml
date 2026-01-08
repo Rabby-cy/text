@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <JobDef>
+    <defName>OARK_Job_SailorInvitation</defName>
+    <driverClass>OberoniaAurea.JobDriver_SailorInvitation</driverClass>
+    <reportString>邀请 TargetA.</reportString>
+  </JobDef>
+
+  <JobDef>
+    <defName>OARK_Job_Hack</defName>
+    <driverClass>OberoniaAurea.JobDriver_Hack</driverClass>
+    <reportString>骇入 TargetA.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+
+  <JobDef>
+    <defName>OARK_Job_ScienceShipActivateCoolingDevice</defName>
+    <driverClass>OberoniaAurea.JobDriver_ScienceShip_ActivateCoolingDevice</driverClass>
+    <reportString>协助 TargetA 的内置降温装置运转</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+    <modExtensions>
+      <li Class="OberoniaAurea_Frame.JobExtension">
+        <jobExtensionRecord>
+          <jobSkill>Crafting</jobSkill>
+          <skillXpPerTick>1.0</skillXpPerTick>
+          <defaultWorkAmount>90</defaultWorkAmount>
+          <jobStat>WorkSpeedGlobal</jobStat>
+        </jobExtensionRecord>
+      </li>
+    </modExtensions>
+  </JobDef>
+
+  <JobDef>
+    <defName>OARK_Job_ScienceShipMechanical</defName>
+    <driverClass>OberoniaAurea.JobDriver_ScienceShip_MechanicalRepaire</driverClass>
+    <reportString>修理 TargetA.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+    <modExtensions>
+      <li Class="OberoniaAurea_Frame.JobExtension">
+        <jobExtensionRecord>
+          <jobSkill>Construction</jobSkill>
+          <skillXpPerTick>1.0</skillXpPerTick>
+          <defaultWorkAmount>88</defaultWorkAmount>
+          <jobStat>ConstructionSpeed</jobStat>
+        </jobExtensionRecord>
+      </li>
+    </modExtensions>
+  </JobDef>
+
+  <JobDef>
+    <defName>OARK_Job_ScienceShipGravitational</defName>
+    <driverClass>OberoniaAurea.JobDriver_ScienceShip_GravitationalRepaire</driverClass>
+    <reportString>对 TargetA. 进行引力调谐</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+    <modExtensions>
+      <li Class="OberoniaAurea_Frame.JobExtension">
+        <jobExtensionRecord>
+          <jobSkill>Intellectual</jobSkill>
+          <skillXpPerTick>1.0</skillXpPerTick>
+          <defaultWorkAmount>90</defaultWorkAmount>
+          <jobStat>ResearchSpeed</jobStat>
+        </jobExtensionRecord>
+      </li>
+    </modExtensions>
+  </JobDef>
+
+  <JobDef>
+    <defName>OARK_Job_ScienceShipGravityAdjuestment</defName>
+    <driverClass>OberoniaAurea.JobDriver_ScienceShip_GravityAdjuestment</driverClass>
+    <reportString>对 TargetA. 进行引力调整</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+    <modExtensions>
+      <li Class="OberoniaAurea_Frame.JobExtension">
+        <jobExtensionRecord>
+          <jobSkill>Intellectual</jobSkill>
+          <skillXpPerTick>1.0</skillXpPerTick>
+          <defaultWorkAmount>90</defaultWorkAmount>
+          <jobStat>ResearchSpeed</jobStat>
+        </jobExtensionRecord>
+      </li>
+    </modExtensions>
+  </JobDef>
+
+</Defs>

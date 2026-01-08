@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_35x181mmUnstableCharged.label>35x181mm Charged cartridge</Ammo_35x181mmUnstableCharged.label>
+  <Ammo_35x181mmUnstableCharged.description>terrifying giant charged shot ammo used in Cataphract Centipede's weapons.</Ammo_35x181mmUnstableCharged.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_35x181mmUnstableCharged.label>35x181mm Unstable Charged bullet</Bullet_35x181mmUnstableCharged.label>
+  <Fragment_UnstableCharged.label>Unstable Charged</Fragment_UnstableCharged.label>
+
+
+</LanguageData>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_OAShot_Buck.label>12号口径铀霰弹 (鹿弹)</Ammo_OAShot_Buck.label>
+  <Ammo_OAShot_Buck.description>金鸢尾兰帝国最流行的霰弹枪口径，发射特制的铀金属弹丸。</Ammo_OAShot_Buck.description>
+
+  <Ammo_OAShot_Slug.label>12号口径铀霰弹 (独头弹)</Ammo_OAShot_Slug.label>
+  <Ammo_OAShot_Slug.description>金鸢尾兰帝国最流行的霰弹枪口径，发射特制的铀金属弹丸。</Ammo_OAShot_Slug.description>
+
+  <Ammo_OAShot_Beanbag.label>12号口径铀霰弹 (豆弹)</Ammo_OAShot_Beanbag.label>
+  <Ammo_OAShot_Beanbag.description>金鸢尾兰帝国最流行的霰弹枪口径，发射特制的铀金属弹丸。</Ammo_OAShot_Beanbag.description>
+
+  <Ammo_OAShot_Buck_C.label>12号口径扫荡铀霰弹 (鹿弹)</Ammo_OAShot_Buck_C.label>
+  <Ammo_OAShot_Buck_C.description>一种特化用于室内扫荡的霰弹，包含更多的铀金属弹丸。</Ammo_OAShot_Buck_C.description>
+
+  <Ammo_OAShot_Slug_C.label>12号口径扫荡铀霰弹 (独头弹)</Ammo_OAShot_Slug_C.label>
+  <Ammo_OAShot_Slug_C.description>金鸢尾兰帝国最流行的霰弹枪口径，发射特制的铀金属弹丸。</Ammo_OAShot_Slug_C.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_OAShot_Buck.label>鹿弹</Bullet_OAShot_Buck.label>
+  <Bullet_OAShot_Slug.label>独头弹</Bullet_OAShot_Slug.label>
+  <Bullet_OAShot_Beanbag.label>豆弹</Bullet_OAShot_Beanbag.label>
+  <Bullet_OAShot_Buck_C.label>扫荡鹿弹</Bullet_OAShot_Buck_C.label>
+  <Bullet_OAShot_Slug_C.label>扫荡独头弹</Bullet_OAShot_Slug_C.label>
+
+
+</LanguageData>

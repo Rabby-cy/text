@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OMBestowingCeremony.questNameRules.rulesStrings>
+        <li>questName->[pawn_definite]的[newTitle]授勋仪式</li>
+    </OMBestowingCeremony.questNameRules.rulesStrings>
+
+    <OMBestowingCeremony.questDescriptionRules.rulesStrings>
+        <li>questDescription->[faction_name]准备在授勋仪式中授予[pawn_definite][newTitle]头衔\n\n授勋者将乘坐穿梭机来执行仪式。\n\n[pawn_definite]将有机会获得额外的荣誉点数，取决于有多少观众参加仪式。此外，每名观众都将获得心情增益。\n\n如果你错过了仪式，或者仪式失败了，过些时候会有新的仪式机会。如果授勋者和守卫因任何原因受到伤害，都会产生相应的外交影响。</li>
+    </OMBestowingCeremony.questDescriptionRules.rulesStrings>
+
+</LanguageData>

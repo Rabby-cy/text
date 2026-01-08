@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <IssueDef>
+        <defName>OA_RK_FeelTheSnow</defName>
+        <label>Snowy scenery</label>
+		<iconPath>Ui/OA_RK_FeelTheSnow</iconPath>
+    </IssueDef>
+
+    <PreceptDef>
+        <defName>OA_RK_FeelTheSnow_Like</defName>
+        <issue>OA_RK_FeelTheSnow</issue>
+        <label>like</label>
+        <description>Snow is a symbol of beauty.</description>
+        <impact>Low</impact>
+        <displayOrderInIssue>10</displayOrderInIssue>
+        <displayOrderInImpact>-5</displayOrderInImpact>
+		<defaultSelectionWeight>1</defaultSelectionWeight>
+        <statOffsets>
+            <ComfyTemperatureMin>-1</ComfyTemperatureMin>
+        </statOffsets>
+        <comps>
+            <li Class="PreceptComp_SituationalThought">
+                <thought>OA_RK_FeelTheSnow_Like</thought>
+                <description>Snowy scenery（like）</description>
+            </li>
+        </comps>
+    </PreceptDef>
+
+    <PreceptDef>
+        <defName>OA_RK_FeelTheSnow_Adapt</defName>
+        <issue>OA_RK_FeelTheSnow</issue>
+        <label>normal</label>
+        <description>Snow is just a normal weather phenomenon.</description>
+        <impact>Low</impact>
+        <displayOrderInIssue>20</displayOrderInIssue>
+        <displayOrderInImpact>-5</displayOrderInImpact>
+		<defaultSelectionWeight>6</defaultSelectionWeight>
+    </PreceptDef>
+
+    <PreceptDef>
+        <defName>OA_RK_FeelTheSnow_Discomfort</defName>
+        <issue>OA_RK_FeelTheSnow</issue>
+        <label>Discomfort</label>
+        <description>Snow is not a very good symbol.</description>
+        <impact>Low</impact>
+        <displayOrderInIssue>30</displayOrderInIssue>
+        <displayOrderInImpact>-5</displayOrderInImpact>
+		<defaultSelectionWeight>2</defaultSelectionWeight>
+        <comps>
+            <li Class="PreceptComp_SituationalThought">
+                <thought>OA_RK_FeelTheSnow_Discomfort</thought>
+                <description>Snowy scenery（Discomfort）</description>
+            </li>
+        </comps>
+    </PreceptDef>
+
+    <PreceptDef>
+        <defName>OA_RK_FeelTheSnow_Hate</defName>
+        <issue>OA_RK_FeelTheSnow</issue>
+        <label>Disliking</label>
+        <description>Snow always brings some bad things.</description>
+        <impact>Medium</impact>
+        <displayOrderInIssue>40</displayOrderInIssue>
+        <displayOrderInImpact>-5</displayOrderInImpact>
+		<defaultSelectionWeight>1</defaultSelectionWeight>
+        <comps>
+            <li Class="PreceptComp_SituationalThought">
+                <thought>OA_RK_FeelTheSnow_Hate</thought>
+                <description>Snowy scenery（Disliking）</description>
+            </li>
+        </comps>
+    </PreceptDef>
+
+    <ThoughtDef>
+        <defName>OA_RK_FeelTheSnow_Like</defName>
+        <thoughtClass>Thought_Situational</thoughtClass>
+        <workerClass>OberoniaAurea.ThoughtWorker_Precept_Snow</workerClass>
+        <stages>
+            <li>
+                <label>Snowy scenery（like）</label>
+                <description>Snow is gently embracing me and this world.</description>
+                <baseMoodEffect>1</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>OA_RK_FeelTheSnow_Discomfort</defName>
+        <thoughtClass>Thought_Situational</thoughtClass>
+        <workerClass>OberoniaAurea.ThoughtWorker_Precept_Snow</workerClass>
+        <stages>
+            <li>
+                <label>Snowy scenery（Discomfort）</label>
+                <description>The feeling of snowfall makes me feel a bit annoyed.</description>
+                <baseMoodEffect>-1</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>OA_RK_FeelTheSnow_Hate</defName>
+        <thoughtClass>Thought_Situational</thoughtClass>
+        <workerClass>OberoniaAurea.ThoughtWorker_Precept_Snow</workerClass>
+        <stages>
+            <li>
+                <label>Snowy scenery（Disliking）</label>
+                <description>I hate these snow, they are like greedy beasts trying to erase our traces.</description>
+                <baseMoodEffect>-3</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+</Defs>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OA_WoundedTraveler.questNameRules.rulesStrings>
+        <li>questName->[lodgerAdj][lodgerPlural]</li>
+        <li>lodgerAdj->負傷的</li>
+        <li>lodgerAdj->疲倦的</li>
+        <li>lodgerAdj->受創的</li>
+        <li>lodgerPlural->旅行者們</li>
+        <li>lodgerPlural->遠行者們</li>
+        <li>lodgerPlural->探險家們</li>
+    </OA_WoundedTraveler.questNameRules.rulesStrings>
+
+    <OA_WoundedTraveler.questDescriptionAndNameRules.rulesStrings>
+        <li>lodgersLabel->遠行者</li>
+        <li>lodgersLabelPlural->遠行者們</li>
+    </OA_WoundedTraveler.questDescriptionAndNameRules.rulesStrings>
+
+</LanguageData>

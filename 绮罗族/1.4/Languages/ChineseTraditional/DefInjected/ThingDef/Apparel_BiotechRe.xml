@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kiiro_IntegratorHeadset.label>綺羅整合耳機</Kiiro_IntegratorHeadset.label>
+  <Kiiro_IntegratorHeadset.description>凝聚了綺羅工程師智慧的產物：一副包含了微型計算機和訊號陣列的整合耳機，可以極大提高機械師的控制頻寬，這使得佩戴者可以同時控制更多的機械體。</Kiiro_IntegratorHeadset.description>
+
+  <Kiiro_ArrayHeadset.label>綺羅全息視屏</Kiiro_ArrayHeadset.label>
+  <Kiiro_ArrayHeadset.description>綺羅族為機械師研發的頭戴式全息裝置，內建一個小型計算機和訊號陣列。佩戴它能夠實時接收機械體的視野，方便機械師控制更多機械體；一些綺羅會偷偷在裡面安裝視訊遊戲。\n"我將以機械師形態出擊！"</Kiiro_ArrayHeadset.description>
+
+  <Kiiro_AirwireHeadset.label>綺羅無線耳機</Kiiro_AirwireHeadset.label>
+  <Kiiro_AirwireHeadset.description>綺羅族研究開發機械族控制技術的初級產物，能夠稍微提高機械師的控制頻寬。</Kiiro_AirwireHeadset.description>
+
+  <Kiiro_PackControl.label>綺羅執行緒揹包</Kiiro_PackControl.label>
+  <Kiiro_PackControl.description>裝有一臺小巧輕便的機控輔助電腦，它在提供少量頻寬的同時允許機械師擁有一個額外的控制組。</Kiiro_PackControl.description>
+
+  <Kiiro_PackBandwidth.label>綺羅機控天線</Kiiro_PackBandwidth.label>
+  <Kiiro_PackBandwidth.description>一臺內建了擴頻電腦和天線的裝置，可以大量增加機械師的控制頻寬。天知道綺羅們是如何將這麼多裝置塞進兩個只比肩膀大點的小塊里的。</Kiiro_PackBandwidth.description>
+
+
+</LanguageData>

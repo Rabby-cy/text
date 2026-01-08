@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_28x183DU.label>28x183mm depleted uranium</Ammo_28x183DU.label>
+  <Ammo_28x183DU.description>Depleted uranium. Kill people imitate sacks when they are hit.</Ammo_28x183DU.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_28x183DU.label>28x183mm depleted uranium bullet</Bullet_28x183DU.label>
+
+
+</LanguageData>

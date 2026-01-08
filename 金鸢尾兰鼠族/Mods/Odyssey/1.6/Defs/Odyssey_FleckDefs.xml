@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <FleckDef ParentName="FleckBase">
+        <defName>OARK_Fleck_GravBomb</defName>
+        <altitudeLayer>MoteOverhead</altitudeLayer>
+        <fadeInTime>0.03</fadeInTime>
+        <fadeOutTime>0.17</fadeOutTime>
+        <solidTime>1.8</solidTime>
+        <growthRate>8.5</growthRate>
+        <graphicData>
+            <graphicClass>Graphic_FleckPulse</graphicClass>
+            <texPath>Things/Mote/Black</texPath>
+            <shaderType>MoteLargeDistortionWave</shaderType>
+            <shaderParameters>
+                <_DistortionTex>/Things/Mote/PsychicDistortionCurrents</_DistortionTex>
+                <_NoiseTex>/Things/Mote/PsycastNoise</_NoiseTex>
+                <_distortionIntensity>0.08</_distortionIntensity>
+                <_brightnessMultiplier>1.15</_brightnessMultiplier>
+            </shaderParameters>
+            <drawSize>20.0</drawSize>
+        </graphicData>
+    </FleckDef>
+
+    <FleckDef ParentName="FleckBase">
+        <defName>OARK_Fleck_GravIEDRiserRing</defName>
+        <altitudeLayer>MoteLow</altitudeLayer>
+        <fadeInTime>.5</fadeInTime>
+        <solidTime>2</solidTime>
+        <fadeOutTime>0</fadeOutTime>
+        <growthRate>-6.4</growthRate>
+        <graphicData>
+            <graphicClass>Graphic_FleckPulse</graphicClass>
+            <texPath>Things/Mote/SoftRing</texPath>
+            <shaderType>DarkHighlightRing</shaderType>
+            <shaderParameters>
+                <_Color2>(1, 1, 1, 0.5)</_Color2>
+            </shaderParameters>
+            <drawSize>9.0</drawSize>
+        </graphicData>
+    </FleckDef>
+
+</Defs>

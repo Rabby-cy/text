@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kiiro_FireRetardant.label>防火服裝</Kiiro_FireRetardant.label>
+  <Kiiro_FireRetardant.description>這個生物穿著的衣服提供了火焰防護。</Kiiro_FireRetardant.description>
+  
+  <Kiiro_OxygenTank.label>氧氣罐</Kiiro_OxygenTank.label>
+  <Kiiro_OxygenTank.description>這個生物攜帶的氧氣罐提供了氧氣供給。</Kiiro_OxygenTank.description>
+  
+  <Kiiro_AteCatmint.label>攝入貓薄荷</Kiiro_AteCatmint.label>
+  <Kiiro_AteCatmint.description>貓薄荷使綺羅心情愉悅。</Kiiro_AteCatmint.description>
+
+
+</LanguageData>

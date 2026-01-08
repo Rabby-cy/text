@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThoughtDef>
+        <defName>OARK_Thought_SpaceTraveler</defName>
+        <workerClass>OberoniaAurea.ThoughtWorker_SpaceTraveler</workerClass>
+        <requiredTraits>
+            <li>OARK_Trait_SpaceTraveler</li>
+        </requiredTraits>
+        <stages>
+            <li>
+                <label>以星为舰</label>
+                <description>对浩瀚的深空而言，星球也只是一艘更大的船。我们所有人都住在这同一艘船上。</description>
+                <baseMoodEffect>2</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>OARK_Thought_PirateShipExploded</defName>
+        <thoughtClass>Thought_Memory</thoughtClass>
+        <durationDays>15</durationDays>
+        <stages>
+            <li>
+                <label>爆炸的海盗劫掠站</label>
+                <description>不得不说，那群海盗的空间站炸出来的烟花还挺好看的。</description>
+                <baseMoodEffect>6</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>OARK_Thought_ScienceShipLaunch</defName>
+        <thoughtClass>Thought_Memory</thoughtClass>
+        <durationDays>7</durationDays>
+        <stages>
+            <li>
+                <label>观礼发射</label>
+                <description>我见证了一场难以理解，但实在让人印象深刻的发射仪式。</description>
+                <baseMoodEffect>3</baseMoodEffect>
+            </li>
+            <li>
+                <label>观礼发射</label>
+                <description>真是精妙到令人赞叹的设备。</description>
+                <baseMoodEffect>6</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+
+    <ThoughtDef>
+        <defName>OARK_UnlockedFile_LoveLetter</defName>
+        <thoughtClass>Thought_Memory</thoughtClass>
+        <durationDays>20</durationDays>
+        <stages>
+            <li>
+                <label>偷看了私人信件</label>
+                <description>我真的很好奇她们未来会是什么发展，她们会爱上彼此吗？</description>
+                <baseMoodEffect>4</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>OARK_UnlockedFile_DeletedFile</defName>
+        <thoughtClass>Thought_Memory</thoughtClass>
+        <durationDays>20</durationDays>
+        <stages>
+            <li>
+                <label>没来得及满足的好奇心</label>
+                <description>那封文件上到底写了什么？</description>
+                <baseMoodEffect>-3</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>OARK_GraveResearchExchange</defName>
+        <thoughtClass>Thought_Memory</thoughtClass>
+        <durationDays>30</durationDays>
+        <stages>
+            <li>
+                <label>科研交流旅行</label>
+                <description>我度过了一个难忘的假期，那些奇妙的思想，技术与设计充满了科学的魅力。</description>
+                <baseMoodEffect>12</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>OARK_Referendary</defName>
+        <thoughtClass>Thought_Memory</thoughtClass>
+        <stages>
+            <li>
+                <label>不可动摇的决心</label>
+                <description>我已经彻底受够了那些莫名其妙的账单黑洞与物资亏损了！那群一天到晚研究为什么未接入电网还能发电的笨蛋必须要为此做出回答！</description>
+                <baseMoodEffect>26</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+</Defs>

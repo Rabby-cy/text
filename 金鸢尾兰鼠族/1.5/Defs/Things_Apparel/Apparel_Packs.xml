@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="ApparelBase" Name="OARatkin_PackBase" Abstract="True">
+		<statBases>
+			<Mass>1.5</Mass>
+			<Flammability>0.4</Flammability>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<generateAllowChance>0</generateAllowChance>
+		<smeltable>false</smeltable>
+		<techLevel>Spacer</techLevel>
+		<tickerType>Normal</tickerType>
+		<thingCategories Inherit="False">
+			<li>OARatkin_Utility</li>
+		</thingCategories>
+		<apparel>
+			<wearPerDay>0</wearPerDay>
+			<careIfDamaged>false</careIfDamaged>
+			<careIfWornByCorpse>true</careIfWornByCorpse>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<defaultOutfitTags>
+				<li>Worker</li>
+			</defaultOutfitTags>
+			<bodyPartGroups>
+				<li>Waist</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Belt</li>
+			</layers>
+			<tags>
+				<li>OARatkin_Apparel</li>
+				<li>OARatkin_Belt</li>
+			</tags>
+			<wornGraphicData>
+				<renderUtilityAsPack>true</renderUtilityAsPack>
+				<north>
+					<offset>(0,-0.15)</offset>
+				</north>
+				<east>
+					<offset>(-0.35,-0.05)</offset>
+					<thin>
+						<offset>(0.05,0)</offset>
+					</thin>
+					<hulk>
+						<offset>(-0.1,0)</offset>
+					</hulk>
+					<fat>
+						<offset>(-0.15,0)</offset>
+					</fat>
+				</east>
+				<west>
+					<offset>(0.35,-0.05)</offset>
+					<thin>
+						<offset>(-0.05,0)</offset>
+					</thin>
+					<hulk>
+						<offset>(0.1,0)</offset>
+					</hulk>
+					<fat>
+						<offset>(0.15,0)</offset>
+					</fat>
+				</west>
+				<male>
+					<scale>(0.75,0.75)</scale>
+				</male>
+				<female>
+					<scale>(0.75,0.75)</scale>
+				</female>
+				<thin>
+					<scale>(0.7,0.7)</scale>
+				</thin>
+				<hulk>
+					<scale>(0.9,0.9)</scale>
+				</hulk>
+				<fat>
+					<scale>(0.9,0.9)</scale>
+				</fat>
+			</wornGraphicData>
+		</apparel>
+	</ThingDef>
+
+	<!-- 电磁瘫痪投放背包 -->
+	<ThingDef ParentName="OARatkin_PackBase">
+		<defName>OA_RK_EMPBelt</defName>
+		<label>Electromagnetic paralysis drop belt</label>
+		<description>The airdrop beacon carried by the Oberonia Aurea Empire assault squad. When used, will activate the corresponding airdrop launcher and drop a one-time EMP generator on the target coordinates.</description>
+		<thingClass>OberoniaAurea.EMP_Summoner</thingClass>
+		<verbs>
+			<li>
+				<verbClass>OberoniaAurea.Verb_SummonEMP</verbClass>
+				<label>投放EMP</label>
+				<hasStandardCommand>true</hasStandardCommand>
+				<onlyManualCast>True</onlyManualCast>
+				<range>29.9</range>
+				<warmupTime>0.5</warmupTime>
+				<spawnDef>OA_RK_EMPInst</spawnDef>
+				<soundCast>Shot_IncendiaryLauncher</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CompProperties_ApparelReloadable">
+				<maxCharges>1</maxCharges>
+				<destroyOnEmpty>true</destroyOnEmpty>
+				<hotKey>Misc4</hotKey>
+				<chargeNoun>激活次数</chargeNoun>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+		</comps>
+		<apparel>
+			<wornGraphicPath>Apparel/OA_RK_Component_B</wornGraphicPath>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+		<graphicData>
+			<texPath>Apparel/OA_RK_Component_B</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+	</ThingDef>
+
+	<!-- 生命维持急救包 -->
+	<ThingDef ParentName="OARatkin_PackBase">
+		<defName>OA_RK_FirstAid</defName>
+		<label>life support first aid kit</label>
+		<description>The standard battlefield first aid kit for the Oberonia Aurea Empire assault squad. It contains advanced battlefield first aid supplies and four coagulation factor syringes.</description>
+		<graphicData>
+			<texPath>Apparel/OA_RK_Component_A</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<equippedStatOffsets>
+			<MedicalTendQuality>0.05</MedicalTendQuality>
+			<MedicalTendSpeed>0.40</MedicalTendSpeed>
+		</equippedStatOffsets>
+
+		<statBases>
+			<WorkToMake>23200</WorkToMake>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>OberoniaAurea.Verb_CastTargetEffectFriendly</verbClass>
+				<label>生命凝滞</label>
+				<hasStandardCommand>true</hasStandardCommand>
+				<targetable>true</targetable>
+				<onlyManualCast>True</onlyManualCast>
+				<range>1.9</range>
+				<warmupTime>0.5</warmupTime>
+				<invalidTargetPawn>目标拒绝了生命凝滞</invalidTargetPawn>
+				<targetParams>
+					<canTargetSelf>true</canTargetSelf>
+					<canTargetBuildings>false</canTargetBuildings>
+					<canTargetMechs>false</canTargetMechs>
+				</targetParams>
+				<soundCast>Coagulate_Cast</soundCast>
+			</li>
+		</verbs>
+		<costList>
+			<Synthread>25</Synthread>
+			<Oberonia_Aurea_Chanwu_F>1</Oberonia_Aurea_Chanwu_F>
+			<MedicineIndustrial>8</MedicineIndustrial>
+		</costList>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<recipeUsers>
+				<li>FabricationBench</li>
+			</recipeUsers>
+			<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+			<researchPrerequisite>OA_RK_Apparel_C</researchPrerequisite>
+			<skillRequirements>
+				<Medicine>15</Medicine>
+			</skillRequirements>
+			<displayPriority>240</displayPriority>
+		</recipeMaker>
+		<comps>
+			<li Class="CompProperties_ApparelReloadable">
+				<maxCharges>4</maxCharges>
+				<hotKey>Misc4</hotKey>
+				<chargeNoun>凝滞因子针剂</chargeNoun>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+			<li Class="OberoniaAurea.CompProperties_GiveTargeterHediff">
+				<hediff>OA_RK_hediff_LifeStasis</hediff>
+			</li>
+		</comps>
+		<apparel>
+			<wornGraphicPath>Apparel/OA_RK_Component_A</wornGraphicPath>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+
+	<!-- 生命体侦测装置 -->
+	<ThingDef ParentName="OARatkin_PackBase">
+		<defName>OA_RK_LifeformDetect</defName>
+		<label>lifeform detecter</label>
+		<description>The detection device equiped by Oberonia Aurea personnels to counter psionic stealth, which will alert the wearer of the target's location when the stealthy enemy is close enough.</description>
+		<graphicData>
+			<texPath>Apparel/OA_RK_Component_C</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.75</drawSize>
+		</graphicData>
+		<comps>
+			<li Class="OberoniaAurea_Hyacinth.CompProperties_ApparelRangeEffect">
+				<compClass>OberoniaAurea_Hyacinth.CompAntiStealth</compClass>
+				<radius>14.9</radius>
+				<aiEffectiveUse>true</aiEffectiveUse>
+			</li>
+			<li Class="CompProperties_CauseHediff_Apparel">
+				<hediff>OA_RK_hediff_Detect</hediff>
+			</li>
+		</comps>
+		<apparel>
+			<wornGraphicPath>Apparel/OA_RK_Component_C</wornGraphicPath>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+	</ThingDef>
+
+</Defs>

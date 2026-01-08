@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kiiro_Apparel_I.label>绮罗服装设计基础</Kiiro_Apparel_I.label>
+  <Kiiro_Apparel_I.description>研究制作绮罗族服装的所需基础理论知识。绮罗们在衣物的制作方面有着独特而丰富的经验，这使得绮罗族的服装更加美观且不易磨损。\n\n*该研究只有绮罗族人能够解锁。当你决定研究该项目时，确保至少有一名绮罗能够进行研究工作。</Kiiro_Apparel_I.description>
+
+  <Kiiro_Apparel_II.label>绮罗日常服装</Kiiro_Apparel_II.label>
+  <Kiiro_Apparel_II.description>研究绮罗族日常穿着的衣服。</Kiiro_Apparel_II.description>
+
+  <Kiiro_Apparel_III.label>绮罗精致服装</Kiiro_Apparel_III.label>
+  <Kiiro_Apparel_III.description>研究绮罗族精致的衣服。</Kiiro_Apparel_III.description>
+
+  <Kiiro_Apparel_Maid.label>猫耳女仆计划！</Kiiro_Apparel_Maid.label>
+  <Kiiro_Apparel_Maid.description>研究绮罗女仆装。</Kiiro_Apparel_Maid.description>
+
+  <Kiiro_Apparel_CosSuit.label>绮罗COS服</Kiiro_Apparel_CosSuit.label>
+  <Kiiro_Apparel_CosSuit.description>研究解锁一些安科特喜欢的角色衣服。因为加入了一些安科特自己的理解，所以并没有做到和原版完全一样。</Kiiro_Apparel_CosSuit.description>
+
+  <Kiiro_Food.label>绮罗餐食</Kiiro_Food.label>
+  <Kiiro_Food.description>研究解锁绮罗族的常用餐食。</Kiiro_Food.description>
+
+  <Kiiro_Smithing.label>绮罗锻造</Kiiro_Smithing.label>
+  <Kiiro_Smithing.description>研究绮罗族锻造技术，同时解锁基础的绮罗生产工具。</Kiiro_Smithing.description>
+
+  <Kiiro_BaseMedievalWeapon.label>绮罗基础冷兵器</Kiiro_BaseMedievalWeapon.label>
+  <Kiiro_BaseMedievalWeapon.description>研究制造一些绮罗族使用的冷兵器。</Kiiro_BaseMedievalWeapon.description>
+
+  <Kiiro_ImprovedMedievalWeapon.label>绮罗进阶冷兵器</Kiiro_ImprovedMedievalWeapon.label>
+  <Kiiro_ImprovedMedievalWeapon.description>研究制造一些绮罗族使用的复杂冷兵器。</Kiiro_ImprovedMedievalWeapon.description>
+
+  <Kiiro_ConcealedWeapon.label>绮罗暗器</Kiiro_ConcealedWeapon.label>
+  <Kiiro_ConcealedWeapon.description>研究暗器，一种用于偷袭的武器类型。其隐秘的特性使得发动时往往令人难以防备。</Kiiro_ConcealedWeapon.description>
+
+  <Kiiro_EnvenomTech.label>淬毒工艺</Kiiro_EnvenomTech.label>
+  <Kiiro_EnvenomTech.description>研究武器淬毒技术。</Kiiro_EnvenomTech.description>
+
+  <Kiiro_Amamech.label>绮罗机巧工艺</Kiiro_Amamech.label>
+  <Kiiro_Amamech.description>研究绮罗族独有的机械结构制作技术。</Kiiro_Amamech.description>
+
+  <Kiiro_AutoLauncher.label>绮罗便携炮台</Kiiro_AutoLauncher.label>
+  <Kiiro_AutoLauncher.description>研究便于携带的一次性榴弹发射器。</Kiiro_AutoLauncher.description>
+
+  <Kiiro_Machining.label>绮罗机械加工</Kiiro_Machining.label>
+  <Kiiro_Machining.description>研究绮罗族机械加工技术。在过去的数十年间，绮罗族从人类处学习到了机械相关的知识，并开始将其付诸实践：这是绮罗族踏入工业时代的第一步。</Kiiro_Machining.description>
+
+  <Kiiro_Grenades.label>手榴弹</Kiiro_Grenades.label>
+  <Kiiro_Grenades.description>研究制作适合绮罗们使用的手榴弹。</Kiiro_Grenades.description>
+
+  <Kiiro_TRGun.label>绮罗枪械试做</Kiiro_TRGun.label>
+  <Kiiro_TRGun.description>探索枪械制作领域，解锁绮罗试做系列武器。</Kiiro_TRGun.description>
+
+  <Kiiro_PrototypeGun.label>绮罗原型武器</Kiiro_PrototypeGun.label>
+  <Kiiro_PrototypeGun.description>在充分学习了枪械结构和原理后，绮罗族的前沿科研人员用自己的理解创造了这些高性能原型武器。</Kiiro_PrototypeGun.description>
+
+  <Kiiro_Process.label>绮罗加工秘法</Kiiro_Process.label>
+  <Kiiro_Process.description>研究绮罗族独特的工艺。\n\n*该研究只有绮罗族人能够解锁。当你决定研究该项目时，确保至少有一名绮罗能够进行研究工作。</Kiiro_Process.description>
+
+  <Kiiro_Apparel_IV.label>绮罗作战服装</Kiiro_Apparel_IV.label>
+  <Kiiro_Apparel_IV.description>研究绮罗族用于战斗的衣服。</Kiiro_Apparel_IV.description>
+
+  <Kiiro_SchizonepetaPlanting.label>荆芥种植</Kiiro_SchizonepetaPlanting.label>
+  <Kiiro_SchizonepetaPlanting.description>学习种植荆芥：一种同时具备药用、食用等多种价值的植物。</Kiiro_SchizonepetaPlanting.description>
+
+  <Kiiro_NepetalactoneExtract.label>荆芥内酯提取</Kiiro_NepetalactoneExtract.label>
+  <Kiiro_NepetalactoneExtract.description>研究提取荆芥内酯的方法，以便制作猫薄荷产品。</Kiiro_NepetalactoneExtract.description>
+
+  <Kiiro_MixedMedicineHerbal.label>荆芥药用开发</Kiiro_MixedMedicineHerbal.label>
+  <Kiiro_MixedMedicineHerbal.description>探索荆芥植株在药用方面的潜能，解锁医疗效果优于草药的荆芥混合草药，以及使用荆芥叶片制作佩诺西林。</Kiiro_MixedMedicineHerbal.description>
+
+  <Kiiro_PaperMaking.label>绮罗造纸术</Kiiro_PaperMaking.label>
+  <Kiiro_PaperMaking.description>研究使用木材制造特殊的纸张。这种纸张质地坚韧，不易损坏。</Kiiro_PaperMaking.description>
+
+  <Kiiro_PaperFolding.label>折纸生花</Kiiro_PaperFolding.label>
+  <Kiiro_PaperFolding.description>研究绮罗纸艺。折纸艺术在绮罗族有悠久的历史，她们仅凭一张纸就能变幻出各种各样的东西，很神奇吧。\n\n该项研究完成后，心灵手巧的绮罗们会在社交生活中偶尔将精致的折纸送给朋友，这会促进友谊并为双方带来好心情，同时赠送者会因此积累一点艺术经验。\n\n*该研究只有绮罗族人能够解锁。当你决定研究该项目时，确保至少有一名绮罗能够进行研究工作。</Kiiro_PaperFolding.description>
+
+
+</LanguageData>

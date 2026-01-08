@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TipSetDef>
+    <defName>KiiroTips</defName>
+    <tips>
+      <li TKey="KiiroRace">Kiiro: a humanoid species with cat-like ears and tails, they are the indigenous inhabitants of this planet, having lived here for thousands of years. They now lead a life of hiding and evading due to the invasion of greedy outsiders.</li>
+      <li TKey="KiiroGuerrilla">Kiiro Guerrilla: Common combat units among the kiiro, known for their versatile fighting style and proficiency in guerrilla tactics and attrition warfare.</li>
+      <li TKey="KiiroMilitia">Kiiro Militia: Temporary armed forces spontaneously organized by the residents of kiiro villages to defend against bandit and barbarian attacks, but with mediocre combat capabilities.</li>
+      <li TKey="KiiroHousekeepingGroup">Kiiro housekeeping group: Hire kiiro maids to assist with domestic affairs in the colony.</li>
+    </tips>
+  </TipSetDef>
+  
+</Defs>

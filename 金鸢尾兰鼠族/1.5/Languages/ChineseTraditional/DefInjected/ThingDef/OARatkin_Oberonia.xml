@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <Plant_Oberonia_Aurea.label>金鸢尾蘭（觀賞）</Plant_Oberonia_Aurea.label>
+  <Plant_Oberonia_Aurea.description>壹種蘭科鸢尾蘭屬植物，誕生于金鸢尾蘭鼠族的母星，耐寒且可以在貧瘠的土壤中生長，是金鸢尾蘭帝國的象征與國花。其色彩鮮豔而不落俗，同時散發著壹股幽香，金鸢尾蘭鼠族常常將其采摘泡茶。\n\n這種類型的金鸢尾蘭不會自動收割。</Plant_Oberonia_Aurea.description>
+
+
+  <Plant_Oberonia_Aurea_B.label>金鸢尾蘭（産出）</Plant_Oberonia_Aurea_B.label>
+  <Plant_Oberonia_Aurea_B.description>壹種蘭科鸢尾蘭屬植物，誕生于金鸢尾蘭鼠族的母星，耐寒且可以在貧瘠的土壤中生長，是金鸢尾蘭帝國的象征與國花。其色彩鮮豔而不落俗，同時散發著壹股幽香，金鸢尾蘭鼠族常常將其采摘泡茶。\n\n這種類型的金鸢尾蘭會被自動收割。</Plant_Oberonia_Aurea_B.description>
+
+  <Oberonia_Aurea.label>金鸢尾蘭</Oberonia_Aurea.label>
+  <Oberonia_Aurea.description>金鸢尾蘭的花瓣，應該很適合用來泡茶。</Oberonia_Aurea.description>
+
+  <Oberonia_Aurea_Tea.label>金鸢尾蘭 花茶</Oberonia_Aurea_Tea.label>
+  <Oberonia_Aurea_Tea.description>用金鸢尾蘭花瓣沖泡的花茶，散發著壹陣陣清幽的香氣。澄澈而略帶有淡金色的茶水只需要看壹眼，便能夠使浮躁的心安頓下來。</Oberonia_Aurea_Tea.description>
+
+  <OA_RK_Rice.label>金鸢尾蘭改進水稻</OA_RK_Rice.label>
+  <OA_RK_Rice.description>金鸢尾蘭帝國運用自身科技對銀河系水稻進行改進後得出的品種。相比起正常水稻對肥沃度更加敏感，並且産量更高，同時金綠色的稻穗夾雜交錯，顯得較爲美觀。</OA_RK_Rice.description>
+
+  <Oberonia_Aurea_Chanwu_A.label>金鸢尾蘭炒花餅</Oberonia_Aurea_Chanwu_A.label>
+  <Oberonia_Aurea_Chanwu_A.description>金鸢尾蘭的傳統食品，通過將金鸢尾蘭花與其他食材壹同翻炒制成。制作工藝簡單，保證口感的同時而少有油膩。</Oberonia_Aurea_Chanwu_A.description>
+
+  <Oberonia_Aurea_Chanwu_B.label>金鸢尾蘭花餅</Oberonia_Aurea_Chanwu_B.label>
+  <Oberonia_Aurea_Chanwu_B.description>金鸢尾蘭的傳統食品，需要壹定的手法才能制成。花香沁人，入口松軟，甜而不膩。</Oberonia_Aurea_Chanwu_B.description>
+
+
+  <Oberonia_Aurea_Chanwu_C.label>金鸢尾蘭莓果花餅</Oberonia_Aurea_Chanwu_C.label>
+  <Oberonia_Aurea_Chanwu_C.description>金鸢尾蘭的傳統食品，制作工藝複雜，需要有耐心才能制成。通過在花餅中加入適量的莓果，輔以優秀的烹饪手法，最終達成了花香與莓果的甜潤的完美配合，每壹口都是如夢般的幸福。</Oberonia_Aurea_Chanwu_C.description>
+
+  <Oberonia_Aurea_Chanwu_D.label>金鸢尾蘭花蜜</Oberonia_Aurea_Chanwu_D.label>
+  <Oberonia_Aurea_Chanwu_D.description>金鸢尾蘭的傳統食品，將金鸢尾蘭花本身碾爲粉末後，再混雜以少量蜂蜜，白糖與純淨水調和制成。無論是直接食用，還是作爲醬料，都是上佳的食材。</Oberonia_Aurea_Chanwu_D.description>
+
+  <Oberonia_Aurea_Chanwu_AA.label>金鸢尾蘭炸花丸</Oberonia_Aurea_Chanwu_AA.label>
+  <Oberonia_Aurea_Chanwu_AA.description>金鸢尾蘭的傳統食品，由稻米丸加上新鮮的金鸢尾蘭花瓣炸制，隨後澆上金鸢尾蘭的花蜜制成。誕生于金鸢尾蘭繁榮星球的炸花丸並不是劃算的求生食品，但若是能有時間去細細品嘗，那麽它那清新的甜味與外脆內糯的口感能緩解整天的壞心情。</Oberonia_Aurea_Chanwu_AA.description>
+
+
+  <Oberonia_Aurea_Chanwu_AB.label>金鸢尾蘭花糕</Oberonia_Aurea_Chanwu_AB.label>
+  <Oberonia_Aurea_Chanwu_AB.description>金鸢尾蘭的傳統食品，由稻米混合被碾碎的金鸢尾蘭花瓣蒸煮加工而制成，口感糯軟香甜。這種花糕大多數采取內真空的包裝，便于保存，可以長久存放。\n\n大多數的金鸢尾蘭鼠族都會在節日送出這種花糕，來與親朋好友共同分享節日的喜悅。</Oberonia_Aurea_Chanwu_AB.description>
+
+  <Oberonia_Aurea_Chanwu_AC.label>金鸢尾蘭流心花糕</Oberonia_Aurea_Chanwu_AC.label>
+  <Oberonia_Aurea_Chanwu_AC.description>金鸢尾蘭的傳統食品，由稻米混合被碾碎的金鸢尾蘭花瓣蒸煮加工，而後通過特殊工藝向其內與表面澆灌花蜜而制成，軟潤的稻米搭配清甜的花蜜吃起來潤口而不甜膩。這種花糕大多數采取內真空的包裝，便于保存，可以長久存放。\n\n大多數的金鸢尾蘭鼠族都會在節日送出這種花糕，來與親朋好友共同分享節日的喜悅。</Oberonia_Aurea_Chanwu_AC.description>
+
+  <Oberonia_Aurea_Chanwu_E.label>金鸢尾蘭花清素</Oberonia_Aurea_Chanwu_E.label>
+  <Oberonia_Aurea_Chanwu_E.description>壹種藥效溫和的提取液，注入後可以小幅度的提升免疫速度與促進傷口愈合。</Oberonia_Aurea_Chanwu_E.description>
+
+  <Oberonia_Aurea_Chanwu_G.label>金鸢尾蘭提取液</Oberonia_Aurea_Chanwu_G.label>
+  <Oberonia_Aurea_Chanwu_G.description>金鸢尾蘭帝國常見的壹種提取液，注入後可以短時間內提升大量的免疫力，是金鸢尾蘭的醫療體系中不可或缺的藥物。</Oberonia_Aurea_Chanwu_G.description>
+
+  <Oberonia_Aurea_Chanwu_F.label>金鸢尾蘭濃縮液</Oberonia_Aurea_Chanwu_F.label>
+  <Oberonia_Aurea_Chanwu_F.description>壹種濃度極高的提取液，相比起正常的提取液藥效猛烈了很多，並且有不良的副作用反應。該藥物過量攝入有可能導致生命危險，不到萬不得已的情況下金鸢尾蘭的醫師絕不會使用這種藥劑。</Oberonia_Aurea_Chanwu_F.description>
+
+</LanguageData>

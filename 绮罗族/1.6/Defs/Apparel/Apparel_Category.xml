@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingCategoryDef>
+		<defName>Kiiro_Apparel</defName>
+		<label>kiiro apparel</label>
+		<parent>Apparel</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>Kiiro_Apparel_Underwear</defName>
+		<label>kiiro underwear</label>
+		<parent>Kiiro_Apparel</parent>
+	</ThingCategoryDef>
+	
+	<!--<ThingCategoryDef>
+		<defName>Kiiro_Apparel_UnderwearProps</defName>
+		<label>绮罗贴身配件</label>
+		<parent>Kiiro_Apparel_Underwear</parent>
+	</ThingCategoryDef>-->
+
+	<ThingCategoryDef>
+		<defName>Kiiro_Apparel_OnSkin</defName>
+		<label>kiiro onskin</label>
+		<parent>Kiiro_Apparel</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>Kiiro_Apparel_Middle</defName>
+		<label>kiiro middle</label>
+		<parent>Kiiro_Apparel</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>Kiiro_Apparel_Shell</defName>
+		<label>kiiro shell</label>
+		<parent>Kiiro_Apparel</parent>
+	</ThingCategoryDef>
+
+	<ThingCategoryDef>
+		<defName>Kiiro_Apparel_Overhead</defName>
+		<label>kiiro overhead</label>
+		<parent>Kiiro_Apparel</parent>
+	</ThingCategoryDef>
+	
+	<ThingCategoryDef>
+		<defName>Kiiro_Apparel_Utility</defName>
+		<label>kiiro utility</label>
+		<parent>Kiiro_Apparel</parent>
+	</ThingCategoryDef>
+	
+</Defs>

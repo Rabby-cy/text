@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Kiiro_PoisonBottle_Label>使用毒藥</Kiiro_PoisonBottle_Label>
+  <Kiiro_PoisonBottle_Desc>切換是否使用隨身攜帶的毒藥。開啟后，當綺羅手持綺羅族的弓弩或暗器類武器時，能夠發射塗有毒藥的箭矢或飛鏢。每一次射擊消耗一點毒藥存量。</Kiiro_PoisonBottle_Desc>
+  <Kiiro_StealthSkill_Label>潛行</Kiiro_StealthSkill_Label>
+  <Kiiro_StealthSkill_Desc>切換潛行狀態。開啟后，綺羅能夠在黑暗或充滿煙霧的環境里隱藏自己的行蹤。做出攻擊行為會暴露。</Kiiro_StealthSkill_Desc>
+  <Kiiro_HostileToKiiro_Label>綺羅關係：敵對</Kiiro_HostileToKiiro_Label>
+  <Kiiro_HostileToKiiro_Desc>察覺到我們表現出的敵意，綺羅族認為暴露在我們視野中的城鎮將不再安全。綺羅的信使會在一段時間內將發現我們敵對行為的訊息傳達到她們的全部城鎮。</Kiiro_HostileToKiiro_Desc>
+  <Kiiro_NeutralToKiiro_Label>綺羅關係：中立</Kiiro_NeutralToKiiro_Label>
+  <Kiiro_NeutralToKiiro_Desc>和綺羅族的關係已經恢復至中立。我們並沒有獲得綺羅族的完全信任，在表達出足夠的善意之前，綺羅族仍然會警惕我們的行為。</Kiiro_NeutralToKiiro_Desc>
+  <Kiiro_AllyToKiiro_Label>綺羅關係：盟友</Kiiro_AllyToKiiro_Label>
+  <Kiiro_AllyToKiiro_Desc>我們已經和綺羅族結為盟友，現在她們認為我們是值得信任的朋友。綺羅的信使會將結盟的訊息傳達到遠方的城鎮，這會花費一點時間。</Kiiro_AllyToKiiro_Desc>
+  <Kiiro_KiiroHide_Label>綺羅信使奔走中</Kiiro_KiiroHide_Label>
+  <Kiiro_KiiroHide_Desc>綺羅信使正在奔走于各個城鎮之間傳達關於我們敵對行為的訊息。</Kiiro_KiiroHide_Desc>
+  <Kiiro_KiiroHide_Desc_Schedule>傳達訊息進度：</Kiiro_KiiroHide_Desc_Schedule>
+  <Kiiro_KiiroNightRaid_Label>黑夜突襲</Kiiro_KiiroNightRaid_Label>
+  <Kiiro_KiiroNightRaid_Desc>一支訓練有素的綺羅特戰隊趁著夜色發動了突襲！她們將立刻開始進攻。</Kiiro_KiiroNightRaid_Desc>
+  <Kiiro_KiiroSettlementRemove_Label>{0_label}已經廢棄</Kiiro_KiiroSettlementRemove_Label>
+  <Kiiro_KiiroSettlementRemove_A_Desc>{0_label}從我們的地圖上消失了。</Kiiro_KiiroSettlementRemove_A_Desc>
+  <Kiiro_KiiroSettlementRemove_B_Desc>{0_label}不復存在，原地只留下了空蕩蕩的房屋。</Kiiro_KiiroSettlementRemove_B_Desc>
+  <Kiiro_KiiroSettlementRemove_C_Desc>我們失去了{0_label}的位置資訊。</Kiiro_KiiroSettlementRemove_C_Desc>
+  <Kiiro_KiiroSettlementRemove_D_Desc>{0_label}的居民似乎已經全部遷移，這座城鎮已然成為一座空城。</Kiiro_KiiroSettlementRemove_D_Desc>
+  <Kiiro_KiiroFactionRemove_Label>綺羅城鎮全部消失</Kiiro_KiiroFactionRemove_Label>
+  <Kiiro_KiiroFactionRemove_Desc>綺羅的全部城鎮都得知了我們的敵對行為，我們再也不能在地圖上找到任何一個綺羅族城鎮。綺羅族從此刻開始徹底與我們決裂。</Kiiro_KiiroFactionRemove_Desc>
+  <Kiiro_Setting_Initialization>恢復預設</Kiiro_Setting_Initialization>
+  <Kiiro_Setting_Label>Kiiro Race</Kiiro_Setting_Label>
+  <Kiiro_Setting_True>啟用</Kiiro_Setting_True>
+  <Kiiro_Setting_False>禁用</Kiiro_Setting_False>
+  <Kiiro_Setting_If_OpenMechanism>派系互動</Kiiro_Setting_If_OpenMechanism>
+  <Kiiro_Setting_If_OpenMechanism_Desc>決定是否啟用包括心情、城鎮廢棄和特戰隊突襲在內的整個派系互動機制。僅推薦在產生模組衝突時關閉。\n\n在啟用綺羅事件拓展后，該選項會同時決定多種事件能否觸發，推薦開啟以獲得事件拓展的全部體驗。</Kiiro_Setting_If_OpenMechanism_Desc>
+  <Kiiro_Setting_If_OpenFactionRemove>城鎮廢棄</Kiiro_Setting_If_OpenFactionRemove>
+  <Kiiro_Setting_If_OpenFactionRemove_Desc>決定是否啟用綺羅族城鎮廢棄系統。開啟后，綺羅族的城鎮將隨派系敵對時長的增加而逐漸消失。僅推薦在產生模組衝突時關閉。</Kiiro_Setting_If_OpenFactionRemove_Desc>
+  <Kiiro_Setting_If_OpenNightRaid>黑夜突襲</Kiiro_Setting_If_OpenNightRaid>
+  <Kiiro_Setting_If_OpenNightRaid_Desc>決定是否啟用特戰隊突襲事件。僅推薦在產生模組衝突時關閉。</Kiiro_Setting_If_OpenNightRaid_Desc>
+  <Kiiro_Setting_If_OpenPoisonBottle>AI使用毒藥瓶</Kiiro_Setting_If_OpenPoisonBottle>
+  <Kiiro_Setting_If_OpenPoisonBottle_Desc>非玩家派系的綺羅是否能夠使用毒藥瓶。</Kiiro_Setting_If_OpenPoisonBottle_Desc>
+  
+  <Kiiro_Setting_If_OnlyUseRaceRestrictedApparel>綺羅服裝限制</Kiiro_Setting_If_OnlyUseRaceRestrictedApparel>
+  <Kiiro_Setting_If_OnlyUseRaceRestrictedApparel_Desc>決定綺羅族是否僅能著裝限定範圍內的服裝。\n\n實驗性功能。禁用后，綺羅族將可以著裝任意服裝。不對任何可能出現的衝突或錯誤負責。</Kiiro_Setting_If_OnlyUseRaceRestrictedApparel_Desc>
+  
+  <Kiiro_Setting_If_UseShellaStoryTellerTex>Shella聯動敘事者裝束</Kiiro_Setting_If_UseShellaStoryTellerTex>
+  <Kiiro_Setting_If_UseShellaStoryTellerTex_Desc>是否啟用Shella背景聯動的綺羅敘事者裝束。需要重啟遊戲。</Kiiro_Setting_If_UseShellaStoryTellerTex_Desc>
+
+
+  <StatsReport_KiiroRangeDodge>近戰閃避機率</StatsReport_KiiroRangeDodge>
+
+</LanguageData> 

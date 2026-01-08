@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <RulePackDef>
+        <defName>OARK_RulePack_AccountInquiryText</defName>
+        <rulePack>
+            <rulesStrings>
+			<li>r_text(aspiredStar!=false)->Daylily · Silverstar, who is meticulously organizing the data, informs you of some material loss information she knows, and she apologetically states that these matters are indeed the responsibility of the Research Department.</li>
+			<li>r_text->Hyacinth · Baka, who is frantically organizing the data, answers your call. After a flurry of rummaging, she manages to summarize some possible information for you. But its credibility is probably about as reliable as her hairstyle not being black twin drills today.</li><!--角色来源：M.Y.G-->
+			<li>r_text->Snowflake Prism · Cosmos, who is gloomily organizing the data, immediately lights up upon hearing your inquiry and starts sharing the information she has... although you seriously doubt whether this information retains its original meaning after you decode Snowflake Prism's word order, it's still somewhat useful news.</li><!--角色来源：M.Y.G-->
+			<li>r_text->Night Seagrass · Mist, who is seriously organizing the data, tells you about some information she recorded during her research process. Unfortunately, due to the chaos within the Research Department itself, this usable information is also fragmented.</li><!--角色来源：制作组主程序：夜海-->
+			<li>r_text->Thale Cress · Mithril Creed, who is rigorously organizing the data, sends you a report on material losses. She confusedly asks why these "reasonable" losses would make the Coordination Department so furious—she seems genuinely unaware of how outrageous these losses are.</li><!--角色来源：RelicKoshya/白吐司-->
+			<li>r_text->Dandelion · Wildheart, who is curiously organizing the data, shares the relevant text information he has with you. He enthusiastically shares his insights on this information, but unfortunately, these insights always have one or two problems.</li><!--角色来源：转生南纬君-->
+			<li>r_text->Jacaranda · Forget-me-not, who is calmly organizing the data, sends you a portion of the ledger files she has sorted out. She tells you she knew this day would come for the Research Department, but sometimes only hardship can make one truly grow.</li><!--角色来源：蘭西Lancy-->
+			<li>r_text->Coconut · Farlook Grass, who is blankly organizing the data, sends you the just-completed materials in her hands after receiving your request. She tells you she can't understand why the Coordination Department is dissatisfied with research losses, but she will do her best to help the Research Department overcome this difficulty.</li><!--角色来源：天无之龙-->
+			<li>r_text->Sunflower · Poetic Drama, who is diligently organizing the data, sends you the materials she has sorted without a second thought. She quietly complains to you that the research progress has been greatly disturbed by the Coordination Department, but she also understands that their intentions are not based on personal grudges.</li><!--角色来源：这可是我的一生挚爱-->
+			<li>r_text->Wildflower · Shiloh Grass, who is confusedly organizing the data, tells you everything she knows upon hearing your inquiry. After conveying all the relevant information, she finally can't hold back her confusion and asks you if they have really done something wrong.</li><!--角色来源：M.Y.G-->
+			<li>r_text->Stephania · Ironheart, who is gently organizing the data, seems to have anticipated your arrival and forwards you the relevant materials she has prepared. She doesn't seem dissatisfied with the audit at all, but gently tells you that sometimes, an accident can turn into a brand new opportunity.</li><!--角色来源：Chanowd-->
+			<li>r_text->Hops · Wildfang, who is stubbornly organizing the data, hesitates for a moment upon hearing your request, but ultimately tells you everything she knows. Although most of Hops' research consists of personal projects, this information still provides a strong supplement to your account organization.</li><!--角色来源：AA扭曲肉批发商啤酒花-->
+			<li>r_text->Camellia · Freesia, who is efficiently organizing the data, quickly summarizes the relevant information you need and also tells you about some material loss situations you hadn't noticed. She tells you that the root of this mistake lies with the Research Department itself, and she will try her best to improve this situation in the future.</li><!--角色来源：刻刻刻俄柏哒-->
+			<li>r_text->Mistroot Flower · Clearvine, who is calmly organizing the data, doesn't say much and directly forwards you a copy of the relevant materials you need. She doesn't say much, yet you feel that this strange silence conveys her expectation and trust.</li><!--角色来源：M.Y.G-->
+			<li>r_text->Three-Sleep Flower · Royalheart, who is comprehensively organizing the data, hears your request and, after a few token questions, sends you the internal documents. Although her tone is as courteous as ever, the regulations she has overlooked have completely exposed her inner panic.</li><!--角色来源：M.Y.G-->
+			</rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+</Defs>

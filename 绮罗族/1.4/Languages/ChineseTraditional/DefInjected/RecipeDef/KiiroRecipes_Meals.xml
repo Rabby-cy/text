@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 貓罐頭 -->
+
+  <Kiiro_CookCannedCatFood.label>烹飪綺羅貓罐頭</Kiiro_CookCannedCatFood.label>
+  <Kiiro_CookCannedCatFood.description>製作一份營養均衡的貓罐頭食物。</Kiiro_CookCannedCatFood.description>
+  <Kiiro_CookCannedCatFood.jobString>烹飪綺羅貓罐頭。</Kiiro_CookCannedCatFood.jobString>
+
+  <Kiiro_CookCannedCatFoodBulk.label>烹飪綺羅貓罐頭x4</Kiiro_CookCannedCatFoodBulk.label>
+  <Kiiro_CookCannedCatFoodBulk.description>製作四份營養均衡的貓罐頭食物，一次性的大量製作能夠減少一些食材的浪費。</Kiiro_CookCannedCatFoodBulk.description>
+  <Kiiro_CookCannedCatFoodBulk.jobString>烹飪4份綺羅貓罐頭。</Kiiro_CookCannedCatFoodBulk.jobString>
+
+
+  <!-- 薄荷貓罐頭 -->
+
+  <Kiiro_CookCannedCatMintedFood.label>製作薄荷貓罐頭</Kiiro_CookCannedCatMintedFood.label>
+  <Kiiro_CookCannedCatMintedFood.description>向貓罐頭中加入貓薄荷使其更加美味。</Kiiro_CookCannedCatMintedFood.description>
+  <Kiiro_CookCannedCatMintedFood.jobString>烹飪薄荷貓罐頭。</Kiiro_CookCannedCatMintedFood.jobString>
+
+  <Kiiro_CookCannedCatMintedFoodBulk.label>製作薄荷貓罐頭x4</Kiiro_CookCannedCatMintedFoodBulk.label>
+  <Kiiro_CookCannedCatMintedFoodBulk.description>批量向貓罐頭中加入貓薄荷使其更加美味。</Kiiro_CookCannedCatMintedFoodBulk.description>
+  <Kiiro_CookCannedCatMintedFoodBulk.jobString>烹飪4份薄荷貓罐頭。</Kiiro_CookCannedCatMintedFoodBulk.jobString>
+
+
+</LanguageData>

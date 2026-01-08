@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <WorldObjectDef>
+        <defName>OARK_CrashedGravship</defName>
+        <label>坠毁飞船</label>
+        <description>一艘被金鸢尾兰帝国所观察到的坠毁飞船，坠落点应该会有一些好东西。</description>
+        <worldObjectClass>OberoniaAurea.CrashedGravship</worldObjectClass>
+        <texture>World/OARK_CrashedShip</texture>
+        <expandingIcon>true</expandingIcon>
+        <expandingIconTexture>World/OARK_CrashedShip</expandingIconTexture>
+        <expandingIconPriority>70</expandingIconPriority>
+        <mapGenerator>OARK_CrashedGravship</mapGenerator>
+        <comps>
+            <li Class="WorldObjectCompProperties_Timeout" />
+            <li Class="WorldObjectCompProperties_FormCaravan" />
+        </comps>
+    </WorldObjectDef>
+
+    <MapGeneratorDef ParentName="MapCommonBase">
+        <defName>OARK_CrashedGravship</defName>
+        <label>OA坠毁的飞船</label>
+        <genSteps>
+            <li>RocksFromGrid</li>
+            <li>OARK_CrashedGravship</li>
+        </genSteps>
+    </MapGeneratorDef>
+
+    <GenStepDef>
+        <defName>OARK_CrashedGravship</defName>
+        <order>1700</order>
+        <genStep Class="OberoniaAurea.GenStep_CrashedGravship" />
+    </GenStepDef>
+
+    <SketchResolverDef>
+        <defName>OARK_Sketch_CrashedGravship</defName>
+        <isRoot>true</isRoot>
+        <resolver Class="OberoniaAurea.SketchResolver_CrashedGravship" />
+    </SketchResolverDef>
+
+</Defs>

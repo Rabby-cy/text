@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+<OARK_LetterLabel_GravDataBeaconLanded>데이터 전송 완료</OARK_LetterLabel_GravDataBeaconLanded>
+<OARK_Letter_GravDataBeaconLanded>연구부 비콘이 역중력 엔진의 이착륙 데이터를 대량으로 기록 및 전송하는 데 성공했으며, 이는 연구부의 연구 진척을 크게 앞당길 것입니다. 하지만 이 전송 과정에서 방대한 데이터 흐름이 매우 눈에 띄는 신호로 작용했습니다. 아마도 메카노이드의 공격에 대비할 때가 된 것 같습니다.</OARK_Letter_GravDataBeaconLanded>
+
+<OARK_LetterLabel_EnterCrashedGravship>금 아이리스 데이터 링크</OARK_LetterLabel_EnterCrashedGravship>
+<OARK_Letter_EnterCrashedGravship>더 나은 정보 획득을 돕기 위해, 금 아이리스 기술부는 우주선 정보 저장소에 원격 잠금을 설정했습니다.\n이것은 당신이 해킹 과정에서 정보 저장소의 자동 포맷팅을 방지할 뿐만 아니라, 더 많은 접근 권한을 얻은 후 우주선의 정확한 출처를 판단하는 데도 도움을 줄 것입니다.</OARK_Letter_EnterCrashedGravship>
+
+<OARK_LetterLabel_NormalPilot>우주선 출처: 일반</OARK_LetterLabel_NormalPilot>
+<OARK_Letter_NormalPilot>기술부는 당신이 해킹한 데이터를 분석하여 이 조난 우주선의 소속을 확인했습니다: 이는 소규모 우주 세력의 우주선으로, 보복 공격을 걱정할 필요 없이 안전하게 해킹할 수 있습니다.</OARK_Letter_NormalPilot>
+
+<OARK_LetterLabel_NotNormalPilot>우주선 출처: 해적</OARK_LetterLabel_NotNormalPilot>
+<OARK_Letter_NotNormalPilot>기술부는 당신이 해킹한 데이터를 분석하여 이 조난 우주선의 소속을 확인했습니다: 이는 그 우주 해적단의 함선이며, 정보 저장소의 마지막 통신 기록에 따르면 이미 한 무리의 해적들이 이곳을 향해 접근 중입니다.\n\n계속 해킹할 수 있지만, 이는 해적들과의 직접적인 충돌을 초래할 수 있습니다. 포기하기로 선택하면, 이미 해킹한 모든 진행 상황을 잃게 될 것입니다.</OARK_Letter_NotNormalPilot>
+
+<OARK_LetterLabel_BrokenPilotAttack>해적들의 접근</OARK_LetterLabel_BrokenPilotAttack>
+<OARK_Letter_BrokenPilotAttack>기술부에서 전달한 메시지: 이 우주선 데이터 신호와 유사한 집단이 이곳으로 접근 중이며, 이들은 아마도 우주선을 회수하러 온 해적들일 것입니다. 계속 해킹하기로 선택하면, 이 해적들과의 충돌은 불가피할 것입니다.\n\n현재 신호 이동 속도로 추정하면, 그들은 1시간 후 이곳에 도착할 것입니다.</OARK_Letter_BrokenPilotAttack>
+
+<OARK_LetterLabel_BrokenPilotRequest>데이터 획득 요청</OARK_LetterLabel_BrokenPilotRequest>
+<OARK_Letter_BrokenPilotRequest>현지 금 아이리스 궁정에서 공식적인 데이터 이전 요청을 보냈습니다.\n\n그들은 당신이 획득한 접근 권한을 사용하여 우주선의 데이터 코어를 공격하기를 원합니다. 권한 이전에 동의하면, 현지 궁정은 우주선의 항해 기록을 추출하여 가능한 피해자를 찾고, 지역 실종자 명단을 확인하며 해적 기지의 정확한 위치를 추적할 것입니다. 그러나 이러한 직접적인 정보 획득은 우주선 정보 저장소의 자동 포맷팅을 유발하며, 다른 모든 데이터가 삭제될 것입니다.\n보상으로, 현지 궁정은 일정량의 은을 공급하고 당신의 제국 기여도를 높여 손실을 보상하고 탁월한 공헌을 인정할 것입니다.\n\n이것은 강제적인 요구 사항이 아니며, 거절해도 어떤 손실도 발생하지 않습니다.</OARK_Letter_BrokenPilotRequest>
+
+<OARK_LetterLabel_CrashedGravshipFollowUp>먼 곳의 불꽃</OARK_LetterLabel_CrashedGravshipFollowUp>
+<OARK_Letter_CrashedGravshipFollowUp>당신이 이전에 해적 함선을 해킹하며 제공한 정보 덕분에, 금 아이리스 항구 경비 함대는 상인 연합 함대와 협력하여 방금 깊숙이 숨겨진 해적 습격 기지를 완전히 파괴하는 데 성공했습니다. 이로 인해 해적들로부터 고통받던 상인 연합은 당신에게 매우 만족해하며, 이미 호의를 가지고 있던 금 아이리스 제국 역시 당신에 대한 인상이 더욱 좋아졌습니다.\n\n비록 거리가 멀지만, 당신은 저 먼 곳에서 터지는 불꽃과 우주 정거장 파편들이 날아다니는 모습을 볼 수 있습니다. 아마도 이 불꽃놀이보다 더 즐거운 광경은 없을 것입니다.</OARK_Letter_CrashedGravshipFollowUp>
+
+<OARK_LetterLabel_BrokenPilotHacked>정보 저장소 해킹 완료</OARK_LetterLabel_BrokenPilotHacked>
+<OARK_Letter_BrokenPilotHacked_NoProjectProgress>당신의 식민지 주민이 우주선 정보 저장소 해킹을 완료했지만, 유의미한 데이터를 찾지 못했습니다.</OARK_Letter_BrokenPilotHacked_NoProjectProgress>
+<OARK_Letter_BrokenPilotHacked>당신의 식민지 주민이 우주선 정보 저장소 해킹을 완료했으며, 대량의 유용한 데이터 정보를 성공적으로 수집했습니다.</OARK_Letter_BrokenPilotHacked>
+<OARK_LetterLabel_ScienceDepartmentFriendly>과학 연구부의 통신</OARK_LetterLabel_ScienceDepartmentFriendly>
+<OARK_Letter_ScienceDepartmentFriendly>지난번 당신이 제공한 역중력 엔진 이착륙 데이터 덕분에, 과학 연구부는 역중력 기술 역연구에 획기적인 진전을 이루었습니다. 아직도 많은 연구원들이 더 깊은 연구 탐구에 몰두하고 있지만, 어쨌든 과학 연구부는 드물게 전반적으로 휴식을 취하고 있습니다.\n\n중요한 역중력 데이터 제공자로서, 연구관들은 당신의 공헌을 당연시하지 않고, 당신을 인정하고 감사하는 마음으로 보답하고자 합니다. 그래서 그들은 당신에게 공급 목록을 보내왔습니다. 이는 당신의 용기, 기술 탐구, 그리고 아이리스와의 우정에 대한 보답입니다.\n\n당신은 그들에게 다음과 같은 요청을 할 수 있습니다:</OARK_Letter_ScienceDepartmentFriendly>
+<OARK_ScienceDepartmentFriendly_I>우리 구성원 중 한 명이 더 많은 지식을 얻길 바랍니다.</OARK_ScienceDepartmentFriendly_I>
+<OARK_ScienceDepartmentFriendly_II>우주선 운용을 유지하기 위해 일부 부품이 필요합니다.</OARK_ScienceDepartmentFriendly_II>
+<OARK_ScienceDepartmentFriendly_III>금 아이리스 제국의 특산품을 얻길 바랍니다.</OARK_ScienceDepartmentFriendly_III>
+<OARK_ScienceDepartmentFriendly_IV>항해 중 금 아이리스 항구에 정박할 수 있는 허가를 얻길 바랍니다.</OARK_ScienceDepartmentFriendly_IV>
+<OARK_ScienceDepartmentFriendly_V>더 많은 과학 연구 청사진을 얻길 바랍니다.</OARK_ScienceDepartmentFriendly_V>
+
+<OARK_ScienceDepartmentFriendly_Default>아니요, 과학 연구를 위한 헌신은 이익으로 측정될 수 없으며, 진정한 우정은 목적이 명확한 거래가 아닙니다</OARK_ScienceDepartmentFriendly_Default>
+
+<OARK_LetterLabel_GravResearchExchange>셔틀 도착</OARK_LetterLabel_GravResearchExchange>
+<OARK_Letter_GravResearchExchange>연구관은 잠시 생각한 후 바로 당신의 요청을 수락했다.\n\n통신에서 그는 가장 효율적인 지식 전수는 사고 방식을 가르치는 것이라고 밝히며, 당신의 콜로니 주민 한 명을 위해 연구부의 철저한 현장 견학 과정을 마련했다. 당신의 콜로니 주민이 준비를 마치면 셔틀을 타고 방문할 수 있으며, 연구부는 열정적으로 환대할 것이다.</OARK_Letter_GravResearchExchange>
+</LanguageData>

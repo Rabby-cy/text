@@ -1,0 +1,1476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<!-- ========== 远行者步枪 ========== -->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>OA_RK_ProtocolRifle_B</defName>
+		<statBases>
+			<WorkToMake>30200</WorkToMake>
+			<Mass>2.9</Mass>
+			<SightsEfficiency>1</SightsEfficiency>
+			<ShotSpread>0.04</ShotSpread>
+			<SwayFactor>0.12</SwayFactor>
+			<Bulk>2.15</Bulk>
+			<RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
+		</statBases>
+		<Properties>
+			<recoilAmount>1.57</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_96DU</defaultProjectile>
+			<range>61</range>
+			<burstShotCount>1</burstShotCount>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>9</magazineSize>
+			<reloadTime>3</reloadTime>
+			<ammoSet>AmmoSet_96DU</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+		<weaponTags>
+			<li>AdvancedGun</li>
+			<li>CE_AI_SR</li>
+		</weaponTags>
+		<AllowWithRunAndGun>false</AllowWithRunAndGun>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_ProtocolRifle_B"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>枪身</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>10.5</power>
+					<cooldownTime>2.00</cooldownTime>
+					<chanceFactor>1</chanceFactor>
+					<armorPenetrationSharp>4.4</armorPenetrationSharp>
+			</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>枪托</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>9</power>
+					<cooldownTime>2.00</cooldownTime>
+					<chanceFactor>1</chanceFactor>
+					<armorPenetrationSharp>4.0</armorPenetrationSharp>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+	<!-- ========== 技术官防身冲锋枪 ========== -->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>OA_RK_Jishu_SMG</defName>
+		<statBases>
+			<WorkToMake>69000</WorkToMake>
+			<Mass>2.0</Mass>
+			<SightsEfficiency>1</SightsEfficiency>
+			<ShotSpread>0.14</ShotSpread>
+			<SwayFactor>0.78</SwayFactor>
+			<Bulk>2.45</Bulk>
+			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+		</statBases>
+		<Properties>
+			<recoilAmount>1.75</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_792x54DU_EMP</defaultProjectile>
+			<warmupTime>0.6</warmupTime>
+			<range>31</range>
+			<burstShotCount>3</burstShotCount>
+			<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+			<soundCast>OA_RKSO_ProtocolRifleFire</soundCast>
+			<soundCastTail>OA_RKSO_LightUraniumBulletTail</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>35</magazineSize>
+			<reloadTime>3.2</reloadTime>
+			<ammoSet>AmmoSet_792x54DU_EMP</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aimedBurstShotCount>3</aimedBurstShotCount>
+			<aiUseBurstMode>TRUE</aiUseBurstMode>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+		<weaponTags>
+			<li>AdvancedGun</li>
+			<li>SpacerGun</li>
+			<li>CE_SMG</li>
+			<li>CE_AI_BROOM</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_Jishu_SMG"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>枪身</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>7</power>
+					<cooldownTime>1.8</cooldownTime>
+					<armorPenetrationBlunt>3.6</armorPenetrationBlunt>
+			</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>枪托</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>6.5</power>
+					<cooldownTime>1.8</cooldownTime>
+					<armorPenetrationBlunt>3.2</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!-- ========== 重装突袭步枪 ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_BlitzRifle_Heavy"]/verbs/li/verbClass</xpath>
+		<value>
+			<verbClass>Verb_Shoot</verbClass>
+		</value>
+	</Operation>
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>OA_RK_BlitzRifle_Heavy</defName>
+		<statBases>
+			<WorkToMake>108000</WorkToMake>
+			<Mass>4.2</Mass>
+			<RangedWeapon_Cooldown>2.15</RangedWeapon_Cooldown>
+			<SightsEfficiency>2.6</SightsEfficiency>
+			<ShotSpread>0.03</ShotSpread>
+			<SwayFactor>0.17</SwayFactor>
+			<Bulk>5.8</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>1.14</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_792x64DU_Heavy</defaultProjectile>
+			<warmupTime>1.05</warmupTime>
+			<burstShotCount>3</burstShotCount>
+			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+			<range>56</range>
+			<soundCast>OA_RK_NEW_sound_B</soundCast>
+			<soundCastTail>OA_RKSO_MediumUraniumBulletTail</soundCastTail>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>30</magazineSize>
+			<reloadTime>3.6</reloadTime>
+			<ammoSet>AmmoSet_792x64DU_Heavy</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+		<weaponTags>
+			<li>CE_AI_AR</li>
+			<li>AdvancedGun</li>
+			<li>SpacerGun</li>
+		</weaponTags>
+		<AllowWithRunAndGun>false</AllowWithRunAndGun>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_BlitzRifle_Heavy"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>枪身</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>13</power>
+					<cooldownTime>1.8</cooldownTime>
+					<armorPenetrationBlunt>5</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>枪托</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>9</power>
+					<cooldownTime>2.0</cooldownTime>
+					<armorPenetrationBlunt>3.2</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!-- ========== 突袭作战火力冲锋枪 ========== -->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>OA_RK_BlitzSMG_B</defName>
+		<statBases>
+			<WorkToMake>92000</WorkToMake>
+			<Mass>3.4</Mass>
+			<SightsEfficiency>1</SightsEfficiency>
+			<ShotSpread>0.3</ShotSpread>
+			<SwayFactor>1.33</SwayFactor>
+			<RangedWeapon_Cooldown>1.50</RangedWeapon_Cooldown>
+			<Bulk>4.71</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>0.94</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<defaultProjectile>Bullet_792x54DU_LMG</defaultProjectile>
+			<hasStandardCommand>true</hasStandardCommand>
+			<warmupTime>0.6</warmupTime>
+			<range>45</range>
+			<burstShotCount>8</burstShotCount>
+			<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+			<soundCast>OA_RKSO_BlitzLMGFire_C</soundCast>
+			<soundCastTail>OA_RKSO_LightUraniumBulletTail</soundCastTail>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>60</magazineSize>
+			<reloadTime>3.3</reloadTime>
+			<ammoSet>AmmoSet_792x54DU</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aimedBurstShotCount>1</aimedBurstShotCount>
+			<aiUseBurstMode>TRUE</aiUseBurstMode>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+		<weaponTags>
+			<li>AdvancedGun</li>
+			<li>SpacerGun</li>
+			<li>CE_SMG</li>
+			<li>CE_AI_BROOM</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_BlitzSMG_B"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>弹鼓</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>10</power>
+					<cooldownTime>1.80</cooldownTime>
+					<armorPenetrationSharp>5.0</armorPenetrationSharp>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>枪托</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>7.5</power>
+					<cooldownTime>2.00</cooldownTime>
+					<armorPenetrationBlunt>3.2</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!-- ========== 重装突袭冲锋枪 ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_BlitzSMG_Heavy"]/verbs/li/verbClass</xpath>
+		<value>
+			<verbClass>Verb_Shoot</verbClass>
+		</value>
+	</Operation>
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>OA_RK_BlitzSMG_Heavy</defName>
+		<statBases>
+			<WorkToMake>92000</WorkToMake>
+			<Mass>3.4</Mass>
+			<SightsEfficiency>1</SightsEfficiency>
+			<ShotSpread>0.3</ShotSpread>
+			<SwayFactor>1.33</SwayFactor>
+			<RangedWeapon_Cooldown>1.50</RangedWeapon_Cooldown>
+			<Bulk>4.71</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>0.94</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_792x54DU_LMG</defaultProjectile>
+			<warmupTime>0.6</warmupTime>
+			<range>45</range>
+			<burstShotCount>5</burstShotCount>
+			<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+			<soundCast>OA_RKSO_BlitzLMGFire_C</soundCast>
+			<soundCastTail>OA_RKSO_LightUraniumBulletTail</soundCastTail>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>35</magazineSize>
+			<reloadTime>3.3</reloadTime>
+			<ammoSet>AmmoSet_792x54DU_LMG</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aimedBurstShotCount>1</aimedBurstShotCount>
+			<aiUseBurstMode>TRUE</aiUseBurstMode>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+		<weaponTags>
+			<li>AdvancedGun</li>
+			<li>SpacerGun</li>
+			<li>CE_SMG</li>
+			<li>CE_AI_BROOM</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_BlitzSMG_Heavy"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>枪身</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>10</power>
+					<cooldownTime>1.80</cooldownTime>
+					<armorPenetrationSharp>5.0</armorPenetrationSharp>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>枪托</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>7.5</power>
+					<cooldownTime>2.00</cooldownTime>
+					<armorPenetrationBlunt>3.2</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!-- ========== 突袭作战无后坐力炮 ========== -->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>OA_RK_AT</defName>
+		<statBases>
+			<WorkToMake>118000</WorkToMake>
+			<Mass>8.0</Mass>
+			<SightsEfficiency>1</SightsEfficiency>
+			<ShotSpread>0.04</ShotSpread>
+			<SwayFactor>0.04</SwayFactor>
+			<Bulk>5.11</Bulk>
+			<RangedWeapon_Cooldown>3.30</RangedWeapon_Cooldown>
+		</statBases>
+		<Properties>
+			<recoilAmount>2.88</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_83mmPIATGrenade_HEAT</defaultProjectile>
+			<range>61</range>
+			<soundCast>OA_RK_AT_Sound</soundCast>
+			<soundCastTail>OA_RKSO_HeavyUraniumBulletTail</soundCastTail>
+			<ai_AvoidFriendlyFireRadius>8</ai_AvoidFriendlyFireRadius>
+			<ai_RangedAlawaysShootGroundBelowTarget>true</ai_RangedAlawaysShootGroundBelowTarget>
+			<ai_ProjectileLaunchingIgnoresMeleeThreats>true</ai_ProjectileLaunchingIgnoresMeleeThreats>
+			<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+			<ai_TargetHasRangedAttackScoreOffset>50</ai_TargetHasRangedAttackScoreOffset>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+				<canTargetPawns>true</canTargetPawns>
+			</targetParams>
+			<muzzleFlashScale>16</muzzleFlashScale>
+			<beamTargetsGround>true</beamTargetsGround>
+			<canGoWild>false</canGoWild>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>2</magazineSize>
+			<reloadTime>2.2</reloadTime>
+			<ammoSet>AmmoSet_OBLGrenade</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aimedBurstShotCount>3</aimedBurstShotCount>
+			<aiUseBurstMode>TRUE</aiUseBurstMode>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+		<weaponTags>
+			<li>AdvancedGun</li>
+			<li>SpacerGun</li>
+			<li>GunHeavy</li>
+			<li>CE_AI_AOE</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_AT"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>枪管</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>9</power>
+					<cooldownTime>2.40</cooldownTime>
+					<chanceFactor>1</chanceFactor>
+					<armorPenetrationBlunt>4.6</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>枪托</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>11</power>
+					<cooldownTime>2.50</cooldownTime>
+					<chanceFactor>1</chanceFactor>
+					<armorPenetrationBlunt>5.2</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!-- ========== 金鸢尾兰远行者防身霰弹枪 ========== -->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>OA_RK_Shotgun_A</defName>
+		<statBases>
+			<WorkToMake>38000</WorkToMake>
+			<SightsEfficiency>1.00</SightsEfficiency>
+			<ShotSpread>0.8</ShotSpread>
+			<SwayFactor>1.33</SwayFactor>
+			<RangedWeapon_Cooldown>2.25</RangedWeapon_Cooldown>
+			<Bulk>3.31</Bulk>
+		</statBases>
+		<Properties>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<recoilAmount>0.78</recoilAmount>
+			<hasStandardCommand>true</hasStandardCommand>
+			<warmupTime>1.0</warmupTime>
+			<range>33.9</range>
+			<defaultProjectile>Bullet_OAShot_Buck</defaultProjectile>
+			<burstShotCount>1</burstShotCount>
+			<soundCast>OA_RK_NEW_sound_C</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>12</muzzleFlashScale>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>1</magazineSize>
+			<reloadTime>0.8</reloadTime>
+			<ammoSet>AmmoSet_OAShot</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aimedBurstShotCount>1</aimedBurstShotCount>
+			<aiUseBurstMode>FALSE</aiUseBurstMode>
+			<aiAimMode>Snapshot</aiAimMode>
+		</FireModes>
+		<weaponTags>
+			<li>AdvancedGun</li>
+			<li>CE_AI_BROOM</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_Shotgun_A"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>枪身</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>9.5</power>
+					<cooldownTime>2.00</cooldownTime>
+					<chanceFactor>1</chanceFactor>
+					<armorPenetrationBlunt>4.4</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>枪托</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>8.5</power>
+					<cooldownTime>2.00</cooldownTime>
+					<chanceFactor>1</chanceFactor>
+					<armorPenetrationBlunt>2.0</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!-- ========== 技术官防身霰弹枪 ========== -->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>OA_RK_Shotgun_B</defName>
+		<statBases>
+			<WorkToMake>72000</WorkToMake>
+			<Mass>2.5</Mass>
+			<SightsEfficiency>1.00</SightsEfficiency>
+			<ShotSpread>0.6</ShotSpread>
+			<SwayFactor>0.39</SwayFactor>
+			<Bulk>3.35</Bulk>
+			<RangedWeapon_Cooldown>2.55</RangedWeapon_Cooldown>
+		</statBases>
+		<Properties>
+			<recoilAmount>0.21</recoilAmount>
+			<hasStandardCommand>true</hasStandardCommand>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<defaultProjectile>Bullet_10GaugeDU_Slug</defaultProjectile>
+			<range>39.7</range>
+			<burstShotCount>3</burstShotCount>
+			<ticksBetweenBurstShots>38</ticksBetweenBurstShots>
+			<soundCast>OA_RKSO_BlitzLMGFire</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>11</muzzleFlashScale>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>6</magazineSize>
+			<reloadTime>2.6</reloadTime>
+			<ammoSet>AmmoSet_10GaugeDU</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aimedBurstShotCount>6</aimedBurstShotCount>
+			<aiUseBurstMode>FALSE</aiUseBurstMode>
+			<aiAimMode>Snapshot</aiAimMode>
+		</FireModes>
+		<weaponTags>
+			<li>AdvancedGun</li>
+			<li>SpacerGun</li>
+			<li>CE_SMG</li>
+			<li>CE_AI_BROOM</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_Shotgun_B"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>枪身</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>10.5</power>
+					<cooldownTime>2.00</cooldownTime>
+					<chanceFactor>1</chanceFactor>
+					<armorPenetrationSharp>6.8</armorPenetrationSharp>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>枪托</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>9.5</power>
+					<cooldownTime>2.00</cooldownTime>
+					<chanceFactor>1</chanceFactor>
+					<armorPenetrationSharp>6.0</armorPenetrationSharp>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!-- ========== 重装扫荡霰弹枪 ========== -->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>OA_RK_Shotgun_C</defName>
+		<statBases>
+			<WorkToMake>122000</WorkToMake>
+			<SightsEfficiency>1.00</SightsEfficiency>
+			<ShotSpread>1.14</ShotSpread>
+			<SwayFactor>1.07</SwayFactor>
+			<RangedWeapon_Cooldown>0.34</RangedWeapon_Cooldown>
+			<Bulk>5.17</Bulk>
+		</statBases>
+		<Properties>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<recoilAmount>0.87</recoilAmount>
+			<hasStandardCommand>true</hasStandardCommand>
+			<warmupTime>1.0</warmupTime>
+			<range>11.9</range>
+			<burstShotCount>3</burstShotCount>
+			<ticksBetweenBurstShots>14</ticksBetweenBurstShots>
+			<defaultProjectile>Bullet_OAShot_Buck</defaultProjectile>
+			<soundCast>OA_RK_NEW_sound_C</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>12</muzzleFlashScale>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>15</magazineSize>
+			<reloadTime>2.8</reloadTime>
+			<ammoSet>AmmoSet_OAShot_C</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aiAimMode>Snapshot</aiAimMode>
+		</FireModes>
+		<weaponTags>
+			<li>AdvancedGun</li>
+			<li>CE_AI_BROOM</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_Shotgun_C"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>枪身</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>9.5</power>
+					<cooldownTime>2.00</cooldownTime>
+					<chanceFactor>1</chanceFactor>
+					<armorPenetrationBlunt>4.4</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>枪托</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>8.5</power>
+					<cooldownTime>2.00</cooldownTime>
+					<chanceFactor>1</chanceFactor>
+					<armorPenetrationBlunt>2.0</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!-- ========== 突袭作战支援机枪 ========== -->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>OA_RK_BlitzLMG</defName>
+		<statBases>
+			<WorkToMake>88000</WorkToMake>
+			<Mass>7.5</Mass>
+			<RangedWeapon_Cooldown>2.50</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.10</SightsEfficiency>
+			<ShotSpread>0.06</ShotSpread>
+			<SwayFactor>0.67</SwayFactor>
+			<Bulk>12.9</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>1.36</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_792x54DU_LMG</defaultProjectile>
+			<warmupTime>1.25</warmupTime>
+			<range>60</range>
+			<burstShotCount>12</burstShotCount>
+			<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+			<soundCast>OA_RKSO_BlitzLMGFire_C</soundCast>
+			<soundCastTail>GunTail_Medium</soundCastTail>
+			<muzzleFlashScale>9</muzzleFlashScale>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>60</magazineSize>
+			<reloadTime>4.5</reloadTime>
+			<ammoSet>AmmoSet_792x54DU_LMG</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aimedBurstShotCount>3</aimedBurstShotCount>
+			<aiUseBurstMode>TRUE</aiUseBurstMode>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+		<weaponTags>
+			<li>AdvancedGun</li>
+			<li>CE_MachineGun</li>
+			<li>SpacerGun</li>
+			<li>CE_AI_LMG</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_BlitzLMG"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>枪管</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>8.5</power>
+					<cooldownTime>2.4</cooldownTime>
+					<chanceFactor>3.8</chanceFactor>
+					<armorPenetrationBlunt>6.8</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>枪托</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>11</power>
+					<cooldownTime>2.8</cooldownTime>
+					<chanceFactor>1</chanceFactor>
+					<armorPenetrationBlunt>8.8</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!-- ========== 突袭作战反重甲机枪 ========== -->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>OA_RK_BlitzAMLMG</defName>
+		<statBases>
+			<WorkToMake>100000</WorkToMake>
+			<Mass>14</Mass>
+			<RangedWeapon_Cooldown>2.05</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.10</SightsEfficiency>
+			<ShotSpread>0.08</ShotSpread>
+			<SwayFactor>0.47</SwayFactor>
+			<Bulk>12.9</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>1.36</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_127x108DU</defaultProjectile>
+			<warmupTime>0.64</warmupTime>
+			<range>75</range>
+			<burstShotCount>8</burstShotCount>
+			<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+			<soundCast>OA_RKSO_BlitzAMRFire</soundCast>
+			<soundCastTail>OA_RKSO_HeavyUraniumBulletTail</soundCastTail>
+			<muzzleFlashScale>10</muzzleFlashScale>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>48</magazineSize>
+			<reloadTime>4.5</reloadTime>
+			<ammoSet>AmmoSet_127x108DU</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aimedBurstShotCount>5</aimedBurstShotCount>
+			<aiUseBurstMode>TRUE</aiUseBurstMode>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+		<weaponTags>
+			<li>AdvancedGun</li>
+			<li>SpacerGun</li>
+			<li>CE_MachineGun</li>
+			<li>CE_AI_LMG</li>
+			<li>Bipod_LMG</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_BlitzAMLMG"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>枪管</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>9</power>
+					<cooldownTime>2.40</cooldownTime>
+					<chanceFactor>1</chanceFactor>
+					<armorPenetrationBlunt>8.8</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!-- ========== 原型作战反重甲武器 ========== -->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>OA_RK_BlitzAMR_B</defName>
+		<statBases>
+			<WorkToMake>102000</WorkToMake>
+			<Mass>11</Mass>
+			<RangedWeapon_Cooldown>2.90</RangedWeapon_Cooldown>
+			<SightsEfficiency>1</SightsEfficiency>
+			<ShotSpread>0.02</ShotSpread>
+			<SwayFactor>0.05</SwayFactor>
+			<Bulk>22.1</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>2.68</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<defaultProjectile>Bullet_20x169D_B</defaultProjectile>
+			<warmupTime>2.8</warmupTime>
+			<range>75</range>
+			<burstShotCount>1</burstShotCount>
+			<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+			<soundCast>OA_RKSO_BlitzSSRFire</soundCast>
+			<soundCastTail>OA_RKSO_HeavyUraniumBulletTail</soundCastTail>
+			<muzzleFlashScale>8</muzzleFlashScale>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>2</magazineSize>
+			<reloadTime>2.8</reloadTime>
+			<ammoSet>AmmoSet_20x169DU_B</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aimedBurstShotCount>1</aimedBurstShotCount>
+			<aiUseBurstMode>TRUE</aiUseBurstMode>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+		<weaponTags>
+			<li>AdvancedGun</li>
+			<li>SpacerGun</li>
+			<li>CE_AI_SR</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_BlitzAMR_B"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>枪管</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>8.5</power>
+					<cooldownTime>2.4</cooldownTime>
+					<chanceFactor>3.8</chanceFactor>
+					<armorPenetrationBlunt>6.8</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>枪托</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>11</power>
+					<cooldownTime>2.8</cooldownTime>
+					<chanceFactor>1</chanceFactor>
+					<armorPenetrationBlunt>8.8</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!-- ========== 突袭作战反重甲步枪 ========== -->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>OA_RK_BlitzAMR</defName>
+		<statBases>
+			<WorkToMake>102000</WorkToMake>
+			<Mass>11</Mass>
+			<RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+			<SightsEfficiency>1</SightsEfficiency>
+			<ShotSpread>0.01</ShotSpread>
+			<SwayFactor>0.03</SwayFactor>
+			<Bulk>22.1</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>1.68</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_20x169DU</defaultProjectile>
+			<warmupTime>1.85</warmupTime>
+			<range>86</range>
+			<burstShotCount>1</burstShotCount>
+			<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+			<soundCast>OA_RKSO_BlitzSSRFire</soundCast>
+			<muzzleFlashScale>8</muzzleFlashScale>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>4</magazineSize>
+			<reloadTime>3.5</reloadTime>
+			<ammoSet>AmmoSet_20x169DU</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aimedBurstShotCount>1</aimedBurstShotCount>
+			<aiUseBurstMode>TRUE</aiUseBurstMode>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+		<weaponTags>
+			<li>SniperRifle</li>
+			<li>AdvancedGun</li>
+			<li>SpacerGun</li>
+			<li>CE_AI_SR</li>
+			<li>Bipod_AMR</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_BlitzAMR"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>枪管</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>8.5</power>
+					<cooldownTime>1.80</cooldownTime>
+					<chanceFactor>3.8</chanceFactor>
+					<armorPenetrationBlunt>6.8</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>枪托</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>11</power>
+					<cooldownTime>2.40</cooldownTime>
+					<chanceFactor>1</chanceFactor>
+					<armorPenetrationBlunt>8.8</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!-- ========== 突袭作战反重甲支援步枪 ========== -->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>OA_RK_BlitzSSR_B</defName>
+		<statBases>
+			<WorkToMake>102000</WorkToMake>
+			<Mass>7.2</Mass>
+			<RangedWeapon_Cooldown>1.90</RangedWeapon_Cooldown>
+			<SightsEfficiency>1</SightsEfficiency>
+			<ShotSpread>0.01</ShotSpread>
+			<SwayFactor>0.03</SwayFactor>
+			<Bulk>22.1</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>1.14</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_127x108DU</defaultProjectile>
+			<warmupTime>1.4</warmupTime>
+			<range>86</range>
+			<burstShotCount>1</burstShotCount>
+			<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+			<soundCast>OA_RKSO_BlitzSSRFire</soundCast>
+			<muzzleFlashScale>8</muzzleFlashScale>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>5</magazineSize>
+			<reloadTime>3.2</reloadTime>
+			<ammoSet>AmmoSet_20x169DU</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aimedBurstShotCount>1</aimedBurstShotCount>
+			<aiUseBurstMode>TRUE</aiUseBurstMode>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+		<weaponTags>
+			<li>SniperRifle</li>
+			<li>AdvancedGun</li>
+			<li>SpacerGun</li>
+			<li>CE_AI_SR</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_BlitzSSR_B"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>枪管</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>8.5</power>
+					<cooldownTime>1.80</cooldownTime>
+					<chanceFactor>3.8</chanceFactor>
+					<armorPenetrationBlunt>6.8</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>枪托</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>11</power>
+					<cooldownTime>2.40</cooldownTime>
+					<chanceFactor>1</chanceFactor>
+					<armorPenetrationBlunt>8.8</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!-- ========== 突袭作战反重甲炮台步枪 ========== -->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>OA_RK_BlitzAMR_C</defName>
+		<statBases>
+			<WorkToMake>102000</WorkToMake>
+			<Mass>17</Mass>
+			<RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
+			<SightsEfficiency>1</SightsEfficiency>
+			<ShotSpread>0.01</ShotSpread>
+			<SwayFactor>0.03</SwayFactor>
+			<Bulk>22.1</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>1.14</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_28x183DU</defaultProjectile>
+			<warmupTime>1.4</warmupTime>
+			<range>86</range>
+			<burstShotCount>1</burstShotCount>
+			<ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+			<soundCast>OA_RKSO_BlitzSSRFire</soundCast>
+			<muzzleFlashScale>8</muzzleFlashScale>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>2</magazineSize>
+			<reloadTime>3.2</reloadTime>
+			<ammoSet>AmmoSet_28x183DU</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aimedBurstShotCount>1</aimedBurstShotCount>
+			<aiUseBurstMode>TRUE</aiUseBurstMode>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+		<weaponTags>
+			<li>SniperRifle</li>
+			<li>AdvancedGun</li>
+			<li>SpacerGun</li>
+			<li>CE_AI_SR</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_BlitzAMR_C"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>枪管</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>8.5</power>
+					<cooldownTime>1.80</cooldownTime>
+					<chanceFactor>3.8</chanceFactor>
+					<armorPenetrationBlunt>6.8</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>枪托</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>11</power>
+					<cooldownTime>2.40</cooldownTime>
+					<chanceFactor>1</chanceFactor>
+					<armorPenetrationBlunt>8.8</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!-- ========== 不稳定电荷支援步枪 ========== -->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>OA_RK_ChargeSSR</defName>
+		<statBases>
+			<WorkToMake>91000</WorkToMake>
+			<Mass>5.5</Mass>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.6</SightsEfficiency>
+			<ShotSpread>0.09</ShotSpread>
+			<SwayFactor>0.31</SwayFactor>
+			<Bulk>8.71</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>0.93</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_8x54mmUnstableCharged</defaultProjectile>
+			<warmupTime>1.05</warmupTime>
+			<range>65</range>
+			<burstShotCount>1</burstShotCount>
+			<soundCast>OA_RKSO_ChargeSSRFire</soundCast>
+			<soundCastTail>OA_RKSO_LightUraniumBulletTail</soundCastTail>
+			<muzzleFlashScale>6</muzzleFlashScale>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>40</magazineSize>
+			<reloadTime>4</reloadTime>
+			<ammoSet>AmmoSet_8x54mmUnstableCharged</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+		<weaponTags>
+			<li>CE_AI_AR</li>
+			<li>SpacerGun</li>
+			<li>AdvancedGun</li>
+		</weaponTags>
+		<AllowWithRunAndGun>false</AllowWithRunAndGun>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_ChargeSSR"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>枪管</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>9</power>
+					<cooldownTime>2.00</cooldownTime>
+					<chanceFactor>3</chanceFactor>
+					<armorPenetrationBlunt>18.8</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!-- ========== 不稳定电荷团速射器 ========== -->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>OA_RK_UnstableChargeThrower</defName>
+		<statBases>
+			<WorkToMake>190000</WorkToMake>
+			<Mass>19</Mass>
+			<RangedWeapon_Cooldown>4.10</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.6</SightsEfficiency>
+			<ShotSpread>0.0</ShotSpread>
+			<SwayFactor>0.0</SwayFactor>
+			<Bulk>21</Bulk>
+		</statBases>
+		<Properties>
+			<recoilAmount>1.9</recoilAmount>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<defaultProjectile>Bullet_14x84mmUnstableCharged</defaultProjectile>
+			<warmupTime>1.05</warmupTime>
+			<range>69</range>
+			<burstShotCount>5</burstShotCount>
+			<ticksBetweenBurstShots>16</ticksBetweenBurstShots>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>50</magazineSize>
+			<reloadTime>5</reloadTime>
+			<ammoSet>AmmoSet_14x84mmUnstableCharged</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+		<weaponTags>
+			<li>CE_AI_Launcher</li>
+			<li>SpacerGun</li>
+		</weaponTags>
+		<AllowWithRunAndGun>false</AllowWithRunAndGun>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_UnstableChargeThrower"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>枪管</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>9</power>
+					<cooldownTime>2.60</cooldownTime>
+					<chanceFactor>3</chanceFactor>
+					<armorPenetrationBlunt>18.8</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>枪托</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>11</power>
+					<cooldownTime>2.80</cooldownTime>
+					<chanceFactor>3</chanceFactor>
+					<armorPenetrationBlunt>22.8</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!-- ========== 猎兽刀 ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_Mountain_Stick_D"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>刀背</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>9.5</power>
+					<cooldownTime>2.0</cooldownTime>
+					<chanceFactor>1</chanceFactor>
+					<armorPenetrationBlunt>3.2</armorPenetrationBlunt>
+			</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>刀尖</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>23.5</power>
+					<cooldownTime>2.20</cooldownTime>
+					<chanceFactor>2.5</chanceFactor>
+					<armorPenetrationSharp>6.8</armorPenetrationSharp>
+			</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>刀刃</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>20.5</power>
+					<cooldownTime>2.0</cooldownTime>
+					<chanceFactor>2</chanceFactor>
+					<armorPenetrationSharp>5.2</armorPenetrationSharp>
+			</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!-- ========== 技术官防身匕首 ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_Mountain_Stick_E"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>刀尖</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>17.5</power>
+					<cooldownTime>2.0</cooldownTime>
+					<chanceFactor>2.5</chanceFactor>
+					<armorPenetrationSharp>6.4</armorPenetrationSharp>
+					<extraMeleeDamages>
+						<li>
+							<def>EMP</def>
+							<amount>40</amount>
+						</li>
+					</extraMeleeDamages>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>刀刃</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>15</power>
+					<cooldownTime>2.0</cooldownTime>
+					<chanceFactor>2.0</chanceFactor>
+					<armorPenetrationSharp>5.5</armorPenetrationSharp>
+					<extraMeleeDamages>
+						<li>
+							<def>EMP</def>
+							<amount>36</amount>
+						</li>
+					</extraMeleeDamages>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!-- ========== 技术官手杖 ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_Mountain_Stick_F"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>杖身</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>19</power>
+					<cooldownTime>2.6</cooldownTime>
+					<chanceFactor>1.5</chanceFactor>
+					<armorPenetrationBlunt>5.2</armorPenetrationBlunt>
+					<extraMeleeDamages>
+						<li>
+							<def>EMP</def>
+							<amount>30</amount>
+						</li>
+					</extraMeleeDamages>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>杖尖</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>20.5</power>
+					<cooldownTime>2.6</cooldownTime>
+					<chanceFactor>1.5</chanceFactor>
+					<armorPenetrationSharp>2.7</armorPenetrationSharp>
+					<extraMeleeDamages>
+						<li>
+							<def>EMP</def>
+							<amount>46</amount>
+						</li>
+					</extraMeleeDamages>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!-- ========== 金鸢尾兰医护拐杖 ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_Mountain_Stick_G"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>杖身</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>12.5</power>
+					<cooldownTime>3</cooldownTime>
+					<armorPenetrationBlunt>5.4</armorPenetrationBlunt>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>杖尖</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>14</power>
+					<cooldownTime>3</cooldownTime>
+					<armorPenetrationSharp>4.6</armorPenetrationSharp>
+			</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!-- ========== 金鸢尾兰远行者钩索枪 ========== -->
+
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>OA_RK_GouSuo</defName>
+		<statBases>
+			<WorkToMake>13000</WorkToMake>
+			<Mass>1.8</Mass>
+			<SightsEfficiency>1.00</SightsEfficiency>
+			<ShotSpread>0.16</ShotSpread>
+			<SwayFactor>0.09</SwayFactor>
+			<Bulk>3.35</Bulk>
+			<RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+		</statBases>
+		<Properties>
+			<recoilAmount>0.21</recoilAmount>
+			<hasStandardCommand>true</hasStandardCommand>
+			<warmupTime>0.8</warmupTime>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<defaultProjectile>Bullet_GouSuo_A</defaultProjectile>
+			<burstShotCount>1</burstShotCount>
+			<ticksBetweenBurstShots>38</ticksBetweenBurstShots>
+			<soundCast>OA_RKSO_BlitzRifleFire_B</soundCast>
+			<soundCastTail>OA_RKSO_MediumUraniumBulletTail</soundCastTail>
+			<range>48</range>
+			<muzzleFlashScale>0</muzzleFlashScale>
+		</Properties>
+		<FireModes>
+			<aimedBurstShotCount>1</aimedBurstShotCount>
+			<aiUseBurstMode>FALSE</aiUseBurstMode>
+			<aiAimMode>Snapshot</aiAimMode>
+		</FireModes>
+		<weaponTags>
+			<li>AdvancedGun</li>
+			<li>CE_AI_BROOM</li>
+		</weaponTags>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_GouSuo"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>矛头</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>17</power>
+					<cooldownTime>2</cooldownTime>
+					<chanceFactor>1</chanceFactor>
+					<armorPenetrationSharp>7.85</armorPenetrationSharp>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>枪托</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>9</power>
+					<cooldownTime>2</cooldownTime>
+					<chanceFactor>1</chanceFactor>
+					<armorPenetrationBlunt>8</armorPenetrationBlunt>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!-- ========== 工业焊刀 ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_Mountain_Stick_AA"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>刀柄</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>8.5</power>
+					<cooldownTime>2.0</cooldownTime>
+					<chanceFactor>1.0</chanceFactor>
+					<armorPenetrationBlunt>4.85</armorPenetrationBlunt>
+			</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>激光刃</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>11.0</power>
+					<cooldownTime>2.0</cooldownTime>
+					<chanceFactor>0.5</chanceFactor>
+					<armorPenetrationSharp>50</armorPenetrationSharp>
+					<extraMeleeDamages>
+						<li>
+							<def>Flame</def>
+							<amount>26</amount>
+							<armorPenetration>2.0</armorPenetration>
+						</li>
+					</extraMeleeDamages>
+				
+			</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<!-- ========== 震荡清洁箱 ========== -->
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_Mountain_Stick_AB"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>箱体</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>13.5</power>
+					<cooldownTime>3.0</cooldownTime>
+					<chanceFactor>1.0</chanceFactor>
+					<armorPenetrationSharp>7.85</armorPenetrationSharp>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>振荡端口</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>24.0</power>
+					<cooldownTime>3.8</cooldownTime>
+					<chanceFactor>0.66</chanceFactor>
+					<armorPenetrationBlunt>42</armorPenetrationBlunt>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>18</amount>
+						</li>
+					</extraMeleeDamages>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+</Patch>

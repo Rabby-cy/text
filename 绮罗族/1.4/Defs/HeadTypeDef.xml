@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>KiiroHeadN1</defName>
+		<graphicPath>Kiiro/Head/KiiroHeadN1</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+	
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>KiiroHeadN2</defName>
+		<graphicPath>Kiiro/Head/KiiroHeadN2</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+	
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>KiiroHeadN3</defName>
+		<graphicPath>Kiiro/Head/KiiroHeadN3</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+	
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>KiiroHeadN4</defName>
+		<graphicPath>Kiiro/Head/KiiroHeadN4</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+	
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>KiiroHeadN5</defName>
+		<graphicPath>Kiiro/Head/KiiroHeadN5</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+	
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>KiiroHeadN6</defName>
+		<graphicPath>Kiiro/Head/KiiroHeadN6</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+	
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>KiiroHeadH1</defName>
+		<graphicPath>Kiiro/Head/KiiroHeadH1</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+	
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>KiiroHeadH2</defName>
+		<graphicPath>Kiiro/Head/KiiroHeadH2</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+	
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>KiiroHeadH3</defName>
+		<graphicPath>Kiiro/Head/KiiroHeadH3</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+	
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>KiiroHeadC</defName>
+		<graphicPath>Kiiro/Head/KiiroHeadC</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+	
+	<!--<HeadTypeDef ParentName="AverageBase">
+		<defName>KiiroHead3</defName>
+		<graphicPath>Kiiro/Head/KiiroHead3</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>KiiroHead4</defName>
+		<graphicPath>Kiiro/Head/KiiroHead4</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>KiiroHead5</defName>
+		<graphicPath>Kiiro/Head/KiiroHead5</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>KiiroHead6</defName>
+		<graphicPath>Kiiro/Head/KiiroHead6</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>
+	<HeadTypeDef ParentName="AverageBase">
+		<defName>KiiroHead7</defName>
+		<graphicPath>Kiiro/Head/KiiroHead7</graphicPath>
+		<gender>None</gender>
+	</HeadTypeDef>-->
+</Defs>

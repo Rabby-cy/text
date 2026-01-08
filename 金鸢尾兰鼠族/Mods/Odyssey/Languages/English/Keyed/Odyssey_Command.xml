@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+<OARK_DeativeGravDataBeaconDesc>Deactivate {0}.\nCurrent status: Activated</OARK_DeativeGravDataBeaconDesc>
+    <OARK_ActiveGravDataBeaconDesc>Activate {0}.\nCurrent status: Closed</OARK_ActiveGravDataBeaconDesc>
+
+    <OARK_Command_TriggerStartWick>Activate device</OARK_Command_TriggerStartWick>
+    <OARK_Command_TriggerStartWickDesc>Activate gravity trap, creating strong attraction on all nearby units.</OARK_Command_TriggerStartWickDesc>
+
+    <OARK_Command_GravSuppress>Gravity field suppression</OARK_Command_GravSuppress>
+    <OARK_Command_GravSuppressDesc>Drastically alter local gravity intensity, applying strong suppression effects to all units within range.</OARK_Command_GravSuppressDesc>
+
+    <OARK_SailorAssistInvitation>Permanent residence invitation</OARK_SailorAssistInvitation>
+    <OARK_SailorAssistInvitationDesc>Request permanent residency from Oberonia Aurea Orchid Empire, allowing this citizen to permanently join your colony.</OARK_SailorAssistInvitationDesc>
+    <OARK_InsufficientMood>Attendant must have at least {0} mood.</OARK_InsufficientMood>
+    <OARk_NeedBetterBothwayOpinion>Attendant must have at least {0} opinion of this colonist.</OARk_NeedBetterBothwayOpinion>
+
+    <OARK_OpenOne>Open one</OARK_OpenOne>
+    <OARK_ComponentBoxDesc>Open a single {0}.</OARK_ComponentBoxDesc>
+
+    <OARK_OpenAll>Open all</OARK_OpenAll>
+    <OARK_ComponentBoxDesc>Open all stacked {0}.</OARK_ComponentBoxDesc>
+
+
+</LanguageData>

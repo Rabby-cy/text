@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ScenarioDef>
+		<defName>OA_RK_Scenario</defName>
+		<label>Extragalactic Voyagers</label>
+		<description>The twinkling stars are ever magnificent and charming, and the allure alone is enough to captivate travelers to risking their lives braving them. And this story happened to three curious travelers. The former comfort is gone, and a brand new adventure is waving. Will this story be filled with laughter and joy, or will it be intertwined with blood and tears? No one can foretell.</description>
+		<scenario>	
+		<summary>Three ratkin race travelers from the Oberonia Aurea will embark on a new adventure in the Milky Way.</summary>
+		<playerFaction>
+			<def>PlayerFaction</def>
+			<factionDef>OA_RK_PlayerFaction</factionDef>
+		</playerFaction>
+		<parts>
+			<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+				<def>ConfigPage_ConfigureStartingPawns</def>
+				<pawnChoiceCount>8</pawnChoiceCount>
+				<pawnCount>3</pawnCount>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech"  Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
+					<def>ConfigurePawnsXenotypes</def>
+					<pawnChoiceCount>8</pawnChoiceCount>
+					<xenotypeCounts>
+						<li>
+							<count>3</count>
+							<requiredAtStart>True</requiredAtStart>
+							<xenotype>Ratkin_OA</xenotype>
+							<allowedDevelopmentalStages>Baby, Child, Adult</allowedDevelopmentalStages>
+						</li>
+					</xenotypeCounts>
+			</li>
+			<li Class="ScenPart_PlayerPawnsArriveMethod">
+				<def>PlayerPawnsArriveMethod</def>
+				<method>DropPods</method>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Silver</thingDef>
+				<count>400</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>MealSurvivalPack</thingDef>
+				<count>30</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>OA_RK_Mountain_Stick_C</thingDef>
+				<quality>Good</quality>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Gun_BoltActionRifle</thingDef>
+				<quality>Excellent</quality>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>OA_RK_Component_AB</thingDef>
+				<quality>Good</quality>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Bedroll</thingDef>
+				<stuff>Synthread</stuff>
+				<count>3</count>
+				<quality>Good</quality>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>ComponentIndustrial</thingDef>
+				<count>5</count>
+			</li>
+			<!--li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Neutroamine</thingDef>
+				<count>75</count>
+			</li-->
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>MedicineIndustrial</thingDef>
+				<count>15</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Apparel_FlakVest</thingDef>
+				<count>2</count>
+				<quality>Good</quality>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>OA_RK_New_Component_C</thingDef>
+				<count>1</count>
+			</li>
+			<!--li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>WoodLog</thingDef>
+				<count>80</count>
+			</li-->
+			<li Class="ScenPart_ScatterThingsAnywhere">
+				<def>ScatterThingsAnywhere</def>
+				<thingDef>WoodLog</thingDef>
+				<count>200</count>
+				<allowRoofed>True</allowRoofed>
+			</li>
+			<!--li Class="ScenPart_ScatterThingsAnywhere">
+				<def>ScatterThingsAnywhere</def>
+				<thingDef>Steel</thingDef>
+				<count>600</count>
+				<allowRoofed>True</allowRoofed>
+			</li-->
+			<li Class="ScenPart_ScatterThingsNearPlayerStart">
+				<def>ScatterThingsNearPlayerStart</def>
+				<thingDef>RawBerries</thingDef>
+				<count>300</count>
+				<allowRoofed>True</allowRoofed>
+			</li>
+			<!--li Class="ScenPart_ScatterThingsNearPlayerStart">
+				<def>ScatterThingsNearPlayerStart</def>
+				<thingDef>Steel</thingDef>
+				<count>150</count>
+				<allowRoofed>True</allowRoofed>
+			</li-->
+			<li Class="ScenPart_StartingResearch">
+				<def>StartingResearch</def>
+				<project>OA_RK_Oberonia_Aurea_Research_B</project>
+			</li>
+			<li Class="ScenPart_StartingResearch">
+				<def>StartingResearch</def>
+				<project>OA_RK_Oberonia_Aurea_Research</project>
+			</li>
+			<li Class="ScenPart_StartingResearch">
+				<def>StartingResearch</def>
+				<project>OA_RK_Electrical_System</project>
+			</li>
+			<li Class="ScenPart_StartingResearch">
+				<def>StartingResearch</def>
+				<project>OA_RK_Cloth_Processing</project>
+			</li>
+			<li Class="ScenPart_StartingResearch">
+				<def>StartingResearch</def>
+				<project>OA_RK_Apparel_A</project>
+			</li>
+			<li Class="ScenPart_StartingResearch">
+				<def>StartingResearch</def>
+				<project>OA_RK_Apparel_D</project>
+			</li>
+			<li Class="ScenPart_StartingResearch">
+				<def>StartingResearch</def>
+				<project>Electricity</project>
+			</li>
+			<li Class="ScenPart_StartingResearch">
+				<def>StartingResearch</def>
+				<project>CarpetMaking</project>
+			</li>
+			<li Class="ScenPart_StartingResearch">
+				<def>StartingResearch</def>
+				<project>OA_RK_Basic_Building</project>
+			</li>
+			<li Class="ScenPart_StartingResearch">
+				<def>StartingResearch</def>
+				<project>SterileMaterials</project>
+			</li>
+			<li Class="ScenPart_StartingResearch">
+				<def>StartingResearch</def>
+				<project>NobleApparel</project>
+			</li>
+			<li Class="ScenPart_StartingResearch">
+				<def>StartingResearch</def>
+				<project>TreeSowing</project>
+			</li>
+			<li Class="ScenPart_ForcedTrait">
+				<def>ForcedTrait</def>
+				<chance>1</chance>
+				<context>PlayerStarter</context>
+				<trait>Faith</trait>
+			</li>
+		</parts>
+		</scenario>	
+	</ScenarioDef>
+</Defs>

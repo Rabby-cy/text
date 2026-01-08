@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+<!-- Launch Mission -->
+<OARK_ScienceShipName>Science Pod Name</OARK_ScienceShipName>
+<OARK_ScienceShipLaunchSite_TimeLeft>Time remaining for observation: {0}</OARK_ScienceShipLaunchSite_TimeLeft>
+
+<OARK_ScienceShipLaunchFinished>Your colonists witnessed the moment the science pod launched, granting everyone {0} points of intellectual experience, along with {1} servings of flower cakes gifted by the attending court servants.</OARK_ScienceShipLaunchFinished>
+<OARK_ScienceShipLaunch_Interrupt>You left the launch site before the scheduled time of the science pod's departure.</OARK_ScienceShipLaunch_Interrupt>
+
+<OARK_ScienceShipLaunch_Quiz>Chat</OARK_ScienceShipLaunch_Quiz>
+<OARK_ScienceShipLaunch_QuizDesc>Casually chat with the Research Department attendants on site to pass the time.</OARK_ScienceShipLaunch_QuizDesc>
+<OARK_ScienceShipLaunch_Inquiry>In-depth Inquiry</OARK_ScienceShipLaunch_Inquiry>
+<OARK_ScienceShipLaunch_InquiryDesc>Spend a small amount of Research Contribution in exchange for a dedicated guide from the Research Department to provide comprehensive answers for your observers.</OARK_ScienceShipLaunch_InquiryDesc>
+<OARK_ScienceShipLaunch_Pry>Fish for Information</OARK_ScienceShipLaunch_Pry>
+<OARK_ScienceShipLaunch_PryDesc>Spend some time trying to gather special information from the crowd.</OARK_ScienceShipLaunch_PryDesc>
+
+<OARK_ScienceShipLaunch_Block>The attendants on site are too busy to spare a moment.</OARK_ScienceShipLaunch_Block>
+
+<OARK_ScienceShipLaunch_QuizLabel>Idle Banter</OARK_ScienceShipLaunch_QuizLabel>
+<OARK_ScienceShipLaunch_QuizLabel6>Getting Busy</OARK_ScienceShipLaunch_QuizLabel6>
+<OARK_ScienceShipLaunch_Quiz6>As you repeatedly pull aside Research Department attendants to ask questions, these attendants with no sense of time finally realize that after all this chatting, their work and the ceremony site have descended into chaos.\n\nTherefore, when you try to stop an attendant again, she waves her hand at you helplessly and apologetically.</OARK_ScienceShipLaunch_Quiz6>
+
+<OARK_ScienceShipLaunch_Quiz6Special>As you repeatedly pull aside Research Department attendants to ask questions, these attendants with no sense of time finally realize that after all this chatting, their work and the ceremony site have descended into chaos.\n\nTherefore, when you try to stop an attendant again, she waves her hand at you helplessly and apologetically. However, perhaps out of pity or as an apology, she quickly jogs off and brings you an unopened box of flower cakes from a nearby observation station before diving back into her work.</OARK_ScienceShipLaunch_Quiz6Special>
+<OARK_ScienceShipLaunch_FlowCake>Where on earth do they get so many flower cakes?</OARK_ScienceShipLaunch_FlowCake>
+
+<OARK_ScienceShipLaunch_Quiz6GainLabel>Flower Cake Box</OARK_ScienceShipLaunch_Quiz6GainLabel>
+<OARK_ScienceShipLaunch_Quiz6Gain>The flower cake box the attendant gave you contains several small packages of flower cakes. After a quick count, you find there are {0} in total.</OARK_ScienceShipLaunch_Quiz6Gain>
+
+<OARK_ScienceShipLaunch_InquiryLabel>Dedicated Guide</OARK_ScienceShipLaunch_InquiryLabel>
+<OARK_ScienceShipLaunch_InquiryInfo>After you informed the on-site scientific research officer of your collaborator's identity and stated your needs, the scientific research officer specially assigned a servant as a tour guide for your guests at a discounted price of 5 support points.\n\nThanks to the servant's detailed and comprehensive explanations:</OARK_ScienceShipLaunch_InquiryInfo>
+
+<OARK_ScienceShipLaunch_PryDialog>You can spend some time here asking others for potentially rare information. Success is not guaranteed, but someone might know a relevant rumor.</OARK_ScienceShipLaunch_PryDialog>
+
+<OARK_ScienceShipLaunch_PryReward_Weapon>Ancient Weapon Cache</OARK_ScienceShipLaunch_PryReward_Weapon>
+<OARK_ScienceShipLaunch_PryReward_Thrumbo>Alpha Thrumbo</OARK_ScienceShipLaunch_PryReward_Thrumbo>
+<OARK_ScienceShipLaunch_PryRewardInfo>You have a {0} chance to obtain information about {1}. Specific probabilities:</OARK_ScienceShipLaunch_PryRewardInfo>
+<OARK_ScienceShipLaunch_PryRewardChance_Base>Base Chance: {0}</OARK_ScienceShipLaunch_PryRewardChance_Base>
+<OARK_ScienceShipLaunch_PryRewardChance_Settlement>People from {0} nearby settlements: {1}</OARK_ScienceShipLaunch_PryRewardChance_Settlement>
+<OARK_ScienceShipLaunch_PryRewardChance_Skill>Highest Social Skill - {0}: {1}</OARK_ScienceShipLaunch_PryRewardChance_Skill>
+
+<OARK_ScienceShipLaunch_PryLabel>Information Gathering Result</OARK_ScienceShipLaunch_PryLabel>
+<OARK_ScienceShipLaunch_PrySuccess>You spent a great deal of time questioning everyone on site. Finally, when you spoke to an observer who had traveled from afar, they shared a rumor they had heard on their journey.\n\nYou obtained information about {0}.</OARK_ScienceShipLaunch_PrySuccess>
+<OARK_ScienceShipLaunch_PryNormal>Although you spent a lot of time trying to gather relevant information, unfortunately, no one knew any related rumors.</OARK_ScienceShipLaunch_PryNormal>
+
+<OARK_ScienceShipLaunch_GainXP>Everyone in caravan gains {0} {1} experience.</OARK_ScienceShipLaunch_GainXP>
+
+<OARK_ScienceShipEnvir>While engaging in close conversation with the science division attendants, your colonist {0} deduced from their words and explanations that the science pod's gravitational equipment may cause the following effects:</OARK_ScienceShipEnvir>    <!-- Corresponding environmental impacts are in the recovery mission -->
+
+<OARK_ScienceShipLaunch_Nothing>This science pod appears to be a standard model design, with no particularly noteworthy features.</OARK_ScienceShipLaunch_Nothing>
+<OARK_ScienceShipLaunch_TravelRK>The side of this science pod bears the emblem of a certain Lemming Trade Federation, indicating their investment in the project.</OARK_ScienceShipLaunch_TravelRK>
+<OARK_ScienceShipLaunch_Fragile>This science pod was seemingly never intended for full recovery, as its structural integrity is rather low, risking complete disintegration upon landing.</OARK_ScienceShipLaunch_Fragile>
+<OARK_ScienceShipLaunch_HighSignal>This science pod appears to have specialized signal amplification, likely to facilitate retrieval.</OARK_ScienceShipLaunch_HighSignal>
+
+<!-- Recovery Mission Trigger Conditions Not Met -->
+<OARK_LetterLabel_ScienceShipRecycleTriggerFail>Fireball in the Distant Sky</OARK_LetterLabel_ScienceShipRecycleTriggerFail>
+<OARK_Letter_ScienceShipRecycleTriggerFail>A bright fiery streak cuts through the gaps in the distant clouds. Your intuition tells you this meteor might once have been connected to you, though the specifics elude your memory.</OARK_Letter_ScienceShipRecycleTriggerFail>
+
+<!-- Recovery Mission -->
+<OARK_ScienceShip_OASupportLabel>Support Supplies Arrived</OARK_ScienceShip_OASupportLabel>
+<OARK_ScienceShip_OASupport>To assist in your data recovery operation, the Oberonia Aurea Orchid Orchid Empire has temporarily allocated supplies to help you fend off potential attacks in this chaotic zone.</OARK_ScienceShip_OASupport>
+
+<OARK_ScienceShip_AllTroubleResolved>All malfunctions resolved</OARK_ScienceShip_AllTroubleResolved>
+<OARK_ScienceShip_DataUploading>Data uploading: {0} remaining</OARK_ScienceShip_DataUploading>
+<OARK_ScienceShip_DataUploaded>Data upload complete. Signal lost—no further attacks will be triggered.</OARK_ScienceShip_DataUploaded>
+
+<OARK_ScienceShip_SignalStrength>Signal strength: {0}</OARK_ScienceShip_SignalStrength>
+
+<OARK_ScienceShip_HyperthermiaInfo>Heat obstruction: {0}, Cooling rate: {1}</OARK_ScienceShip_HyperthermiaInfo>
+<OARK_ScienceShip_HyperthermiaBlock>Due to extreme internal temperatures, other repairs are currently impossible.</OARK_ScienceShip_HyperthermiaBlock>
+<OARK_ScienceShip_MechanicalInfo>Mechanical fault repair progress: {0}/{1}</OARK_ScienceShip_MechanicalInfo>
+<OARK_ScienceShip_GravitationalInfo>Gravitational calibration progress: {0}/{1}</OARK_ScienceShip_GravitationalInfo>
+
+<OARK_ScienceShip_AllKeyTrouble>Catastrophic design: Due to interdependent malfunctions, resolution time increased by +{0}.</OARK_ScienceShip_AllKeyTrouble>
+<OARK_ScienceShip_KeyTrouble>Critical malfunction</OARK_ScienceShip_KeyTrouble>
+<OARK_ScienceShip_TroubleWorkIncrease>Due to interference from other malfunctions, repair time for this fault increased by +{0}.</OARK_ScienceShip_TroubleWorkIncrease>
+
+<OARK_ScienceShip_Hyperthermia>Abnormal overheating</OARK_ScienceShip_Hyperthermia>
+<OARK_ScienceShip_Mechanical>Mechanical failure</OARK_ScienceShip_Mechanical>
+<OARK_ScienceShip_Gravitational>Internal gravitational chaos</OARK_ScienceShip_Gravitational>
+<OARK_ScienceShip_InformationBase>Data repository module damaged</OARK_ScienceShip_InformationBase>
+
+<OARK_ScienceShip_HyperthermiaJob>Activate internal cooling system</OARK_ScienceShip_HyperthermiaJob>
+<OARK_ScienceShip_MechanicalJob>Repair mechanical faults</OARK_ScienceShip_MechanicalJob>
+<OARK_ScienceShip_GravitationalJob>Stabilize internal gravitational field</OARK_ScienceShip_GravitationalJob>
+<OARK_ScienceShip_QuizResearcherJob>Request access code from science attendants</OARK_ScienceShip_QuizResearcherJob>
+
+<OARK_ScienceShip_HyperthermiaDesc>Manually activate and operate internal cooling systems to significantly accelerate heat dissipation.</OARK_ScienceShip_HyperthermiaDesc>
+<OARK_ScienceShip_MechanicalJobDesc>Dispatch colonists to perform mechanical repairs on the science pod.</OARK_ScienceShip_MechanicalJobDesc>
+<OARK_ScienceShip_GravitationalJobDesc>Dispatch colonists to stabilize internal gravity. Less skilled researchers may suffer accidental injuries due to operational errors.</OARK_ScienceShip_GravitationalJobDesc>
+<OARK_ScienceShip_QuizResearcherJobDesc>Attempt to retrieve the data repository's access code from science attendants for manual verification.</OARK_ScienceShip_QuizResearcherJobDesc>
+
+<OARK_ScienceShip_HasGravitational>Internal gravitational field uncalibrated</OARK_ScienceShip_HasGravitational>
+
+<OARK_ScienceShip_IncreaseGravityJob>Strengthen gravitational field</OARK_ScienceShip_IncreaseGravityJob>
+    <OARK_ScienceShip_DecreaseGravityJob>Weaken gravitational field</OARK_ScienceShip_DecreaseGravityJob>
+    <OARK_ScienceShip_ReassignmentGravityJob>Reconfigure gravitational field</OARK_ScienceShip_ReassignmentGravityJob>
+
+    <OARK_ScienceShip_IncreaseGravityJobDesc>Increase gravitational field strength</OARK_ScienceShip_IncreaseGravityJobDesc>
+    <OARK_ScienceShip_DecreaseGravityJobDesc>Decrease gravitational field strength</OARK_ScienceShip_DecreaseGravityJobDesc>
+    <OARK_ScienceShip_ReassignmentGravityJobDesc>Attempt to normalize gravitational fluctuations or intentionally induce gravitational chaos.</OARK_ScienceShip_ReassignmentGravityJobDesc>
+
+    <!-- Corresponding environmental effects -->
+    <OARK_ScienceShipEnvir_NonEnvirText>The gravitational field emits no additional fluctuations.</OARK_ScienceShipEnvir_NonEnvirText>
+    <OARK_ScienceShip_WeakGravity>Local gravity weakened</OARK_ScienceShip_WeakGravity>
+    <OARK_ScienceShip_WeakGravityText>The gravitational field's amplitude is weakening and interfering with local gravity.</OARK_ScienceShip_WeakGravityText>
+    <OARK_ScienceShip_StrongWeakGravity>Local gravity amplified</OARK_ScienceShip_StrongWeakGravity>
+    <OARK_ScienceShip_StrongWeakGravityText>The gravitational field's amplitude is strengthening and increasing local gravity.</OARK_ScienceShip_StrongWeakGravityText>
+    <OARK_ScienceShip_DisorderedGravity>Local gravity disturbance</OARK_ScienceShip_DisorderedGravity>
+    <OARK_ScienceShip_DisorderedGravityText>Volatile gravitational fluctuations cause movement difficulties and physiological nausea.</OARK_ScienceShip_DisorderedGravityText>
+    <OARK_ScienceShip_DisorderedMagnetism>Local EM disturbance</OARK_ScienceShip_DisorderedMagnetism>
+    <OARK_ScienceShip_DisorderedMagnetismText>Extreme gravitational chaos disrupts electronic devices and strongly interferes with mechanoids.</OARK_ScienceShip_DisorderedMagnetismText>
+
+    <OARK_ScienceShip_CoolingDeviceActivated>Internal cooling system operating efficiently.</OARK_ScienceShip_CoolingDeviceActivated>
+    <OARK_ScienceShip_MechanicalRepaired>Mechanical fault in science pod successfully repaired.</OARK_ScienceShip_MechanicalRepaired>
+    <OARK_ScienceShip_GravitationalRepaireSuccess>Gravitational calibration completed successfully.</OARK_ScienceShip_GravitationalRepaireSuccess>
+    <OARK_ScienceShip_GravitationalRepaireFail>Gravitational calibration malfunction!</OARK_ScienceShip_GravitationalRepaireFail>
+
+    <OARK_ScienceShip_RemoveTroubleLabel>{0} repaired</OARK_ScienceShip_RemoveTroubleLabel>
+    <OARK_ScienceShip_RemoveTrouble>{0} has been successfully repaired and should no longer cause interference.</OARK_ScienceShip_RemoveTrouble>
+
+    <OARK_ScienceShip_DataUploaded>Data successfully uploaded.</OARK_ScienceShip_DataUploaded>
+
+    <OARK_ScienceShip_QuizSuccess>After hearing your request, terminal sounds indicate the attendant is inputting queries.\n\nThirty seconds later, they provide the correct authentication code.</OARK_ScienceShip_QuizSuccess>
+    <OARK_ScienceShip_QuizFail>After considering your request, the attendant delivers unfortunate news.\n\n"The science pod uses dynamically generated codes tied to its data module. Without the module, authentication is impossible."</OARK_ScienceShip_QuizFail>
+    <OARK_ScienceShip_QuizEndlessWaiting>The attendant enthusiastically agrees to help and begins searching.\n\nThirty seconds pass...\n\nA minute passes...\n\nFive minutes...\n\nTen minutes...\n\n...\n\n...\n\nYou suddenly realize hacking the system might yield faster results - at least that provides feedback.</OARK_ScienceShip_QuizEndlessWaiting>
+
+    <OARK_ScienceShip_GravityMaxLevel>Gravitational field at maximum strength.</OARK_ScienceShip_GravityMaxLevel>
+    <OARK_ScienceShip_GravityMinLevel>Gravitational field at minimum strength.</OARK_ScienceShip_GravityMinLevel>
+    <OARK_ScienceShip_GravityLevelIncreased>Gravitational field strength increased.</OARK_ScienceShip_GravityLevelIncreased>
+    <OARK_ScienceShip_GravityLevelDecreased>Gravitational field strength decreased.</OARK_ScienceShip_GravityLevelDecreased>
+    <OARK_ScienceShip_GravityLevelDisordered>Previously stable gravitational field destabilized.</OARK_ScienceShip_GravityLevelDisordered>
+    <OARK_ScienceShip_GravityLevelStabilized>Chaotic gravitational field stabilizing.</OARK_ScienceShip_GravityLevelStabilized>
+
+    <OARK_ScienceShip_FinalExtaRaid>After numerous failed attacks, profit-seekers finally recognize your colony's formidable defenses, deterring further assaults.</OARK_ScienceShip_FinalExtaRaid>
+
+    <OARK_ScienceShip_TravelRKRewardLabel>Lemmings' Gratitude</OARK_ScienceShip_TravelRKRewardLabel>
+    <OARK_ScienceShip_TravelRKReward>Your successful recovery of the science pod and its data significantly improves Lemming Federation relations.\n\nAs thanks, they've airdropped silver supplies.</OARK_ScienceShip_TravelRKReward>
+
+    <!--OARK_ScienceShipType_Nothing>Nothing happens</OARK_ScienceShipType_Nothing-->
+    <OARK_ScienceShipType_TravelRKText>The Lemming Federation funded this science pod and urgently requests its recovery, offering compensation.</OARK_ScienceShipType_TravelRKText>
+    <OARK_ScienceShipType_FragileText>To reduce stress, the pod's outer shell has completely disintegrated, allowing easy disassembly.</OARK_ScienceShipType_FragileText>
+    <OARK_ScienceShipType_HighSignalText>This pod's strong beacon facilitates location but may attract more frequent raids.</OARK_ScienceShipType_HighSignalText>
+    <OARK_ScienceShipType_DisasterText>Catastrophic design flaws require exceptional repair skills to overcome numerous malfunctions.</OARK_ScienceShipType_DisasterText>
+    <OARK_ScienceShipType_TurbulentRegionText>The pod crashed in a conflict zone, attracting opportunistic attackers.</OARK_ScienceShipType_TurbulentRegionText>
+
+</LanguageData>

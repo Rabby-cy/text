@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ApparelBase">
+    <thingClass>Kiiro.KiiroSmokePop</thingClass>
+    <defName>Kiiro_SmokePopBelt</defName>
+    <label>kiiro smoke pop belt</label>
+    <description>A portable smoke emitter device suitable for kiiros. When activated, it releases smoke that hinders aiming and prevents turret lock-on.</description>
+    <techLevel>Industrial</techLevel>
+    <comps>
+      <li Class="CompProperties_ApparelReloadable">
+        <maxCharges>5</maxCharges>
+        <ammoDef>Chemfuel</ammoDef>
+        <ammoCountToRefill>8</ammoCountToRefill>
+        <baseReloadTicks>60</baseReloadTicks>
+        <soundReload>Standard_Reload</soundReload>
+        <hotKey>Misc4</hotKey>
+        <chargeNoun>smoke pop</chargeNoun>
+        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>Verb_Smokepop</verbClass>
+        <label>use</label>
+        <violent>false</violent>
+        <hasStandardCommand>true</hasStandardCommand>
+        <targetable>false</targetable>
+        <nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+        <onlyManualCast>True</onlyManualCast>
+      </li>
+    </verbs>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+      <researchPrerequisites>
+        <li>SmokepopBelt</li>
+        <li>Kiiro_Machining</li>
+      </researchPrerequisites>
+      <recipeUsers>
+        <li>Kiiro_MachiningBench</li>
+      </recipeUsers>
+      <useIngredientsForColor>false</useIngredientsForColor>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+      <displayPriority>310</displayPriority>
+    </recipeMaker>
+    <costList>
+      <ComponentIndustrial>1</ComponentIndustrial>
+      <Steel>20</Steel>
+      <Chemfuel>40</Chemfuel>
+    </costList>
+    <graphicData>
+      <texPath>Kiiro/Apparel/VanillaRe/SmokePopBelt/SmokePopBelt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <uiIconScale>1.5</uiIconScale>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <WorkToMake>1500</WorkToMake>
+      <Mass>1.2</Mass>
+      <Flammability>0.4</Flammability>
+      <PackRadius>2.5</PackRadius>
+      <EquipDelay>1.0</EquipDelay>
+    </statBases>
+    <thingCategories>
+      <li>Kiiro_Apparel_Utility</li>
+    </thingCategories>
+    <generateAllowChance>0.25</generateAllowChance>
+    <apparel>
+      <wornGraphicPath>Kiiro/Apparel/VanillaRe/SmokePopBelt/SmokePopBelt</wornGraphicPath>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>Kiiro_SmokePopBelt</li>
+      </tags>
+      <wornGraphicData>
+        <renderUtilityAsPack>true</renderUtilityAsPack>
+      </wornGraphicData>
+    </apparel>
+    <allowedArchonexusCount>1</allowedArchonexusCount>
+    <tradeTags>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelNoQualityBase">
+    <defName>Kiiro_FirefoamPopPack</defName>
+    <label>kiiro firefoam pack</label>
+    <description>When activated, it releases a large area fire-resistant foam extinguisher backpack. However, due to the extensive cleaning required to remove the foam from their bodies after each use, kiiros are not fond of using it.</description>
+    <techLevel>Industrial</techLevel>
+    <comps>
+      <li Class="CompProperties_ApparelReloadable">
+        <maxCharges>2</maxCharges>
+        <ammoDef>Chemfuel</ammoDef>
+        <ammoCountToRefill>10</ammoCountToRefill>
+        <baseReloadTicks>60</baseReloadTicks>
+        <soundReload>Standard_Reload</soundReload>
+        <hotKey>Misc4</hotKey>
+        <chargeNoun>firefoam pop</chargeNoun>
+        <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>3.6</explosiveRadius>
+        <explosiveDamageType>Extinguish</explosiveDamageType>
+        <startWickHitPointsPercent>0</startWickHitPointsPercent>
+        <chanceNeverExplodeFromDamage>1</chanceNeverExplodeFromDamage>        <!-- Player or AI toggled. Otherwise it won't use a charge. -->
+        <postExplosionSpawnThingDef>Filth_FireFoam</postExplosionSpawnThingDef>
+        <postExplosionSpawnChance>1</postExplosionSpawnChance>
+        <postExplosionSpawnThingCount>3</postExplosionSpawnThingCount>
+        <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+        <explosionEffect>ExtinguisherExplosion</explosionEffect>
+        <explosionSound>Explosion_FirefoamPopPack</explosionSound>
+        <wickTicks>0</wickTicks>
+        <destroyThingOnExplosionSize>9999</destroyThingOnExplosionSize>        <!--hack to not destroy on explosion-->
+      </li>
+      <li Class="CompProperties_AIUSablePack">
+        <compClass>CompFirefoamPack</compClass>
+        <checkInterval>60</checkInterval>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>Verb_FirefoamPop</verbClass>
+        <label>use</label>
+        <violent>false</violent>
+        <hasStandardCommand>true</hasStandardCommand>
+        <targetable>false</targetable>
+        <nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+        <onlyManualCast>True</onlyManualCast>
+      </li>
+    </verbs>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+      <researchPrerequisites>
+        <li>Firefoam</li>
+        <li>Kiiro_Machining</li>
+      </researchPrerequisites>
+      <recipeUsers>
+        <li>Kiiro_MachiningBench</li>
+      </recipeUsers>
+      <useIngredientsForColor>false</useIngredientsForColor>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+      <displayPriority>320</displayPriority>
+    </recipeMaker>
+    <costList>
+      <ComponentIndustrial>1</ComponentIndustrial>
+      <Steel>20</Steel>
+      <Chemfuel>30</Chemfuel>
+    </costList>
+    <graphicData>
+      <texPath>Kiiro/Apparel/VanillaRe/FirefoamPopPack/FirefoamPopPack</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <WorkToMake>1500</WorkToMake>
+      <Mass>1.8</Mass>
+      <Flammability>0.4</Flammability>
+      <!-- <SmokepopBeltRadius>4.9</SmokepopBeltRadius> -->
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <thingCategories>
+      <li>Kiiro_Apparel_Utility</li>
+    </thingCategories>
+    <generateAllowChance>0.20</generateAllowChance>
+    <apparel>
+      <wornGraphicPath>Kiiro/Apparel/VanillaRe/FirefoamPopPack/FirefoamPopPack</wornGraphicPath>
+      <wornGraphicData>
+        <renderUtilityAsPack>true</renderUtilityAsPack>
+      </wornGraphicData>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>Kiiro_FirefoamPopPack</li>
+      </tags>
+    </apparel>
+    <allowedArchonexusCount>1</allowedArchonexusCount>
+    <tradeTags>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelBase">
+    <defName>Kiiro_ShieldBelt</defName>
+    <label>kiiro shield belt</label>
+    <description>A shield belt developed by kiiros, it has similar performance to the human version but with less shield capacity and faster recharge rate. It immediately becomes ineffective when hit by EMP.</description>
+    <thingClass>Apparel</thingClass>
+    <graphicData>
+      <texPath>Kiiro/Apparel/VanillaRe/ShieldBelt/ShieldBelt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <techLevel>Spacer</techLevel>
+    <statBases>
+      <Mass>3</Mass>
+      <WorkToMake>15200</WorkToMake>
+      <Flammability>0.4</Flammability>
+      <EnergyShieldRechargeRate>0.25</EnergyShieldRechargeRate>
+      <EnergyShieldEnergyMax>1.0</EnergyShieldEnergyMax>
+      <EquipDelay>1.2</EquipDelay>
+    </statBases>
+    <costList>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <Steel>50</Steel>
+      <Plasteel>20</Plasteel>
+    </costList>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+      <researchPrerequisites>
+        <li>ShieldBelt</li>
+        <li>Kiiro_Machining</li>
+      </researchPrerequisites>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <recipeUsers>
+        <li>Kiiro_MachiningBench</li>
+      </recipeUsers>
+      <useIngredientsForColor>false</useIngredientsForColor>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+      <displayPriority>300</displayPriority>
+    </recipeMaker>
+    <thingCategories>
+      <li>Kiiro_Apparel_Utility</li>
+    </thingCategories>
+    <apparel>
+      <wornGraphicPath>Kiiro/Apparel/VanillaRe/ShieldBelt/ShieldBelt</wornGraphicPath>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <wornGraphicData>
+        <renderUtilityAsPack>true</renderUtilityAsPack>
+      </wornGraphicData>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>Kiiro_ShieldBelt</li>
+      </tags>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+    </apparel>
+    <comps>
+      <li Class="CompProperties_Shield">
+        <blocksRangedWeapons>true</blocksRangedWeapons>
+      </li>
+    </comps>
+    <allowedArchonexusCount>1</allowedArchonexusCount>
+    <tradeTags>
+      <li>Armor</li>
+    </tradeTags>
+  </ThingDef>
+
+</Defs>

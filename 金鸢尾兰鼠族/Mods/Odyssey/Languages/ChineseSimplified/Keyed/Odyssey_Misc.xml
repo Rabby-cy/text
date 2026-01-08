@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OARK_QuestDiscoveredFromFaction>你從{0}得到了消息：</OARK_QuestDiscoveredFromFaction>
+
+    <OARK_LowStoredEnergy>至少需要{0}点蓄电量</OARK_LowStoredEnergy>
+
+    <OARK_PilotConsole_CurHackStage>当前进度：{0}/{1}</OARK_PilotConsole_CurHackStage>
+
+    <OARK_GravTechAssistPoint>科研贡献</OARK_GravTechAssistPoint>
+    <OARK_GravTechAssistPointTip>象征着金鸢尾兰帝国的科研部愿意为你提供多少资源。更高的科研贡献意味着更多的援助。</OARK_GravTechAssistPointTip>
+
+    <OARK_PilotConsole_CurHackStage>当前进度：{0}/{1}</OARK_PilotConsole_CurHackStage>
+
+    <!-- 科研协助任务 奖励选择界面 -->
+    <OARK_GravTechAssist_RewardChoice>得益于你的协助者的协助，科研部对于逆重科技的反推进程被极大幅度的提升了，那些宝贵的实践见解有效的解决了大量的问题。\n\n而为了表达对你的感谢，科研部的成员们向你发送了一个清单，并表示你可以带走清单上的任意一项物品，以表彰你的协助者所做出的贡献。\n\n清单上面写着大量你不理解与从未听说过的东西，你的直觉告诉你选择一个完全未知的东西不会是一个好选择，但好在这里还是有两个你所熟悉的东西。</OARK_GravTechAssist_RewardChoice>
+
+</LanguageData>

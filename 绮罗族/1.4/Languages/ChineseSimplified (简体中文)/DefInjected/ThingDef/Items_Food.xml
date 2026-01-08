@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <ThingDef ParentName="MealCooked">
+    <defName>Kiiro_SimpleFood</defName>
+    <label>简单猫饭</label>
+    <description>A simple meal quickly cooked from one main ingredient.</description>
+    <graphicData>
+      <texPath>Kiiro/Meal/SimpleKiiroFood</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.75</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>15</MarketValue>
+      <WorkToMake>300</WorkToMake>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealSimple</preferability>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+	  <tasteThought>Kiiro_AteCatmintMeal</tasteThought>
+	  <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>Kiiro_AteCatmint</hediffDef>
+          <severity>1.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+  </ThingDef> -->
+
+  <Kiiro_CannedCatFood.label>绮罗猫罐头</Kiiro_CannedCatFood.label>
+  <Kiiro_CannedCatFood.description>一小罐营养分配均衡的食物，便于携带且不易腐坏，非常适合储存和旅行。仅限绮罗食用。</Kiiro_CannedCatFood.description>
+
+  <Kiiro_CannedMintedCatFood.label>绮罗薄荷猫罐头</Kiiro_CannedMintedCatFood.label>
+  <Kiiro_CannedMintedCatFood.description>一小罐营养分配均衡的食物，加入了绮罗们喜欢的猫薄荷，便于携带且不易腐坏，非常适合储存和旅行。仅限绮罗食用。</Kiiro_CannedMintedCatFood.description>
+
+
+</LanguageData>

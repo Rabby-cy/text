@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="ForceJob">
+        <defName>OARO_Mote_Referendary</defName>
+        <mote>
+            <fadeInTime>0.25</fadeInTime>
+            <fadeOutTime>0.25</fadeOutTime>
+            <solidTime>1.75</solidTime>
+        </mote>
+    </ThingDef>
+
+</Defs>

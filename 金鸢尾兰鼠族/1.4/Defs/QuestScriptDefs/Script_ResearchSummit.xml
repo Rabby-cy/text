@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <QuestScriptDef>
+        <defName>OA_OpportunitySite_ResearchSummit</defName>
+        <autoAccept>true</autoAccept>
+        <rootSelectionWeight>1.5</rootSelectionWeight>
+        <rootMinProgressScore>10</rootMinProgressScore>
+        <defaultChallengeRating>1</defaultChallengeRating>
+        <questNameRules>
+            <rulesStrings>
+                <li>questName->[OAFaction_leader_nameDef]的[OA_ResearchSummit]</li>
+                <li>questName->[OAFaction_leader_nameDef]举行的[OA_ResearchSummit]</li>
+                <li>questName->[OA_ResearchSummit]</li>
+                <li>questName->[OA_ResearchSummit]</li>
+                <li>OA_ResearchSummit->研究峰会</li>
+                <li>OA_ResearchSummit->科研峰会</li>
+                <li>OA_ResearchSummit->学术科研峰会</li>
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+                <li>questDescription->我们收到了一则消息，一个距离我们较近的[OAFaction_name]聚居点正在邀请各个派系的学者们共同前往该处，以期举办一场不拘泥于派系立场的纯粹学术性会议。\n\n由于这场会议并非官方外交场合，因此[OAFaction_name]将会接纳并欢迎所有前去的学者。若是我们选择前往，那么所有参与该会议的学者们都会对我们留下一个良好的印象，并稍微改善我们与他们所属派系的关系。当然，由于这场会议的非官方性质，因此这场会议也可能发生一些意想不到的事情。\n\n此外，若我们的与会者拥有足够出色的科研能力，那么我们还将有概率在科研上得到相当的收获，但这并不会影响我们与其他派系的外交。</li>
+            </rulesStrings>
+        </questDescriptionRules>
+        <root Class="QuestNode_Sequence">
+            <nodes>
+                <li Class="QuestNode_Set">
+                    <name>siteDistRange</name>
+                    <value>5~13</value>
+                </li>
+
+                <li Class="QuestNode_GetMap" />
+                <li Class="OberoniaAurea.QuestNode_OAGetMutiFaction"> <!-- 获取参与科研峰会的派系 -->
+                    <storeAs>factions</storeAs>
+                    <factionCount>1~4</factionCount>
+                    <allowAlly>true</allowAlly>
+                    <allowNeutral>true</allowNeutral>
+                    <allowEnemy>true</allowEnemy>
+                    <allowPermanentEnemy>false</allowPermanentEnemy>
+                    <playerCantBeAttackingCurrently>false</playerCantBeAttackingCurrently>
+                    <leaderMustBeSafe>true</leaderMustBeSafe>
+                    <mustHaveGoodwillRewardsEnabled>true</mustHaveGoodwillRewardsEnabled>
+                </li>
+                <li Class="QuestNode_GetPlayerFaction">
+                    <storeAs>playerFaction</storeAs>
+                </li>
+                <li Class="OberoniaAurea.QuestNode_GetOberoniaAureaFaction"> <!-- 获取金鼠鼠派系 -->
+                    <storeAs>OAFaction</storeAs>
+                    <mustNotHostile>true</mustNotHostile>
+                </li>
+                <li Class="QuestNode_QuestUnique">
+                    <tag>OA_RK_ResearchSummit</tag>
+                    <faction>$OAFaction</faction>
+                </li>
+                <li Class="OberoniaAurea.QuestNode_GetNearbySettlementOfFaction"> <!-- 获取最近金鼠鼠派系基地 -->
+                    <ignoreDistIfNecessary>true</ignoreDistIfNecessary>
+                    <maxTileDistance>32</maxTileDistance>
+                    <faction>$OAFaction</faction>
+                    <storeAs>OASettlement</storeAs>
+                </li>
+                <li Class="OberoniaAurea.QuestNode_GetNearTile"> <!-- 获取邻居Tile -->
+                    <storeAs>tile</storeAs>
+                    <worldObject>$OASettlement</worldObject>
+                    <neighborFirst>true</neighborFirst>
+                    <minDist>1</minDist>
+                    <maxDist>10</maxDist>
+                </li>
+
+                <li Class="OberoniaAurea.QuestNode_GenerateWorldObjectWithMutiFactions"> <!-- 生成大地图事件点（关联多个派系） -->
+                    <def>OA_RK_ResearchSummit</def>
+                    <tile>$tile</tile>
+                    <faction>$OAFaction</faction>
+                    <participantFactions>$factions</participantFactions>
+                    <storeAs>OA_RK_ResearchSummit</storeAs>
+                </li>
+                <li Class="QuestNode_SpawnWorldObjects">
+                    <worldObjects>$OA_RK_ResearchSummit</worldObjects>
+                    <tile>$tile</tile>
+                </li>
+
+                <li Class="QuestNode_Chance"> <!-- 概率触发旅行者 -->
+                    <chance>0.6</chance>
+                    <node Class="QuestNode_Delay">
+                        <delayTicks>$(randInt(30000,90000))</delayTicks> <!-- 0.5~1.5天到达 -->
+                        <node Class="QuestNode_Incident">
+                            <incidentDef>OA_ResearchSummit_TravellerArrival</incidentDef>
+                        </node>
+                    </node>
+                </li>
+
+                <li Class="QuestNode_Delay">
+                    <delayTicks>$(randInt(8,12)*60000)</delayTicks>
+                    <outSignalComplete>OA_RK_ResearchSummitTimeout</outSignalComplete>
+                </li>
+
+                <li Class="QuestNode_DestroyWorldObject">
+                    <inSignal>OA_RK_ResearchSummitTimeout</inSignal>
+                    <worldObject>$OA_RK_ResearchSummit</worldObject>
+                </li>
+                <li Class="QuestNode_Signal">
+                    <inSignal>OA_RK_ResearchSummitTimeout</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_Letter">
+                                <label TKey="LetterLabelQuestExpired">任务已失效：[resolvedQuestName]</label>
+                                <text TKey="LetterTextQuestExpired">[OAFaction_name]举行的研究峰会已过期。 任务已失效：[resolvedQuestName]。</text>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Fail</outcome>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+
+                <li Class="QuestNode_End">
+                    <inSignal>OA_RK_ResearchSummit.Resolved</inSignal>
+                    <outcome>Success</outcome>
+                </li>
+            </nodes>
+        </root>
+    </QuestScriptDef>
+
+    <QuestScriptDef> <!-- 同道中人 - 任务-->
+        <defName>OA_ResearchSummitSamePeopleJoin</defName>
+        <autoAccept>true</autoAccept>
+        <defaultHidden>true</defaultHidden>
+        <isRootSpecial>true</isRootSpecial>
+        <rootSelectionWeight>0</rootSelectionWeight>
+        <successHistoryEvent MayRequire="Ludeon.RimWorld.Ideology">CharityFulfilled_WandererJoins</successHistoryEvent>
+        <failedOrExpiredHistoryEvent MayRequire="Ludeon.RimWorld.Ideology">CharityRefused_WandererJoins</failedOrExpiredHistoryEvent>
+        <questNameRules>
+            <rulesStrings>
+                <li>questName->同道中人</li>
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+                <li>questDescription-></li>
+            </rulesStrings>
+        </questDescriptionRules>
+        <root Class="OberoniaAurea.QuestNode_Root_ResearchSummitSamePeopleJoin" />
+    </QuestScriptDef>
+
+    <QuestScriptDef> <!-- 学者访问 - 任务-->
+        <defName>OA_ResearcherVisit</defName>
+        <isRootSpecial>true</isRootSpecial>
+        <rootSelectionWeight>0</rootSelectionWeight>
+        <rootMinPoints>0</rootMinPoints>
+        <expireDaysRange>4~8</expireDaysRange>
+        <hideInvolvedFactionsInfo>true</hideInvolvedFactionsInfo>
+        <affectedByPopulation>true</affectedByPopulation>
+        <affectedByPoints>false</affectedByPoints>
+        <questNameRules>
+            <rulesStrings>
+
+                <li>questName->[lodgerAdj][lodgerPlural]</li>
+                <!--li>questName->[asker_nameDef]的[lodgerPlural]</li-->
+				<li>lodgerAdj->好奇的</li>
+				<li>lodgerAdj->前来交流的</li>
+                <li>lodgerAdj->被吸引的</li>
+                <li>lodgerPlural->研究者们</li>
+				<li>lodgerPlural->学者们</li>
+
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionAndNameRules>
+            <rulesStrings>
+                <li>lodgersLabel->研究者们</li>
+                <li>lodgersLabelPlural->研究者们</li>
+            </rulesStrings>
+        </questDescriptionAndNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+
+                <!-- Misc -->
+                <li>offer->提议</li>
+
+                <!-- General use -->
+
+                <li>lodgersPronoun->他们</li>
+
+                <li>lodgersPreposition->他们自己</li>
+
+                <li>lodgersObjective->他们</li>
+                <li>lodgersObjective->[asker_nameDef]他们</li>
+
+                <li>lodgersPossessive->他们的</li>
+                <li>lodgersSingularOrPluralDef->[lodgersLabelPlural]</li>
+
+                <!-- Quest description -->
+                <li>questDescription->[approachInfo][claimInfo][asker_nameDef]请求你允许在[map_definite]待上[questDurationTicks_duration]来让[lodgersPronoun]进行研究交流。\n\n作为回报， [lodgersPronoun][offer]在此期间内免费为你工作和战斗。\n\n[joinInfo][lodgersPronoun]可能会在过后酬谢你对[lodgersObjective]的招待。\n\n[travelerInfo]不属于任何派系。 如果你愿意，你可以选择杀害、逮捕、出售或者采割[lodgersObjective]，并且不会产生任何外交后果。\n\n 如果你接受这个任务研究者们将在[arrivalDelayTicks_duration]之后到达。</li>
+
+                <li>approachInfo->[asker_nameDef]和其他感兴趣的研究者正在靠近。</li>
+
+                <li>approachInfo(lodgerCount>=3)->[lodgerCount]名感兴趣的研究者正在靠近，他们的领袖是[asker_nameDef]。</li>
+
+                <li>claimInfo->研究者们声称他们被你在研究峰会上的优异表现所吸引。</li>
+                <li>joinInfo->如果你能让他们开心，他们中的一部分可能会提议加入你。</li>
+                <li>travelerInfo->这些研究者</li>
+
+            </rulesStrings>
+        </questDescriptionRules>
+        <questContentRules>
+            <rulesStrings>
+
+                <!-- Misc -->
+                <li>lastOrNot->最后的</li>
+                <li>lodgersLabelSingularOrPlural->[lodgersLabelPlural]</li>
+
+                <!-- Arrived -->
+                <li>lodgersArriveLetterLabel->[lodgersLabelSingularOrPlural] 抵达</li>
+                <li>lodgersArriveLetterText->[lodgersSingularOrPluralDef] [hasHave] 抵达。 [lodgersPronoun]将会和你共处[questDurationTicks_duration]来重整旗鼓。</li>
+                <li>hasHave->已经</li>
+
+                <!-- Lodger action -->
+                <li>othersWillNotAccept->The {PAWNSALIVECOUNT_multiple ? 其他人 : 最后的 [lodgersLabel]} 不乐意接受</li>
+                <li>turnedViolent->[othersWillNotAccept]， 并且对你十分生气。</li>
+                <li>whoAskedToStay->请求与你共处的人</li>
+                <li>oneOfThe->其中一个感兴趣的 [whoAskedToStay]</li>
+                <li>questOver->任务 '[resolvedQuestName]' 已经结束。</li>
+
+                <!-- Interaction response: Lodger death -->
+                <li>letterIntroDeath->{SUBJECT_definite}， [oneOfThe] 已经死亡。</li>
+                <li>lodgerDiedAttackPlayerLetterLabel->[lodgersLabel] 死亡：复仇</li>
+                <li>lodgerDiedAttackPlayerLetterText->[letterIntroDeath]\n\n[turnedViolent]</li>
+                <li>lodgersAllDiedLetterLabel->任务失败</li>
+                <li>lodgersAllDiedLetterText->{SUBJECT_definite}，[lastOrNot] 不顾一切的研究者们 （[whoAskedToStay]）， 已经死亡。\n\n[questOver]</li>
+
+                <!-- Interaction response: Lodger arrested -->
+                <li>letterIntroArrested->你逮捕了 {SUBJECT_definite} （[oneOfThe]）。</li>
+                <li>lodgerArrestedAttackPlayerLetterLabel->[lodgersLabel] 逮捕：复仇</li>
+                <li>lodgerArrestedAttackPlayerLetterText->[letterIntroArrested]\n\n[turnedViolent]</li>
+                <li>lodgersAllArrestedLetterLabel->任务失败</li>
+                <li>lodgersAllArrestedLetterText->你逮捕了 {SUBJECT_definite}, [lastOrNot] 不顾一切的研究者们 （[whoAskedToStay]）。\n\n[questOver]</li>
+
+                <!-- Interaction response: Lodger violated by surgery -->
+                <li>letterIntroViolated->{SUBJECT_definite}， （[oneOfThe]）， 被执行了非法的手术。</li>
+                <li>lodgerViolatedAttackPlayerLetterLabel->[lodgersLabel] 违法：复仇</li>
+                <li>lodgerViolatedAttackPlayerLetterText->[letterIntroViolated]\n\n[turnedViolent]</li>
+
+                <!-- Quest completed -->
+                <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] 离开</li>
+                <li>lodgersLeavingLetterText->[asker_nameDef] 感谢你允许研究者们在[questDurationTicks_duration]里待在[map_definite]。[lodgersPronoun]现在正与研究伙伴们一同前进。\n\n[asker_nameDef]说[lodgersObjective]永远不会忘记你做的这些事。</li>
+
+            </rulesStrings>
+        </questContentRules>
+        <root Class="OberoniaAurea.QuestNode_Root_ResearcherVisit" />
+    </QuestScriptDef>
+
+</Defs>

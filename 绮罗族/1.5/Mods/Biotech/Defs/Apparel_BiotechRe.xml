@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ApparelArmorHelmetMechanitorBase">
+    <defName>Kiiro_IntegratorHeadset</defName>
+    <label>kiiro integrator headset</label>
+    <description>A product of the wisdom of kiiro engineers: a pair of integrated earphones containing a microcomputer and a signal array, which greatly improves the bandwidth of control for mechanics. This enables the wearer to simultaneously control more mechanical bodies.</description>
+    <graphicData>
+      <texPath>Kiiro/Apparel/VanillaRe/IntegratorHeadset/IntegratorHeadset</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>2</drawSize>
+	  <drawOffset>(0,0,0.2)</drawOffset>
+    </graphicData>
+    <equippedStatOffsets>
+      <MechBandwidth>9</MechBandwidth>
+	  <WorkSpeedGlobal>-0.09</WorkSpeedGlobal>
+    </equippedStatOffsets>
+    <statBases>
+      <ArmorRating_Sharp>0</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0</ArmorRating_Blunt>
+      <ArmorRating_Heat>0</ArmorRating_Heat>
+      <Insulation_Cold>0</Insulation_Cold>
+      <Insulation_Heat>0</Insulation_Heat>
+    </statBases>
+    <recipeMaker>
+	  <researchPrerequisite Inherit="False">
+	  </researchPrerequisite>
+	  <researchPrerequisites>
+        <li>HighMechtech</li>
+        <li>Kiiro_Machining</li>
+      </researchPrerequisites>
+      <displayPriority>510</displayPriority>
+	  <recipeUsers Inherit="False">
+        <li>Kiiro_MachiningBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <ComponentSpacer>4</ComponentSpacer>
+      <Plasteel>50</Plasteel>
+      <PowerfocusChip>1</PowerfocusChip>
+    </costList>
+    <apparel>
+      <wornGraphicPath>Kiiro/Apparel/VanillaRe/IntegratorHeadset/IntegratorHeadset</wornGraphicPath>
+      <!-- <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace> -->
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <bodyPartGroups Inherit="False">
+        <li>UpperHead</li>
+      </bodyPartGroups>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="MechanitorHeadsetBase">
+    <defName>Kiiro_ArrayHeadset</defName>
+    <label>kiiro arrayh eadset</label>
+    <description>A head-mounted holographic device developed by the Kiiro for mechanics, equipped with a small computer and signal array. Wearing it enables the mechanic to receive real-time vision from the mechanical body, making it easier to control more mechanical bodies. Some Kiiro might secretly install video games inside it.</description>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>Kiiro/Apparel/VanillaRe/ArrayHeadset/ArrayHeadset</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>2</drawSize>
+	  <drawOffset>(0,0,0.2)</drawOffset>
+    </graphicData>
+    <costList>
+      <Steel>50</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+	  <researchPrerequisites>
+        <li>StandardMechtech</li>
+        <li>Kiiro_Machining</li>
+      </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+	  <recipeUsers Inherit="false">
+        <li>Kiiro_MachiningBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>2100</WorkToMake>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Mass>0.08</Mass>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MechBandwidth>6</MechBandwidth>
+	  <WorkSpeedGlobal>-0.06</WorkSpeedGlobal>
+	  <AimingDelayFactor>0.2</AimingDelayFactor>
+	  <MoveSpeed>-0.2</MoveSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <wornGraphicPath>Kiiro/Apparel/VanillaRe/ArrayHeadset/ArrayHeadset</wornGraphicPath>
+      <!-- <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace> -->
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <bodyPartGroups>
+        <li>UpperHead</li>
+      </bodyPartGroups>
+      <layers>
+        <li>EyeCover</li>
+      </layers>
+      <scoreOffset>4</scoreOffset>
+      <mechanitorApparel>true</mechanitorApparel>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="MechanitorHeadsetBase">
+    <defName>Kiiro_AirwireHeadset</defName>
+    <label>kiiro airwire headset</label>
+    <description>A primary product of the Kiiro's research and development of mechanical control technology, it can slightly increase the control bandwidth of a mechanic.</description>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>Kiiro/Apparel/VanillaRe/AirwireHeadset/AirwireHeadset</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>2</drawSize>
+	  <drawOffset>(0,0,0.2)</drawOffset>
+    </graphicData>
+    <costList>
+      <Steel>50</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <recipeMaker>
+	  <researchPrerequisites>
+        <li>BasicMechtech</li>
+        <li>Kiiro_Machining</li>
+      </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+	  <recipeUsers Inherit="false">
+        <li>Kiiro_MachiningBench</li>
+      </recipeUsers>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>2100</WorkToMake>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Mass>0.08</Mass>
+      <EquipDelay>2</EquipDelay>
+    </statBases>
+    <equippedStatOffsets>
+      <MechBandwidth>3</MechBandwidth>
+	  <WorkSpeedGlobal>-0.03</WorkSpeedGlobal>
+    </equippedStatOffsets>
+    <apparel>
+      <wornGraphicPath>Kiiro/Apparel/VanillaRe/AirwireHeadset/AirwireHeadset</wornGraphicPath>
+      <!-- <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace> -->
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <bodyPartGroups>
+        <li>Eyes</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Overhead</li>
+      </layers>
+      <scoreOffset>4</scoreOffset>
+      <mechanitorApparel>true</mechanitorApparel>
+    </apparel>
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelNoQualityBase">
+    <defName>Kiiro_PackControl</defName>
+    <label>kiiro control pack</label>
+    <description>Equipped with a small and lightweight machine control auxiliary computer, it provides a small amount of bandwidth while allowing the mechanic to have an additional control group.</description>
+    <techLevel>Spacer</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+	  <researchPrerequisites>
+        <li>BasicMechtech</li>
+        <li>Kiiro_Machining</li>
+      </researchPrerequisites>
+      <recipeUsers>
+        <li>Kiiro_MachiningBench</li>
+      </recipeUsers>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <Steel>85</Steel>
+      <ComponentIndustrial>9</ComponentIndustrial>
+    </costList>
+    <graphicData>
+      <texPath>Kiiro/Apparel/VanillaRe/PackControl/PackControl</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>2</drawSize>
+	  <drawOffset>(0,0,0.2)</drawOffset>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <WorkToMake>3800</WorkToMake>
+      <Mass>2.1</Mass>
+      <Flammability>0.4</Flammability>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <thingCategories>
+      <li>ApparelUtility</li>
+    </thingCategories>
+    <equippedStatOffsets>
+      <MechControlGroups>1</MechControlGroups>
+	  <MechBandwidth>4</MechBandwidth>
+	  <WorkSpeedGlobal>-0.09</WorkSpeedGlobal>
+	  <MoveSpeed>-0.1</MoveSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <scoreOffset>4</scoreOffset>
+      <mechanitorApparel>true</mechanitorApparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <wornGraphicPath>Kiiro/Apparel/VanillaRe/PackControl/PackControl</wornGraphicPath>
+      <wornGraphicData>
+        <renderUtilityAsPack>true</renderUtilityAsPack>
+      </wornGraphicData>
+    </apparel>
+    <tradeability>Sellable</tradeability>
+    <tradeTags>
+    </tradeTags>
+  </ThingDef>
+
+  <ThingDef ParentName="ApparelNoQualityBase">
+    <defName>Kiiro_PackBandwidth</defName>
+    <label>kiiro pack bandwidth</label>
+    <description>A device that contains a spread-spectrum computer and antenna, which greatly increases the control bandwidth of a mechanical engineer. Who knows how the Kiiro managed to cram so many devices into two small blocks just shoulder-width apart.</description>
+    <techLevel>Spacer</techLevel>
+    <recipeMaker>
+      <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+      <researchPrerequisites>
+	    <li>StandardMechtech</li>
+		<li>Kiiro_Machining</li>
+	  </researchPrerequisites>
+      <recipeUsers>
+        <li>Kiiro_MachiningBench</li>
+      </recipeUsers>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <SignalChip>2</SignalChip>
+      <Steel>50</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+    <graphicData>
+      <texPath>Kiiro/Apparel/VanillaRe/PackBandwidth/PackBandwidth</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>2</drawSize>
+	  <drawOffset>(0,0,0.2)</drawOffset>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <WorkToMake>3600</WorkToMake>
+      <Mass>1.2</Mass>
+      <Flammability>0.4</Flammability>
+      <EquipDelay>1.2</EquipDelay>
+    </statBases>
+    <thingCategories>
+      <li>ApparelUtility</li>
+    </thingCategories>
+    <equippedStatOffsets>
+      <MechBandwidth>9</MechBandwidth>
+	  <WorkSpeedGlobal>-0.09</WorkSpeedGlobal>
+	  <MoveSpeed>-0.15</MoveSpeed>
+    </equippedStatOffsets>
+    <apparel>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <scoreOffset>4</scoreOffset>
+      <mechanitorApparel>true</mechanitorApparel>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <wornGraphicPath>Kiiro/Apparel/VanillaRe/PackBandwidth/PackBandwidth</wornGraphicPath>
+      <wornGraphicData>
+        <renderUtilityAsPack>true</renderUtilityAsPack>
+      </wornGraphicData>
+    </apparel>
+    <tradeTags>
+    </tradeTags>
+  </ThingDef>
+
+
+
+</Defs>

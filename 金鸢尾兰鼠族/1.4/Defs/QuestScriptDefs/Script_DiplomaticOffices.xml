@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <QuestScriptDef>
+        <defName>OA_OpportunitySite_DiplomaticOffices</defName>
+        <rootSelectionWeight>1</rootSelectionWeight>
+        <rootMinProgressScore>10</rootMinProgressScore>
+        <autoAccept>true</autoAccept>
+        <defaultChallengeRating>1</defaultChallengeRating>
+        <questNameRules>
+            <rulesStrings>
+                <li>questName->[OAFaction_leader_nameDef]的[OA_DiplomaticOffices]</li>
+                <li>questName->[OAFaction_leader_nameDef]举行的[OA_DiplomaticOffices]</li>
+                <li>questName->[OA_DiplomaticOffices]</li>
+                <li>questName->[OA_DiplomaticOffices]</li>
+                <li>OA_DiplomaticOffices->外交斡旋</li>
+                <li>OA_DiplomaticOffices->外交</li>
+                <li>OA_DiplomaticOffices->会晤</li>
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+                <li>questDescription->[OAFaction_name]的[OAFaction_leaderTitle]，[OAFaction_leader_nameFull]给我们发来一条消息。[OAFaction_leader_pronoun]在得知了我们与[faction_name]的外交冲突后，打算协助我们进行一场由[OAFaction_name]主导的外交斡旋，以改善我们和[faction_name]之间的紧张关系。\n\n这是个改善派系之间关系和接受善意的极好机会， 在金鸢尾兰帝国的协助与调和下，这场外交斡旋将可预见的收获成功。而若是我们派出优秀的谈判者，则可能取得更大收获。</li>
+                <!--li MayRequire="Ludeon.RimWorld.Ideology">extraLeaderPart(priority=1)->\n\n[leaderRoleEffect] [leaderPawnInfo]</li>
+                <li>extraLeaderPart-></li>
+                <li>leaderRoleEffect->如果你派你的领袖去处理谈判，其他派系会更尊重你。</li>
+                <li>leaderPawnInfo(playerFaction_hasLeader==True,priority=1)-> [playerFaction_leaderTitle] [playerFaction_leader_nameFull]将会获得额外的成功率。</li>
+                <li>leaderPawnInfo-></li-->
+            </rulesStrings>
+        </questDescriptionRules>
+        <root Class="QuestNode_Sequence">
+            <nodes>
+                <li Class="QuestNode_Set">
+                    <name>siteDistRange</name>
+                    <value>5~13</value>
+                </li>
+
+                <li Class="QuestNode_GetMap" />
+                <li Class="OberoniaAurea.QuestNode_GetDiplomaticOfficesFaction"> <!-- 获取被斡旋派系 -->
+                    <storeAs>faction</storeAs>
+                    <allowEnemy>true</allowEnemy>
+                    <allowPermanentEnemy>false</allowPermanentEnemy>
+                    <playerCantBeAttackingCurrently>true</playerCantBeAttackingCurrently>
+                    <leaderMustBeSafe>true</leaderMustBeSafe>
+                    <mustHaveGoodwillRewardsEnabled>true</mustHaveGoodwillRewardsEnabled>
+                </li>
+                <li Class="QuestNode_GetPlayerFaction">
+                    <storeAs>playerFaction</storeAs>
+                </li>
+                <li Class="OberoniaAurea.QuestNode_GetOberoniaAureaFaction"> <!-- 获取金鼠鼠派系 -->
+                    <storeAs>OAFaction</storeAs>
+                    <mustAlly>true</mustAlly>
+                </li>
+                <li Class="QuestNode_QuestUnique">
+                    <tag>OA_RK_DiplomaticOffices</tag>
+                    <faction>$OAFaction</faction>
+                </li>
+
+                <li Class="QuestNode_GetSiteTile">
+                    <storeAs>tile</storeAs>
+                </li>
+
+                <li Class="OberoniaAurea.QuestNode_GenerateWorldObjectWithMutiFactions"> <!-- 生成大地图事件点（关联多个派系） -->
+                    <def>OA_RK_DiplomaticOffices</def>
+                    <tile>$tile</tile>
+                    <faction>$OAFaction</faction>
+                    <associateFaction>$faction</associateFaction>
+                    <storeAs>OA_RK_DiplomaticOffices</storeAs>
+                </li>
+                <li Class="QuestNode_SpawnWorldObjects">
+                    <worldObjects>$OA_RK_DiplomaticOffices</worldObjects>
+                    <tile>$tile</tile>
+                </li>
+
+                <li Class="QuestNode_Delay">
+                    <delayTicks>$(randInt(12,28)*60000)</delayTicks>
+                    <outSignalComplete>OA_RK_DiplomaticOfficesTimeout</outSignalComplete>
+                </li>
+
+                <li Class="QuestNode_DestroyWorldObject">
+                    <inSignal>OA_RK_DiplomaticOfficesTimeout</inSignal>
+                    <worldObject>$OA_RK_DiplomaticOffices</worldObject>
+                </li>
+                <li Class="QuestNode_Signal">
+                    <inSignal>OA_RK_DiplomaticOfficesTimeout</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_Letter">
+                                <label TKey="LetterLabelQuestExpired">任务已失效：[resolvedQuestName]</label>
+                                <text TKey="LetterTextQuestExpired">[OAFaction_name]的举行的外交斡旋已过期。 任务已失效：[resolvedQuestName]。</text>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Fail</outcome>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+
+                <li Class="QuestNode_End">
+                    <inSignal>OA_RK_DiplomaticOffices.Resolved</inSignal>
+                    <outcome>Success</outcome>
+                </li>
+            </nodes>
+        </root>
+    </QuestScriptDef>
+</Defs>

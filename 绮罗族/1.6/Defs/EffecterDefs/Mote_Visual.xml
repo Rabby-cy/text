@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="MoteBase">
+    <defName>Mote_Sniper_Target</defName>
+    <thingClass>MoteAttached</thingClass>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+	<drawOffscreen>true</drawOffscreen>
+    <mote>
+      <fadeInTime>2.5</fadeInTime>
+      <fadeOutTime>0.2</fadeOutTime>
+      <solidTime>99999</solidTime>
+	  <!-- <growthRate>-0.08</growthRate> -->
+      <collide>true</collide>
+      <needsMaintenance>True</needsMaintenance>
+	  <fadeOutUnmaintained>True</fadeOutUnmaintained>
+    </mote>
+    <graphicData>
+      <texPath>Kiiro/Mote/MoteSniper_Target</texPath>
+      <graphicClass>Graphic_Mote</graphicClass>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>(1, 1)</drawSize>
+	  <shaderParameters>
+        <_brightnessMultiplier>1.2</_brightnessMultiplier>
+      </shaderParameters>
+    </graphicData>
+  </ThingDef>
+  
+  <EffecterDef>
+    <defName>BlindSmokeReleasing</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>
+        <soundDef>GasReleasing</soundDef>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+        <positionRadius>0.3</positionRadius>
+        <fleckDef>Fleck_SmokeSmall</fleckDef>
+        <chancePerTick>0.1</chancePerTick>
+        <scale>0.5~1</scale>
+        <spawnLocType>OnSource</spawnLocType>
+      </li>
+    </children>
+  </EffecterDef>
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>Fleck_SmokeSmall</defName>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.3</fadeInTime>
+    <solidTime>0</solidTime>
+    <fadeOutTime>0.3</fadeOutTime>
+    <growthRate>0.8</growthRate>
+    <acceleration>(0, 0, 2)</acceleration>
+    <graphicData>
+      <texPath>Things/Gas/GasCloudThickA</texPath>
+      <shaderType>TransparentPostLight</shaderType>
+      <color>(255, 255, 255, 64)</color>
+    </graphicData>
+  </FleckDef>
+  
+  <!--<EffecterDef>
+		<defName>Impact_KiiroSniper_BloodBloom</defName>
+		<children>
+			<li>
+				<subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+				<moteDef>Mote_KiiroSniper_BloodBloom</moteDef>
+				<positionRadius>0.4</positionRadius>
+				<burstCount>8~12</burstCount>
+				<scale>0.5~1.2</scale>
+				<spawnLocType>OnSource</spawnLocType>
+				<speed>0.4</speed>
+				<angle>0~180</angle>
+				<rotationRate>-20~60</rotationRate>
+			</li>
+		</children>
+  </EffecterDef>
+  <ThingDef>
+        <defName>Mote_KiiroSniper_BloodBloom</defName>
+		<thingClass>MoteThrown</thingClass>
+		<label>BloodBloom</label>
+		<category>Mote</category>
+		<graphicData>
+			<graphicClass>Graphic_Mote</graphicClass>
+			<texPath>Kiiro/Mote/AirPuff</texPath>
+			<shaderType>Mote</shaderType>
+			<drawSize>1</drawSize>
+			<color>(170, 43, 36)</color>
+		</graphicData>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<tickerType>Normal</tickerType>
+		<useHitPoints>false</useHitPoints>
+		<isSaveable>false</isSaveable>
+		<rotatable>false</rotatable>
+		<mote>
+			<solidTime>0</solidTime>
+			<fadeInTime>0.0</fadeInTime>
+			<fadeOutTime>1.2</fadeOutTime>
+		</mote>
+	</ThingDef>-->
+
+
+</Defs>

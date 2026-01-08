@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <OARatkin_Apparel.label>金鸢尾蘭衣物</OARatkin_Apparel.label>
+    <OARatkin_Armor.label>金鸢尾蘭裝甲衣物</OARatkin_Armor.label>
+    <OARatkin_Headgear.label>金鸢尾蘭頭飾</OARatkin_Headgear.label>
+    <OARatkin_ArmorHeadgear.label>金鸢尾蘭裝甲頭飾</OARatkin_ArmorHeadgear.label>
+    <OARatkin_Utility.label>金鸢尾蘭配件</OARatkin_Utility.label>
+
+    <OARatkin_WeaponsMelee.label>金鸢尾蘭近戰武器</OARatkin_WeaponsMelee.label>
+    <OARatkin_WeaponsRanged.label>金鸢尾蘭遠程武器</OARatkin_WeaponsRanged.label>
+
+    <OARatkin_FoodMeals.label>金鸢尾蘭食品</OARatkin_FoodMeals.label>
+
+</LanguageData>

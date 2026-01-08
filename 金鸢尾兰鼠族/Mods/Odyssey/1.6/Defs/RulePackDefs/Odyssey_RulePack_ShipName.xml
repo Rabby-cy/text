@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <RulePackDef>
+        <defName>OARK_RulePack_ScienceShipName</defName>
+        <rulePack>
+            <rulesStrings>
+			<li>shipName_root->[Name]</li>
+
+			<li>Name->Tulip</li>
+			<li>Name->Violet</li>
+			<li>Name->Hyacinth</li>
+			<li>Name->Dandelion</li>
+			<li>Name->Night Seagrass</li>
+			<li>Name->Iris Orchid</li>
+			<li>Name->Iris</li>
+			<li>Name->Sea Hyacinth</li>
+			<li>Name->Snowflake Prism</li>
+			<li>Name->Weaving Peony</li>
+			<li>Name->Corn</li>
+			<li>Name->Chinese Milk Vetch</li>
+			<li>Name->Gladiolus</li>
+			<li>Name->Peach Blossom</li>
+			<li>Name->Winter Jasmine</li>
+			<li>Name->Cherry Blossom</li>
+			<li>Name->Sunny Day Flower</li>
+			<li>Name->White Cloud Grass</li>
+			<li>Name->White Tree Vine</li>
+			<li>Name->Imperial Leaf Crown</li>
+			<li>Name->Coconut Pod</li>
+			<li>Name->Moonfall Branch</li>
+			<li>Name->Waterfall Flower</li>
+			<li>Name->White Maple Grass</li>
+			<li>Name->Ice Crystal Flower</li>
+			<li>Name->Little River Bamboo</li>
+			<li>Name->Terminator</li>
+			<li>Name->Forget-me-not</li>
+			<li>Name->Utopia</li>
+			<li>Name->Wandering the Unknown</li> 
+			<li>Name->Late Night Orchid</li>
+			<li>Name->Epiphyllum</li>
+			<li>Name->Little Fallen Maple</li>
+			<li>Name->Coreless Poplar</li>
+			<li>Name->Plain Silver Tree</li>
+			<li>Name->Sea-Floating Flower</li>
+			<li>Name->Three-Sleep Flower</li>
+			<li>Name->Greenleaf Forest Flower</li>
+			<li>Name->Twin Grass</li>
+			<li>Name->Shore-born Lotus</li>
+			<li>Name->Ash Rose</li>
+			<li>Name->Snowflake</li>
+			<li>Name->Cascading Flower</li>
+			<li>Name->Silverleaf</li>
+			<li>Name->Leisurely Orchid</li>
+			<li>Name->Rainbow Orchid</li>
+			<li>Name->Jade Grass</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+</Defs>

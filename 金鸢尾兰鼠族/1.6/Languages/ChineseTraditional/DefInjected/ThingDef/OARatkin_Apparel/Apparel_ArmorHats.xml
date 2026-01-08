@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OA_RK_Armor_Hat_A.label>輕型突襲作戰頭盔</OA_RK_Armor_Hat_A.label>
+    <OA_RK_Armor_Hat_A.description>采用了極爲堅韌的防彈面料與金鸢尾蘭鈾工藝打造的作戰頭盔，擁有優越的安全性能。此外頭盔內部帶有小型作戰輔助系統，可以提升射擊精度。</OA_RK_Armor_Hat_A.description>
+
+    <OA_RK_Armor_Hat_B.label>全防護突襲作戰頭盔</OA_RK_Armor_Hat_B.label>    <!--預計重制-->
+    <OA_RK_Armor_Hat_B.description>采用了極爲堅韌的防彈面料與金鸢尾蘭鈾工藝打造的作戰頭盔，著重加強了防護性能與作戰輔助，能夠讓重武器手更加專注于火力支援。</OA_RK_Armor_Hat_B.description>
+
+</LanguageData>

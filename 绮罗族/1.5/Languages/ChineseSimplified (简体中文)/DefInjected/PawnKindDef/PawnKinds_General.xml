@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kiiro_Colonist.label>绮罗殖民者</Kiiro_Colonist.label>
+  <Kiiro_Colonist.labelPlural>绮罗殖民者</Kiiro_Colonist.labelPlural>
+  <Kiiro_Colonist.labelMale>绮罗殖民者</Kiiro_Colonist.labelMale>
+  <Kiiro_Colonist.labelMalePlural>绮罗殖民者</Kiiro_Colonist.labelMalePlural>
+  <Kiiro_Colonist.labelFemale>绮罗殖民者</Kiiro_Colonist.labelFemale>
+  <Kiiro_Colonist.labelFemalePlural>绮罗殖民者</Kiiro_Colonist.labelFemalePlural>
+
+  <Kiiro_Towner.label>绮罗小镇居民</Kiiro_Towner.label>
+  <Kiiro_Towner.labelPlural>绮罗小镇居民</Kiiro_Towner.labelPlural>
+  <Kiiro_Towner.labelMale>绮罗小镇居民</Kiiro_Towner.labelMale>
+  <Kiiro_Towner.labelMalePlural>绮罗小镇居民</Kiiro_Towner.labelMalePlural>
+  <Kiiro_Towner.labelFemale>绮罗小镇居民</Kiiro_Towner.labelFemale>
+  <Kiiro_Towner.labelFemalePlural>绮罗小镇居民</Kiiro_Towner.labelFemalePlural>
+
+  <Kiiro_TownerII.label>绮罗小镇居民</Kiiro_TownerII.label>
+  <Kiiro_TownerII.labelPlural>绮罗小镇居民</Kiiro_TownerII.labelPlural>
+  <Kiiro_TownerII.labelMale>绮罗小镇居民</Kiiro_TownerII.labelMale>
+  <Kiiro_TownerII.labelMalePlural>绮罗小镇居民</Kiiro_TownerII.labelMalePlural>
+  <Kiiro_TownerII.labelFemale>绮罗小镇居民</Kiiro_TownerII.labelFemale>
+  <Kiiro_TownerII.labelFemalePlural>绮罗小镇居民</Kiiro_TownerII.labelFemalePlural>
+
+  <Kiiro_Trader.label>绮罗小镇商人</Kiiro_Trader.label>
+  <Kiiro_Trader.labelPlural>绮罗小镇商人</Kiiro_Trader.labelPlural>
+  <Kiiro_Trader.labelMale>绮罗小镇商人</Kiiro_Trader.labelMale>
+  <Kiiro_Trader.labelMalePlural>绮罗小镇商人</Kiiro_Trader.labelMalePlural>
+  <Kiiro_Trader.labelFemale>绮罗小镇商人</Kiiro_Trader.labelFemale>
+  <Kiiro_Trader.labelFemalePlural>绮罗小镇商人</Kiiro_Trader.labelFemalePlural>
+
+  <Kiiro_Leader.label>绮罗小镇镇长</Kiiro_Leader.label>
+  <Kiiro_Leader.labelPlural>绮罗小镇镇长</Kiiro_Leader.labelPlural>
+  <Kiiro_Leader.labelMale>绮罗小镇镇长</Kiiro_Leader.labelMale>
+  <Kiiro_Leader.labelMalePlural>绮罗小镇镇长</Kiiro_Leader.labelMalePlural>
+  <Kiiro_Leader.labelFemale>绮罗小镇镇长</Kiiro_Leader.labelFemale>
+  <Kiiro_Leader.labelFemalePlural>绮罗小镇镇长</Kiiro_Leader.labelFemalePlural>
+
+  <Kiiro_Refugee.label>绮罗难民</Kiiro_Refugee.label>
+  <Kiiro_Refugee.labelPlural>绮罗难民</Kiiro_Refugee.labelPlural>
+  <Kiiro_Refugee.labelMale>绮罗难民</Kiiro_Refugee.labelMale>
+  <Kiiro_Refugee.labelMalePlural>绮罗难民</Kiiro_Refugee.labelMalePlural>
+  <Kiiro_Refugee.labelFemale>绮罗难民</Kiiro_Refugee.labelFemale>
+  <Kiiro_Refugee.labelFemalePlural>绮罗难民</Kiiro_Refugee.labelFemalePlural>
+
+  <Kiiro_WoundedSoldier.label>绮罗伤兵</Kiiro_WoundedSoldier.label>
+  <Kiiro_WoundedSoldier.labelPlural>绮罗伤兵</Kiiro_WoundedSoldier.labelPlural>
+  <Kiiro_WoundedSoldier.labelMale>绮罗伤兵</Kiiro_WoundedSoldier.labelMale>
+  <Kiiro_WoundedSoldier.labelMalePlural>绮罗伤兵</Kiiro_WoundedSoldier.labelMalePlural>
+  <Kiiro_WoundedSoldier.labelFemale>绮罗伤兵</Kiiro_WoundedSoldier.labelFemale>
+  <Kiiro_WoundedSoldier.labelFemalePlural>绮罗伤兵</Kiiro_WoundedSoldier.labelFemalePlural>
+  
+  <Kiiro_Maid.label>绮罗女仆</Kiiro_Maid.label>
+  <Kiiro_Maid.labelPlural>绮罗女仆</Kiiro_Maid.labelPlural>
+  <Kiiro_Maid.labelMale>绮罗女仆</Kiiro_Maid.labelMale>
+  <Kiiro_Maid.labelMalePlural>绮罗女仆</Kiiro_Maid.labelMalePlural>
+  <Kiiro_Maid.labelFemale>绮罗女仆</Kiiro_Maid.labelFemale>
+  <Kiiro_Maid.labelFemalePlural>绮罗女仆</Kiiro_Maid.labelFemalePlural>
+
+
+</LanguageData>

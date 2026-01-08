@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "GravEngine"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+		<value>
+			<li>OARK_GravFieldExtender</li>
+			<li>OARK_AirportClearanceBeacon</li>
+			<li>OARK_SpaceportAccessPermit</li>
+		</value>
+	</Operation>
+
+</Patch>

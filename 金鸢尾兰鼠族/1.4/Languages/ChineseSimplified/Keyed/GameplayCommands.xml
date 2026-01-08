@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OA_PortableCommsConsoleLable>交流平台通讯</OA_PortableCommsConsoleLable>
+    <OA_PortableCommsConsoleDesc>使用{0}联系金鸢尾兰帝国。</OA_PortableCommsConsoleDesc>
+
+    <OA_CircuitRegulatorGizmo>稳定度</OA_CircuitRegulatorGizmo>
+    <OA_CircuitRegulatorRepairmentTooltipTitle>自动维修</OA_CircuitRegulatorRepairmentTooltipTitle>
+    <OA_CircuitRegulatorRepairmentTooltipDesc>{0}的电路稳定度会逐渐下降。若{0}承担更大的负载，电路稳定度会下降得更快。\n\n若其电路稳定度下降到 0%，{0}就会进入失效状态，无法分担电网负载。\n\n建筑工会自动维修{0}，将其电路稳定度控制在安全范围内。一旦其电路稳定度低于{LEVEL}，他们就会对其进行维修。</OA_CircuitRegulatorRepairmentTooltipDesc>
+
+    <OA_CircuitRegulatorRepairmentTooltipDisabled>自动维修功能目前已禁用。启用后，建筑工就会维修{0}。</OA_CircuitRegulatorRepairmentTooltipDisabled>
+
+    <OA_CircuitRegulatorRepairmentToggleTooltipDesc>决定当{0}的电路稳定度低于 {LEVEL} 时，是否会对其进行自动维修。\n\n自动维修当前已{ONOFF}。</OA_CircuitRegulatorRepairmentToggleTooltipDesc>
+
+    <OA_CommandDipAction>外交交互</OA_CommandDipAction>
+    <OA_CommandDipActionDesc>与当地的金鸢尾兰宫廷进行外交交互。</OA_CommandDipActionDesc>
+
+</LanguageData>

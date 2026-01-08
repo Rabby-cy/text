@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+    <!-- EN: ambulance chaser -->
+  <OA_RK_ProtocolRifle.label>金鳶尾蘭古典步槍</OA_RK_ProtocolRifle.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_ProtocolRifle.description>金鳶尾蘭帝國在接觸銀河系之前所採用的制式步槍，先進的製造工藝無法掩蓋落後的軍事理念帶來的缺點，因此如今它更多被做爲禮儀用槍使用。\n\n但即便如此，採用了鈾彈的它依然有著不俗的殺傷能力。</OA_RK_ProtocolRifle.description>
+  
+    <!-- EN: ambulance chaser -->
+  <OA_RK_PrototypeBlitzRifle.label>原型突襲武器</OA_RK_PrototypeBlitzRifle.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_PrototypeBlitzRifle.description>金鳶尾蘭帝國在初次接觸銀河系後，緊急進行軍備更迭時所産生的産物。相比起常規的突擊步槍，它更重視殺傷性與破壞力，然而精度方面依然存在著或多或少的問題。</OA_RK_PrototypeBlitzRifle.description>
+  
+    <!-- EN: ambulance chaser -->
+  <OA_RK_BlitzRifle.label>突襲作戰步槍</OA_RK_BlitzRifle.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_BlitzRifle.description>金鳶尾蘭帝國的現役制式步槍，在全距離都有著穩定的殺傷能力，並且鈾彈的設計可以有效的對重甲敵人造成傷害。</OA_RK_BlitzRifle.description>
+  
+  <!-- EN: ambulance chaser -->
+  <OA_RK_BlitzSMG.label>突襲作戰衝鋒槍</OA_RK_BlitzSMG.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_BlitzSMG.description>金鳶尾蘭帝國的現役制式衝鋒槍，相比起突襲作戰步槍更重視近距離的殺傷能力，彈鼓的大彈容可以有效的達成近距離火力壓制的目的。</OA_RK_BlitzSMG.description>
+  
+  <!-- EN: ambulance chaser -->
+  <OA_RK_BlitzSSR.label>突襲作戰支援步槍</OA_RK_BlitzSSR.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_BlitzSSR.description>金鳶尾蘭帝國的現役制式支援步槍，在全距離都有著穩定的殺傷能力，中距離的精度足以與狙擊槍媲美。</OA_RK_BlitzSSR.description>
+  
+  <!-- EN: ambulance chaser -->
+  <OA_RK_BlitzLMG.label>突襲作戰支援機槍</OA_RK_BlitzLMG.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_BlitzLMG.description>金鳶尾蘭帝國的現役制式機槍，在盡量保障精度與射擊穩定的同時，還擁有著傑出的輕單位殺傷能力，在提供火力壓制時表現尤爲出色。</OA_RK_BlitzLMG.description>
+  
+  <!-- EN: ambulance chaser -->
+  <OA_RK_BlitzAMR.label>突襲反重甲步槍</OA_RK_BlitzAMR.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_BlitzAMR.description>金鳶尾蘭帝國的反機械體特化武器之一，槍膛加壓器與特化鈾彈的設計令其穿甲效能與殺傷能力都達到了一個驚人的水平。沒有生物會想要被它鎖定。</OA_RK_BlitzAMR.description>
+  
+  <!-- EN: ambulance chaser -->
+  <OA_RK_BlitzAMLMG.label>突襲反重甲機槍</OA_RK_BlitzAMLMG.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_BlitzAMLMG.description>金鳶尾蘭帝國的反機械體特化武器之一，槍膛加壓器與特化鈾彈的設計令其穿甲效能與殺傷能力都達到了一個驚人的水平。即便是在中遠距離上，也可以提供較爲穩定的反甲火力支援。</OA_RK_BlitzAMLMG.description>
+  
+  <!-- EN: ambulance chaser -->
+  <OA_RK_AdvancedBlitzRifle.label>改型突襲作戰步槍</OA_RK_AdvancedBlitzRifle.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_AdvancedBlitzRifle.description>爲了遠距離交火而特化改裝的突襲作戰步槍，在槍體進行了一系列的改裝。與原版相比，精度有很大幅度的提升。</OA_RK_AdvancedBlitzRifle.description>
+  
+  <!-- EN: ambulance chaser -->
+  <OA_RK_AdvancedBlitzSMG.label>改型突襲作戰衝鋒槍</OA_RK_AdvancedBlitzSMG.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_AdvancedBlitzSMG.description>爲了遠距離交火而特化改裝的突襲作戰衝鋒槍。在槍體進行了一系列的改裝。與原版相比，精度有很大幅度的提升。</OA_RK_AdvancedBlitzSMG.description> 
+  
+  <!-- EN: ambulance chaser -->
+  <OA_RK_ChargeSSR.label>不穩定電荷支援步槍</OA_RK_ChargeSSR.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_ChargeSSR.description>金鳶尾蘭帝國在接觸初次銀河系後，緊急進行軍備更迭時所産生的産物。雖然是應急産物，但不知爲何卻相當成功。不穩定電荷傲人的殺傷性能足以彌補精度的缺憾。\n\n因爲電荷能的不穩定，該武器的實際傷害將會在40%~120%之間浮動。\n\n“相比起那兩個重得要死的東西，我寧願用這把武器，起碼它不會讓隊友感到害怕。”某位突襲隊的成員這樣評價道。</OA_RK_ChargeSSR.description> 
+  
+  <!-- EN: ambulance chaser -->
+  <OA_RK_UnstableChargeDriver.label>不穩定電荷團直射器</OA_RK_UnstableChargeDriver.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_UnstableChargeDriver.description>金鳶尾蘭帝國在接觸初次銀河系後，緊急進行軍備更迭時所産生的産物。雖然是應急産物，但不知爲何卻相當成功。在犧牲了精度與便攜性後，不穩定電荷團直射器的殺傷能力已經達到了登峰造極的地步。\n\n因爲電荷能的不穩定，該武器的實際傷害將會在40%~120%之間浮動。\n\n“大就是美。”另一位金鳶尾蘭科研人員附和道。</OA_RK_UnstableChargeDriver.description> 
+  
+  <!-- EN: ambulance chaser -->
+  <OA_RK_UnstableChargeThrower.label>不穩定電荷團速射器</OA_RK_UnstableChargeThrower.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_UnstableChargeThrower.description>金鳶尾蘭帝國在接觸初次銀河系後，緊急進行軍備更迭時所産生的産物。雖然是應急産物，但不知爲何卻相當成功。通過覆蓋式的飽和打擊，該武器可以有效的摧毀敵人的防禦陣地。\n\n因爲電荷能的不穩定，該武器的實際傷害將會在40%~120%之間浮動。\n\n“多就是好！”一位金鳶尾蘭科研人員如此說道。</OA_RK_UnstableChargeThrower.description> 
+  
+  <!-- EN: ambulance chaser -->
+  <OA_RK_BlitzAMR_B.label>原型反重甲武器</OA_RK_BlitzAMR_B.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_BlitzAMR_B.description>金鳶尾蘭帝國在初次接觸銀河系後，緊急進行軍備更迭時所產生的產物，在犧牲射速，少量精度以及便攜性的情況下將火力提升到了極致的地步。\n\n“我不管這把槍多麽難用，但起碼我們必須要有一個能擊穿機械體的東西。”</OA_RK_BlitzAMR_B.description>
+  
+  <!-- EN: ambulance chaser -->
+  <OA_RK_Mountain_Stick.label>金鳶尾蘭手杖</OA_RK_Mountain_Stick.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_Mountain_Stick.description>一種雕琢著精美花紋的複雜合金手杖。由於其美觀性與實用性都非常傑出，因此常常被金鳶尾蘭貴族或者遠行者改採用。</OA_RK_Mountain_Stick.description> 
+  
+  <!-- EN: ambulance chaser -->
+  <OA_RK_Mountain_Stick_B.label>金鳶尾蘭遠行杖</OA_RK_Mountain_Stick_B.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_Mountain_Stick_B.description>金鳶尾蘭遠行者們常用的手杖，相比起常見的登山杖更具有可靠性與適用性，多個可拆卸的組件能夠應對各種複雜環境。</OA_RK_Mountain_Stick_B.description> 
+  
+  <!-- EN: ambulance chaser -->
+  <OA_RK_Mountain_Stick_C.label>金鳶尾蘭雪地刀</OA_RK_Mountain_Stick_C.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_Mountain_Stick_C.description>一種可靠性很強的多功能匕首，無論是鑿石還是伐木都可以做到。底部擁有著一個發信器，中空的刀柄可以儲存一些關鍵物資。一些金鳶尾蘭遠行者會隨身攜帶這把刀。</OA_RK_Mountain_Stick_C.description> 
+   
+   
+  <!-- EN: ambulance chaser -->
+  <OA_RK_ProtocolRifle_B.label>金鳶尾蘭遠行者步槍</OA_RK_ProtocolRifle_B.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_ProtocolRifle_B.description>金鳶尾蘭帝國在接觸銀河系之前為遠行者研發的半自動步槍，只有經驗老練的遠行者準備進行一次有風險的探險時，才能夠申請調配這把槍械。其大口徑的步槍彈可以有效的制止野獸的行動，保障遠行者的安全。</OA_RK_ProtocolRifle_B.description>
+  
+  <!-- EN: ambulance chaser -->
+  <OA_RK_Mountain_Stick_D.label>金鳶尾蘭獵獸刀</OA_RK_Mountain_Stick_D.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_Mountain_Stick_D.description>一把工藝復雜，十分鋒利的短刀，其刀刃可以輕易的割開皮膚，能夠有效的對野獸造成威懾與傷害。</OA_RK_Mountain_Stick_D.description> 
+  
+  <!-- EN: ambulance chaser -->
+  <OA_RK_Mountain_Stick_E.label>技術官防身匕首</OA_RK_Mountain_Stick_E.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_Mountain_Stick_E.description>金鳶尾蘭帝國尚未正式列裝的實驗性武器，其刀刃內置自觸發式EMP核心，命中敵人時會同時對敵人造成EMP打擊。\n\n由於該武器目前正在研發階段還未投入量產，因此大多數暫時被配發給銀河系的技術官作為防身武器使用。</OA_RK_Mountain_Stick_E.description> 
+  
+  <!-- EN: ambulance chaser -->
+  <OA_RK_Mountain_Stick_F.label>技術官手杖</OA_RK_Mountain_Stick_F.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_Mountain_Stick_F.description>金鳶尾蘭帝國為身處銀河系的技術官統一配發的手杖，在保證美觀性的同時進行了一些防身改裝。其內裝載了一枚EMP脈衝裝置，在面對機械體時可以發揮一定的壓制能力。</OA_RK_Mountain_Stick_F.description> 
+  
+  <!-- EN: ambulance chaser -->
+  <OA_RK_Jishu_SMG.label>技術官防身衝鋒槍</OA_RK_Jishu_SMG.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_Jishu_SMG.description>金鳶尾蘭帝國尚未正式列裝的實驗性武器，彈藥為特製的EMP彈藥，命中後可以對機械體造成癱瘓效果。此外雖然槍身較小，但由於裝配了電磁加速槍管，因此破壞力也不容小覷。\n\n由於該武器目前正在研發階段還未投入量產，因此大多數暫時被配發給銀河系的技術官作為防身武器使用。</OA_RK_Jishu_SMG.description> 
+  
+  <!-- EN: ambulance chaser -->
+  <OA_RK_BlitzRifle_Heavy.label>重裝突襲步槍</OA_RK_BlitzRifle_Heavy.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_BlitzRifle_Heavy.description>為了更加兇狠的破壞力而採用了可更換式加壓艙的重型槍械。相比而言沒有正常的突襲步槍靈活，但勝在火力更加兇狠，在面對重型敵人時能夠發揮奇效。\n\n出於安全性與槍械壽命考慮，該槍械的加壓艙平時會處於低負荷狀態，只有在開火時才會得到激活。\n每次射擊都會提升10%的傷害與穿甲值，提升50%後達到滿負荷狀態。</OA_RK_BlitzRifle_Heavy.description> 
+  
+  <!-- EN: ambulance chaser -->
+  <OA_RK_BlitzSMG_Heavy.label>重裝突襲衝鋒槍</OA_RK_BlitzSMG_Heavy.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_BlitzSMG_Heavy.description>為了更加兇狠的破壞力而採用了可更換式加壓艙的重型槍械。在近距離的火力傾瀉上不如常規衝鋒槍，但勝在單點火力更加兇狠，在面對重型敵人時能夠發揮奇效。\n\n出於安全性與槍械壽命考慮，該槍械的加壓艙平時會處於低負荷狀態，只有在開火時才會得到激活。\n每次射擊都會提升10%的傷害與穿甲值，提升50%後達到滿負荷狀態。</OA_RK_BlitzSMG_Heavy.description> 
+  
+  <!-- EN: ambulance chaser -->
+  <OA_RK_AT.label>突襲作戰無後坐力炮</OA_RK_AT.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_AT.description>金鳶尾蘭帝國的制式單兵支援武器，輕量化材質製成的炮身幾乎不會為射手帶來負擔。不同於反重甲武器，這門單兵火炮採用的榴彈更適合對成片的敵人造成殺傷，而非專註於某個重型單位。</OA_RK_AT.description> 
+  
+  <!-- EN: ambulance chaser -->
+  <OA_RK_Shotgun_A.label>金鳶尾蘭遠行者防身霰彈槍</OA_RK_Shotgun_A.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_Shotgun_A.description>金鳶尾蘭帝國為野獸頻繁出沒地區的遠行者與宮庭人員配發的防身霰彈槍，開槍時巨大的噪音可以有效的對野獸造成恐嚇與威懾，在近距離擁有相當可觀的殺傷力。\n\n該槍械在開火時會根據距離對目標造成0~15枚彈丸的傷害，在5格內傷害達到最高。\n\n若目標與使用者距離在5~23格內，則還會對目標周圍1.5格內的所有單位造成一次0~2彈丸的濺射傷害。</OA_RK_Shotgun_A.description> 
+   
+  <!-- EN: ambulance chaser -->
+  <OA_RK_Shotgun_B.label>技術官防身霰彈槍</OA_RK_Shotgun_B.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_Shotgun_B.description>金鳶尾蘭帝國尚未正式列裝的實驗性武器，該武器的每個彈丸都內置了觸發式的微型EMP核心，無論是對抗機械族還是正常的近距離交火都能發揮不小的作用。此外，由於採取了實驗性的膛內設計，因此即便是較遠的距離也能保證彈丸的集中。\n\n由於該武器目前正在研發階段還未投入量產，因此大多數暫時被配發給銀河系的技術官作為防身武器使用。\n\n該槍械在開火時會根據距離對目標造成1~10枚彈丸的傷害，在6格內傷害達到最高。</OA_RK_Shotgun_B.description> 
+
+  <!-- EN: ambulance chaser -->
+  <OA_RK_Mountain_Stick_G.label>金鳶尾蘭醫護枴杖</OA_RK_Mountain_Stick_G.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_Mountain_Stick_G.description>金鳶尾蘭宮庭中醫護部改採用的制式醫用枴杖。其結構十分符合人體力學，並且內部的系統能夠根據壓力反饋來進行自動助力，有效的提升了傷患的移動能力。</OA_RK_Mountain_Stick_G.description> 
+   
+  <!-- EN: ambulance chaser -->
+  <OA_RK_GouSuo.label>金鳶尾蘭遠行者鉤索槍</OA_RK_GouSuo.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_GouSuo.description>金鳶尾蘭達的遠行者們所攜帶的一種輕便探險器械，可以向指定方位射出一枚帶著鋼纜的高強度固定鉤索，以方便進行攀登與翻越。此外除了常規鉤索，遠行者們往往還會攜帶數枚魚叉矛頭，以在需要時進行更替以保護自身。</OA_RK_GouSuo.description> 
+      
+	    <!-- EN: ambulance chaser -->
+  <OA_RK_BlitzSSR_B.label>突襲反重甲支援步槍</OA_RK_BlitzSSR_B.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_BlitzSSR_B.description>金鳶尾蘭帝國研發的反機械體特化武器之一，擁有著出色的中距離火力。雖然火力強悍，但由於過於笨重且定位模糊，因此並未得到制式列裝，而是參考該槍械研發出了後續的重裝武器系列與反重甲步槍。</OA_RK_BlitzSSR_B.description> 
+     
+	   <!-- EN: ambulance chaser -->
+  <OA_RK_BlitzAMR_C.label>突襲反重甲炮臺步槍</OA_RK_BlitzAMR_C.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_BlitzAMR_C.description>金鳶尾蘭帝國研發的反機械體特化武器之一。由於設計理念的缺陷，因此盡管該武器雖然有著驚人的殺傷性，但過於笨重的槍身，以及它極差的射擊體驗使其難以稱之為一把單兵武器，因此該槍械並未得以制式列裝。</OA_RK_BlitzAMR_C.description> 
+     
+	   <!-- EN: ambulance chaser -->
+  <OA_RK_BlitzSMG_B.label>突襲作戰火力衝鋒槍</OA_RK_BlitzSMG_B.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_BlitzSMG_B.description>金鳶尾蘭帝國早期軍備研發的產物，由於過於片面強調衝鋒槍的火力壓制作用，因此導致該槍械極難操控。即便後來發現了該缺點而隨之加裝了新的握把，也沒能拯救其糟糕的操控性，最終沒有得以列裝。</OA_RK_BlitzSMG_B.description> 
+     
+	   <!-- EN: ambulance chaser -->
+  <OA_RK_Mountain_Stick_AA.label>金鳶尾蘭工業焊刀</OA_RK_Mountain_Stick_AA.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_Mountain_Stick_AA.description>金鳶尾蘭帝國的工業部中常見的維修工具，極高溫的激光刀片只需稍微劃過焊接處便可完成焊接。\n為了防止意外傷人，該工具有著正面生物探測以及按壓出刃的機制，因此若想使用該武器進行攻擊將會需要一定的技巧。</OA_RK_Mountain_Stick_AA.description> 
+   
+   <!-- EN: ambulance chaser -->
+  <OA_RK_Mountain_Stick_AB.label>金鳶尾蘭振蕩清潔箱</OA_RK_Mountain_Stick_AB.label>
+  <!-- EN: blood and gore, the more disturbing, the better. -->
+  <OA_RK_Mountain_Stick_AB.description>金鳶尾蘭宮庭中的一種清潔工具，通過低頻微幅振蕩來使得黏著的灰塵更易清理。而若是有心人將其進行改裝，那麽極高頻的巨幅震蕩將對生物的內臟器官造成極大的傷害並造成暈眩。\n但盡管如此，用這個笨重的東西戰鬥依然不會是明智之舉。</OA_RK_Mountain_Stick_AB.description> 
+ 
+</LanguageData>

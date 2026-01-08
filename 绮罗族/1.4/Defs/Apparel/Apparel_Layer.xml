@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ApparelLayerDef>
+	<defName>Kiiro_Underwear</defName>
+	<label>underwear</label>
+	<drawOrder>-2</drawOrder>
+</ApparelLayerDef>
+
+<!--<ApparelLayerDef>
+	<defName>Kiiro_Middle</defName>
+	<label>夹层</label>
+	<drawOrder>1</drawOrder>
+</ApparelLayerDef>-->
+
+<ApparelLayerDef>
+	<defName>Kiiro_OnSkin</defName>
+	<label>onskin</label>
+	<drawOrder>0</drawOrder>
+</ApparelLayerDef>
+
+<ApparelLayerDef>
+	<defName>Kiiro_Pants</defName>
+	<label>pants</label>
+	<drawOrder>-1</drawOrder>
+</ApparelLayerDef>
+
+<ApparelLayerDef>
+	<defName>Kiiro_Bag</defName>
+	<label>bag</label>
+	<drawOrder>50</drawOrder>
+</ApparelLayerDef>
+
+<ApparelLayerDef>
+	<defName>Kiiro_Shell</defName>
+	<label>shell</label>
+	<drawOrder>500</drawOrder>
+</ApparelLayerDef>
+
+
+</Defs>

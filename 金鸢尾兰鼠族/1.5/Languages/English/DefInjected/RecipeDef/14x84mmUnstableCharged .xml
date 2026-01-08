@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_14x84mmUnstableCharged.label>make 14x84mm Unstable Charged cartridge x100</MakeAmmo_14x84mmUnstableCharged.label>
+  <MakeAmmo_14x84mmUnstableCharged.description>Craft 100 14x84mm Unstable Charged cartridges.</MakeAmmo_14x84mmUnstableCharged.description>
+  <MakeAmmo_14x84mmUnstableCharged.jobString>Making 14x84mm Unstable Charged cartridges.</MakeAmmo_14x84mmUnstableCharged.jobString>
+
+
+</LanguageData>

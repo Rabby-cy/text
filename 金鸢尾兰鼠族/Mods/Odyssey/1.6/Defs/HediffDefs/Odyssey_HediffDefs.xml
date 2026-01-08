@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <HediffDef>
+        <defName>OARK_Hediff_SailorAssistance</defName>
+        <label>协助侍从</label>
+        <description>协助工作的通航部侍从的心情修正。</description>
+        <hediffClass>OberoniaAurea.Hediff_SailorAssistance</hediffClass>
+        <isBad>false</isBad>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <duplicationAllowed>false</duplicationAllowed>
+        <alwaysAllowMothball>true</alwaysAllowMothball>
+        <alwaysAllowMothballCached>true</alwaysAllowMothballCached>
+        <stages>
+            <li>
+                <becomeVisible>false</becomeVisible>
+            </li>
+        </stages>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>1800000</disappearsAfterTicks>
+                <showRemainingTime>false</showRemainingTime>
+            </li>
+            <li Class="HediffCompProperties_DisappearsOnDeath"/>
+        </comps>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>OARK_Hediff_GravityTrapIEDShock</defName>
+        <label>引力失衡</label>
+        <description>由于引力的突然大幅度变化，使得整个人失去了平衡，短时间内难以移动或保护自身。</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>true</isBad>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <duplicationAllowed>false</duplicationAllowed>
+        <stages>
+            <li>
+                <statOffsets>
+                    <MoveSpeed>-3.0</MoveSpeed>
+                </statOffsets>
+                <statFactors>
+                    <IncomingDamageFactor>1.5</IncomingDamageFactor>
+                </statFactors>
+            </li>
+        </stages>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>360</disappearsAfterTicks>
+                <showRemainingTime>true</showRemainingTime>
+            </li>
+            <li Class="HediffCompProperties_DisappearsOnDeath"/>
+        </comps>
+    </HediffDef>
+    <HediffDef>
+        <defName>OARK_Hediff_GravityTrapIEDShockImmu</defName>
+        <label>（隐藏）引力失衡免疫</label>
+        <description>（隐藏）引力失衡免疫。</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <duplicationAllowed>false</duplicationAllowed>
+        <stages>
+            <li>
+                <becomeVisible>false</becomeVisible>
+            </li>
+        </stages>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>900</disappearsAfterTicks>
+                <showRemainingTime>false</showRemainingTime>
+            </li>
+            <li Class="HediffCompProperties_DisappearsOnDeath"/>
+        </comps>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>OARK_Hediff_GravShieldBelt</defName>
+        <label>约束力场</label>
+        <description>腰带为佩戴者提供了一层能够自我调节的引力场，在减轻流弹伤害的同时能够提供额外的真空抗性与毒气阻隔，但会严重的影响射击精度。</description>
+        <isBad>false</isBad>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <duplicationAllowed>false</duplicationAllowed>
+        <alwaysAllowMothball>true</alwaysAllowMothball>
+        <alwaysAllowMothballCached>true</alwaysAllowMothballCached>
+        <stages>
+            <li>
+                <statOffsets>
+                    <VacuumResistance>0.14</VacuumResistance>
+                    <ToxicEnvironmentResistance>0.50</ToxicEnvironmentResistance>
+                    <ShootingAccuracyPawn>-4.0</ShootingAccuracyPawn>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>OARK_Hediff_GravField</defName>
+        <label>（隐藏）真空免疫</label>
+        <description>（隐藏）真空免疫。</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <duplicationAllowed>false</duplicationAllowed>
+        <stages>
+            <li>
+                <becomeVisible>false</becomeVisible>
+                <statOffsets>
+                    <VacuumResistance>2</VacuumResistance>
+                </statOffsets>
+            </li>
+        </stages>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>500</disappearsAfterTicks>
+                <showRemainingTime>false</showRemainingTime>
+            </li>
+            <li Class="HediffCompProperties_DisappearsOnDeath"/>
+        </comps>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>OARK_Hediff_GravFieldSuppress</defName>
+        <label>引力压制</label>
+        <description>引力压制。</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <duplicationAllowed>false</duplicationAllowed>
+        <stages>
+            <li>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <postFactor>0.7</postFactor>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>500</disappearsAfterTicks>
+                <showRemainingTime>false</showRemainingTime>
+            </li>
+            <li Class="HediffCompProperties_DisappearsOnDeath"/>
+        </comps>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>OARK_Hediff_Referendary</defName>
+        <label>调查的决心</label>
+        <description>一股无法抑制的愤怒与责任心充盈在此人心中，这支撑着他以超人的水平履行着自己的职责。</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <duplicationAllowed>false</duplicationAllowed>
+        <stages>
+            <li>
+                <!--becomeVisible>false</becomeVisible-->
+                <statOffsets>
+                    <RestFallRateFactor>-0.66</RestFallRateFactor>
+                    <HackingSpeed>0.25</HackingSpeed>
+                </statOffsets>
+            </li>
+        </stages>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>600000</disappearsAfterTicks>
+                <showRemainingTime>false</showRemainingTime>
+            </li>
+            <li Class="HediffCompProperties_ThoughtSetter">
+                <thought>OARK_Referendary</thought>
+            </li>
+        </comps>
+    </HediffDef>
+
+</Defs>

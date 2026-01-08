@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <RulePackDef>
+        <defName>OARK_RulePack_ReferendaryHackText</defName>
+        <rulePack>
+            <rulesStrings>
+			<li>r_text-> [REFERENDARY_definite][adverb][verb]the [noun_full] wasted by the Research Department</li>
+
+			<li>adverb-> angrily</li>
+			<li>adverb-> sadly</li>
+			<li>adverb-> heartbrokenly</li>
+			<li>adverb-> indignantly</li>
+			<li>adverb-> with a heart-wrenching feeling</li>
+			<li>adverb-> with growing anger</li>
+			<li>adverb-> restlessly</li>
+			<li>adverb-> unbearably</li>
+			<li>adverb-> with heartache</li>
+			<li>adverb-> with a face full of sorrow</li>
+
+			<li>verb-> speaking of</li>
+			<li>verb-> counting</li>
+			<li>verb-> summarizing</li>
+			<li>verb-> calculating</li>
+			<li>verb-> organizing</li>
+			<li>verb-> recording</li>
+
+			<li>noun_full->[noun_adjective1][noun]</li>
+			<li>noun_full->[noun_adjective2][noun]</li>
+			<li>noun_full->[noun_adjective3][noun]</li>
+			<li>noun_full->[noun_adjective1][noun_adjective2][noun]</li>
+			<li>noun_full->[noun_adjective1][noun_adjective2][noun_adjective3][noun]</li>
+			<li>noun_full->[noun_adjective1][noun_adjective2][noun_adjective3][noun2] and [noun3]</li>
+			<li>noun_full->[noun_adjective1][noun_adjective2][noun_adjective3][noun], and feeling sorry for the producers</li>
+			<li>noun_full->[noun_adjective1][noun_adjective2][noun_adjective3][noun], and thinking about the value they could have generated if not wasted</li>
+			<li>noun_full->[noun_adjective1][noun_adjective2][noun_adjective3][noun2] and [noun3], and feeling sorry for the producers</li>
+			<li>noun_full->[noun_adjective1][noun_adjective2][noun_adjective3][noun2] and [noun3], and thinking about the value they could have generated if not wasted</li>
+
+			<li>noun_adjective1-> poor</li>
+			<li>noun_adjective1-> unfortunate</li>
+			<li>noun_adjective1-> innocent</li>
+			<li>noun_adjective1-> undeserving of suffering</li>
+			<li>noun_adjective1-> fragile</li>
+			<li>noun_adjective1-> unlucky</li>
+			<li>noun_adjective1-> blameless</li>
+			<li>noun_adjective1-> trampled</li>
+			<li>noun_adjective1-> bullied</li>
+			<li>noun_adjective1-> harmed</li>
+			<li>noun_adjective1-> regrettable</li>
+			<li>noun_adjective1-> wasted</li>
+			<li>noun_adjective1-> injured</li>
+
+			<li>noun_adjective2-> lovely</li>
+			<li>noun_adjective2-> precious</li>
+			<li>noun_adjective2-> beautiful</li>
+			<li>noun_adjective2-> useful</li>
+			<li>noun_adjective2-> smarter than the Research Department</li>
+			<li>noun_adjective2-> as beautiful as an Iris Orchid</li>
+			<li>noun_adjective2-> pure</li>
+			<li>noun_adjective2-> valuable</li>
+			<li>noun_adjective2-> yearned for</li>
+			<li>noun_adjective2-> excellent</li>
+			<li>noun_adjective2-> important</li>
+			<li>noun_adjective2-> harmless</li>
+			<li>noun_adjective2-> joyful</li>
+			<li>noun_adjective2-> full of painstaking effort</li>
+			<li>noun_adjective2-> needed</li>
+			<li>noun_adjective2-> outstanding</li>
+
+			<li>noun_adjective3-> saddening</li>
+			<li>noun_adjective3-> outrageous</li>
+			<li>noun_adjective3-> unforgettable</li>
+			<li>noun_adjective3-> unfair</li>
+			<li>noun_adjective3-> hard to part with</li>
+			<li>noun_adjective3-> memorable</li>
+			<li>noun_adjective3-> regrettable</li>
+			<li>noun_adjective3-> unsettling</li>
+			<li>noun_adjective3-> lamentable</li>
+			<li>noun_adjective3-> sorrowful</li>
+			<li>noun_adjective3-> deplorable</li>				
+
+			<li>noun->Flower Cake</li>
+			<li>noun->Silver</li>
+			<li>noun->Anti-gravity Plate</li>
+			<li>noun->Energy</li>
+			<li>noun->Chemfuel</li>
+			<li>noun->Vacuum Rock</li>
+			<li>noun->Anti-gravity Core</li>
+			<li>noun->Void Battery</li>
+			<li>noun->Research Equipment</li>
+			<li>noun->Lava-Flow Flower Cake</li>
+			<li>noun->Data Records</li>
+			<li>noun->Advanced Components</li>
+			<li>noun->Support Equipment</li>
+			<li>noun->Food</li>
+			<li>noun->Precision Equipment</li>
+			<li>noun->Iris Galaxy Supplies</li>
+			
+			<li>noun2->Flower Cake</li>
+			<li>noun2->Anti-gravity Plate</li>
+			<li>noun2->Chemfuel</li>
+			<li>noun2->Vacuum Rock</li>
+			<li>noun2->Anti-gravity Core</li>
+			<li>noun2->Void Battery</li>
+			<li>noun2->Lava-Flow Flower Cake</li>
+			<li>noun2->Data Records</li>
+			<li>noun2->Food</li>
+			
+			<li>noun3->Silver</li>
+			<li>noun3->Energy</li>
+			<li>noun3->Research Equipment</li>
+			<li>noun3->Advanced Components</li>
+			<li>noun3->Support Equipment</li>
+			<li>noun3->Precision Equipment</li>
+			<li>noun3->Iris Galaxy Supplies</li>
+			
+			
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+</Defs>

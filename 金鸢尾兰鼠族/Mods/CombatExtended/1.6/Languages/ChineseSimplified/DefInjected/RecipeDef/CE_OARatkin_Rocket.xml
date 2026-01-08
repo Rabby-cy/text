@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_OARocket_HE.label>制作 金鸢尾兰火箭榴弹(HE) x10</MakeAmmo_OARocket_HE.label>
+  <MakeAmmo_OARocket_HE.description>制作 10 金鸢尾兰火箭榴弹(HE)</MakeAmmo_OARocket_HE.description>
+  <MakeAmmo_OARocket_HE.jobString>正在制作 金鸢尾兰火箭榴弹(HE)</MakeAmmo_OARocket_HE.jobString>
+
+  <MakeAmmo_OARocket_EMP.label>制作 金鸢尾兰火箭榴弹(EMP) x10</MakeAmmo_OARocket_EMP.label>
+  <MakeAmmo_OARocket_EMP.description>制作 10 金鸢尾兰EMP火箭榴弹(EMP)</MakeAmmo_OARocket_EMP.description>
+  <MakeAmmo_OARocket_EMP.jobString>正在制作 金鸢尾兰EMP火箭榴弹(EMP)</MakeAmmo_OARocket_EMP.jobString>
+
+
+</LanguageData>

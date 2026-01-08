@@ -1,0 +1,1371 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="Kiiro_OverheadBase" ParentName="Kiiro_ApparelBase" Abstract="True">
+		<statBases>
+			<Mass>0.2</Mass>
+			<EquipDelay>0.5</EquipDelay>
+		</statBases>
+		<apparel>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+		</apparel>
+		<thingCategories>
+			<li>Kiiro_Apparel_Overhead</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef Name="Kiiro_OverheadBaseII" ParentName="Kiiro_OverheadBase" Abstract="True">
+		<recipeMaker>
+			<!--<displayPriority>1100</displayPriority>-->
+			<researchPrerequisite>Kiiro_Apparel_II</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<tags>
+				<li>Kiiro_OverHead</li>
+			</tags>
+		</apparel>
+		<tradeTags>
+			<li>Kiiro_DailyClothing</li>
+		</tradeTags>
+	</ThingDef>
+
+
+	<ThingDef Name="Kiiro_OverheadBaseIII" ParentName="Kiiro_OverheadBase" Abstract="True">
+		<recipeMaker>
+			<!--<displayPriority>1200</displayPriority>-->
+			<researchPrerequisite>Kiiro_Apparel_III</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<tags>
+				<li>Kiiro_OverHead</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef Name="Kiiro_OverheadBaseIV" ParentName="Kiiro_OverheadBase" Abstract="True">
+		<recipeMaker>
+			<!--<displayPriority>1300</displayPriority>-->
+			<researchPrerequisite>Kiiro_Apparel_IV</researchPrerequisite>
+		</recipeMaker>
+		<apparel>
+			<tags>
+				<li>Kiiro_OverHead</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef Name="Kiiro_OverheadBaseSpecial" ParentName="Kiiro_OverheadBase" Abstract="True">
+		<recipeMaker Inherit="false">
+		</recipeMaker>
+		<apparel>
+			<tags>
+				<li>Kiiro_OverHead</li>
+				<li>Kiiro_SpecialApparel</li>
+			</tags>
+		</apparel>
+	</ThingDef>
+
+	<!-- 绮罗黑色蝴蝶结头饰 -->
+	<ThingDef ParentName="Kiiro_OverheadBaseII">
+		<defName>Kiiro_BlackRibbon</defName>
+		<label>kiiro black ribbon</label>
+		<description>black ribbon on both sides of the hair.</description>
+		<costStuffCount>25</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<graphicData>
+			<texPath>Kiiro/Apparel/OverHead/BlackRibbon/BlackRibbon</texPath>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>1800</WorkToMake>
+			<StuffEffectMultiplierArmor>0.0</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.00</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<apparel>
+			<tags>
+				<li>Kiiro_DailyHat</li>
+			</tags>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Kiiro/Apparel/OverHead/BlackRibbon/BlackRibbon</wornGraphicPath>
+		</apparel>
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.02</MentalBreakThreshold>
+			<SocialImpact>0.05</SocialImpact>
+		</equippedStatOffsets>
+	</ThingDef>
+
+	<!-- 绮罗休闲发带 -->
+	<ThingDef ParentName="Kiiro_OverheadBaseII">
+		<defName>Kiiro_HairBand</defName>
+		<label>kiiro hairband</label>
+		<description>A simple headband tied around the forehead. Can be dyed in any desired color.</description>
+		<costStuffCount>25</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<graphicData>
+			<texPath>Kiiro/Apparel/OverHead/HairBand/HairBand</texPath>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>1800</WorkToMake>
+			<StuffEffectMultiplierArmor>0.0</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.00</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<apparel>
+			<tags>
+				<li>Kiiro_DailyHat</li>
+				<li>Kiiro_SouthEarCover</li>
+			</tags>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Kiiro/Apparel/OverHead/HairBand/HairBand</wornGraphicPath>
+		</apparel>
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+		</equippedStatOffsets>
+	</ThingDef>
+
+	<!-- 绮罗黑色口罩 -->
+	<ThingDef ParentName="Kiiro_OverheadBaseII">
+		<defName>Kiiro_BlackMask</defName>
+		<label>kiiro black mask</label>
+		<description>A dark-colored mask that covers the mouth and nose, capable of filtering out a certain level of air pollution.</description>
+		<costList>
+			<Cloth>10</Cloth>
+		</costList>
+		<costStuffCount>15</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+		</stuffCategories>
+		<graphicData>
+			<texPath>Kiiro/Apparel/OverHead/BlackMask/BlackMask</texPath>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>2100</WorkToMake>
+			<StuffEffectMultiplierArmor>0.0</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<apparel>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>Mouth</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Kiiro/Apparel/OverHead/BlackMask/BlackMask</wornGraphicPath>
+			<!-- <forceRenderUnderHair>true</forceRenderUnderHair> -->
+			<tags>
+				<li>Kiiro_Mask</li>
+			</tags>
+		</apparel>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.15</ToxicEnvironmentResistance>
+			<SocialImpact>-0.2</SocialImpact>
+		</equippedStatOffsets>
+	</ThingDef>
+
+	<!-- 绮罗防毒面具 -->
+	<ThingDef ParentName="Kiiro_OverheadBaseIII">
+		<defName>Kiiro_GasMask</defName>
+		<label>kiiro gas mask</label>
+		<description>A tightly-fitted mask that conforms to the face and has an integrated air filtration device, preventing the kiiro wearer from inhaling toxic gases and protecting their eyes from burning.</description>
+		<costList>
+			<Cloth>55</Cloth>
+			<Kiiro_BlackMask>1</Kiiro_BlackMask>
+		</costList>
+		<costStuffCount>60</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<graphicData>
+			<texPath>Kiiro/Apparel/OverHead/GasMask/GasMask</texPath>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>5600</WorkToMake>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<apparel>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>Mouth</li>
+				<li>Eyes</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Kiiro/Apparel/OverHead/GasMask/GasMask</wornGraphicPath>
+			<!-- <forceRenderUnderHair>true</forceRenderUnderHair> -->
+			<tags>
+				<li>Kiiro_GasMask</li>
+			</tags>
+			<layers Inherit="false">
+				<li>EyeCover</li>
+			</layers>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<!-- <coversHeadMiddle>true</coversHeadMiddle> -->
+			<immuneToToxGasExposure>true</immuneToToxGasExposure>
+		</apparel>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.85</ToxicEnvironmentResistance>
+			<SocialImpact>-0.35</SocialImpact>
+		</equippedStatOffsets>
+	</ThingDef>
+
+	<!-- 绮罗额前蝴蝶结发饰 -->
+	<ThingDef ParentName="Kiiro_OverheadBaseII">
+		<defName>Kiiro_BowHairtieFront</defName>
+		<label>kiiro bow hairtie front</label>
+		<description>A small and delicate butterfly hair bow.</description>
+		<costStuffCount>25</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<graphicData>
+			<texPath>Kiiro/Apparel/OverHead/BowHairtieFront/BowHairtieFront</texPath>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>1800</WorkToMake>
+			<StuffEffectMultiplierArmor>0.0</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<apparel>
+			<tags>
+				<li>Kiiro_DailyHat</li>
+			</tags>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Kiiro/Apparel/OverHead/BowHairtieFront/BowHairtieFront</wornGraphicPath>
+		</apparel>
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.02</MentalBreakThreshold>
+			<SocialImpact>0.05</SocialImpact>
+		</equippedStatOffsets>
+	</ThingDef>
+
+	<!-- 绮罗大蝴蝶结发带 -->
+	<ThingDef ParentName="Kiiro_OverheadBaseII">
+		<defName>Kiiro_BigBowHairtieFront</defName>
+		<label>kiiro big bow hairtie front</label>
+		<description>A large bow hair bow.</description>
+		<costStuffCount>35</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<graphicData>
+			<texPath>Kiiro/Apparel/OverHead/BigBowHairtieFront/BigBowHairtieFront</texPath>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>2100</WorkToMake>
+			<StuffEffectMultiplierArmor>0.0</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<apparel>
+			<tags>
+				<li>Kiiro_DailyHat</li>
+			</tags>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Kiiro/Apparel/OverHead/BigBowHairtieFront/BigBowHairtieFront</wornGraphicPath>
+		</apparel>
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.02</MentalBreakThreshold>
+			<SocialImpact>0.05</SocialImpact>
+		</equippedStatOffsets>
+	</ThingDef>
+
+	<!-- 绮罗黑色圆顶礼帽 -->
+	<ThingDef ParentName="Kiiro_OverheadBaseIII">
+		<defName>Kiiro_Melonik</defName>
+		<label>kiiro melonik</label>
+		<description>A black round top hat, perfect for social gatherings.</description>
+		<costList>
+			<DevilstrandCloth>10</DevilstrandCloth>
+		</costList>
+		<costStuffCount>45</costStuffCount>
+		<stuffCategories>
+			<li>Leathery</li>
+		</stuffCategories>
+		<graphicData>
+			<texPath>Kiiro/Apparel/OverHead/Melonik/Melonik</texPath>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>5400</WorkToMake>
+			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<apparel>
+			<tags>
+				<li>Kiiro_NorthEarCover</li>
+				<li>Kiiro_Trader</li>
+				<li>Kiiro_AhogeCover</li>
+			</tags>
+			<developmentalStageFilter>Adult</developmentalStageFilter>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Kiiro/Apparel/OverHead/Melonik/Melonik</wornGraphicPath>
+		</apparel>
+		<equippedStatOffsets>
+			<TradePriceImprovement>0.12</TradePriceImprovement>
+		</equippedStatOffsets>
+	</ThingDef>
+
+	<!-- 绮罗学士帽 -->
+	<ThingDef ParentName="Kiiro_OverheadBaseIII">
+		<defName>Kiiro_GraduationCap</defName>
+		<label>kiiro graduation cap</label>
+		<description>A black bachelor's cap. Happy graduation.\n\n——2023.6.21</description>
+		<costList>
+			<DevilstrandCloth>10</DevilstrandCloth>
+		</costList>
+		<costStuffCount>45</costStuffCount>
+		<stuffCategories>
+			<li>Leathery</li>
+		</stuffCategories>
+		<graphicData>
+			<texPath>Kiiro/Apparel/OverHead/GraduationCap/GraduationCap</texPath>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>5400</WorkToMake>
+			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<apparel>
+			<tags>
+				<li>Kiiro_NorthEarCover</li>
+				<li>Kiiro_Graduation</li>
+				<li>Kiiro_AhogeCover</li>
+			</tags>
+			<developmentalStageFilter>Adult, Child</developmentalStageFilter>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Kiiro/Apparel/OverHead/GraduationCap/GraduationCap</wornGraphicPath>
+		</apparel>
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.02</MentalBreakThreshold>
+		</equippedStatOffsets>
+	</ThingDef>
+
+	<!-- 绮罗针织洋帽 -->
+	<ThingDef ParentName="Kiiro_OverheadBaseIII">
+		<defName>Kiiro_SunHatGauze</defName>
+		<label>kiiro knitted sunhat</label>
+		<description>A lovely wide-brimmed hat, intricately woven by skilled artisans.</description>
+		<costList>
+			<Cloth>30</Cloth>
+		</costList>
+		<costStuffCount>25</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<graphicData>
+			<texPath>Kiiro/Apparel/OverHead/SunHatGauze/SunHatGauze</texPath>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>4200</WorkToMake>
+			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<apparel>
+			<tags>
+				<li>Kiiro_NorthEarCover</li>
+				<li>Kiiro_DailyHat</li>
+				<li>Kiiro_AhogeCover</li>
+			</tags>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Kiiro/Apparel/OverHead/SunHatGauze/SunHatGauze</wornGraphicPath>
+		</apparel>
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+			<SocialImpact>0.1</SocialImpact>
+		</equippedStatOffsets>
+	</ThingDef>
+
+	<!-- 绮罗毛绒兜帽 -->
+	<ThingDef ParentName="Kiiro_OverheadBaseII">
+		<defName>Kiiro_WinterHats</defName>
+		<label>kiiro winter hood</label>
+		<description>A hooded cap that covers the entire head, made of thick fabric and fur to help the kiiro endure the cold winter.</description>
+		<costStuffCount>75</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<graphicData>
+			<texPath>Kiiro/Apparel/OverHead/WinterHats/WinterHats</texPath>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToMake>4200</WorkToMake>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<apparel>
+			<tags>
+				<li>Kiiro_NorthEarCover</li>
+				<li>Kiiro_AhogeCover</li>
+				<li>Kiiro_WinterWear</li>
+			</tags>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Kiiro/Apparel/OverHead/WinterHats/WinterHats</wornGraphicPath>
+		</apparel>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.3</MoveSpeed>
+		</equippedStatOffsets>
+		<comps>
+			<li Class="CompProperties_CauseHediff_Apparel">
+				<hediff>Kiiro_WinterHats</hediff>
+				<part>Head</part>
+			</li>
+		</comps>
+	</ThingDef>
+	<HediffDef>
+		<defName>Kiiro_WinterHats</defName>
+		<label>kiiro winter hood</label>
+		<description>Wearing kiiro winter hood.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_RemoveIfApparelDropped"/>
+		</comps>
+		<isBad>false</isBad>
+	</HediffDef>
+
+	<!-- 绮罗白色贝雷帽 -->
+	<ThingDef ParentName="Kiiro_OverheadBaseIII">
+		<defName>Kiiro_Beret</defName>
+		<label>kiiro beret</label>
+		<description>An artistic beret.</description>
+		<costList>
+			<DevilstrandCloth>10</DevilstrandCloth>
+		</costList>
+		<costStuffCount>45</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<graphicData>
+			<texPath>Kiiro/Apparel/OverHead/Beret/Beret</texPath>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>4800</WorkToMake>
+			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<apparel>
+			<tags>
+				<li>Kiiro_NorthEarCover</li>
+				<li>Kiiro_AhogeCover</li>
+				<li>Kiiro_DailyHat</li>
+				<li>Kiiro_Artistic</li>
+			</tags>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Kiiro/Apparel/OverHead/Beret/Beret</wornGraphicPath>
+		</apparel>
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+			<GlobalLearningFactor>0.1</GlobalLearningFactor>
+			<GeneralLaborSpeed>-0.08</GeneralLaborSpeed>
+		</equippedStatOffsets>
+	</ThingDef>
+
+	<!-- 绮罗单片眼镜 -->
+	<ThingDef ParentName="Kiiro_OverheadBaseII">
+		<defName>Kiiro_SingleGlass</defName>
+		<label>kiiro single glass</label>
+		<description>Wearing a single-lens eyeglass that gives an impression of being knowledgeable to those around, creating the illusion that the wearer knows a lot, and the wearer themselves seemingly becoming smarter as a result.\n\nDue to kiiro's ears being located on the top of their head, glasses frames cannot hold well. It is advisable not to wear them during labor-intensive tasks.</description>
+		<costList>
+			<Steel>25</Steel>
+			<Cloth>15</Cloth>
+		</costList>
+		<graphicData>
+			<texPath>Kiiro/Apparel/OverHead/SingleGlass/SingleGlass</texPath>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<WorkToMake>2400</WorkToMake>
+			<StuffEffectMultiplierArmor>0.0</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<recipeMaker>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<researchPrerequisite Inherit="false">Kiiro_Machining</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>Kiiro_MachiningBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<apparel>
+			<tags Inherit="false">
+				<li>Kiiro_Researcher</li>
+				<li>Kiiro_EyeCover</li>
+				<li>Kiiro_Glasses</li>
+			</tags>
+			<developmentalStageFilter>Adult</developmentalStageFilter>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>Eyes</li>
+			</bodyPartGroups>
+			<layers Inherit="false">
+				<li>EyeCover</li>
+			</layers>
+			<wornGraphicPath>Kiiro/Apparel/OverHead/SingleGlass/SingleGlass</wornGraphicPath>
+		</apparel>
+		<equippedStatOffsets>
+			<ResearchSpeed>0.25</ResearchSpeed>
+			<SocialImpact>0.02</SocialImpact>
+			<NegotiationAbility>0.05</NegotiationAbility>
+			<WorkSpeedGlobal>-0.15</WorkSpeedGlobal>
+		</equippedStatOffsets>
+	</ThingDef>
+
+	<!-- 绮罗半框眼镜 -->
+	<ThingDef ParentName="Kiiro_OverheadBaseII">
+		<defName>Kiiro_Glasses</defName>
+		<label>kiiro glasses</label>
+		<description>Half-frame glasses that provide protection for vision. Even the kiiro with sharp eyes can't bear prolonged eye strain.\n\nDue to kiiro's ears being located on the top of their head, glasses frames cannot hold well. It is advisable not to wear them during labor-intensive tasks.</description>
+		<costList>
+			<Steel>30</Steel>
+			<Cloth>15</Cloth>
+		</costList>
+		<graphicData>
+			<texPath>Kiiro/Apparel/OverHead/Glasses/Glasses</texPath>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>10</MaxHitPoints>
+			<WorkToMake>3200</WorkToMake>
+			<StuffEffectMultiplierArmor>0.0</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<recipeMaker>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<researchPrerequisite Inherit="false">Kiiro_Machining</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>Kiiro_MachiningBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<apparel>
+			<tags Inherit="false">
+				<li>Kiiro_Student</li>
+				<li>Kiiro_EyeCover</li>
+				<li>Kiiro_Glasses</li>
+				<li>Kiiro_LaborGlasses</li>
+			</tags>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>Eyes</li>
+			</bodyPartGroups>
+			<layers Inherit="false">
+				<li>EyeCover</li>
+			</layers>
+			<wornGraphicPath>Kiiro/Apparel/OverHead/Glasses/Glasses</wornGraphicPath>
+		</apparel>
+		<equippedStatOffsets>
+			<GlobalLearningFactor>0.15</GlobalLearningFactor>
+			<WorkSpeedGlobal>-0.25</WorkSpeedGlobal>
+		</equippedStatOffsets>
+	</ThingDef>
+
+	<!-- 绮罗浪客斗笠 -->
+	<ThingDef ParentName="Kiiro_OverheadBaseIII">
+		<defName>Kiiro_RainHat</defName>
+		<label>kiiro rain hat</label>
+		<description>A conical hat providing protection from wind and rain while also offering a certain level of defense.</description>
+		<costList>
+			<DevilstrandCloth>25</DevilstrandCloth>
+		</costList>
+		<costStuffCount>75</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<graphicData>
+			<texPath>Kiiro/Apparel/OverHead/RainHat/RainHat</texPath>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>240</MaxHitPoints>
+			<WorkToMake>8400</WorkToMake>
+			<StuffEffectMultiplierArmor>0.55</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<recipeMaker>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<recipeUsers Inherit="false">
+				<li>Kiiro_ElectricSmithy</li>
+				<li>Kiiro_FueledSmithy</li>
+			</recipeUsers>
+		</recipeMaker>
+		<apparel>
+			<tags>
+				<li>Kiiro_NorthEarCover</li>
+				<li>Kiiro_AhogeCover</li>
+			</tags>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Kiiro/Apparel/OverHead/RainHat/RainHat</wornGraphicPath>
+		</apparel>
+		<equippedStatOffsets>
+		</equippedStatOffsets>
+	</ThingDef>
+
+	<!-- 绮罗矿工帽 -->
+	<ThingDef ParentName="Kiiro_OverheadBaseII">
+		<defName>Kiiro_MinerHat</defName>
+		<label>kiiro minerhat</label>
+		<description>A safety helmet with a headlamp installed. In fact, the Quiluo have excellent vision in the dark, so not sure why this headlamp is necessary; perhaps that's why it doesn't emit light.</description>
+		<costList>
+			<Cloth>25</Cloth>
+		</costList>
+		<costStuffCount>45</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<graphicData>
+			<texPath>Kiiro/Apparel/OverHead/MinerHat/MinerHat</texPath>
+		</graphicData>
+		<colorGenerator Class="ColorGenerator_Options">
+			<options>
+				<li>
+					<weight>100</weight>
+					<only>(255,255,255)</only>
+				</li>
+			</options>
+		</colorGenerator>
+		<statBases>
+			<MaxHitPoints>160</MaxHitPoints>
+			<WorkToMake>6000</WorkToMake>
+			<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<recipeMaker>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<researchPrerequisite Inherit="false">Kiiro_Machining</researchPrerequisite>
+			<recipeUsers Inherit="false">
+				<li>Kiiro_MachiningBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<apparel>
+			<tags>
+				<li>Kiiro_NorthEarCover</li>
+				<li>Kiiro_AhogeCover</li>
+				<li>Kiiro_Miner</li>
+			</tags>
+			<developmentalStageFilter>Adult</developmentalStageFilter>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Kiiro/Apparel/OverHead/MinerHat/MinerHat</wornGraphicPath>
+		</apparel>
+		<equippedStatOffsets>
+			<MiningSpeed>0.15</MiningSpeed>
+		</equippedStatOffsets>
+	</ThingDef>
+
+	<!-- 绮罗儿童通学帽 -->
+	<ThingDef ParentName="Kiiro_OverheadBaseII">
+		<defName>KiiroKid_SchoolCap</defName>
+		<label>kiiro child school cap</label>
+		<description>A student hat dyed in yellow color.</description>
+		<costList>
+			<Cloth>15</Cloth>
+		</costList>
+		<costStuffCount>25</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<graphicData>
+			<texPath>Kiiro/Apparel/OverHead/SchoolCap/SchoolCap</texPath>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>5600</WorkToMake>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<apparel>
+			<tags>
+				<li>Kiiro_NorthEarCover</li>
+				<li>Kiiro_AhogeCover</li>
+				<li>Kiiro_Student</li>
+			</tags>
+			<developmentalStageFilter>Child</developmentalStageFilter>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Kiiro/Apparel/OverHead/SchoolCap/SchoolCap</wornGraphicPath>
+		</apparel>
+		<equippedStatOffsets>
+			<GlobalLearningFactor>0.10</GlobalLearningFactor>
+		</equippedStatOffsets>
+	</ThingDef>
+
+	<!-- 绮罗护目镜 -->
+	<ThingDef ParentName="Kiiro_OverheadBaseIII">
+		<defName>Kiiro_Goggle</defName>
+		<label>kiiro goggle</label>
+		<description>Protective gear for the eyes that, when worn, slightly restricts the field of vision.</description>
+		<costList>
+			<Cloth>25</Cloth>
+		</costList>
+		<costStuffCount>35</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<graphicData>
+			<texPath>Kiiro/Apparel/OverHead/Goggle/Goggle</texPath>
+		</graphicData>
+		<statBases>
+			<Mass>0.6</Mass>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>5600</WorkToMake>
+			<ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<apparel>
+			<tags>
+				<li>Kiiro_GuerrillaHeadgear</li>
+				<li>Kiiro_EyeCover</li>
+			</tags>
+			<developmentalStageFilter>Adult</developmentalStageFilter>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>Eyes</li>
+			</bodyPartGroups>
+			<layers Inherit="false">
+				<li>EyeCover</li>
+			</layers>
+			<wornGraphicPath>Kiiro/Apparel/OverHead/Goggle/Goggle</wornGraphicPath>
+			<!-- <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace> -->
+		</apparel>
+		<tradeTags>
+			<li>Kiiro_GuerrillaWear</li>
+		</tradeTags>
+		<equippedStatOffsets>
+			<MeleeDodgeChance>-2.0</MeleeDodgeChance>
+			<AimingDelayFactor>0.05</AimingDelayFactor>
+			<ShootingAccuracyPawn>5.0</ShootingAccuracyPawn>
+		</equippedStatOffsets>
+	</ThingDef>
+
+	<!-- 绮罗护目镜（额头） -->
+	<ThingDef ParentName="Kiiro_OverheadBaseIII">
+		<defName>Kiiro_GoggleII</defName>
+		<label>kiiro goggle (forehead)</label>
+		<description>Protective gear for the eyes that, when worn, slightly restricts the field of vision. Lifted and placed on the forehead because not every kiiro likes to wear it all the time.</description>
+		<costList>
+			<Cloth>25</Cloth>
+		</costList>
+		<costStuffCount>35</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<graphicData>
+			<texPath>Kiiro/Apparel/OverHead/Goggle/Goggle</texPath>
+		</graphicData>
+		<statBases>
+			<Mass>0.6</Mass>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>5600</WorkToMake>
+			<ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<apparel>
+			<tags>
+				<li>Kiiro_GuerrillaHeadgear</li>
+				<li>Kiiro_EyeCover</li>
+			</tags>
+			<developmentalStageFilter>Adult</developmentalStageFilter>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>Eyes</li>
+			</bodyPartGroups>
+			<layers Inherit="false">
+				<li>EyeCover</li>
+			</layers>
+			<wornGraphicPath>Kiiro/Apparel/OverHead/GoggleII/GoggleII</wornGraphicPath>
+			<!-- <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace> -->
+		</apparel>
+		<tradeTags>
+			<li>Kiiro_GuerrillaWear</li>
+		</tradeTags>
+		<equippedStatOffsets>
+			<MeleeDodgeChance>-2.0</MeleeDodgeChance>
+			<AimingDelayFactor>0.05</AimingDelayFactor>
+			<ShootingAccuracyPawn>5.0</ShootingAccuracyPawn>
+		</equippedStatOffsets>
+	</ThingDef>
+
+	<!-- 绮罗军用头盔（A） -->
+	<ThingDef ParentName="Kiiro_OverheadBaseIII">
+		<defName>Kiiro_MilitaryHelmet</defName>
+		<label>kiiro military helmet (A)</label>
+		<description>The helmet used by kiiro guerrilla, providing certain head protection.</description>
+		<costList>
+			<Cloth>25</Cloth>
+		</costList>
+		<costStuffCount>35</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<graphicData>
+			<texPath>Kiiro/Apparel/OverHead/MilitaryHelmet/MilitaryHelmet</texPath>
+		</graphicData>
+		<statBases>
+			<Mass>1.2</Mass>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToMake>12600</WorkToMake>
+			<ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.05</ArmorRating_Heat>
+			<StuffEffectMultiplierArmor>0.48</StuffEffectMultiplierArmor>
+			<Insulation_Cold>8</Insulation_Cold>
+			<Insulation_Heat>6</Insulation_Heat>
+		</statBases>
+		<apparel>
+			<tags>
+				<li>Kiiro_GuerrillaHelmet</li>
+				<li>Kiiro_NorthEarCover</li>
+				<li>Kiiro_AhogeCover</li>
+			</tags>
+			<developmentalStageFilter>Adult</developmentalStageFilter>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+				<li>Eyes</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Kiiro/Apparel/OverHead/MilitaryHelmet/MilitaryHelmet</wornGraphicPath>
+		</apparel>
+		<tradeTags>
+			<li>Kiiro_GuerrillaWear</li>
+		</tradeTags>
+		<equippedStatOffsets>
+			<AimingDelayFactor>-0.10</AimingDelayFactor>
+			<ShootingAccuracyPawn>-3.0</ShootingAccuracyPawn>
+			<MoveSpeed>-0.05</MoveSpeed>
+		</equippedStatOffsets>
+	</ThingDef>
+
+	<!-- 绮罗军用头盔（B） -->
+	<ThingDef ParentName="Kiiro_OverheadBaseIII">
+		<defName>Kiiro_MilitaryHelmetII</defName>
+		<label>kiiro military helmet (B)</label>
+		<description>The helmet used by kiiro guerrilla, providing certain head protection.</description>
+		<costList>
+			<Cloth>25</Cloth>
+		</costList>
+		<costStuffCount>35</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<graphicData>
+			<texPath>Kiiro/Apparel/OverHead/MilitaryHelmetII/MilitaryHelmetII</texPath>
+		</graphicData>
+		<statBases>
+			<Mass>1.2</Mass>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToMake>12600</WorkToMake>
+			<ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.05</ArmorRating_Heat>
+			<StuffEffectMultiplierArmor>0.48</StuffEffectMultiplierArmor>
+			<Insulation_Cold>8</Insulation_Cold>
+			<Insulation_Heat>6</Insulation_Heat>
+		</statBases>
+		<apparel>
+			<tags>
+				<li>Kiiro_GuerrillaHelmet</li>
+				<li>Kiiro_NorthEarCover</li>
+				<li>Kiiro_SouthEarCover</li>
+				<li>Kiiro_AhogeCover</li>
+			</tags>
+			<developmentalStageFilter>Adult</developmentalStageFilter>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+				<li>Eyes</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Kiiro/Apparel/OverHead/MilitaryHelmetII/MilitaryHelmetII</wornGraphicPath>
+		</apparel>
+		<tradeTags>
+			<li>Kiiro_GuerrillaWear</li>
+		</tradeTags>
+		<equippedStatOffsets>
+			<AimingDelayFactor>-0.10</AimingDelayFactor>
+			<ShootingAccuracyPawn>-3.0</ShootingAccuracyPawn>
+			<MoveSpeed>-0.05</MoveSpeed>
+		</equippedStatOffsets>
+	</ThingDef>
+
+	<!-- 绮罗军医头盔 -->
+	<ThingDef ParentName="Kiiro_OverheadBaseIII">
+		<defName>Kiiro_MilitaryHelmetMedic</defName>
+		<label>kiiro military helmet medic</label>
+		<description>he helmet worn by the kiiro guerrilla medics during combat, featuring a prominent red cross symbol painted on it.</description>
+		<costList>
+			<Cloth>25</Cloth>
+		</costList>
+		<costStuffCount>35</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<graphicData>
+			<texPath>Kiiro/Apparel/OverHead/MilitaryHelmetMedic/MilitaryHelmetMedic</texPath>
+		</graphicData>
+		<statBases>
+			<Mass>1.2</Mass>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToMake>12600</WorkToMake>
+			<ArmorRating_Sharp>0.20</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.05</ArmorRating_Heat>
+			<StuffEffectMultiplierArmor>0.48</StuffEffectMultiplierArmor>
+			<Insulation_Cold>8</Insulation_Cold>
+			<Insulation_Heat>6</Insulation_Heat>
+		</statBases>
+		<apparel>
+			<tags>
+				<li>Kiiro_GuerrillaHelmetMedic</li>
+				<li>Kiiro_NorthEarCover</li>
+				<li>Kiiro_AhogeCover</li>
+			</tags>
+			<developmentalStageFilter>Adult</developmentalStageFilter>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+				<li>Eyes</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Kiiro/Apparel/OverHead/MilitaryHelmetMedic/MilitaryHelmetMedic</wornGraphicPath>
+		</apparel>
+		<tradeTags>
+			<li>Kiiro_GuerrillaWear</li>
+		</tradeTags>
+		<equippedStatOffsets>
+			<MedicalTendSpeed>3.0</MedicalTendSpeed>
+			<MedicalTendQuality>-0.15</MedicalTendQuality>
+			<MoveSpeed>-0.05</MoveSpeed>
+		</equippedStatOffsets>
+	</ThingDef>
+
+	<!-- 绮罗魅影兜帽 -->
+	<ThingDef ParentName="Kiiro_OverheadBaseIV">
+		<defName>Kiiro_PhantomHood</defName>
+		<label>kiiro phantom hood</label>
+		<description>A black hooded cloak, made of sturdy fabric.</description>
+		<costList>
+			<DevilstrandCloth>30</DevilstrandCloth>
+		</costList>
+		<costStuffCount>60</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<graphicData>
+			<texPath>Kiiro/Apparel/OverHead/Hood/Hood</texPath>
+		</graphicData>
+		<statBases>
+			<Mass>1.2</Mass>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToMake>24000</WorkToMake>
+			<ArmorRating_Sharp>0.3</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.3</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.2</ArmorRating_Heat>
+			<StuffEffectMultiplierArmor>0.18</StuffEffectMultiplierArmor>
+			<Insulation_Cold>8</Insulation_Cold>
+			<Insulation_Heat>6</Insulation_Heat>
+		</statBases>
+		<apparel>
+			<tags>
+				<li>Kiiro_PhantomHood</li>
+				<li>Kiiro_NorthEarCover</li>
+				<li>Kiiro_AhogeCover</li>
+			</tags>
+			<developmentalStageFilter>Adult</developmentalStageFilter>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+				<li>Eyes</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Kiiro/Apparel/OverHead/Hood/Hood</wornGraphicPath>
+		</apparel>
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.02</MentalBreakThreshold>
+			<PsychicSensitivity>-2.0</PsychicSensitivity>
+		</equippedStatOffsets>
+		<comps>
+			<li Class="CompProperties_CauseHediff_Apparel">
+				<hediff>Kiiro_Hood</hediff>
+				<part>Head</part>
+			</li>
+		</comps>
+	</ThingDef>
+	<HediffDef>
+		<defName>Kiiro_Hood</defName>
+		<label>kiiro phantom hood</label>
+		<description>Wearing kiiro phantom hood</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_RemoveIfApparelDropped"/>
+		</comps>
+		<isBad>false</isBad>
+	</HediffDef>
+
+	<!-- 绮罗影袭者围巾 -->
+	<ThingDef ParentName="Kiiro_OverheadBaseIV">
+		<defName>Kiiro_CounterScarf</defName>
+		<label>kiiro shadow strike scarf</label>
+		<description>A combat headgear that increase the nimbleness of kiiro race by giving up defenses. Improves dodge chance.</description>
+		<costList>
+			<DevilstrandCloth>30</DevilstrandCloth>
+		</costList>
+		<costStuffCount>60</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<graphicData>
+			<texPath>Kiiro/Apparel/OverHead/CounterScarf/CounterScarf</texPath>
+		</graphicData>
+		<statBases>
+			<Mass>1.2</Mass>
+			<MaxHitPoints>120</MaxHitPoints>
+			<WorkToMake>24000</WorkToMake>
+			<ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.2</ArmorRating_Heat>
+			<StuffEffectMultiplierArmor>0.12</StuffEffectMultiplierArmor>
+			<Insulation_Cold>8</Insulation_Cold>
+			<Insulation_Heat>6</Insulation_Heat>
+		</statBases>
+		<apparel>
+			<tags>
+				<li>Kiiro_ShadowStrike</li>
+			</tags>
+			<developmentalStageFilter>Adult</developmentalStageFilter>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<!-- <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace> -->
+			<bodyPartGroups>
+				<li>FullHead</li>
+				<li>Mouth</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Kiiro/Apparel/OverHead/CounterScarf/CounterScarf</wornGraphicPath>
+		</apparel>
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.02</MentalBreakThreshold>
+			<ToxicEnvironmentResistance>0.35</ToxicEnvironmentResistance>
+			<MeleeDodgeChance>5</MeleeDodgeChance>
+			<Ancot_RangeDodgeChance>0.03</Ancot_RangeDodgeChance>
+		</equippedStatOffsets>
+		<comps>
+			<li Class="CompProperties_CauseHediff_Apparel">
+				<hediff>Kiiro_CounterScarf</hediff>
+				<part>Head</part>
+			</li>
+		</comps>
+	</ThingDef>
+	<HediffDef>
+		<defName>Kiiro_CounterScarf</defName>
+		<label>kiiro counter scarf</label>
+		<description>Wearing kiiro counter scarf</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_RemoveIfApparelDropped"/>
+		</comps>
+		<isBad>false</isBad>
+	</HediffDef>
+
+	<!-- 绮罗勇者头冠 -->
+	<ThingDef ParentName="Kiiro_OverheadBaseSpecial">
+		<defName>Kiiro_ValorTiara</defName>
+		<label>kiiro valor tiara</label>
+		<description>The tiara worn by the kiiro valor, forged from incredibly rare materials.</description>
+		<graphicData>
+			<texPath>Kiiro/Apparel/OverHead/ValorTiara/ValorTiara</texPath>
+		</graphicData>
+		<costList>
+			<Plasteel>225</Plasteel>
+		</costList>
+		<statBases>
+			<Mass>1.8</Mass>
+			<MaxHitPoints>800</MaxHitPoints>
+			<WorkToMake>12600</WorkToMake>
+			<ArmorRating_Sharp>1.35</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.9</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Insulation_Cold>8</Insulation_Cold>
+			<Insulation_Heat>6</Insulation_Heat>
+		</statBases>
+		<apparel>
+			<tags>
+				<li>Kiiro_ValorTiara</li>
+				<li>Kiiro_Legend</li>
+			</tags>
+			<developmentalStageFilter>Adult</developmentalStageFilter>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<!--<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>-->
+			<wornGraphicPath>Kiiro/Apparel/OverHead/ValorTiara/ValorTiara</wornGraphicPath>
+		</apparel>
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.10</MentalBreakThreshold>
+			<PsychicSensitivity>-2.0</PsychicSensitivity>
+		</equippedStatOffsets>
+	</ThingDef>
+
+
+
+
+	<!-- 二期服装========================================================================================================================================== -->
+
+	<!-- 绮罗包头巾（款式1） -->
+	<ThingDef ParentName="Kiiro_OverheadBaseII">
+		<defName>Kiiro_HeadclothI</defName>
+		<label>kiiro headcloth (style 1)</label>
+		<description>A piece of cloth wrapped around the head.</description>
+		<costStuffCount>60</costStuffCount>
+		<stuffCategories>
+			<li>Leathery</li>
+		</stuffCategories>
+		<graphicData>
+			<texPath>Kiiro/Apparel/OverHead/HeadclothI/HeadclothI</texPath>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>5400</WorkToMake>
+			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<apparel>
+			<tags>
+				<li>Kiiro_Labor</li>
+				<li>Kiiro_AhogeCover</li>
+			</tags>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Kiiro/Apparel/OverHead/HeadclothI/HeadclothI</wornGraphicPath>
+		</apparel>
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.04</MentalBreakThreshold>
+			<GeneralLaborSpeed>0.02</GeneralLaborSpeed>
+		</equippedStatOffsets>
+	</ThingDef>
+
+
+	<!-- 绮罗宽边礼帽 -->
+	<ThingDef ParentName="Kiiro_OverheadBaseIII">
+		<defName>Kiiro_MelonikWideEdge</defName>
+		<label>kiiro wide edge melonik</label>
+		<description>A Melonik with wide edge, perfect for social gatherings.</description>
+		<costList>
+			<DevilstrandCloth>20</DevilstrandCloth>
+		</costList>
+		<costStuffCount>60</costStuffCount>
+		<stuffCategories>
+			<li>Leathery</li>
+		</stuffCategories>
+		<graphicData>
+			<texPath>Kiiro/Apparel/OverHead/MelonikWideEdge/MelonikWideEdge</texPath>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>6000</WorkToMake>
+			<StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<apparel>
+			<tags>
+				<li>Kiiro_NorthEarCover</li>
+				<li>Kiiro_Trader</li>
+				<li>Kiiro_AhogeCover</li>
+			</tags>
+			<developmentalStageFilter>Adult</developmentalStageFilter>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Kiiro/Apparel/OverHead/MelonikWideEdge/MelonikWideEdge</wornGraphicPath>
+		</apparel>
+		<equippedStatOffsets>
+			<TradePriceImprovement>0.12</TradePriceImprovement>
+			<MentalBreakThreshold>-0.06</MentalBreakThreshold>
+		</equippedStatOffsets>
+	</ThingDef>
+
+
+
+	<!-- 绮罗头侧蝴蝶结发饰 -->
+	<ThingDef ParentName="Kiiro_OverheadBaseIII">
+		<defName>Kiiro_SideBowknot</defName>
+		<label>kiiro side bowknot</label>
+		<description>A large side bowknot.</description>
+		<costStuffCount>65</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<graphicData>
+			<texPath>Kiiro/Apparel/OverHead/SideBowknot/SideBowknot</texPath>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>2500</WorkToMake>
+			<StuffEffectMultiplierArmor>0.0</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<apparel>
+			<tags>
+				<li>Kiiro_DailyHat</li>
+				<li>Kiiro_SouthEarCover</li>
+			</tags>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Kiiro/Apparel/OverHead/SideBowknot/SideBowknot</wornGraphicPath>
+		</apparel>
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.06</MentalBreakThreshold>
+			<SocialImpact>0.04</SocialImpact>
+		</equippedStatOffsets>
+	</ThingDef>
+
+
+
+	<!-- 绮罗绑带发箍 -->
+	<ThingDef ParentName="Kiiro_OverheadBaseIII">
+		<defName>Kiiro_TieHeadbond</defName>
+		<label>kiiro leisure tie headbond</label>
+		<description>A leisure tie headbond.</description>
+		<costList>
+			<Cloth>20</Cloth>
+		</costList>
+		<costStuffCount>30</costStuffCount>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+		<graphicData>
+			<texPath>Kiiro/Apparel/OverHead/TieHeadbond/TieHeadbond</texPath>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<WorkToMake>2500</WorkToMake>
+			<StuffEffectMultiplierArmor>0.0</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<apparel>
+			<tags>
+				<li>Kiiro_DailyHat</li>
+				<li>Kiiro_NorthEarCover</li>
+			</tags>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<useWornGraphicMask>false</useWornGraphicMask>
+			<bodyPartGroups>
+				<li>UpperHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Kiiro/Apparel/OverHead/TieHeadbond/TieHeadbond</wornGraphicPath>
+		</apparel>
+		<equippedStatOffsets>
+			<MentalBreakThreshold>-0.09</MentalBreakThreshold>
+		</equippedStatOffsets>
+	</ThingDef>
+
+
+</Defs>

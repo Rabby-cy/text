@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <!-- 事件 -->
+    <OARatkin_LetterLabel_TributeCollectorArrival>金鸢尾蘭物資征募隊</OARatkin_LetterLabel_TributeCollectorArrival>
+    <OARatkin_Letter_TributeCollectorArrival>來自{FACTION_name}的金鸢尾蘭物資征募隊到達了我們的居住地，他們將會在這裏停留壹段時間。如果我們願意，他們會接受我們提供的黃金，漿果以及合成纖維，並且記錄下我們的貢獻。當我們的貢獻達到壹定數值時，他們將會接納我們並給予我們貴族身份。</OARatkin_Letter_TributeCollectorArrival>
+
+    <OARatkin_LetterLabel_SupplyShipShowConcern>補給船慰問</OARatkin_LetterLabel_SupplyShipShowConcern>
+    <OARatkin_Letter_SupplyShipShowConcern>來自{FACTION_name}金鸢尾蘭補給船向我們致以慰問，並且還贈與我們{1}莓果。</OARatkin_Letter_SupplyShipShowConcern>
+
+    <OARatkin_LetterLabel_NewYearEvent>金鸢尾蘭的節日來信</OARatkin_LetterLabel_NewYearEvent>
+
+    <!-- 路過的勘探隊 -->
+    <OARK_LetterLabel_ProspectingTeam>路過的勘探隊</OARK_LetterLabel_ProspectingTeam>
+    <OARK_Letter_ProspectingTeam>一支來自金鳶尾蘭帝國的地質勘探隊正在向你的殖民地靠近。\n這支勘探隊的隊長是{0}，她們攜帶著大量的勘探用裝備，甚至包括一臺組件狀態的深鑽井，而這樣的裝備嚴重的拖慢了她們的行程。\n\n你聽到了她們正在議論著是否要遺棄這臺深鑽井，以更快的返回營地，但她們似乎還未下定決心。</OARK_Letter_ProspectingTeam>
+
+    <OARK_LetterLabel_ProspectingTeamReject_OA>遺憾的告別</OARK_LetterLabel_ProspectingTeamReject_OA>
+    <OARK_Letter_ProspectingTeamReject_OA>聽到了你的婉拒後，{0}儘管理解了你的難處，但依然難掩失望的神色。\n\n然而出於對同胞的在意，{0}依然為你留下了一些糕點，並對你說了幾句激勵的話語，以及提醒了一些可能的危險後才帶隊離開。</OARK_Letter_ProspectingTeamReject_OA>
+    <OARK_LetterLabel_ProspectingTeamReject>遺憾的告別</OARK_LetterLabel_ProspectingTeamReject>
+    <OARK_Letter_ProspectingTeamReject>聽到了你的婉拒後，{0}儘管感到遺憾，但也理解了你的難處。為此，{0}沒有與隊員過多的打擾你，在稍作整備後便離開了。</OARK_Letter_ProspectingTeamReject>
+
+    <OARK_LetterLabel_ProspectingTeamReward_OA>勘探隊的餞別禮</OARK_LetterLabel_ProspectingTeamReward_OA>
+    <OARK_Letter_ProspectingTeamReward_OA>雖然出於不願為荒野中的同胞帶來太多麻煩的心理，勘探隊的成員顯得略有拘謹，然而在你所提供的熱情接待與短暫的休整後，這支勘探隊還是很快的就恢復了元氣。\n\n出於幫助同胞的心理，以及回報你的善意的想法，{0}帶領她的隊員幫助你對這片地區進行了簡單勘探，併成功的幫你找到了一片地下鈾礦的礦脈。此外，{0}還注意到你似乎缺乏對應的地下開採設施。為此在稍許思考後，{0}便決定將隊內攜帶的深鑽井留在了礦脈上，以幫助你更好的獲取資源。\n\n做完這一切並再次確認了你已經擁有開採能力後，{0}便向你進行了告別。臨行前她讓勘探隊留下了她們所攜帶的部分糕點，以幫助你們更好的面對荒野的挑戰。此外，她還把你們的信息通過攜帶的通訊端完成了提交。因此現在儘管你們建立了自己的小派系，但你們將依然被視為帝國的一份子。</OARK_Letter_ProspectingTeamReward_OA>
+    <OARK_LetterLabel_ProspectingTeamReward>勘探隊的餞別禮</OARK_LetterLabel_ProspectingTeamReward>
+    <OARK_Letter_ProspectingTeamReward>得益於你提供的臨時休整，這支勘探隊很快的便恢復了元氣，並在狀態恢復後稍作整頓便準備離開了。\n\n而在離開之前，為了回報你的友好幫助，{0}帶領她的隊員幫助你對這片地區進行了簡單勘探，併成功的幫你找到了一片地下鈾礦的礦脈。此外，{0}還注意到你似乎缺乏對應的地下開採設施。為此在稍許思考後，{0}便決定將隊內攜帶的深鑽井留在了礦脈上，以幫助你更好的獲取資源。\n\n在做完了上述事項並再一次確認了你已經擁有了開採能力後，似乎是不願過多的打擾你，{0}很快便帶領勘探隊踏上了返程。在臨行前她再一次肯定了你的友誼，並表示在這混亂的世界裡，你的善良是如此地可貴。</OARK_Letter_ProspectingTeamReward>
+
+    <!-- 25年元旦信件内容 -->
+    <!--OARatkin_Letter_NewYearEvent>致金鸢尾蘭真誠的盟友{MAP_label}：\n\n根據鸢尾蘭通用曆法，這幾日內鸢尾蘭曆將邁入新的壹年。\n過去的仇恨將被放下，未來的和諧就在不遠。在這個特殊的日子裏，我代表{FACTION_name}的宮廷人員向{MAP_label}致以真誠的問候與祝福。在這全新的壹年中，金鸢尾蘭帝國將會繼續向著和諧的世界而努力，我們最終將壹同締造屬于我們的烏托邦。\n隨信附贈的壹些節日禮物，還望收下。\n\n除此以外，技術部的侍從們近期還研究出來了壹個新設備。他們認爲這個小魔方多少會對妳有所幫助，因此特地隨信壹同附上，就當是他們對朋友的一份好意吧。\n\n新年快樂。\n\n\n\n{FACTION_name}的{1}\n{LEADER_nameDef}。</OARatkin_Letter_NewYearEvent-->
+    <!-- 25年元旦信件内容 -->
+    <!--OARatkin_Letter_NewYearEventLate>致金鸢尾蘭真誠的盟友{MAP_label}：\n\n根據鸢尾蘭通用曆法，這幾日內鸢尾蘭曆將邁入新的壹年。\n過去的仇恨將被放下，未來的和諧就在不遠。在這個特殊的日子裏，我代表{FACTION_name}的宮廷人員向{MAP_label}致以真誠的問候與祝福。在這全新的壹年中，金鸢尾蘭帝國將會繼續向著和諧的世界而努力，我們最終將壹同締造屬于我們的烏托邦。\n隨信附贈的壹些節日禮物，還望收下。\n\n除此以外，技術部的侍從們近期還研究出來了壹個新設備。他們認爲這個小魔方多少會對妳有所幫助，因此特地隨信壹同附上，就當是他們對朋友的好意吧。\n\n新年快樂。\n\n\n\n{FACTION_name}的{1}\n{LEADER_nameDef}。</OARatkin_Letter_NewYearEventLate-->
+	<!-- 1號準時觸發信件內容-->
+	<OARatkin_Letter_NewYearEvent>致金鳶尾蘭真誠的盟友{MAP_label}:\n\n雖然在邊緣世界中講求節日可能不合時宜，但苦難並不能剝奪追求幸福的權利。 而按照鳶尾蘭通用曆法，這幾日內，鳶尾蘭曆將邁入充滿希望的新一年。 \n悠久的冬日終將走向尾聲，和煦的春意會在雪中萌芽。 也許隆冬仍然繼續，但春熙總會到來。 而在這壁爐篝火仍燃的冬日中，請允許我代表{FACTION_name}的宮廷人員向{MAP_label}致以真誠的問候與祝福。 過去的苦與樂已然化作昨日記憶，而今日的記憶將由你我的善意所築起。 在新的一年中，還願你我共勉，唯有在風雪中前進，才能抵達芳草與綠茵。 \n\n不過您是否知道鼠族王國的騎士團的近况？ 我聽聞他們似乎正因糟糕的專案管理而深受困境，不過他們的團長似乎樂觀的認為這只是暫時而必要的挫折，但願他們真的如此吧。 \n\n新年快樂。 \n\n\n\n{FACTION_name}的{1}\n{LEADER_nameDef}。 </OARatkin_Letter_NewYearEvent>
+	<!-- 2、3號觸發信件內容-->
+	<OARatkin_Letter_NewYearEventLate>致金鳶尾蘭真誠的盟友{MAP_label}:\n\n雖然在邊緣世界中講求節日可能不合時宜，但苦難並不能剝奪追求幸福的權利。 而按照鳶尾蘭通用曆法，這幾日內，鳶尾蘭曆將邁入充滿希望的新一年。 \n悠久的冬日終將走向尾聲，和煦的春意會在雪中萌芽。 也許隆冬仍然繼續，但春熙總會到來。 而在這壁爐篝火仍燃的冬日中，請允許我代表{FACTION_name}的宮廷人員向{MAP_label}致以真誠的問候與祝福。 過去的苦與樂已然化作昨日記憶，而今日的記憶將由你我的善意所築起。 在新的一年中，還願你我共勉，唯有在風雪中前進，才能抵達芳草與綠茵。 \n\n不過您是否知道鼠族王國的騎士團的近况？ 我聽聞他們似乎正因糟糕的專案管理而深受困境，不過他們的團長似乎樂觀的認為這只是暫時而必要的挫折，但願他們真的如此吧。 \n\n新年快樂。 \n\n\n\n{FACTION_name}的{1}\n{LEADER_nameDef}。 </OARatkin_Letter_NewYearEventLate>
+    <!-- 雜項 -->
+    <OA_PsychicSlaughter>對成員使用了心靈宰殺</OA_PsychicSlaughter>
+
+
+
+    <!-- 多方會談 -->
+    <OA_LetterLabelMultiPartyTalks_Disaster>我們搞砸了這場會談</OA_LetterLabelMultiPartyTalks_Disaster>
+    <OA_LetterMultiPartyTalks_Disaster>妳的代表不僅沒有能夠協調會談氛圍，反而壹次又壹次的發表著充斥著挑釁以及爭議性的言論。這些挑釁與爭議性的言論最終導致其他勢力的代表忍無可忍的開始了彼此之間的罵戰，並迅速的升級成了現場鬥毆。當妳的代表被現場的金鸢尾蘭工作人員從滿天亂飛的凳子與文件夾中救出來的時候，妳能感覺到他們看妳的眼神充斥著不明的意味。\n\n與所有參與會談的派系好感：{1}，與{0}的好感：{2}。</OA_LetterMultiPartyTalks_Disaster>
+
+    <OA_LetterLabelMultiPartyTalks_Backfire>我們發表了不當的言論</OA_LetterLabelMultiPartyTalks_Backfire>
+    <OA_LetterMultiPartyTalks_Backfire>這場談判的最終結果事與願違。由于妳的代表不慎發表了壹次充斥著爭議性的言論，因此會談的氣氛迅速滑向了彼此爭吵的深淵，最終這場談判不歡而散。\n\n與所有參與會談的派系，包括{0}在內好感：{1}。</OA_LetterMultiPartyTalks_Backfire>
+
+    <OA_LetterLabelMultiPartyTalks_Flounder>這場會談很是僵持</OA_LetterLabelMultiPartyTalks_Flounder>
+    <OA_LetterMultiPartyTalks_Flounder>談判過程困難重重。即便妳的代表嘗試過緩解各方勢力的矛盾，但無奈其中的利益牽扯過于龐大，因此各個勢力的代表依然堅持著自己勢力的立場，而沒能達成共識。\n\n與所有參與會談間的關系保持不變，但與{0}的關系提升了：{1}。</OA_LetterMultiPartyTalks_Flounder>
+
+    <OA_LetterLabelMultiPartyTalks_Success>成功的和平談判</OA_LetterLabelMultiPartyTalks_Success>
+    <OA_LetterMultiPartyTalks_Success>談判成功。雖然關鍵的問題仍然未得到解決，但起碼各個勢力的代表已經有了緩和矛盾的傾向。\n\n與三個參與會談的派系間的關系提升了{1}，與{0}的的關系提升了{2}。\n\n此外，由于妳的代表在這場會談中發揮了重要作用，{0}表示將記住他在這場會談中所做的貢獻。妳獲得了{3}點支援點數。</OA_LetterMultiPartyTalks_Success>
+
+    <OA_LetterLabelMultiPartyTalks_Triumph>和平談判取得圓滿收場</OA_LetterLabelMultiPartyTalks_Triumph>
+    <OA_LetterMultiPartyTalks_Triumph>談判取得了難以想象的巨大成功，各大勢力的代表真正的理解了彼此勢力的需求與難處，並且在這些方面上進行了部分讓步與調節，可以預見的是這將有效的促進整個星球的和諧氛圍。\n\n與所有參與會談的派系間的關系提升了{1}，與{0}的的關系提升了{2}。\n\n此外，由于妳的代表在這場會談中發揮了重要作用，{0}表示將記住他在這場會談中所做的貢獻。妳獲得了{4}點支援點數。</OA_LetterMultiPartyTalks_Triumph>
+
+    <OA_GoodWillChange>與{0}關系：{1}</OA_GoodWillChange>
+
+
+    <!-- 外交斡旋 -->
+    <OA_OptionalDiplomaticOffices>{0}的{1}想要爲我們舉辦壹場外交斡旋。</OA_OptionalDiplomaticOffices>
+
+    <OA_LetterLabelDiplomaticOffices_Success>成功的外交斡旋</OA_LetterLabelDiplomaticOffices_Success>
+    <OA_LetterDiplomaticOffices_Success>斡旋成功。雙方代表們在{0}的斡旋下于壹系列問題上達成理解。\n\n與{1}間的關系提升了{2}。</OA_LetterDiplomaticOffices_Success>
+
+    <OA_LetterLabelDiplomaticOffices_Triumph>外交斡旋圓滿收場</OA_LetterLabelDiplomaticOffices_Triumph>
+    <OA_LetterDiplomaticOffices_Triumph>斡旋取得了重大的成功！每當{0}引起壹些議題的時候，雙方代表往往能夠在和睦的氛圍裏毫無違和的接下這些話題，並且進行理性而友善的交流與討論。當這場斡旋進入尾聲時，雙方代表幾乎已經締結了友誼，並最終代表各自的派系達成了壹系列極具重要性的共識。\n\n與{1}間的關系提升了{2}。</OA_LetterDiplomaticOffices_Triumph>
+
+    <!-- 派系基地：深入溝通 -->
+    <OA_SettlementDeepExchange>深入溝通</OA_SettlementDeepExchange>
+    <OA_LetterLabelDeepExchange>深入溝通</OA_LetterLabelDeepExchange>
+    <OA_LetterResearchDeepExchange>妳的遠行隊嘗試與 {SETTLEMENT_label} 的金鸢尾蘭宮廷高層進行了壹些交流與深入探討，以促進彼此了解。在這場還算融洽的討論結束後，{SETTLEMENT_label} 的宮廷對妳們的狀況有了更加詳細的理解，並且他們對妳們提供援助的意願增加了。\n而在會談結束時，{SETTLEMENT_label} 的宮廷人員贈送了妳們壹盒花糕，以作爲對朋友的贈禮，並祝福妳們壹路順風。\n\n獲得：\n金鸢尾蘭流心花糕 × 10 \n支援點數 × 5</OA_LetterResearchDeepExchange>
+    <OA_LetterResearchDeepExchangeAdditional>此外，妳的談判者還從 {SETTLEMENT_label} 的宮廷處得到了壹份情報，也許妳可以嘗試主動協助金鸢尾蘭帝國以獲得更多的回報。\n獲得任務：{1}</OA_LetterResearchDeepExchangeAdditional>
+
+</LanguageData>

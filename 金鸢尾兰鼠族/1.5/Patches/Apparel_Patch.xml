@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Ratkin"]/alienRace/raceRestriction/apparelList</xpath>
+		<value>
+			<li>OA_RK_Windbreaker_A</li>
+			<li>OA_RK_Windbreaker_B</li>
+			<li>OA_RK_Windbreaker_C</li>
+			<li>OA_RK_Windbreaker_D</li>
+			<li>OA_RK_Windbreaker_E</li>
+			<li>OA_RK_Windbreaker_F</li>
+			<li>OA_RK_Windbreaker_G</li>
+			<li>OA_RK_Hat_A</li>
+			<li>OA_RK_Hat_B</li>
+			<li>OA_RK_Hat_C</li>
+			<li>OA_RK_Hat_D</li>
+			<li>OA_RK_Hat_E</li>
+			<li>OA_RK_Armor_Hat_A</li>
+			<li>OA_RK_Middle</li>
+			<li>OA_RK_Armor_Hat_B</li>
+			<li>OA_RK_Sandwich_C</li>
+			<li>OA_RK_Sandwich_B</li>
+			<li>OA_RK_Sandwich_A</li>
+			<li>OA_RK_Traveller_B</li>
+			<li>OA_RK_Traveller_A</li>
+			<li>OA_RK_Apparel_F</li>
+			<li>OA_RK_Apparel_E</li>
+			<li>OA_RK_Apparel_D</li>
+			<li>OA_RK_Apparel_C</li>
+			<li>OA_RK_Apparel_B</li>
+			<li>OA_RK_Apparel_A</li>
+			<li>OA_RK_Professional_Uniforms_D</li>
+			<li>OA_RK_Professional_Uniforms_C</li>
+			<li>OA_RK_Professional_Uniforms_B</li>
+			<li>OA_RK_Professional_Uniforms_A</li>
+			<li>OA_RK_EMPBelt</li>
+			<li>OA_RK_FirstAid</li>
+			<li>OA_RK_LifeformDetect</li>
+			<li>OA_RK_BlitzBelt</li>
+			<li>OA_RK_Belt</li>
+			<li>OA_RK_Component_D</li>
+			<li>OA_RK_Component_E</li>
+			<li>OA_RK_Component_F</li>
+			<li>OA_RK_Component_AA</li>
+			<li>OA_RK_Component_AB</li>
+			<li>OA_RK_Component_AC</li>
+			<li>OA_RK_New_Hat_A</li>
+			<li>OA_RK_New_Hat_B</li>
+			<li>OA_RK_New_Hat_C</li>
+			<li>OA_RK_New_Hat_D</li>
+			<li>OA_RK_New_Sandwich_A</li>
+			<li>OA_RK_New_Windbreaker_A</li>
+			<li>OA_RK_New_Windbreaker_B</li>
+			<li>OA_RK_New_Windbreaker_C</li>
+			<li>OA_RK_New_Windbreaker_D</li>
+			<li>OA_RK_New_Windbreaker_E</li>
+			<li>OA_RK_New_Professional_Uniforms_C</li>
+			<li>OA_RK_New_Professional_Uniforms_B</li>
+			<li>OA_RK_New_Professional_Uniforms_A</li>
+			<li>OA_RK_New_Apparel_A</li>
+			<li>OA_RK_New_Apparel_B</li>
+			<li>OA_RK_New_Apparel_C</li>
+			<li>OA_RK_New_Apparel_D</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">OA_RK_New_Belt_B</li>
+			<li>OA_RK_New_Belt_A</li>
+			<li>OA_RK_New_Component_A</li>
+			<li>OA_RK_New_Component_B</li>
+			<li>OA_RK_New_Component_C</li>
+			<li>OA_RK_New_Component_D</li>
+			<li>OA_RK_New_Windbreaker_FangzhiBUGdehouzhui_ACC</li>
+			<li>OA_RK_New_Windbreaker_FangzhiBUGdehouzhui</li>
+			<li>OA_RK_New_Windbreaker_G</li>
+		</value>
+	</Operation>
+	
+</Patch>

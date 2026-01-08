@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<RulePackDef>
+		<defName>OARK_RulePack_ProgressText</defName>
+		<rulePack>
+			<rulesStrings>
+			<li>r_text->You can vaguely hear that the attendants of the research department seem to be discussing something in confusion. It seems they are really having a headache over a certain problem.</li>
+			<li>r_text->You can't hear any background noise. It seems the attendants of the technology department are either resting or completely focused on their research.</li>
+			<li>r_text->You hear the sound of instruments running in the research lab. Everything seems to be operating in an orderly manner, which gives you a strange sense of peace.</li>
+			<li>r_text->The names of some dark cuisine and related discussions are intermittently heard in the background. You don't plan to think deeply about what that means.</li>
+			<li>r_text->You hear the sound of a flower cake box being opened in the background. It seems to be a self-cleaning sterile flower cake.</li>
+			<li>r_text->You hear an attendant from the external affairs department telling an attendant from the research department about some requirements. It seems the search and rescue capabilities of the external affairs department will be enhanced again soon.</li>
+			<li>r_text->Words related to navigation and gravity are heard in the background. You guess it's probably an attendant from the navigation department asking about the progress of anti-gravity technology.</li>
+			<li>r_text->You hear the research department attendants seriously discussing the civilian use of some risky technologies. They'd better just be thinking about it.</li>
+			<li>r_text->From the slightly noisy background, you hear the names of research pods being mentioned repeatedly. It seems the research department attendants are having a discussion about naming their new research pods.\nBy the way, does it really make a difference?</li>
+			<li>r_text->On the other end of the communication, the research department attendants seem to be seriously giving usage instructions to members of the technology department.\nYou can't help but want to yawn.</li>
+			<li>r_text->You hear a faint rustling sound of pages turning. It seems the research department attendants are studying some ancient theories.</li>
+			<li>r_text->You suddenly hear a heart-stopping impact sound, followed by a scream, the sound of a small aircraft losing control, and the exclamations of the research department attendants... Why does there seem to be a technical officer here too?</li>
+			<li>r_text(gravlitePanel==True)->In the background noise, you hear the research department attendants conducting physical checks on some panels. This suddenly reminds you of the anti-gravity panels you sent over. Hopefully, the panels are okay.</li>
+			<li>r_text(gravlitePanel==True)->A cracking sound and a collective sigh come from the other end of the communication. It seems the batch of anti-gravity panels you gave them hasn't had a very good time.</li>
+			<li>r_text(gravDataBeacon==True)->In the background noise, you vaguely hear the praise and admiration of the research department attendants for a certain captain who resolutely turned on the data beacon and landed under the fire of the mechanical race. For some reason, you feel that the legendary hero they are talking about might be you.</li>
+			<li>r_text(gravDataBeacon==True)->You hear the research department attendants discussing the new data they have received, and this data seems to be the one you transmitted.\nHope this helps them.</li>
+			<li>r_text(gravTechStageUpgrade==True)->The background sound is slightly distorted due to the influence of gravitational bands. The research department attendants seem to be experimenting with their newly developed anti-gravity equipment.</li>
+			<li>r_text(gravTechStageUpgrade==True)->The attendants' soft whispers come from the other end of the communication console. After listening carefully, you learn that they are discussing the newly arrived anti-gravity technology node...\nAre they really whispering?</li>
+			<li>r_text(gravTechStageUpgrade==True)->The background is quite quiet, with only the sound of a few instruments. It seems most people are enjoying their vacation after completing the research.</li>
+			<li>r_text(economyReviewOutcome==ScienceDepartment)->Although the sound from the communication console is not very clear, you can still hear the research department attendants chatting with each other.\nYou hear that they are still shaken by the review. Hopefully, they won't forget to keep records next time.</li>
+			<li>r_text(economyReviewOutcome==ScienceDepartment)->You hear the research department attendants discussing the reason for their flower cake deficit, and why it attracted the review from the coordination department.\nIt seems they are really clueless about their own resource consumption level. Maybe they should be taught a lesson.</li>
+			<li>r_text(economyReviewOutcome==ScienceDepartment)->Some quiet discussions come from the communication console. The research department attendants seem to be discussing whether to develop a fully automated accounting book.\nYou think the day the coordination department storms the research department again is not far off.</li>
+			<li>r_text(economyReviewOutcome==EconomyMinistry)->Perhaps due to the impact of the review results, you feel that today's communication console signal is not very good. You don't know if it's because of resource constraints or the low morale in the research department.</li>
+			<li>r_text(economyReviewOutcome==EconomyMinistry)->After the research officer greeted you, the research department turned off the sound transmission of the communication console to save electricity.\nIt seems the sanctions imposed by the coordination department on the research department are more absurd than you thought.</li>
+			<li>r_text(economyReviewOutcome==EconomyMinistry)->Unlike usual, the attendants' voices are quite listless today, and even the sound of the research instruments has decreased a lot.\nThese idiots have finally paid the price for their unrestrained waste.</li>
+			<li>r_text(economyReviewOutcome==WinWin)->The sound of instruments in the background is much less than usual, but the attendants' orderly handover discussions prove that this has not affected the research.\nThe coordination department and the hair of the coordination department attendants will probably be pleased with this.</li>
+			<li>r_text(economyReviewOutcome==WinWin)->You hear the attendants discussing how to optimize the research process. Although they soon start discussing again whether carbonized food is still edible, at least it proves that they have really started to consider their colleagues in the coordination department.</li>
+			<li>r_text(economyReviewOutcome==WinWin)->The background sound from the communication console is as usual, the operation of instruments, the communication of attendants... and some reminder sounds for ledger records.</li>
+			<li>r_text(economyReviewOutcome==WinWin)->Although the sound of the instruments is so familiar, the discussion about costs coming from the communication console surprises you.\nYou once again confirm that the department you connected to is the research department of the Golden Iris Orchid.</li>			
+			</rulesStrings>
+		</rulePack>
+	</RulePackDef>
+
+</Defs>

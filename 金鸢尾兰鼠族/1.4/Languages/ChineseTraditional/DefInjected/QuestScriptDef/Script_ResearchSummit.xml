@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+
+  <OA_OpportunitySite_ResearchSummit.questDescriptionRules.rulesStrings>
+    <li>questDescription->我們收到了一則消息，一個距離我們較近的[OAFaction_name]聚居點正在邀請各個派系的學者們共同前往該處，以期舉辦一場不拘泥於派系立場的純粹學術性會議。\n\n由於這場會議並非官方外交場合，因此[OAFaction_name]將會接納並歡迎所有前去的學者。若是我們選擇前往，那麽所有參與該會議的學者們都會對我們留下一個良好的印象，並稍微改善我們與他們所屬派系的關系。當然，由於這場會議的非官方性質，因此這場會議也可能發生一些意想不到的事情。\n\n此外，若我們的與會者擁有足夠出色的科研能力，那麽我們還將有概率在科研上得到相當的收獲，但這並不會影響我們與其他派系的外交。[extraLeaderPart][favorRewardDetails]</li>
+    <li>favorRewardDetails(OAFaction_leader_royalInCurrentFaction==True,priority=1)-></li>
+    <li>favorRewardDetails-></li>
+    <li>extraLeaderPart(priority=1)->\n\n[leaderRoleEffect] [leaderPawnInfo]</li>
+    <li>extraLeaderPart-></li>
+    <li>leaderRoleEffect-></li>
+    <li>leaderPawnInfo(playerFaction_hasLeader==True,priority=1)-></li>
+    <li>leaderPawnInfo-></li>
+  </OA_OpportunitySite_ResearchSummit.questDescriptionRules.rulesStrings>
+
+  <OA_OpportunitySite_ResearchSummit.questNameRules.rulesStrings>
+    <li>questName->[OAFaction_leader_nameDef]的[OA_ResearchSummit]</li>
+    <li>questName->[OAFaction_leader_nameDef]舉行的[OA_ResearchSummit]</li>
+    <li>questName->[OA_ResearchSummit]</li>
+    <li>questName->[OA_ResearchSummit]</li>
+    <li>OA_ResearchSummit->研究峰會</li>
+    <li>OA_ResearchSummit->科研峰會</li>
+    <li>OA_ResearchSummit->學術科研峰會</li>
+  </OA_OpportunitySite_ResearchSummit.questNameRules.rulesStrings>
+
+  <OA_OpportunitySite_ResearchSummit.root.nodes.OA_RK_ResearchSummitTimeout.node.nodes.Letter.label.slateRef>任務已失效：[resolvedQuestName]</OA_OpportunitySite_ResearchSummit.root.nodes.OA_RK_ResearchSummitTimeout.node.nodes.Letter.label.slateRef>
+
+  <OA_OpportunitySite_ResearchSummit.root.nodes.OA_RK_ResearchSummitTimeout.node.nodes.Letter.text.slateRef>[OAFaction_name]舉行的多方會談已過期。 任務已失效：[resolvedQuestName]。</OA_OpportunitySite_ResearchSummit.root.nodes.OA_RK_ResearchSummitTimeout.node.nodes.Letter.text.slateRef>
+  
+
+  <OA_ResearcherVisit.questContentRules.rulesStrings>
+    <li>lastOrNot->最後的</li>
+    <li>lodgersLabelSingularOrPlural->[lodgersLabelPlural]</li>
+    <li>lodgersArriveLetterLabel->[lodgersLabelSingularOrPlural] 抵達</li>
+    <li>lodgersArriveLetterText->[lodgersSingularOrPluralDef] [hasHave] 抵達。 [lodgersPronoun]將會和你共處[questDurationTicks_duration]來進行研究交流。</li>
+    <li>hasHave->已經</li>
+    <li>othersWillNotAccept->The {PAWNSALIVECOUNT_multiple ? 其他人 : 最後的 [lodgersLabel]} 不樂意接受</li>
+    <li>turnedViolent->[othersWillNotAccept]， 並且對你十分生氣。</li>
+    <li>whoAskedToStay->請求與你共處的人</li>
+    <li>oneOfThe->其中一個感興趣的 [whoAskedToStay]</li>
+    <li>questOver->任務 '[resolvedQuestName]' 已經結束。</li>
+    <li>letterIntroDeath->{SUBJECT_definite}， [oneOfThe] 已經死亡。</li>
+    <li>lodgerDiedAttackPlayerLetterLabel->[lodgersLabel] 死亡：復仇</li>
+    <li>lodgerDiedAttackPlayerLetterText->[letterIntroDeath]\n\n[turnedViolent]</li>
+    <li>lodgersAllDiedLetterLabel->任務失敗</li>
+    <li>lodgersAllDiedLetterText->{SUBJECT_definite}，[lastOrNot] 不顧一切的研究者們 （[whoAskedToStay]）， 已經死亡。\n\n[questOver]</li>
+    <li>letterIntroArrested->你逮捕了 {SUBJECT_definite} （[oneOfThe]）。</li>
+    <li>lodgerArrestedAttackPlayerLetterLabel->[lodgersLabel] 逮捕：復仇</li>
+    <li>lodgerArrestedAttackPlayerLetterText->[letterIntroArrested]\n\n[turnedViolent]</li>
+    <li>lodgersAllArrestedLetterLabel->任務失敗</li>
+    <li>lodgersAllArrestedLetterText->你逮捕了 {SUBJECT_definite}, [lastOrNot] 不顧一切的研究者們 （[whoAskedToStay]）。\n\n[questOver]</li>
+    <li>letterIntroViolated->{SUBJECT_definite}， （[oneOfThe]）， 被執行了非法的手術。</li>
+    <li>lodgerViolatedAttackPlayerLetterLabel->[lodgersLabel] 違法：復仇</li>
+    <li>lodgerViolatedAttackPlayerLetterText->[letterIntroViolated]\n\n[turnedViolent]</li>
+    <li>lodgersLeavingLetterLabel->[lodgersLabelSingularOrPlural] 離開</li>
+    <li>lodgersLeavingLetterText->[asker_nameDef] 感謝你允許研究者們在[questDurationTicks_duration]裡待在[map_definite]。[lodgersPronoun]現在正與研究夥伴們一同前進。\n\n[asker_nameDef]說[lodgersObjective]永遠不會忘記你做的這些事。</li>
+  </OA_ResearcherVisit.questContentRules.rulesStrings>
+
+  <OA_ResearcherVisit.questDescriptionAndNameRules.rulesStrings>
+    <li>lodgersLabel->研究者們</li>
+    <li>lodgersLabelPlural->研究者們</li>
+  </OA_ResearcherVisit.questDescriptionAndNameRules.rulesStrings>
+
+  <OA_ResearcherVisit.questDescriptionRules.rulesStrings>
+    <li>offer->提議</li>
+    <li>lodgersPronoun->他們</li>
+    <li>lodgersPreposition->他們自己</li>
+    <li>lodgersObjective->他們</li>
+    <li>lodgersObjective->[asker_nameDef]他們</li>
+    <li>lodgersPossessive->他們的</li>
+    <li>lodgersSingularOrPluralDef->[lodgersLabelPlural]</li>
+    <li>questDescription->[approachInfo][claimInfo][asker_nameDef]請求你允許在[map_definite]待上[questDurationTicks_duration]來讓[lodgersPronoun]進行研究交流。\n\n作為回報， [lodgersPronoun][offer]在此期間內免費為你工作和戰鬥。\n\n[joinInfo][lodgersPronoun]可能會在過後酬謝你對[lodgersObjective]的招待。\n\n[travelerInfo]不屬於任何派系。 如果你願意，你可以選擇殺害、逮捕、出售或者採割[lodgersObjective]，並且不會產生任何外交後果。\n\n 如果你接受這個任務研究者們將在[arrivalDelayTicks_duration]之後到達。</li>
+    <li>approachInfo->[asker_nameDef]和其他感興趣的研究者正在靠近。</li>
+    <li>approachInfo(lodgerCount>=3)->[lodgerCount]名感興趣的研究者正在靠近，他們的領袖是[asker_nameDef]。</li>
+    <li>claimInfo->研究者們聲稱他們被你在研究峰會上的優異表現所吸引。</li>
+    <li>joinInfo->如果你能讓他們開心，他們中的一部分可能會提議加入你。</li>
+    <li>travelerInfo->這些研究者</li>
+  </OA_ResearcherVisit.questDescriptionRules.rulesStrings>
+
+  <OA_ResearcherVisit.questNameRules.rulesStrings>
+    <li>questName->[lodgerAdj][lodgerPlural]</li>
+    <li>lodgerAdj->好奇的</li>
+    <li>lodgerAdj->前來交流的</li>
+    <li>lodgerAdj->被吸引的</li>
+    <li>lodgerPlural->研究者們</li>
+    <li>lodgerPlural->學者們</li>
+  </OA_ResearcherVisit.questNameRules.rulesStrings>
+  
+
+
+  <OA_ResearchSummitSamePeopleJoin.questNameRules.rulesStrings>同道中人</OA_ResearchSummitSamePeopleJoin.questNameRules.rulesStrings>
+  
+  <!-- UNUSED -->
+  <OA_ResearchSummitSamePeopleJoin.questNameRules.rulesStrings>同道中人</OA_ResearchSummitSamePeopleJoin.questNameRules.rulesStrings>
+  
+</LanguageData>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="MakeableDrugPillBase">
+    <defName>Kiiro_SchizonepetaMedicalPill</defName>
+    <label>schizonepeta medical pill</label>
+    <description>The tablets made primarily from the leaves of the schizonepeta plant can enhance the immune system and prevent influenza in the users.</description>
+    <descriptionHyperlinks>
+      <HediffDef>SchizonepetaMedicalPillHigh</HediffDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>Kiiro/Items/Drugs</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MarketValue>12</MarketValue>
+      <WorkToMake>600</WorkToMake>
+      <Mass>0.005</Mass>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <tasteThought>Kiiro_AteCatmintPill</tasteThought>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>SchizonepetaMedicalPillHigh</hediffDef>
+          <severity>1.00</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <researchPrerequisite>Kiiro_MixedMedicineHerbal</researchPrerequisite>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Kiiro_SchizonepetaLeaf>8</Kiiro_SchizonepetaLeaf>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1005</listOrder>
+        <overdoseSeverityOffset>0.08~0.14</overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <HediffDef>
+    <defName>SchizonepetaMedicalPillHigh</defName>
+    <hediffClass>Hediff_High</hediffClass>
+    <label>schizonepeta medical pill high</label>
+    <description>The medicinal properties of the schizonepeta leaf are taking effect, boosting the immunity of the taker and providing resistance against the flu.</description>
+    <defaultLabelColor>(0.4,0.8,0.2)</defaultLabelColor>    <!--=翠绿色=-->
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.18</severityPerDay>
+        <showHoursToRecover>true</showHoursToRecover>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>0.12</offset>
+          </li>
+        </capMods>
+        <makeImmuneTo>
+          <li>Flu</li>
+          <li>Plague</li>
+        </makeImmuneTo>
+      </li>
+    </stages>
+  </HediffDef>
+
+</Defs>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- 绮罗气密头盔 -->
+  <ThingDef MayRequire="Ludeon.RimWorld.Odyssey" ParentName="Kiiro_OverheadBaseIII">
+    <defName>Kiiro_VacsuitHelmet</defName>
+    <label>Kiiro airtight helmet</label>
+    <description>A helmet with excellent airtightness, featuring a special visor that also reduces ultraviolet penetration.</description>
+    <costList>
+      <DevilstrandCloth>30</DevilstrandCloth>
+    </costList>
+    <costStuffCount>55</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <recipeMaker>
+			<researchPrerequisite>Kiiro_Apparel_Vacsuit</researchPrerequisite>
+		</recipeMaker>
+    <graphicData>
+      <texPath>Kiiro/Apparel/OverHead/VacsuitHelmet/VacsuitHelmet</texPath>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <Mass>3.2</Mass>
+      <EquipDelay>2.5</EquipDelay>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToMake>12800</WorkToMake>
+      <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.5</StuffEffectMultiplierInsulation_Cold>
+    </statBases>
+    <apparel>
+      <tags>
+        <li>Kiiro_Vacsuit</li>
+      </tags>
+      <renderSkipFlags>
+        <li>Ancot_HairAhoge</li>
+        <li>Ancot_Ear</li>
+        <li>Ancot_Hair</li>
+      </renderSkipFlags>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+      <wornGraphicPath>Kiiro/Apparel/OverHead/VacsuitHelmet/VacsuitHelmet</wornGraphicPath>
+    </apparel>
+    <equippedStatOffsets>
+      <ToxicEnvironmentResistance>0.8</ToxicEnvironmentResistance>
+      <VacuumResistance>0.35</VacuumResistance>
+      <MoveSpeed>-0.4</MoveSpeed>
+    </equippedStatOffsets>
+  </ThingDef>
+
+  <!-- 绮罗气密服 -->
+  <ThingDef MayRequire="Ludeon.RimWorld.Odyssey" ParentName="Kiiro_ShellBaseIV">
+    <defName>Kiiro_Vacsuit</defName>
+    <label>Kiiro airtight suit</label>
+    <description>An airtight suit with good insulation properties, though slightly cumbersome.</description>
+    <costList>
+      <DevilstrandCloth>50</DevilstrandCloth>
+    </costList>
+    <costStuffCount>100</costStuffCount>
+    <stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <recipeMaker>
+			<researchPrerequisite>Kiiro_Apparel_Vacsuit</researchPrerequisite>
+		</recipeMaker>
+    <graphicData>
+      <texPath>Kiiro/Apparel/Shell/Vacsuit/Vacsuit</texPath>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>220</MaxHitPoints>
+      <WorkToMake>52800</WorkToMake>
+      <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.2</ArmorRating_Heat>
+      <StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+      <Insulation_Cold>40</Insulation_Cold>
+      <StuffEffectMultiplierInsulation_Cold>0.9</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+    </statBases>
+    <apparel>
+      <useWornGraphicMask>true</useWornGraphicMask>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Legs</li>
+        <li>Arms</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Feet</li>
+        <li>Hands</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Kiiro/Apparel/Shell/Vacsuit/Vacsuit</wornGraphicPath>
+      <tags>
+        <li>Kiiro_Vacsuit</li>
+      </tags>
+      <renderSkipFlags>
+        <li>Ancot_Tail</li>
+      </renderSkipFlags>
+      <layers>
+        <li>OnSkin</li>
+        <li>Kiiro_Pants</li>
+        <li>Middle</li>
+      </layers>
+    </apparel>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.4</MoveSpeed>
+      <VacuumResistance>0.25</VacuumResistance>
+    </equippedStatOffsets>
+    <comps>
+    </comps>
+  </ThingDef>
+
+  <!-- 绮罗氧气罐 -->
+  <ThingDef MayRequire="Ludeon.RimWorld.Odyssey" ParentName="Kiiro_MiddleBaseII">
+    <defName>Kiiro_OxygenTank</defName>
+    <label>kiiro oxygen tank</label>
+    <description>A metal canister that stores oxygen, capable of supplying it to the wearer in a vacuum. It can also replenish oxygen when the wearer is in a non-vacuum environment.</description>
+    <costList>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <Steel>80</Steel>
+    </costList>
+    <recipeMaker>
+			<researchPrerequisite>Kiiro_Apparel_Vacsuit</researchPrerequisite>
+		</recipeMaker>
+    <graphicData>
+      <texPath>Kiiro/Apparel/Middle/OxygenTank/OxygenTank</texPath>
+      <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToMake>4800</WorkToMake>
+    </statBases>
+    <apparel>
+      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+      <layers Inherit="false">
+        <li>Kiiro_Bag</li>
+      </layers>
+      <bodyPartGroups>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Kiiro/Apparel/Middle/OxygenTank/OxygenTank</wornGraphicPath>
+      <tags>
+        <li>Kiiro_Vacsuit</li>
+      </tags>
+      <drawData>
+				<dataNorth>
+					<layer>75</layer>
+				</dataNorth>
+			</drawData>
+    </apparel>
+    <uiIconScale>1.0</uiIconScale>
+    <equippedStatOffsets>
+      <MoveSpeed>-0.2</MoveSpeed>
+    </equippedStatOffsets>
+    <comps Inherit="false">
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_CauseHediff_Apparel">
+				<hediff>Kiiro_OxygenTank</hediff>
+			</li>
+    </comps>
+  </ThingDef>
+
+</Defs>

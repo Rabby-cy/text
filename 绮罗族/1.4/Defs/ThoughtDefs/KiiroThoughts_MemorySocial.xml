@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThoughtDef>
+    <defName>Kiiro_PaperFoldingReceived</defName>
+    <thoughtClass>Thought_MemorySocialCumulative</thoughtClass>
+    <stackLimit>300</stackLimit>
+	<stackLimitForSameOtherPawn>3</stackLimitForSameOtherPawn>
+    <maxCumulatedOpinionOffset>30</maxCumulatedOpinionOffset>
+	<stackedEffectMultiplier>0.9</stackedEffectMultiplier>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <socialTargetDevelopmentalStageFilter>Baby, Child, Adult</socialTargetDevelopmentalStageFilter>
+    <stages>
+      <li>
+        <label>paperfolding received</label>
+        <baseOpinionOffset>10</baseOpinionOffset>
+      </li>
+    </stages>
+	<thoughtToMake>Kiiro_PaperFoldingReceivedMood</thoughtToMake>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>Kiiro_PaperFoldingReceivedMood</defName>
+    <durationDays>3</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>0.8</stackedEffectMultiplier>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>paperfolding received</label>
+        <description>Oh... a small piece of artwork... how lovely.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+
+  <ThoughtDef>
+    <defName>Kiiro_PaperFoldingPresent</defName>
+    <thoughtClass>Thought_MemorySocialCumulative</thoughtClass>
+    <stackLimit>300</stackLimit>
+	<stackLimitForSameOtherPawn>3</stackLimitForSameOtherPawn>
+    <maxCumulatedOpinionOffset>15</maxCumulatedOpinionOffset>
+	<stackedEffectMultiplier>0.9</stackedEffectMultiplier>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <socialTargetDevelopmentalStageFilter>Baby, Child, Adult</socialTargetDevelopmentalStageFilter>
+    <stages>
+      <li>
+        <label>paperfolding present</label>
+        <baseOpinionOffset>5</baseOpinionOffset>
+      </li>
+    </stages>
+	<thoughtToMake>Kiiro_PaperFoldingPresentMood</thoughtToMake>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>Kiiro_PaperFoldingPresentMood</defName>
+    <durationDays>1</durationDays>
+    <stackLimit>5</stackLimit>
+    <stackedEffectMultiplier>0.8</stackedEffectMultiplier>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>paperfolding present</label>
+        <description>My friend accepted my gift!</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>Kiiro_HearingARhyme</defName>
+    <thoughtClass>Thought_MemorySocialCumulative</thoughtClass>
+    <stackLimit>300</stackLimit>
+	<stackLimitForSameOtherPawn>2</stackLimitForSameOtherPawn>
+    <maxCumulatedOpinionOffset>10</maxCumulatedOpinionOffset>
+	<stackedEffectMultiplier>0.5</stackedEffectMultiplier>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <socialTargetDevelopmentalStageFilter>Baby, Child, Adult</socialTargetDevelopmentalStageFilter>
+    <stages>
+      <li>
+        <label>lovely nursery rhyme</label>
+        <baseOpinionOffset>8</baseOpinionOffset>
+      </li>
+    </stages>
+	<thoughtToMake>Kiiro_HearingARhymeMood</thoughtToMake>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>Kiiro_HearingARhymeMood</defName>
+    <durationDays>1.5</durationDays>
+    <stackLimit>3</stackLimit>
+    <stackedEffectMultiplier>0.6</stackedEffectMultiplier>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+    <stages>
+      <li>
+        <label>hearing a nursery rhyme</label>
+        <description>Someone hummed a nursery rhyme for me, it sounded beautiful.</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+</Defs>

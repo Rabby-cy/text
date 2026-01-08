@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kiiro_Apparel_I.label>綺羅服裝設計基礎</Kiiro_Apparel_I.label>
+  <Kiiro_Apparel_I.description>研究製作綺羅族服裝的所需基礎理論知識。綺羅們在衣物的製作方面有著獨特而豐富的經驗，這使得綺羅族的服裝更加美觀且不易磨損。\n\n*該研究只有綺羅族人能夠解鎖。當你決定研究該專案時，確保至少有一名綺羅能夠進行研究工作。</Kiiro_Apparel_I.description>
+
+  <Kiiro_Apparel_II.label>綺羅日常服裝</Kiiro_Apparel_II.label>
+  <Kiiro_Apparel_II.description>研究綺羅族日常穿著的衣服。</Kiiro_Apparel_II.description>
+
+  <Kiiro_Apparel_III.label>綺羅精緻服裝</Kiiro_Apparel_III.label>
+  <Kiiro_Apparel_III.description>研究綺羅族精緻的衣服。</Kiiro_Apparel_III.description>
+
+  <Kiiro_Apparel_Maid.label>貓耳女僕計劃！</Kiiro_Apparel_Maid.label>
+  <Kiiro_Apparel_Maid.description>研究綺羅女僕裝。</Kiiro_Apparel_Maid.description>
+
+  <Kiiro_Apparel_CosSuit.label>綺羅COS服</Kiiro_Apparel_CosSuit.label>
+  <Kiiro_Apparel_CosSuit.description>研究解鎖一些安科特喜歡的角色衣服。因為加入了一些安科特自己的理解，所以並沒有做到和原版完全一樣。</Kiiro_Apparel_CosSuit.description>
+
+  <Kiiro_Food.label>綺羅餐食</Kiiro_Food.label>
+  <Kiiro_Food.description>研究解鎖綺羅族的常用餐食。</Kiiro_Food.description>
+
+  <Kiiro_Smithing.label>綺羅鍛造</Kiiro_Smithing.label>
+  <Kiiro_Smithing.description>研究綺羅族鍛造技術，同時解鎖基礎的綺羅生產工具。</Kiiro_Smithing.description>
+
+  <Kiiro_BaseMedievalWeapon.label>綺羅基礎冷兵器</Kiiro_BaseMedievalWeapon.label>
+  <Kiiro_BaseMedievalWeapon.description>研究製造一些綺羅族使用的冷兵器。</Kiiro_BaseMedievalWeapon.description>
+
+  <Kiiro_ImprovedMedievalWeapon.label>綺羅進階冷兵器</Kiiro_ImprovedMedievalWeapon.label>
+  <Kiiro_ImprovedMedievalWeapon.description>研究製造一些綺羅族使用的複雜冷兵器。</Kiiro_ImprovedMedievalWeapon.description>
+
+  <Kiiro_ConcealedWeapon.label>綺羅暗器</Kiiro_ConcealedWeapon.label>
+  <Kiiro_ConcealedWeapon.description>研究暗器，一種用於偷襲的武器型別。其隱秘的特性使得發動時往往令人難以防備。</Kiiro_ConcealedWeapon.description>
+
+  <Kiiro_EnvenomTech.label>淬毒工藝</Kiiro_EnvenomTech.label>
+  <Kiiro_EnvenomTech.description>研究武器淬毒技術。</Kiiro_EnvenomTech.description>
+
+  <Kiiro_Amamech.label>綺羅機巧工藝</Kiiro_Amamech.label>
+  <Kiiro_Amamech.description>研究綺羅族獨有的機械結構製作技術。</Kiiro_Amamech.description>
+
+  <Kiiro_AutoLauncher.label>綺羅便攜炮臺</Kiiro_AutoLauncher.label>
+  <Kiiro_AutoLauncher.description>研究便於攜帶的一次性榴彈發射器。</Kiiro_AutoLauncher.description>
+
+  <Kiiro_Machining.label>綺羅機械加工</Kiiro_Machining.label>
+  <Kiiro_Machining.description>研究綺羅族機械加工技術。在過去的數十年間，綺羅族從人類處學習到了機械相關的知識，並開始將其付諸實踐：這是綺羅族踏入工業時代的第一步。</Kiiro_Machining.description>
+
+  <Kiiro_Grenades.label>手榴彈</Kiiro_Grenades.label>
+  <Kiiro_Grenades.description>研究製作適合綺羅們使用的手榴彈。</Kiiro_Grenades.description>
+
+  <Kiiro_TRGun.label>綺羅槍械試做</Kiiro_TRGun.label>
+  <Kiiro_TRGun.description>探索槍械製作領域，解鎖綺羅試做系列武器。</Kiiro_TRGun.description>
+
+  <Kiiro_PrototypeGun.label>綺羅原型武器</Kiiro_PrototypeGun.label>
+  <Kiiro_PrototypeGun.description>在充分學習了槍械結構和原理后，綺羅族的前沿科研人員用自己的理解創造了這些高效能原型武器。</Kiiro_PrototypeGun.description>
+
+  <Kiiro_Process.label>綺羅加工秘法</Kiiro_Process.label>
+  <Kiiro_Process.description>研究綺羅族獨特的工藝。\n\n*該研究只有綺羅族人能夠解鎖。當你決定研究該專案時，確保至少有一名綺羅能夠進行研究工作。</Kiiro_Process.description>
+
+  <Kiiro_Apparel_IV.label>綺羅作戰服裝</Kiiro_Apparel_IV.label>
+  <Kiiro_Apparel_IV.description>研究綺羅族用於戰鬥的衣服。</Kiiro_Apparel_IV.description>
+
+  <Kiiro_SchizonepetaPlanting.label>荊芥種植</Kiiro_SchizonepetaPlanting.label>
+  <Kiiro_SchizonepetaPlanting.description>學習種植荊芥：一種同時具備藥用、食用等多種價值的植物。</Kiiro_SchizonepetaPlanting.description>
+
+  <Kiiro_NepetalactoneExtract.label>荊芥內酯提取</Kiiro_NepetalactoneExtract.label>
+  <Kiiro_NepetalactoneExtract.description>研究提取荊芥內酯的方法，以便製作貓薄荷產品。</Kiiro_NepetalactoneExtract.description>
+
+  <Kiiro_MixedMedicineHerbal.label>荊芥藥用開發</Kiiro_MixedMedicineHerbal.label>
+  <Kiiro_MixedMedicineHerbal.description>探索荊芥植株在藥用方面的潛能，解鎖醫療效果優於草藥的荊芥混合草藥，以及使用荊芥葉片製作佩諾西林。</Kiiro_MixedMedicineHerbal.description>
+
+  <Kiiro_PaperMaking.label>綺羅造紙術</Kiiro_PaperMaking.label>
+  <Kiiro_PaperMaking.description>研究使用木材製造特殊的紙張。這種紙張質地堅韌，不易損壞。</Kiiro_PaperMaking.description>
+
+  <Kiiro_PaperFolding.label>摺紙生花</Kiiro_PaperFolding.label>
+  <Kiiro_PaperFolding.description>研究綺羅紙藝。摺紙藝術在綺羅族有悠久的歷史，她們僅憑一張紙就能變幻出各種各樣的東西，很神奇吧。\n\n該項研究完成後，心靈手巧的綺羅們會在社交生活中偶爾將精緻的摺紙送給朋友，這會促進友誼併爲雙方帶來好心情，同時贈送者會因此積累一點藝術經驗。\n\n*該研究只有綺羅族人能夠解鎖。當你決定研究該專案時，確保至少有一名綺羅能夠進行研究工作。</Kiiro_PaperFolding.description>
+
+
+</LanguageData>

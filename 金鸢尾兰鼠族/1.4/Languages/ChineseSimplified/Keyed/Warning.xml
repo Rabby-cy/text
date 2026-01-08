@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OA_WarningAbnormalCaravanTitle>不同寻常的远行队</OA_WarningAbnormalCaravanTitle>
+    <OA_WarningAbnormalCaravan>该交互会改变远行队的状态，但当前远行队是使用非原版方式构建的，因此可能产生物品丢失，人员丢失等严重问题，为了殖民者们的生命财产安全考虑，您无法进行此互动。请组建普通的远行队来进行该交互。</OA_WarningAbnormalCaravan>
+
+</LanguageData>

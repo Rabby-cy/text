@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OARK_AssistPoint>支援点数</OARK_AssistPoint>
+    <OARK_AssistPointTip>衡量{0}提供支援意愿的点数。</OARK_AssistPointTip>
+
+    <OARK_AssistPointsAdded>金鳶尾蘭支援点数增加{0}</OARK_AssistPointsAdded>
+    <OARK_AssistPointsReduced>金鳶尾蘭支援点数減少{0}</OARK_AssistPointsReduced>
+
+    <OA_MessageNoResearcher>沒有合適的研究員</OA_MessageNoResearcher>
+
+    <OA_ResponsibilityConstraints>{0}因為責任感而暫時保持了理智</OA_ResponsibilityConstraints>
+    <OA_Atonement>{0}為了贖罪而暫時保持了理智</OA_Atonement>
+
+</LanguageData>

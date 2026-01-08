@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <!-- 派系基地：利益谈判 -->
+    <OA_FixedCaravanDipSummit_TimeLeft>正在与当地宫廷进行谈判中，剩余{0}</OA_FixedCaravanDipSummit_TimeLeft>
+
+    <OA_SettlementDiplomaticSummit>利益谈判</OA_SettlementDiplomaticSummit>
+    <OA_ConfirmDiplomaticSummit>你的谈判者将与 {SETTLEMENT_label} 的宫廷高层进行一场预期两小时且难度较高的谈判，若你成功那么将会获得更多的援助，但若是你失败或者中途离场，则你将与当地宫廷关系发生一定的恶化，是否确认？</OA_ConfirmDiplomaticSummit>
+
+    <OA_ConfirmDiplomaticSummitInfo>在你的谈判者经过深思熟虑后，你向 {SETTLEMENT_label} 的宫廷正式提出了要求更多的援助，并且为此进行一场外交谈判以确定最终结果。在你的强势要求下，金鸢尾兰宫廷最终同意了你的要求，并且为你们专门布置了一间谈判会议室。</OA_ConfirmDiplomaticSummitInfo>
+
+    <OA_DiplomaticSummitNegotiatingTeamLevelBeginner>......\n\n当你步入会议室时，你观察到相比起客场谈判的你，你的对手明显更为紧张一些。而当谈判刚开始时，她们便因为紧张而出现了一些话术上的失误，也许这场会议将会对你更加有利。</OA_DiplomaticSummitNegotiatingTeamLevelBeginner>
+
+    <OA_DiplomaticSummitNegotiatingTeamLevelStandard>......\n\n当你步入会议室时，你观察到你的对手似乎对即将到来的谈判做了充分的准备，她们彼此小声议论着，似乎正在讨论着相关的话术，也许这场会议将会是一场势均力敌的谈判</OA_DiplomaticSummitNegotiatingTeamLevelStandard>
+
+    <OA_DiplomaticSummitNegotiatingTeamLevelSophistication>......\n\n当你步入会议室时，你观察到你的对手似乎胸有成竹。当她们礼貌的向你问候的时候，你注意到她们的桌前早已摆上了你们的相关资料，也许这场会议将会是一场艰难的谈判。</OA_DiplomaticSummitNegotiatingTeamLevelSophistication>
+
+    <OA_DiplomaticSummitNegotiatingTeamLevelExcellence>......\n\n当你步入会议室时，你完全无法看出你的对手对于这场谈判的心态，她们那和蔼的微笑下隐藏的是深不见底的谋略，你能感到你的一言一行仿佛都在她们的观察之中。也许这场会议将会是一场一边倒的谈判。</OA_DiplomaticSummitNegotiatingTeamLevelExcellence>
+
+    <OA_LetterLabelDiplomaticSummit_LeaveHalfway>利益谈判：中途离开</OA_LetterLabelDiplomaticSummit_LeaveHalfway>
+    <OA_LetterDiplomaticSummit_LeaveHalfway>在谈判进行的时候，你的谈判者以一些拙劣的理由作为借口，离开了谈判会议室，并且再也没有回去。\n\n与{1}的好感度：{2}</OA_LetterDiplomaticSummit_LeaveHalfway>
+
+    <OA_LetterLabelDiplomaticSummit_Disaster>利益谈判：惨痛的失败 </OA_LetterLabelDiplomaticSummit_Disaster>
+    <OA_LetterDiplomaticSummit_Disaster>尽管你的谈判者多次尝试挽回局面，但你的对手却毫不留情的进行一次又一次的追击，以至于最后甚至演变成了对你的不合理要求的单方面无情批判。在这场谈判收尾时，结局已经相当的明朗： \n\n你的大多数要求都被 {SETTLEMENT_label} 的宫廷有理有据的驳回，而少部分过分的要求则被视为对{1}的侮辱与对你们的同盟关系的不尊重，并且最终导致了 {SETTLEMENT_label} 的宫廷对你们观感大为恶化。 \n\n与{1}的好感度：{2}\n\n接下来{3}天内支援点数不会自然增长。</OA_LetterDiplomaticSummit_Disaster>
+
+    <OA_LetterLabelDiplomaticSummit_Flounder>利益谈判：微小的失败</OA_LetterLabelDiplomaticSummit_Flounder>
+    <OA_LetterDiplomaticSummit_Flounder>虽然在部分谈判事项中你的谈判者将局面引向了对你有利的一面，但在大多数的事项里，你们还是被反驳的哑口无言，并只得让步妥协。最终，在这场谈判收尾时，你的谈判者为你争取到了以下局面： \n\n你的极少数要求为 {SETTLEMENT_label} 的宫廷所接纳，但绝大多数的要求还是被 {SETTLEMENT_label} 的宫廷所拒绝。此外，尽管你的谈判者尽量让你的要求显得合乎情理，但 {SETTLEMENT_label}的宫廷还是对你们留下了一个不好的印象。 \n\n与{1}的好感度：{2} \n获得： \n支援点数 × {3}</OA_LetterDiplomaticSummit_Flounder>
+
+    <OA_LetterLabelDiplomaticSummit_Success>利益谈判：微小的成功</OA_LetterLabelDiplomaticSummit_Success>
+    <OA_LetterDiplomaticSummit_Success>在这场谈判中，你与你的对手都不断的向彼此进行着质询与反驳，来尽可能的为彼此的派系谋取最大的利益。当这场言语与智识的激烈争锋结束后，你的谈判者为你赢得了以下结果： \n\n{SETTLEMENT_label} 的宫廷同意了你的部分要求，并且认为你的要求合乎情理，而对于你的谈判者提出的少量不合理要求， {SETTLEMENT_label} 的宫廷认为这些只是一些谈判手段而已，并未影响他们对你的观感。\n\n获得： \n支援点数 × {2}</OA_LetterDiplomaticSummit_Success>
+
+    <OA_LetterLabelDiplomaticSummit_Triumph>利益谈判：辉煌的成功</OA_LetterLabelDiplomaticSummit_Triumph>
+    <OA_LetterDiplomaticSummit_Triumph>在这场一边倒的谈判里，你的谈判者仿佛能够洞察人心一般，总是能够精准的踩在对方的底线上而不逾越。而当你的对手向你的谈判者提出质疑时，你的谈判者也只是稍微几句话便能够将其化解。最终，你的对手即便再怎么绞尽脑汁，也无法对你的要求进行合理的驳回，这使得你收获了以下局面： \n\n{SETTLEMENT_label} 的宫廷几乎是言听计从般的同意了你的绝大多数的要求，并且认为没有注意到你的困难是他们的过失。这使得即便你的谈判者提出了相当过火的条件，她们也只认为这是你的谈判者在发泄自己的不满，而没有过多追究。\n此外，为了表达她们的歉意，在你们离开宫廷时，宫廷的侍从们向你们赠与了一份礼物，以象征你们的友好关系。\n\n与{1}的好感度：{2} \n获得： \n支援点数 × {3} \n白银 × {4}</OA_LetterDiplomaticSummit_Triumph>
+
+</LanguageData>

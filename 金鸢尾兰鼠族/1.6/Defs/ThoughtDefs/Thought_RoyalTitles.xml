@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- ============================= Thoughts related to royal titles ============================= -->
+
+  <ThoughtDef>
+    <defName>OA_RK_GainedTitle</defName>
+    <durationDays>21</durationDays>
+    <thoughtClass>Thought_MemoryRoyalTitle</thoughtClass>
+    <nullifyingTraits>
+      <li>Ascetic</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>Received {TITLE} title</label>
+        <description>I am now one of {TITLE}s, it feels good to be respected.</description>
+        <baseMoodEffect>10</baseMoodEffect>
+      </li>
+    </stages>
+    <ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>OA_RK_LostTitle</defName>
+    <durationDays>28</durationDays>
+    <thoughtClass>Thought_MemoryRoyalTitle</thoughtClass>
+    <nullifyingTraits>
+      <li>Ascetic</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>Lost {TITLE} title</label>
+        <description>I am no longer recognized by them, they ceased to consider me as one of {TITLE}s.</description>
+        <baseMoodEffect>-18</baseMoodEffect>
+      </li>
+    </stages>
+    <ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>OA_RK_GainedTitle_B</defName>
+    <durationDays>28</durationDays>
+    <thoughtClass>Thought_MemoryRoyalTitle</thoughtClass>
+    <nullifyingTraits>
+      <li>Ascetic</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>Received {TITLE} title</label>
+        <description>In other words...I am now recognized as one aristocrat of an colossal empire? Am I a true noble now? Am I?!</description>
+        <baseMoodEffect>22</baseMoodEffect>
+      </li>
+    </stages>
+    <ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>
+  </ThoughtDef>
+
+</Defs>

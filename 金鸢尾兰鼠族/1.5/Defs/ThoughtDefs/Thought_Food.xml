@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThoughtDef>
+        <defName>OA_RK_Tea_Thought</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>OA_RK_Tea</hediff>
+        <validWhileDespawned>true</validWhileDespawned>
+        <stages>
+            <li>
+                <label>floral tea clears the mind</label>
+                <description>This feeling of letting go really comforts me...</description>
+                <baseMoodEffect>7</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>OA_RK_Chanwu_F_Thought</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>OA_RK_Chanwu_F_Hediff</hediff>
+        <validWhileDespawned>true</validWhileDespawned>
+        <stages>
+            <li>
+                <label>Ingestion of concentrated solution</label>
+                <description>I feel dizzy and my breathing is also uncomfortable, and I feel like my body is burning inside!</description>
+                <baseMoodEffect>-10</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+
+    <ThoughtDef>
+        <defName>Oberonia_Aurea_Chanwu_A_Thought</defName>
+        <durationDays>1</durationDays>
+        <stages>
+            <li>
+                <label>Enjoyed stir fried pancakes</label>
+                <description>It tastes great, but I think it could be even better.</description>
+                <baseMoodEffect>2</baseMoodEffect>
+            </li>
+        </stages>
+        <replaceThoughts>
+            <li>Oberonia_Aurea_Chanwu_B_Thought</li>
+            <li>Oberonia_Aurea_Chanwu_C_Thought</li>
+            <li>Oberonia_Aurea_Chanwu_AA_Thought</li>
+            <li>Oberonia_Aurea_Chanwu_AB_Thought</li>
+            <li>Oberonia_Aurea_Chanwu_AC_Thought</li>
+            <li>AteFineMeal</li>
+            <li>AteLavishMeal</li>
+        </replaceThoughts>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>Oberonia_Aurea_Chanwu_B_Thought</defName>
+        <durationDays>1</durationDays>
+        <stages>
+            <li>
+                <label>Enjoyed the Flower Cake</label>
+                <description>This is the delicacy I have been pursuing! Delicious!</description>
+                <baseMoodEffect>6</baseMoodEffect>
+            </li>
+        </stages>
+        <replaceThoughts>
+            <li>Oberonia_Aurea_Chanwu_A_Thought</li>
+            <li>Oberonia_Aurea_Chanwu_C_Thought</li>
+            <li>Oberonia_Aurea_Chanwu_AA_Thought</li>
+            <li>Oberonia_Aurea_Chanwu_AB_Thought</li>
+            <li>Oberonia_Aurea_Chanwu_AC_Thought</li>
+            <li>AteFineMeal</li>
+            <li>AteLavishMeal</li>
+        </replaceThoughts>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>Oberonia_Aurea_Chanwu_C_Thought</defName>
+        <durationDays>0.75</durationDays>
+        <stages>
+            <li>
+                <label>Enjoyed the berry blossom cake</label>
+                <description>This sweet and happy taste can make me forget all my troubles</description>
+                <baseMoodEffect>14</baseMoodEffect>
+            </li>
+        </stages>
+        <replaceThoughts>
+            <li>Oberonia_Aurea_Chanwu_A_Thought</li>
+            <li>Oberonia_Aurea_Chanwu_B_Thought</li>
+            <li>Oberonia_Aurea_Chanwu_AA_Thought</li>
+            <li>Oberonia_Aurea_Chanwu_AB_Thought</li>
+            <li>Oberonia_Aurea_Chanwu_AC_Thought</li>
+            <li>AteFineMeal</li>
+            <li>AteLavishMeal</li>
+        </replaceThoughts>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>Oberonia_Aurea_Chanwu_AA_Thought</defName>
+        <durationDays>1</durationDays>
+        <stages>
+            <li>
+                <label>Leisurely enjoying fried flower balls</label>
+                <description>A rare delicacy, leisurely and comfortable. If only it could continue like this.</description>
+                <baseMoodEffect>15</baseMoodEffect>
+            </li>
+        </stages>
+        <replaceThoughts>
+            <li>Oberonia_Aurea_Chanwu_A_Thought</li>
+            <li>Oberonia_Aurea_Chanwu_B_Thought</li>
+            <li>Oberonia_Aurea_Chanwu_C_Thought</li>
+            <li>Oberonia_Aurea_Chanwu_AB_Thought</li>
+            <li>Oberonia_Aurea_Chanwu_AC_Thought</li>
+            <li>AteFineMeal</li>
+            <li>AteLavishMeal</li>
+        </replaceThoughts>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>Oberonia_Aurea_Chanwu_AB_Thought</defName>
+        <durationDays>1</durationDays>
+        <stages>
+            <li>
+                <label>Enjoyed the flower cake</label>
+                <description>I like this soft and slightly sweet taste.</description>
+                <baseMoodEffect>7</baseMoodEffect>
+            </li>
+        </stages>
+        <replaceThoughts>
+            <li>Oberonia_Aurea_Chanwu_A_Thought</li>
+            <li>Oberonia_Aurea_Chanwu_B_Thought</li>
+            <li>Oberonia_Aurea_Chanwu_C_Thought</li>
+            <li>Oberonia_Aurea_Chanwu_AA_Thought</li>
+            <li>Oberonia_Aurea_Chanwu_AC_Thought</li>
+            <li>AteFineMeal</li>
+            <li>AteLavishMeal</li>
+        </replaceThoughts>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>Oberonia_Aurea_Chanwu_AC_Thought</defName>
+        <durationDays>1</durationDays>
+        <stages>
+            <li>
+                <label>Enjoyed the Flowing Heart Flower Cake</label>
+                <description>This impeccable taste is a perfect combination of glutinous and sweet flavors!</description>
+                <baseMoodEffect>12</baseMoodEffect>
+            </li>
+        </stages>
+        <replaceThoughts>
+            <li>Oberonia_Aurea_Chanwu_A_Thought</li>
+            <li>Oberonia_Aurea_Chanwu_B_Thought</li>
+            <li>Oberonia_Aurea_Chanwu_C_Thought</li>
+            <li>Oberonia_Aurea_Chanwu_AA_Thought</li>
+            <li>Oberonia_Aurea_Chanwu_AB_Thought</li>
+            <li>AteFineMeal</li>
+            <li>AteLavishMeal</li>
+        </replaceThoughts>
+    </ThoughtDef>
+
+</Defs>

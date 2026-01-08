@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+	<defName>Kiiro_InstallArtificialTail</defName>
+	<label>install artificial tail</label>
+	<description>Install an artificial tail.</description>
+	<descriptionHyperlinks>
+      <ThingDef>Kiiro_ArtificialTail</ThingDef>
+      <HediffDef>Kiiro_ArtificialTailInstalled</HediffDef>
+    </descriptionHyperlinks>
+	<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+	<jobString>installing artificial tail.</jobString>
+	<workAmount>3000</workAmount>
+	<skillRequirements>
+		<Medicine>6</Medicine>
+	</skillRequirements>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Kiiro_ArtificialTail</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+		<li>
+			<filter>
+				<categories>
+					<li>Medicine</li>
+				</categories>
+			</filter>
+			<count>2</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+		<thingDefs>
+			<li>Kiiro_ArtificialTail</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<appliedOnFixedBodyParts>
+		<li>Kiiro_Tail</li>
+	</appliedOnFixedBodyParts>
+	<addsHediff>Kiiro_ArtificialTailInstalled</addsHediff>
+  </RecipeDef>
+
+  <RecipeDef ParentName="SurgeryInstallBodyPartArtificialBase">
+	<defName>Kiiro_InstallBionicTail</defName>
+	<label>install bionic tail</label>
+	<description>Install a bionic tail.</description>
+	<descriptionHyperlinks>
+      <ThingDef>Kiiro_BionicTail</ThingDef>
+      <HediffDef>Kiiro_BionicTailInstalled</HediffDef>
+    </descriptionHyperlinks>
+	<workerClass>Recipe_InstallArtificialBodyPart</workerClass>
+	<jobString>installing bionic tail</jobString>
+	<workAmount>4800</workAmount>
+	<skillRequirements>
+		<Medicine>8</Medicine>
+	</skillRequirements>
+	<ingredients>
+		<li>
+			<filter>
+				<thingDefs>
+					<li>Kiiro_BionicTail</li>
+				</thingDefs>
+			</filter>
+			<count>1</count>
+		</li>
+		<li>
+			<filter>
+				<categories>
+					<li>Medicine</li>
+				</categories>
+			</filter>
+			<count>2</count>
+		</li>
+	</ingredients>
+	<fixedIngredientFilter>
+		<categories>
+			<li>Medicine</li>
+		</categories>
+		<thingDefs>
+			<li>Kiiro_BionicTail</li>
+		</thingDefs>
+	</fixedIngredientFilter>
+	<appliedOnFixedBodyParts>
+		<li>Kiiro_Tail</li>
+	</appliedOnFixedBodyParts>
+	<addsHediff>Kiiro_BionicTailInstalled</addsHediff>
+  </RecipeDef>
+
+</Defs>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <GameConditionDef>
+        <defName>OA_MilitaryDeployment</defName>
+        <conditionClass>GameCondition</conditionClass>
+        <label>军事部署</label>
+        <description>一支金鸢尾兰的作战单位已在我们周围部署，随时准备支援。</description>
+        <startMessage>开始部署</startMessage>
+        <endMessage>结束部署</endMessage>
+        <letterText>一支金鸢尾兰的作战单位已在我们周围部署，随时准备支援。</letterText>
+        <letterDef>PositiveEvent</letterDef>
+        <canBePermanent>false</canBePermanent>
+        <natural>false</natural>
+    </GameConditionDef>
+
+</Defs>

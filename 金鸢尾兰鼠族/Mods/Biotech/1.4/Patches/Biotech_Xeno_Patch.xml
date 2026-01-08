@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/FactionDef[defName="OA_RK_Faction"]</xpath>
+		<value>
+			<xenotypeSet Inherit="False">
+				<xenotypeChances>
+					<Ratkin_OA>999</Ratkin_OA>
+				</xenotypeChances>
+				<warnIfTotalAbove1>false</warnIfTotalAbove1>
+			</xenotypeSet>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/FactionDef[defName="OA_RK_PlayerFaction"]</xpath>
+		<value>
+			<xenotypeSet Inherit="False">
+				<xenotypeChances>
+					<Ratkin_OA>999</Ratkin_OA>
+				</xenotypeChances>
+				<warnIfTotalAbove1>false</warnIfTotalAbove1>
+			</xenotypeSet>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/PawnKindDef[@Name="OA_RK_BasePawn"]</xpath>
+		<value>
+			<xenotypeSet>
+				<xenotypeChances>
+					<Ratkin_OA>1</Ratkin_OA>
+				</xenotypeChances>
+			</xenotypeSet>
+		</value>
+	</Operation>
+</Patch>

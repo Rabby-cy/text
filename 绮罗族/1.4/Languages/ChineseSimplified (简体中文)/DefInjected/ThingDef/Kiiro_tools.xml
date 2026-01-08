@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kiiro_Pickaxe.label>绮罗鹤嘴锄</Kiiro_Pickaxe.label>
+  <Kiiro_Pickaxe.description>用来开采矿物的鹤嘴锄，能够轻易凿开石块。</Kiiro_Pickaxe.description>
+  <Kiiro_Pickaxe.tools.0.label>handle</Kiiro_Pickaxe.tools.0.label>
+  <Kiiro_Pickaxe.tools.1.label>edge</Kiiro_Pickaxe.tools.1.label>
+
+  <Kiiro_Axe.label>绮罗伐木斧</Kiiro_Axe.label>
+  <Kiiro_Axe.description>一把轻巧的斧子，非常趁手。</Kiiro_Axe.description>
+  <Kiiro_Axe.tools.0.label>handle</Kiiro_Axe.tools.0.label>
+  <Kiiro_Axe.tools.1.label>edge</Kiiro_Axe.tools.1.label>
+
+  <Kiiro_Hoe.label>绮罗锄头</Kiiro_Hoe.label>
+  <Kiiro_Hoe.description>一把用于翻土的锄头，拿着它耕地事半功倍。</Kiiro_Hoe.description>
+  <Kiiro_Hoe.tools.0.label>handle</Kiiro_Hoe.tools.0.label>
+  <Kiiro_Hoe.tools.1.label>edge</Kiiro_Hoe.tools.1.label>
+
+  <Kiiro_Hammer.label>绮罗木工锤</Kiiro_Hammer.label>
+  <Kiiro_Hammer.description>一把小锤子，对于建造建筑有一定帮助。</Kiiro_Hammer.description>
+  <Kiiro_Hammer.tools.0.label>handle</Kiiro_Hammer.tools.0.label>
+
+  <Kiiro_KitchenKnife.label>绮罗菜刀</Kiiro_KitchenKnife.label>
+  <Kiiro_KitchenKnife.description>一把菜刀，用来剁肉切菜非常合适。</Kiiro_KitchenKnife.description>
+  <Kiiro_KitchenKnife.tools.0.label>edge</Kiiro_KitchenKnife.tools.0.label>
+
+  <Kiiro_Slice.label>绮罗锅铲</Kiiro_Slice.label>
+  <Kiiro_Slice.description>做菜时会用到的炊具。</Kiiro_Slice.description>
+  <Kiiro_Slice.tools.0.label>handle</Kiiro_Slice.tools.0.label>
+
+
+</LanguageData>

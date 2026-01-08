@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <OA_RK_ResearcherCamp.label>研究據點</OA_RK_ResearcherCamp.label>
+  <OA_RK_ResearcherCamp.description>一個研究據點</OA_RK_ResearcherCamp.description>
+  <OA_RK_ResearcherCamp.approachingReportString>襲擊 {0}</OA_RK_ResearcherCamp.approachingReportString>
+  <OA_RK_ResearcherCamp.approachOrderString>襲擊 {0}</OA_RK_ResearcherCamp.approachOrderString>
+  <OA_RK_ResearcherCamp.arrivedLetter>幾位倒霉的研究者在這個地區</OA_RK_ResearcherCamp.arrivedLetter>
+  
+</LanguageData>

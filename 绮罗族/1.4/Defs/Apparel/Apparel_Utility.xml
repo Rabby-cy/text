@@ -1,0 +1,1248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="Kiiro_MedievalConcealedWeaponBase" ParentName="ApparelNoQualityBase" Abstract="True">
+    <recipeMaker>
+      <researchPrerequisite>Kiiro_ConcealedWeapon</researchPrerequisite>
+      <recipeUsers Inherit="false">
+        <li>Kiiro_FueledSmithy</li>
+        <li>Kiiro_ElectricSmithy</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+      <useIngredientsForColor>false</useIngredientsForColor>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+    </recipeMaker>
+    <techLevel>Medieval</techLevel>
+    <apparel>
+      <tags>
+        <li>Kiiro_MedievalConcealedWeapon</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  
+  <!-- 绮罗暗器飞刀 -->
+  <ThingDef ParentName="Kiiro_MedievalConcealedWeaponBase">
+    <defName>Kiiro_Apparel_ThrowingKnives</defName>
+    <label>kiiro throwing knives</label>
+    <description>a set of knives that hidden in waist.</description>
+    <graphicData>
+      <texPath>Kiiro/Apparel/Utility/ThrowingKnivesEquipped</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Kiiro_ThrowingKnife>1</Kiiro_ThrowingKnife>
+    </costList>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <WorkToMake>600</WorkToMake>
+      <Mass>1.2</Mass>
+      <Flammability>0.4</Flammability>
+      <EquipDelay>2</EquipDelay>
+      <RangedWeapon_Cooldown>0.1</RangedWeapon_Cooldown>
+    </statBases>
+    <thingCategories>
+      <li>Kiiro_Apparel_Utility</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Reloadable">
+        <maxCharges>3</maxCharges>
+        <ammoDef>Steel</ammoDef>
+        <ammoCountToRefill>30</ammoCountToRefill>
+        <baseReloadTicks>60</baseReloadTicks>
+        <soundReload>Standard_Reload</soundReload>
+        <hotKey>Misc4</hotKey>
+        <chargeNoun>knives</chargeNoun>
+        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <label>throw knife</label>
+        <verbClass>Verb_LaunchProjectileStatic</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <onlyManualCast>false</onlyManualCast>
+        <range>8.9</range>
+        <warmupTime>0.1</warmupTime>
+        <soundCast>ThrowGrenade</soundCast>
+        <drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+        <defaultProjectile>KiiroProjectile_ThrowingKnife</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <generateAllowChance>0.3</generateAllowChance>
+    <apparel>
+      <!-- <wornGraphicPath>Kiiro/Apparel/Null/Null</wornGraphicPath> -->
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>Kiiro_ThrowingKnives</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  
+  <!-- 绮罗暗器飞镖 -->
+  <ThingDef ParentName="Kiiro_MedievalConcealedWeaponBase">
+    <defName>Kiiro_Apparel_ThrowingCrossKnives</defName>
+    <label>kiiro dart</label>
+    <description>A set of small darts that hidden in waist.</description>
+    <graphicData>
+      <texPath>Kiiro/Apparel/Utility/ThrowingCorssknivesEquipped</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Kiiro_ThrowingCrossKnives>1</Kiiro_ThrowingCrossKnives>
+    </costList>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <WorkToMake>600</WorkToMake>
+      <Mass>1.2</Mass>
+      <Flammability>0.4</Flammability>
+      <EquipDelay>2</EquipDelay>
+      <RangedWeapon_Cooldown>0</RangedWeapon_Cooldown>
+    </statBases>
+    <thingCategories>
+      <li>Kiiro_Apparel_Utility</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Reloadable">
+        <maxCharges>9</maxCharges>
+        <ammoDef>Steel</ammoDef>
+        <ammoCountToRefill>30</ammoCountToRefill>
+        <baseReloadTicks>60</baseReloadTicks>
+        <soundReload>Standard_Reload</soundReload>
+        <hotKey>Misc4</hotKey>
+        <chargeNoun>dart</chargeNoun>
+        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <label>throw dart</label>
+        <verbClass>Verb_LaunchProjectileStatic</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <onlyManualCast>false</onlyManualCast>
+        <range>13.9</range>
+        <warmupTime>0.1</warmupTime>
+        <soundCast>ThrowGrenade</soundCast>
+        <drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+        <defaultProjectile>KiiroProjectile_ThrowingCrossKnives</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>4</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <generateAllowChance>0.3</generateAllowChance>
+    <apparel>
+      <!-- <wornGraphicPath>Kiiro/Apparel/Null/Null</wornGraphicPath> -->
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>Kiiro_ThrowingCrossKnives</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  
+  <!-- 绮罗背弩 -->
+  <ThingDef ParentName="Kiiro_MedievalConcealedWeaponBase">
+    <defName>Kiiro_Apparel_DorsalCrossbow</defName>
+    <label>kiiro dorsal crossbow</label>
+    <description>A crossbow attached to the back, capable of launching deadly attacks when the enemy least expects it.</description>
+    <graphicData>
+      <texPath>Kiiro/Apparel/Utility/DorsalCrossbow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Steel>50</Steel>
+      <WoodLog>65</WoodLog>
+    </costList>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <WorkToMake>8400</WorkToMake>
+      <Mass>1.8</Mass>
+      <Flammability>0.4</Flammability>
+      <EquipDelay>3.8</EquipDelay>
+      <RangedWeapon_Cooldown>0.1</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedStatOffsets>
+      <CarryingCapacity>-15</CarryingCapacity>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>Kiiro_Apparel_Utility</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Reloadable">
+        <maxCharges>1</maxCharges>
+        <ammoDef>Steel</ammoDef>
+        <ammoCountToRefill>15</ammoCountToRefill>
+        <baseReloadTicks>60</baseReloadTicks>
+        <soundReload>Standard_Reload</soundReload>
+        <hotKey>Misc4</hotKey>
+        <chargeNoun>arrow</chargeNoun>
+        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <label>fire</label>
+        <verbClass>Verb_LaunchProjectileStatic</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <onlyManualCast>false</onlyManualCast>
+        <range>18.9</range>
+        <warmupTime>0.2</warmupTime>
+        <soundCast>Bow_Large</soundCast>
+        <drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+        <defaultProjectile>KiiroArrow_DorsalCrossbow</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <researchPrerequisites>
+        <li>Kiiro_ImprovedMedievalWeapon</li>
+      </researchPrerequisites>
+    </recipeMaker>
+    <generateAllowChance>0.3</generateAllowChance>
+    <apparel>
+      <!-- <wornGraphicPath>Kiiro/Apparel/Null/Null</wornGraphicPath> -->
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Middle</li>
+      </layers>
+      <tags>
+        <li>Kiiro_DorsalCrossbow</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>KiiroArrow_DorsalCrossbow</defName>
+    <label>Dorsal crossbow arrow</label>
+    <graphicData>
+      <texPath>Things/Projectile/Arrow_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.1</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>ArrowHighVelocity</damageDef>
+      <damageAmountBase>18</damageAmountBase>
+      <armorPenetrationBase>0.32</armorPenetrationBase>
+      <stoppingPower>1.2</stoppingPower>
+      <speed>72</speed>
+    </projectile>
+  </ThingDef>
+  
+  <!-- 绮罗袖箭 -->
+  <ThingDef ParentName="Kiiro_MedievalConcealedWeaponBase">
+    <defName>Kiiro_Apparel_ChainAttacker</defName>
+    <label>kiiro chain attacker</label>
+    <description>A specially designed concealed ejector device hidden in the sleeve, capable of firing small arrows.</description>
+    <graphicData>
+      <texPath>Kiiro/Apparel/Utility/ChainAttacker</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Steel>35</Steel>
+      <Cloth>25</Cloth>
+    </costList>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <WorkToMake>6600</WorkToMake>
+      <Mass>0.7</Mass>
+      <Flammability>0.4</Flammability>
+      <EquipDelay>1.8</EquipDelay>
+      <RangedWeapon_Cooldown>0.1</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedStatOffsets>
+      <WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
+    </equippedStatOffsets>
+    <thingCategories>
+      <li>Kiiro_Apparel_Utility</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Reloadable">
+        <maxCharges>5</maxCharges>
+        <ammoDef>Steel</ammoDef>
+        <ammoCountToRefill>45</ammoCountToRefill>
+        <baseReloadTicks>60</baseReloadTicks>
+        <soundReload>Standard_Reload</soundReload>
+        <hotKey>Misc4</hotKey>
+        <chargeNoun>arrow</chargeNoun>
+        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <label>fire</label>
+        <verbClass>Verb_LaunchProjectileStatic</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <onlyManualCast>false</onlyManualCast>
+        <range>14.9</range>
+        <warmupTime>0.1</warmupTime>
+        <soundCast>Bow_Recurve</soundCast>
+        <drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+        <defaultProjectile>KiiroArrow_ChainAttacker</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <researchPrerequisites>
+        <li>Kiiro_ImprovedMedievalWeapon</li>
+      </researchPrerequisites>
+    </recipeMaker>
+    <generateAllowChance>0.3</generateAllowChance>
+    <apparel>
+      <!-- <wornGraphicPath>Kiiro/Apparel/Null/Null</wornGraphicPath> -->
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Arms</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>Kiiro_DorsalCrossbow</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  <ThingDef ParentName="BaseProjectileNeolithic">
+    <defName>KiiroArrow_ChainAttacker</defName>
+    <label>chain attacker arrow</label>
+    <graphicData>
+      <texPath>Things/Projectile/Arrow_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.7</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Arrow</damageDef>
+      <damageAmountBase>10</damageAmountBase>
+      <armorPenetrationBase>0.13</armorPenetrationBase>
+      <stoppingPower>0.7</stoppingPower>
+      <speed>65</speed>
+    </projectile>
+  </ThingDef>
+  
+  <!--=毒药瓶=-->
+  <ThingDef ParentName="Kiiro_MedievalConcealedWeaponBase"><!-- 绮罗致命毒瓶 -->
+    <defName>Kiiro_Apparel_PoisonBottleDeadly</defName>
+    <label>kiiro deadly posion bottle</label>
+    <description>A bottle containing deadly poison that can be used to dip arrows.</description>
+	<descriptionHyperlinks>
+      <ThingDef>Kiiro_RecurveBow</ThingDef>
+      <ThingDef>Kiiro_HunterBow</ThingDef>
+      <ThingDef>Kiiro_LongBow</ThingDef>
+      <ThingDef>Kiiro_CrossBow</ThingDef>
+      <ThingDef>Kiiro_RepeatingCrossbow</ThingDef>
+      <ThingDef>Kiiro_ThrowingKnife</ThingDef>
+      <ThingDef>Kiiro_ThrowingCrossKnives</ThingDef>
+      <ThingDef>Kiiro_BlowGun</ThingDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>Kiiro/Apparel/Utility/PoisonBottle_Deadly/PoisonBottle_Deadly</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <costList>
+      <Steel>15</Steel>
+      <MedicineHerbal>4</MedicineHerbal>
+      <Kiiro_SchizonepetaLeaf>40</Kiiro_SchizonepetaLeaf>
+    </costList>
+    <statBases>
+      <WorkToMake>6600</WorkToMake>
+      <Mass>0.2</Mass>
+      <Flammability>0.4</Flammability>
+      <EquipDelay>0.6</EquipDelay>
+    </statBases>
+    <equippedStatOffsets></equippedStatOffsets>
+    <thingCategories>
+      <li>Kiiro_Apparel_Utility</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Reloadable">
+        <maxCharges>30</maxCharges>
+        <ammoDef>Kiiro_SchizonepetaLeaf</ammoDef>
+        <ammoCountPerCharge>1</ammoCountPerCharge>
+        <baseReloadTicks>60</baseReloadTicks>
+        <soundReload>Standard_Reload</soundReload>
+        <hotKey>Misc4</hotKey>
+        <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+        <chargeNoun>Material</chargeNoun>
+      </li>
+      <li Class="MYDE_Kiiro.CompProperties_ShowReloadable"></li>
+    </comps>
+    <recipeMaker>
+      <skillRequirements>
+        <Medicine>5</Medicine>
+        <Intellectual>5</Intellectual>
+      </skillRequirements>
+      <researchPrerequisite Inherit="false">
+        <li>Kiiro_EnvenomTech</li>
+      </researchPrerequisite>
+    </recipeMaker>
+    <generateAllowChance>0.3</generateAllowChance>
+    <apparel>
+      <wornGraphicPath>Kiiro/Apparel/Utility/PoisonBottle_Deadly/PoisonBottleDeadly</wornGraphicPath>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags Inherit="false">
+        <li>Kiiro_PoisonBottle</li>
+      </tags>
+    </apparel>
+    <thingClass>MYDE_Kiiro.PoisonBottle</thingClass>
+  </ThingDef>
+  
+  <ThingDef ParentName="Kiiro_MedievalConcealedWeaponBase"><!-- 绮罗麻痹毒瓶 -->
+    <defName>Kiiro_Apparel_PoisonBottleParalytic</defName>
+    <label>kiiro paralytic posion bottle</label>
+    <description>A bottle containing paralytic poison that can be used to dip arrows.</description>
+	<descriptionHyperlinks>
+      <ThingDef>Kiiro_RecurveBow</ThingDef>
+      <ThingDef>Kiiro_HunterBow</ThingDef>
+      <ThingDef>Kiiro_LongBow</ThingDef>
+      <ThingDef>Kiiro_CrossBow</ThingDef>
+      <ThingDef>Kiiro_RepeatingCrossbow</ThingDef>
+      <ThingDef>Kiiro_ThrowingKnife</ThingDef>
+      <ThingDef>Kiiro_ThrowingCrossKnives</ThingDef>
+      <ThingDef>Kiiro_BlowGun</ThingDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>Kiiro/Apparel/Utility/PoisonBottle_Numb/PoisonBottle_Numb</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.5</drawSize>
+    </graphicData>
+    <costList>
+      <Steel>15</Steel>
+      <MedicineHerbal>4</MedicineHerbal>
+      <Kiiro_SchizonepetaLeaf>40</Kiiro_SchizonepetaLeaf>
+    </costList>
+    <statBases>
+      <WorkToMake>6600</WorkToMake>
+      <Mass>0.2</Mass>
+      <Flammability>0.4</Flammability>
+      <EquipDelay>0.6</EquipDelay>
+    </statBases>
+    <equippedStatOffsets></equippedStatOffsets>
+    <thingCategories>
+      <li>Kiiro_Apparel_Utility</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Reloadable">
+        <maxCharges>30</maxCharges>
+        <ammoDef>Kiiro_SchizonepetaLeaf</ammoDef>
+        <ammoCountPerCharge>1</ammoCountPerCharge>
+        <baseReloadTicks>60</baseReloadTicks>
+        <soundReload>Standard_Reload</soundReload>
+        <hotKey>Misc4</hotKey>
+        <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+        <chargeNoun>Material</chargeNoun>
+      </li>
+      <li Class="MYDE_Kiiro.CompProperties_ShowReloadable"></li>
+    </comps>
+    <recipeMaker>
+      <skillRequirements>
+        <Medicine>5</Medicine>
+        <Intellectual>5</Intellectual>
+      </skillRequirements>
+      <researchPrerequisite Inherit="false">
+        <li>Kiiro_EnvenomTech</li>
+      </researchPrerequisite>
+    </recipeMaker>
+    <generateAllowChance>0.3</generateAllowChance>
+    <apparel>
+      <wornGraphicPath>Kiiro/Apparel/Utility/PoisonBottle_Numb/PoisonBottleNumb</wornGraphicPath>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags Inherit="false">
+        <li>Kiiro_PoisonBottle</li>
+      </tags>
+    </apparel>
+    <thingClass>MYDE_Kiiro.PoisonBottle</thingClass>
+  </ThingDef>
+  
+  <!--=手榴弹腰带=-->
+  <ThingDef Name="Kiiro_GrenadeEquippedBase" ParentName="ApparelNoQualityBase" Abstract="True">
+    <recipeMaker>
+      <researchPrerequisite>Kiiro_Grenades</researchPrerequisite>
+      <recipeUsers Inherit="false">
+        <li>Kiiro_MachiningBench</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+      <useIngredientsForColor>false</useIngredientsForColor>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+    </recipeMaker>
+    <techLevel>Industrial</techLevel>
+    <apparel>
+      <tags>
+        <li>Kiiro_GrenadeEquipped</li>
+      </tags>
+    </apparel>
+    <thingCategories>
+      <li>Kiiro_Apparel_Utility</li>
+    </thingCategories>
+  </ThingDef>
+  
+  <!-- 绮罗木柄手榴弹腰带 -->
+  <ThingDef ParentName="Kiiro_GrenadeEquippedBase">
+    <defName>Kiiro_Apparel_GrenadeFrag</defName>
+    <label>kiiro grenade belt</label>
+    <description>A string of wooden handle grenades hanging from the waist.</description>
+    <graphicData>
+      <texPath>Kiiro/Apparel/Utility/GrenadeFrag/GrenadeFrag</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <costList>
+      <Kiiro_GrenadeFrag>1</Kiiro_GrenadeFrag>
+    </costList>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <WorkToMake>12800</WorkToMake>
+      <Mass>0.6</Mass>
+      <Flammability>0.4</Flammability>
+      <EquipDelay>1.8</EquipDelay>
+      <RangedWeapon_Cooldown>0</RangedWeapon_Cooldown>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Reloadable">
+        <maxCharges>3</maxCharges>
+        <ammoDef>Kiiro_GrenadeFrag</ammoDef>
+        <ammoCountToRefill>1</ammoCountToRefill>
+        <baseReloadTicks>60</baseReloadTicks>
+        <soundReload>Standard_Reload</soundReload>
+        <hotKey>Misc4</hotKey>
+        <chargeNoun>grenade</chargeNoun>
+        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <label>throw grenade</label>
+        <verbClass>Verb_LaunchProjectileStatic</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <onlyManualCast>false</onlyManualCast>
+        <range>14.9</range>
+        <forcedMissRadius>1.2</forcedMissRadius>
+        <warmupTime>0.5</warmupTime>
+        <noiseRadius>2</noiseRadius>
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+        <soundCast>ThrowGrenade</soundCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <defaultProjectile>KiiroProjectile_GrenadeFrag</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <researchPrerequisites>
+        <li>Kiiro_Grenades</li>
+      </researchPrerequisites>
+    </recipeMaker>
+    <apparel>
+      <wornGraphicPath>Kiiro/Apparel/Utility/GrenadeFrag/GrenadeFrag</wornGraphicPath>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>Kiiro_Apparel_GrenadeFrag</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  
+  <!-- 绮罗烟雾手榴弹腰带 -->
+  <ThingDef ParentName="Kiiro_GrenadeEquippedBase">
+    <defName>Kiiro_Apparel_GrenadeSmoke</defName>
+    <label>kiiro smoke grenade belt</label>
+    <description>A string of smoke grenades hanging from the waist.</description>
+    <graphicData>
+      <texPath>Kiiro/Apparel/Utility/GrenadeSmoke/GrenadeSmoke</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <costList>
+      <Kiiro_GrenadeSmoke>1</Kiiro_GrenadeSmoke>
+    </costList>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <WorkToMake>12800</WorkToMake>
+      <Mass>0.6</Mass>
+      <Flammability>0.4</Flammability>
+      <EquipDelay>1.8</EquipDelay>
+      <RangedWeapon_Cooldown>0</RangedWeapon_Cooldown>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Reloadable">
+        <maxCharges>3</maxCharges>
+        <ammoDef>Kiiro_GrenadeSmoke</ammoDef>
+        <ammoCountToRefill>1</ammoCountToRefill>
+        <baseReloadTicks>60</baseReloadTicks>
+        <soundReload>Standard_Reload</soundReload>
+        <hotKey>Misc4</hotKey>
+        <chargeNoun>smoke grenade</chargeNoun>
+        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <label>throw smoke grenade</label>
+        <verbClass>Verb_LaunchProjectileStatic</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <onlyManualCast>false</onlyManualCast>
+        <range>11.9</range>
+        <forcedMissRadius>1.2</forcedMissRadius>
+        <warmupTime>0.5</warmupTime>
+        <noiseRadius>2</noiseRadius>
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+        <soundCast>ThrowGrenade</soundCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <defaultProjectile>KiiroProjectile_GrenadeSmoke</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <researchPrerequisites>
+        <li>SmokepopBelt</li>
+        <li>Kiiro_Grenades</li>
+      </researchPrerequisites>
+    </recipeMaker>
+    <apparel>
+      <wornGraphicPath>Kiiro/Apparel/Utility/GrenadeSmoke/GrenadeSmoke</wornGraphicPath>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>Kiiro_Apparel_GrenadeSmoke</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  
+  <!-- 绮罗闪光手榴弹腰带 -->
+  <ThingDef ParentName="Kiiro_GrenadeEquippedBase">
+    <defName>Kiiro_Apparel_GrenadeFlash</defName>
+    <label>kiiro flash grenade belt</label>
+    <description>A string of flash grenades hanging from the waist.</description>
+    <graphicData>
+      <texPath>Kiiro/Apparel/Utility/GrenadeFlash/GrenadeFlash</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.5</drawSize>
+    </graphicData>
+    <costList>
+      <Kiiro_GrenadeFlash>1</Kiiro_GrenadeFlash>
+    </costList>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <WorkToMake>12800</WorkToMake>
+      <Mass>0.6</Mass>
+      <Flammability>0.4</Flammability>
+      <EquipDelay>1.8</EquipDelay>
+      <RangedWeapon_Cooldown>0</RangedWeapon_Cooldown>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Reloadable">
+        <maxCharges>3</maxCharges>
+        <ammoDef>Kiiro_GrenadeFlash</ammoDef>
+        <ammoCountToRefill>1</ammoCountToRefill>
+        <baseReloadTicks>60</baseReloadTicks>
+        <soundReload>Standard_Reload</soundReload>
+        <hotKey>Misc4</hotKey>
+        <chargeNoun>grenade</chargeNoun>
+        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <label>throw grenade</label>
+        <verbClass>Verb_LaunchProjectileStatic</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <onlyManualCast>false</onlyManualCast>
+        <range>11.9</range>
+        <forcedMissRadius>1.2</forcedMissRadius>
+        <warmupTime>0.5</warmupTime>
+        <noiseRadius>2</noiseRadius>
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+        <soundCast>ThrowGrenade</soundCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <defaultProjectile>KiiroProjectile_GrenadeFlash</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>5</Crafting>
+      </skillRequirements>
+      <researchPrerequisites>
+        <li>Kiiro_Grenades</li>
+      </researchPrerequisites>
+    </recipeMaker>
+    <apparel>
+      <wornGraphicPath>Kiiro/Apparel/Utility/GrenadeFlash/GrenadeFlash</wornGraphicPath>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>Kiiro_Apparel_GrenadeFlash</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  
+  <!--=原型单兵火箭筒=-->
+  <ThingDef ParentName="Kiiro_GrenadeEquippedBase">
+    <defName>Kiiro_Apparel_PT_RPG</defName>
+    <label>kiiro prototype RPG</label>
+    <description>A portable single-user rocket launcher developed by the finest technicians of the kiiro. It is designed to be easily carried and can be loaded with a single rocket. While it is theoretically a disposable weapon, it has been designed to be reloadable, taking into account cost and production considerations.</description>
+    <graphicData>
+      <texPath>Kiiro/Apparel/Utility/PT_RPG/PT_RPG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <costList>
+      <Steel>50</Steel>
+      <Plasteel>80</Plasteel>
+      <ComponentSpacer>1</ComponentSpacer>
+      <ReinforcedBarrel>1</ReinforcedBarrel>
+      <Shell_HighExplosive>1</Shell_HighExplosive>
+    </costList>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <WorkToMake>16000</WorkToMake>
+      <Mass>3.2</Mass>
+      <Flammability>0.4</Flammability>
+      <EquipDelay>1.8</EquipDelay>
+      <RangedWeapon_Cooldown>0</RangedWeapon_Cooldown>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Reloadable">
+        <maxCharges>1</maxCharges>
+        <ammoDef>Shell_HighExplosive</ammoDef>
+        <ammoCountToRefill>1</ammoCountToRefill>
+        <baseReloadTicks>60</baseReloadTicks>
+        <soundReload>Standard_Reload</soundReload>
+        <hotKey>Misc4</hotKey>
+        <chargeNoun>Rocket</chargeNoun>
+        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <label>launch rocket</label>
+        <verbClass>Verb_LaunchProjectileStatic</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <onlyManualCast>false</onlyManualCast>
+        <range>35.9</range>
+        <forcedMissRadius>0.8</forcedMissRadius>
+        <warmupTime>0.8</warmupTime>
+        <!-- <warmupEffecter>ExtinguisherExplosion</warmupEffecter> -->
+        <noiseRadius>2</noiseRadius>
+        <muzzleFlashScale>7</muzzleFlashScale>
+        <requireLineOfSight>true</requireLineOfSight>
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+        <soundCast>RocketswarmLauncher_Fire</soundCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <defaultProjectile>KiiroProjectile_PT_RPG</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+      </li>
+    </verbs>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+      <researchPrerequisites>
+        <li>Kiiro_Grenades</li>
+        <li>Kiiro_PrototypeGun</li>
+      </researchPrerequisites>
+    </recipeMaker>
+    <apparel>
+      <!-- <wornGraphicPath>Kiiro/Apparel/Null/Null</wornGraphicPath> -->
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <wornGraphicData>
+        <renderUtilityAsPack>true</renderUtilityAsPack>
+      </wornGraphicData>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+      <tags>
+        <li>Kiiro_Apparel_PT_RPG</li>
+      </tags>
+    </apparel>
+  </ThingDef>
+  <ThingDef ParentName="BaseFragGrenadeProjectile">
+    <defName>KiiroProjectile_PT_RPG</defName>
+    <label>kiiro prototype rocket</label>
+	<thingClass>Kiiro.Projectile_ExplosiveWithSmokeTrail</thingClass>
+    <graphicData>
+      <texPath>Kiiro/Weapon/Industry/Projectile/Projectile_PT_RPG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.7</drawSize>
+    </graphicData>
+    <projectile>
+      <speed>75</speed>
+      <flyOverhead>true</flyOverhead>
+	  <arcHeightFactor>0</arcHeightFactor>
+      <shadowSize>0.4</shadowSize>
+      <explosionRadius>3.6</explosionRadius>
+      <damageAmountBase>65</damageAmountBase>
+      <armorPenetrationBase>0.82</armorPenetrationBase>
+      <stoppingPower>5.2</stoppingPower>
+      <explosionDelay>0</explosionDelay>
+    </projectile>
+  </ThingDef>
+  
+  <!--=机巧弩背包=-->
+  <ThingDef Name="Kiiro_AutoCrossBowBase" ParentName="ApparelNoQualityBase" Abstract="True">
+    <recipeMaker>
+      <researchPrerequisite>Kiiro_Amamech</researchPrerequisite>
+      <recipeUsers Inherit="false">
+        <li>Kiiro_FueledSmithy</li>
+        <li>Kiiro_ElectricSmithy</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+      <useIngredientsForColor>false</useIngredientsForColor>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
+      <displayPriority>340</displayPriority>
+    </recipeMaker>
+    <costList>
+      <WoodLog>75</WoodLog>
+      <Steel>40</Steel>
+    </costList>
+    <techLevel>Medieval</techLevel>
+    <apparel>
+      <tags>
+        <li>Kiiro_AutoCrossBowPack</li>
+      </tags>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <scoreOffset>4</scoreOffset>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+    </apparel>
+    <generateAllowChance>0.15</generateAllowChance>
+    <thingCategories>
+      <li>Kiiro_Apparel_Utility</li>
+    </thingCategories>
+  </ThingDef>
+  
+  <!-- 绮罗穿云弩背包 -->
+  <ThingDef ParentName="Kiiro_AutoCrossBowBase">
+    <thingClass>Kiiro.DeploymentPack</thingClass>
+    <defName>Kiiro_AutoCrossBowPack</defName>
+    <label>kiiro autocrossbow pack (through cloud)</label>
+    <description>A backpack equipped with a crossbow mechanism, which, when deployed, launches mechanized through cloud crossbow driven by spring and projectile. Once deployed, it cannot be retrieved, and the stored elastic potential energy in the mechanism will sustain the operation for 60 seconds.</description>
+    <descriptionHyperlinks>
+      <ThingDef>KiiroTurret_AutoCrossBow</ThingDef>
+    </descriptionHyperlinks>
+    <techLevel>Medieval</techLevel>
+    <comps>
+      <li Class="CompProperties_Reloadable">
+        <maxCharges>1</maxCharges>
+        <destroyOnEmpty>true</destroyOnEmpty>
+        <soundReload>Standard_Reload</soundReload>
+        <hotKey>Misc4</hotKey>
+        <chargeNoun>crossbow mechanism</chargeNoun>
+        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+      </li>
+	  <li Class="Kiiro.CompProperties_Deplyment">
+        <thingToDeploy>KiiroTurret_AutoCrossBow</thingToDeploy>
+        <deployFleck>Smoke</deployFleck>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>Kiiro.Verb_DeployThing</verbClass>
+        <label>deplay crossbow</label>
+        <commandIcon>Kiiro/Building/Security/AutoAmamech/AutoCrossBow_Top</commandIcon>
+        <violent>false</violent>
+        <hasStandardCommand>true</hasStandardCommand>
+        <targetable>false</targetable>
+        <nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+        <onlyManualCast>True</onlyManualCast>
+      </li>
+    </verbs>
+    <graphicData>
+      <texPath>Kiiro/Apparel/Utility/AutoCrossBow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+      <drawOffset>(0,0,0)</drawOffset>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>5.4</Mass>
+      <Flammability>0.4</Flammability>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <tags></tags>
+      <!--<wornGraphicPath>Kiiro/Apparel/Null/Null</wornGraphicPath>-->
+    </apparel>
+    <tradeTags></tradeTags>
+    <allowedArchonexusCount>1</allowedArchonexusCount>
+  </ThingDef>
+  
+  <!-- 绮罗飞星弩背包 -->
+  <ThingDef ParentName="Kiiro_AutoCrossBowBase">
+    <thingClass>Kiiro.DeploymentPack</thingClass>
+    <defName>Kiiro_AutoCrossBowIIPack</defName>
+    <label>kiiro autocrossbow pack (flying star)</label>
+    <description>A backpack equipped with a crossbow mechanism, which, when deployed, launches mechanized flying star crossbow driven by spring and projectile. Once deployed, it cannot be retrieved, and the stored elastic potential energy in the mechanism will sustain the operation for 60 seconds.</description>
+    <descriptionHyperlinks>
+      <ThingDef>KiiroTurret_AutoCrossBowII</ThingDef>
+    </descriptionHyperlinks>
+    <techLevel>Medieval</techLevel>
+    <comps>
+      <li Class="CompProperties_Reloadable">
+        <maxCharges>1</maxCharges>
+        <destroyOnEmpty>true</destroyOnEmpty>
+        <soundReload>Standard_Reload</soundReload>
+        <hotKey>Misc4</hotKey>
+        <chargeNoun>crossbow mechanism</chargeNoun>
+        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+      </li>
+	  <li Class="Kiiro.CompProperties_Deplyment">
+        <thingToDeploy>KiiroTurret_AutoCrossBowII</thingToDeploy>
+        <deployFleck>Smoke</deployFleck>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>Kiiro.Verb_DeployThing</verbClass>
+        <label>deplay crossbow</label>
+        <commandIcon>Kiiro/Building/Security/AutoAmamech/AutoCrossBow_Top</commandIcon>
+        <violent>false</violent>
+        <hasStandardCommand>true</hasStandardCommand>
+        <targetable>false</targetable>
+        <nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+        <onlyManualCast>True</onlyManualCast>
+      </li>
+    </verbs>
+    <graphicData>
+      <texPath>Kiiro/Apparel/Utility/AutoCrossBowII</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+      <drawOffset>(0,0,0)</drawOffset>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <WorkToMake>12000</WorkToMake>
+      <Mass>5.4</Mass>
+      <Flammability>0.4</Flammability>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <tags></tags>
+      <!--<wornGraphicPath>Kiiro/Apparel/Null/Null</wornGraphicPath>-->
+    </apparel>
+    <tradeTags></tradeTags>
+    <allowedArchonexusCount>1</allowedArchonexusCount>
+  </ThingDef>
+  <ThingDef Name="Kiiro_AutoLauncherBase" ParentName="ApparelNoQualityBase" Abstract="True">
+    <recipeMaker>
+      <researchPrerequisite>Kiiro_AutoLauncher</researchPrerequisite>
+      <recipeUsers Inherit="false">
+        <li>Kiiro_MachiningBench</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedPack</unfinishedThingDef>
+      <useIngredientsForColor>false</useIngredientsForColor>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <skillRequirements>
+        <Crafting>12</Crafting>
+      </skillRequirements>
+      <displayPriority>340</displayPriority>
+    </recipeMaker>
+    <costList>
+      <Steel>320</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+    <techLevel>Industrial</techLevel>
+    <apparel>
+      <tags>
+        <li>Kiiro_AutoLauncherPack</li>
+      </tags>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
+      <scoreOffset>4</scoreOffset>
+      <careIfWornByCorpse>false</careIfWornByCorpse>
+      <careIfDamaged>false</careIfDamaged>
+      <wearPerDay>0</wearPerDay>
+      <bodyPartGroups>
+        <li>Shoulders</li>
+      </bodyPartGroups>
+      <layers>
+        <li>Belt</li>
+      </layers>
+    </apparel>
+    <generateAllowChance>0.15</generateAllowChance>
+    <thingCategories>
+      <li>Kiiro_Apparel_Utility</li>
+    </thingCategories>
+  </ThingDef>
+  
+  <!-- 绮罗便携自动EMP榴弹发射器 -->
+  <ThingDef ParentName="Kiiro_AutoLauncherBase">
+    <thingClass>Kiiro.DeploymentPack</thingClass>
+    <defName>Kiiro_AutoEMPLauncherPack</defName>
+    <label>kiiro auto EMP launcher pack</label>
+    <description>A lightweight launcher backpack that can be carried on the person. When deployed, it features an automatic targeting and firing system for an EMP launcher, which can sustain operation for 90 seconds.</description>
+    <descriptionHyperlinks>
+      <ThingDef>KiiroTurret_AutoEMPLauncher</ThingDef>
+    </descriptionHyperlinks>
+    <comps>
+      <li Class="CompProperties_Reloadable">
+        <maxCharges>1</maxCharges>
+        <destroyOnEmpty>true</destroyOnEmpty>
+        <soundReload>Standard_Reload</soundReload>
+        <hotKey>Misc4</hotKey>
+        <chargeNoun>launcher</chargeNoun>
+        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+      </li>
+	  <li Class="Kiiro.CompProperties_Deplyment">
+        <thingToDeploy>KiiroTurret_AutoEMPLauncher</thingToDeploy>
+        <deployFleck>Smoke</deployFleck>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>Kiiro.Verb_DeployThing</verbClass>
+        <label>deplay launcher</label>
+        <commandIcon>Kiiro/Building/Security/AutoLauncher/AutoEMPLauncher_Top</commandIcon>
+        <violent>false</violent>
+        <hasStandardCommand>true</hasStandardCommand>
+        <targetable>false</targetable>
+        <nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+        <onlyManualCast>True</onlyManualCast>
+      </li>
+    </verbs>
+    <graphicData>
+      <texPath>Kiiro/Apparel/Utility/AutoEMPLauncherPack</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+      <drawOffset>(0,0,0)</drawOffset>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+      <Mass>6.8</Mass>
+      <Flammability>0.4</Flammability>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <tags></tags>
+      <!--<wornGraphicPath>Kiiro/Apparel/Null/Null</wornGraphicPath>-->
+    </apparel>
+    <tradeTags></tradeTags>
+    <allowedArchonexusCount>1</allowedArchonexusCount>
+  </ThingDef>
+  
+  <!-- 绮罗便携自动破片榴弹发射器 -->
+  <ThingDef ParentName="Kiiro_AutoLauncherBase">
+    <thingClass>Kiiro.DeploymentPack</thingClass>
+    <defName>Kiiro_AutoHE_FRAGLauncherPack</defName>
+    <label>kiiro auto HE launcher pack</label>
+    <description>A lightweight launcher backpack that can be carried on the person. When deployed, it features an automatic targeting and firing system for a fragmentation grenade launcher, which can sustain operation for 90 seconds. The launcher has a capacity of 10 rounds, and can be reloaded before it becomes ineffective, although the expended rounds are not refunded.</description>
+    <descriptionHyperlinks>
+      <ThingDef>KiiroTurret_AutoHE_FRAGLauncher</ThingDef>
+    </descriptionHyperlinks>
+    <comps>
+      <li Class="CompProperties_Reloadable">
+        <maxCharges>1</maxCharges>
+        <destroyOnEmpty>true</destroyOnEmpty>
+        <soundReload>Standard_Reload</soundReload>
+        <hotKey>Misc4</hotKey>
+        <chargeNoun>launcher</chargeNoun>
+        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+      </li>
+	  <li Class="Kiiro.CompProperties_Deplyment">
+        <thingToDeploy>KiiroTurret_AutoHE_FRAGLauncher</thingToDeploy>
+        <deployFleck>Smoke</deployFleck>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>Kiiro.Verb_DeployThing</verbClass>
+        <label>deplay launcher</label>
+        <commandIcon>Kiiro/Building/Security/AutoLauncher/AutoHE_FRAGLauncher_Top</commandIcon>
+        <violent>false</violent>
+        <hasStandardCommand>true</hasStandardCommand>
+        <targetable>false</targetable>
+        <nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+        <onlyManualCast>True</onlyManualCast>
+      </li>
+    </verbs>
+    <graphicData>
+      <texPath>Kiiro/Apparel/Utility/AutoHE_FRAGLauncherPack</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+      <drawOffset>(0,0,0)</drawOffset>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+      <Mass>6.8</Mass>
+      <Flammability>0.4</Flammability>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <tags></tags>
+      <!--<wornGraphicPath>Kiiro/Apparel/Null/Null</wornGraphicPath>-->
+    </apparel>
+    <tradeTags></tradeTags>
+    <allowedArchonexusCount>1</allowedArchonexusCount>
+  </ThingDef>
+  
+  <!-- 绮罗便携自动烟雾弹发射器 -->
+  <ThingDef ParentName="Kiiro_AutoLauncherBase">
+    <thingClass>Kiiro.DeploymentPack</thingClass>
+    <defName>Kiiro_AutoSmokeLauncherPack</defName>
+    <label>kiiro auto smoke launcher pack</label>
+    <description>A lightweight launcher backpack that can be carried on the person. When deployed, it features an automatic targeting and firing system for a smoke grenade launcher, which can sustain operation for 90 seconds.</description>
+    <descriptionHyperlinks>
+      <ThingDef>KiiroTurret_AutoSmokeLauncher</ThingDef>
+    </descriptionHyperlinks>
+    <comps>
+      <li Class="CompProperties_Reloadable">
+        <maxCharges>1</maxCharges>
+        <destroyOnEmpty>true</destroyOnEmpty>
+        <soundReload>Standard_Reload</soundReload>
+        <hotKey>Misc4</hotKey>
+        <chargeNoun>launcher</chargeNoun>
+        <displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+      </li>
+	  <li Class="Kiiro.CompProperties_Deplyment">
+        <thingToDeploy>KiiroTurret_AutoSmokeLauncher</thingToDeploy>
+        <deployFleck>Smoke</deployFleck>
+      </li>
+    </comps>
+    <verbs>
+      <li>
+        <verbClass>Kiiro.Verb_DeployThing</verbClass>
+        <label>deploy launcher</label>
+        <commandIcon>Kiiro/Building/Security/AutoLauncher/AutoSmokeLauncher_Top</commandIcon>
+        <violent>false</violent>
+        <hasStandardCommand>true</hasStandardCommand>
+        <targetable>false</targetable>
+        <nonInterruptingSelfCast>true</nonInterruptingSelfCast>
+        <onlyManualCast>True</onlyManualCast>
+      </li>
+    </verbs>
+    <graphicData>
+      <texPath>Kiiro/Apparel/Utility/AutoSmokeLauncherPack</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+      <drawOffset>(0,0,0)</drawOffset>
+    </graphicData>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <WorkToMake>18000</WorkToMake>
+      <Mass>6.8</Mass>
+      <Flammability>0.4</Flammability>
+      <EquipDelay>1.5</EquipDelay>
+    </statBases>
+    <apparel>
+      <tags Inherit="false">
+        <li>Kiiro_AutoSmokeLauncherPack</li>
+      </tags>
+      <!--<wornGraphicPath>Kiiro/Apparel/Null/Null</wornGraphicPath>-->
+    </apparel>
+    <tradeTags></tradeTags>
+    <allowedArchonexusCount>1</allowedArchonexusCount>
+  </ThingDef>
+</Defs>

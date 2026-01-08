@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <QuestScriptDef>
+        <defName>OA_UrbanConstruction</defName>
+        <rootSelectionWeight>0</rootSelectionWeight>
+        <isRootSpecial>true</isRootSpecial>
+        <defaultChallengeRating>1</defaultChallengeRating>
+        <expireDaysRange>4~8</expireDaysRange>
+        <questNameRules>
+            <rulesStrings>
+                <li>questName-> Oberonia Aurea Construction support </li>
+                <li>questName-> Construction problems of [settlement_label] </li>
+                <li>questName-> Oberonia Aurea town construction </li>
+                <li>questName->[special][construction]</li>
+                <li>special->[settlement_label]'s </li>
+                <li>special->Special</li>
+                <li>special->Urgent</li>
+                <li>construction->Brick Purchase</li>
+                <li>construction->Material Order</li>
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+                <li>questDescription->The ratkin settlement near our colony sent us a special purchase order. Reasonfortask, they are preparing to start a series of new construction projects in the near future. However, as the corresponding building materials are in short supply, they would like to purchase the following from us: \n\n any [requestedCategory_label] x [requestedThingCount] (total value: [requestedThingMarketValue_money]) \n\n if we accept the trade order, you need to send a travel team carry supplies corresponding to the target site. \n\n Estimated travel time: [estimatedTravelTime_duration]. If we fulfill this order, the willingness of the Oberonia Aurea Empire to assist us will increase. \n\nNote: Bricks are allowed to be delivered in batches.</li>
+                <li>Reasonfortask->To expand the reach of the Oberonia Aurea Empire</li>
+                <li>Reasonfortask->To promote economic and business contacts</li>
+                <li>Reasonfortask->In order to build a new outer City residence</li>
+                <li>Reasonfortask->To build new refugee camps to maintain regional stability</li>
+                <li>Reasonfortask->To expand the residential area to accommodate more residents</li>
+                <li>Reasonfortask->To build new industrial areas to boost the rate of colonial development</li>
+                <li>Reasonfortask->To make a conflict buffer</li>
+                <li>Reasonfortask->To build a new cultural museum and planetarium</li>
+                <li>Reasonfortask->The reasonfortask is motivated by the consideration of helping more refugees to practice humanitarian considerations</li>
+            </rulesStrings>
+        </questDescriptionRules>
+        <root Class="QuestNode_Sequence">
+            <nodes>
+                <li Class="OberoniaAurea_Frame.QuestNode_EarliestDayPassed">
+                    <earliestDayPassed>30</earliestDayPassed>
+                </li>
+
+                <li Class="QuestNode_GetMap" />
+
+                <li Class="OberoniaAurea.QuestNode_GetOberoniaAureaFaction">                    <!-- 获取金鼠鼠派系 -->
+                    <storeAs>OAFaction</storeAs>
+                    <allowAlly>true</allowAlly>
+                    <allowNeutral>true</allowNeutral>
+                    <allowHostile>false</allowHostile>
+                </li>
+                <li Class="OberoniaAurea_Frame.QuestNode_GetFactionLeader">
+                    <faction>$OAFaction</faction>
+                    <storeAs>asker</storeAs>
+                </li>
+                <li Class="QuestNode_IsNull">
+                    <value>$settlement</value>
+                    <node Class="OberoniaAurea_Frame.QuestNode_GetNearbySettlementOfFaction">
+                        <maxTileDistance>24</maxTileDistance>
+                        <faction>$OAFaction</faction>
+                        <storeAs>settlement</storeAs>
+                    </node>
+                </li>
+
+                <li Class="QuestNode_TradeRequest_RandomOfferDuration">
+                    <settlement>$settlement</settlement>
+                    <storeAs>timeout</storeAs>
+                    <storeEstimatedTravelTimeAs>estimatedTravelTime</storeEstimatedTravelTimeAs>
+                </li>
+
+                <li Class="OberoniaAurea_Frame.QuestNode_RequestThingCount">
+                    <storeAs>requestedThingCount</storeAs>
+                    <baseRange>400</baseRange>
+                    <baseOffset>0~0.2</baseOffset>
+                    <preOffsetWealth>10000</preOffsetWealth>
+                    <preOffsetCount>80</preOffsetCount>
+                    <maxCountLimit>6400</maxCountLimit>
+                </li>
+
+                <li Class="OberoniaAurea_Frame.QueseNode_GetExpectedCategoryMarketValue">
+                    <storeThingCategoryAs>requestedCategory</storeThingCategoryAs>
+                    <storeMarketValueAs>requestedThingMarketValue</storeMarketValueAs>
+                    <expectedThingCategory>StoneBlocks</expectedThingCategory>
+                    <storeThingCategory>true</storeThingCategory>
+                    <unitPrice>0.9</unitPrice>
+                    <expectedThingCount>$requestedThingCount</expectedThingCount>
+                </li>
+
+                <li Class="OberoniaAurea_Frame.QuestNode_InitiateCategoryTradeRequest">
+                    <settlement>$settlement</settlement>
+                    <requestedCategoryDef>$requestedCategory</requestedCategoryDef>
+                    <requestedThingCount>$requestedThingCount</requestedThingCount>
+                    <duration>$timeout</duration>
+                    <requestIsMeat>false</requestIsMeat>
+                </li>
+
+                <!-- Rewards -->
+
+                <li Class="QuestNode_Signal">
+                    <inSignal>settlement.OAFrame_CategoryRQFulfilled</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_Set">
+                                <name>rewardValue</name>
+                                <value>$($requestedThingMarketValue * randFloat(1.4, 1.6))</value>
+                            </li>
+                            <li Class="QuestNode_GiveRewards">
+                                <inSignal>settlement.OAFrame_CategoryRQFulfilled</inSignal>
+                                <parms>
+                                    <rewardValue>$rewardValue</rewardValue>
+                                    <thingRewardItemsOnly>true</thingRewardItemsOnly>
+                                    <giveToCaravan>true</giveToCaravan>
+                                </parms>
+                                <useDifficultyFactor>false</useDifficultyFactor>                                <!-- we only care about requested total market value -->
+                            </li>
+                            <li Class="OberoniaAurea.QuestNode_OaAssistPointsChange">
+                                <change>15</change>
+                                <isReward>true</isReward>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Success</outcome>
+                                <sendStandardLetter>true</sendStandardLetter>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+
+                <!-- End conditions -->
+                <li Class="QuestNode_Letter">
+                    <inSignal>OAFaction.BecameHostileToPlayer</inSignal>
+                    <label TKey="LetterLabelQuestFailed">任务失败：[resolvedQuestName]</label>
+                    <text TKey="LetterTextQuestFailed">[OAFaction_name]开始与你敌对了。</text>
+                </li>
+
+                <li Class="QuestNode_Delay">
+                    <delayTicks>$timeout</delayTicks>
+                    <isQuestTimeout>true</isQuestTimeout>
+                    <outSignalComplete>TradeRequestTimeout</outSignalComplete>
+                </li>
+
+                <li Class="QuestNode_AnySignal">
+                    <inSignals>
+                        <li>OAFaction.BecameHostileToPlayer</li>
+                        <li>TradeRequestTimeout</li>
+                    </inSignals>
+                    <node Class="QuestNode_End">
+                        <outcome>Fail</outcome>
+                    </node>
+                </li>
+            </nodes>
+        </root>
+    </QuestScriptDef>
+
+</Defs>

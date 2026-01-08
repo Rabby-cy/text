@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OARK_SDCommunicationEquipment.label>科研部通讯设备</OARK_SDCommunicationEquipment.label>
+    <OARK_SDCommunicationEquipment.description>一个能够直接接入科研部通讯的通讯设备，常在科研部成员互相彼此探讨时使用。\n\n因为通讯编码是实时变化的，所以非科研部现任成员在使用后往往无法再次呼出。</OARK_SDCommunicationEquipment.description>
+    <OARK_SDCommunicationEquipment.comps.CompUsable.useLabel>使用{0_label}</OARK_SDCommunicationEquipment.comps.CompUsable.useLabel>
+
+    <OARK_UnlockedFile_EncryptedFile.label>加密文件的副本</OARK_UnlockedFile_EncryptedFile.label>
+    <OARK_UnlockedFile_EncryptedFile.description>一件被专门加密的文件，在破译之前谁也不知道里面写着什么内容。</OARK_UnlockedFile_EncryptedFile.description>
+    <OARK_UnlockedFile_EncryptedFile.comps.CompUsable.useLabel>使用{0_label}</OARK_UnlockedFile_EncryptedFile.comps.CompUsable.useLabel>
+
+    <OARK_SDAccountingRecord.label>科研部账目原始资料</OARK_SDAccountingRecord.label>
+    <OARK_SDAccountingRecord.description>极为混乱的账目资料，仅仅是看一眼便足以让审查员不得不服用花青素以缓解不适。\n\n由特定的人整理账本时，会加速科研部的完蛋。</OARK_SDAccountingRecord.description>
+
+</LanguageData>

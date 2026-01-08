@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>OARK_SDCommunicationEquipment</defName>
+        <label>Research Department Communication Equipment</label>
+        <thingClass>ThingWithComps</thingClass>
+        <description>A communication device that can directly access the research department's communications, often used when members of the research department discuss with each other.\n\nBecause the communication code changes in real-time, non-current members of the research department are often unable to call out again after using it.</description>
+        <graphicData>
+            <texPath>Item/OARK_SDCommunicationEquipment</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1.35,1.35)</drawSize>
+        </graphicData>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <stackLimit>1</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+            <MarketValue>750</MarketValue>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Mass>1.5</Mass>
+            <Flammability>0.2</Flammability>
+        </statBases>
+        <thingCategories>
+            <li>ItemsMisc</li>
+        </thingCategories>
+        <tradeability>Sellable</tradeability>
+        <techLevel>Ultra</techLevel>
+        <tradeTags>
+            <li>ExoticMisc</li>
+        </tradeTags>
+        <comps>
+            <li Class="CompProperties_Usable">
+                <useDuration>5000</useDuration>
+                <useJob>UseItem</useJob>
+                <useLabel>Use {0_label}</useLabel>
+                <showUseGizmo>true</showUseGizmo>
+            </li>
+            <li Class="OberoniaAurea.CompProperties_UseEffect_ResearchAnalyzer">
+                <compClass>OberoniaAurea.CompUseEffect_SDCommunicationEquipment</compClass>
+                <researchAmount>4000</researchAmount>
+            </li>
+            <li Class="CompProperties_UseEffectDestroySelf" />
+        </comps>
+        <thingSetMakerTags>
+            <li>RewardStandardCore</li>
+        </thingSetMakerTags>
+    </ThingDef>
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>OARK_UnlockedFile_EncryptedFile</defName>
+        <label>Copy of Encrypted File</label>
+        <thingClass>ThingWithComps</thingClass>
+        <description>A specially encrypted file. No one knows what is written inside before it is decrypted.</description>
+        <graphicData>
+            <texPath>Item/OARK_UnlockedFile_EncryptedFile</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1.55,1.55)</drawSize>
+        </graphicData>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <stackLimit>1</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+            <MarketValue>40</MarketValue>
+            <MaxHitPoints>50</MaxHitPoints>
+            <Mass>1.0</Mass>
+            <Flammability>0.2</Flammability>
+        </statBases>
+        <thingCategories>
+            <li>ItemsMisc</li>
+        </thingCategories>
+        <tradeability>None</tradeability>
+        <techLevel>Ultra</techLevel>
+        <comps>
+            <li Class="CompProperties_Usable">
+                <useDuration>2500</useDuration>
+                <useJob>UseItem</useJob>
+                <useLabel>Use {0_label}</useLabel>
+                <showUseGizmo>true</showUseGizmo>
+            </li>
+            <li Class="CompProperties_UseEffect">
+                <compClass>OberoniaAurea.CompUseEffect_UnlockedFile_EncryptedFile</compClass>
+            </li>
+            <li Class="CompProperties_UseEffectDestroySelf" />
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>OARK_SDAccountingRecord</defName>
+        <label>Research Department Original Accounting Records</label>
+        <thingClass>ThingWithComps</thingClass>
+        <description>Extremely chaotic accounting records. Just a glance is enough to make an auditor have to take anthocyanins to relieve discomfort.\n\nWhen a specific person organizes the ledger, it will accelerate the demise of the research department.</description>
+        <graphicData>
+            <texPath>Item/OARK_SDAccountingRecord</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1.3,1.3)</drawSize>
+        </graphicData>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <stackLimit>1</stackLimit>
+        <useHitPoints>true</useHitPoints>
+        <statBases>
+            <MarketValue>82</MarketValue>
+            <MaxHitPoints>50</MaxHitPoints>
+            <Mass>6.0</Mass>
+            <Flammability>0.2</Flammability>
+        </statBases>
+        <thingCategories>
+            <li>ItemsMisc</li>
+        </thingCategories>
+        <tradeability>None</tradeability>
+        <techLevel>Ultra</techLevel>
+        <comps>
+            <li Class="OberoniaAurea.CompProperties_Hackable">
+                <compClass>OberoniaAurea.CompSDAccountingRecord</compClass>
+                <maxHackPoint>750</maxHackPoint>
+                <destoryOnHackComplete>true</destoryOnHackComplete>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

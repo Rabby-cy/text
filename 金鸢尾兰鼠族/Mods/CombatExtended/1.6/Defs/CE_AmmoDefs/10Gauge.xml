@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>Ammo10GaugeDU</defName>
+		<label>10 gauge depleted uranium Ammo</label>
+		<parent>AmmoShotguns</parent>
+		<iconPath>UI/Icons/ThingCategories/CaliberShotgun</iconPath>
+	</ThingCategoryDef>
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_10GaugeDU</defName>
+		<label>10 Gauge</label>
+		<ammoTypes>
+			<Ammo_10GaugeDU_Buck>Bullet_10GaugeDU_Buck</Ammo_10GaugeDU_Buck>
+			<Ammo_10GaugeDU_Slug>Bullet_10GaugeDU_Slug</Ammo_10GaugeDU_Slug>
+			<Ammo_10GaugeDU_Beanbag>Bullet_10GaugeDU_Beanbag</Ammo_10GaugeDU_Beanbag>
+			<Ammo_10GaugeDU_ElectroSlug>Bullet_10GaugeDU_ElectroSlug</Ammo_10GaugeDU_ElectroSlug>
+		</ammoTypes>
+		<similarTo>AmmoSet_Shotgun</similarTo>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" Name="10GaugeDUBase" ParentName="AmmoBase" Abstract="True">
+		<description>Very common shotgun caliber used mostly for big game hunting.</description>
+		<statBases>
+			<Mass>0.112</Mass>
+			<Bulk>0.09</Bulk>
+		</statBases>
+		<tradeTags>
+			<li>CE_AutoEnableTrade</li>
+			<li>CE_AutoEnableCrafting</li>
+		</tradeTags>
+		<thingCategories>
+			<li>Ammo10GaugeDU</li>
+		</thingCategories>
+		<stackLimit>5000</stackLimit>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="10GaugeDUBase">
+		<defName>Ammo_10GaugeDU_Buck</defName>
+		<label>10 gauge depleted uranium shell (Buck)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Shotgun/Shot</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.72</MarketValue>
+		</statBases>
+		<ammoClass>BuckShot</ammoClass>
+		<cookOffProjectile>Bullet_10GaugeDU_Buck</cookOffProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="10GaugeDUBase">
+		<defName>Ammo_10GaugeDU_Slug</defName>
+		<label>10 gauge shell (Slug)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Shotgun/Slug</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>0.096</Mass>
+			<MarketValue>0.3</MarketValue>
+		</statBases>
+		<ammoClass>Slug</ammoClass>
+		<cookOffProjectile>Bullet_10GaugeDU_Slug</cookOffProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="10GaugeDUBase">
+		<defName>Ammo_10GaugeDU_Beanbag</defName>
+		<label>10 gauge depleted uranium shell (Bean)</label>
+		<generateAllowChance>0</generateAllowChance>
+		<graphicData>
+			<texPath>Things/Ammo/Shotgun/Beanbag</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>0.123</Mass>
+			<MarketValue>0.53</MarketValue>
+		</statBases>
+		<ammoClass>Beanbag</ammoClass>
+		<cookOffProjectile>Bullet_10GaugeDU_Beanbag</cookOffProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="10GaugeDUBase">
+		<defName>Ammo_10GaugeDU_ElectroSlug</defName>
+		<label>10 gauge shell (EMP)</label>
+		<graphicData>
+			<texPath>Things/Ammo/Shotgun/EMP</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<Mass>0.106</Mass>
+			<MarketValue>1.5</MarketValue>
+		</statBases>
+		<ammoClass>ElectroSlug</ammoClass>
+		<generateAllowChance>0.5</generateAllowChance>
+		<cookOffProjectile>Bullet_10GaugeDU_ElectroSlug</cookOffProjectile>
+	</ThingDef>
+
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef Name="Base10GaugeDUBullet" ParentName="BaseBulletCE" Abstract="true">
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bullet</damageDef>
+			<speed>79</speed>
+			<dropsCasings>true</dropsCasings>
+			<casingMoteDefname>Fleck_ShotgunShell</casingMoteDefname>
+			<casingFilthDefname>Filth_ShotgunAmmoCasings</casingFilthDefname>
+		</projectile>
+		<researchPrerequisites>
+			<li>OA_RK_Apparel_E</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="Base10GaugeDUBullet">
+		<defName>Bullet_10GaugeDU_Buck</defName>
+		<label>buckshot pellet</label>
+		<graphicData>
+			<texPath>Things/Projectile/Shotgun_Pellet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>8</damageAmountBase>
+			<pelletCount>18</pelletCount>
+			<armorPenetrationSharp>8</armorPenetrationSharp>
+			<armorPenetrationBlunt>11.23</armorPenetrationBlunt>
+			<spreadMult>8.9</spreadMult>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="Base10GaugeDUBullet">
+		<defName>Bullet_10GaugeDU_Slug</defName>
+		<label>shotgun slug</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_big</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>108</speed>
+			<damageAmountBase>33</damageAmountBase>
+			<secondaryDamage>
+				<li>
+					<def>Flame_Secondary</def>
+					<amount>21</amount>
+				</li>
+			</secondaryDamage>
+			<armorPenetrationSharp>18</armorPenetrationSharp>
+			<armorPenetrationBlunt>216</armorPenetrationBlunt>
+			<casingMoteDefname>Fleck_ShotgunShell_Green</casingMoteDefname>
+			<casingFilthDefname>Filth_ShotgunAmmoCasings_Green</casingFilthDefname>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="Base10GaugeDUBullet">
+		<defName>Bullet_10GaugeDU_Beanbag</defName>
+		<label>beanbag</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_big</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>30</speed>
+			<damageDef>Beanbag</damageDef>
+			<damageAmountBase>3</damageAmountBase>
+			<pelletCount>21</pelletCount>
+			<armorPenetrationSharp>0</armorPenetrationSharp>
+			<armorPenetrationBlunt>18.12</armorPenetrationBlunt>
+			<spreadMult>2.4</spreadMult>
+			<casingMoteDefname>Fleck_ShotgunShell_White</casingMoteDefname>
+			<casingFilthDefname>Filth_ShotgunAmmoCasings_White</casingFilthDefname>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="Base10GaugeDUBullet">
+		<defName>Bullet_10GaugeDU_ElectroSlug</defName>
+		<label>EMP slug</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_big</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<color>(68,210,215)</color>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>43</speed>
+			<damageDef>EMP</damageDef>
+			<damageAmountBase>5</damageAmountBase>
+			<pelletCount>17</pelletCount>
+			<armorPenetrationSharp>0</armorPenetrationSharp>
+			<armorPenetrationBlunt>0</armorPenetrationBlunt>
+			<spreadMult>1.4</spreadMult>
+			<empShieldBreakChance>0.75</empShieldBreakChance>
+			<casingMoteDefname>Fleck_ShotgunShell_Black</casingMoteDefname>
+			<casingFilthDefname>Filth_ShotgunAmmoCasings_Black</casingFilthDefname>
+		</projectile>
+	</ThingDef>
+
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_10GaugeDU_Buck</defName>
+		<label>make 10 gauge (Buck) shell x200</label>
+		<description>Craft 200 10 gauge (Buck) shells.</description>
+		<jobString>Making 10 gauge (Buck) shells.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Uranium</li>
+					</thingDefs>
+				</filter>
+				<count>38</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Uranium</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_10GaugeDU_Buck>200</Ammo_10GaugeDU_Buck>
+		</products>
+		<workAmount>3600</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_10GaugeDU_Slug</defName>
+		<label>make 10 gauge (Slug) shell x200</label>
+		<description>Craft 200 10 gauge (Slug) shells.</description>
+		<jobString>Making 10 gauge (Slug) shells.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Uranium</li>
+					</thingDefs>
+				</filter>
+				<count>32</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Uranium</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_10GaugeDU_Slug>200</Ammo_10GaugeDU_Slug>
+		</products>
+		<workAmount>3000</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_10GaugeDU_Beanbag</defName>
+		<label>make 10 gauge (Beanbag) shell x200</label>
+		<description>Craft 200 10 gauge (Beanbag) shells.</description>
+		<jobString>Making 10 gauge (Beanbag) shells.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Uranium</li>
+					</thingDefs>
+				</filter>
+				<count>40</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Cloth</li>
+					</thingDefs>
+				</filter>
+				<count>16</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Uranium</li>
+				<li>Cloth</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_10GaugeDU_Beanbag>200</Ammo_10GaugeDU_Beanbag>
+		</products>
+		<workAmount>5600</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_10GaugeDU_ElectroSlug</defName>
+		<label>make 10 gauge (EMP) shell x200</label>
+		<description>Craft 200 10 gauge (EMP) shells.</description>
+		<jobString>Making 10 gauge (EMP) shells.</jobString>
+		<researchPrerequisite>MicroelectronicsBasics</researchPrerequisite>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Uranium</li>
+					</thingDefs>
+				</filter>
+				<count>36</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>7</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Uranium</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_10GaugeDU_ElectroSlug>200</Ammo_10GaugeDU_ElectroSlug>
+		</products>
+		<skillRequirements>
+			<Crafting>4</Crafting>
+		</skillRequirements>
+		<workAmount>7800</workAmount>
+	</RecipeDef>
+
+</Defs>

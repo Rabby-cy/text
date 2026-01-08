@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_OAShot_Buck.label>make 12 gauge (Buck) shell x200</MakeAmmo_OAShot_Buck.label>
+  <MakeAmmo_OAShot_Buck.description>Craft 200 12 gauge (Buck) shells.</MakeAmmo_OAShot_Buck.description>
+  <MakeAmmo_OAShot_Buck.jobString>Making 12 gauge (Buck) shells.</MakeAmmo_OAShot_Buck.jobString>
+
+  <MakeAmmo_OAShot_Slug.label>make 12 gauge (Slug) shell x200</MakeAmmo_OAShot_Slug.label>
+  <MakeAmmo_OAShot_Slug.description>Craft 200 12 gauge (Slug) shells.</MakeAmmo_OAShot_Slug.description>
+  <MakeAmmo_OAShot_Slug.jobString>Making 12 gauge (Slug) shells.</MakeAmmo_OAShot_Slug.jobString>
+
+  <MakeAmmo_OAShot_Beanbag.label>make 12 gauge (Beanbag) shell x200</MakeAmmo_OAShot_Beanbag.label>
+  <MakeAmmo_OAShot_Beanbag.description>Craft 200 12 gauge (Beanbag) shells.</MakeAmmo_OAShot_Beanbag.description>
+  <MakeAmmo_OAShot_Beanbag.jobString>Making 12 gauge (Beanbag) shells.</MakeAmmo_OAShot_Beanbag.jobString>
+
+  <MakeAmmo_OAShot_Buck_C.label>make 12 gauge (Buck) shell x200</MakeAmmo_OAShot_Buck_C.label>
+  <MakeAmmo_OAShot_Buck_C.description>Craft 200 12 gauge (Buck) shells.</MakeAmmo_OAShot_Buck_C.description>
+  <MakeAmmo_OAShot_Buck_C.jobString>Making 12 gauge (Buck) shells.</MakeAmmo_OAShot_Buck_C.jobString>
+
+  <MakeAmmo_OAShot_Slug_C.label>make 12 gauge (Slug) shell x200</MakeAmmo_OAShot_Slug_C.label>
+  <MakeAmmo_OAShot_Slug_C.description>Craft 200 12 gauge (Slug) shells.</MakeAmmo_OAShot_Slug_C.description>
+  <MakeAmmo_OAShot_Slug_C.jobString>Making 12 gauge (Slug) shells.</MakeAmmo_OAShot_Slug_C.jobString>
+
+
+</LanguageData>

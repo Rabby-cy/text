@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <OA_RK_Scenario_Navigate.label>中断された航海</OA_RK_Scenario_Navigate.label>
+  <OA_RK_Scenario_Navigate.description>全ての通航部従者には自由に探検したいという心があり、その中でも特に野心的な者は、十分な技術を学び適切な仲間を集めた後、通航部を離れ、共同で貯めた資金で小型宇宙船を購入し自由に探検する。\n\nしかし探検には必ず危険が付き物で、今回は出港して間もなく機械族の宇宙船と遭遇した。警報が鳴り止まない中、優れた操縦技術により四人は何とか脱出に成功した。だが宇宙船の信号は記録されてしまい、今後は機械族の終わりのない追跡を受けながらの探検となるだろう。\n\nここで終わりにし、宇宙船を放棄してアイリス帝国に戻り保護を受けるのか？それとも探検を続け、どんな危険にも立ち向かうのか？\n\nこれは選択肢などではない。</OA_RK_Scenario_Navigate.description>
+  <OA_RK_Scenario_Navigate.scenario.name>中断された航海</OA_RK_Scenario_Navigate.scenario.name>
+  <OA_RK_Scenario_Navigate.scenario.summary>出航前に北極星に祈るのを忘れたせいかもしれないが、良い日々は始まる前に終わってしまった。</OA_RK_Scenario_Navigate.scenario.summary>
+  <OA_RK_Scenario_Navigate.scenario.description>全ての通航部従者には自由に探検したいという心があり、その中でも特に野心的な者は、十分な技術を学び適切な仲間を集めた後、通航部を離れ、共同で貯めた資金で小型宇宙船を購入し自由に探検する。\n\nしかし探検には必ず危険が付き物で、今回は出港して間もなく機械族の宇宙船と遭遇した。警報が鳴り止まない中、優れた操縦技術により四人は何とか脱出に成功した。だが宇宙船の信号は記録されてしまい、今後は機械族の終わりのない追跡を受けながらの探検となるだろう。\n\nここで終わりにし、宇宙船を放棄してアイリス帝国に戻り保護を受けるのか？それとも探検を続け、どんな危険にも立ち向かうのか？\n\nこれは選択肢などではない。</OA_RK_Scenario_Navigate.scenario.description>
+
+</LanguageData>

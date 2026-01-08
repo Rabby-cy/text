@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef Name="Kiiro_PantsBase" ParentName="Kiiro_ApparelBase" Abstract="True">
+	<statBases>
+		<Mass>0.8</Mass>
+		<EquipDelay>1.8</EquipDelay>
+	</statBases>
+	<apparel>
+	    <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+		<layers>
+			<li>Kiiro_Pants</li>
+		</layers>
+	</apparel>
+	<thingCategories>
+		<li>Kiiro_Apparel_OnSkin</li>
+	</thingCategories>
+</ThingDef>
+
+<ThingDef Name="Kiiro_PantsBaseI" ParentName="Kiiro_PantsBase" Abstract="True">
+	<recipeMaker>
+		<researchPrerequisite>Kiiro_Apparel_I</researchPrerequisite>
+	</recipeMaker>
+	<apparel>
+		<tags>
+			<li>Kiiro_Onskin</li>
+			<li>Kiiro_Pants</li>
+			<li>Kiiro_Daily</li>
+		</tags>
+	</apparel>
+	<tradeTags>
+      <li>Kiiro_DailyClothing</li>
+    </tradeTags>
+</ThingDef>
+
+<ThingDef Name="Kiiro_PantsBaseII" ParentName="Kiiro_PantsBase" Abstract="True">
+	<recipeMaker>
+		<researchPrerequisite>Kiiro_Apparel_II</researchPrerequisite>
+	</recipeMaker>
+	<apparel>
+		<tags>
+			<li>Kiiro_Onskin</li>
+			<li>Kiiro_Pants</li>
+			<li>Kiiro_Daily</li>
+		</tags>
+	</apparel>
+	<tradeTags>
+      <li>Kiiro_DailyClothing</li>
+    </tradeTags>
+</ThingDef>
+
+<ThingDef Name="Kiiro_PantsBaseIII" ParentName="Kiiro_PantsBase" Abstract="True">
+	<recipeMaker>
+		<researchPrerequisite>Kiiro_Apparel_III</researchPrerequisite>
+	</recipeMaker>
+	<apparel>
+		<tags>
+			<li>Kiiro_Onskin</li>
+			<li>Kiiro_Pants</li>
+			<li>Kiiro_Daily</li>
+		</tags>
+	</apparel>
+	<tradeTags>
+      <li>Kiiro_DailyClothing</li>
+    </tradeTags>
+</ThingDef>
+
+<!-- 绮罗热裤 -->
+<ThingDef ParentName="Kiiro_PantsBaseI">
+	<defName>Kiiro_HotPant</defName>
+	<label>kiiro hotpants</label>
+	<description>Short pants that show legs.</description>
+	<costStuffCount>35</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<graphicData>
+		<texPath>Kiiro/Apparel/Pants/HotPant/HotPant</texPath>
+	</graphicData>
+	<statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToMake>3400</WorkToMake>
+		<StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<apparel>
+		<useWornGraphicMask>false</useWornGraphicMask>
+		<bodyPartGroups>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kiiro/Apparel/Pants/HotPant/HotPant</wornGraphicPath>
+	</apparel>
+	<equippedStatOffsets>
+		<MentalBreakThreshold>-0.03</MentalBreakThreshold>
+		<SocialImpact>0.03</SocialImpact>
+	</equippedStatOffsets>
+</ThingDef>
+
+<!-- 绮罗短裙 -->
+<ThingDef ParentName="Kiiro_PantsBaseI">
+	<defName>Kiiro_ShortDressII</defName>
+	<label>kiiro short skirt</label>
+	<description>A short skirt suitable for kiiros.</description>
+	<costStuffCount>35</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<graphicData>
+		<texPath>Kiiro/Apparel/Pants/ShortDressII/ShortDressII</texPath>
+	</graphicData>
+	<statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToMake>3400</WorkToMake>
+		<StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<apparel>
+		<useWornGraphicMask>false</useWornGraphicMask>
+		<bodyPartGroups>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kiiro/Apparel/Pants/ShortDressII/ShortDressII</wornGraphicPath>
+	</apparel>
+	<equippedStatOffsets>
+		<MentalBreakThreshold>-0.03</MentalBreakThreshold>
+		<SocialImpact>0.03</SocialImpact>
+	</equippedStatOffsets>
+</ThingDef>
+
+<!-- 绮罗朴素长裙 -->
+<ThingDef ParentName="Kiiro_PantsBaseI">
+	<defName>Kiiro_LongSkirt</defName>
+	<label>kiiro simple long skirt</label>
+	<description>A mid-length skirt suitable for kiiros.</description>
+	<costStuffCount>60</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<graphicData>
+		<texPath>Kiiro/Apparel/Pants/LongSkirt/LongSkirt</texPath>
+	</graphicData>
+	<statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToMake>3600</WorkToMake>
+		<StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.24</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<apparel>
+		<useWornGraphicMask>false</useWornGraphicMask>
+		<bodyPartGroups>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<tags>
+			<li>Kiiro_Researcher</li>
+		</tags>
+		<wornGraphicPath>Kiiro/Apparel/Pants/LongSkirt/LongSkirt</wornGraphicPath>
+	</apparel>
+	<equippedStatOffsets>
+		<MentalBreakThreshold>-0.04</MentalBreakThreshold>
+	</equippedStatOffsets>
+</ThingDef>
+
+<!-- 绮罗休闲短裤 -->
+<ThingDef ParentName="Kiiro_PantsBaseII">
+	<defName>Kiiro_Shorts</defName>
+	<label>kiiro casual shorts</label>
+	<description>Loose shorts, very comfortable.</description>
+	<costList>
+		<Cloth>10</Cloth>
+	</costList>
+	<costStuffCount>35</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<graphicData>
+		<texPath>Kiiro/Apparel/Pants/Shorts/Shorts</texPath>
+	</graphicData>
+	<statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToMake>3400</WorkToMake>
+		<StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<apparel>
+		<useWornGraphicMask>false</useWornGraphicMask>
+		<bodyPartGroups>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kiiro/Apparel/Pants/Shorts/Shorts</wornGraphicPath>
+	</apparel>
+	<equippedStatOffsets>
+		<MentalBreakThreshold>-0.04</MentalBreakThreshold>
+		<SocialImpact>0.03</SocialImpact>
+	</equippedStatOffsets>
+</ThingDef>
+
+<!-- 绮罗格子百褶裙 -->
+<ThingDef ParentName="Kiiro_PantsBaseII">
+	<defName>Kiiro_ShortDress</defName>
+	<label>kiiro plaid pleated skirt</label>
+	<description>A pleated skirt with a plaid print.</description>
+	<costList>
+		<Cloth>10</Cloth>
+	</costList>
+	<costStuffCount>35</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<graphicData>
+		<texPath>Kiiro/Apparel/Pants/ShortDress/ShortDress</texPath>
+	</graphicData>
+	<statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToMake>3400</WorkToMake>
+		<StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<apparel>
+		<useWornGraphicMask>false</useWornGraphicMask>
+		<bodyPartGroups>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kiiro/Apparel/Pants/ShortDress/ShortDress</wornGraphicPath>
+	</apparel>
+	<equippedStatOffsets>
+		<MentalBreakThreshold>-0.04</MentalBreakThreshold>
+		<SocialImpact>0.03</SocialImpact>
+	</equippedStatOffsets>
+</ThingDef>
+
+<!-- 绮罗深色薄裙 -->
+<ThingDef ParentName="Kiiro_PantsBaseII">
+	<defName>Kiiro_DarkSkirt</defName>
+	<label>kiiro dark skirt</label>
+	<description>A mid-length skirt suitable for kiiros.</description>
+	<costList>
+		<Cloth>10</Cloth>
+	</costList>
+	<costStuffCount>60</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<graphicData>
+		<texPath>Kiiro/Apparel/Pants/DarkSkirt/DarkSkirt</texPath>
+	</graphicData>
+	<statBases>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToMake>3600</WorkToMake>
+		<StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.24</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<apparel>
+		<useWornGraphicMask>false</useWornGraphicMask>
+		<bodyPartGroups>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<tags>
+			<li>Kiiro_Researcher</li>
+		</tags>
+		<wornGraphicPath>Kiiro/Apparel/Pants/DarkSkirt/DarkSkirt</wornGraphicPath>
+	</apparel>
+	<equippedStatOffsets>
+		<MentalBreakThreshold>-0.06</MentalBreakThreshold>
+	</equippedStatOffsets>
+</ThingDef>
+
+</Defs>

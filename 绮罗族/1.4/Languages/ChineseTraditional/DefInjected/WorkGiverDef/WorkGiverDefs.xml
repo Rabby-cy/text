@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <KiiroPaperBill.label>在紙藝桌製作</KiiroPaperBill.label>
+  <KiiroPaperBill.verb>製作</KiiroPaperBill.verb>
+  <KiiroPaperBill.gerund>製作于</KiiroPaperBill.gerund>
+
+  <KiiroPaperMakingBill.label>在造紙臺製作</KiiroPaperMakingBill.label>
+  <KiiroPaperMakingBill.verb>製作</KiiroPaperMakingBill.verb>
+  <KiiroPaperMakingBill.gerund>製作于</KiiroPaperMakingBill.gerund>
+
+
+</LanguageData>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="GravshipComponentBase">
+        <defName>OARK_AirportClearanceBeaconDeactive</defName>
+        <label>Inactive Airport Clearance Beacon</label>
+        <description>A beacon that has already expired. Its only remaining functions are taking up space and being decorative.</description>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Building/OARK_AirportClearanceBeaconDeactive</texPath>
+			<drawSize>(1.4,1.4)</drawSize>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <Mass>15</Mass>
+            <WorkToBuild>1500</WorkToBuild>
+			<Beauty>22</Beauty>
+        </statBases>
+        <fillPercent>0.4</fillPercent>
+        <generateCommonality>0</generateCommonality>
+        <generateAllowChance>0</generateAllowChance>
+        <resourcesFractionWhenDeconstructed>0.5</resourcesFractionWhenDeconstructed>
+        <canOverlapZones>false</canOverlapZones>
+        <tradeability>None</tradeability>
+        <passability>PassThroughOnly</passability>
+		<rotatable>false</rotatable>
+        <pathCost>20</pathCost>
+        <building>
+            <neverBuildable>true</neverBuildable>
+        </building>
+        <costList>
+			<Uranium>20</Uranium>
+			<Steel>40</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
+    </ThingDef>
+
+    <ThingDef ParentName="GravshipComponentBase">
+        <defName>OARK_BrokenPilotConsole</defName>
+        <label>Ship's Control Console</label>
+        <description>The control console of a crashed spaceship. Although it can no longer perform its original function, the local data inside still has some value.</description>
+        <thingClass>Building</thingClass>
+        <graphicData>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <texPath>Things/Building/PilotConsole/PilotConsole</texPath>
+            <drawSize>(3.7, 2.6)</drawSize>
+        </graphicData>
+        <size>(3, 2)</size>
+        <rotatable>true</rotatable>
+        <statBases>
+            <MaxHitPoints>2000</MaxHitPoints>
+            <Mass>50</Mass>
+            <Flammability>0</Flammability>
+            <Beauty>0</Beauty>
+            <WorkToBuild>2500</WorkToBuild>
+        </statBases>
+        <uiOrder>2100</uiOrder>
+        <fillPercent>0.4</fillPercent>
+        <generateCommonality>0</generateCommonality>
+        <generateAllowChance>0</generateAllowChance>
+        <resourcesFractionWhenDeconstructed>1</resourcesFractionWhenDeconstructed>
+        <tradeability>None</tradeability>
+        <passability>PassThroughOnly</passability>
+        <pathCost>14</pathCost>
+        <canOverlapZones>false</canOverlapZones>
+        <hasInteractionCell>true</hasInteractionCell>
+        <interactionCellOffset>(0, 0,-1)</interactionCellOffset>
+        <minifiedDef Inherit="False" IsNull="True"/>
+        <thingCategories Inherit="False" IsNull="True"/>
+        <costList>
+            <Steel>140</Steel>
+            <ComponentIndustrial>3</ComponentIndustrial>
+        </costList>
+        <building>
+            <neverBuildable>true</neverBuildable>
+        </building>
+        <comps>
+            <li Class="OberoniaAurea.CompProperties_Hackable">
+                <maxHackPoint>600</maxHackPoint>
+                <compClass>OberoniaAurea.CompBrokenPilotConsole</compClass>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="GravshipComponentBase">
+        <defName>OARK_CrashedScienceShip</defName>
+        <label>Crashed Science Pod</label>
+        <description>A crashed, disposable, unmanned science pod. Most of the data has been transmitted, but a small amount of mechanical verification data still requires manual validation and transmission.</description>
+        <thingClass>Building</thingClass>
+        <graphicData>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <texPath>Building/OARK_CrashedScienceShip</texPath>
+            <drawSize>(5.6, 6.3)</drawSize>
+        </graphicData>
+        <size>(5, 3)</size>
+        <rotatable>false</rotatable>
+        <statBases>
+            <MaxHitPoints>20000</MaxHitPoints>
+            <Mass>300</Mass>
+            <Flammability>0</Flammability>
+            <Beauty>82</Beauty>
+        </statBases>
+        <uiOrder>2100</uiOrder>
+        <fillPercent>0.4</fillPercent>
+        <generateCommonality>0</generateCommonality>
+        <generateAllowChance>0</generateAllowChance>
+        <resourcesFractionWhenDeconstructed>1</resourcesFractionWhenDeconstructed>
+        <isFrameInt>true</isFrameInt>
+        <canOverlapZones>false</canOverlapZones>
+        <tickerType>Normal</tickerType>
+        <tradeability>None</tradeability>
+        <passability>Impassable</passability>
+        <hasInteractionCell>true</hasInteractionCell>
+        <interactionCellOffset>(0,0,-2)</interactionCellOffset>
+        <minifiedDef Inherit="False" IsNull="True"/>
+        <thingCategories Inherit="False" IsNull="True"/>
+        <costList>
+            <ComponentSpacer>5</ComponentSpacer>
+            <Plasteel>90</Plasteel>
+            <Uranium>110</Uranium>
+        </costList>
+        <building>
+            <neverBuildable>true</neverBuildable>
+        </building>
+        <comps>
+            <li Class="OberoniaAurea.CompProperties_CrashedScienceShip">
+                <weakGravityHediff>OARK_Hediff_WeakGravity</weakGravityHediff>
+                <strongGravityHediff>OARK_Hediff_StrongGravity</strongGravityHediff>
+                <disorderedGravityHediff>OARK_Hediff_DisorderedGravity</disorderedGravityHediff>
+                <disorderedMagnetismHediff>OARK_Hediff_DisorderedMagnetism</disorderedMagnetismHediff>
+
+                <mechanicalJob>OARK_Job_ScienceShipMechanical</mechanicalJob>
+                <gravitationalJob>OARK_Job_ScienceShipGravitational</gravitationalJob>
+                <hyperthermiaJob>OARK_Job_ScienceShipActivateCoolingDevice</hyperthermiaJob>
+                <gravityAdjustmentJob>OARK_Job_ScienceShipGravityAdjuestment</gravityAdjustmentJob>
+
+                <shipGameCondition>OARK_CrashedScienceShip</shipGameCondition>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="GravshipComponentBase">
+        <defName>OARK_GravDataBeacon</defName>
+        <label>Research Department Anti-Gravity Data Beacon</label>
+        <description>A beacon set up by the Obernoia Aurea Empire's Research Department to obtain data related to anti-gravity engines. When the beacon is activated, it will record the entire takeoff and landing process of the engine and transmit the data. Each successful data transmission will accumulate a certain amount of research contribution for the data source.\n\nHowever, it should be noted that due to the excessively conspicuous signal of the massive data stream, each data transmission will attract an attack from the Mechanoids.</description>
+        <thingClass>OberoniaAurea.GravDataBeacon</thingClass>
+        <graphicData>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <texPath>Building/OARK_GravDataBeacon</texPath>
+			<drawSize>(2.35, 2.35)</drawSize>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>500</MaxHitPoints>
+            <Mass>40</Mass>
+            <WorkToBuild>66000</WorkToBuild>
+        </statBases>
+		<size>(2, 2)</size>
+        <fillPercent>0.4</fillPercent>
+        <generateCommonality>0</generateCommonality>
+        <generateAllowChance>0</generateAllowChance>
+        <resourcesFractionWhenDeconstructed>1</resourcesFractionWhenDeconstructed>
+        <canOverlapZones>false</canOverlapZones>
+        <tradeability>None</tradeability>
+		<rotatable>true</rotatable>
+		<defaultPlacingRot>South</defaultPlacingRot>
+        <passability>PassThroughOnly</passability>
+        <pathCost>14</pathCost>
+        <building>
+            <neverBuildable>true</neverBuildable>
+        </building>
+        <costList>
+            <ComponentSpacer>3</ComponentSpacer>
+            <Plasteel>40</Plasteel>
+            <Uranium>100</Uranium>
+        </costList>
+		<comps>
+            <li Class="CompProperties_Glower">
+                <glowRadius>4</glowRadius>
+                <glowColor>(160,142,142,0)</glowColor>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

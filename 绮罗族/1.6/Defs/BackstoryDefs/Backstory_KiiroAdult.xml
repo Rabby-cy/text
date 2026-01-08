@@ -1,0 +1,1675 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<AlienRace.AlienBackstoryDef Name="Kiiro_BaseBackstory" Abstract="True">
+		<disallowedTraitsChance>
+		</disallowedTraitsChance>
+		<forcedHediffs>
+		</forcedHediffs>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Female</bodyTypeMale>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_01</defName>
+		<title>kiiro towner</title>
+		<titleShort>towner</titleShort>
+		<description>[PAWN_nameDef] is an ordinary kiiro in the town, her life is floating like a leisurely and confortable wave.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>3</Social>
+			<Artistic>2</Artistic>
+			<Crafting>1</Crafting>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+			<Silver>26</Silver>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_02</defName>
+		<title>kiiro florist</title>
+		<titleShort>florist</titleShort>
+		<description>While most kiiro is not good at anything plant related, [PAWN_nameDef] is different. [PAWN_nameDef] runs her own flower store in town, her daily job is to trim the branches and tendrils of those flowers she has, and she was never bored.her heart is blooming in the sunlight,just like her flowers.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>1</Social>
+			<Artistic>3</Artistic>
+			<Plants>4</Plants>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+			<li>Kiiro_Grower</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_03</defName>
+		<title>kiiro latifundium</title>
+		<titleShort>latifundium</titleShort>
+		<description>[PAWN_nameDef] manages a large area of farmland. kiiros is not good at farming, but life must go on, someone has to step up and take charge, and [PAWN_nameDef] is one of them. As a latifundium, she doesn't always have to do dirty work herself, her duty is  more about understanding the crop characteristics and seasons then be a guide to others. it is usually more tiring than physical work.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>1</Social>
+			<Plants>6</Plants>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_04</defName>
+		<title>kiiro farmer</title>
+		<titleShort>farmer</titleShort>
+		<description>[PAWN_nameDef] spends most of her time working in the farmland. Compared to other kiiros, [PAWN_nameDef] is more experienced in farming. Nevertheless, she know little about crops and agricultural skill, after all, listen to the latifundium's command is always the right thing to do.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Plants>8</Plants>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+			<li>Kiiro_Grower</li>
+		</spawnCategories>
+		<possessions>
+			<Kiiro_Hoe>1</Kiiro_Hoe>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_05</defName>
+		<title>kiiro villiager</title>
+		<titleShort>villiager</titleShort>
+		<description>[PAWN_nameDef] lives in a small village. Although the days were simple and plain, she was happy with it all. She enjoyed  the old days sitting on the ridge of the field with her friends in the evening, chattering small household affairs, while the setting sun and the laughter of the group Flowing in the endless river of time.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Plants>3</Plants>
+			<Social>1</Social>
+			<Animals>2</Animals>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+			<li>Kiiro_Grower</li>
+		</spawnCategories>
+		<possessions>
+			<Silver>14</Silver>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_06</defName>
+		<title>kiiro traveling merchant</title>
+		<titleShort>traveling merchant</titleShort>
+		<description>[PAWN_nameDef] led the caravan between the various towns, she usually only stayed in the town for a short time at a time, and then had to set off on the road to the next town. it is difficult for her to say how many years she has lived like this. Occasionally she would go to some other faction's town to peddle, but every time she failed because of an inexplicable "feeling of being robbed" premonition.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>5</Social>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+			<Silver>180</Silver>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_07</defName>
+		<title>kiiro carpenter</title>
+		<titleShort>carpenter</titleShort>
+		<description>[PAWN_nameDef] is a carpenter in the village. Whether it is large wooden beams of houses or small wooden sculptures, she can do it easily. Whenever people praise her products and ask her why she chose woodworking, [PAWN_nameDef] is always embarrassed to say that she wanted to be a carpenter at the beginning just because she likes shavings.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Crafting>3</Crafting>
+			<Artistic>3</Artistic>
+			<Construction>3</Construction>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+			<li>Kiiro_Carpenter</li>
+		</spawnCategories>
+		<possessions>
+			<Kiiro_Hammer>1</Kiiro_Hammer>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_08</defName>
+		<title>kiiro blacksmith</title>
+		<titleShort>blacksmith</titleShort>
+		<description>[PAWN_nameDef] has her own blacksmith store in the countryside. In the early days when her store was operating in the town, business was quite good; but since the construction of something called "factory" in the town one day, her store slowly stopped having customers. Although every time this matter is mentioned,[PAWN_nameDef] are pouting, saying that the things in the town is not a big deal; but she never miss any of the technical seminars and exhibitions held by the factory.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Crafting>6</Crafting>
+			<Artistic>2</Artistic>
+			<Mining>1</Mining>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+			<li>Kiiro_Crafter</li>
+			<li>Kiiro_Blacksmith</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_09</defName>
+		<title>kiiro dressmaker</title>
+		<titleShort>dressmaker</titleShort>
+		<description>[PAWN_nameDef] likes the feeling of sewing. She knits her clothes stitch by stitch, just as she knits her joy: small but continuous. So even though more efficient sewing machines have been in use for some time, [PAWN_nameDef] still insists on working with her precious sewing needle; but that doesn't mean she know nothing about sewing machines, and if there's an urgent order, [PAWN_nameDef] will show her sewing machine skills to her customers.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Crafting>5</Crafting>
+			<Artistic>4</Artistic>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+			<li>Kiiro_Crafter</li>
+			<li>Kiiro_Tailor</li>
+		</spawnCategories>
+		<possessions>
+			<Cloth>50</Cloth>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_10</defName>
+		<title>kiiro paper artist</title>
+		<titleShort>paper artist</titleShort>
+		<description>[PAWN_nameDef] carries on the traditional art of paper folding. This particular art has become rare nowadays, as it requires only a few pieces of paper to make various things. Although most of the kiiro can still fold simple things nowadays, the art is not as strong as it was in earlier years. [PAWN_nameDef] believes that kiiro should not abandon such traditional culture, and she practices hard everyday, hoping that one day she will be able to make paper art flourish again.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Crafting>2</Crafting>
+			<Artistic>7</Artistic>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+			<li>Kiiro_PaperArtist</li>
+		</spawnCategories>
+		<possessions>
+			<Kiiro_Paper>8</Kiiro_Paper>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_11</defName>
+		<title>kiiro countryside teacher</title>
+		<titleShort>countryside teacher</titleShort>
+		<description>[PAWN_nameDef] didn't have as much knowledge compared to the teachers in the town, and the way she taught seemed a little clumsy. But [PAWN_nameDef] was always willing to spend a lot of time on her students.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>3</Social>
+			<Intellectual>2</Intellectual>
+			<Crafting>1</Crafting>
+			<Animals>1</Animals>
+			<Plants>2</Plants>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_12</defName>
+		<title>kiiro teacher</title>
+		<titleShort>teacher</titleShort>
+		<description>[PAWN_nameDef], who had more knowledge compared to the rest of the clan, worked in one of the schools in the town. Although the development of the education system of kiiros is just beginning and many of the clan members, including [PAWN_nameDef], still have doubts about it, such thoughts dissipate whenever [PAWN_nameDef] sees the curiosity in the eyes of the students.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>2</Social>
+			<Intellectual>4</Intellectual>
+			<Crafting>1</Crafting>
+			<Artistic>1</Artistic>
+			<Medicine>1</Medicine>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_13</defName>
+		<title>kiiro messenger</title>
+		<titleShort>messenger</titleShort>
+		<description>[PAWN_nameDef] is responsible for the transmission of information between the various towns and villages in a small area. Since those who have fallen from the sky took hold, the stability that kiiros had maintained for years was shattered. the honor of most of the kiiro settlements have survived to this day, belong to the messengers who have rush out to tell them. Although reliable electronic communication has now been established between the major kiiro towns, the technology has not been able to spread quickly enough, so messengers are still active where they are needed.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>6</Social>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<forcedTraits>
+			<SpeedOffset>2</SpeedOffset>
+		</forcedTraits>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+			<li>Kiiro_Messenger</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_14</defName>
+		<title>kiiro scout</title>
+		<titleShort>scout</titleShort>
+		<description>[PAWN_nameDef] is the "eye" of the kiiro race. From the day she became a scout, [PAWN_nameDef] was destined to say goodbye to civilization and spend the rest of her life in the wilderness. She will covertly monitor everything around her, once she smells the signal of danger, she will immediately rush back to the colony to inform the message, and notify the nearby messengers to pass the information to more distant places. It was always a hard life, but [PAWN_nameDef] understood the responsibility she shouldered.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Melee>2</Melee>
+			<Shooting>2</Shooting>
+			<Cooking>2</Cooking>
+			<Medicine>2</Medicine>
+		</skillGains>
+		<forcedTraits>
+			<SpeedOffset>1</SpeedOffset>
+		</forcedTraits>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_15</defName>
+		<title>kiiro barefoot doctor</title>
+		<titleShort>barefoot doctor</titleShort>
+		<description>[PAWN_nameDef] knows some medical skills, and she always takes her own time to see people after work. Although she lacks a lot in professional knowledge, it is good to know that [PAWN_nameDef] is quite experienced in actually patients.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Medicine>5</Medicine>
+			<Plants>2</Plants>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+			<li>Kiiro_Herbs</li>
+		</spawnCategories>
+		<possessions>
+			<Kiiro_MixMedicineHerbal>3</Kiiro_MixMedicineHerbal>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_16</defName>
+		<title>kiiro plague survivor</title>
+		<titleShort>plague survivor</titleShort>
+		<description>A sudden poisonous fog swept through the village where [PAWN_nameDef] was living, and no one was spared except [PAWN_nameDef].</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Medicine>3</Medicine>
+			<Construction>1</Construction>
+			<Cooking>1</Cooking>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>ToxicResistance</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+			<li>
+				<defName Degree="-1">Immunity</defName>
+			</li>
+		</disallowedTraitsChance>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+			<li>Kiiro_Refugee</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_17</defName>
+		<title>kiiro watchmaker</title>
+		<titleShort>watchmaker</titleShort>
+		<description>[PAWN_nameDef] assembles mechanical watches using tiny, precise components. These watches, which work for a long time with a good winding, have recently started to become popular within the kiiros, and [PAWN_nameDef] is one of the few kiiro who can make this gadget.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Crafting>7</Crafting>
+			<Artistic>1</Artistic>
+			<Intellectual>1</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+			<li>Kiiro_Crafter</li>
+			<li>Kiiro_Watchmaker</li>
+		</spawnCategories>
+		<possessions>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</possessions>
+		<requiredWorkTags>
+			<li>Crafting</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_18</defName>
+		<title>kiiro jeweler</title>
+		<titleShort>jeweler</titleShort>
+		<description>[PAWN_nameDef]'s usual job is probably to set some shiny looking stones into various kinds of jewelry, and then promote them to the people who like to dress up; she relies on this craft to make a living. Occasionally someone will tell [PAWN_nameDef] that the jewelry she sells actually contains very rare stones and that she can make a lot of money selling them alone; but [PAWN_nameDef] doesn't care, as long as the stones look good enough for her, it's all the same.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Crafting>3</Crafting>
+			<Artistic>4</Artistic>
+			<Mining>2</Mining>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+			<li>Kiiro_Crafter</li>
+			<li>Kiiro_Jeweler</li>
+		</spawnCategories>
+		<possessions>
+			<Jade>18</Jade>
+		</possessions>
+		<requiredWorkTags>
+			<li>Mining</li>
+			<li>Artistic</li>
+			<li>Crafting</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_19</defName>
+		<title>kiiro miner</title>
+		<titleShort>miner</titleShort>
+		<description>Mining is a very difficult physical job for the petite and slender kiiro, but [PAWN_nameDef] has her own hair-trigger technique, which allows her to chisel through the rocks more gently. Whenever other kiiros visited her work and expressed their amazement and admiration, [PAWN_nameDef] only modestly said that practice makes perfect, but her pickaxe was being wielded more and more vigorously: actually she could not hide the elation in her heart.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Mining>7</Mining>
+			<Melee>2</Melee>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+			<li>Kiiro_Miner</li>
+		</spawnCategories>
+		<possessions>
+			<Kiiro_Pickaxe>1</Kiiro_Pickaxe>
+		</possessions>
+		<requiredWorkTags>
+			<li>Mining</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_20</defName>
+		<title>kiiro baker</title>
+		<titleShort>baker</titleShort>
+		<description>[PAWN_nameDef] is popular with the children because she can make golden-colored, fluffy and sweet bread. [PAWN_nameDef]'s latest wish is to get an oven that uses electricity.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Cooking>4</Cooking>
+			<Artistic>3</Artistic>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+			<RawRice>60</RawRice>
+		</possessions>
+		<requiredWorkTags>
+			<li>Cooking</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_21</defName>
+		<title>kiiro hunter</title>
+		<titleShort>hunter</titleShort>
+		<description>[PAWN_nameDef] depended on hunting for a living: a bow and a pot of arrows were all she had. [PAWN_nameDef] always used to step into the forest in the early morning and return at noon; in the afternoon she would count the harvest: sell the meat to the butcher next door, and save the furs for the customers to buy. Traveling merchants from far away told [PAWN_nameDef] that the price of wild animals' pelts had recently started to rise because many foreigners wanted them, and she could make a lot of money from them; but [PAWN_nameDef] just wanted to have an easier time.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>5</Shooting>
+			<Animals>3</Animals>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+			<li>Kiiro_Hunter</li>
+		</spawnCategories>
+		<possessions>
+			<Kiiro_HunterBow>1</Kiiro_HunterBow>
+		</possessions>
+		<requiredWorkTags>
+			<li>Hauling</li>
+			<li>Animals</li>
+			<li>Violent</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_22</defName>
+		<title>kiiro hunter</title>
+		<titleShort>hunter</titleShort>
+		<description>[PAWN_nameDef] relies on hunting for a living: she keeps some traps and bird cages in the nearby forest, hoping that they will catch some unlucky prey; and she only needs to check them once in a while. [PAWN_nameDef] is always worried about whether her traps will accidentally hurt someone, but fortunately this has not happened, for now.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Crafting>2</Crafting>
+			<Animals>3</Animals>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+			<li>Kiiro_Hunter</li>
+		</spawnCategories>
+		<requiredWorkTags>
+			<li>Hauling</li>
+			<li>Animals</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_23</defName>
+		<title>kiiro foundry worker</title>
+		<titleShort>foundry worker</titleShort>
+		<description>[PAWN_nameDef] works in the foundry that was just established in the town. Mechanization and assembly line production are both very fresh to kiiros, and [PAWN_nameDef] is just happy to try something new.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Crafting>4</Crafting>
+			<Construction>1</Construction>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+			<li>Kiiro_Crafter</li>
+		</spawnCategories>
+		<possessions>
+			<ComponentIndustrial>1</ComponentIndustrial>
+			<Steel>15</Steel>
+		</possessions>
+		<requiredWorkTags>
+			<li>Hauling</li>
+			<li>Crafting</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_24</defName>
+		<title>kiiro traveller</title>
+		<titleShort>traveller</titleShort>
+		<description>Unlike other kiiros who are used to living in peace, [PAWN_nameDef] prefers to go out of the town to have a good look at the world. She enjoys walking alone in the wilderness, looking forward to every unknown encounter, and is happy to accept different cultures. When she returns to town after each trip, she always shares her friends about her travels as if they were her best treasure.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Mining>1</Mining>
+			<Cooking>2</Cooking>
+			<Plants>1</Plants>
+			<Medicine>1</Medicine>
+			<Construction>1</Construction>
+			<Intellectual>1</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+			<li>Kiiro_Traveller</li>
+		</spawnCategories>
+		<possessions>
+			<Silver>45</Silver>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_25</defName>
+		<title>kiiro mobile vendor</title>
+		<titleShort>mobile vendor</titleShort>
+		<description>[PAWN_nameDef] used to push his beloved cart to the town square early in the morning to sell, and then at noon to close the stall and go home to take a good nap, and then prepare the next day's goods in the afternoon; as for the evening, just go around town to kill the time. Such a life day after day, year after year, [PAWN_nameDef] happy in it.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>4</Social>
+			<Artistic>2</Artistic>
+			<Crafting>2</Crafting>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+			<GameOfUrBoard>1</GameOfUrBoard>
+		</possessions>
+		<requiredWorkTags>
+			<li>Social</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_26</defName>
+		<title>kiiro bard</title>
+		<titleShort>bard</titleShort>
+		<description>[PAWN_nameDef] likes to walk in the fields of the countryside, feeling the warm sunshine and the gentle breeze. Such a landscape always makes her want to improvise a poem to praise the beauty of the moment, attracting the surrounding kiiros to stop and listen; the melodious song is always carried far and wide on the wind.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>3</Social>
+			<Artistic>5</Artistic>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+			<li>Kiiro_Book</li>
+		</spawnCategories>
+		<possessions>
+			<Kiiro_Beret>1</Kiiro_Beret>
+		</possessions>
+		<requiredWorkTags>
+			<li>Artistic</li>
+			<li>Social</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_27</defName>
+		<title>kiiro wounded soldier</title>
+		<titleShort>wounded soldier</titleShort>
+		<description>[PAWN_nameDef] was once a member of a guerrilla group, carrying guns and fighting against invaders, and years of guerrilla combat had accumulated a wealth of combat experience for [PAWN_nameDef]. In a field encounter, in order to replenish the team's ammunition, [PAWN_nameDef] risked being distracted in the retreat to pick up the guns of the downed enemy, unfortunately she was hit by the enemy who caught up with her. Although [PAWN_nameDef] rolled into a bush in a hurry to escape the search, she was still disabled. No longer fit to fight, [PAWN_nameDef] has to quit the guerrillas and return to the town where she was born and raised.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>5</Shooting>
+			<Melee>2</Melee>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+			<li>Kiiro_WoundedSoldier</li>
+		</spawnCategories>
+		<possessions>
+			<Kiiro_TRWeapon_Rifle>1</Kiiro_TRWeapon_Rifle>
+		</possessions>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraitsChance>
+			<li>
+				<defName>OldWound</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_28</defName>
+		<title>kiiro wounded soldier</title>
+		<titleShort>wounded soldier</titleShort>
+		<description>[PAWN_nameDef] used to be vanguard of the guerrilla unit, and has made many achievements in the years of fighting with her agile body. However, during an alley battle, [PAWN_nameDef] was wounded by an enemy remote control mine which was disguised as a trip mine, and although [PAWN_nameDef] had reacted to find cover when sensing the danger, she still failed to escape. Fortunately, [PAWN_nameDef] did not lose her life and was saved by the team that came after her, and eventually received comprehensive medical treatment; however, some of the wounds were too deep and left her disabled. After recovering, [PAWN_nameDef] found a village nearby, where the captain had arranged for her to live.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>4</Shooting>
+			<Melee>3</Melee>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+			<li>Kiiro_WoundedSoldier</li>
+		</spawnCategories>
+		<possessions>
+			<Kiiro_TRWeapon_SMG>1</Kiiro_TRWeapon_SMG>
+		</possessions>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraitsChance>
+			<li>
+				<defName>OldWound</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_29</defName>
+		<title>kiiro wounded soldier</title>
+		<titleShort>wounded soldier</titleShort>
+		<description>[PAWN_nameDef] is the only hunter in the village who owns a shotgun, and this is always the envy of the village's fellow hunters. Whenever someone praised her shotgun, [PAWN_nameDef] always laughed loudly with gusto, and anyone could hear the pride in it. \n[PAWN_nameDef] came to this village some years ago, although the scars of the war made her no longer as dexterous as before, [PAWN_nameDef] still go into the mountains every now and then to hunt, because she can always find the feeling of being in the guerrilla when she aims and pulls the trigger. If one day the survival of her people needs her again, [PAWN_nameDef] will bring her hunting rifle and stand in front of them without any hesitation.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>4</Shooting>
+			<Melee>3</Melee>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+			<li>Kiiro_WoundedSoldier</li>
+		</spawnCategories>
+		<possessions>
+			<Kiiro_TRWeapon_ShotGun>1</Kiiro_TRWeapon_ShotGun>
+		</possessions>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<forcedTraitsChance>
+			<li>
+				<defName>OldWound</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_30</defName>
+		<title>kiiro forest ranger</title>
+		<titleShort>forest ranger</titleShort>
+		<description>[PAWN_nameDef] guards a small forest next to the village. She always goes into the woods in the early morning with dry food, and keeps patrolling until the evening, although it is very hard, but [PAWN_nameDef] enjoys it: she likes every drop of dew in the morning, likes the crunching leaves under her feet, likes the shade of the forest in the summer... Everything is so pleasant for [PAWN_nameDef].</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>-2</Social>
+			<Artistic>2</Artistic>
+			<Plants>4</Plants>
+			<Shooting>1</Shooting>
+			<Melee>1</Melee>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+			<li>Kiiro_Grower</li>
+		</spawnCategories>
+		<possessions>
+			<Kiiro_CannedCatFood>3</Kiiro_CannedCatFood>
+		</possessions>
+		<requiredWorkTags>
+			<li>Violent</li>
+			<li>PlantWork</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_31</defName>
+		<title>kiiro researcher</title>
+		<titleShort>researcher</titleShort>
+		<description>[PAWN_nameDef] is a pioneer of scientific research and technology in the kiiro society, dedicated to the advancement and improvement of technology. Recently, many outsiders' technologies have flowed into the kiiro society, and [PAWN_nameDef] always forgets to sleep in order to study these novel technologies, and does it all night long, so much so that she always yawns with two panda eyes; but the excitement in her eyes is revealed as never before. </description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Artistic>4</Artistic>
+			<Crafting>4</Crafting>
+			<Intellectual>8</Intellectual>
+			<Shooting>-4</Shooting>
+			<Melee>-4</Melee>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+			<li>Kiiro_Researcher</li>
+		</spawnCategories>
+		<possessions>
+			<Kiiro_WhiteGown>1</Kiiro_WhiteGown>
+		</possessions>
+		<requiredWorkTags>
+			<li>Intellectual</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_32</defName>
+		<title>kiiro war survivor</title>
+		<titleShort>war survivor</titleShort>
+		<description>[PAWN_nameDef] experienced an unfortunate war: her village was savagely attacked and lost. But [PAWN_nameDef] was lucky, she survived the disaster. After wandering for several months, [PAWN_nameDef] found another village and settled there, where the villagers always took good care of her because they sympathized with her experience.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Cooking>2</Cooking>
+			<Medicine>2</Medicine>
+			<Mining>2</Mining>
+			<Construction>2</Construction>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">		<!---->
+		<defName>Kiiro_BackstoryAdult_32_1</defName>
+		<title>kiiro war survivor</title>
+		<titleShort>war survivor</titleShort>
+		<description>[PAWN_nameDef] experienced an unfortunate war: her village was savagely attacked and lost. But [PAWN_nameDef] was lucky, she survived the disaster. After reluctantly calmed sorrowful heart, [PAWN_nameDef] collected the last remaining supplies in the village and embarked on a long journey of wandering.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Cooking>2</Cooking>
+			<Medicine>2</Medicine>
+			<Mining>2</Mining>
+			<Construction>2</Construction>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_Refugee</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_33</defName>
+		<title>kiiro nurse</title>
+		<titleShort>nurse</titleShort>
+		<description>Although [PAWN_nameDef] doesn't know much about medicine, she is good at patient rehabilitation and life care, and knows how to make patients get better quickly. Long-term nursing work makes [PAWN_nameDef] become gentle and patient, and she makes people feel warm in their hearts when they are with her.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Cooking>2</Cooking>
+			<Medicine>3</Medicine>
+			<Social>5</Social>
+			<Shooting>-2</Shooting>
+			<Melee>-3</Melee>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+			<Kiiro_Woundplast>2</Kiiro_Woundplast>
+		</possessions>
+		<requiredWorkTags>
+			<li>Caring</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_34</defName>
+		<title>kiiro doctor</title>
+		<titleShort>doctor</titleShort>
+		<description>[PAWN_nameDef] heals and treats people in the town's hospital. In fact, [PAWN_nameDef] did not get a systematic medical education, but with a benevolent heart, she worked hard to master the basic medical methods through self-learning and observation, and then comprehended something more profound. </description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Medicine>8</Medicine>
+			<Social>2</Social>
+			<Shooting>-2</Shooting>
+			<Melee>-2</Melee>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+			<MedicineIndustrial>5</MedicineIndustrial>
+		</possessions>
+		<requiredWorkTags>
+			<li>Caring</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_35</defName>
+		<title>kiiro pharmacist</title>
+		<titleShort>pharmacist</titleShort>
+		<description>[PAWN_nameDef] has shown an extraordinary talent for pharmaceutical, and she enjoys it. [PAWN_nameDef]'s daily life is to go to the mountains to pick herbs, and then bring them home to tinker with bottles and jars. Despite the bitter smiles of her friends who talked about her strange-smelling work place, [PAWN_nameDef] still invited her friends to visit her every now and then to see the results of her research. recently, [PAWN_nameDef] is saving up to buy a new set of flasks.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Medicine>2</Medicine>
+			<Cooking>2</Cooking>
+			<Plants>2</Plants>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+			<Kiiro_Apparel_PoisonBottleParalytic>1</Kiiro_Apparel_PoisonBottleParalytic>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_36</defName>
+		<title>kiiro shepherd</title>
+		<titleShort>shepherd</titleShort>
+		<description>[PAWN_nameDef] grazes a large flock of sheep in her village, and most of the fabric in the village comes from her flock, which makes [PAWN_nameDef] feel truly proud. She drove the sheep out every morning to nibble on the dew-dripping grass, and then took them home in the evening with a pastoral at sunset, [PAWN_nameDef] enjoyed the fullness of the day; except for the day when she struggled to explain to a drunken bard on the street in the evening that cotton did not come from sheep.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Animals>6</Animals>
+			<Plants>2</Plants>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+			<li>Kiiro_Shepherd</li>
+		</spawnCategories>
+		<possessions>
+			<WoolSheep>120</WoolSheep>
+		</possessions>
+		<requiredWorkTags>
+			<li>Animals</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_37</defName>
+		<title>kiiro maid</title>
+		<titleShort>maid</titleShort>
+		<description>[PAWN_nameDef] is a maid. While the cumbersome household chores may be a headache for most people, [PAWN_nameDef] finds joy in them. Engaging in domestic work for a long time has made her adept in all aspects.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>-3</Shooting>
+			<Melee>-3</Melee>
+			<Cooking>3</Cooking>
+			<Plants>2</Plants>
+			<Animals>2</Animals>
+			<Crafting>2</Crafting>
+			<Medicine>2</Medicine>
+			<Social>4</Social>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_Maid</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+		<forcedTraits>
+			<Industriousness>1</Industriousness>
+		</forcedTraits>
+		<requiredWorkTags>
+			<li>Animals</li>
+			<li>Caring</li>
+			<li>Cleaning</li>
+			<li>Crafting</li>
+			<li>Artistic</li>
+			<li>Mining</li>
+			<li>Hauling</li>
+			<li>PlantWork</li>
+			<li>ManualDumb</li>
+			<li>ManualSkilled</li>
+			<li>Firefighting</li>
+			<li>Intellectual</li>
+			<li>Social</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_38</defName>
+		<title>kiiro noviciate maid</title>
+		<titleShort>noviciate maid</titleShort>
+		<description>Recently, [PAWN_nameDef] has developed a strong interest in housework and taking care of others. She started trying to help nearby friends with various chores, whether it's cooking, cleaning, or taking care of children, she tries her best within her capabilities. Not long ago, [PAWN_nameDef] heard that the things she was doing were very similar to a job called housekeeping. So she happily joined a nearby housekeeping group. Up until now, [PAWN_nameDef] is very satisfied with this job, she just still doesn't quite understand why she has to wear a maid dress while working.</description>
+		<slot>Adulthood</slot>
+		<bioAgeRange>22~26</bioAgeRange>		<!--=限定出现频率=-->
+		<skillGains>
+			<Shooting>-3</Shooting>
+			<Melee>-3</Melee>
+			<Cooking>2</Cooking>
+			<Plants>2</Plants>
+			<Animals>1</Animals>
+			<Crafting>2</Crafting>
+			<Medicine>2</Medicine>
+			<Intellectual>2</Intellectual>
+			<Social>3</Social>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_Maid</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+		<forcedTraits>
+			<Industriousness>1</Industriousness>
+		</forcedTraits>
+		<requiredWorkTags>
+			<li>Animals</li>
+			<li>Caring</li>
+			<li>Cleaning</li>
+			<li>Crafting</li>
+			<li>Artistic</li>
+			<li>Mining</li>
+			<li>Hauling</li>
+			<li>PlantWork</li>
+			<li>ManualDumb</li>
+			<li>ManualSkilled</li>
+			<li>Firefighting</li>
+			<li>Intellectual</li>
+			<li>Social</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_39</defName>
+		<title>kiiro maid coser</title>
+		<titleShort>maid coser</titleShort>
+		<description>[PAWN_nameDef] really likes maid dresses, and has her own unique understanding of the color schemes, fabrics, and styles. [PAWN_nameDef] once tried to sew a maid dress with her own characteristics, buying high-quality fabrics, dyes, and threads; but she was finally defeated in an afternoon of sewing and tailoring. [PAWN_nameDef] joined the housekeeping group purely by chance, initially thinking it was a gathering of like-minded people, so she excitedly joined on her own. Only later did she realize it wasn't what she had imagined. Although [PAWN_nameDef] is not good at housework, it was a rare opportunity. With the thinking of "it wouldn't hurt to immerse myself in the experience", [PAWN_nameDef] will work hard to play the role of a real maid. </description>
+		<slot>Adulthood</slot>
+		<bioAgeRange>22~24</bioAgeRange>		<!--=限定出现频率=-->
+		<skillGains>
+			<Cooking>1</Cooking>
+			<Plants>1</Plants>
+			<Animals>1</Animals>
+			<Crafting>-4</Crafting>
+			<Artistic>4</Artistic>
+			<Intellectual>3</Intellectual>
+			<Social>3</Social>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_Maid</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+		<forcedTraits>
+		</forcedTraits>
+		<requiredWorkTags>
+			<li>Animals</li>
+			<li>Caring</li>
+			<li>Cleaning</li>
+			<li>Crafting</li>
+			<li>Artistic</li>
+			<li>Mining</li>
+			<li>Hauling</li>
+			<li>PlantWork</li>
+			<li>ManualDumb</li>
+			<li>ManualSkilled</li>
+			<li>Firefighting</li>
+			<li>Intellectual</li>
+			<li>Social</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_40</defName>
+		<title>kiiro stonemason</title>
+		<titleShort>stonemason</titleShort>
+		<description>[PAWN_nameDef] is a town stonemason. Although many kiiros are always busy moving because of the recent frequent wars, and the houses are simply built with wood for this purpose, the masonry technology of [PAWN_nameDef] will still come in handy on many occasions. \nThe day will come when the kiiro will end their misery of displacement and everyone will be able to live in fine houses made of stone and brick. [PAWN_nameDef] so believed, so the daily physical work of mining or carrying stone seemed to become less tiring.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Melee>1</Melee>
+			<Construction>2</Construction>
+			<Mining>3</Mining>
+			<Crafting>3</Crafting>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+			<li>Kiiro_Stonemason</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_41</defName>
+		<title>Kiiro Pastry Chef</title>
+		<titleShort>Pastry Chef</titleShort>
+		<description>[PAWN_nameDef] possessed boundless passion and creativity for sweets. [PAWN_possessive] room overflowed with fresh berries, nuts, and nectar gathered from forests. Even during lean times, she crafted astonishing pastries and candies from scarce ingredients. [PAWN_nameDef] believed a single touch of sweetness could sweep life's bitter away—especially when children gathered around [PAWN_possessive] stall, eyes sparkling with anticipation.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Cooking>4</Cooking>
+			<Artistic>2</Artistic>
+			<Crafting>2</Crafting>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_42</defName>
+		<title>Kiiro Teahouse Keeper</title>
+		<titleShort>Teahouse Keeper</titleShort>
+		<description>[PAWN_nameDef] teahouse was among the town's most beloved spots. Whether at dawn or dusk, Theres always Kiiros gathered here to drinking fruit and flower teas, chatting or just enjoying peace. [PAWN_nameDef] listened intently and shared tales, gradually transforming the teahouse into a warm community that soothed weary souls.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Cooking>4</Cooking>
+			<Social>4</Social>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_43</defName>
+		<title>Kiiro Relic Mender</title>
+		<titleShort>Relic Mender</titleShort>
+		<description>[PAWN_nameDef] had deft hands and an eye for beauty. [PAWN_pronoun] collected discarded relics:cracked pottery, broken tools, faded fabrics. And give them a new life with ingenious repairs. [PAWN_possessive] workshop brimmed with "treasures", and [PAWN_pronoun] believes that everything held value.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Crafting>5</Crafting>
+			<Artistic>2</Artistic>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_44</defName>
+		<title>Kiiro Innkeeper</title>
+		<titleShort>Innkeeper</titleShort>
+		<description>As the Kiiro migrated, makeshift inns emerged in settlements. [PAWN_nameDef] kept such a lodge—small yet clean place, offering simple meals and hot water to make travelers felt at home. [PAWN_pronoun] loved hearing guests' tales and sharing local knowledges.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>4</Social>
+			<Crafting>2</Crafting>
+			<Construction>3</Construction>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_45</defName>
+		<title>Kiiro Storyteller</title>
+		<titleShort>Storyteller</titleShort>
+		<description>In villages with scant entertainment, storytelling is the most entainment every Kiiro loves. [PAWN_nameDef] mesmerized crowds with ancient legends, heroic deeds, and original tales told through peerless memory and vivid eloquence. After meals or in festivals, [PAWN_pronoun] enthralled listeners surrounded them as stories wove magical worlds.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Artistic>4</Artistic>
+			<Social>4</Social>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_46</defName>
+		<title>Kiiro Librarian</title>
+		<titleShort>Librarian</titleShort>
+		<description>As education systems spread, small libraries emerged in kiiro towns. [PAWN_nameDef] organized precious books and technical documents, repairing and categorizing them while aiding researchers. [PAWN_pronoun] guarded these records fiercely, knowing them held the race's future.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>3</Social>
+			<Crafting>2</Crafting>
+			<Intellectual>3</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_47</defName>
+		<title>Kiiro Physiotherapist</title>
+		<titleShort>Physiotherapist</titleShort>
+		<description>Labor pains, migration fatigue, and old wounds plagued the Kiiro. [PAWN_nameDef] relieved these with expert massage and herbal compresses, easing sore muscles and calming nerves through precise pressure. Many regained vitality under [PAWN_pronoun] care.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Crafting>2</Crafting>
+			<Medicine>4</Medicine>
+			<Social>2</Social>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_48</defName>
+		<title>Kiiro Perfumer</title>
+		<titleShort>Perfumer</titleShort>
+		<description>[PAWN_nameDef] had feline intuition for scents. [PAWN_possessive] workshop always swirled with rare petals, dewy grasses, and dried fragrant woods. [PAWN_nameDef] carefully blended them into soothing incense, insect-repelling sachets, or festive perfumes. To [PAWN_nameDef], every scents were stories and emotions, weaving olfactory poetry into Kiiro lives.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Plants>4</Plants>
+			<Crafting>2</Crafting>
+			<Cooking>3</Cooking>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_49</defName>
+		<title>Kiiro Dollmaker</title>
+		<titleShort>Dollmaker</titleShort>
+		<description>[PAWN_nameDef] crafts charming dolls from fabrics and thread with love, and mended children's treasured toys with [PAWN_pronoun] deft hands. [PAWN_pronoun] room are always filled with warmth and softness.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Crafting>5</Crafting>
+			<Artistic>3</Artistic>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_50</defName>
+		<title>Kiiro Gardener</title>
+		<titleShort>Gardener</titleShort>
+		<description>[PAWN_nameDef] believed beauty nurtured souls. [PAWN_nameDef] devoted into public garden and small landscape. [PAWN_pronoun] pairing blooms by color and habit, trimming foliage, laying stone paths. Under [PAWN_nameDef] care, bleak spaces transformed into vibrant, welcoming oases.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Construction>2</Construction>
+			<Plants>5</Plants>
+			<Artistic>2</Artistic>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_51</defName>
+		<title>Kiiro Windchime Artisan</title>
+		<titleShort>Windchime Artisan</titleShort>
+		<description>[PAWN_nameDef] loves capturing wind songs in delicate chimes. Using shells, bamboo, metal shards, even treated nutshells, [PAWN_nameDef] designed unique wind chimes that sang ethereal melodies in courtyards and windows.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Crafting>4</Crafting>
+			<Artistic>3</Artistic>
+			<Intellectual>1</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_52</defName>
+		<title>Kiiro Spice Blender</title>
+		<titleShort>Spice Blender</titleShort>
+		<description>Knowns as a spice-blending expert, [PAWN_nameDef] cultivated knows how to grow top-grade catnip and silvervine, and knows well about mixing them with other herbs. These products will made into sachets, stuffed toys, or edible seasonings for leisure and festivals.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Plants>5</Plants>
+			<Crafting>3</Crafting>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_53</defName>
+		<title>Kiiro Nestmaker</title>
+		<titleShort>Nestmaker</titleShort>
+		<description>Nothing better than a good nest for kiiros to sleep. [PAWN_nameDef] just have the gift to craft a good nest. [PAWN_pronoun] crafted perfect nests with plush fillings: like combed fur, dried herbs, cotton—and skin-friendly fabrics and in different shapes- like a warm cave or a blooming flower. [PAWN_nameDef] also wove swaying hammocks from strong vines, hung in sunny spots for ideal naps.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Crafting>3</Crafting>
+			<Construction>5</Construction>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_54</defName>
+		<title>Kiiro Nightwatcher</title>
+		<titleShort>Nightwatcher</titleShort>
+		<description>Some kiiro villagers will volunteer in night patrols to defend their town. [PAWN_nameDef] is one of them, [PAWN_pronoun] moved through moonlight and shadows, silently keeping everyone safe in [PAWN_possessive] way. Over time, [PAWN_nameDef] grew nocturnal.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>2</Shooting>
+			<Melee>2</Melee>
+			<Social>4</Social>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<forcedTraitsChance>
+			<li>
+				<defName>NightOwl</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_55</defName>
+		<title>Kiiro Book Mender</title>
+		<titleShort>Book Mender</titleShort>
+		<description>War threatened Kiiro's paper and parchment books. [PAWN_nameDef] painstakingly repairing damaged volumes and transcribed precious texts, preserving civilization with [PAWN_possessive] hands.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Crafting>2</Crafting>
+			<Artistic>2</Artistic>
+			<Intellectual>4</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_56</defName>
+		<title>Kiiro Tale Traveler</title>
+		<titleShort>Tale Traveler</titleShort>
+		<description>[PAWN_nameDef] traveled not with goods but stories, songs, and news. [PAWN_pronoun] wandered between towns, exchanging tales and information, Many traveler like [PAWN_nameDef] weaving cultural threads across settlements.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Cooking>1</Cooking>
+			<Artistic>1</Artistic>
+			<Medicine>2</Medicine>
+			<Social>4</Social>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_57</defName>
+		<title>Kiiro Scoutleader</title>
+		<titleShort>Scoutleader</titleShort>
+		<description>Leading the town's scouts, [PAWN_nameDef] tracked foes in the wild, launching small assault if necessary. [PAWN_possessive] greatest joy was returning with intelligence and everybody home.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>3</Shooting>
+			<Melee>3</Melee>
+			<Intellectual>3</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+			<Kiiro_TRWeapon_Rifle>1</Kiiro_TRWeapon_Rifle>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_58</defName>
+		<title>Kiiro Radio Operator</title>
+		<titleShort>Radio Operator</titleShort>
+		<description>As towns adopted telegraphs and other communications, [PAWN_nameDef] becomed few kiiro that mastered how to install, operate, and maintains these devices. [PAWN_possessive] job is keep those equipments in working condition. A challenging role that revealed [PAWN_nameDef] about technology's power.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Crafting>4</Crafting>
+			<Intellectual>5</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+			<ComponentIndustrial>3</ComponentIndustrial>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_59</defName>
+		<title>Kiiro Drill Instructor</title>
+		<titleShort>Drill Instructor</titleShort>
+		<description>Endless war forced Kiiro into combat. Though untalented in fighting, [PAWN_nameDef] devised simple tactics and taught them to others, boosting survival chance when faceing the enemy.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>2</Shooting>
+			<Melee>3</Melee>
+			<Social>2</Social>
+			<Intellectual>3</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_60</defName>
+		<title>Kiiro Feastmaster</title>
+		<titleShort>Feastmaster</titleShort>
+		<description>Even in hardship, Kiiro always seize every opportunity to hold small party or feasts. [PAWN_nameDef] cooked lavish meals from scarce ingredients as head chef, lifting spirits through [PAWN_possessive] culinary artistry.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Cooking>6</Cooking>
+			<Artistic>2</Artistic>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_61</defName>
+		<title>Kiiro Deep Miner</title>
+		<titleShort>Deep Miner</titleShort>
+		<description>It‘s dangerous for kiiro even mining exposed ore, maybe its a good idea to drill deep. And [PAWN_nameDef] is one of these brave pionniers. [PAWN_pronoun] works daily in the dark, cramped shafts, chipping rock with simple tools and maintaining tunnels. Oppressive work, but [PAWN_nameDef] embraced the duty.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Melee>2</Melee>
+			<Construction>2</Construction>
+			<Mining>5</Mining>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+			<Kiiro_Pickaxe>1</Kiiro_Pickaxe>
+		</possessions>
+		<requiredWorkTags>
+			<li>Mining</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_62</defName>
+		<title>Kiiro Ore Picker</title>
+		<titleShort>Ore Picker</titleShort>
+		<description>Not all ore mined can be use directly,[PAWN_nameDef] processed raw ore—sorting valuable chunks, then crushing, sifting, and purifying them. Monotonous but crucial work for resource efficiency.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Mining>5</Mining>
+			<Crafting>2</Crafting>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+		<requiredWorkTags>
+			<li>Mining</li>
+		</requiredWorkTags>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_63</defName>
+		<title>Kiiro Weather Watcher</title>
+		<titleShort>Weather Watcher</titleShort>
+		<description>[PAWN_nameDef] keenly observed clouds, winds, and seasonal signs in flora/fauna. [PAWN_pronoun] predicted weather patterns—crude but experience-based. To guide farming, migration, and defense.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Plants>2</Plants>
+			<Animals>3</Animals>
+			<Intellectual>4</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_64</defName>
+		<title>Kiiro Pharmacologist</title>
+		<titleShort>Pharmacologist</titleShort>
+		<description>Dispite having a long history in herb usage, these knowledge are scattered in some doctors. [PAWN_nameDef] systematically gathered data on medicinal plants, testing effects through observation to compile comprehensive pharmacopeias for their people.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Plants>3</Plants>
+			<Medicine>5</Medicine>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_65</defName>
+		<title>Kiiro Musician</title>
+		<titleShort>Musician</titleShort>
+		<description>[PAWN_nameDef] often sat in the town square with [PAWN_possessive] polished lute. When [PAWN_pronoun] plays,[PAWN_possessive] melodies—light as forest streams or deep as starlight—drew crowds. After playing, [PAWN_pronoun]'d stroke the instrument, nodding to listeners with lingering rapture.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>2</Social>
+			<Artistic>7</Artistic>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_66</defName>
+		<title>Kiiro Nightrunner</title>
+		<titleShort>Nightrunner</titleShort>
+		<description>Some messages needed night delivery. [PAWN_nameDef] moved like a shadow through woods and wastelands, avoiding detection. After handing off letters, [PAWN_pronoun] vanished into darkness.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Melee>3</Melee>
+			<Social>3</Social>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<forcedTraitsChance>
+			<li>
+				<defName>NightOwl</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_67</defName>
+		<title>Kiiro Archivist</title>
+		<titleShort>Archivist</titleShort>
+		<description>[PAWN_nameDef] holds the town's archives,from ancient scrolls to recent decrees,[PAWN_pronoun] cataloging and preserving records of history and wisdom. [PAWN_nameDef] swiftly retrieved information when someone is needed.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Crafting>2</Crafting>
+			<Social>3</Social>
+			<Intellectual>4</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_68</defName>
+		<title>Kiiro Town Courier</title>
+		<titleShort>Town Courier</titleShort>
+		<description>[PAWN_nameDef] delivers town mail. whatever notes between neighbors or official documents.[PAWN_pronoun] will logging each item and ensuring timely delivery. Knowing every corner and communicating well, [PAWN_nameDef] kept information flowing.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>4</Social>
+			<Intellectual>4</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_69</defName>
+		<title>Kiiro Potter</title>
+		<titleShort>Potter</titleShort>
+		<description>[PAWN_nameDef]'s workshop always smelled like damp clay and kiln heat. At the wheel, [PAWN_pronoun] shaped earth into bowls or artistic vases, each piece echoing [PAWN_possessive] bond with nature through rustic beauty.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Construction>3</Construction>
+			<Crafting>2</Crafting>
+			<Artistic>3</Artistic>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_70</defName>
+		<title>Kiiro Baker</title>
+		<titleShort>Baker</titleShort>
+		<description>While townsfolk slept, [PAWN_nameDef]'s bakery glowed with oven fires. [PAWN_pronoun] kneaded dough into loaves, filling dawn air with warm, sweet scents that energized the waking town.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Cooking>4</Cooking>
+			<Crafting>3</Crafting>
+			<Social>2</Social>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_71</defName>
+		<title>Kiiro Fletcher</title>
+		<titleShort>Fletcher</titleShort>
+		<description>[PAWN_nameDef]'s workshop hanged with feathers and arrow shafts. [PAWN_pronoun] crafted lightweight, straight-flying arrows. From selecting wood, honing stone or metal heads, [PAWN_nameDef] fletching them with precision, to give hunters the best [PAWN_pronoun] can offer.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Cooking>3</Cooking>
+			<Crafting>5</Crafting>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_72</defName>
+		<title>Kiiro Forester</title>
+		<titleShort>Forester</titleShort>
+		<description>Loving treetop naps since childhood, [PAWN_nameDef] found work among the branches. By day [PAWN_pronoun] tended plants and guided lost children home. Exhausting but [PAWN_nameDef] never complains,perhaps thats the sense of duty? On calm days, [PAWN_nameDef] napped aloft.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Plants>4</Plants>
+			<Cooking>3</Cooking>
+			<Social>2</Social>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_73</defName>
+		<title>Kiiro Dreamer</title>
+		<titleShort>Dreamer</titleShort>
+		<description>[PAWN_nameDef]'s mind overflowed with whimsical notions. Though peculiar in speech, [PAWN_possessive] lifelong fantastical ideas imbued [PAWN_pronoun] with artistic sensibility and unconventional perspectives.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Artistic>6</Artistic>
+			<Social>-2</Social>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_74</defName>
+		<title>Kiiro Fisherman</title>
+		<titleShort>Fisherman</titleShort>
+		<description>[[PAWN_nameDef] lives near a river and makes a living by fishing and hunting. Years of fishing experience have taught [PAWN_nameDef] where to find deep pools, where the shallows are, and even where fish gather during certain seasons.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Animals>4</Animals>
+			<Plants>2</Plants>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+			<li>Kiiro_Fishing</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_75</defName>
+		<title>Kiiro Fisherman</title>
+		<titleShort>Fisherman</titleShort>
+		<description>For [PAWN_nameDef], fishing rods and nets always feel a bit awkward, nowhere near as easy to use as [PAWN_pronoun] natural tools. [PAWN_pronoun] prefers lying by the water, patiently waiting for the right moment, and then launching a sudden attack to catch the approaching fish. Although it's not very efficient, [PAWN_nameDef] enjoys it.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Animals>3</Animals>
+			<Melee>3</Melee>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+			<li>Kiiro_Fishing</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_76</defName>
+		<title>Kiiro Fishmonger</title>
+		<titleShort>Fishmonger</titleShort>
+		<description>[PAWN_nameDef] has a small stall at the town market, always displaying fresh catches. [PAWN_pronoun] is also very skilled at handling fish and enthusiastically recommends the fattiest parts to passing townsfolk; thanks to this, [PAWN_nameDef]'s stall is always busy with customers.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Animals>3</Animals>
+			<Cooking>3</Cooking>
+			<Social>3</Social>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+			<li>Kiiro_Fishing</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_77</defName>
+		<title>Kiiro Fish Pond Owner</title>
+		<titleShort>Fish Pond Owner</titleShort>
+		<description>[PAWN_nameDef] transformed a quiet tributary of the river into a natural fish pond with bamboo fences and aquatic plants, raising specific species of fish. By controlling the growth of water plants and duckweed and feeding the fish with grain-based feed, [PAWN_nameDef]'s pond provides a stable source of fresh fish for the town.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Animals>4</Animals>
+			<Intellectual>3</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+			<li>Kiiro_Fishing</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_78</defName>
+		<title>Kiiro Fish Cuisine Chef</title>
+		<titleShort>Fish Cuisine Chef</titleShort>
+		<description>[PAWN_nameDef] runs a fish restaurant in town. [PAWN_pronoun] knows the characteristics of every type of fish: which fish is best for grilling, which fish has the freshest meat for soup, and which fish roe is a rare delicacy. With precise control of heat and secret spices, [PAWN_pronoun] can turn simple ingredients into unforgettable delicious meals.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Animals>2</Animals>
+			<Plants>1</Plants>
+			<Cooking>5</Cooking>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+			<li>Kiiro_Fishing</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryAdult_79</defName>
+		<title>Kiiro Empty Hook Fisher</title>
+		<titleShort>Empty Hook Fisher</titleShort>
+		<description>The river seems to hide its gifts from [PAWN_nameDef]. [PAWN_pronoun] just can't catch any fish. While others return full-handed, laughing and chatting, [PAWN_pronoun] looks at the empty basket, quietly sighing. [PAWN_nameDef] wonders if this livelihood isn't suited for [PAWN_pronoun] after all, but can't make up [PAWN_possessive] mind.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Animals>-2</Animals>
+			<Social>2</Social>
+			<Plants>3</Plants>
+			<Cooking>3</Cooking>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_General</li>
+			<li>Kiiro_Fishing</li>
+		</spawnCategories>
+		<possessions>
+		</possessions>
+	</AlienRace.AlienBackstoryDef>
+
+</Defs>

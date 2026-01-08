@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <QuestScriptDef>
+        <defName>OA_OpportunitySite_MultiPartyTalks</defName>
+        <autoAccept>true</autoAccept>
+        <defaultChallengeRating>1</defaultChallengeRating>
+        <isRootSpecial>true</isRootSpecial>
+        <questNameRules>
+            <rulesStrings>
+                <li>questName->[OA_MultiPartyTalks] of [OAFaction_leader_nameDef]</li>
+                <li>questName->[OAFaction_leader_nameDef] [OA_MultiPartyTalks]</li>
+                <li>questName->[OA_MultiPartyTalks]</li>
+                <li>questName->[OA_MultiPartyTalks]</li>
+                <li>OA_MultiPartyTalks->Multi-Party talks</li>
+                <li>OA_MultiPartyTalks->Multi-party diplomacy</li>
+                <li>OA_MultiPartyTalks->Multi-party talks</li>
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+                <li>questDescription->[OAFaction_leaderTitle], [OAFaction_leader_nameFull] of [OAFaction_name] sent us a message. [OAFaction_leader_pronoun] A multi-force meeting is expected to take place to help the factions reconcile with each other and promote a harmonious atmosphere on the planet. This is a great opportunity to improve relations between factions and to contribute to [OAFaction_name], but because there are so many elements and forces involved in this meeting, if your negotiator is not good enough, then he has the potential to cause a disaster. [extraLeaderPart][favorRewardDetails]</li>
+                <li>favorRewardDetails(OAFaction_leader_royalInCurrentFaction==True,priority=1)->\n\nSuccess in promoting the progress of the talks will accumulate some personal [OAFaction_royalFavorLabel] for the negotiators of [OAFaction_name].</li>
+                <li>favorRewardDetails-></li>
+                <li MayRequire="Ludeon.RimWorld.Ideology">extraLeaderPart(priority=1)->\n\n[leaderRoleEffect] [leaderPawnInfo]</li>
+                <li>extraLeaderPart-></li>
+                <li>leaderRoleEffect->The other factions will respect you more if you send your leader to handle the negotiations.</li>
+                <li>leaderPawnInfo(playerFaction_hasLeader==True,priority=1)->[playerFaction_leaderTitle] [playerFaction_leader_nameFull] will gain an additional success rate.</li>
+                <li>leaderPawnInfo-></li>
+            </rulesStrings>
+        </questDescriptionRules>
+        <root Class="QuestNode_Sequence">
+            <nodes>
+                <li Class="QuestNode_Set">
+                    <name>siteDistRange</name>
+                    <value>5~13</value>
+                </li>
+
+                <li Class="QuestNode_GetMap" />
+                <li Class="QuestNode_GetPlayerFaction">
+                    <storeAs>playerFaction</storeAs>
+                </li>
+                <li Class="OberoniaAurea.QuestNode_GetOberoniaAureaFaction">                    <!-- 获取金鼠鼠派系 -->
+                    <storeAs>OAFaction</storeAs>
+                    <allowAlly>true</allowAlly>
+                    <allowNeutral>true</allowNeutral>
+                    <allowHostile>false</allowHostile>
+                </li>
+                <li Class="OberoniaAurea_Frame.QuestNode_GetMutiFactions">                    <!-- 获取参与多方会谈的派系 -->
+                    <storeAs>factions</storeAs>
+                    <factionCount>3~6</factionCount>
+                    <ignoreMinCountIfNessary>true</ignoreMinCountIfNessary>
+                    <allowEnemy>true</allowEnemy>
+                    <allowNeutral>true</allowNeutral>
+                    <allowAlly>true</allowAlly>
+                    <allowPermanentEnemy>false</allowPermanentEnemy>
+                    <playerCantBeAttackingCurrently>true</playerCantBeAttackingCurrently>
+                    <leaderMustBeSafe>true</leaderMustBeSafe>
+                    <mustHaveGoodwillRewardsEnabled>true</mustHaveGoodwillRewardsEnabled>
+                    <exclude>$OAFaction</exclude>
+                </li>
+
+                <li Class="QuestNode_QuestUnique">
+                    <tag>OA_RK_MultiPartyTalks</tag>
+                    <faction>$OAFaction</faction>
+                </li>
+
+                <li Class="QuestNode_GetSiteTile">
+                    <storeAs>tile</storeAs>
+                </li>
+
+                <li Class="OberoniaAurea_Frame.QuestNode_GenerateWorldObjectWithMutiFactions">                    <!-- 生成大地图事件点（关联多个派系） -->
+                    <def>OA_RK_MultiPartyTalks</def>
+                    <tile>$tile</tile>
+                    <faction>$OAFaction</faction>
+                    <participantFactions>$factions</participantFactions>
+                    <storeAs>OA_RK_MultiPartyTalks</storeAs>
+                </li>
+                <li Class="QuestNode_SpawnWorldObjects">
+                    <worldObjects>$OA_RK_MultiPartyTalks</worldObjects>
+                    <tile>$tile</tile>
+                </li>
+
+                <li Class="QuestNode_Delay">
+                    <delayTicks>$(randInt(12,28)*60000)</delayTicks>
+                    <outSignalComplete>OA_RK_MultiPartyTalksTimeout</outSignalComplete>
+                </li>
+
+                <li Class="QuestNode_DestroyWorldObject">
+                    <inSignal>OA_RK_MultiPartyTalksTimeout</inSignal>
+                    <worldObject>$OA_RK_MultiPartyTalks</worldObject>
+                </li>
+                <li Class="QuestNode_Signal">
+                    <inSignal>OA_RK_MultiPartyTalksTimeout</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_Letter">
+                                <label TKey="LetterLabelQuestExpired">任务已失效：[resolvedQuestName]</label>
+                                <text TKey="LetterTextQuestExpired">[OAFaction_name]举行的多方会谈已过期。 任务已失效：[resolvedQuestName]。</text>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Fail</outcome>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+
+                <li Class="QuestNode_End">
+                    <inSignal>OA_RK_MultiPartyTalks.Resolved</inSignal>
+                    <outcome>Success</outcome>
+                </li>
+            </nodes>
+        </root>
+    </QuestScriptDef>
+</Defs>

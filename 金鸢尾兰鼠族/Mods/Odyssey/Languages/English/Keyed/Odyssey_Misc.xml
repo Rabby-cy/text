@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+<OARK_QuestDiscoveredFromFaction>{0}로부터 소식을 받았습니다:</OARK_QuestDiscoveredFromFaction>
+
+<OARK_LowStoredEnergy>Minimum {0} stored energy required</OARK_LowStoredEnergy>
+
+    <OARK_PilotConsole_CurHackStage>Current progress: {0}/{1}</OARK_PilotConsole_CurHackStage>
+
+    <OARK_GravTechAssistPoint>Research Contribution</OARK_GravTechAssistPoint>
+    <OARK_GravTechAssistPointTip>Indicates how much support the Oberonia Aurea Orchid Empire's research division is willing to provide. Higher contribution means greater assistance.</OARK_GravTechAssistPointTip>
+
+    <OARK_PilotConsole_CurHackStage>Current progress: {0}/{1}</OARK_PilotConsole_CurHackStage>
+
+    <!-- Research Assistance Mission Reward Selection Interface -->
+    <OARK_GravTechAssist_RewardChoice>Thanks to your assistant's help, the research division's reverse-engineering of gravity technology has advanced significantly. Those valuable practical insights effectively solved numerous problems.\n\nTo show their gratitude, the researchers sent you a list, stating you may take any single item from it in recognition of your assistant's contributions.\n\nThe list contains many unfamiliar items you've never heard of. Your instincts tell you choosing something completely unknown might be unwise, but fortunately there are at least two recognizable options.</OARK_GravTechAssist_RewardChoice>
+</LanguageData>

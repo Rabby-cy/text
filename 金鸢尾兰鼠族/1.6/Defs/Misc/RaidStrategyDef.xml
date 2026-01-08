@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<RaidStrategyDef Name="OA_RK_DropAttack">
+		<defName>OA_RK_ImmediateAttack</defName>
+		<workerClass>OberoniaAurea.RaidStrategyWorker_OAImmediateAttack</workerClass>
+		<selectionWeightPerPointsCurve>
+			<points>
+				<li>(0, 0)</li>
+			</points>
+		</selectionWeightPerPointsCurve>
+		<selectionWeightCurvesPerFaction>
+			<li>
+				<faction>OA_RK_Faction</faction>
+				<selectionWeightPerPointsCurve>
+					<points>
+						<li>(0, 1)</li>
+					</points>
+				</selectionWeightPerPointsCurve>
+			</li>
+		</selectionWeightCurvesPerFaction>
+		<pointsFactorCurve>
+			<points>
+				<li>0, 1</li>
+			</points>
+		</pointsFactorCurve>
+		<arriveModes>
+			<li>EdgeDrop</li>
+			<li>CenterDrop</li>
+			<li>OA_RK_CenterDrop</li>
+		</arriveModes>
+		<letterLabelEnemy>Raid</letterLabelEnemy>
+		<arrivalTextEnemy>他们将会立刻发动进攻</arrivalTextEnemy>
+		<letterLabelFriendly>Friendlies</letterLabelFriendly>
+		<arrivalTextFriendly>他们将会立刻进行支援</arrivalTextFriendly>
+	</RaidStrategyDef>
+
+	<RaidStrategyDef ParentName="OA_RK_DropAttack">
+		<defName>OA_RK_ImmediateAttackFriendly</defName>
+		<workerClass>OberoniaAurea.RaidStrategyWorker_OAImmediateAttackFriendly</workerClass>
+		<pawnsCanBringFood>True</pawnsCanBringFood>
+	</RaidStrategyDef>
+
+
+	<PawnsArrivalModeDef>		<!-- 好像没用上 -->
+		<defName>OA_RK_CenterDrop</defName>
+		<workerClass>PawnsArrivalModeWorker_CenterDrop</workerClass>
+		<selectionWeightCurve>
+			<points>
+				<li>(0, 0)</li>
+			</points>
+		</selectionWeightCurve>
+		<selectionWeightCurvesPerFaction>
+			<li>
+				<faction>OA_RK_Faction</faction>
+				<selectionWeightPerPointsCurve>
+					<points>
+						<li>(0, 1)</li>
+					</points>
+				</selectionWeightPerPointsCurve>
+			</li>
+		</selectionWeightCurvesPerFaction>
+		<pointsFactorCurve>
+			<points>
+				<li>0, 1</li>
+			</points>
+		</pointsFactorCurve>
+		<minTechLevel>Industrial</minTechLevel>
+		<textEnemy>一队来自 {0} 的 {1} 通过空投发动了袭击！</textEnemy>
+		<textFriendly>一队来自 {0} 的 {1} 通过空投前来支援！</textFriendly>
+		<textWillArrive>{0_pawnsPluralDef} 将通过空投抵达。</textWillArrive>
+	</PawnsArrivalModeDef>
+
+</Defs>

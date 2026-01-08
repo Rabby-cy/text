@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingDef ParentName="BuildingBase" Name="OA_SkyWarmthBase" Abstract="True">
+		<tickerType>Normal</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
+		<fillPercent>0.7</fillPercent>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<building>
+			<ai_chillDestination>false</ai_chillDestination>
+			<buildingTags>
+				<li>BuildingsMisc</li>
+			</buildingTags>
+		</building>
+		<designationCategory>Misc</designationCategory>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsMisc</li>
+		</thingCategories>
+		<comps>
+			<li Class="CompProperties_Flickable"/>
+		</comps>
+		<placeWorkers>
+			<li>OberoniaAurea.PlaceWorker_BuildingHediffAoE</li>
+		</placeWorkers>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+	</ThingDef>
+	
+	<ThingDef ParentName="OA_SkyWarmthBase">
+		<defName>OA_RK_SkyWarmth_S</defName>
+		<label>Small Gel Light Warm Glow</label>
+		<description>A utility and medical facility unique to the Oberonia Aurea Empire that delivers coagulation factors on a wide scale to promote wound recovery and provide warmth and comfort.</description>
+		<size>(3,3)</size>
+		<graphicData>
+			<texPath>Building/OA_RK_NGNH</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3.6,3.9)</drawSize>
+			<shadowData>
+				<volume>(3.5,0.75,3.4)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		<constructionSkillPrerequisite>15</constructionSkillPrerequisite>
+		<researchPrerequisites>
+			<li>OA_RK_Ningguangnuanhui</li>
+		</researchPrerequisites>
+		<rotatable>false</rotatable>
+		<uiOrder>2420</uiOrder>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>140000</WorkToBuild>
+			<Mass>125</Mass>
+			<Flammability>0</Flammability>
+			<Beauty>92</Beauty>
+		</statBases>
+		<costList>
+			<Uranium>150</Uranium>
+			<Plasteel>600</Plasteel>
+			<ComponentSpacer>12</ComponentSpacer>
+		</costList>
+		<comps>
+			<li Class="OberoniaAurea.TCP_HediffAoE">
+				<range>38.9</range>
+				<hediff>OA_RK_hediff_SkyWarmth</hediff>
+				<onlyTargetMechs>false</onlyTargetMechs>
+				<onlyTargetOwnSide>true</onlyTargetOwnSide>
+			</li>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>1600</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>23</glowRadius>
+				<glowColor>(216,177,110,0)</glowColor>
+				<colorPickerEnabled>false</colorPickerEnabled>
+				<darklightToggle>false</darklightToggle>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<HediffDef>
+		<defName>OA_RK_hediff_SkyWarmth</defName>
+		<label>Warm glow</label>
+		<description>The coagulation factor continuously regulates hormones and heals cells in the body, producing a warm and comfortable feeling.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<maxSeverity>2</maxSeverity>
+		<defaultLabelColor>(1, 1, 0.5)</defaultLabelColor>
+		<stages>
+			<li>
+				<label></label>
+				<hungerRateFactor>0.85</hungerRateFactor>
+				<statFactors>
+					<InjuryHealingFactor>1.25</InjuryHealingFactor>
+					<ImmunityGainSpeed>1.1</ImmunityGainSpeed>
+					<MoveSpeed>0.95</MoveSpeed>
+				</statFactors>
+				<statOffsets>
+					<ComfyTemperatureMin>-5</ComfyTemperatureMin>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>共鸣（金鸢尾兰花茶）</label>
+				<minSeverity>1.1</minSeverity>
+				<hungerRateFactor>0.85</hungerRateFactor>
+				<statFactors>
+					<InjuryHealingFactor>1.66</InjuryHealingFactor>
+					<ImmunityGainSpeed>1.25</ImmunityGainSpeed>
+					<MoveSpeed>0.95</MoveSpeed>
+				</statFactors>
+				<statOffsets>
+					<ComfyTemperatureMin>-18</ComfyTemperatureMin>
+				</statOffsets>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>0.1</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+		<comps>
+			<li Class="HediffCompProperties_Disappears">
+				<disappearsAfterTicks>30</disappearsAfterTicks>
+				<showRemainingTime>false</showRemainingTime>
+			</li>
+			<li Class="HediffCompProperties_DisappearsOnDeath"/>
+			<li Class="HediffCompProperties_Link">
+				<requireLinkOnOtherPawn>false</requireLinkOnOtherPawn>
+			</li>
+		</comps>
+		<isBad>false</isBad>
+	</HediffDef>
+
+	<ThoughtDef>
+		<defName>OA_RK_thought_SkyWarmth</defName>
+		<thoughtClass>OberoniaAurea.Thought_MoodwithIdeo</thoughtClass>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>OA_RK_hediff_SkyWarmth</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>Warm glow</label>
+				<description>This warm feeling is so comfortable.</description>
+				<baseMoodEffect>3</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+</Defs>

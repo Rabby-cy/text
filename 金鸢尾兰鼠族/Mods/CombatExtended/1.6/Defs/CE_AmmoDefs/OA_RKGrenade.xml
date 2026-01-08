@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>AmmoOBLGrenades</defName>
+		<label>Oberonia Aurea Light Grenade</label>
+		<parent>AmmoGrenades</parent>
+		<iconPath>UI/Icons/ThingCategories/CaliberGrenade</iconPath>
+	</ThingCategoryDef>
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_OBLGrenade</defName>
+		<label>Oberonia Aurea Light Grenade</label>
+		<ammoTypes>
+			<Ammo_OBLGrenade_HEAT>Bullet_OBLGrenade_HEAT</Ammo_OBLGrenade_HEAT>
+			<Ammo_OBLGrenade_HE>Bullet_OBLGrenade_HE</Ammo_OBLGrenade_HE>
+			<Ammo_OBLGrenade_EMP>Bullet_OBLGrenade_EMP</Ammo_OBLGrenade_EMP>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" Name="OBLGrenadeBase" ParentName="MediumAmmoBase" Abstract="True">
+		<description>Oberonia Aurea Light Grenade.</description>
+		<statBases>
+			<Mass>3.176</Mass>
+			<Bulk>6.5</Bulk>
+		</statBases>
+		<tradeTags>
+			<li>CE_AutoEnableTrade</li>
+			<li>CE_AutoEnableCrafting_TableMachining</li>
+		</tradeTags>
+		<thingCategories>
+			<li>Ammo83mmPIATGrenades</li>
+		</thingCategories>
+		<stackLimit>50</stackLimit>
+		<cookOffFlashScale>30</cookOffFlashScale>
+		<cookOffSound>MortarBomb_Explode</cookOffSound>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="83mmPIATGrenadeBase">
+		<defName>Ammo_OBLGrenade_HEAT</defName>
+		<label>Oberonia Aurea Light Grenade (HEAT)</label>
+		<graphicData>
+			<texPath>Things/Ammo/GrenadeLauncher/HE</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>39.8</MarketValue>
+		</statBases>
+		<ammoClass>RocketHEAT</ammoClass>
+		<detonateProjectile>Bullet_83mmPIATGrenade_HEAT</detonateProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="83mmPIATGrenadeBase">
+		<defName>Ammo_OBLGrenade_HE</defName>
+		<label>Oberonia Aurea Light Grenade (HE)</label>
+		<graphicData>
+			<texPath>Things/Ammo/GrenadeLauncher/HE</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>39.8</MarketValue>
+		</statBases>
+		<ammoClass>GrenadeHE</ammoClass>
+		<detonateProjectile>Bullet_83mmPIATGrenade_HE</detonateProjectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="83mmPIATGrenadeBase">
+		<defName>Ammo_OBLGrenade_EMP</defName>
+		<label>Oberonia Aurea Light Grenade (EMP)</label>
+		<graphicData>
+			<texPath>Things/Ammo/GrenadeLauncher/EMP</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>90.7</MarketValue>
+		</statBases>
+		<ammoClass>GrenadeEMP</ammoClass>
+		<generateAllowChance>0.5</generateAllowChance>
+		<detonateProjectile>Bullet_83mmPIATGrenade_EMP</detonateProjectile>
+	</ThingDef>
+
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef Name="Base83mmPIATGrenade" ParentName="BaseExplosiveBullet" Abstract="true">
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/LauncherShot</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>26</speed>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="Base83mmPIATGrenade">
+		<defName>Bullet_OBLGrenade_HEAT</defName>
+		<label>Oberonia Aurea Light Grenade (HEAT)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>58</damageAmountBase>
+			<armorPenetrationSharp>83</armorPenetrationSharp>
+			<armorPenetrationBlunt>41</armorPenetrationBlunt>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<damageAmountBase>89</damageAmountBase>
+				<explosiveDamageType>Bomb</explosiveDamageType>
+				<explosiveRadius>1.9</explosiveRadius>
+				<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+				<explosionSound>MortarBomb_Explode</explosionSound>
+			</li>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Fragment_Medium>23</Fragment_Medium>
+				</fragments>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="Base83mmPIATGrenade">
+		<defName>Bullet_OBLGrenade_HE</defName>
+		<label>Oberonia Aurea Light Grenade (HE)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<explosionRadius>5.9</explosionRadius>
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>159</damageAmountBase>
+			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Fragment_Medium>55</Fragment_Medium>
+				</fragments>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="Base83mmPIATGrenade">
+		<defName>Bullet_OBLGrenade_EMP</defName>
+		<label>Oberonia Aurea Light Grenade (EMP)</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<explosionRadius>5.9</explosionRadius>
+			<damageDef>EMP</damageDef>
+			<damageAmountBase>192</damageAmountBase>
+		</projectile>
+	</ThingDef>
+
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="LauncherAmmoRecipeBase">
+		<defName>MakeAmmo_OBLGrenade_HEAT</defName>
+		<label>make Oberonia Aurea Light Grenade x15</label>
+		<description>Craft 15 Oberonia Aurea Light Grenade.</description>
+		<jobString>Making Oberonia Aurea Light Grenade.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Uranium</li>
+					</thingDefs>
+				</filter>
+				<count>32</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>9</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Uranium</li>
+				<li>FSX</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_OBLGrenade_HEAT>15</Ammo_OBLGrenade_HEAT>
+		</products>
+		<workAmount>8000</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="LauncherAmmoRecipeBase">
+		<defName>MakeAmmo_OBLGrenade_HE</defName>
+		<label>make 83mm Oberonia Aurea Light Grenade x15</label>
+		<description>Craft 15 Oberonia Aurea Light Grenade.</description>
+		<jobString>Making Oberonia Aurea Light Grenade.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Uranium</li>
+					</thingDefs>
+				</filter>
+				<count>32</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>9</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Uranium</li>
+				<li>FSX</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_OBLGrenade_HE>15</Ammo_OBLGrenade_HE>
+		</products>
+		<workAmount>8000</workAmount>
+	</RecipeDef>
+
+	<RecipeDef ParentName="LauncherAmmoRecipeBase">
+		<defName>MakeAmmo_OBLGrenade_EMP</defName>
+		<label>make Oberonia Aurea Light Grenade x15</label>
+		<description>Craft 15 Oberonia Aurea Light Grenade.</description>
+		<jobString>Making Oberonia Aurea Light Grenade.</jobString>
+		<researchPrerequisites>
+			<li>MicroelectronicsBasics</li>
+			<li>CE_Launchers</li>
+		</researchPrerequisites>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Uranium</li>
+					</thingDefs>
+				</filter>
+				<count>32</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Uranium</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_OBLGrenade_EMP>15</Ammo_OBLGrenade_EMP>
+		</products>
+		<workAmount>10400</workAmount>
+	</RecipeDef>
+
+</Defs>

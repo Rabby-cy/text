@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <RK_OA_gene_Social.label>鸢尾兰激素</RK_OA_gene_Social.label>
+  <RK_OA_gene_Social.description>该基因的携带者会分泌一种特殊的激素，这种激素迫使他们寻求拥有同激素的生物报团以获得安全感。当他们的团体过小时，他们会感到不安，反之则会感到安心，并且变得温顺。</RK_OA_gene_Social.description>
+  
+    <OA_RK_Gene_ColdAdaptation.label>寒冷应激适应</OA_RK_Gene_ColdAdaptation.label>
+  <OA_RK_Gene_ColdAdaptation.description>这种基因的携带者的皮下组织已经进化出了对寒冷的特别适应，当他们受到寒冷的刺激时将会小幅度的提升身体的机能。\n\n当温度低于-15℃时将会产生一系列良性影响。</OA_RK_Gene_ColdAdaptation.description>
+  
+    <OA_RK_Gene_HotAdaptation.label>炎热应激适应</OA_RK_Gene_HotAdaptation.label>
+  <OA_RK_Gene_HotAdaptation.description>这种基因的携带者的皮下组织已经进化出了对炎热的特别适应，当他们受到炎热的刺激时将会小幅度的提升身体的机能。\n\n当温度高于45℃时将会产生一系列良性影响。</OA_RK_Gene_HotAdaptation.description>
+  
+</LanguageData>

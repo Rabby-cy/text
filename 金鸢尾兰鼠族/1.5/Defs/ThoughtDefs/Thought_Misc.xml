@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThoughtDef>
+        <defName>OA_RK_thought_SkyWarmth</defName>
+        <thoughtClass>OberoniaAurea.Thought_SkyWarmth</thoughtClass>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>OA_RK_hediff_SkyWarmth</hediff>
+        <validWhileDespawned>true</validWhileDespawned>
+        <stages>
+            <li>
+                <label>Warm glow</label>
+                <description>This warm feeling is so comfortable.</description>
+                <baseMoodEffect>3</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>OA_RK_SandWichD_Thought</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>OA_RK_SandWichD</hediff>
+        <validWhileDespawned>true</validWhileDespawned>
+        <stages>
+            <li>
+                <label>Heavy armor</label>
+                <description>Damn it! This thing is almost suffocating me!</description>
+                <baseMoodEffect>-4</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+</Defs>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/PreceptDef[defName="IdeoBuilding"]/buildingRoomRequirements/li[@Class="RoomRequirement_ThingCount" and thingDef="Column"]</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/PreceptDef[defName="IdeoBuilding"]/buildingRoomRequirements/li[@Class="RoomRequirement_ThingCount" and thingDef="Column"]</xpath>
+            <value>
+                <li Class="RoomRequirement_ThingAnyOfCount">
+                    <things>
+                        <li>Column</li>
+                        <li>OA_RK_Zhuzi</li>
+                        <li>OA_RK_Zhuzi_B</li>
+                        <li>OA_RK_Zhuzi_C</li>
+                    </things>
+                    <count>4</count>
+                </li>
+            </value>
+        </match>
+        <nomatch Class="PatchOperationConditional">
+            <xpath>Defs/PreceptDef[defName="IdeoBuilding"]/buildingRoomRequirements/li[@Class="RoomRequirement_ThingAnyOfCount" and things/li="Column"]/things</xpath>
+            <match Class="PatchOperationAdd">
+                <xpath>Defs/PreceptDef[defName="IdeoBuilding"]/buildingRoomRequirements/li[@Class="RoomRequirement_ThingAnyOfCount" and things/li="Column"]/things</xpath>
+                <value>
+                    <li>OA_RK_Zhuzi</li>
+                    <li>OA_RK_Zhuzi_B</li>
+                    <li>OA_RK_Zhuzi_C</li>
+                </value>
+            </match>
+        </nomatch>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThoughtDef[@Name="IdeoLeaderResentmentBase"]/thoughtClass</xpath>
+        <value>
+            <thoughtClass>OberoniaAurea.Thought_OAIdeoLeaderResentment</thoughtClass>
+        </value>
+    </Operation>
+
+</Patch>

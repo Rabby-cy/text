@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <RoyalTitleDef Abstract="True" Name="BaseOARKTitle">
+        <tags>
+            <li>OA_RK_Title</li>
+        </tags>
+        <awardThought>OA_RK_GainedTitle</awardThought>
+        <lostThought>OA_RK_LostTitle</lostThought>
+    </RoyalTitleDef>
+    
+    <RoyalTitleDef ParentName="BaseOARKTitle">
+        <defName>OA_RK_Title_A</defName>
+        <label>Edle</label>
+        <description>The Edle is the first level of nobility in Oberonia Aurea's aristocratic system, and there is a distinction between Honorary High Clan and Hereditary Edle. \n\nThough they are nobles, the actual rights of the Edle are not much different from those of the citizens of Oberonia Aurea, but the court will regularly provide additional subsidies for the Edle, and provide additional noble education to the Edles' descendants at an early age in recognition of their past contributions to the Edle. \n\nIn most cases, a citizen of Oberonia Aurea who has spent a lifetime in service to the Court will be given the status of Honorary Edle in her later years, which is not heritable. In addition, if a citizen of Oberonia Aurea has multiple exceptional contributions, there is a chance that he or she will be granted hereditary Edle status.</description>
+        <minExpectation>Moderate</minExpectation>
+        <changeHeirQuestPoints>1500</changeHeirQuestPoints>
+        <recruitmentResistanceOffset>15</recruitmentResistanceOffset>
+        <canBeInherited>True</canBeInherited>
+        <seniority>150</seniority>
+        <favorCost>5</favorCost>
+        <commonality>3</commonality>
+        <permitPointsAwarded>1</permitPointsAwarded>
+        <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+    </RoyalTitleDef>
+
+    <RoyalTitleDef ParentName="BaseOARKTitle">
+        <defName>OA_RK_Title_B</defName>
+        <label>Freiherr</label>
+        <description>The Freiherr is the second tier of the Oberonia Aurea aristocracy system, and is the highest title that a citizen can achieve without special and great contributions, and there are no rules for honorary titles for the Freiherr and subsequent titles. \n\nCompared to the Edle, the Freiherr could be said to be quite rare, often a city of Oberonia Aurea would only have a few, while cities on remote planets would not even have any. Unlike the Edle, Freiherr have some actual privileges and can demand something from the court as a noble. In addition, Freiherr must also take on some of the responsibilities, commonly assisting the court in maintaining local order, or representing the locality to the court, and so on. \n\nIn the Oberionia Aurea Empire, there is no formulaic way of acquiring the status of Freiherr, unless a hereditary Freiherr has made a rather remarkable contribution to the court, most of the time a new Freiherr title will not be given.</description>
+        <minExpectation>High</minExpectation>
+        <changeHeirQuestPoints>2000</changeHeirQuestPoints>
+        <recruitmentResistanceOffset>30</recruitmentResistanceOffset>
+        <requiredMinimumApparelQuality>Normal</requiredMinimumApparelQuality>
+        <canBeInherited>True</canBeInherited>
+        <seniority>250</seniority>
+        <favorCost>15</favorCost>
+        <commonality>1</commonality>
+        <permitPointsAwarded>1</permitPointsAwarded>
+        <allowDignifiedMeditationFocus>False</allowDignifiedMeditationFocus>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>RoyalTier2</li>
+                    <li>Royal</li>
+                </requiredTags>
+                <allowedTags>
+                    <li>Cape</li>
+                    <li>PrestigeCombatGear</li>
+                    <li>Psychic</li>
+                    <li>Mechlord</li>
+                </allowedTags>
+            </li>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>UpperHead</li>
+                    <li>FullHead</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>RoyalTier2</li>
+                    <li>Royal</li>
+                </requiredTags>
+                <allowedTags>
+                    <li>PrestigeCombatGear</li>
+                    <li>Psychic</li>
+                    <li>Mechlord</li>
+                </allowedTags>
+            </li>
+        </requiredApparel>
+        <foodRequirement>
+            <minQuality>MealSimple</minQuality>
+            <allowedTypes>Processed, Liquor</allowedTypes>
+            <allowedDefs>
+                <li>Ambrosia</li>
+                <li>Milk</li>
+                <li>RawBerries</li>
+            </allowedDefs>
+        </foodRequirement>
+    </RoyalTitleDef>
+
+    <RoyalTitleDef ParentName="BaseOARKTitle">
+        <defName>OA_RK_Title_C</defName>
+        <label>Vizegraf</label>
+        <description>Vizegraf is the third tier of the Oberonia Aureaf aristocratic system, as well as the middle tier of the Oberonia Aureaf Empire. \n\nBeing a mid-level noble of the Oberonia Aurea Empire, the Vizegraf was already qualified enough to be in the palace and to be responsible for the handling of local government affairs. The descendants of Vizegraf are often required to undergo a semi-compulsory noble education at the court to ensure that they will not do anything to bring the noble system into disrepute. \n\nMost of the time the Vizegraf is a downgrade from the side line of the Markgraf family, and the Freiherr may not be able to be promoted to Vizegraf unless they have contributed to the development of Oberonia Aurea many times over, or saved a small-scale catastrophe.</description>
+        <minExpectation>High</minExpectation>
+        <changeHeirQuestPoints>2800</changeHeirQuestPoints>
+        <recruitmentResistanceOffset>60</recruitmentResistanceOffset>
+        <requiredMinimumApparelQuality>Normal</requiredMinimumApparelQuality>
+        <canBeInherited>True</canBeInherited>
+        <seniority>300</seniority>
+        <favorCost>35</favorCost>
+        <commonality>0.6</commonality>
+        <permitPointsAwarded>1</permitPointsAwarded>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <grantedAbilities>
+            <li>Speech</li>
+        </grantedAbilities>
+        <speechCooldown>900000</speechCooldown>
+        <disabledWorkTags>
+            <li>ManualDumb</li>
+            <li>Mining</li>
+        </disabledWorkTags>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>RoyalTier2</li>
+                    <li>Royal</li>
+                </requiredTags>
+                <allowedTags>
+                    <li>Cape</li>
+                    <li>PrestigeCombatGear</li>
+                    <li>Psychic</li>
+                    <li>Mechlord</li>
+                </allowedTags>
+            </li>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>RoyalTier5</li>
+                    <li>Royal</li>
+                </requiredTags>
+                <allowedTags>
+                    <li>PrestigeCombatGear</li>
+                    <li>Psychic</li>
+                    <li>Mechlord</li>
+                    <li>Royal</li>
+                </allowedTags>
+            </li>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>UpperHead</li>
+                    <li>FullHead</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>RoyalTier5</li>
+                    <li>Royal</li>
+                </requiredTags>
+                <allowedTags>
+                    <li>PrestigeCombatGear</li>
+                    <li>Psychic</li>
+                    <li>Mechlord</li>
+                    <li>Royal</li>
+                </allowedTags>
+            </li>
+        </requiredApparel>
+        <bedroomRequirements>
+            <li Class="RoomRequirement_Area">
+                <area>16</area>
+            </li>
+            <li Class="RoomRequirement_Impressiveness">
+                <impressiveness>40</impressiveness>
+            </li>
+            <li Class="RoomRequirement_TerrainWithTags">
+                <labelKey>RoomRequirementAllFloored</labelKey>
+                <tags>
+                    <li>Floor</li>
+                    <li>FineFloor</li>
+                </tags>
+            </li>
+            <li Class="RoomRequirement_ForbiddenBuildings">
+                <labelKey>RoomRequirementNoProductionFacilities</labelKey>
+                <buildingTags>
+                    <li>Production</li>
+                </buildingTags>
+            </li>
+            <li Class="RoomRequirement_ForbiddenBuildings" MayRequire="Ludeon.RimWorld.Biotech">
+                <labelKey>RoomRequirementNoBiotechBuildings</labelKey>
+                <buildingTags>
+                    <li>Biotech</li>
+                </buildingTags>
+            </li>
+        </bedroomRequirements>
+        <foodRequirement>
+            <minQuality>MealSimple</minQuality>
+            <allowedTypes>Processed, Liquor</allowedTypes>
+            <allowedDefs>
+                <li>Ambrosia</li>
+                <li>Milk</li>
+                <li>RawBerries</li>
+            </allowedDefs>
+        </foodRequirement>
+    </RoyalTitleDef>
+
+    <RoyalTitleDef ParentName="BaseOARKTitle">
+        <defName>OA_RK_Title_D</defName>
+        <label>Markgraf</label>
+        <description>A Markgraf is the fourth tier of the Oberonia Aurea aristocratic system, as well as the highest tier of the Oberonia Aurea's middle tier aristocracy. \n\\nIn prosperous planets, Markgraf often had to be responsible for the management of a city; while in remote planets, Markgraf would often become the assistant of the planet's ruler or coordinate the management of a planet with other Markgrafs. \n\nThe vast majority of Oberonia Aurea Markgrafs are demoted from the family branches of Oberonia Aurea's high-level nobles, and very few Vizegrafs are able to promote to Markgraf on the basis of merit.</description>
+        <minExpectation>SkyHigh</minExpectation>
+        <changeHeirQuestPoints>3600</changeHeirQuestPoints>
+        <recruitmentResistanceOffset>100</recruitmentResistanceOffset>
+        <requiredMinimumApparelQuality>Normal</requiredMinimumApparelQuality>
+        <canBeInherited>True</canBeInherited>
+        <seniority>400</seniority>
+        <favorCost>80</favorCost>
+        <commonality>0.3</commonality>
+        <permitPointsAwarded>2</permitPointsAwarded>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <grantedAbilities>
+            <li>Speech</li>
+        </grantedAbilities>
+        <speechCooldown>800000</speechCooldown>
+        <disabledWorkTags>
+            <li>ManualDumb</li>
+            <li>Mining</li>
+        </disabledWorkTags>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>RoyalTier7</li>
+                    <li>Royal</li>
+                </requiredTags>
+                <allowedTags>
+                    <li>PrestigeCombatGear</li>
+                    <li>Psychic</li>
+                    <li>Mechlord</li>
+                    <li>Royal</li>
+                </allowedTags>
+            </li>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>UpperHead</li>
+                    <li>FullHead</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>RoyalTier7</li>
+                    <li>Royal</li>
+                </requiredTags>
+                <allowedTags>
+                    <li>PrestigeCombatGear</li>
+                    <li>Psychic</li>
+                    <li>Mechlord</li>
+                    <li>Royal</li>
+                </allowedTags>
+            </li>
+        </requiredApparel>
+        <throneRoomRequirements>
+            <li Class="RoomRequirement_HasAssignedThroneAnyOf">
+                <things>
+                    <li>GrandThrone</li>
+					<li MayRequire="OskarPotocki.VFE.Empire">VFEE_StellicThrone</li>
+                </things>
+            </li>
+            <li Class="RoomRequirement_Area">
+                <area>70</area>
+            </li>
+            <li Class="RoomRequirement_Impressiveness">
+                <impressiveness>120</impressiveness>
+            </li>
+            <li Class="RoomRequirement_TerrainWithTags">
+                <labelKey>RoomRequirementAllFineFloored</labelKey>
+                <tags>
+                    <li>Floor</li>
+                    <li>FineFloor</li>
+                </tags>
+            </li>
+            <li Class="RoomRequirement_ThingAnyOfCount">
+				<things>
+					<li>Column</li>
+					<li>OA_RK_Zhuzi_C</li>
+					<li>OA_RK_Zhuzi</li>
+					<li>OA_RK_Zhuzi_New</li>
+				</things>
+                <count>4</count>
+            </li>
+            <li Class="RoomRequirement_ThingCount">
+                <thingDef>Drape</thingDef>
+                <count>4</count>
+            </li>
+            <li Class="RoomRequirement_Thing">
+                <thingDef>Piano</thingDef>
+            </li>
+            <li Class="RoomRequirement_ForbiddenBuildings">
+                <labelKey>RoomRequirementNoProductionFacilities</labelKey>
+                <buildingTags>
+                    <li>Production</li>
+                </buildingTags>
+            </li>
+            <li Class="RoomRequirement_ForbiddenBuildings">
+                <labelKey>RoomRequirementNoBeds</labelKey>
+                <buildingTags>
+                    <li>Bed</li>
+                </buildingTags>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Ideology" Class="RoomRequirement_ForbidAltars">
+                <labelKey>RoomRequirementNoAltars</labelKey>
+            </li>
+            <li Class="RoomRequirement_ForbiddenBuildings" MayRequire="Ludeon.RimWorld.Biotech">
+                <labelKey>RoomRequirementNoBiotechBuildings</labelKey>
+                <buildingTags>
+                    <li>Biotech</li>
+                </buildingTags>
+            </li>
+        </throneRoomRequirements>
+        <bedroomRequirements>
+            <li Class="RoomRequirement_Area">
+                <area>22</area>
+            </li>
+            <li Class="RoomRequirement_Impressiveness">
+                <impressiveness>60</impressiveness>
+            </li>
+            <li Class="RoomRequirement_TerrainWithTags">
+                <labelKey>RoomRequirementAllFloored</labelKey>
+                <tags>
+                    <li>Floor</li>
+                    <li>FineFloor</li>
+                </tags>
+            </li>
+            <li Class="RoomRequirement_ThingAnyOf">
+                <disablingPrecepts>
+                    <li MayRequire="Ludeon.RimWorld.Ideology">SlabBed_Preferred</li>
+                </disablingPrecepts>
+                <things>
+                    <li>DoubleBed</li>
+                    <li>RoyalBed</li>
+					<li MayRequire="VanillaExpanded.VFECore">Bed_Kingsize</li>
+					<li MayRequire="VanillaExpanded.VFESpacer">Bed_AdvDoubleBed</li>
+					<li MayRequire="mingtuwuxiang.GothicDecorative">MUS_Gothicstyle_DoubleBed</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">DeathrestCasket</li>
+                </things>
+            </li>
+		    <li Class="RoomRequirement_ThingAnyOf">
+                <things>
+                    <li>EndTable</li>
+					<li MayRequire="VanillaExpanded.VFESpacer">Table_IlluminatedEndTable</li>
+					<li MayRequire="VanillaExpanded.VFECore">Table_LightEndTable</li>
+					<li MayRequire="VanillaExpanded.VFECore">Table_RoyalEndTable</li>
+                </things>
+            </li>
+            <li Class="RoomRequirement_ForbiddenBuildings">
+                <labelKey>RoomRequirementNoProductionFacilities</labelKey>
+                <buildingTags>
+                    <li>Production</li>
+                </buildingTags>
+            </li>
+            <li Class="RoomRequirement_ForbiddenBuildings" MayRequire="Ludeon.RimWorld.Biotech">
+                <labelKey>RoomRequirementNoBiotechBuildings</labelKey>
+                <buildingTags>
+                    <li>Biotech</li>
+                </buildingTags>
+            </li>
+        </bedroomRequirements>
+        <foodRequirement>
+            <minQuality>MealFine</minQuality>
+            <allowedTypes>Processed, Liquor</allowedTypes>
+            <allowedDefs>
+                <li>Ambrosia</li>
+                <li>Milk</li>
+                <li>RawBerries</li>
+            </allowedDefs>
+        </foodRequirement>
+    </RoyalTitleDef>
+
+    <RoyalTitleDef ParentName="BaseOARKTitle">
+        <defName>OA_RK_Title_E</defName>
+        <label>External Hochadel</label>
+        <description>The External Hochadel was the fifth level of the Oberonia Aurea aristocratic system, as well as one of the Oberonia Aurea high-level aristocrats. \n\nIn the Oberonia Aurea Empire, an External Hochadel noble was often required to be in charge of the control of a remote planet, or to co-manage a prosperous planet. Even on the home planet of the Oberonia Aurea Empire, the External Hochadel are allowed free access to the external court. \n\nThe vast majority of the External Hochadel have a blood lineage with the royal family of the Oberonia Aurea Empire, and only a very small number of existences in the entire empire are able to become an External Hochadel by way of promotion rather than demotion. The External Hochadel is also the highest title that a non-royal bloodline can achieve.</description>
+        <minExpectation>Noble</minExpectation>
+        <changeHeirQuestPoints>5000</changeHeirQuestPoints>
+        <recruitmentResistanceOffset>200</recruitmentResistanceOffset>
+        <requiredMinimumApparelQuality>Good</requiredMinimumApparelQuality>
+        <canBeInherited>True</canBeInherited>
+        <seniority>550</seniority>
+        <favorCost>180</favorCost>
+        <commonality>0.1</commonality>
+        <permitPointsAwarded>2</permitPointsAwarded>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <grantedAbilities>
+            <li>Speech</li>
+        </grantedAbilities>
+        <speechCooldown>640000</speechCooldown>
+        <awardThought>OA_RK_GainedTitle_B</awardThought>
+        <disabledWorkTags>
+            <li>ManualDumb</li>
+            <li>Mining</li>
+            <li>ManualSkilled</li>
+        </disabledWorkTags>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>RoyalTier7</li>
+                    <li>Royal</li>
+                </requiredTags>
+                <allowedTags>
+                    <li>PrestigeCombatGear</li>
+                    <li>Psychic</li>
+                    <li>Mechlord</li>
+                    <li>Royal</li>
+                </allowedTags>
+            </li>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>UpperHead</li>
+                    <li>FullHead</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>RoyalTier7</li>
+                    <li>Royal</li>
+                </requiredTags>
+                <allowedTags>
+                    <li>PrestigeCombatGear</li>
+                    <li>Psychic</li>
+                    <li>Mechlord</li>
+                    <li>Royal</li>
+                </allowedTags>
+            </li>
+        </requiredApparel>
+        <throneRoomRequirements>
+            <li Class="RoomRequirement_HasAssignedThroneAnyOf">
+                <things>
+                    <li>GrandThrone</li>
+					<li MayRequire="OskarPotocki.VFE.Empire">VFEE_StellicThrone</li>
+                </things>
+            </li>
+            <li Class="RoomRequirement_Area">
+                <area>95</area>
+            </li>
+            <li Class="RoomRequirement_Impressiveness">
+                <impressiveness>140</impressiveness>
+            </li>
+            <li Class="RoomRequirement_TerrainWithTags">
+                <labelKey>RoomRequirementAllFineFloored</labelKey>
+                <tags>
+                    <li>Floor</li>
+                    <li>FineFloor</li>
+                </tags>
+            </li>
+            <li Class="RoomRequirement_ThingAnyOfCount">
+				<things>
+					<li>Column</li>
+					<li>OA_RK_Zhuzi_C</li>
+					<li>OA_RK_Zhuzi</li>
+					<li>OA_RK_Zhuzi_New</li>
+				</things>
+                <count>6</count>
+            </li>
+            <li Class="RoomRequirement_ThingCount">
+                <thingDef>Drape</thingDef>
+                <count>6</count>
+            </li>
+            <li Class="RoomRequirement_Thing">
+                <thingDef>Piano</thingDef>
+            </li>
+            <li Class="RoomRequirement_ForbiddenBuildings">
+                <labelKey>RoomRequirementNoProductionFacilities</labelKey>
+                <buildingTags>
+                    <li>Production</li>
+                </buildingTags>
+            </li>
+            <li Class="RoomRequirement_ForbiddenBuildings">
+                <labelKey>RoomRequirementNoBeds</labelKey>
+                <buildingTags>
+                    <li>Bed</li>
+                </buildingTags>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Ideology" Class="RoomRequirement_ForbidAltars">
+                <labelKey>RoomRequirementNoAltars</labelKey>
+            </li>
+            <li Class="RoomRequirement_ForbiddenBuildings" MayRequire="Ludeon.RimWorld.Biotech">
+                <labelKey>RoomRequirementNoBiotechBuildings</labelKey>
+                <buildingTags>
+                    <li>Biotech</li>
+                </buildingTags>
+            </li>
+        </throneRoomRequirements>
+        <bedroomRequirements>
+            <li Class="RoomRequirement_Area">
+                <area>32</area>
+            </li>
+            <li Class="RoomRequirement_Impressiveness">
+                <impressiveness>90</impressiveness>
+            </li>
+            <li Class="RoomRequirement_TerrainWithTags">
+                <labelKey>RoomRequirementAllFloored</labelKey>
+                <tags>
+                    <li>FineFloor</li>
+                </tags>
+            </li>
+            <li Class="RoomRequirement_ThingAnyOf">
+                <disablingPrecepts>
+                    <li MayRequire="Ludeon.RimWorld.Ideology">SlabBed_Preferred</li>
+                </disablingPrecepts>
+                <things>
+                    <li>DoubleBed</li>
+                    <li>RoyalBed</li>
+					<li MayRequire="VanillaExpanded.VFECore">Bed_Kingsize</li>
+					<li MayRequire="VanillaExpanded.VFESpacer">Bed_AdvDoubleBed</li>
+					<li MayRequire="mingtuwuxiang.GothicDecorative">MUS_Gothicstyle_DoubleBed</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">DeathrestCasket</li>
+                </things>
+            </li>
+		    <li Class="RoomRequirement_ThingAnyOf">
+                <things>
+                    <li>EndTable</li>
+					<li MayRequire="VanillaExpanded.VFESpacer">Table_IlluminatedEndTable</li>
+					<li MayRequire="VanillaExpanded.VFECore">Table_LightEndTable</li>
+					<li MayRequire="VanillaExpanded.VFECore">Table_RoyalEndTable</li>
+                </things>
+            </li>
+			<li Class="RoomRequirement_ThingAnyOf">
+                <things>
+                    <li>Dresser</li>
+					<li MayRequire="VanillaExpanded.VFESpacer">Table_IlluminatedDresser</li>
+					<li MayRequire="VanillaExpanded.VFECore">Table_RoyalDresser</li>
+                </things>
+            </li>
+            <li Class="RoomRequirement_ThingCount">
+                <thingDef>Drape</thingDef>
+                <count>1</count>
+            </li>
+            <li Class="RoomRequirement_ForbiddenBuildings">
+                <labelKey>RoomRequirementNoProductionFacilities</labelKey>
+                <buildingTags>
+                    <li>Production</li>
+                </buildingTags>
+            </li>
+            <li Class="RoomRequirement_ForbiddenBuildings" MayRequire="Ludeon.RimWorld.Biotech">
+                <labelKey>RoomRequirementNoBiotechBuildings</labelKey>
+                <buildingTags>
+                    <li>Biotech</li>
+                </buildingTags>
+            </li>
+        </bedroomRequirements>
+        <foodRequirement>
+            <minQuality>MealFine</minQuality>
+            <allowedTypes>Processed, Liquor</allowedTypes>
+            <allowedDefs>
+                <li>Ambrosia</li>
+                <li>Milk</li>
+                <li>RawBerries</li>
+            </allowedDefs>
+        </foodRequirement>
+    </RoyalTitleDef>
+    <!--玩家不应该接触到的部分。话说这玩意怎么改成无法继承的？-->
+    <RoyalTitleDef ParentName="BaseOARKTitle">
+        <defName>OA_RK_Title_F</defName>
+        <label>Inner Hochadel</label>
+        <description>The Inner Hochadel was the sixth level of the Oberonia Aurea aristocratic system, as well as the high-ranking aristocrats who had access to the core of the Oberonia Aurea Empire. All Inner Hochadel Clans have a blood lineage with the Imperial Family. \n\nUnlike other local nobles, most Inner Hochadel are not in charge of managing specific planets, but rather act as an extension of the Imperial Family, going to represent the Imperial Family to conduct diplomacy, or to patrol and administer some of the planets. Some Inner Hochadel that are recognized by the Imperial Family, are allowed to participate in the core decision-making of the Oberonia Aurea Empire. \n\n On the home planet of the Oberonia Aurea Empire, the Inner Hochadel were allowed free access to all areas except the core court, while the total number of Inner Hochadel would not increase in any way.</description>
+        <minExpectation>Noble</minExpectation>
+        <changeHeirQuestPoints>30000</changeHeirQuestPoints>
+        <recruitmentResistanceOffset>600</recruitmentResistanceOffset>
+        <requiredMinimumApparelQuality>Good</requiredMinimumApparelQuality>
+        <seniority>650</seniority>
+        <commonality>0.03</commonality>
+        <permitPointsAwarded>3</permitPointsAwarded>
+        <allowDignifiedMeditationFocus>True</allowDignifiedMeditationFocus>
+        <canBeInherited>False</canBeInherited>
+        <grantedAbilities>
+            <li>Speech</li>
+        </grantedAbilities>
+        <speechCooldown>400000</speechCooldown>
+        <awardThought>OA_RK_GainedTitle_B</awardThought>
+        <disabledWorkTags>
+            <li>ManualDumb</li>
+            <li>Mining</li>
+            <li>ManualSkilled</li>
+        </disabledWorkTags>
+        <requiredApparel>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>Torso</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>RoyalTier8</li>
+                </requiredTags>
+                <allowedTags>
+                </allowedTags>
+            </li>
+            <li>
+                <bodyPartGroupsMatchAny>
+                    <li>UpperHead</li>
+                    <li>FullHead</li>
+                </bodyPartGroupsMatchAny>
+                <requiredTags>
+                    <li>RoyalTier8</li>
+                </requiredTags>
+                <allowedTags>
+                </allowedTags>
+            </li>
+        </requiredApparel>
+        <throneRoomRequirements>
+            <li Class="RoomRequirement_HasAssignedThroneAnyOf">
+                <things>
+                    <li>GrandThrone</li>
+					<li MayRequire="OskarPotocki.VFE.Empire">VFEE_StellicThrone</li>
+                </things>
+            </li>
+            <li Class="RoomRequirement_Area">
+                <area>140</area>
+            </li>
+            <li Class="RoomRequirement_Impressiveness">
+                <impressiveness>190</impressiveness>
+            </li>
+            <li Class="RoomRequirement_TerrainWithTags">
+                <labelKey>RoomRequirementAllFineFloored</labelKey>
+                <tags>
+                    <li>FineFloor</li>
+                </tags>
+            </li>
+            <li Class="RoomRequirement_ThingAnyOfCount">
+				<things>
+					<li>Column</li>
+					<li>OA_RK_Zhuzi_C</li>
+					<li>OA_RK_Zhuzi</li>
+					<li>OA_RK_Zhuzi_New</li>
+				</things>
+                <count>12</count>
+            </li>
+            <li Class="RoomRequirement_ThingCount">
+                <thingDef>Drape</thingDef>
+                <count>12</count>
+            </li>
+            <li Class="RoomRequirement_ThingCount">
+                <thingDef>Piano</thingDef>
+                <count>2</count>
+            </li>
+            <li Class="RoomRequirement_ForbiddenBuildings">
+                <labelKey>RoomRequirementNoProductionFacilities</labelKey>
+                <buildingTags>
+                    <li>Production</li>
+                </buildingTags>
+            </li>
+            <li Class="RoomRequirement_ForbiddenBuildings">
+                <labelKey>RoomRequirementNoBeds</labelKey>
+                <buildingTags>
+                    <li>Bed</li>
+                </buildingTags>
+            </li>
+            <li MayRequire="Ludeon.RimWorld.Ideology" Class="RoomRequirement_ForbidAltars">
+                <labelKey>RoomRequirementNoAltars</labelKey>
+            </li>
+            <li Class="RoomRequirement_ForbiddenBuildings" MayRequire="Ludeon.RimWorld.Biotech">
+                <labelKey>RoomRequirementNoBiotechBuildings</labelKey>
+                <buildingTags>
+                    <li>Biotech</li>
+                </buildingTags>
+            </li>
+        </throneRoomRequirements>
+        <bedroomRequirements>
+            <li Class="RoomRequirement_Area">
+                <area>52</area>
+            </li>
+            <li Class="RoomRequirement_Impressiveness">
+                <impressiveness>140</impressiveness>
+            </li>
+            <li Class="RoomRequirement_TerrainWithTags">
+                <labelKey>RoomRequirementAllFloored</labelKey>
+                <tags>
+                    <li>FineFloor</li>
+                </tags>
+            </li>
+            <li Class="RoomRequirement_ThingAnyOf">
+                <disablingPrecepts>
+                    <li MayRequire="Ludeon.RimWorld.Ideology">SlabBed_Preferred</li>
+                </disablingPrecepts>
+                <things>
+                    <li>RoyalBed</li>
+					<li MayRequire="VanillaExpanded.VFESpacer">Bed_AdvDoubleBed</li>
+					<li MayRequire="VanillaExpanded.VFECore">Bed_Kingsize</li>
+					<li MayRequire="mingtuwuxiang.GothicDecorative">MUS_Gothicstyle_DoubleBed</li>
+                    <li MayRequire="Ludeon.RimWorld.Biotech">DeathrestCasket</li>
+                </things>
+            </li>
+		    <li Class="RoomRequirement_ThingAnyOf">
+                <things>
+                    <li>EndTable</li>
+					<li MayRequire="VanillaExpanded.VFESpacer">Table_IlluminatedEndTable</li>
+					<li MayRequire="VanillaExpanded.VFECore">Table_LightEndTable</li>
+					<li MayRequire="VanillaExpanded.VFECore">Table_RoyalEndTable</li>
+                </things>
+            </li>
+			<li Class="RoomRequirement_ThingAnyOfCount">
+                <things>
+                    <li>Dresser</li>
+					<li MayRequire="VanillaExpanded.VFESpacer">Table_IlluminatedDresser</li>
+					<li MayRequire="VanillaExpanded.VFECore">Table_RoyalDresser</li>
+                </things>
+				<count>3</count>
+            </li>
+            <li Class="RoomRequirement_ThingCount">
+                <thingDef>Drape</thingDef>
+                <count>4</count>
+            </li>
+            <li Class="RoomRequirement_ForbiddenBuildings">
+                <labelKey>RoomRequirementNoProductionFacilities</labelKey>
+                <buildingTags>
+                    <li>Production</li>
+                </buildingTags>
+            </li>
+            <li Class="RoomRequirement_ForbiddenBuildings" MayRequire="Ludeon.RimWorld.Biotech">
+                <labelKey>RoomRequirementNoBiotechBuildings</labelKey>
+                <buildingTags>
+                    <li>Biotech</li>
+                </buildingTags>
+            </li>
+        </bedroomRequirements>
+        <foodRequirement>
+            <minQuality>MealFine</minQuality>
+            <allowedTypes>Processed, Liquor</allowedTypes>
+            <allowedDefs>
+                <li>Ambrosia</li>
+                <li>Milk</li>
+                <li>RawBerries</li>
+            </allowedDefs>
+        </foodRequirement>
+    </RoyalTitleDef>
+
+</Defs>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <!-- 科研峰会 -->
+    <OA_LetterLabelResearchSummit_Disaster>Research Summit: Outsiders</OA_LetterLabelResearchSummit_Disaster>
+    <OA_LetterResearchSummit_Disaster>Unfortunately, compared to those researchers, our attendees seemed too out of place, to the extent that in this conference full of ideological collisions, what our attendees remembered most clearly was that the golden iris cake was delicious.</OA_LetterResearchSummit_Disaster>
+
+    <OA_LetterLabelResearchSummit_Backfire>Research Summit: barely integrated</OA_LetterLabelResearchSummit_Backfire>
+    <OA_LetterResearchSummit_Backfire>Despite your attendees trying their best to understand, they still struggle to integrate into the communication of academic elites.</OA_LetterResearchSummit_Backfire>
+
+    <OA_LetterLabelResearchSummit_Flounder>Research Summit: Harmonious Talks</OA_LetterLabelResearchSummit_Flounder>
+    <OA_LetterResearchSummit_Flounder>Your attendees actively participated in academic discussions and gained considerable knowledge from them.</OA_LetterResearchSummit_Flounder>
+
+    <OA_LetterLabelResearchSummit_Normal>Research Summit: Like a Fish in Water</OA_LetterLabelResearchSummit_Normal>
+    <OA_LetterResearchSummit_Normal>Your attendees are at ease in this meeting, and they can participate in any type of discussion and fully communicate with others.</OA_LetterResearchSummit_Normal>
+
+    <OA_LetterLabelResearchSummit_Success>Research Summit: No Less Popular</OA_LetterLabelResearchSummit_Success>
+    <OA_LetterResearchSummit_Success>Your attendees have gained a considerable amount of attention at this meeting, and many difficult problems can be solved within a short period of time when they reach their hands. This has even caused people who want to communicate with them to queue up</OA_LetterResearchSummit_Success>
+
+    <OA_LetterLabelResearchSummit_Triumph>Research Summit: Intelligence Approaches Demons</OA_LetterLabelResearchSummit_Triumph>
+    <OA_LetterResearchSummit_Triumph>The level of intelligence of your attendees has almost caused a dimensionality reduction blow to them. The difficulties in the eyes of others are as simple as children's arithmetic to him, and the control knowledge they possess is often inadvertently used by your attendees, so that later attendees have to avoid your participants, even though they really want his guidance.</OA_LetterResearchSummit_Triumph>
+
+    <OA_ResearchProgressChange>{0}Progress increase{1}</OA_ResearchProgressChange>
+    <OA_ResearchSummitIntellectualXPGain>Your researcher, {PAWN_labelShort}, obtained {1} social experience value。</OA_ResearchSummitIntellectualXPGain>
+
+    <!-- 科研峰会 附属事件 -->
+    <OA_LetterLabelResearchSummitSamePeopleJoin>Research Summit: Same People</OA_LetterLabelResearchSummitSamePeopleJoin>
+    <OA_LetterResearchSummitSamePeopleJoin>During this summit, while other attendees were engaged in heated arguments or exchanges, your attendees were also engaged in intense interaction with the flower cakes on the table. And in this silent conflict with Huagao, your attendees unexpectedly discovered a fellow member of the same path who was just making up numbers to eat and drink - {PAWN_labelShort}. \nAfter a friendly exchange and mutual recognition, your attendees learned that {PAWN_labelShort} is currently an homeless person and he is willing to join your group. If you decide to recruit him, he will arrive at your colony on his own within a few days after packing his bags.</OA_LetterResearchSummitSamePeopleJoin>
+
+    <OA_LetterLabelResearchSummit_Bonus>Research Summit: Additional Gains</OA_LetterLabelResearchSummit_Bonus>
+    <OA_LetterResearchSummit_Bonus>At the end of this summit, your attendees noticed that there were quite a few unopened flower cakes in the nearby restaurant. Adhering to the principle that everything comes, your attendees never know where to find a pocket and keep all these flower cakes in their pockets. As you were about to leave, your attendees also noticed a forgotten novel on the table, so they casually brought it back with them.\n\nReceived: \n金鸢尾兰花糕 × {0} \nnovel：{BOOK_label} × 1</OA_LetterResearchSummit_Bonus>
+
+    <OA_LetterLabelResearchSummit_ResearcherGift>Research Summit: Farewell to Researchers</OA_LetterLabelResearchSummit_ResearcherGift>
+    <OA_LetterResearchSummit_ResearcherGift>At this summit, your attendees had quite a conversation with a researcher from Golden Iris Orchid, going from academic topics to personal hobbies and each other's daily lives. On the final moment of parting, this researcher gifted your attendees a whole box of flower cakes and personally brewed a cup of flower tea for them. At the end of this summit, she told your attendees to make sure to visit her next time they come to {SETLEment_label}. Unfortunately, your attendees didn't realize they had forgotten to ask the researcher's name until they walked out of the venue.\n\nReceived: \n金鸢尾兰花糕 × 10 \n金鸢尾兰花茶 × 1</OA_LetterResearchSummit_ResearcherGift>
+
+    <OA_LetterLabelResearchSummit_ScholarGift>Research Summit: Scholars Gift</OA_LetterLabelResearchSummit_ScholarGift>
+    <OA_LetterResearchSummit_ScholarGift>In this meeting, an influential scholar was impressed by the outstanding knowledge of your attendees and presented you with a gift at the end, hoping to maintain a good relationship with you in the future.</OA_LetterResearchSummit_ScholarGift>
+
+    <OA_LetterLabelResearchSummit_ResearcherSite>Research Summit: Destination</OA_LetterLabelResearchSummit_ResearcherSite>
+    <OA_LetterResearchSummit_ResearcherSite>As the conference drew to a close, your attendees were passing by a small group of scholars and unexpectedly heard them discussing their departure routes and rest points on their way home\nThese scholars will only be triggered after about a day of preparation at the rest point. You can extort from these careless scholars at the end of this summit, or directly plunder them. But be careful, the local Golden Iris Orchid Palace absolutely does not want its guests to encounter danger on their way home.</OA_LetterResearchSummit_ResearcherSite>
+
+    <OA_LetterLabelRobResearcherCamp>Collect protection fees</OA_LetterLabelRobResearcherCamp>
+    <OA_LetterRobResearcherCamp>Your expedition team suddenly appeared in front of this unlucky group of scholars, and threatened them that if they did not pay a certain amount of protection fee, they would encounter extremely terrifying things, and of course, these frightened scholars followed suit.\n\nReceived: \nSliver × {0}\n\nBy the time you had just counted the silver they had delivered, this group of scholars had already fled with their sleeping bags on their backs and disappeared without a trace.</OA_LetterRobResearcherCamp>
+
+    <OA_LetterLabelAttackResearcherCamp>Attacking attending members</OA_LetterLabelAttackResearcherCamp>
+    <OA_LetterAttackResearcherCamp>The local Golden Iris Orchid court was very angry when they learned that you had attacked the members of the scientific research summit and issued a stern warning to you.\n\nRelation to {0}: {2}</OA_LetterAttackResearcherCamp>
+
+    <OA_LetterLabelResearchSummit_ResearcherPeacetalk>Research Summit: Peace Negotiations</OA_LetterLabelResearchSummit_ResearcherPeacetalk>
+    <OA_LetterResearchSummit_ResearcherPeacetalk>At this summit, your attendees demonstrated an unparalleled level of knowledge and successfully won over a large number of scholars from all over the world. Among them, scholars from {0} deeply admire your attendees and feel quite regretful for the hostile positions between you.\nAfter the summit, The envoy from {0} has conveyed an invitation for peace negotiations to you. You learned from the helpless expression of the envoy that after the summit, the scholar had been demanding that {0}'s senior management maintain a good relationship with you, and in this repeated language bombardment, {0}'s senior management ultimately chose to agree and compromise</OA_LetterResearchSummit_ResearcherPeacetalk>
+
+    <OA_LetterLabelAcademicDispute>Research Summit: Appointment</OA_LetterLabelAcademicDispute>
+    <OA_LetterAcademicDispute>In this research summit, two groups of scholars from different factions had a heated argument over the two possibilities of a topic. When your attendees curiously gather to watch, their conflicts have escalated from simple academic conflicts to factional friction, intensifying to irreconcilable levels.\nIn order to ease the conflict and atmosphere of the summit, the attendants of Jin Yuanlan forcefully intervened in the argument between the two sides and calmed them down, hoping to use other relatively mild means to resolve the conflict between them. However, this idea was firmly rejected by the two sides who had become angry during the argument, and almost caused another conflict.\n\nFinally, with the mediation and intervention of Jin Yuanlan, the attendees of both sides agreed to hold a non life-threatening fight at the end of the summit to vent their dissatisfaction with each other and undermine their confidence. \Your attendees have obtained the agreed location for this fight from the attendants present. If you go to observe, it will give everyone a certain level of combat experience.</OA_LetterAcademicDispute>
+    <OA_LetterLabelVisitAcademicDispute>Observation results</OA_LetterLabelVisitAcademicDispute>
+    <OA_LetterVisitAcademicDispute>Although both sides had sufficient fire and put in extra effort during the fight, due to the fact that most of the attendees were inexperienced researchers and the attendants of Jin Yuanlan were always on the side to control order and prevent the scene from getting out of control, this ritualistic fight ultimately became as unprofessional as street fights. \nAs the researchers from both sides of the expedition covered their heads and cursed as they exited, each member of the expedition team gained {0} points of combat experience. In addition, after everyone had left, your expedition team found a money bag belonging to an unknown unlucky person in the nearby grass, and easily took it into their pocket. \n\nReceived: \n Sliver × {1}</OA_LetterVisitAcademicDispute>
+
+    <OA_LetterLabelResearchSummit_EccentricScholar>Scholars near waste</OA_LetterLabelResearchSummit_EccentricScholar>
+    <OA_LetterResearchSummit_EccentricScholar>After the scientific summit, on the way out, your attendees found a scholar worrying about a pile of waste. Perhaps you can go ask him what he wants to do and give him a little help.</OA_LetterResearchSummit_EccentricScholar>
+
+    <OA_ResearchSummit_EccentricScholarText>As you gradually approached, you could hear the scholar muttering incessantly, such as' stupid people who don't understand science 'and' they are the waste \n\nAfter a brief exchange, you barely understood the situation from the scholar's endless complaints - for this scientific research summit, the scholar packed all the equipment in his laboratory and hoped that they could shine at the summit and impress other scholars.\n\nHowever, things never went as planned. The equipment of this scholar not only failed to impress other scholars, but was also referred to as "waste" by them. Even passing transport trucks expressed that "waste is not within the scope of transportation". In the end, this scholar could only stand by the roadside and watch the pile of things worry.\n\n\nIf you can help him move this pile of experimental equipment to his temporary residence, then you will receive the gratitude of this scholar and the compensation he has prepared for you. \If he is really prepared.</OA_ResearchSummit_EccentricScholarText>
+    <OA_ResearchSummit_EccentricScholarConfirm>Help this scholar (cost {0})</OA_ResearchSummit_EccentricScholarConfirm>
+    <OA_ResearchSummit_EccentricScholarIngore>Ignore this seemingly unreliable guy</OA_ResearchSummit_EccentricScholarIngore>
+
+    <OA_ResearchSummit_EccentricScholarWorking>Assisting in transportation</OA_ResearchSummit_EccentricScholarWorking>
+    <OA_FixedCaravanRSEccentricScholar_TimeLeft>Assisting in the transportation of equipment, the remaining {0}</OA_FixedCaravanRSEccentricScholar_TimeLeft>
+
+    <OA_ResearchSummit_EccentricScholarFinish>After putting in a lot of effort, your {0} finally moved those strange shaped devices to the scholar's temporary residence. And in order to express his gratitude to you, this scholar spent three to four hours introducing the functions of these machines to you. If it weren't for your {0} taking advantage of his inattention and gradually moving to the door and eventually snatching it away, it can be imagined that this scholar would have been talking non-stop.\n\nIn addition, although your {0} was very careful, a considerable number of devices that seemed to be on the verge of falling apart unexpectedly ended up falling apart. And while the scholar was grieving, your {0} quietly picked up some of the seemingly useful parts and successfully put them into your waist bag. \n\nObtain: {1} components, {2} steel, and all participants gain {3} points of intellectual experience.</OA_ResearchSummit_EccentricScholarFinish>
+
+</LanguageData>

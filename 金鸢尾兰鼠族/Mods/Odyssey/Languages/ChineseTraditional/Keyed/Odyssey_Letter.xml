@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OARK_LetterLabel_EnterCrashedGravship>金鳶尾蘭的數據鏈接</OARK_LetterLabel_EnterCrashedGravship>
+    <OARK_Letter_EnterCrashedGravship>為了幫助你更好的獲取信息，金鳶尾蘭的技術部已對飛船信息庫進行遠距離鎖定。\n這將會避免你在駭入途中觸發信息庫的自我格式化，同時也會在你獲得更多權限後，幫助你判斷飛船的具體來源。</OARK_Letter_EnterCrashedGravship>
+
+    <OARK_LetterLabel_NormalPilot>飛船來源：常規</OARK_LetterLabel_NormalPilot>
+    <OARK_Letter_NormalPilot>技術部已經從你所駭入的數據中幫助你確定了這艘落難飛船的所屬：這是一個小規模的太空勢力，你可以放心駭入，而無需擔心遭到報復襲擊。</OARK_Letter_NormalPilot>
+
+    <OARK_LetterLabel_NotNormalPilot>飛船來源：海盜</OARK_LetterLabel_NotNormalPilot>
+    <OARK_Letter_NotNormalPilot>技術部已經從你所駭入的數據中幫助你確定了這艘落難飛船的所屬：這是那夥太空海盜的艦船，而且根據信息庫中的最後通訊來看，已經有一夥海盜正在向著此地進發。\n\n你可以選擇繼續駭入，但這可能導致你與海盜的正面沖突。而如果你選擇放棄，那麽你將失去已駭入的所有進度。</OARK_Letter_NotNormalPilot>
+
+    <OARK_LetterLabel_BrokenPilotAttack>海盜的臨近</OARK_LetterLabel_BrokenPilotAttack>
+    <OARK_Letter_BrokenPilotAttack>技術部向你轉達了一個消息：一群與該飛船數據信號類似的單位正在接近此地，他們極有可能就是前來回收飛船的海盜。如果你選擇繼續駭入，那麽你與這夥海盜之間的沖突將不可避免。\n\n按照當前的信號移動速度來推測，他們將會在1小時後抵達此地。</OARK_Letter_BrokenPilotAttack>
+
+    <OARK_LetterLabel_BrokenPilotRequest>數據獲取請求</OARK_LetterLabel_BrokenPilotRequest>
+    <OARK_Letter_BrokenPilotRequest>當地的金鳶尾蘭宮廷向你發出了一份正式的數據移交請求。\n\n他們希望能夠使用你已取得的權限，來攻破飛船的數據核心。如果你同意移交權限，那麽當地宮廷將調取飛船的航行記錄以尋找可能的受害者，確定區域的失蹤者名單並追蹤定位海盜港的具體位置，然而這樣直接的信息獲取將觸發飛船信息庫的自我格式化，並使得其他的所有數據遭到刪除。\n而作為補償，當地宮廷將會為你投放一定數量的白銀，並提升你的帝國貢獻以彌補你的損失並表彰你的卓越貢獻。\n\n這並非一個強製性的要求，如果拒絕也不會導致任何損失。</OARK_Letter_BrokenPilotRequest>
+
+    <OARK_LetterLabel_CrashedGravshipFollowUp>遙遠的煙花</OARK_LetterLabel_CrashedGravshipFollowUp>
+    <OARK_Letter_CrashedGravshipFollowUp>得益於你之前駭入海盜艦船時所提供的情報，金鳶尾蘭的空港護衛艦隊聯合了商幫艦隊，就在剛剛成功徹底摧毀了一個隱藏頗深的海盜劫掠港，這讓飽受海盜困擾的商幫對你極為滿意，連帶著本就對你富有好感的金鳶尾蘭帝國對你的印象也再次好了幾分。\n\n盡管距離較遠，但你依然可以看到那遙遠的地方炸出來的一片片火光以及飛濺的空間站碎片，大概沒有是能比這場煙花更加賞心悅目的了。</OARK_Letter_CrashedGravshipFollowUp>
+
+    <OARK_LetterLabel_BrokenPilotHacked>信息庫駭入完成</OARK_LetterLabel_BrokenPilotHacked>
+    <OARK_Letter_BrokenPilotHacked_NoProjectProgress>你的殖民者完成了對飛船信息庫的駭入，但可惜的是並沒有找到任何有意義的數據。</OARK_Letter_BrokenPilotHacked_NoProjectProgress>
+    <OARK_Letter_BrokenPilotHacked>你的殖民者完成了對飛船信息庫的駭入，並成功收集到了大量有用的數據信息。</OARK_Letter_BrokenPilotHacked>
+
+    <!-- 友好事件-->
+    <OARK_LetterLabel_ScienceDepartmentFriendly>科研部的通訊</OARK_LetterLabel_ScienceDepartmentFriendly>
+    <OARK_Letter_ScienceDepartmentFriendly>得益於上一次你所提供的逆重引擎起降數據，科研部對逆重科技的反推研究得到了突破性的進展。盡管仍然有大量科研員仍沈迷於更進一步的研究探索，但無論怎麽說科研部也是難得的全面放松了起來。\n\n而作為重要的逆重數據提供者，科研官們並未將你的貢獻視作理所應當，而是希望對你進行回報以表達對你的認可與謝意。於是他們向你發出了一份供應清單，以回報你的勇氣，對科技的探索，以及你與鳶尾蘭的友誼。\n\n你可以向他們提出以下的要求：</OARK_Letter_ScienceDepartmentFriendly>
+    <OARK_ScienceDepartmentFriendly_I>我們希望能夠讓我們的一位成員得到更多知識。</OARK_ScienceDepartmentFriendly_I>
+    <OARK_ScienceDepartmentFriendly_II>我們需要一些零部件來保證飛船運轉。</OARK_ScienceDepartmentFriendly_II>
+    <OARK_ScienceDepartmentFriendly_III>我們希望能夠得到一些金鳶尾蘭帝國的特產。</OARK_ScienceDepartmentFriendly_III>
+    <OARK_ScienceDepartmentFriendly_IV>我們希望能夠在航行途中得到停駐金鳶尾蘭空港的許可。</OARK_ScienceDepartmentFriendly_IV>
+    <OARK_ScienceDepartmentFriendly_V>我們希望能夠得到更多的科研藍圖。</OARK_ScienceDepartmentFriendly_V>
+
+    <!--OARK_ScienceDepartmentFriendly_I>我們的一位成員希望能夠得到更多的知識與見解。</OARK_ScienceDepartmentFriendly_I>
+    <OARK_ScienceDepartmentFriendly_II>我們可能需要一些能夠讓我們飛船運轉流暢的零部件。</OARK_ScienceDepartmentFriendly_II>
+    <OARK_ScienceDepartmentFriendly_III>友誼不應明碼標價，但一些象征性的特產將會讓我們彼此更加親近。</OARK_ScienceDepartmentFriendly_III>
+    <OARK_ScienceDepartmentFriendly_IV>我們希望能夠在飛行期間停駐鳶尾蘭的補給港口並進行休整，來讓我們能夠更加自由的探索世界。</OARK_ScienceDepartmentFriendly_IV>
+    <OARK_ScienceDepartmentFriendly_V>我想我們應當共同推進科技的進步與發展，而不受藍圖所拘束。</OARK_ScienceDepartmentFriendly_V-->
+    <OARK_ScienceDepartmentFriendly_Default>不，為科研的獻身並非利益能明碼標價，而真摯的友誼也不是目的明確的交易</OARK_ScienceDepartmentFriendly_Default>
+
+    <OARK_LetterLabel_GravResearchExchange>穿梭機抵達</OARK_LetterLabel_GravResearchExchange>
+    <OARK_Letter_GravResearchExchange>科研官在稍微思考後便直接同意了你的請求。\n\n在通訊中他表示，最高效的知識教授是教授思考的方式，因此他為你的一位殖民者安排好了一次徹底的科研部實地參觀流程。當你的殖民者做好準備後，便可以通過穿梭機前來造訪，科研部將會熱情的接待你的殖民者。</OARK_Letter_GravResearchExchange>
+
+</LanguageData>

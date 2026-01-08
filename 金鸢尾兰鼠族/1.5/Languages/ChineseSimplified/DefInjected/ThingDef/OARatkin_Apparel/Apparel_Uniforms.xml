@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OA_RK_Professional_Uniforms_A.label>金鸢尾兰自清洁服</OA_RK_Professional_Uniforms_A.label>
+    <OA_RK_Professional_Uniforms_A.description>采用了先进的自清洁面料制成的服装，可以有效的保持表面洁净，同时小马甲的存在令其本身多了一丝活力感，金鸢尾兰的实验人员大多数都喜欢穿着这种衣服。</OA_RK_Professional_Uniforms_A.description>
+
+    <OA_RK_Professional_Uniforms_B.label>金鸢尾兰祭服</OA_RK_Professional_Uniforms_B.label>
+    <OA_RK_Professional_Uniforms_B.description>金鸢尾兰鼠族在庆祝大型节日时穿戴的礼仪服饰，质地轻柔，做工精美，带给人一种贵不可及的感觉。</OA_RK_Professional_Uniforms_B.description>
+
+    <OA_RK_Professional_Uniforms_C.label>金鸢尾兰宫廷制服</OA_RK_Professional_Uniforms_C.label>
+    <OA_RK_Professional_Uniforms_C.description>金鸢尾兰宫廷统一的制服。制作精美而工艺繁琐，紧实的布料与护腰可以提供不俗的保护能力。</OA_RK_Professional_Uniforms_C.description>
+
+    <!-- Uniform D 是突袭作战制服，在Apparel_Armor中 -->
+
+    <OA_RK_Professional_Uniforms_E.label>金鸢尾兰研究服</OA_RK_Professional_Uniforms_E.label>
+    <OA_RK_Professional_Uniforms_E.description>采用了自清洁面料制作的服饰，表面整洁美观。腰侧挂有便携式分析与合成仪，能够随时随地进行最新的科研构想实验。</OA_RK_Professional_Uniforms_E.description>
+
+
+    <!-- New Uniforms -->
+
+    <OA_RK_New_Professional_Uniforms_A.label>金鸢尾兰工业制服</OA_RK_New_Professional_Uniforms_A.label>
+    <OA_RK_New_Professional_Uniforms_A.description>金鸢尾兰宫廷的工业部所采用的制式制服，安全带能够有效的防止施工作业时的跌落风险，常备的通讯器与工具包能够轻度的提升工作效率。</OA_RK_New_Professional_Uniforms_A.description>
+
+    <OA_RK_New_Professional_Uniforms_B.label>金鸢尾兰技术制服</OA_RK_New_Professional_Uniforms_B.label>
+    <OA_RK_New_Professional_Uniforms_B.description>金鸢尾兰宫廷的技术部所采用的制式制服，厚重的裙压具有一定的保护与隔热性能，腰带上的技术工具可以为技术工作提供一定的支持。</OA_RK_New_Professional_Uniforms_B.description>
+
+    <OA_RK_New_Professional_Uniforms_C.label>金鸢尾兰技术官制服</OA_RK_New_Professional_Uniforms_C.label>
+    <OA_RK_New_Professional_Uniforms_C.description>金鸢尾兰宫廷为技术官所定制的制服，相比起正常的技术部制服有着更加复杂的制作流程。此外，为了方便技术官对所属人员的管理，该制服着重强化了通讯与管理能力。\n\n处于穿戴者15格内的单位会获得工作速度的提升。</OA_RK_New_Professional_Uniforms_C.description>
+
+</LanguageData>

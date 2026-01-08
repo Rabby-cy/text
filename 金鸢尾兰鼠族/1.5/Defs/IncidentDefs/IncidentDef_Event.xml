@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<IncidentDef>
+		<defName>OA_RK_SupplyShipShowConcern</defName>
+		<label>Supply ship show Concern</label>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>OberoniaAurea.IncidentWorker_OASupplyShipShowConcern</workerClass>
+		<category>FactionArrival</category>
+		<baseChance>0</baseChance>		<!-- given by a special storyteller comp -->
+		<requireColonistsPresent>True</requireColonistsPresent>
+	</IncidentDef>
+
+	<IncidentDef>
+		<defName>OARatkin_NewYearEvent</defName>
+		<label>元旦慰问</label>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>OberoniaAurea.IncidentWorker_NewYearEvent</workerClass>
+		<category>Misc</category>
+		<baseChance>0</baseChance>		<!-- given by a special storyteller comp -->
+		<requireColonistsPresent>True</requireColonistsPresent>
+	</IncidentDef>
+
+	<IncidentDef>
+		<defName>OARK_ProspectingTeamPassby</defName>
+		<label>路过的勘探队</label>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>OberoniaAurea.IncidentWorker_ProspectingTeam</workerClass>
+		<category>FactionArrival</category>
+		<baseChance>0</baseChance>		<!-- given by a special storyteller comp -->
+		<requireColonistsPresent>True</requireColonistsPresent>
+	</IncidentDef>
+
+</Defs>

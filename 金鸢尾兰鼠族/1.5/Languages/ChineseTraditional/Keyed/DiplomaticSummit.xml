@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <!-- 派系基地：利益談判 -->
+    <OA_FixedCaravanDipSummit_TimeLeft>正在與當地宮廷進行談判中，剩余{0}</OA_FixedCaravanDipSummit_TimeLeft>
+
+    <OA_SettlementDiplomaticSummit>利益談判</OA_SettlementDiplomaticSummit>
+    <OA_ConfirmDiplomaticSummit>妳的談判者將與 {SETTLEMENT_label} 的宮廷高層進行壹場預期兩小時且難度較高的談判，若妳成功那麽將會獲得更多的援助，但若是妳失敗或者中途離場，則妳將與當地宮廷關系發生壹定的惡化，是否確認？</OA_ConfirmDiplomaticSummit>
+
+    <OA_ConfirmDiplomaticSummitInfo>在妳的談判者經過深思熟慮後，妳向 {SETTLEMENT_label} 的宮廷正式提出了要求更多的援助，並且爲此進行壹場外交談判以確定最終結果。在妳的強勢要求下，金鸢尾蘭宮廷最終同意了妳的要求，並且爲妳們專門布置了壹間談判會議室。</OA_ConfirmDiplomaticSummitInfo>
+
+    <OA_DiplomaticSummitNegotiatingTeamLevelBeginner>......\n\n當妳步入會議室時，妳觀察到相比起客場談判的妳，妳的對手明顯更爲緊張壹些。而當談判剛開始時，她們便因爲緊張而出現了壹些話術上的失誤，也許這場會議將會對妳更加有利。</OA_DiplomaticSummitNegotiatingTeamLevelBeginner>
+
+    <OA_DiplomaticSummitNegotiatingTeamLevelStandard>......\n\n當妳步入會議室時，妳觀察到妳的對手似乎對即將到來的談判做了充分的准備，她們彼此小聲議論著，似乎正在討論著相關的話術，也許這場會議將會是壹場勢均力敵的談判</OA_DiplomaticSummitNegotiatingTeamLevelStandard>
+
+    <OA_DiplomaticSummitNegotiatingTeamLevelSophistication>......\n\n當妳步入會議室時，妳觀察到妳的對手似乎胸有成竹。當她們禮貌的向妳問候的時候，妳注意到她們的桌前早已擺上了妳們的相關資料，也許這場會議將會是壹場艱難的談判。</OA_DiplomaticSummitNegotiatingTeamLevelSophistication>
+
+    <OA_DiplomaticSummitNegotiatingTeamLevelExcellence>......\n\n當妳步入會議室時，妳完全無法看出妳的對手對于這場談判的心態，她們那和藹的微笑下隱藏的是深不見底的謀略，妳能感到妳的壹言壹行仿佛都在她們的觀察之中。也許這場會議將會是壹場壹邊倒的談判。</OA_DiplomaticSummitNegotiatingTeamLevelExcellence>
+
+    <OA_LetterLabelDiplomaticSummit_LeaveHalfway>利益談判：中途離開</OA_LetterLabelDiplomaticSummit_LeaveHalfway>
+    <OA_LetterDiplomaticSummit_LeaveHalfway>在談判進行的時候，妳的談判者以壹些拙劣的理由作爲借口，離開了談判會議室，並且再也沒有回去。\n\n與{1}的好感度：{2}</OA_LetterDiplomaticSummit_LeaveHalfway>
+
+    <OA_LetterLabelDiplomaticSummit_Disaster>利益談判：慘痛的失敗 </OA_LetterLabelDiplomaticSummit_Disaster>
+    <OA_LetterDiplomaticSummit_Disaster>盡管妳的談判者多次嘗試挽回局面，但妳的對手卻毫不留情的進行壹次又壹次的追擊，以至于最後甚至演變成了對妳的不合理要求的單方面無情批判。在這場談判收尾時，結局已經相當的明朗： \n\n妳的大多數要求都被 {SETTLEMENT_label} 的宮廷有理有據的駁回，而少部分過分的要求則被視爲對{1}的侮辱與對妳們的同盟關系的不尊重，並且最終導致了 {SETTLEMENT_label} 的宮廷對妳們觀感大爲惡化。 \n\n與{1}的好感度：{2}\n\n接下來{3}天內支援點數不會自然增長。</OA_LetterDiplomaticSummit_Disaster>
+
+    <OA_LetterLabelDiplomaticSummit_Flounder>利益談判：微小的失敗</OA_LetterLabelDiplomaticSummit_Flounder>
+    <OA_LetterDiplomaticSummit_Flounder>雖然在部分談判事項中妳的談判者將局面引向了對妳有利的壹面，但在大多數的事項裏，妳們還是被反駁的啞口無言，並只得讓步妥協。最終，在這場談判收尾時，妳的談判者爲妳爭取到了以下局面： \n\n妳的極少數要求爲 {SETTLEMENT_label} 的宮廷所接納，但絕大多數的要求還是被 {SETTLEMENT_label} 的宮廷所拒絕。此外，盡管妳的談判者盡量讓妳的要求顯得合乎情理，但 {SETTLEMENT_label}的宮廷還是對妳們留下了壹個不好的印象。 \n\n與{1}的好感度：{2} \n獲得： \n支援點數 × {3}</OA_LetterDiplomaticSummit_Flounder>
+
+    <OA_LetterLabelDiplomaticSummit_Success>利益談判：微小的成功</OA_LetterLabelDiplomaticSummit_Success>
+    <OA_LetterDiplomaticSummit_Success>在這場談判中，妳與妳的對手都不斷的向彼此進行著質詢與反駁，來盡可能的爲彼此的派系謀取最大的利益。當這場言語與智識的激烈爭鋒結束後，妳的談判者爲妳贏得了以下結果： \n\n{SETTLEMENT_label} 的宮廷同意了妳的部分要求，並且認爲妳的要求合乎情理，而對于妳的談判者提出的少量不合理要求， {SETTLEMENT_label} 的宮廷認爲這些只是壹些談判手段而已，並未影響他們對妳的觀感。\n\n獲得： \n支援點數 × {2}</OA_LetterDiplomaticSummit_Success>
+
+    <OA_LetterLabelDiplomaticSummit_Triumph>利益談判：輝煌的成功</OA_LetterLabelDiplomaticSummit_Triumph>
+    <OA_LetterDiplomaticSummit_Triumph>在這場壹邊倒的談判裏，妳的談判者仿佛能夠洞察人心壹般，總是能夠精准的踩在對方的底線上而不逾越。而當妳的對手向妳的談判者提出質疑時，妳的談判者也只是稍微幾句話便能夠將其化解。最終，妳的對手即便再怎麽絞盡腦汁，也無法對妳的要求進行合理的駁回，這使得妳收獲了以下局面： \n\n{SETTLEMENT_label} 的宮廷幾乎是言聽計從般的同意了妳的絕大多數的要求，並且認爲沒有注意到妳的困難是他們的過失。這使得即便妳的談判者提出了相當過火的條件，她們也只認爲這是妳的談判者在發泄自己的不滿，而沒有過多追究。\n此外，爲了表達她們的歉意，在妳們離開宮廷時，宮廷的侍從們向妳們贈與了壹份禮物，以象征妳們的友好關系。\n\n與{1}的好感度：{2} \n獲得： \n支援點數 × {3} \n白銀 × {4}</OA_LetterDiplomaticSummit_Triumph>
+
+</LanguageData>

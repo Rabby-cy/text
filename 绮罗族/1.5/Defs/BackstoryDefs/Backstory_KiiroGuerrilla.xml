@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <AlienRace.AlienBackstoryDef Name="Kiiro_GuerrillaBackstoryBase" Abstract="True">
+		<requiredWorkTags>
+          <li>Violent</li>
+        </requiredWorkTags>
+		<forcedHediffs>
+		</forcedHediffs> 
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Female</bodyTypeMale>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_GuerrillaBackstoryBase">
+		<defName>Kiiro_BackstorySCS_00</defName>
+		<title>kiiro speical force</title>
+		<titleShort>speical force</titleShort>
+		<description>unknown.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>15</Shooting>
+			<Melee>9</Melee>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_SCS</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_GuerrillaBackstoryBase">
+		<defName>Kiiro_BackstorySCS_01</defName>
+		<title>kiiro speical force</title>
+		<titleShort>speical force</titleShort>
+		<description>unknown.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Melee>15</Melee>
+			<Shooting>9</Shooting>
+		</skillGains>
+		<!--<forcedTraitsChance>
+			<li>
+				<defName>Brawler</defName>
+				<chance>50</chance>
+			</li>
+		</forcedTraitsChance>-->
+		<spawnCategories>
+			<li>Kiiro_SCSMelee</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_GuerrillaBackstoryBase">
+		<defName>Kiiro_BackstoryGuerrilla_01</defName>
+		<title>kiiro guerrilla</title>
+		<titleShort>guerrilla</titleShort>
+		<description>[PAWN_nameDef]'s life used to be so peaceful, until everything was shattered by outsiders. In order to get his life back to the way, [PAWN_nameDef] chose to join the guerrilla.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>5</Shooting>
+			<Melee>2</Melee>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_Guerrilla</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_GuerrillaBackstoryBase">
+		<defName>Kiiro_BackstoryGuerrilla_02</defName>
+		<title>kiiro guerrilla</title>
+		<titleShort>guerrilla</titleShort>
+		<description>[PAWN_nameDef] used to run a flower store, and she would take care of each cluster of flowers, as if they were blooming from her heart. But when she heard that a nearby village had been attacked, [PAWN_nameDef] no longer cared about her flowers.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>4</Shooting>
+			<Melee>1</Melee>
+			<Plants>3</Plants>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_Guerrilla</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_GuerrillaBackstoryBase">
+		<defName>Kiiro_BackstoryGuerrilla_03</defName>
+		<title>kiiro guerrilla</title>
+		<titleShort>guerrilla</titleShort>
+		<description>[PAWN_nameDef] has joined the guerrillas for many years, but before that she was in charge of an entire farmland operation. Whenever she talks to her partners about her past, she always remembers the fire that ignited everything lighted by the attackers.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>3</Shooting>
+			<Plants>3</Plants>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_Guerrilla</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_GuerrillaBackstoryBase">
+		<defName>Kiiro_BackstoryGuerrilla_04</defName>
+		<title>kiiro guerrilla</title>
+		<titleShort>guerrilla</titleShort>
+		<description>The messenger brought news of war in a distant land, and the village of [PAWN_nameDef] was in a state of panic. Although [PAWN_nameDef] did not know much, she knew that if she wanted to cultivate the land without fear, she could only protect the land first. With this in mind, [PAWN_nameDef] joined the guerrilla.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+		    <Shooting>3</Shooting>
+			<Melee>1</Melee>
+			<Plants>4</Plants>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_Guerrilla</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_GuerrillaBackstoryBase">
+		<defName>Kiiro_BackstoryGuerrilla_05</defName>
+		<title>kiiro guerrilla</title>
+		<titleShort>guerrilla</titleShort>
+		<description>The messenger brought news of war in a distant land that caused panic in [PAWN_nameDef]'s village for a while. [PAWN_nameDef] realizes that the life she once had will not return. So, in a last sunset chat, she told everyone about her desire to join the guerrilla.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+		    <Shooting>2</Shooting>
+			<Melee>2</Melee>
+			<Plants>1</Plants>
+			<Social>1</Social>
+			<Animals>1</Animals>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_Guerrilla</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_GuerrillaBackstoryBase">
+		<defName>Kiiro_BackstoryGuerrilla_06</defName>
+		<title>kiiro guerrilla</title>
+		<titleShort>guerrilla</titleShort>
+		<description>[PAWN_nameDef] has been a traveling merchant for many years, nothing has been able to break her, except for the misfortune on her last sale. Thanks to Lady Luck, [PAWN_nameDef] escaped death because she fainted after hitting a rock wall in a panic and was ignored as a corpse. Now [PAWN_nameDef] is a member of the guerrilla team, and her rich experience in traveling business often brings a lot of benefits to the team.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>3</Social>
+			<Shooting>5</Shooting>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_Guerrilla</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_GuerrillaBackstoryBase">
+		<defName>Kiiro_BackstoryGuerrilla_07</defName>
+		<title>kiiro guerrilla</title>
+		<titleShort>guerrilla</titleShort>
+		<description>[PAWN_nameDef] watched the village she helped build go up in smoke, which contained many of her best works. In order to settle down and continue doing what she loves, [PAWN_nameDef] decided to join the guerrillas. After seeing a lot of war, [PAWN_nameDef] began to wonder if she would be better off turning to stonemason: at least stones are not flammable.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+		    <Shooting>4</Shooting>
+			<Melee>2</Melee>
+			<Artistic>1</Artistic>
+			<Construction>2</Construction>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_Guerrilla</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_GuerrillaBackstoryBase">
+		<defName>Kiiro_BackstoryGuerrilla_08</defName>
+		<title>kiiro guerrilla</title>
+		<titleShort>guerrilla</titleShort>
+		<description>[PAWN_nameDef] couldn't figure out why her career as a blacksmith had become so rough: first the outsider skills instead of her job in town, and then the outsiders made the countryside no longer tolerate her little blacksmith store. [PAWN_nameDef] is sure it's all because of those hated outsiders, so she joins the guerrilla in the hope of one day she can beat them all away.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+		    <Shooting>4</Shooting>
+			<Melee>3</Melee>
+			<Crafting>2</Crafting>
+			<Mining>1</Mining>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_Guerrilla</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_GuerrillaBackstoryBase">
+		<defName>Kiiro_BackstoryGuerrilla_09</defName>
+		<title>kiiro guerrilla</title>
+		<titleShort>guerrilla</titleShort>
+		<description>Even after joining the guerrillas, [PAWN_nameDef]'s interest in sewing seemed undiminished: she always took her sewing needles and mended everyone's clothes with gusto during intermissions, just as she used to do.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+		    <Shooting>5</Shooting>
+			<Crafting>2</Crafting>
+			<Artistic>2</Artistic>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_Guerrilla</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_GuerrillaBackstoryBase">
+		<defName>Kiiro_BackstoryGuerrilla_10</defName>
+		<title>kiiro guerrilla</title>
+		<titleShort>guerrilla</titleShort>
+		<description>After thinking about it for a long time and hesitating, [PAWN_nameDef] still mentioned to her master one night that she wanted to stop learning paper art for a while and join the guerrilla. She had expected a harsh criticism, but what she got in the end was a silent promise and a seemingly unspoken sigh. After all these years, whenever [PAWN_nameDef] was in trouble, she would always recalled that night and soft sigh, believing firmly that her master must still be waiting for her to return.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>6</Shooting>
+			<Artistic>3</Artistic>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_Guerrilla</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_GuerrillaBackstoryBase">
+		<defName>Kiiro_BackstoryGuerrilla_11</defName>
+		<title>kiiro guerrilla</title>
+		<titleShort>guerrilla</titleShort>
+		<description>[PAWN_nameDef] joined the guerrilla in order to defend herself against the foreign enemy. She knew that the guerrilla' power was limited and that everything they did might be futile in the end; or even worse. But [PAWN_nameDef] still wanted to do her last duty as a teacher: to protect her students.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+		    <Shooting>5</Shooting>
+			<Social>2</Social>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_Guerrilla</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_GuerrillaBackstoryBase">
+		<defName>Kiiro_BackstoryGuerrilla_12</defName>
+		<title>kiiro guerrilla</title>
+		<titleShort>guerrilla</titleShort>
+		<description>Some people think it's a pity to throw [PAWN_nameDef]'s knowledge onto the battlefield, and have advised [PAWN_nameDef] to go back to school and continue teaching, but [PAWN_nameDef] only said faintly that children need a quiet desk more now, and she will devote herself to the cause of finding such a desk.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Intellectual>2</Intellectual>
+			<Shooting>7</Shooting>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_Guerrilla</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_GuerrillaBackstoryBase">
+		<defName>Kiiro_BackstoryGuerrilla_13</defName>
+		<title>kiiro guerrilla messenger</title>
+		<titleShort>guerrilla messenger</titleShort>
+		<description>[PAWN_nameDef] joined a small group of guerrilla and is responsible for contacting and reporting on the situation nearby. She is always able to locate the nearby group very quickly and return to the group after passing on information. Whenever her partners were surprised at how [PAWN_nameDef] was able to locate the moving group so accurately, [PAWN_nameDef] always half-jokingly attributed it all to telepathy; in fact, she really didn't know how she did it herself, so maybe it was really telepathy?</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>3</Social>
+			<Shooting>4</Shooting>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<forcedTraits>
+            <SpeedOffset>1</SpeedOffset>
+			<PsychicSensitivity>1</PsychicSensitivity>
+        </forcedTraits>
+		<spawnCategories>
+			<li>Kiiro_Guerrilla</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_GuerrillaBackstoryBase">
+		<defName>Kiiro_BackstoryGuerrilla_14</defName>
+		<title>kiiro guerrilla scout</title>
+		<titleShort>guerrilla scout</titleShort>
+		<description>[PAWN_nameDef] is mostly ahead of her own group, doing reconnaissance work for the guerrilla. She is used to this, as she has previously been in charge of scouting an area near a town, which she was comfortable with; [PAWN_nameDef] is actually glad to be transferred to work with the guerrilla, as she would see other people more often here; it had been too long since she had talked to other person.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Melee>2</Melee>
+			<Shooting>3</Shooting>
+			<Cooking>2</Cooking>
+			<Medicine>2</Medicine>
+		</skillGains>
+		<forcedTraits>
+            <SpeedOffset>2</SpeedOffset>
+        </forcedTraits>
+		<spawnCategories>
+			<li>Kiiro_Guerrilla</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_GuerrillaBackstoryBase">
+		<defName>Kiiro_BackstoryGuerrilla_15</defName>
+		<title>kiiro guerrilla surgeon</title>
+		<titleShort>guerrilla surgeon</titleShort>
+		<description>[PAWN_nameDef] hadn't actually thought about fighting in the war, but [PAWN_nameDef]'s friends told her that her medical skills could save a lot of people on the battlefield, so she joined a nearby guerrilla group without much thought. In fact, she did, although she knew little about medicine, but her experience as a barefoot doctor always worked wonders in many situations.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Medicine>5</Medicine>
+			<Shooting>2</Shooting>
+			<Plants>2</Plants>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_GuerrillaMedic</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_GuerrillaBackstoryBase">
+		<defName>Kiiro_BackstoryGuerrilla_16</defName>
+		<title>kiiro guerrilla</title>
+		<titleShort>guerrilla</titleShort>
+		<description>Only after many years did [PAWN_nameDef] finally understand where the poisonous gas that ravaged her hometown came from and what caused it. [PAWN_nameDef] was so hatryed of the culprit who did all this that the fire of revenge burned in her heart from then on.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+		    <Shooting>5</Shooting>
+			<Medicine>3</Medicine>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>ToxicResistance</defName>
+				<chance>100</chance>
+			</li>
+		</forcedTraitsChance>
+		<disallowedTraitsChance>
+			<li>
+				<defName Degree="-1">Immunity</defName>
+			</li>
+		</disallowedTraitsChance>
+		<spawnCategories>
+			<li>Kiiro_Guerrilla</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_GuerrillaBackstoryBase">
+		<defName>Kiiro_BackstoryGuerrilla_17</defName>
+		<title>kiiro guerrilla</title>
+		<titleShort>guerrilla</titleShort>
+		<description>Other kiiros thought it was absurd and a pity for such a watchmaker like [PAWN_nameDef] to join the guerrilla: it was a waste that a pair of hands capable of making such a fine watch should not be used to pull the trigger. Faced with the discouragement from her partners, [PAWN_nameDef] just smiled gently and and shook his head politely , not answering. It was only after everyone left in vain that [PAWN_nameDef] took off her work gloves to reveal a mangled hand and sighed: her hand, a year ago, was smashed by someone's gunstock.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>2</Shooting>
+			<Artistic>1</Artistic>
+			<Intellectual>1</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_Guerrilla</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_GuerrillaBackstoryBase">
+		<defName>Kiiro_BackstoryGuerrilla_18</defName>
+		<title>kiiro guerrilla</title>
+		<titleShort>guerrilla</titleShort>
+		<description>As a jeweler, [PAWN_nameDef] certainly know the value of those gems, only thing she did not expected that these valuable trinkets will lead to kill; after a narrow escape from the hands of bandits, [PAWN_nameDef] joined the guerrilla and used all her skills of polishing gems to polish bullets.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Crafting>2</Crafting>
+			<Shooting>5</Shooting>
+			<Mining>1</Mining>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_Guerrilla</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_GuerrillaBackstoryBase">
+		<defName>Kiiro_BackstoryGuerrilla_19</defName>
+		<title>kiiro guerrilla</title>
+		<titleShort>guerrilla</titleShort>
+		<description>[PAWN_nameDef] worked in a mine for most of her life, she had thought she could just keep on working here, taking a nap at the mouth of the mine when she was tired, drinking a little of the underground water seeping out of the rock wall when she was thirsty; when she couldn't do it anymore, she would sleep until noon every day and then go next door to the jeweler's store and chattering with the shopkeeper...... But things are not always as they should be, the news of the war soon reached the ears of [PAWN_nameDef]. Although she didn't know anything about guns or fighting, [PAWN_nameDef] joined the guerrilla with righteous indignation.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Mining>3</Mining>
+			<Melee>5</Melee>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_Guerrilla</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_GuerrillaBackstoryBase">
+		<defName>Kiiro_BackstoryGuerrilla_20</defName>
+		<title>kiiro guerrilla</title>
+		<titleShort>guerrilla</titleShort>
+		<description>[PAWN_nameDef] is also half a veteran of the guerrilla army and is trusted by her partners. Rumor has it that [PAWN_nameDef] will extend an invitation to everyone around her, saying that when this is all over she will invite everyone to eat baked bread in her hometown, and that they must all come then; there are also rumors that [PAWN_nameDef]'s bakery has long been gone,she will say that just because she still missed her beloved oven......There are opinions varying from one rumor to another, and in the end it was not confirmed which one was true, everyone just took it as a brag. \n\nRumors are real. [PAWN_nameDef] sold her bakery and donated it to the guerrilla along with the money she had saved for the electric oven to buy guns. [PAWN_nameDef] has no regrets.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+		    <Shooting>6</Shooting>
+			<Cooking>3</Cooking>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_Guerrilla</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_GuerrillaBackstoryBase">
+		<defName>Kiiro_BackstoryGuerrilla_21</defName>
+		<title>kiiro guerrilla</title>
+		<titleShort>guerrilla</titleShort>
+		<description>[PAWN_nameDef] would never have thought that the arrows she once used only to aim at animals would be used to point at people this time. That's not exactly accurate, since [PAWN_nameDef] now uses a gun instead. She instinctively resisted doing so, but time and time again, the facts told [PAWN_nameDef] that this was the only way not to be treated as prey by others.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>9</Shooting>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_Guerrilla</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_GuerrillaBackstoryBase">
+		<defName>Kiiro_BackstoryGuerrilla_22</defName>
+		<title>kiiro guerrilla</title>
+		<titleShort>guerrilla</titleShort>
+		<description>The night before joining the guerrilla, [PAWN_nameDef] admitted her weakness, she couldn't hunt with a bow and arrow like a normal hunter, couldn't kill the living creature with her own hands, and had to use traps to kill the prey "indirectly", so that she would feel better in her heart. there is no idea about why [PAWN_nameDef] chose to join the guerrilla, but from that moment on she became a brave person.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Crafting>2</Crafting>
+			<Shooting>4</Shooting>
+			<Animals>2</Animals>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_Guerrilla</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_GuerrillaBackstoryBase">
+		<defName>Kiiro_BackstoryGuerrilla_23</defName>
+		<title>kiiro guerrilla</title>
+		<titleShort>guerrilla</titleShort>
+		<description>The foundry where [PAWN_nameDef] worked had been producing gun components since the war broke out. [PAWN_nameDef] didn't know much about firearms and had never even seen them; but as she watched the parts being produced and shipped to the assembly factory, her curiosity grew day by day. Finally there was a day when [PAWN_nameDef] could no longer resist signing up to join the guerrilla, she wanted to see for herself what she could actually assemble from what she produced every day.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Crafting>2</Crafting>
+			<Shooting>5</Shooting>
+			<Intellectual>1</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_Guerrilla</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_GuerrillaBackstoryBase">
+		<defName>Kiiro_BackstoryGuerrilla_24</defName>
+		<title>kiiro guerrilla</title>
+		<titleShort>guerrilla</titleShort>
+		<description>[PAWN_nameDef] no longer like to travel. Along the way, she has seen the roaring flames burning villages to the ground, seen the diffuse poisonous gas destroying ten thousand acres of good land, seen two forces strewn with corpses for the sake of treasures ...... \n\n[PAWN_nameDef] no longer like to travel, she will devote herself to prevent these tragedies from happening, even if her power is insignificant.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Crafting>2</Crafting>
+			<Shooting>4</Shooting>
+			<Intellectual>2</Intellectual>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_Guerrilla</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryGuerrilla_25</defName>
+		<title>kiiro guerrilla</title>
+		<titleShort>guerrilla</titleShort>
+		<description>The tranquility of day after day used to make [PAWN_nameDef] have the illusion whether the war would never spread to her head, until that morning when the boundless fire rose up and burned the sun eclipsed. The frequent explosions shook [PAWN_nameDef]'s beloved cart gently, but the shaking stirred up a million waves in her heart. At this moment [PAWN_nameDef] understood that this tranquility needs to defend by herself.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>2</Social>
+			<Shooting>4</Shooting>
+			<Artistic>1</Artistic>
+			<Crafting>1</Crafting>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_Guerrilla</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryGuerrilla_26</defName>
+		<title>kiiro guerrilla</title>
+		<titleShort>guerrilla</titleShort>
+		<description>[PAWN_nameDef] often composed poems for everyone in the partisan life, and her relaxed atmosphere was always able to relieve the tension and mobilize everyone to recall the beautiful wheat fields, the warm breeze and the warm sunshine. Whenever people were touched by [PAWN_nameDef]'s scenes, few noticed that [PAWN_nameDef] quickly raised her hand to wipe her slightly red eyes while singing: only [PAWN_nameDef] herself knew that the scenes depicted in her lyrics no longer existed for her.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>2</Social>
+			<Shooting>4</Shooting>
+			<Artistic>3</Artistic>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_Guerrilla</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryGuerrilla_30</defName>
+		<title>kiiro guerrilla</title>
+		<titleShort>guerrilla</titleShort>
+		<description>When news of the war in faraway lands reached [PAWN_nameDef]'s ears, [PAWN_nameDef] decided to leave her beloved forest for a while and join the guerrilla after some thought. She had seen countless woods in the years she had been wandering around with the partisans, many of them much larger than the one next to her village; but [PAWN_nameDef] still missed her woods immensely, and spent every sleepless night looking back again and again at her dew, fallen leaves and shade, looking forward to returning to her little happiness when the war was over.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Social>-2</Social>
+			<Plants>2</Plants>
+			<Shooting>6</Shooting>
+			<Melee>3</Melee>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_Guerrilla</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryGuerrilla_32</defName>
+		<title>kiiro guerrilla</title>
+		<titleShort>guerrilla</titleShort>
+		<description>After the establishment of the guerrilla, [PAWN_nameDef] did not hesitate to join, the sufferings of war in the early years have been turned into firewood for the fire of revenge; hatred is the best nourishment for a warrior.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Shooting>10</Shooting>
+			<Melee>4</Melee>
+			<Social>-5</Social>
+		</skillGains>
+		<forcedTraitsChance>
+			<li>
+				<defName>Psychopath</defName>
+				<chance>100</chance>
+			</li>
+        </forcedTraitsChance>
+		<spawnCategories>
+			<li>Kiiro_Guerrilla</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryGuerrilla_33</defName>
+		<title>kiiro guerrilla nurse</title>
+		<titleShort>guerrilla nurse</titleShort>
+		<description>[PAWN_nameDef] feared the war and would not have wanted to get involved in it. But every time she saw the wounded being brought in from the front in the hospital, she always felt something stinging inside her. Finally [PAWN_nameDef] found the courage to join the town's guerrilla. Although her ability was limited, [PAWN_nameDef] learned some simple bandaging and medical techniques and did her best to take care of the sick and wounded at the front.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Cooking>2</Cooking>
+			<Medicine>3</Medicine>
+			<Social>2</Social>
+			<Shooting>2</Shooting>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_GuerrillaMedic</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_BaseBackstory">
+		<defName>Kiiro_BackstoryGuerrilla_34</defName>
+		<title>kiiro field medic</title>
+		<titleShort>field medic</titleShort>
+		<description>In fact, the guerrilla captain and [PAWN_nameDef's] partners did not agree to [PAWN_nameDef] joining the guerrilla, and it was not right to let an experienced doctor like [PAWN_nameDef] go to the dangerous front line; but [PAWN_nameDef] herself insisted on going, and in her words "How can we let the wounded come so far to find a doctor?". After several red-faced arguments [PAWN_nameDef] won over the people who came to dissuade her and joined the guerrilla as she wished.</description>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<Medicine>8</Medicine>
+			<Shooting>2</Shooting>
+			<Melee>-2</Melee>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_GuerrillaMedic</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+
+</Defs>

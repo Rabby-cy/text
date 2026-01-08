@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+ <ThingDef ParentName="BuildingBase">
+    <defName>OA_RK_Turret_A</defName>
+    <label>Oberonia Aurea Rocket Array</label>
+    <description>The rocket array developed by the Oberonia Aurea Empire for colonial defense. Although its range cannot be compared to military weapons, its rocket grenades can easily cause devastating damage to light armored units in a large area.</description>
+    <thingClass>Building_TurretRocket</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Building/OA_RK_Turret_A</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3, 2)</drawSize>
+      <drawOffset>(0,0,-0.1)</drawOffset>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+      <shadowData>
+        <volume>(1.5,0.35,1.4)</volume>
+        <offset>(0,0,-0.05)</offset>
+      </shadowData>
+    </graphicData>
+    <uiIconPath>Building/OA_RK_TurretGun_AA</uiIconPath>
+	<uiIconScale>1.3</uiIconScale>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+	<rotatable>false</rotatable>
+    <size>(3,2)</size>
+    <statBases>
+      <MaxHitPoints>460</MaxHitPoints>
+      <Flammability>0.3</Flammability>
+      <WorkToBuild>22000</WorkToBuild>
+      <Mass>18</Mass>
+      <Beauty>-4</Beauty>
+      <ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>200</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Refuelable">
+        <fuelLabel>火箭榴弹</fuelLabel>
+        <fuelGizmoLabel>火箭榴弹</fuelGizmoLabel>
+        <outOfFuelMessage>缺少火箭榴弹</outOfFuelMessage>
+        <fuelFilter><thingDefs><li>OA_RK_TurretGun_Bullet</li></thingDefs></fuelFilter>
+        <fuelCapacity>35</fuelCapacity>
+        <fuelMultiplier>1</fuelMultiplier>
+        <initialFuelPercent>1</initialFuelPercent>
+        <autoRefuelPercent>1</autoRefuelPercent>
+        <showFuelGizmo>true</showFuelGizmo>
+        <minimumFueledThreshold>24</minimumFueledThreshold>
+        <factorByDifficulty>false</factorByDifficulty>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <fuelIconPath>Things/Item/Resource/Chemfuel</fuelIconPath>
+      </li>
+      <li Class="CompProperties_Interactable">
+        <compClass>CompInteractableRocketswarmLauncher</compClass>
+        <activeTicks>1</activeTicks>
+        <cooldownTicks>4800</cooldownTicks>
+        <ticksToActivate>135</ticksToActivate>
+        <jobString>激活</jobString>
+        <onCooldownString>冷却中</onCooldownString>
+        <cooldownFleck>FlashRed</cooldownFleck>
+        <cooldownFleckSpawnIntervalTicks>135</cooldownFleckSpawnIntervalTicks>
+        <cooldownFleckScale>0.7</cooldownFleckScale>
+        <cooldownPreventsRefuel>true</cooldownPreventsRefuel>
+        <activateTexPath>UI/Commands/ActivateTurret</activateTexPath>
+        <targetingParameters>
+          <canTargetBuildings>false</canTargetBuildings>
+          <canTargetAnimals>false</canTargetAnimals>
+          <canTargetMechs>false</canTargetMechs>
+          <onlyTargetControlledPawns>true</onlyTargetControlledPawns>
+        </targetingParameters>
+      </li>
+    </comps>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <hasTooltip>true</hasTooltip>
+    <costList>
+      <Plasteel>50</Plasteel>
+	  <Uranium>150</Uranium>
+      <Steel>100</Steel>
+      <ComponentIndustrial>8</ComponentIndustrial>
+      <Chemfuel>100</Chemfuel>
+	  <OA_RK_TurretGun_Bullet>35</OA_RK_TurretGun_Bullet>
+    </costList>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+    <building>
+      <combatPower>5</combatPower>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>OA_RK_TurretGun_A</turretGunDef>
+      <turretTopDrawSize>2.2</turretTopDrawSize>
+      <turretBurstCooldownTime>0.1</turretBurstCooldownTime>
+      <playTargetAcquiredSound>false</playTargetAcquiredSound>
+      <turretBurstWarmupTime>0</turretBurstWarmupTime>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
+      <li>PlaceWorker_ShowTurretRadius</li>
+    </placeWorkers>
+    <designationHotKey>Misc2</designationHotKey>
+    <researchPrerequisites>
+      <li>OA_RK_GunTurrets</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+   <ThingDef>
+    <defName>OA_RK_Turret_Bullet_A</defName>
+    <label>金鸢尾兰火箭弹</label>
+    <thingClass>Projectile_Explosive</thingClass>
+    <category>Projectile</category>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <useHitPoints>False</useHitPoints>
+    <neverMultiSelect>True</neverMultiSelect>
+    <graphicData>
+      <texPath>Bullets/OA_RK_Paodan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.45</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+      <explosionRadius>2.7</explosionRadius>
+	  <!--explosionRadius>4.7</explosionRadius-->
+      <speed>48</speed>
+      <damageAmountBase>22</damageAmountBase>
+	  <stoppingPower>1.5</stoppingPower>
+      <arcHeightFactor>0.34</arcHeightFactor>
+	  <armorPenetrationBase>0.26</armorPenetrationBase>
+      <soundExplode>Explosion_Rocket</soundExplode>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>OA_RK_TurretGun_A</defName>
+    <label>Oberonia Aurea Rocket Array</label>
+    <description>The rocket array developed by the Oberonia Aurea Empire for colonial defense. Although its range cannot be compared to military weapons, its rocket grenades can easily cause devastating damage to light armored units in a large area.</description>
+    <graphicData>
+      <texPath>Building/OA_RK_TurretGun_A</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(2.8, 1.9)</drawSize>
+    </graphicData>
+    <building>
+      <turretTopLoadedGraphic>
+        <texPath>Building/OA_RK_TurretGun_A</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      </turretTopLoadedGraphic>
+    </building>
+    <statBases>
+      <AccuracyTouch>0.28</AccuracyTouch>
+      <AccuracyShort>0.72</AccuracyShort>
+      <AccuracyMedium>0.66</AccuracyMedium>
+      <AccuracyLong>0.5</AccuracyLong>
+      <RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>48</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <defaultProjectile>OA_RK_Turret_Bullet_A</defaultProjectile>
+        <range>42.9</range>
+        <consumeFuelPerShot>1</consumeFuelPerShot>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <burstShotCount>35</burstShotCount>
+        <forcedMissRadius>5.6</forcedMissRadius>
+        <forcedMissEvenDispersal>true</forcedMissEvenDispersal>
+        <targetParams>
+          <canTargetPawns>false</canTargetPawns>
+          <canTargetLocations>true</canTargetLocations>
+          <canTargetBuildings>false</canTargetBuildings>
+        </targetParams>
+        <soundCast>RocketswarmLauncher_Fire</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>22</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  
+  
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>OA_RK_Turret_B</defName>
+    <label>Oberonia Aurea EMP Rocket Array</label>
+    <description>The rocket array developed by the Oberonia Aurea Empire for colonial defense. Although its range cannot be compared to military weapons, its EMP rocket can cause serious interference with the mechanical body.</description>
+    <thingClass>Building_TurretRocket</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Building/OA_RK_Turret_B</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3, 2)</drawSize>
+      <drawOffset>(0,0,-0.1)</drawOffset>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+      <shadowData>
+        <volume>(1.5,0.35,1.4)</volume>
+        <offset>(0,0,-0.05)</offset>
+      </shadowData>
+    </graphicData>
+    <uiIconPath>Building/OA_RK_TurretGun_BB</uiIconPath>
+	<uiIconScale>1.3</uiIconScale>
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+	<rotatable>false</rotatable>
+    <size>(3,2)</size>
+    <statBases>
+      <MaxHitPoints>460</MaxHitPoints>
+      <Flammability>0.3</Flammability>
+      <WorkToBuild>24000</WorkToBuild>
+      <Mass>18</Mass>
+      <Beauty>-4</Beauty>
+      <ShootingAccuracyTurret>0.96</ShootingAccuracyTurret>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>200</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Refuelable">
+        <fuelLabel>火箭弹</fuelLabel>
+        <fuelGizmoLabel>火箭弹</fuelGizmoLabel>
+        <outOfFuelMessage>缺少火箭弹</outOfFuelMessage>
+        <fuelFilter><thingDefs><li>OA_RK_TurretGun_Bullet</li></thingDefs></fuelFilter>
+        <fuelCapacity>35</fuelCapacity>
+        <fuelMultiplier>1</fuelMultiplier>
+        <initialFuelPercent>1</initialFuelPercent>
+        <autoRefuelPercent>1</autoRefuelPercent>
+        <showFuelGizmo>true</showFuelGizmo>
+        <minimumFueledThreshold>24</minimumFueledThreshold>
+        <factorByDifficulty>false</factorByDifficulty>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <fuelIconPath>Things/Item/Resource/Chemfuel</fuelIconPath>
+      </li>
+      <li Class="CompProperties_Interactable">
+        <compClass>CompInteractableRocketswarmLauncher</compClass>
+        <activeTicks>1</activeTicks>
+        <cooldownTicks>2400</cooldownTicks>
+        <ticksToActivate>135</ticksToActivate>
+        <jobString>激活</jobString>
+        <onCooldownString>冷却中</onCooldownString>
+        <cooldownFleck>FlashRed</cooldownFleck>
+        <cooldownFleckSpawnIntervalTicks>135</cooldownFleckSpawnIntervalTicks>
+        <cooldownFleckScale>0.7</cooldownFleckScale>
+        <cooldownPreventsRefuel>true</cooldownPreventsRefuel>
+        <activateTexPath>UI/Commands/ActivateTurret</activateTexPath>
+        <targetingParameters>
+          <canTargetBuildings>false</canTargetBuildings>
+          <canTargetAnimals>false</canTargetAnimals>
+          <canTargetMechs>false</canTargetMechs>
+          <onlyTargetControlledPawns>true</onlyTargetControlledPawns>
+        </targetingParameters>
+      </li>
+    </comps>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <hasTooltip>true</hasTooltip>
+    <costList>
+      <Plasteel>80</Plasteel>
+	  <Uranium>150</Uranium>
+      <Steel>50</Steel>
+      <ComponentIndustrial>14</ComponentIndustrial>
+      <Chemfuel>80</Chemfuel>
+	  <OA_RK_TurretGun_Bullet>35</OA_RK_TurretGun_Bullet>
+    </costList>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+    <building>
+      <combatPower>5</combatPower>
+      <ai_combatDangerous>true</ai_combatDangerous>
+      <turretGunDef>OA_RK_TurretGun_B</turretGunDef>
+      <turretTopDrawSize>2.2</turretTopDrawSize>
+      <turretBurstCooldownTime>0.1</turretBurstCooldownTime>
+      <playTargetAcquiredSound>false</playTargetAcquiredSound>
+      <turretBurstWarmupTime>0</turretBurstWarmupTime>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
+      <li>PlaceWorker_ShowTurretRadius</li>
+    </placeWorkers>
+    <designationHotKey>Misc2</designationHotKey>
+    <researchPrerequisites>
+      <li>OA_RK_GunTurrets</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+   <ThingDef>
+    <defName>OA_RK_Turret_Bullet_B</defName>
+    <label>金鸢尾兰EMP火箭弹</label>
+    <thingClass>Projectile_Explosive</thingClass>
+    <category>Projectile</category>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <useHitPoints>False</useHitPoints>
+    <neverMultiSelect>True</neverMultiSelect>
+    <graphicData>
+      <texPath>Bullets/OA_RK_Paodan</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.45</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>EMP</damageDef>
+      <explosionRadius>5.2</explosionRadius>
+      <speed>48</speed>
+      <damageAmountBase>62</damageAmountBase>
+      <arcHeightFactor>0.34</arcHeightFactor>
+      <soundExplode>Explosion_Rocket</soundExplode>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>OA_RK_TurretGun_B</defName>
+    <label>Oberonia Aurea EMP Rocket Array</label>
+    <description>The rocket array developed by the Oberonia Aurea Empire for colonial defense. Although its range cannot be compared to military weapons, its EMP rocket can cause serious interference with the mechanical body.</description>
+    <graphicData>
+      <texPath>Building/OA_RK_TurretGun_B</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(2.8, 1.9)</drawSize>
+    </graphicData>
+    <building>
+      <turretTopLoadedGraphic>
+        <texPath>Building/OA_RK_TurretGun_B</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      </turretTopLoadedGraphic>
+    </building>
+    <statBases>
+      <AccuracyTouch>0.28</AccuracyTouch>
+      <AccuracyShort>0.72</AccuracyShort>
+      <AccuracyMedium>0.66</AccuracyMedium>
+      <AccuracyLong>0.5</AccuracyLong>
+      <RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>44</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <defaultProjectile>OA_RK_Turret_Bullet_B</defaultProjectile>
+        <range>50.9</range>
+        <consumeFuelPerShot>1</consumeFuelPerShot>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <burstShotCount>35</burstShotCount>
+        <forcedMissRadius>6.9</forcedMissRadius>
+        <forcedMissEvenDispersal>true</forcedMissEvenDispersal>
+        <targetParams>
+          <canTargetPawns>false</canTargetPawns>
+          <canTargetLocations>true</canTargetLocations>
+          <canTargetBuildings>false</canTargetBuildings>
+        </targetParams>
+        <soundCast>RocketswarmLauncher_Fire</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>22</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>OA_RK_Turret_C</defName>
+    <label>Oberonia Aurea Automatic Rocket Battery</label>
+    <description>The small defensive fortress of the Oberonia Aurea Empire is equipped with a double barreled rocket howitzer fed by an automatic ammunition changer, which has a certain deterrent effect on light armored units and insane animals.</description>
+    <uiIconPath>Building/OA_RK_TurretGun_CAA</uiIconPath>
+    <costList>
+	  <Uranium>20</Uranium>
+      <Steel>40</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+      <Chemfuel>10</Chemfuel>
+	  <OA_RK_TurretGun_Bullet>30</OA_RK_TurretGun_Bullet>
+    </costList>
+	 <thingClass>Building_TurretGun</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Building/OA_RK_Turret_C</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.15, 1.15)</drawSize>
+      <drawOffset>(0,0,-0.1)</drawOffset>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+      <shadowData>
+        <volume>(0.5,0.1,0.15)</volume>
+        <offset>(0,0,-0.05)</offset>
+      </shadowData>
+    </graphicData>    
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <rotatable>false</rotatable>
+    <size>(1,1)</size>
+    <statBases>
+	  <ShootingAccuracyTurret>0.96</ShootingAccuracyTurret> 
+      <MaxHitPoints>220</MaxHitPoints>
+      <Flammability>0.3</Flammability>
+      <WorkToBuild>7500</WorkToBuild>
+      <Mass>8</Mass>
+      <Beauty>-4</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.5</fillPercent>
+    <hasTooltip>true</hasTooltip>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <building>
+      <ai_combatDangerous>true</ai_combatDangerous>
+	  <turretGunDef>OA_RK_TurretGun_CA</turretGunDef>
+      <turretBurstCooldownTime>4.2</turretBurstCooldownTime>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
+      <li>PlaceWorker_ShowTurretRadius</li>
+    </placeWorkers>
+    <designationHotKey>Misc3</designationHotKey>    
+    <uiIconScale>0.85</uiIconScale>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <wickTicks>480</wickTicks>
+        <explosiveRadius>5.4</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <chanceNeverExplodeFromDamage>0.8</chanceNeverExplodeFromDamage>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>120</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Refuelable">
+        <fuelLabel>火箭榴弹</fuelLabel>
+        <fuelGizmoLabel>火箭榴弹</fuelGizmoLabel>
+        <outOfFuelMessage>缺少火箭榴弹</outOfFuelMessage>
+        <fuelFilter><thingDefs><li>OA_RK_TurretGun_Bullet</li></thingDefs></fuelFilter>
+        <fuelCapacity>30</fuelCapacity>      
+        <fuelMultiplier>1</fuelMultiplier>  
+        <initialFuelPercent>1</initialFuelPercent>
+        <autoRefuelPercent>0.6</autoRefuelPercent>
+        <showFuelGizmo>true</showFuelGizmo>
+        <minimumFueledThreshold>1</minimumFueledThreshold>
+        <factorByDifficulty>true</factorByDifficulty>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>OA_RK_GunTurrets</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>OA_RK_TurretGun_CA</defName>
+    <label>Oberonia Aurea Automatic Rocket Battery</label>
+    <description>The small defensive fortress of the Oberonia Aurea Empire is equipped with a double barreled rocket howitzer fed by an automatic ammunition changer, which has a certain deterrent effect on light armored units and insane animals.</description>
+    <graphicData>
+      <texPath>Building/OA_RK_TurretGun_CA</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1, 1)</drawSize>
+    </graphicData>
+    <statBases>
+      <AccuracyTouch>0.28</AccuracyTouch>
+      <AccuracyShort>0.72</AccuracyShort>
+      <AccuracyMedium>0.66</AccuracyMedium>
+      <AccuracyLong>0.5</AccuracyLong>
+      <!--RangedWeapon_Cooldown>3.8</RangedWeapon_Cooldown-->
+	  <RangedWeapon_Cooldown>6.15</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>22</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <defaultProjectile>OA_RK_Turret_Bullet_A</defaultProjectile>
+        <warmupTime>0</warmupTime>
+        <minRange>4.9</minRange>
+        <range>44.9</range>
+        <ticksBetweenBurstShots>32</ticksBetweenBurstShots>
+        <burstShotCount>2</burstShotCount>
+		<forcedMissRadius>4.2</forcedMissRadius>
+        <soundCast>OA_RK_AT_Sound</soundCast>
+        <soundCastTail>OA_RKSO_HeavyUraniumBulletTail</soundCastTail>
+        <muzzleFlashScale>16</muzzleFlashScale>
+        <consumeFuelPerShot>1</consumeFuelPerShot>
+      </li>
+    </verbs>
+  </ThingDef>
+
+ <ThingDef ParentName="BuildingBase">
+    <defName>OA_RK_Turret_D</defName>
+    <label>Oberonia Aurea Automatic Dual Rocket Battery</label>
+    <description>The small defensive fortress of the Oberonia Aurea Empire is equipped with two twin rocket howitzers fed by automatic ammunition changers, which have a certain deterrent effect on light armored units and insane animals.</description>
+    <uiIconPath>Building/OA_RK_TurretGun_CBB</uiIconPath>
+    <costList>
+	  <Uranium>30</Uranium>
+      <Steel>70</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <Chemfuel>15</Chemfuel>
+	  <OA_RK_TurretGun_Bullet>40</OA_RK_TurretGun_Bullet>
+    </costList>
+	 <thingClass>Building_TurretGun</thingClass>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <graphicData>
+      <texPath>Building/OA_RK_Turret_C</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.15, 1.15)</drawSize>
+      <drawOffset>(0,0,-0.1)</drawOffset>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+      <shadowData>
+        <volume>(0.5,0.1,0.15)</volume>
+        <offset>(0,0,-0.05)</offset>
+      </shadowData>
+    </graphicData>    
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
+    <rotatable>false</rotatable>
+    <size>(1,1)</size>
+    <statBases>
+	  <ShootingAccuracyTurret>0.96</ShootingAccuracyTurret> 
+      <MaxHitPoints>280</MaxHitPoints>
+      <Flammability>0.3</Flammability>
+      <WorkToBuild>10000</WorkToBuild>
+      <Mass>10</Mass>
+      <Beauty>-4</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.5</fillPercent>
+    <hasTooltip>true</hasTooltip>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <designationCategory>Security</designationCategory>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    <building>
+      <ai_combatDangerous>true</ai_combatDangerous>
+	  <turretGunDef>OA_RK_TurretGun_CB</turretGunDef>
+      <turretBurstCooldownTime>4.6</turretBurstCooldownTime>
+    </building>
+    <placeWorkers>
+      <li>PlaceWorker_TurretTop</li>
+      <li>PlaceWorker_ShowTurretRadius</li>
+    </placeWorkers>
+    <designationHotKey>Misc3</designationHotKey>    
+    <uiIconScale>0.85</uiIconScale>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <wickTicks>480</wickTicks>
+        <explosiveRadius>6.4</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <chanceNeverExplodeFromDamage>0.7</chanceNeverExplodeFromDamage>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>200</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Refuelable">
+        <fuelLabel>火箭榴弹</fuelLabel>
+        <fuelGizmoLabel>火箭榴弹</fuelGizmoLabel>
+        <outOfFuelMessage>缺少火箭榴弹</outOfFuelMessage>
+        <fuelFilter><thingDefs><li>OA_RK_TurretGun_Bullet</li></thingDefs></fuelFilter>
+        <fuelCapacity>40</fuelCapacity>      
+        <fuelMultiplier>1</fuelMultiplier>  
+        <initialFuelPercent>1</initialFuelPercent>
+        <autoRefuelPercent>0.6</autoRefuelPercent>
+        <showFuelGizmo>true</showFuelGizmo>
+        <minimumFueledThreshold>1</minimumFueledThreshold>
+        <factorByDifficulty>true</factorByDifficulty>
+        <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+        <fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>OA_RK_GunTurrets</li>
+    </researchPrerequisites>
+  </ThingDef>
+  
+  <ThingDef ParentName="BaseWeaponTurret">
+    <defName>OA_RK_TurretGun_CB</defName>
+    <label>Oberonia Aurea Automatic Dual Rocket Battery</label>
+    <description>The small defensive fortress of the Oberonia Aurea Empire is equipped with two twin rocket howitzers fed by automatic ammunition changers, which have a certain deterrent effect on light armored units and insane animals.</description>
+    <graphicData>
+      <texPath>Building/OA_RK_TurretGun_CB</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>(1, 1)</drawSize>
+    </graphicData>
+    <statBases>
+      <AccuracyTouch>0.28</AccuracyTouch>
+      <AccuracyShort>0.72</AccuracyShort>
+      <AccuracyMedium>0.66</AccuracyMedium>
+      <AccuracyLong>0.5</AccuracyLong>
+      <!--RangedWeapon_Cooldown>4.4</RangedWeapon_Cooldown-->
+	  <RangedWeapon_Cooldown>7.2</RangedWeapon_Cooldown>
+      <DeteriorationRate>0</DeteriorationRate>
+      <Mass>28</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <defaultProjectile>OA_RK_Turret_Bullet_A</defaultProjectile>
+        <warmupTime>0</warmupTime>
+        <minRange>4.9</minRange>
+        <range>44.9</range>
+        <ticksBetweenBurstShots>22</ticksBetweenBurstShots>
+        <burstShotCount>4</burstShotCount>
+		<forcedMissRadius>4.9</forcedMissRadius>
+        <soundCast>OA_RK_AT_Sound</soundCast>
+        <soundCastTail>OA_RKSO_HeavyUraniumBulletTail</soundCastTail>
+        <muzzleFlashScale>16</muzzleFlashScale>
+        <consumeFuelPerShot>1</consumeFuelPerShot>
+      </li>
+    </verbs>
+  </ThingDef>
+  
+  <ThingDef ParentName="ResourceBase">
+    <defName>OA_RK_TurretGun_Bullet</defName>
+    <label>Oberonia Aurea Rocket Grenade</label>
+    <description>The ammunition required for the rocket defense facilities of the Oberonia Aurea is safer than the rudimentary shell packaging of the Edge World, but there is still a possibility of explosion if subjected to severe impact.</description>
+    <graphicData>
+      <texPath>Item/OA_RK_TurretGun_Bullet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.40</drawSize>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <tickerType>Normal</tickerType>
+    <stackLimit>40</stackLimit>
+    <techLevel>Spacer</techLevel>
+    <statBases>
+     <MaxHitPoints>120</MaxHitPoints>
+      <MarketValue>9.2</MarketValue>
+      <Mass>0.90</Mass>
+      <Flammability>0.25</Flammability>
+      <DeteriorationRate>1</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>4.9</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.6</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+        <wickTicks>90~150</wickTicks>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  <RecipeDef>
+    <defName>Make_OA_RK_TurretGun_Bullet</defName>
+    <label>制作20枚金鸢尾兰火箭榴弹</label>
+    <description>制作20枚金鸢尾兰火箭榴弹</description>
+    <jobString>制作火箭榴弹</jobString>
+	<workAmount>8000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <allowMixingIngredients>false</allowMixingIngredients>
+    <fixedIngredientFilter Inherit="false">
+    </fixedIngredientFilter>
+	<recipeUsers>
+		<li>TableMachining</li>
+	</recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+			<li>Steel</li>
+	      </thingDefs>
+        </filter>
+        <count>60</count>
+      </li>
+	  <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+    </ingredients>
+    <products>
+      <OA_RK_TurretGun_Bullet>20</OA_RK_TurretGun_Bullet>
+    </products>
+    <defaultIngredientFilter>
+	  <thingDefs Inherit="false">
+		<li>Steel</li>
+		<li>Chemfuel</li>
+	  </thingDefs>
+    </defaultIngredientFilter>
+    <workSkill>Crafting</workSkill>
+    <researchPrerequisite>OA_RK_GunTurrets</researchPrerequisite>
+    <displayPriority>1200</displayPriority>
+  </RecipeDef>
+</Defs>

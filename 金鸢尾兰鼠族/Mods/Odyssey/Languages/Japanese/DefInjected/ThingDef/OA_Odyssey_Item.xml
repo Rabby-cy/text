@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    <OARK_SDCommunicationEquipment.label>研究部通信設備</OARK_SDCommunicationEquipment.label>
+    <OARK_SDCommunicationEquipment.description>研究部の通信に直接アクセスできる通信設備で、研究部のメンバー同士が議論する際によく使用される。\n\n通信コードはリアルタイムで変化するため、研究部の現メンバー以外が使用した場合、再度発信することはできないことが多い。</OARK_SDCommunicationEquipment.description>
+    <OARK_SDCommunicationEquipment.comps.CompUsable.useLabel>{0_label}を使用</OARK_SDCommunicationEquipment.comps.CompUsable.useLabel>
+
+    <OARK_UnlockedFile_EncryptedFile.label>暗号化ファイルのコピー</OARK_UnlockedFile_EncryptedFile.label>
+    <OARK_UnlockedFile_EncryptedFile.description>特別に暗号化されたファイル。解読するまで、中に何が書かれているかは誰にもわからない。</OARK_UnlockedFile_EncryptedFile.description>
+    <OARK_UnlockedFile_EncryptedFile.comps.CompUsable.useLabel>{0_label}を使用</OARK_UnlockedFile_EncryptedFile.comps.CompUsable.useLabel>
+
+    <OARK_SDAccountingRecord.label>研究部会計原始資料</OARK_SDAccountingRecord.label>
+    <OARK_SDAccountingRecord.description>極めて混沌とした会計資料。一目見るだけで、監査員が不快感を和らげるためにアントシアニンを服用しなければならなくなるほどだ。\n\n特定の人員が帳簿を整理すると、研究部の終焉を早めることになる。</OARK_SDAccountingRecord.description>
+</LanguageData>

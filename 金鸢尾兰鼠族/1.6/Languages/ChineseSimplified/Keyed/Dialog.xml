@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OA_ViewPawnInfoButton>查看人员信息</OA_ViewPawnInfoButton>
+
+    <OARK_TalkWithProspectingLeader>在与{0}的短暂交谈中，你得知了这是一支被金鸢尾兰外务部所派遣进行实地勘探的勘探队。目前她们已经完成了她们的任务，然而笨重的设备严重拖慢了她们的行程，并带来了大量的额外体力消耗，因此她们目前正在寻找一个落脚点进行短暂的休整。\n\n她们并没有向你提出请求，但她们的状态无疑是需要一个能够休整的营地的。你可以主动邀请她们造访，也可以婉拒她们的需求，这并不会带来什么影响。</OARK_TalkWithProspectingLeader>
+    <OARK_ProspectingLeader_Serve>邀请她们前往殖民地休整</OARK_ProspectingLeader_Serve>
+    <OARK_ProspectingLeader_Reject>婉拒她们的申请</OARK_ProspectingLeader_Reject>
+
+</LanguageData>

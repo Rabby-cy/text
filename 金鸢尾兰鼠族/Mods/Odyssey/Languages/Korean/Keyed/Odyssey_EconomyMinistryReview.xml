@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+<OARK_AccountInquiry>특정 과학연구관에게 장부 관련 정보 문의하기</OARK_AccountInquiry>
+<OARK_GravTechPointEMBlockDays>통합부의 정의로운 제재를 받는 중: {0}일 남음</OARK_GravTechPointEMBlockDays>
+
+<OARK_LetterLabel_EMReview>과학연구부의 통신 요청</OARK_LetterLabel_EMReview>
+<OARK_Letter_EMReview>과학연구부로부터 통신을 받았습니다.\n\n통신에서 과학연구부의 시종들은 그들을 매우 당황하게 만든 일을 당신에게 알렸습니다: 그들의 장기적으로 무질서하고 혼란스러운 자원 관리와 물자 결손, 그리고 최근 연구 진척이 다시 한 번 고비를 넘긴 후 과학연구부가 개최한 축하 행사가 또다시 대량의 물자를 소모한 덕분에, 평소 그들에게 관대했던 통합부가 마침내 인내심의 한계를 느끼고 최후통첩을 보냈다는 것입니다——며칠 내로 통합부는 과학연구부에 대해 전면적인 장부 심사를 진행할 것입니다.\n\n그리고 평소의 혼란스러운 장부 관리 덕분에, 과학연구부 전체가 온전한 장부 하나를 만들어내지 못하고 있습니다. 이 때문에 그들은 당신을 찾아와, 이 혼란스러운 원시 자료들을 이번 심사에 대응할 수 있는 사용 가능한 장부로 정리하는 데 도움을 주기를 바라고 있습니다.\n\n그들의 말투는 상당히 당황스러웠고, 통신에서는 때때로 무언가를 뒤지는 소리가 들려왔습니다. 당신은 그들이 이번에는 정말로 끝장날 수도 있겠다고 깨달았습니다.</OARK_Letter_EMReview>
+<OARK_EMReview_Accept>이 문제 처리를 돕겠습니다.</OARK_EMReview_Accept>
+<OARK_EMReview_Reject>자신들의 행동에 책임을 져야 합니다.</OARK_EMReview_Reject>
+
+<OARK_LetterLabel_EMReviewReject>과학연구부의 종말</OARK_LetterLabel_EMReviewReject>
+<OARK_Letter_EMReviewReject>상황은 예상대로 전개되었습니다.\n\n장부 정리 도움을 받지 못한 과학연구부는 통합부의 심사에서 여지없이 패배했습니다. 허점투성이에 앞뒤가 맞지 않는 그들의 장부 기록이 통합부의 책상 위에 놓였을 때, 통합부 전체에서 날카로운 폭발음이 터져 나왔고, 수 킬로미터 밖에서도 선명하게 들렸다고 합니다.\n\n그리고 이 모든 일의 주범으로서,众望所归하게도, 과학연구부는 통합부와 궁정부의 연합 제재를 받았습니다. 앞으로 상당 기간 동안 과학연구부는 마음대로 연구 정상 회의를 열거나, 무분별하게 물자를 낭비할 수 없을 것으로 예상됩니다.</OARK_Letter_EMReviewReject>
+
+<OARK_LetterLabel_EconomyMinistryReviewRemind>과학연구관의 협조</OARK_LetterLabel_EconomyMinistryReviewRemind>
+<OARK_Letter_EconomyMinistryReviewRemind>이제 커뮤니케이션 데스크를 통해 과학 연구관에게 그들이 매일 정리하는 자료를 얻을 수 있습니다. 이 자료들은 당신의 변호를 돕고 협조의 성과와 수익을 향상시킬 것입니다.</OARK_Letter_EconomyMinistryReviewRemind>
+
+
+<OARK_EMReviewAcceptInfo>당신은 과학연구부의 이 문제 처리를 돕기로 결정했습니다. 과학연구부는 당신에게 원시 자료 파일을 보낼 것이며, 심사 기간 동안 당신은 매일 과학연구부의 통신을 통해 새로운 정보를 얻을 수 있습니다.</OARK_EMReviewAcceptInfo>
+<OARK_EMReviewAcceptFailInfo>당신은 과학연구부의 이 문제 처리를 돕기로 결정했습니다... 하지만 통신대 맞은편의 시종이 또다시 무언가를 뒤지러 갔는지 당신의 통신에 응답하지 않았습니다...</OARK_EMReviewAcceptFailInfo>
+
+<OARK_EconomyMinistryReview_OutcomeRoot>모든 장부 정리가 끝나고, 통합부가 정보 수집을 완료하자, 마침내 과학연구부의 심판일이 도래했습니다.\n\n이번 심사의 참여자 중 한 명으로서, 당신은 특별히 이번 심사의 방청에 초대받았습니다.</OARK_EconomyMinistryReview_OutcomeRoot>
+
+<OARK_EconomyMinistryReview_OutcomeWait>...\n...\n...\n...\n...\n...\n...\n\n현재 정보를 바탕으로, 통합부는 마침내 결정을 내렸습니다.</OARK_EconomyMinistryReview_OutcomeWait>
+
+<OARK_EconomyMinistryReview_OutcomeSD>당신의 도움 덕분에, 과학연구부는 자신들이 초래한 대량의 물자 손실에 대해 간신히 해명할 수 있었습니다. 이 장부들은 여전히 허점투성이였지만, 과학연구부의 성격과 궁정부의 온화한 조율 덕분에, 그들은 마침내 통합관의 의미심장한 눈빛 속에서 식은땀을 흘리며 이 심판을 피했습니다.\n\n만약 그들이 자신들의 문제를 고치지 않는다면 다음 심사가 머지않았다는 것을 예상할 수 있지만, 어쨌든 이제 그들은 더 이상 꿈에 그리던 그 장부책을 찾기 위해 온 집안을 뒤질 필요가 없어졌습니다.\n\n당신의 도움에 대한 보상으로, 과학연구부에서 배정한 {0} 과학연구 공헌을 획득합니다.</OARK_EconomyMinistryReview_OutcomeSD>
+<OARK_EconomyMinistryReview_OutcomeEM>당신의 도움 덕분에, 통합부는 대량의 원시적이고 혼란스러운 자료를 성공적으로 수집했습니다.\n이 자료들은 하나같이 과학연구부의 지극히 혼란스러운 물자 관리를 보여주었으며, 모든 자료는 통합부 구성원들에게 푸른 영혼의 피해를 입히는 동시에 과학연구부를 고발하는 최고의 "죄증"이 되었습니다.\n\n결국 이 판결은毫无悬念했고, 궁정부와 통합부의 연합 심사에 직면하여, 과학연구부의 물자 관리상의 재앙과도 같은 허점이 완전히 드러났습니다. 그리고 이 반박할 수 없는 결과 아래, 과학연구부 구성원들의 매우 억울한 표정 속에서, 그들은 마땅한 처벌을 받았습니다——미래에는 모든 물자 승인(특히 유심화고)이 엄격하게 심사될 것이며, 이 기간 동안 그들은 다시 물자 손실의 블랙홀이 되지 않도록 물자를 아끼는 법을 배워야만 합니다.\n\n당신의 도움에 대한 보상으로, 통합부에서 배정한 {0} 지원 공헌을 획득합니다.</OARK_EconomyMinistryReview_OutcomeEM>
+<OARK_EconomyMinistryReview_OutcomeWinWin>당신의 도움 덕분에, 통합부는 대량의 원시적이고 혼란스러운 자료를 성공적으로 수집했습니다. 하지만 동시에 당신이 꾸준히认真하게 수집한 과학연구관이 제공한 정보 덕분에, 당신은 과학연구부의 이러한 행위들을 일정 범위 내에서 성공적으로 변호할 수 있었습니다.\n\n당신의 변호와 설명, 그리고 옆에 있던 과학연구부 시종들의 연이은 동조에 힘입어, 통합부는 그 끔찍하게 혼란스러운 자료들을 가지고 있었음에도 불구하고, 결국 반신반의하는 표정으로 더 이상의 추궁을 포기했습니다.\n\n그러나 과학연구부가 이 심사를 성공적으로 통과했음에도 불구하고, 심사 중에 통합부가 그 자료들에 대해 제기했던 하나하나의 치명적인 질문들은 과학연구부 구성원들에게 적지 않은 인상을 남겼습니다. 당신은 심사가 끝난 후 과학연구부 구성원들이 무언가 생각하기 시작한 것을 눈치챘고, 멀지 않은 곳의 통합관은 그들의 뒷모습을 보며, 어쩔 수 없다는 표정이 점차 안도감으로 바뀌는 것을 보았습니다.\n\n어쩌면 그들은 정말로 서로를 이해했을지도 모릅니다.\n\n당신의 도움에 대한 보상으로, 과학연구부에서 배정한 {0} 과학연구 공헌과, 통합부에서 배정한 {0} 지원 포인트를 획득합니다.</OARK_EconomyMinistryReview_OutcomeWinWin>
+<OARK_EconomyMinistryReview_OutcomeUnknown>당신 덕분에...... 이상하네, 당신의 연결이 알 수 없는 이유로 중단되었습니다. 왜일까요? 당신은 아직 결말을 보지 못했는데.\n\n\n(트리거 실패, 이 상황을 피드백해 주십시오. 가능하다면 원인도 함께 첨부해 주세요.)</OARK_EconomyMinistryReview_OutcomeUnknown>
+</LanguageData>

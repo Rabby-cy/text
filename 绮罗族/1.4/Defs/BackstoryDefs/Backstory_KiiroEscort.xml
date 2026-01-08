@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!--<AlienRace.AlienBackstoryDef Name="Kiiro_EscortBackstoryBase" Abstract="True">
+		<requiredWorkTags>
+          <li>Violent</li>
+        </requiredWorkTags>
+		<forcedHediffs>
+		</forcedHediffs> 
+		<spawnCategories>
+			<li>Kiiro_Escort</li>
+		</spawnCategories>
+		<bodyTypeFemale>Female</bodyTypeFemale>
+		<bodyTypeMale>Female</bodyTypeMale>
+	</AlienRace.AlienBackstoryDef>
+
+
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_EscortBackstoryBase">
+		<defName>Kiiro_BackstoryEscort_01</defName>
+		<title>绮罗 镖师</title>
+		<titleShort>镖师</titleShort>
+		<baseDesc>[PAWN_nameDef]在一家镖局里任职。这一行很辛苦，总是风餐露宿东奔西走，路上还可能遇到危险。但是[PAWN_nameDef]已经习惯了。</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>3</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_EscortBackstoryBase">
+		<defName>Kiiro_BackstoryEscort_02</defName>
+		<title>绮罗 镖师</title>
+		<titleShort>镖师</titleShort>
+		<baseDesc>[PAWN_nameDef]生性喜爱旅行，当得知加入镖局不仅可以旅行还能拿到一些报酬之后，[PAWN_nameDef]欣然加入了。</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Cooking</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_EscortBackstoryBase">
+		<defName>Kiiro_BackstoryEscort_03</defName>
+		<title>绮罗 镖头</title>
+		<titleShort>镖头</titleShort>
+		<baseDesc>[PAWN_nameDef]很早就加入了镖局，在这一行上摸爬滚打了很多年，如今也是一个能够独当一面的可靠镖头了。</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>2</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>5</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_EscortLeader</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_EscortBackstoryBase">
+		<defName>Kiiro_BackstoryEscort_04</defName>
+		<title>绮罗 镖局弓手</title>
+		<titleShort>镖局弓手</titleShort>
+		<baseDesc>[PAWN_nameDef]在一个偏远村子当了多年猎户，这样一成不变的生活令[PAWN_nameDef]感到枯燥。直到见过镖局护送的商队浩浩荡荡从村子经过，她萌发了加入她们游历世界的想法。</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Animals</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_EscortArcher</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_EscortBackstoryBase">
+		<defName>Kiiro_BackstoryEscort_05</defName>
+		<title>绮罗 镖局弓手</title>
+		<titleShort>镖局弓手</titleShort>
+		<baseDesc>[PAWN_nameDef]是镖局的一名弓箭手。经过多年的训练和考验，[PAWN_nameDef]的弓已经能够用的相当好。</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>4</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>1</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_EscortArcher</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_EscortBackstoryBase">
+		<defName>Kiiro_BackstoryEscort_06</defName>
+		<title>绮罗 镖头</title>
+		<titleShort>镖头</titleShort>
+		<baseDesc>常年的接镖生活使得[PAWN_nameDef]养成了总是摆出一副凶悍表情的习惯，对下属也一向严厉要求。新来的镖师总是很害怕她，但大家不知道的是[PAWN_nameDef]其实也是一个内心很柔软的人，只是她必须要对整个商队的安全负责。</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Shooting</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Melee</key>
+				<value>3</value>
+			</li>
+			<li>
+				<key>Social</key>
+				<value>2</value>
+			</li>
+		</skillGains>
+		<spawnCategories>
+			<li>Kiiro_EscortLeader</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef ParentName="Kiiro_EscortBackstoryBase">
+		<defName>Kiiro_BackstoryEscort_07</defName>
+		<title>绮罗 镖师</title>
+		<titleShort>镖师</titleShort>
+		<baseDesc>[PAWN_nameDef]是一名普通的镖师。接几趟护送的活儿，领几天糊口的饭钱，这就是[PAWN_nameDef]最近在干的事情。</baseDesc>
+		<slot>Adulthood</slot>
+		<skillGains>
+			<li>
+				<key>Melee</key>
+				<value>4</value>
+			</li>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>-->
+
+</Defs>

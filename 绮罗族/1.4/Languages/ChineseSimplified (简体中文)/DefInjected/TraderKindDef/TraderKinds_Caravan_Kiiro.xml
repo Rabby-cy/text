@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- EN: nomadic trader -->
+  <Caravan_Kiiro_Nomadism.label>牧羊人</Caravan_Kiiro_Nomadism.label>
+  
+  <!-- EN: clothing trader -->
+  <Caravan_Kiiro_Clothing.label>服装商</Caravan_Kiiro_Clothing.label>
+  
+  <!-- EN: housekeeping group -->
+  <Caravan_Kiiro_HousekeepingGroup.label>家政团</Caravan_Kiiro_HousekeepingGroup.label>
+
+
+</LanguageData>

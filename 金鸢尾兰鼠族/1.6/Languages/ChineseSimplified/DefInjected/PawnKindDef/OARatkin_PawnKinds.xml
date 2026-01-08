@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+	<OA_RK_Colonist_A.label>金鸢尾兰殖民者</OA_RK_Colonist_A.label>
+	<OA_RK_Colonist_B.label>金鸢尾兰武装殖民者</OA_RK_Colonist_B.label>
+	<OA_RK_Colonist_C.label>金鸢尾兰商人</OA_RK_Colonist_C.label>
+	<OA_RK_Traveller.label>金鸢尾兰远行者</OA_RK_Traveller.label>
+	<OA_RK_Court_Member.label>金鸢尾兰侍从</OA_RK_Court_Member.label>
+	<OA_RK_Court_Member_B.label>金鸢尾兰工业部侍从</OA_RK_Court_Member_B.label>
+	<OA_RK_Court_Member_C.label>金鸢尾兰技术部侍从</OA_RK_Court_Member_C.label>
+	<OA_RK_Elite_Court_Member.label>金鸢尾兰宫廷干部</OA_RK_Elite_Court_Member.label>
+	<OA_RK_Noble_A.label>金鸢尾兰高族</OA_RK_Noble_A.label>
+	<OA_RK_Noble_B.label>金鸢尾兰名族</OA_RK_Noble_B.label>
+	<OA_RK_Noble_C.label>金鸢尾兰望士</OA_RK_Noble_C.label>
+	<OA_RK_Noble_D.label>金鸢尾兰上者</OA_RK_Noble_D.label>
+	<OA_RK_Noble_E.label>金鸢尾兰外宫族</OA_RK_Noble_E.label>
+	<OA_RK_Noble_F.label>金鸢尾兰内宫族</OA_RK_Noble_F.label>
+	<OA_RK_Assault_A.label>金鸢尾兰突袭队小队长</OA_RK_Assault_A.label>
+	<OA_RK_Assault_B.label>金鸢尾兰突袭队成员</OA_RK_Assault_B.label>
+	<OA_RK_Assault_C.label>金鸢尾兰突袭队医护员</OA_RK_Assault_C.label>
+	<OA_RK_Assault_D.label>金鸢尾兰突袭队支援手</OA_RK_Assault_D.label>
+	<OA_RK_Assault_E.label>金鸢尾兰突袭队重武器手</OA_RK_Assault_E.label>
+	<OA_RK_Guard_Member.label>金鸢尾兰宫廷护卫队队员</OA_RK_Guard_Member.label>
+	<OA_RK_Guard_Captain.label>金鸢尾兰宫廷护卫队队长</OA_RK_Guard_Captain.label>
+	
+</LanguageData>

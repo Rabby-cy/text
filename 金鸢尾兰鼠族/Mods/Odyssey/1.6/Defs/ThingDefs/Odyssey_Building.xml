@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef ParentName="GravshipComponentBase">
+        <defName>OARK_GravFieldExtender</defName>
+        <label>Golden Iris Orchid Anti-Gravity Extension Device</label>
+        <description>A gravitational extension device specially made by the Golden Iris Orchid Research Department after reverse-engineering anti-gravity technology to assist the operation of anti-gravity engines. Placing it near an anti-gravity engine can enhance the engine's gravitational energy level, increasing the number of frames an anti-gravity ship can support.</description>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Building/OARK_GravFieldExtender</texPath>
+            <drawSize>(2.5,2.5)</drawSize>
+            <drawOffset>(0,0,0.06)</drawOffset>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>300</MaxHitPoints>
+            <Mass>25</Mass>
+            <WorkToBuild>42000</WorkToBuild>
+            <Beauty>38</Beauty>
+        </statBases>
+        <size>(2,2)</size>
+        <fillPercent>0.6</fillPercent>
+        <passability>PassThroughOnly</passability>
+        <pathCost>14</pathCost>
+        <canOverlapZones>false</canOverlapZones>
+        <designationCategory>Odyssey</designationCategory>
+        <constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+        <resourcesFractionWhenDeconstructed>1</resourcesFractionWhenDeconstructed>
+        <rotatable>false</rotatable>
+        <researchPrerequisites>
+            <li>OARK_Odyssey_GravFieldCore</li>
+        </researchPrerequisites>
+        <costList>
+            <Gravcore>1</Gravcore>
+            <GravlitePanel>20</GravlitePanel>
+            <ComponentSpacer>1</ComponentSpacer>
+            <Uranium>60</Uranium>
+        </costList>
+        <terrainAffordanceNeeded>Substructure</terrainAffordanceNeeded>
+        <placeWorkers>
+            <li>PlaceWorker_InRangeOfGravEngine</li>
+        </placeWorkers>
+        <building>
+            <relatedTerrain>
+                <li>Substructure</li>
+            </relatedTerrain>
+        </building>
+        <comps>
+            <li Class="CompProperties_Glower">
+                <glowRadius>4</glowRadius>
+                <glowColor>(160,142,142,0)</glowColor>
+            </li>
+            <li Class="CompProperties_GravshipFacility">
+                <statOffsets>
+                    <SubstructureSupport>250</SubstructureSupport>
+                    <GravshipRange>5</GravshipRange>
+                </statOffsets>
+                <requiresLOS>false</requiresLOS>
+                <maxSimultaneous>4</maxSimultaneous>
+                <maxDistance>6.9</maxDistance>
+                <onlyRequiresLooseConnection>true</onlyRequiresLooseConnection>
+            </li>
+        </comps>
+        <uiOrder>2400</uiOrder>
+    </ThingDef>
+
+    <ThingDef ParentName="GravshipComponentBase">
+        <defName>OARK_AirportClearanceBeacon</defName>
+        <label>Golden Iris Orchid Airport Clearance Beacon</label>
+        <description>A beacon used by the Golden Iris Orchid Empire to identify friendly ships. Activating this beacon will allow the ship to temporarily dock at a Golden Iris Orchid spaceport for supplies, increasing the maximum range of a single flight.\n\nNote: This beacon will automatically activate when the ship takes off.\nNote: This beacon is a single-use item.</description>
+        <thingClass>OberoniaAurea.AirportClearanceBeacon</thingClass>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Building/OARK_SpaceportAccessPermit</texPath>
+            <drawSize>(1.4,1.4)</drawSize>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>150</MaxHitPoints>
+            <Mass>7.5</Mass>
+            <WorkToBuild>12000</WorkToBuild>
+            <MarketValue>1400</MarketValue>
+            <Beauty>52</Beauty>
+        </statBases>
+        <fillPercent>0.4</fillPercent>
+        <passability>PassThroughOnly</passability>
+        <pathCost>20</pathCost>
+        <canOverlapZones>false</canOverlapZones>
+        <!--designationCategory>Odyssey</designationCategory-->
+        <resourcesFractionWhenDeconstructed>0.5</resourcesFractionWhenDeconstructed>
+        <rotatable>false</rotatable>
+        <costList>
+            <Uranium>20</Uranium>
+            <Steel>40</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
+        <placeWorkers>
+            <li>PlaceWorker_OnSubstructure</li>
+            <li>PlaceWorker_InRangeOfGravEngine</li>
+        </placeWorkers>
+        <building>
+            <relatedTerrain>
+                <li>Substructure</li>
+            </relatedTerrain>
+        </building>
+        <comps>
+            <li Class="CompProperties_Glower">
+                <glowRadius>3</glowRadius>
+                <glowColor>(160,142,142,0)</glowColor>
+            </li>
+            <li Class="CompProperties_GravshipFacility">
+                <statOffsets>
+                    <GravshipRange>80</GravshipRange>
+                </statOffsets>
+                <requiresLOS>false</requiresLOS>
+                <maxSimultaneous>10</maxSimultaneous>
+                <maxDistance>19.9</maxDistance>
+            </li>
+        </comps>
+        <uiOrder>2400</uiOrder>
+    </ThingDef>
+
+    <ThingDef ParentName="GravshipComponentBase">        <!--天哪，这是重复的 (⊙o⊙)-->
+        <defName>OARK_SpaceportAccessPermit</defName>
+        <label>Golden Iris Orchid Spaceport Access Permit</label>
+        <description>A beacon used by the Golden Iris Orchid Empire to identify friendly ships. Activating this beacon will allow the ship to temporarily dock at a Golden Iris Orchid spaceport for supplies, increasing the maximum range of a single flight.\n\nNote: This beacon will automatically activate when the ship takes off.\nNote: This beacon is a single-use item.</description>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Building/OARK_SpaceportAccessPermit</texPath>
+            <drawSize>(1.4,1.4)</drawSize>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <Mass>15</Mass>
+            <WorkToBuild>1500</WorkToBuild>
+            <MarketValue>1400</MarketValue>
+            <Beauty>52</Beauty>
+        </statBases>
+        <fillPercent>0.4</fillPercent>
+        <passability>PassThroughOnly</passability>
+        <pathCost>14</pathCost>
+        <canOverlapZones>false</canOverlapZones>
+        <!--designationCategory>Odyssey</designationCategory-->
+        <resourcesFractionWhenDeconstructed>0.5</resourcesFractionWhenDeconstructed>
+        <rotatable>false</rotatable>
+        <costList>
+            <Uranium>20</Uranium>
+            <Steel>40</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+        </costList>
+        <placeWorkers>
+            <li>PlaceWorker_OnSubstructure</li>
+            <li>PlaceWorker_InRangeOfGravEngine</li>
+        </placeWorkers>
+        <building>
+            <neverBuildable>true</neverBuildable>
+            <relatedTerrain>
+                <li>Substructure</li>
+            </relatedTerrain>
+        </building>
+        <comps>
+            <li Class="CompProperties_Glower">
+                <glowRadius>3</glowRadius>
+                <glowColor>(160,142,142,0)</glowColor>
+            </li>
+            <li Class="CompProperties_GravshipFacility">
+                <statOffsets>
+                    <GravshipRange>80</GravshipRange>
+                </statOffsets>
+                <requiresLOS>false</requiresLOS>
+                <maxSimultaneous>10</maxSimultaneous>
+                <maxDistance>19.9</maxDistance>
+            </li>
+            <li Class="OberoniaAurea_Frame.CompProperties_DestoryAfterSwapMap"/>
+        </comps>
+        <uiOrder>2400</uiOrder>
+    </ThingDef>
+
+    <ThingDef ParentName="OA_SkyWarmthBase">
+        <defName>OARK_GravFieldGenerator</defName>
+        <label>Small Gravitational Field Generator</label>
+        <description>A gravitational device that can continuously construct a gravitational field around it and attach to nearby units, often used by the Golden Iris Orchid Empire to provide temporary vacuum protection during the initial construction of an airport.\n\nWhen the airport is invaded, this device can also actively create a strong gravitational field to suppress all individuals within its range.</description>
+        <size>(3,3)</size>
+        <graphicData>
+            <texPath>Building/OARK_GravFieldGenerator</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(3.9,3.9)</drawSize>
+            <shadowData>
+                <volume>(3.5,0.75,3.4)</volume>
+                <offset>(0,0,0)</offset>
+            </shadowData>
+        </graphicData>
+        <constructionSkillPrerequisite>15</constructionSkillPrerequisite>
+        <researchPrerequisites>
+            <li>OARK_Odyssey_GravFieldCore</li>
+        </researchPrerequisites>
+        <rotatable>false</rotatable>
+        <uiOrder>2420</uiOrder>
+        <statBases>
+            <MaxHitPoints>500</MaxHitPoints>
+            <WorkToBuild>82000</WorkToBuild>
+            <Mass>125</Mass>
+            <Flammability>0</Flammability>
+            <Beauty>142</Beauty>
+        </statBases>
+        <costList>
+            <Uranium>280</Uranium>
+            <Plasteel>200</Plasteel>
+            <ComponentSpacer>5</ComponentSpacer>
+        </costList>
+        <comps>
+            <li Class="OberoniaAurea.CompProperties_GiveHediffInRange_Building">
+                <compClass>OberoniaAurea.CompGiveHediffInRange_GravField</compClass>
+                <range>55.9</range>
+                <hediff>OARK_Hediff_GravField</hediff>
+                <checkInterval>250</checkInterval>
+            </li>
+            <li Class="CompProperties_MoteEmitter">
+                <mote>Mote_PsychicEmanatorEffect</mote>
+                <emissionInterval>350</emissionInterval>
+            </li>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>1400</basePowerConsumption>
+            </li>
+            <li Class="CompProperties_Glower">
+                <glowRadius>8</glowRadius>
+                <glowColor>(200,180,180,0)</glowColor>
+                <colorPickerEnabled>false</colorPickerEnabled>
+                <darklightToggle>false</darklightToggle>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

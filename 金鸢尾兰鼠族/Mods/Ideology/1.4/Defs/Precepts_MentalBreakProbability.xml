@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <IssueDef>
+        <defName>OA_RK_MentalBreakProbability</defName>
+        <label>Collapse inhibition</label>
+        <iconPath>Ui/OA_RK_MentalBreakProbability</iconPath>
+    </IssueDef>
+
+    <PreceptDef>
+        <defName>OA_RK_MentalBreakProbability_Low</defName>
+        <issue>OA_RK_MentalBreakProbability</issue>
+        <label>Available (sense of responsibility)</label>
+        <description>There is a probability that mental breakdown will be suppressed due to a sense of responsibility.</description>
+        <impact>Medium</impact>
+        <displayOrderInIssue>10</displayOrderInIssue>
+        <displayOrderInImpact>50</displayOrderInImpact>
+        <requiredMemes>
+            <li>OA_RK_meme_Friendly</li>
+        </requiredMemes>
+    </PreceptDef>
+    <ThoughtDef>
+        <defName>OA_RK_ResponsibilityConstraints</defName>
+        <durationDays>2</durationDays><!--原来是0.5、0.75--><!--这个一定程度上起到CD的作用，有这个的情况下再崩溃不会触发判定-->
+        <stackLimit>1</stackLimit>
+        <stages>
+            <li>
+                <label>Constraints of sense of responsibility</label>
+				<description>I don't want to be a burden to others.</description>
+                <!--description>我必须振作起来，大家还需要我，我不能成为大家的拖累。</description-->
+                <baseMoodEffect>8</baseMoodEffect>
+				<!--baseMoodEffect>14</baseMoodEffect-->
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <PreceptDef>
+        <defName>OA_RK_MentalBreakProbability_Atonement</defName>
+        <issue>OA_RK_MentalBreakProbability</issue>
+        <label>Available (for redemption)</label>
+        <description>There is a high probability that a mental breakdown will be suppressed for the sake of redemption.</description>
+        <impact>Medium</impact>
+        <displayOrderInIssue>20</displayOrderInIssue>
+        <displayOrderInImpact>50</displayOrderInImpact>
+        <associatedMemes>
+            <li>Guilty</li>
+        </associatedMemes>
+        <requiredMemes>
+            <li>Guilty</li>
+        </requiredMemes>
+    </PreceptDef>
+    <ThoughtDef>
+        <defName>OA_RK_Atonement</defName>
+        <durationDays>2.75</durationDays><!--原来是1-->
+        <stackLimit>1</stackLimit>
+        <stages>
+            <li>
+                <label>Painful redemption</label>
+                <description>This pain is a sin that I am destined to bear, and I must endure it.</description>
+				<baseMoodEffect>5</baseMoodEffect>
+                <!--baseMoodEffect>9</baseMoodEffect-->
+            </li>
+        </stages>
+    </ThoughtDef>
+
+</Defs>

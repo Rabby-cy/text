@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    
+    <!-- 多方会谈 -->
+    <OA_VisitMultiPartyTalks>access{0}</OA_VisitMultiPartyTalks>
+
+    <OA_LetterLabelMultiPartyTalks_Disaster>We messed up this meeting</OA_LetterLabelMultiPartyTalks_Disaster>
+    <OA_LetterMultiPartyTalks_Disaster>Your representative not only failed to coordinate the atmosphere of the meeting, but also repeatedly made provocative and controversial remarks. These provocative and controversial remarks ultimately led representatives of other forces to start a verbal altercation with each other, which quickly escalated into on-site fighting. When your representative was rescued from the flying chairs and folders by the staff of the Golden Iris Orchid on site, you could feel that their eyes at you were filled with unclear meanings.\n\nGood impression with all factions involved in the meeting: {1}, good impression with {0}: {2}.</OA_LetterMultiPartyTalks_Disaster>
+
+    <OA_LetterLabelMultiPartyTalks_Backfire>We made inappropriate remarks</OA_LetterLabelMultiPartyTalks_Backfire>
+    <OA_LetterMultiPartyTalks_Backfire>The final outcome of this negotiation went against expectations. Due to your representative's careless and controversial remarks, the atmosphere of the meeting quickly slid into the abyss of mutual quarrels, and ultimately the negotiation came to an unhappy end.\n\nLikes all factions involved in the talks, including {0}: {1}.</OA_LetterMultiPartyTalks_Backfire>
+
+    <OA_LetterLabelMultiPartyTalks_Flounder>This meeting is very deadlocked</OA_LetterLabelMultiPartyTalks_Flounder>
+    <OA_LetterMultiPartyTalks_Flounder>The negotiation process was fraught with numerous difficulties. Even though your representatives have tried to ease the conflicts among various forces, unfortunately, the interests involved are too extensive. Therefore, representatives of various forces still adhere to their own positions and have not been able to reach a consensus.\n\nThe relationship with all participants in the meeting remains unchanged, but the relationship with {0} has improved: {1}.</OA_LetterMultiPartyTalks_Flounder>
+
+    <OA_LetterLabelMultiPartyTalks_Success>Successful peace negotiations</OA_LetterLabelMultiPartyTalks_Success>
+    <OA_LetterMultiPartyTalks_Success>The negotiation was successful. Although the key issues have not yet been resolved, at least representatives of various forces have shown a tendency to ease tensions. \The relationship between n and the three factions involved in the talks has increased by {1}, and the relationship with {0} has increased by {2}.\n\nIn addition, as your representative played an important role in this meeting, {0} stated that he will remember his contributions during this meeting. You have obtained {3} support points.</OA_LetterMultiPartyTalks_Success>
+
+    <OA_LetterLabelMultiPartyTalks_Triumph>The peace negotiations have come to a successful conclusion</OA_LetterLabelMultiPartyTalks_Triumph>
+    <OA_LetterMultiPartyTalks_Triumph>The negotiations achieved unimaginable great success, with representatives from various powers truly understanding each other's needs and difficulties, and making partial concessions and adjustments in these aspects. It can be foreseen that this will effectively promote a harmonious atmosphere throughout the planet.\n\nThe relationship with all factions involved in the talks has increased by {1}, and the relationship with {0} has increased by {2}. \In addition, as your representative played an important role in this meeting, {0} expressed that he will remember his contributions in this meeting. You have obtained {4} support points.</OA_LetterMultiPartyTalks_Triumph>
+
+    <OA_GoodWillChange>与{0}关系：{1}</OA_GoodWillChange>
+
+
+    <!-- 外交斡旋 -->
+    <OA_OptionalDiplomaticOffices>{0}'s {1} wants to hold a diplomatic mediation for us.</OA_OptionalDiplomaticOffices>
+
+    <OA_VisitDiplomaticOffices>access{0}</OA_VisitDiplomaticOffices>
+
+    <OA_LetterLabelDiplomaticOffices_Success>Successful diplomatic mediation</OA_LetterLabelDiplomaticOffices_Success>
+    <OA_LetterDiplomaticOffices_Success>Mediation successful. Under the mediation of {0}, representatives from both sides reached an understanding on a series of issues. \n\nThe relationship between n and {1} has improved {2}.</OA_LetterDiplomaticOffices_Success>
+
+    <OA_LetterLabelDiplomaticOffices_Triumph>The successful conclusion of diplomatic mediation</OA_LetterLabelDiplomaticOffices_Triumph>
+    <OA_LetterDiplomaticOffices_Triumph>The mediation has achieved significant success! Whenever {0} raises some issues, representatives from both sides are often able to take up these topics in a harmonious atmosphere without any discord, and engage in rational and friendly communication and discussion. When this mediation came to an end, representatives from both sides had almost formed a friendship and ultimately reached a series of highly important consensus on behalf of their respective factions.\n\n与{1}间的关系提升了{2}。</OA_LetterDiplomaticOffices_Triumph>
+
+
+    
+    <!-- 派系基地：深入沟通 -->
+    <OA_SettlementDeepExchange>Deep communication</OA_SettlementDeepExchange>
+    <OA_LetterLabelDeepExchange>Deep communication</OA_LetterLabelDeepExchange>
+    <OA_LetterResearchDeepExchange>Your expedition team is trying to connect with {SETTLEMENT_label} The high-ranking officials of the Golden Iris Orchid Palace had some exchanges and in-depth discussions to promote mutual understanding. After this relatively harmonious discussion,The court of {SETLEment_label} has gained a more detailed understanding of your situation, and their willingness to provide assistance to you has increased. \At the end of the meeting, the palace staff of {SETLEment_label} presented you with a box of flower cakes as a gift to friends and wished you a smooth journey.\n\n获得：\n金鸢尾兰流心花糕 × 10 \n支援点数 × 5</OA_LetterResearchDeepExchange>
+    <OA_LetterResearchDeepExchangeAdditional>In addition, your negotiator also received intelligence from the court of {SETLEment_label}, perhaps you can try to actively assist the Golden Iris Empire to obtain more rewards.\n获得任务：{1}</OA_LetterResearchDeepExchangeAdditional>
+
+    <!-- 派系基地：利益谈判 -->
+    <OA_FixedCaravanRSAssistWork_TimeLeft>In interest negotiation, timeleft {0}</OA_FixedCaravanRSAssistWork_TimeLeft>
+
+    <OA_SettlementDiplomaticSummit>Interest negotiation</OA_SettlementDiplomaticSummit>
+    <OA_ConfirmDiplomaticSummit>Your negotiator will have an expected two-hour and difficult negotiation with the court officials of {SETLEment_label}. If you succeed, you will receive more assistance. However, if you fail or leave midway, your relationship with the local court will deteriorate. Are you sure?</OA_ConfirmDiplomaticSummit>
+
+    <OA_ConfirmDiplomaticSummitInfo>After careful consideration by your negotiators, you have formally requested more assistance from the court of {SETLEment_label} and conducted a diplomatic negotiation to determine the final outcome. Under your strong demands, the Golden Iris Orchid Palace finally agreed to your request and specially arranged a negotiation conference room for you.</OA_ConfirmDiplomaticSummitInfo>
+
+    <OA_DiplomaticSummitNegotiatingTeamLevelBeginner>......\n\nWhen you step into the conference room, you observe that your opponent is noticeably more nervous compared to you in away negotiations. And at the beginning of the negotiation, they made some tactical mistakes due to nervousness, perhaps this meeting will be more beneficial to you.</OA_DiplomaticSummitNegotiatingTeamLevelBeginner>
+
+    <OA_DiplomaticSummitNegotiatingTeamLevelStandard>......\n\nWhen you enter the conference room, you observe that your opponents seem to be fully prepared for the upcoming negotiations. They are whispering to each other, seemingly discussing relevant language, and perhaps this meeting will be a evenly matched negotiation</OA_DiplomaticSummitNegotiatingTeamLevelStandard>
+
+    <OA_DiplomaticSummitNegotiatingTeamLevelSophistication>......\n\nWhen you step into the conference room, you observe that your opponent seems confident. When they politely greet you, you notice that your relevant information has already been placed in front of their table. Perhaps this meeting will be a difficult negotiation.</OA_DiplomaticSummitNegotiatingTeamLevelSophistication>
+
+    <OA_DiplomaticSummitNegotiatingTeamLevelExcellence>......\n\nWhen you step into the conference room, you can't see the mentality of your opponents towards this negotiation at all. Behind their kind smiles lies a bottomless strategy, and you can feel as if your every word and action is under their observation. Perhaps this meeting will be a one-sided negotiation.</OA_DiplomaticSummitNegotiatingTeamLevelExcellence>
+    
+    <OA_LetterLabelDiplomaticSummit_LeaveHalfway>Interest negotiation: leaving midway </OA_LetterLabelDiplomaticSummit_LeaveHalfway>
+    <OA_LetterDiplomaticSummit_LeaveHalfway>During the negotiation, your negotiator used some clumsy excuses as an excuse to leave the negotiation room and never returned.\n\n与{1}的好感度：{2}</OA_LetterDiplomaticSummit_LeaveHalfway>
+
+    <OA_LetterLabelDiplomaticSummit_Disaster>Interest negotiations: a painful failure</OA_LetterLabelDiplomaticSummit_Disaster>
+    <OA_LetterDiplomaticSummit_Disaster>Despite your negotiator's repeated attempts to salvage the situation, your opponent relentlessly pursued you time and time again, to the point where it eventually evolved into a unilateral and ruthless criticism of your unreasonable demands. At the end of this negotiation, the outcome was already quite clear: \n\nMost of your demands have been rejected by the court of {SETLEment_label} with valid reasons, while a few excessive demands are seen as insults to {1} and disrespect for your alliance, ultimately leading to a significant deterioration in the court's perception of you. \n\nFavorability with {1}: {2} \ n \ n The support points will not naturally increase in the next {3} days.</OA_LetterDiplomaticSummit_Disaster>
+
+    <OA_LetterLabelDiplomaticSummit_Flounder>Interest negotiations: minor failures</OA_LetterLabelDiplomaticSummit_Flounder>
+    <OA_LetterDiplomaticSummit_Flounder>Although in some negotiation matters, your negotiators have led the situation to your advantage, in most cases, you are still silenced by rebuttals and have to compromise. In the end, at the end of this negotiation, your negotiator secured the following situation for you: \n\nYour very few requests have been accepted by the court of {SETLEment_label}, but the vast majority of your requests have still been rejected by the court of {SETLEment_label}. Furthermore, although your negotiator tried to make your demands seem reasonable, the court of {SETLEment_label} still left a bad impression on you. \n\n与{1}的好感度：{2} \n获得： \n支援点数 × {3}</OA_LetterDiplomaticSummit_Flounder>
+
+    <OA_LetterLabelDiplomaticSummit_Success>Interest negotiation: a small success</OA_LetterLabelDiplomaticSummit_Success>
+    <OA_LetterDiplomaticSummit_Success>In this negotiation, you and your opponents are constantly questioning and refuting each other, in order to seek the maximum benefits for each other's factions as much as possible. After the intense battle between words and intellect ended, your negotiator won the following results for you: \n\nThe court of {SETLEment_label} agreed to some of your demands and deemed them reasonable. However, regarding the small amount of unreasonable demands made by your negotiators, the court of {SETLEment_label} believed that these were just some negotiation methods and did not affect their perception of you.\n\n获得： \n支援点数 × {2}</OA_LetterDiplomaticSummit_Success>
+
+    <OA_LetterLabelDiplomaticSummit_Triumph>Interest negotiations: brilliant success</OA_LetterLabelDiplomaticSummit_Triumph>
+    <OA_LetterDiplomaticSummit_Triumph>In this one-sided negotiation, your negotiator seems to have insight into people's hearts and is always able to accurately step on the other party's bottom line without crossing it. And when your opponent questions your negotiator, your negotiator can resolve it with just a few words. In the end, even if your opponent racked their brains, they could not reasonably reject your request, which resulted in the following situation for you:\n\nThe court of {SETLEment_label} almost obediently agreed to the vast majority of your demands and believed that it was their fault for not paying attention to your difficulties. This means that even if your negotiator puts forward quite excessive conditions, they only believe that it is your negotiator venting their dissatisfaction without too much investigation.\nIn addition, to express their apologies, when you left the court, the court attendants presented you with a gift to symbolize your friendly relationship.\n\n与{1}的好感度：{2} \n获得： \n支援点数 × {3} \n白银 × {4}</OA_LetterDiplomaticSummit_Triumph>
+
+
+</LanguageData>

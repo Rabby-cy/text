@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <RulePackDef>
+        <defName>OARK_RulePack_ProgressText_EM</defName>
+        <rulePack>
+            <rulesStrings>
+				<li>r_text->Today's communication background noise is much quieter than usual. Along with the silence that is completely different from the past, you can't help but feel a three-second moment of silence for the fate the research department is about to face.</li>
+				<li>r_text>You don't hear any noise in the communication. If nothing unexpected happens, the research department attendants should be making their last-ditch struggle for the upcoming review.</li>
+				<li>r_text->The sound of frustrated page-turning constantly comes from the communication console. You speculate that the idiots in the research department have lost another bill diary... if they ever kept records of it.</li>
+				<li>r_text->You hear the research department attendants discussing something in a panic. After distinguishing carefully, you realize they are looking for a material loss bill from a certain day.</li>
+				<li>r_text->The chaotic sound coming from the communication console makes you slightly uncomfortable, but as soon as you think about the reason why this group of attendants is so flustered, you feel that their noise is not unacceptable.</li>
+				<li>r_text->An attendant asks you through the communication console if you have their accounting information. You don't know where to start complaining.</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+</Defs>

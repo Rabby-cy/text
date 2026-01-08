@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<LetterLabelTributeCollectorArrival_OA>The Material Recruitment Team of Golden Iris Orchid</LetterLabelTributeCollectorArrival_OA>
+	<LetterTributeCollectorArrival_OA>The Golden Iris Orchid recruitment team from {0} has arrived at our residence and will stay here for a period of time. If we are willing, they will accept the gold, berries, and synthetic fibers we provide and record our contributions. When our contribution reaches a certain level, they will accept us and grant us noble status.</LetterTributeCollectorArrival_OA>
+
+	<OA_SupplyShipShowConcernLabel>Supply ship condolences</OA_SupplyShipShowConcernLabel>
+	<OA_SupplyShipShowConcern>The supply ship from {0} Golden Iris extends our condolences and also gifts us {1} berries.</OA_SupplyShipShowConcern>
+
+</LanguageData>

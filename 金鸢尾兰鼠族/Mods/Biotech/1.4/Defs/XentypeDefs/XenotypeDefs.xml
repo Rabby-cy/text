@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<XenotypeDef>
+		<defName>Ratkin_OA</defName>
+		<label>Oberonia Aurea Ratkin</label>
+		<description>The Oberonia Aurea Ratkin is a subspecies of the ratkin found in the rim worlds. Unlike their cousins in the rim worlds, the Oberonia Aurea Ratkin do not suffer from nearsightedness and have, due to historical environmental effects, adapted better to survive in extreme cold conditions. Moreover, most Oberonia Aurea Ratkin possess a natural talent for arts and crafts. Similarly, the extreme cold environment harbors fewer pathogens, resulting in a weaker immune system in Oberonia Aurea Ratkin compared to most ratkin. They often require extra care when sick, and a long reliance on mechanical production has gradually diminished their labor instincts, making them somewhat less capable in physical labor.</description>
+		<inheritable>true</inheritable>
+		<iconPath>Ui/OA_RK_Faction</iconPath>
+		<factionlessGenerationWeight>0.00001</factionlessGenerationWeight>
+		<genes>
+			<li>Immunity_Weak</li>
+			<li>PsychicAbility_Dull</li>
+			<li>MoveSpeed_Slow</li>
+			<li>Mood_Optimist</li>
+			<li>MinTemp_SmallDecrease</li>
+			<li>LowSleep</li>
+			<li>Beauty_Pretty</li>
+			<li>Beard_NoBeardOnly</li>
+			<li>Hair_Gray</li>
+			<li>Hair_Blonde</li>
+			<li>Hair_LightOrange</li>
+			<li>Hair_LightBlue</li>
+			<li>Hair_LightTeal</li>
+			<li>Skin_SheerWhite</li>
+			<li>Hair_Grayless</li>
+			<li>AptitudePoor_Animals</li>
+			<li>AptitudePoor_Mining</li>
+			<li>AptitudeStrong_Artistic</li>
+			<li>RK_OA_gene_Social</li>
+			<li>OA_RK_Gene_ColdAdaptation</li>
+		</genes>
+	</XenotypeDef>
+</Defs>

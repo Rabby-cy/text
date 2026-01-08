@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <Ammo792x54DU.label>7.92x54mm貧鈾彈</Ammo792x54DU.label>
+    <AmmoSet_792x54DU.label>7.92x54mm貧鈾彈</AmmoSet_792x54DU.label>
+	  <AmmoSet_792x54DU_LMG.label>7.92x54mm貧鈾彈</AmmoSet_792x54DU_LMG.label>
+	    <Ammo_792x54DU.label>7.92x54mm貧鈾彈</Ammo_792x54DU.label>
+		  <Bullet_792x54DU.label>7.92x54mm貧鈾彈</Bullet_792x54DU.label>
+		    <Bullet_792x54DU_LMG.label>7.92x54mm貧鈾彈</Bullet_792x54DU_LMG.label>
+			  <MakeAmmo_792x54DU.label>製作500發7.92x54mm貧鈾彈</MakeAmmo_792x54DU.label>
+    			<MakeAmmo_792x54DU.description>製作500發7.92x54mm貧鈾彈</MakeAmmo_792x54DU.description>
+				  <MakeAmmo_792x54DU.jobString>製作500發7.92x54mm貧鈾彈</MakeAmmo_792x54DU.jobString>
+				  
+	  <Ammo792x64DU.label>7.92x64mm貧鈾彈</Ammo792x64DU.label>
+    <AmmoSet_792x64DU.label>7.92x64mm貧鈾彈</AmmoSet_792x64DU.label>
+	  <AmmoSet_792x64DU_Adv.label>7.92x64mm貧鈾彈</AmmoSet_792x64DU_Adv.label>
+	    <Ammo_792x64DU.label>7.92x64mm貧鈾彈</Ammo_792x64DU.label>
+		  <Bullet_792x64DU.label>7.92x64mm貧鈾彈</Bullet_792x64DU.label>
+		    <Bullet_792x64DU_Adv.label>7.92x64mm貧鈾彈</Bullet_792x64DU_Adv.label>
+			  <MakeAmmo_792x64DU.label>製作500發7.92x64mm貧鈾彈</MakeAmmo_792x64DU.label>
+    			<MakeAmmo_792x64DU.description>製作500發7.92x64mm貧鈾彈</MakeAmmo_792x64DU.description>
+				  <MakeAmmo_792x64DU.jobString>製作500發7.92x64mm貧鈾彈</MakeAmmo_792x64DU.jobString>		
+
+	  <Ammo8x54mmUnstableCharged.label>8x54mm電荷彈</Ammo8x54mmUnstableCharged.label>
+    <AmmoSet_8x54mmUnstableCharged.label>8x54mm電荷彈</AmmoSet_8x54mmUnstableCharged.label>
+	  <Ammo_8x54mmUnstableCharged.label>8x54mm電荷彈</Ammo_8x54mmUnstableCharged.label>
+	    <Ammo_8x54mmUnstableCharged_AP.label>8x54mm不穩定電荷彈</Ammo_8x54mmUnstableCharged_AP.label>
+		  <Bullet_8x54mmUnstableCharged.label>8x54mm電荷彈</Bullet_8x54mmUnstableCharged.label>
+		    <Bullet_8x54mmUnstableCharged_AP.label>8x54mm不穩定電荷彈</Bullet_8x54mmUnstableCharged_AP.label>
+			  <MakeAmmo_8x54mmUnstableCharged.label>製作300發8x54mm電荷彈</MakeAmmo_8x54mmUnstableCharged.label>
+    			<MakeAmmo_8x54mmUnstableCharged.description>製作300發8x54mm電荷彈</MakeAmmo_8x54mmUnstableCharged.description>
+				  <MakeAmmo_8x54mmUnstableCharged.jobString>製作300發8x54mm電荷彈</MakeAmmo_8x54mmUnstableCharged.jobString>			
+			  <MakeAmmo_8x54mmUnstableCharged_AP.label>製作300發8x54mm不穩定電荷彈</MakeAmmo_8x54mmUnstableCharged_AP.label>
+    			<MakeAmmo_8x54mmUnstableCharged_AP.description>製作300發8x54mm不穩定電荷彈</MakeAmmo_8x54mmUnstableCharged_AP.description>
+				  <MakeAmmo_8x54mmUnstableCharged_AP.jobString>製作300發8x54mm不穩定電荷彈</MakeAmmo_8x54mmUnstableCharged_AP.jobString>		
+				  
+		  <Ammo116DU.label>11.6mm貧鈾彈</Ammo116DU.label>
+    <AmmoSet_116DU.label>11.6mm貧鈾彈</AmmoSet_116DU.label>
+	  <Ammo_116DU.label>11.6mm貧鈾彈</Ammo_116DU.label>
+	    <Bullet_116DU.label>11.6mm貧鈾彈</Bullet_116DU.label>
+		  <MakeAmmo_116DU.label>製作500發11.6mm貧鈾彈</MakeAmmo_116DU.label>
+		    <MakeAmmo_116DU.description>製作500發11.6mm貧鈾彈</MakeAmmo_116DU.description>
+			  <MakeAmmo_116DU.jobString>製作500發11.6mm貧鈾彈</MakeAmmo_116DU.jobString>
+			  
+			  		  <Ammo127x108DU.label>12.7x108mm貧鈾彈</Ammo127x108DU.label>
+    <AmmoSet_127x108DU.label>12.7x108mm貧鈾彈</AmmoSet_127x108DU.label>
+	  <Ammo_127x108DU.label>12.7x108mm貧鈾彈</Ammo_127x108DU.label>
+	    <Bullet_127x108DU.label>12.7x108mm貧鈾彈</Bullet_127x108DU.label>
+		  <MakeAmmo_127x108DU.label>製作200發12.7x108mm貧鈾彈</MakeAmmo_127x108DU.label>
+		    <MakeAmmo_127x108DU.description>製作200發12.7x108mm貧鈾彈</MakeAmmo_127x108DU.description>
+			  <MakeAmmo_127x108DU.jobString>製作200發12.7x108mm貧鈾彈</MakeAmmo_127x108DU.jobString>
+			  
+			  <Ammo14x84mmUnstableCharged.label>14x84mm不穩定電荷彈</Ammo14x84mmUnstableCharged.label>
+    <AmmoSet_14x84mmUnstableCharged.label>14x84mm不穩定電荷彈</AmmoSet_14x84mmUnstableCharged.label>
+	  <Ammo_14x84mmUnstableCharged.label>14x84mm不穩定電荷彈</Ammo_14x84mmUnstableCharged.label>
+	    <Bullet_14x84mmUnstableCharged.label>14x84mm不穩定電荷彈</Bullet_14x84mmUnstableCharged.label>
+		  <MakeAmmo_14x84mmUnstableCharged.label>製作100發14x84mm不穩定電荷彈</MakeAmmo_14x84mmUnstableCharged.label>
+		    <MakeAmmo_14x84mmUnstableCharged.description>製作100發14x84mm不穩定電荷彈</MakeAmmo_14x84mmUnstableCharged.description>
+			  <MakeAmmo_14x84mmUnstableCharged.jobString>製作100發14x84mm不穩定電荷彈</MakeAmmo_14x84mmUnstableCharged.jobString>		
+
+			  <Ammo35x181mmUnstableCharged.label>35x181不穩定電荷彈</Ammo35x181mmUnstableCharged.label>
+    <AmmoSet_35x181mmUnstableCharged.label>35x181不穩定電荷彈</AmmoSet_35x181mmUnstableCharged.label>
+	  <Ammo_35x181mmUnstableCharged.label>35x181不穩定電荷彈</Ammo_35x181mmUnstableCharged.label>
+	    <Bullet_35x181mmUnstableCharged.label>35x181不穩定電荷彈</Bullet_35x181mmUnstableCharged.label>
+		  <MakeAmmo_35x181mmUnstableCharged.label>製作20發35x181不穩定電荷彈</MakeAmmo_35x181mmUnstableCharged.label>
+		    <MakeAmmo_35x181mmUnstableCharged.description>製作20發35x181不穩定電荷彈</MakeAmmo_35x181mmUnstableCharged.description>
+			  <MakeAmmo_35x181mmUnstableCharged.jobString>製作20發35x181不穩定電荷彈</MakeAmmo_35x181mmUnstableCharged.jobString>					  
+		  
+		  				  
+		  <Ammo20x169DU.label>20x169mm貧鈾彈</Ammo20x169DU.label>
+    <AmmoSet_20x169DU.label>20x169mm貧鈾彈</AmmoSet_20x169DU.label>
+	<AmmoSet_20x169DU_B.label>20x169mm貧鈾彈</AmmoSet_20x169DU_B.label>
+	  <Ammo_20x169DU.label>20x169mm貧鈾彈</Ammo_20x169DU.label>
+	    <Bullet_20x169DU.label>20x169mm貧鈾彈</Bullet_20x169DU.label>
+		  <Bullet_20x169D_B.label>製作20x169mm貧鈾彈</Bullet_20x169D_B.label>
+		    <MakeAmmo_20x169DU.label>製作100發20x169mm貧鈾彈</MakeAmmo_20x169DU.label>
+			  <MakeAmmo_20x169DU.description>製作100發20x169mm貧鈾彈</MakeAmmo_20x169DU.description>
+			    <MakeAmmo_20x169DU.jobString>製作100發20x169mm貧鈾彈</MakeAmmo_20x169DU.jobString>
+</LanguageData>

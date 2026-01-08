@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <OA_RK_NEW_Backstory_B_A.title>OA·별들이돌보다한 아이</OA_RK_NEW_Backstory_B_A.title>
+  <OA_RK_NEW_Backstory_B_A.titleShort>축복받은 아이</OA_RK_NEW_Backstory_B_A.titleShort>
+  <OA_RK_NEW_Backstory_B_A.description>[PAWN_nameDef]는 다채로운 어린 시절을 보냈으며, 그중 가장 눈에 띄는 것은 [PAWN_pronoun]의 별들의 축복을 받은 듯한 행운이었습니다. 아무도 설명할 수 없었지만, [PAWN_nameDef]가 탑승한 우주선은 항상 평소보다 안정된 상태로 항해를 완료했으며, 이로 인해 [PAWN_pronoun]는 지역 통항부에서 가장 환영받는 승객이 되었습니다.</OA_RK_NEW_Backstory_B_A.description>  
+
+  <OA_RK_NEW_Backstory_B_B.title>OA·미지의 개척자</OA_RK_NEW_Backstory_B_B.title>
+  <OA_RK_NEW_Backstory_B_B.titleShort>어린 개척자</OA_RK_NEW_Backstory_B_B.titleShort>
+  <OA_RK_NEW_Backstory_B_B.description>아이의 호기심일지, 지식에 대한 갈망일지, 확실한 것은 [PAWN_nameDef]가 미지에 대한 열망으로 가득 찬 마음을 가지고 있다는 것입니다. 이 탐험자의 마음은 [PAWN_pronoun]를 안전한 안락함이 아닌 가장 깊은 비밀을 탐구하도록 이끌었습니다.</OA_RK_NEW_Backstory_B_B.description>  
+  
+  <OA_RK_NEW_Backstory_B_C.title>OA·어린 방랑자</OA_RK_NEW_Backstory_B_C.title>
+  <OA_RK_NEW_Backstory_B_C.titleShort>어린 방랑자</OA_RK_NEW_Backstory_B_C.titleShort>
+  <OA_RK_NEW_Backstory_B_C.description>중력장 장비 조정 사고로 인해, [PAWN_nameDef]의 어린 시절 한 시간은 하늘에 떠 내려오지 못했습니다. 이후 의료부 의사들이 왜 [PAWN_pronoun]를 걱정하며 계속 돌아다녔는지 이해하지 못했지만, 그 "날아오른" 신비로운 경험은 [PAWN_nameDef]의 마음에 깊이 새겨져 잊을 수 없게 되었습니다.</OA_RK_NEW_Backstory_B_C.description>  
+
+  <OA_RK_NEW_Backstory_B_D.title>OA·공항의 아이</OA_RK_NEW_Backstory_B_D.title>
+  <OA_RK_NEW_Backstory_B_D.titleShort>어린이</OA_RK_NEW_Backstory_B_D.titleShort>
+  <OA_RK_NEW_Backstory_B_D.description>"특별한" 공항 토착민으로서, [PAWN_nameDef]는 어릴 때부터 자신이 제국에서 통항부 구성원이 되기에 가장 적합한 쥐라고 믿었습니다. 이 타고난 사명감은 [PAWN_nameDef]가 자신에게 높은 기준을 요구하도록 만들었으며, 따라서 땅의 다양한 것들이 눈에 띄어도 [PAWN_pronoun]는 쉽게 육지 행 비행기를 타지 않았습니다.\n\n[PAWN_pronoun]를 아는 사람이 그 비행기에 없을 때만 제외하고.</OA_RK_NEW_Backstory_B_D.description>  
+  
+  <OA_RK_NEW_Backstory_B_E.title>OA·어린 정비사</OA_RK_NEW_Backstory_B_E.title>
+  <OA_RK_NEW_Backstory_B_E.titleShort>어린 기술자</OA_RK_NEW_Backstory_B_E.titleShort>
+  <OA_RK_NEW_Backstory_B_E.description>[PAWN_nameDef]의 집은 공항에 있습니다. 특별한 지리적 관계 덕분에, [PAWN_nameDef]는 쉽게 통항부 종사자들과 선원들과 친해질 수 있었고, 그들로부터 진지한 듯 장난스러운 전문 지식 교육을 받았습니다. 이렇게 자연스럽게 배우는 과정에서, [PAWN_nameDef]는 실제로 우주선에 사용할 수 있는 지식을 습득한 듯했습니다. 비록 조금뿐이었지만.</OA_RK_NEW_Backstory_B_E.description>  
+  
+  <OA_RK_NEW_Backstory_B_F.title>OA·용감한 어린 구원자</OA_RK_NEW_Backstory_B_F.title>
+  <OA_RK_NEW_Backstory_B_F.titleShort>어린 탐험가</OA_RK_NEW_Backstory_B_F.titleShort>
+  <OA_RK_NEW_Backstory_B_F.description>탐험, 구원, 보호! 어디서 배웠는지는 모르겠지만, [PAWN_nameDef]는 이 구호를 굳게 믿었습니다. 이 구호는 [PAWN_nameDef]의 어린 시절 가장 큰 행동 기준이 되었으며, [PAWN_pronoun]가 계속 지켜온 이상이 되었습니다. [PAWN_nameDef]의 마음속에서, 탐험과 보호는 항상 동등한 우선순위였습니다.</OA_RK_NEW_Backstory_B_F.description> 
+  
+  <OA_RK_NEW_Backstory_B_G.title>OA·"우주 탐험 대가"</OA_RK_NEW_Backstory_B_G.title>
+  <OA_RK_NEW_Backstory_B_G.titleShort>어린 정복자</OA_RK_NEW_Backstory_B_G.titleShort>
+  <OA_RK_NEW_Backstory_B_G.description>어디서 온 자신감인지는 모르겠지만, [PAWN_nameDef]는 자신이 언젠가 위대한 대탐험가가 될 것이라고 확신했습니다. [PAWN_pronoun]는 의심을 받기도 했고, 격려를 받기도 했으며, 결국 이러한 부정적인 시선들은 [PAWN_nameDef]의 고집스러운 끈기와 노력 앞에서 조용한 응원으로 바뀌었습니다.\n\n어쩌면 언젠가, 우리는 "[PAWN_nameDef]호"가 기적을 만들어내는 것을 볼 수 있을지도 모릅니다.</OA_RK_NEW_Backstory_B_G.description> 
+  
+  <OA_RK_NEW_Backstory_B_AA.title>OA·세계의 어린 분석가</OA_RK_NEW_Backstory_B_AA.title>
+  <OA_RK_NEW_Backstory_B_AA.titleShort>어린 분석가</OA_RK_NEW_Backstory_B_AA.titleShort>
+  <OA_RK_NEW_Backstory_B_AA.description>[PAWN_nameDef]는 인생이 큰 문제라고 생각했으며, [PAWN_pronoun]의 인생 목표는 이 문제에 대한 답을 찾는 것이었습니다. 정확한 답을 얻기 위해, 어린 [PAWN_pronoun]는 제국 도시들을 가로지르는 항공편을 타고 하나둘씩 도시를 방문하며 인생의 다양한 모습을 수집하고 이해하려 했습니다.</OA_RK_NEW_Backstory_B_AA.description> 
+  
+  <OA_RK_NEW_Backstory_B_AB.title>OA·은하계의 어린 여행자</OA_RK_NEW_Backstory_B_AB.title>
+  <OA_RK_NEW_Backstory_B_AB.titleShort>어린 여행자</OA_RK_NEW_Backstory_B_AB.titleShort>
+  <OA_RK_NEW_Backstory_B_AB.description>"오! 저게 뭐야!"\n네, [PAWN_nameDef]는 또 호기심과 놀라움을 느끼고 있습니다. 아마 타고난 성격일 것입니다. [PAWN_nameDef]는 가장 사소하지만 한 번도 본 적 없는 것들에 대해 항상 경이로움을 느낄 수 있었습니다. 이 경이로움은 [PAWN_pronoun]를 여행하는 쥐처럼 만들었고, 다른 이들은 점차 지루해할지라도 [PAWN_nameDef]는 여전히 즐거워했습니다.</OA_RK_NEW_Backstory_B_AB.description> 
+  
+  <OA_RK_NEW_Backstory_B_AC.title>OA·부드럽다 전령</OA_RK_NEW_Backstory_B_AC.title>
+  <OA_RK_NEW_Backstory_B_AC.titleShort>어린이</OA_RK_NEW_Backstory_B_AC.titleShort>
+  <OA_RK_NEW_Backstory_B_AC.description>귀여움 때문인지, 조용함 때문인지 알 수 없지만, 어린 [PAWN_nameDef]는 궁정 시종들이 가장 아끼는 아이였습니다. 이렇게 반복되는 애정 속에서, 어린 [PAWN_nameDef]는 "사랑"과 "温柔"의 따뜻함을 느끼고, 서툴지만 진심으로 이 감정을 다른 이들에게 전달하려 노력했습니다.</OA_RK_NEW_Backstory_B_AC.description> 
+  
+  <OA_RK_NEW_Backstory_B_AD.title>OA·통항부의 항해사</OA_RK_NEW_Backstory_B_AD.title>
+  <OA_RK_NEW_Backstory_B_AD.titleShort>항해사</OA_RK_NEW_Backstory_B_AD.titleShort>
+  <OA_RK_NEW_Backstory_B_AD.description>"[PAWN_nameDef]가 어디 있는지 아세요?" "[PAWN_pronoun]는 항해도실에 있어요."\n이것은 농담이 아니라, [PAWN_nameDef]의 일상을 가장 잘 설명하는 문장입니다. 통항부에는 제국에서 가장 뛰어난 항해 장비가 있지만, 항상 예외적인 상황이 발생합니다. 그리고 우주선에 대한 사랑과 동료에 대한 책임감으로, [PAWN_nameDef]는 항상 가장 위험한 항해 상황에 대비하고 있습니다.</OA_RK_NEW_Backstory_B_AD.description> 
+ 
+  <OA_RK_NEW_Backstory_B_AE.title>OA·통항부의 등불 지기</OA_RK_NEW_Backstory_B_AE.title>
+  <OA_RK_NEW_Backstory_B_AE.titleShort>신호원</OA_RK_NEW_Backstory_B_AE.titleShort>
+  <OA_RK_NEW_Backstory_B_AE.description>[PAWN_nameDef]의 작업은 소속 공항의 항법 신호 발신기를 유지보수하는 것입니다. 이 작업은 지루하거나 단순할 수 있지만, 수많은 우주선의 운명과 직결된다는 점은 의심의 여지가 없습니다. 아마 대부분은 [PAWN_nameDef]의 작업 의미를 이해하지 못하겠지만, 귀항하는 모든 선원들은 [PAWN_nameDef]의 숙소를 지날 때마다 휴대용 종이에 메모를 써 문에 붙입니다:\n\n"오늘도 당신은 북극성처럼 소중합니다."</OA_RK_NEW_Backstory_B_AE.description> 
+  
+  <OA_RK_NEW_Backstory_B_AF.title>OA·통항부의 기획자</OA_RK_NEW_Backstory_B_AF.title>
+  <OA_RK_NEW_Backstory_B_AF.titleShort>항로 기획자</OA_RK_NEW_Backstory_B_AF.titleShort>
+  <OA_RK_NEW_Backstory_B_AF.description>거대한 성간 제국의 항해로는 엄청난 계획을 거쳐야 하며, [PAWN_nameDef]는 이 위대한 항로를 유지하는 구성원 중 하나입니다.\n\n대부분의 항로가 이미 계획되어 있지만, 시간이 지남에 따라 새로운 항로의 추가와 폐기가 필요하며, 이러한 기획은 최종적으로 [PAWN_nameDef]가 설계하고 공표하여 실행해야 합니다.</OA_RK_NEW_Backstory_B_AF.description> 
+  
+  <OA_RK_NEW_Backstory_B_AG.title>OA·긴급 조정관</OA_RK_NEW_Backstory_B_AG.title>
+  <OA_RK_NEW_Backstory_B_AG.titleShort>조정관</OA_RK_NEW_Backstory_B_AG.titleShort>
+  <OA_RK_NEW_Backstory_B_AG.description>인권은 평등하지만, 통항권은 그렇지 않습니다. 특히 더 많은 사람들을 구하기 위해 위험을 무릅쓰는 구조선과 보급선은 예외입니다.\n\n이런 함선들이 공항에 도착할 때마다, [PAWN_nameDef] 같은 전문 조정관이 이 중요한 함선들의 긴급 정비와 통항 순서를 조정하여 최고의 효율로 더 많은 사람들을 도울 수 있도록 합니다.</OA_RK_NEW_Backstory_B_AG.description> 
+  
+  <OA_RK_NEW_Backstory_B_BA.title>OA·성실한 조정관</OA_RK_NEW_Backstory_B_BA.title>
+  <OA_RK_NEW_Backstory_B_BA.titleShort>조정관</OA_RK_NEW_Backstory_B_BA.titleShort>
+  <OA_RK_NEW_Backstory_B_BA.description>함선의 통항 순서는 하나의 학문입니다. 대형 함선이 통항할 때는 주변 출구의 인원과 소형 함선을 이동시켜 열기 피해를 방지해야 합니다.\n\n다행히도 탄탄한 기초와 성실한 태도 덕분에, [PAWN_nameDef]의 재직 기간 동안 사고는 한 번도 발생하지 않았으며, 앞으로도 그럴 것이라고 예상됩니다.</OA_RK_NEW_Backstory_B_BA.description> 
+  
+  <OA_RK_NEW_Backstory_B_BB.title>OA·부서 간 총괄자</OA_RK_NEW_Backstory_B_BB.title>
+  <OA_RK_NEW_Backstory_B_BB.titleShort>총괄자</OA_RK_NEW_Backstory_B_BB.titleShort>
+  <OA_RK_NEW_Backstory_B_BB.description>통항부에서 가장 바쁜 구성원이 누구인지 아십니까? 항해사나 조정관이 아니라, 바로 이 부서 간 총괄자들입니다.\n\n궁정부, 총괄부, 통항부 세 부서의 데이터 연동 임무를 맡은 [PAWN_nameDef]의 작업 강도는 총괄부 시종들도 상상하기 어렵습니다. [PAWN_nameDef]의 사무실을 지날 때마다 통항부 시종들은 [PAWN_pronoun]의 작업 태도를 존경하며, 또 [PAWN_pronoun]의 점점 후퇴하는 헤어라인을 걱정하며 따뜻한 우유 한 잔을 건넵니다.</OA_RK_NEW_Backstory_B_BB.description> 
+  
+  <OA_RK_NEW_Backstory_B_BC.title>OA·정박 지휘관</OA_RK_NEW_Backstory_B_BC.title>
+  <OA_RK_NEW_Backstory_B_BC.titleShort>정박원</OA_RK_NEW_Backstory_B_BC.titleShort>
+  <OA_RK_NEW_Backstory_B_BC.description>정돈되고 질서 있는 공항은 항상 좋은 첫인상을 주며, 이런 인상을 만들기 위해서는 [PAWN_nameDef] 같은 정박 지휘관이 필수적입니다.\n\n얼마나 많은 함선이 있든, 정박 항로가 얼마나 혼잡하든, [PAWN_nameDef]는 항상 즉시 각 함선들을 완벽하게 배치할 수 있습니다. 항로 혼잡을 자주 겪는 선장들에게 [PAWN_nameDef]의 정박 안내는 최고의 복음입니다.</OA_RK_NEW_Backstory_B_BC.description> 
+  
+  <OA_RK_NEW_Backstory_B_BD.title>OA·공항 통계원</OA_RK_NEW_Backstory_B_BD.title>
+  <OA_RK_NEW_Backstory_B_BD.titleShort>통계원</OA_RK_NEW_Backstory_B_BD.titleShort>
+  <OA_RK_NEW_Backstory_B_BD.description>모든 공항에는 함선의 물자 소속과 요구 사항을 통계 내어 정박 중 불필요한 갈등을 방지할 통계원이 필요합니다.\n\n의심할 여지 없이, [PAWN_nameDef]는 훌륭한 공항 통계원입니다. [PAWN_pronoun]는 성급한 선장에게서 정확한 요구 사항을 얻어낼 수 있고, 내성적인 선원에게도 정확한 물자 수량을 부드럽게 이끌어낼 수 있습니다. 어떤 공항이든 [PAWN_pronoun]는 표준적인 직업 모범입니다.</OA_RK_NEW_Backstory_B_BD.description> 
+  
+  <OA_RK_NEW_Backstory_B_BE.title>OA·보급선 기록 전문가</OA_RK_NEW_Backstory_B_BE.title>
+  <OA_RK_NEW_Backstory_B_BE.titleShort>통계원</OA_RK_NEW_Backstory_B_BE.titleShort>
+  <OA_RK_NEW_Backstory_B_BE.description>[PAWN_nameDef]보다 보급선 통계 작업을 더 잘 아는 이는 없습니다. [PAWN_nameDef]에게 보급선 데이터 통계는 호흡처럼 자연스러운 기술이 되었습니다.\n\n다른 이들이 보급선의 복잡한 물자 소속과 종류로 고생할 때, [PAWN_nameDef]는 이미 두 번째 함선의 통계 작업을 시작하고 있습니다. 아마도 보급 지원의 영광스러움 때문일지, [PAWN_nameDef]는 이 작업을 능숙하게 수행하며 사랑합니다.</OA_RK_NEW_Backstory_B_BE.description> 
+  
+  <OA_RK_NEW_Backstory_B_BF.title>OA·여유로운 항로 기획자</OA_RK_NEW_Backstory_B_BF.title>
+  <OA_RK_NEW_Backstory_B_BF.titleShort>항로 기획자</OA_RK_NEW_Backstory_B_BF.titleShort>
+  <OA_RK_NEW_Backstory_B_BF.description>오래전, [PAWN_nameDef]는 한적한 성구의 항로 기획자였습니다. 그 시절 [PAWN_pronoun]는 하루에 단 세 네 개의 항로 상태만 검토하면 퇴근 때까지 여유롭게 시간을 보낼 수 있었습니다. 능력이 뛰어난 [PAWN_pronoun]에게 이는 하루 작업 시간이 한 시간도 안 된다는 의미였죠...\n\n이 모든 것은 [PAWN_pronoun]가 통항부의 성구 간 이동 명령을 받은 날 갑자기 끝났습니다.</OA_RK_NEW_Backstory_B_BF.description> 
+  
+  <OA_RK_NEW_Backstory_B_BG.title>OA·항로 조사관</OA_RK_NEW_Backstory_B_BG.title>
+  <OA_RK_NEW_Backstory_B_BG.titleShort>항로 조사관</OA_RK_NEW_Backstory_B_BG.titleShort>
+  <OA_RK_NEW_Backstory_B_BG.description>항로 기획의 최종 검토와 판단은 항로 기획자의 책임이지만, [PAWN_nameDef]의 책임은 직접 함선을 조종하여 항로의 실행 가능성을 검증하는 것입니다.\n\n이 작업은 통항부 내에서도 고위험군에 속하지만, 통항부에는 영광감과 책임감을 가진 시종들이 부족하지 않습니다. 따라서 여러 번의 위험을 겪었음에도 [PAWN_nameDef]는 단 한 번도 불평하지 않았습니다.</OA_RK_NEW_Backstory_B_BG.description> 
+  
+  <OA_RK_NEW_Backstory_B_CA.title>OA·별빛의 포용자</OA_RK_NEW_Backstory_B_CA.title>
+  <OA_RK_NEW_Backstory_B_CA.titleShort>통항부 시종</OA_RK_NEW_Backstory_B_CA.titleShort>
+  <OA_RK_NEW_Backstory_B_CA.description>통항부도 모두 논리 정연한 분석가들만 있는 것은 아닙니다. [PAWN_nameDef] 같은 시종은 통항부의 낭만을 구현한 존재입니다.\n\n어떤 시종들은 영광감으로 통항부에 들어오고, 어떤 시종들은 책임감으로 들어오지만, [PAWN_nameDef]가 통항부에 들어온 이유는 순수한 사랑 때문입니다. [PAWN_pronoun]는 심우주를 사랑하고, 성해를 사랑하며, 결국 함선에 올라 [PAWN_pronoun]가 갈망하는 별들과 동행합니다.</OA_RK_NEW_Backstory_B_CA.description>
+  
+  <OA_RK_NEW_Backstory_B_CB.title>OA·탐험을 두려워하지 않는 시종</OA_RK_NEW_Backstory_B_CB.title>
+  <OA_RK_NEW_Backstory_B_CB.titleShort>통항부 시종</OA_RK_NEW_Backstory_B_CB.titleShort>
+  <OA_RK_NEW_Backstory_B_CB.description>[PAWN_nameDef]는 통항부의 탐험 정신을 구현한 존재라고 할 수 있습니다. [PAWN_pronoun]에게는 탐험을 향한 용기, 위험 상황을 다루는 냉정함, 귀항할 때의温柔함이 있습니다. 이 모든 특징들이 [PAWN_nameDef]의 가장 훌륭한 초상을 그려냅니다 - 진정한 통항부 시종의 모습이죠.</OA_RK_NEW_Backstory_B_CB.description> 
+
+  <OA_RK_NEW_Backstory_B_CC.title>OA·보급선 자원봉사자</OA_RK_NEW_Backstory_B_CC.title>
+  <OA_RK_NEW_Backstory_B_CC.titleShort>시민</OA_RK_NEW_Backstory_B_CC.titleShort>
+  <OA_RK_NEW_Backstory_B_CC.description>[PAWN_nameDef]의 사랑은 넓고, 성간을 초월하며, 대가를 바라지 않는 것입니다. 이 강렬하고 이타적인 박애는 [PAWN_nameDef]가 보급선의 일원이 되도록 이끌었고, 통항부의 기초 선원 훈련을 받은 후 공식적으로 성간 항로의 일부가 되어 이성계의 개척자 동포들에게 진심 어린 인사와 축복을 전합니다.</OA_RK_NEW_Backstory_B_CC.description>
+
+  <OA_RK_NEW_Backstory_B_CD.title>OA·항로 수요 전달자</OA_RK_NEW_Backstory_B_CD.title>
+  <OA_RK_NEW_Backstory_B_CD.titleShort>통항부 시종</OA_RK_NEW_Backstory_B_CD.titleShort>
+  <OA_RK_NEW_Backstory_B_CD.description>항로의 개척과 설계는 목적 없이 이루어지지 않습니다, 특히 중요한 보급 항로들은 궁정 각 부서의 요구에 따라 통항부와 조정된 결과물입니다.\n\n[PAWN_nameDef]는 궁정 각 부서의 요구 사항을 수집하고 전달하는 임무를 맡고 있습니다. [PAWN_pronoun]는 오가는 전령이자, 소통의 다리를 세우는 존재입니다.</OA_RK_NEW_Backstory_B_CD.description>
+
+  <OA_RK_NEW_Backstory_B_CE.title>OA·공항 협력 관리자</OA_RK_NEW_Backstory_B_CE.title>
+  <OA_RK_NEW_Backstory_B_CE.titleShort>협력 관리자</OA_RK_NEW_Backstory_B_CE.titleShort>
+  <OA_RK_NEW_Backstory_B_CE.description>거대한 공항을 관리하는 것은 혼자서 할 수 있는 일이 아닙니다. 뛰어난 AI의 도움도 있지만, 한 사람이 전체 공항을 관리하기는 어렵습니다.\n\n통항부 최고의 시종 중 한 명인 [PAWN_nameDef]는 당연히 공항 협력 관리자가 되었습니다. 이 책임은 가볍지 않지만, 그것이 상징하는 영예와 책임은 모든 통항부 시종이 모든 것을 바칠 가치가 있으며, [PAWN_nameDef]는 정확히 그렇게 하고 있습니다.</OA_RK_NEW_Backstory_B_CE.description>
+
+  <OA_RK_NEW_Backstory_B_CF.title>OA·노련한 통항관</OA_RK_NEW_Backstory_B_CF.title>
+  <OA_RK_NEW_Backstory_B_CF.titleShort>통항관</OA_RK_NEW_Backstory_B_CF.titleShort>
+  <OA_RK_NEW_Backstory_B_CF.description>[PAWN_nameDef]는 노련한 통항관입니다. [PAWN_pronoun]는 가장 혼란스러운 소행성대를 항해했고, 위험한 진공 누출을 처리한 적도 있습니다. [PAWN_pronoun]의 선원들은 [PAWN_nameDef]를 태양을 믿듯이 신뢰합니다. 그들은 알고 있습니다.\n\n태양은 내일도 떠오를 것이고, [PAWN_nameDef]의 함선은 내일도 안전하게 항해할 것이라는 것을.</OA_RK_NEW_Backstory_B_CF.description>
+
+  <OA_RK_NEW_Backstory_B_CG.title>OA·항로를 찾는 통항관</OA_RK_NEW_Backstory_B_CG.title>
+  <OA_RK_NEW_Backstory_B_CG.titleShort>통항관</OA_RK_NEW_Backstory_B_CG.titleShort>
+  <OA_RK_NEW_Backstory_B_CG.description>통항부에서 [PAWN_nameDef]의 위치는 천문학 애호가들에게 북극성이 차지하는 위치와 같습니다.\n\n위험한 항로를 검증할 경험 많은 인재가 필요할 때마다, [PAWN_nameDef]는 의심할 여지 없이 첫 번째 선택입니다.\n\n[PAWN_pronoun]의 기술은 항상 뛰어납니다. 가장 위험한 성역을 탐험할 때도, 계류장에서 규정을 무시하고 빠르게 이륙해 순식간에 사라질 때도 말이죠.</OA_RK_NEW_Backstory_B_CG.description>
+
+  <OA_RK_NEW_Backstory_B_DA.title>OA·위험을 많이 겪은 통항관</OA_RK_NEW_Backstory_B_DA.title>
+  <OA_RK_NEW_Backstory_B_DA.titleShort>통항관</OA_RK_NEW_Backstory_B_DA.titleShort>
+  <OA_RK_NEW_Backstory_B_DA.description>함선이 위험에 처했을 때, 훈련을 많이 받은 통항부 선원들도 불안을 느낄 수 있지만, [PAWN_nameDef]는 결코 그렇지 않습니다.\n\n다른 이들에게는 위험한 고장도, [PAWN_nameDef]에게는 평범한 일상일 뿐입니다. 수많은 위험 상황을 겪은 경험은 [PAWN_pronoun]의 의지를 강철처럼 단단하고 흔들리지 않게 만들었습니다... 하지만 왜 매일 위험에 처하는지는 또 다른 이야기입니다.</OA_RK_NEW_Backstory_B_DA.description>
+
+  <OA_RK_NEW_Backstory_B_DB.title>OA·공항의 총괄자</OA_RK_NEW_Backstory_B_DB.title>
+  <OA_RK_NEW_Backstory_B_DB.titleShort>총괄부 시종</OA_RK_NEW_Backstory_B_DB.titleShort>
+  <OA_RK_NEW_Backstory_B_DB.description>공항의 중력 장치와 저중력 환경은 처음에는 매우 신기하지만, 공항에 오래 머무르면 어느 정도 지루함을 느끼게 됩니다. 이 경험은 [PAWN_nameDef]에게 매우 깊은 인상을 남겼습니다. [PAWN_pronoun]는 생각합니다, 만약 생각으로 사람을 때릴 수 있다면, 데이터 처리를 돕자고 자신을 꼬신 그 통항관은 이미 꿈속에서 무수히 맞았을 것이라고.\n\n하지만 삶은 계속되고, 날들은 흘러갑니다. 불평한 후에도, [PAWN_nameDef]는 항상 그만두지 못하는 공항 데이터를 다시 집어듭니다.</OA_RK_NEW_Backstory_B_DB.description>
+
+  <OA_RK_NEW_Backstory_B_DC.title>OA·임시 주둔한 기습대원</OA_RK_NEW_Backstory_B_DC.title>
+  <OA_RK_NEW_Backstory_B_DC.titleShort>기습대원</OA_RK_NEW_Backstory_B_DC.titleShort>
+  <OA_RK_NEW_Backstory_B_DC.description>[PAWN_nameDef]는 공항 기습대의 정식 멤버가 아니라, 임무 수행을 위해 임시로 공항에 배치되어 작전 실행 시 신속하게 투입되기 위해 주둔 중입니다.\n\n대부분의 시간을 지상에서 보낸 [PAWN_nameDef]에게 공항의 모든 것은 매우 새롭습니다. 진공 환경조차 [PAWN_pronoun]에게는 치명적인 매력이 있습니다 - 공항 기습대원이 중력장 벨트를 착용하고 진공에 노출된 [PAWN_nameDef]를 데려오지 않았다면 말이죠.</OA_RK_NEW_Backstory_B_DC.description>
+
+  <OA_RK_NEW_Backstory_B_DD.title>OA·공항 기습대원</OA_RK_NEW_Backstory_B_DD.title>
+  <OA_RK_NEW_Backstory_B_DD.titleShort>기습대원</OA_RK_NEW_Backstory_B_DD.titleShort>
+  <OA_RK_NEW_Backstory_B_DD.description>공항 기습대원들은 대부분 공항 토착민들로 구성됩니다. 그들은 우주의 저중력이나 무중력 환경에 더 잘 적응하기 때문이죠.\n\n우주 토착민인 [PAWN_nameDef]는 평소 가장 기대하는 것이 지상 기습대 동료들이 임무 때문에 임시로 자신이 있는 공항에 와서 대기하다가, 실수로 진공 공간에 들어가 자신의 품에 안겨 돌아오는 모습을 보는 것입니다.\n\n공항의 일상적인 방어 업무 외에도, 지상 기습대가 신속히 대응할 수 없을 때 [PAWN_nameDef] 같은 공항 기습대원들은 신속 대응 부대의 역할을 하며, 종종 임무를 성공적으로 완수합니다.</OA_RK_NEW_Backstory_B_DD.description>
+
+  <OA_RK_NEW_Backstory_B_DE.title>OA·함선 동행 기습대원</OA_RK_NEW_Backstory_B_DE.title>
+  <OA_RK_NEW_Backstory_B_DE.titleShort>기습대원</OA_RK_NEW_Backstory_B_DE.titleShort>
+  <OA_RK_NEW_Backstory_B_DE.description>대부분의 기습대원들에게 함선 호위 임무는 다소 지루하고 따분할 수 있지만, [PAWN_nameDef]는 결코 그렇지 않습니다.\n\n광활한 성해, 신기한 저중력 훈련 환경, 함선에 특별히 마련된 고급 레스토랑 모두 [PAWN_nameDef]에게는 동경과 떨칠 수 없는 매력으로 다가옵니다. [PAWN_nameDef]의 마음속에서, 천국에 이름이 있다면 아마도 그 함선들의 이름일 것입니다.</OA_RK_NEW_Backstory_B_DE.description>
+  
+  <OA_RK_NEW_Backstory_B_DF.title>OA·주둔 기습대 지휘관</OA_RK_NEW_Backstory_B_DF.title>
+  <OA_RK_NEW_Backstory_B_DF.titleShort>기습대 대장</OA_RK_NEW_Backstory_B_DF.titleShort>
+  <OA_RK_NEW_Backstory_B_DF.description>명목상으로는 공항 방어 업무를 맡고 있지만, [PAWN_nameDef]는 잘 알고 있습니다. 만약 누군가가 공항 주변 호위함들의 방어망을 뚫을 수 있다면, 아마 자신이 나설 차례는 오지 않을 것이라는 것을.\n\n그래서 [PAWN_nameDef]의 일상은 주둔 기습대원들의 일상 훈련에 더 중점을 둡니다. 저중력 환경에서도 평소와 같은 전투 효율을 유지할 수 있도록 하기 위해서죠.</OA_RK_NEW_Backstory_B_DF.description>
+
+  <OA_RK_NEW_Backstory_B_DG.title>OA·기적을 갈구하는 선원</OA_RK_NEW_Backstory_B_DG.title>
+  <OA_RK_NEW_Backstory_B_DG.titleShort>선원</OA_RK_NEW_Backstory_B_DG.titleShort>
+  <OA_RK_NEW_Backstory_B_DG.description>당신은 혹시 이 세상에 진정한 벌레 무리가 존재할지, 아니면 아이스크림으로 이루어진 신비한 생명체가 있을지 생각해 본 적이 있나요? 이런 생각들은 공상과학처럼 들리지만, [PAWN_nameDef]에게는 딱 어울리는 발상입니다.\n\n"우주는 기적으로 가득 찬 기적이다." 이 문장은 [PAWN_nameDef]가 어느 공상과학 소설에서 읽은 것이며, 동시에 [PAWN_nameDef]의 모든 사상을 가장 잘 요약한 말이기도 합니다. 이 기적에 대한 호기심은 결국 [PAWN_nameDef]를 통항부 함선에 오르게 만들었고, 진정한 "우주의 기적"을 목격하기를 기대하게 했습니다.</OA_RK_NEW_Backstory_B_DG.description>
+
+  <OA_RK_NEW_Backstory_B_EA.title>OA·함선 근무 전문가</OA_RK_NEW_Backstory_B_EA.title>
+  <OA_RK_NEW_Backstory_B_EA.titleShort>근무 전문가</OA_RK_NEW_Backstory_B_EA.titleShort>
+  <OA_RK_NEW_Backstory_B_EA.description>한 사람을 정의하는 데 한 가지 라벨을 사용하는 것은 적절하지 않을 수 있지만, [PAWN_nameDef]에게 있어서는 [PAWN_pronoun]의 특징이 너무나도 뚜렷해서, 라벨이 오히려 [PAWN_pronoun]에 대한 최고의 찬사가 됩니다.\n\n다른 사람들에게 '근무 전문가'라는 호칭이 지나치게 단순화된 표현일 수 있지만, [PAWN_nameDef]에게는 이 호칭이 [PAWN_pronoun]의 일상 업무를 가장 잘 요약한 말입니다.</OA_RK_NEW_Backstory_B_EA.description>
+
+  <OA_RK_NEW_Backstory_B_EB.title>OA·함선을 깊이 사랑하는 선원</OA_RK_NEW_Backstory_B_EB.title>
+  <OA_RK_NEW_Backstory_B_EB.titleShort>선원</OA_RK_NEW_Backstory_B_EB.titleShort>
+  <OA_RK_NEW_Backstory_B_EB.description>일반적인 직무 수행과는 달리, [PAWN_nameDef]는 어떻게 봐도 진심으로 이 일을 사랑하는 것처럼 보입니다. [PAWN_nameDef]가 [PAWN_pronoun] 소속 함선에 대해 품은 감정은 일반적인 단어로 설명하기 어렵습니다. 억지로 표현하자면 이유 없는 깊은 사랑에 가깝죠.\n\n이 깊은 사랑은 [PAWN_nameDef]의 선박 업무를 완벽하게 수행하게 만들었고, 결국 이 함선에서 가장 믿을 만한 선원 중 한 명이 되었습니다.\n\n물론, 함선을 보고 "여보"라고 부르지만 않는다면 더 좋을 텐데요.</OA_RK_NEW_Backstory_B_EB.description>
+
+  <OA_RK_NEW_Backstory_B_EC.title>OA·점성술사</OA_RK_NEW_Backstory_B_EC.title>
+  <OA_RK_NEW_Backstory_B_EC.titleShort>선원</OA_RK_NEW_Backstory_B_EC.titleShort>
+  <OA_RK_NEW_Backstory_B_EC.description>사람들은 항상 추상적이고 신비로운 개념에 호기심을 품습니다. [PAWN_nameDef]가 점성술에 집착하는 것처럼 말이죠. 아마 가까이서 접할 기회가 많았기 때문일 겁니다. [PAWN_nameDef]의 점성술 탐구는 이해하기 어려운 실천으로 가득 차 있습니다. 이런 집요한 인내심은 같은 함선의 통항관을 두통 앓게 만들었고, 비정상적인 별빛이 반짝일 때마다 그는 반사적으로 [PAWN_nameDef]가 지금 무엇을 하고 있는지 묻곤 합니다.\n\n보세요, 현창 밖의 큰곰자리가 또 반짝이고 있습니다.</OA_RK_NEW_Backstory_B_EC.description>
+
+  <OA_RK_NEW_Backstory_B_ED.title>OA·함선의 박식가</OA_RK_NEW_Backstory_B_ED.title>
+  <OA_RK_NEW_Backstory_B_ED.titleShort>선원</OA_RK_NEW_Backstory_B_ED.titleShort>
+  <OA_RK_NEW_Backstory_B_ED.description>[PAWN_nameDef]는 가족 전통의 영향이 아니었다면 지금쯤 연구부에서 최첨단 이론을 연구하고 있을 거라고 생각하지만, 사실 누구나 볼 수 있듯 [PAWN_nameDef]가 진정으로 원하는 것은 통항부의 함선에 탑승하는 것입니다.\n\n변명을 하거나 감추려고 할지 모르지만, [PAWN_nameDef]의 침대 옆에 놓인 수많은 우주 항해 교재와 소설이 [PAWN_pronoun]의 열정을 가장 잘 증명합니다.\n\n물론, [PAWN_nameDef]는 아마 절대로 인정하지 않을 겁니다. 적어도 입으로는 말이죠.</OA_RK_NEW_Backstory_B_ED.description>
+
+  <OA_RK_NEW_Backstory_B_EE.title>OA·노련한 선원</OA_RK_NEW_Backstory_B_EE.title>
+  <OA_RK_NEW_Backstory_B_EE.titleShort>선원</OA_RK_NEW_Backstory_B_EE.titleShort>
+  <OA_RK_NEW_Backstory_B_EE.description>훌륭한 선장이 함선의 영혼이라면, [PAWN_nameDef] 같은 노련한 선원은 함선에 꼭 필요한 뼈대와 같습니다. 평소에는 차이점을 알아채기 어렵지만, 진정한 위험에 직면할 때 [PAWN_nameDef]는 종종 함선에서 가장 믿을 만한 사람 중 하나가 됩니다.</OA_RK_NEW_Backstory_B_EE.description>
+
+  <OA_RK_NEW_Backstory_B_EF.title>OA·선원 가문의 선원</OA_RK_NEW_Backstory_B_EF.title>
+  <OA_RK_NEW_Backstory_B_EF.titleShort>선원</OA_RK_NEW_Backstory_B_EF.titleShort>
+  <OA_RK_NEW_Backstory_B_EF.description>통항부는 전통과 명예를 중시하는 부서입니다. 그리고 전형적인 통항부 가문 출신인 [PAWN_nameDef]가 통항부 함선에 있는 것은 너무나도 당연하고 자연스러운 일처럼 보입니다.\n\n가문에서 이어받은 명예는 [PAWN_nameDef]를 오만하게 만들지 않았고, 오히려 [PAWN_pronoun]가 스스로에게 엄격한 기준을 적용하는 기반이 되었습니다. [PAWN_nameDef]의 눈에는 명예가 지위에 대한 보상이기도 하지만, 동시에 거절하거나 저버릴 수 없는 사명이기도 합니다.</OA_RK_NEW_Backstory_B_EF.description>
+
+  <OA_RK_NEW_Backstory_B_EG.title>OA·선외 작업 선원</OA_RK_NEW_Backstory_B_EG.title>
+  <OA_RK_NEW_Backstory_B_EG.titleShort>선원</OA_RK_NEW_Backstory_B_EG.titleShort>
+  <OA_RK_NEW_Backstory_B_EG.description>성간 항해가 고도로 발달한 금난초 제국에서도 선외 작업은 여전히 위험을 수반합니다. 그러나 대부분의 통항부 시종들처럼, [PAWN_nameDef]는 이것을 피해야 할 위험이라 생각하지 않고 오히려 명예와 능력의 상징으로 여깁니다. 그래서 함선이 선외 작업을 할 때마다, 거대한 함선 옆에서 [PAWN_nameDef]의 작은 모습을 희미하게 볼 수 있습니다.</OA_RK_NEW_Backstory_B_EG.description>
+
+  <OA_RK_NEW_Backstory_B_FA.title>OA·함선 정비사</OA_RK_NEW_Backstory_B_FA.title>
+  <OA_RK_NEW_Backstory_B_FA.titleShort>정비사</OA_RK_NEW_Backstory_B_FA.titleShort>
+  <OA_RK_NEW_Backstory_B_FA.description>성간 항해를 하는 함선에게는 우주에서 사고가 발생하는 것이 지구상의 해난 사고보다 훨씬 더 위험합니다. 지구상의 해난이 격정적인 비극이라면, 우주에서의 해난은 침묵 속의 한숨과 같습니다.\n\n이런 재난을 방지하기 위해, [PAWN_nameDef]는 함선의 점검과 유지보수를 매우 꼼꼼히 합니다. 평범한 항해는 지루할 수 있지만, 소름 끼치는 공포 항해보다는 낫죠.</OA_RK_NEW_Backstory_B_FA.description>
+ 
+  <OA_RK_NEW_Backstory_B_FB.title>OA·성실한 근무 선원</OA_RK_NEW_Backstory_B_FB.title>
+  <OA_RK_NEW_Backstory_B_FB.titleShort>선원</OA_RK_NEW_Backstory_B_FB.titleShort>
+  <OA_RK_NEW_Backstory_B_FB.description>데이터 기록, 기기 점검, 항로 확인, 공항 정보 수신... 이런 사소한 일들이 수백 가지 쌓이면 [PAWN_nameDef]처럼 성실한 선원도 감당하기 어려워집니다. 하지만 피로를 느끼더라도 [PAWN_nameDef]는 포기할 생각을 한 적이 없습니다. [PAWN_pronoun]가 근무하는 함선이 묵묵히 항로를 따라가는 것처럼, [PAWN_nameDef]도 굳건히 [PAWN_pronoun]의 본분을 다하고 있습니다.</OA_RK_NEW_Backstory_B_FB.description>
+
+  <OA_RK_NEW_Backstory_B_FC.title>OA·평범한 선원</OA_RK_NEW_Backstory_B_FC.title>
+  <OA_RK_NEW_Backstory_B_FC.titleShort>선원</OA_RK_NEW_Backstory_B_FC.titleShort>
+  <OA_RK_NEW_Backstory_B_FC.description>[PAWN_nameDef]의 삶은 규칙적이고 평온합니다. 어제처럼 기상하고, 어제처럼 일을 마치고, 어제처럼 여가를 즐기고, 어제처럼 취침합니다. [PAWN_nameDef]의 삶은 항상 이렇게 안정적이고 변화가 없습니다. 아마도 이는 [PAWN_nameDef]가 감탄할 만한 공헌을 하기 어렵다는 뜻이겠지만, 동시에 두통을 유발할 문제를 일으키지도 않는다는 의미이기도 합니다.\n\n그리고 함선에게 있어서, 평범함이야말로 가장 큰 업적입니다.</OA_RK_NEW_Backstory_B_FC.description>
+
+  <OA_RK_NEW_Backstory_B_FD.title>OA·성구의 유명 선원</OA_RK_NEW_Backstory_B_FD.title>
+  <OA_RK_NEW_Backstory_B_FD.titleShort>선원</OA_RK_NEW_Backstory_B_FD.titleShort>
+  <OA_RK_NEW_Backstory_B_FD.description>원양 항해 선원들의 사교 범위도 보통 한 함선의 동료들에 그치지만, 대부분의 동료들과 비교해 [PAWN_nameDef]의 사교는 지나치게 풍부합니다.\n\n어떻게 가능한지 아무도 모르지만, [PAWN_nameDef]는 스스로와 [PAWN_pronoun]가 근무하는 함선을 전체 성구의 유명인사로 만들었습니다. 이런 명성과 관심은 동료 선원들을 약간 괴롭히지만, 다른 동료들의 열정적인 인사와 존경을 생각하면 그 고민도 진정한 영광감과 작은 기쁨으로 바뀝니다.</OA_RK_NEW_Backstory_B_FD.description>
+
+  <OA_RK_NEW_Backstory_B_FE.title>OA·역풍을 헤치는 선원</OA_RK_NEW_Backstory_B_FE.title>
+  <OA_RK_NEW_Backstory_B_FE.titleShort>선원</OA_RK_NEW_Backstory_B_FE.titleShort>
+  <OA_RK_NEW_Backstory_B_FE.description>평온한 바다는 훌륭한 선원을 키울 수 없다는 것이 [PAWN_nameDef]의 신조입니다. 따라서 아무리 위험한 상황이라도 [PAWN_pronoun]의 결의를 흔들 수 없습니다. [PAWN_nameDef]에게는 잔잔한 항해가 단지 무미건조한 의무일 뿐이며, 위험과 도전이 가득한 항해야말로 [PAWN_pronoun]가 진정으로 갈망하는 여정입니다.</OA_RK_NEW_Backstory_B_FE.description>
+
+  <OA_RK_NEW_Backstory_B_FF.title>OA·까다로운 기술 선원</OA_RK_NEW_Backstory_B_FF.title>
+  <OA_RK_NEW_Backstory_B_FF.titleShort>선원</OA_RK_NEW_Backstory_B_FF.titleShort>
+  <OA_RK_NEW_Backstory_B_FF.description>동료 선원들에게 [PAWN_nameDef]는 업무 중 쉽게 지내기 어려운 인물입니다. [PAWN_pronoun]는 종종 사소한 실수까지도 엄격하게 지적하며, 이는 [PAWN_nameDef]와 함께 근무하는 모든 선원들에게 큰 스트레스가 됩니다.\n\n하지만 무자비한 비난 뒤에, [PAWN_nameDef]는 항상 첫 번째로 실수를 수습하는 사람이기도 합니다. [PAWN_nameDef]의 눈에는 실수를 해결하고 예방하는 것이 타인을 자책하게 만드는 것보다 훨씬 중요합니다.</OA_RK_NEW_Backstory_B_FF.description>
+
+  <OA_RK_NEW_Backstory_B_FG.title>OA·낭만적인 항해가</OA_RK_NEW_Backstory_B_FG.title>
+  <OA_RK_NEW_Backstory_B_FG.titleShort>선원</OA_RK_NEW_Backstory_B_FG.titleShort>
+  <OA_RK_NEW_Backstory_B_FG.description>[PAWN_nameDef]의 눈에는 항해의 핵심이 단순히 한 곳에서 다른 곳으로 이동하는 것이 아니라, 그 과정에서 목격하는 모든 것들입니다.\n\n항성의 장엄함도, 얼음 거성의 몽환적 아름다움도 모두 [PAWN_nameDef]를 매혹시킵니다. [PAWN_nameDef]에게 엄격한 훈련은 단지 합격한 선원을 양성할 뿐이지만, 우주에 대한 사랑만이 진정한 항해가를 탄생시킬 수 있다고 믿습니다.</OA_RK_NEW_Backstory_B_FG.description>
+
+  <OA_RK_NEW_Backstory_B_GA.title>OA·현창 너머의 관찰자</OA_RK_NEW_Backstory_B_GA.title>
+  <OA_RK_NEW_Backstory_B_GA.titleShort>선원</OA_RK_NEW_Backstory_B_GA.titleShort>
+  <OA_RK_NEW_Backstory_B_GA.description>대부분의 통항부 시종들처럼 [PAWN_nameDef]도 성해를 깊이 사랑하지만, 다른 점은 [PAWN_nameDef]가 성해로 나아갈 용기가 부족하다는 것입니다.\n\n이 흔들리는 용기로 인해 [PAWN_nameDef]는 함선 밖 우주로 나가지 못하고, 대부분의 시간을 현창 너머로 동료들이 선외 작업을 수행하는 모습을 바라보며 보냅니다. 몰래 부러워한 후에는 다시 자신의 일을 계속합니다.\n\n아마도 어느 날, [PAWN_nameDef]는 그 현창을 넘어 [PAWN_pronoun]가 사랑하는 모든 것을 진정으로 품게 될 것입니다. 그때가 먼 미래일 수도 있지만, 어쩌면 내일일 수도 있습니다.</OA_RK_NEW_Backstory_B_GA.description>
+
+  <OA_RK_NEW_Backstory_B_GB.title>OA·항해 일지 기록자</OA_RK_NEW_Backstory_B_GB.title>
+  <OA_RK_NEW_Backstory_B_GB.titleShort>일지 기록자</OA_RK_NEW_Backstory_B_GB.titleShort>
+  <OA_RK_NEW_Backstory_B_GB.description>성간 항해 시대에 대부분의 항해 일지는 자동 데이터 기록으로 백업되지만, 여전히 많은 통항부 시종들이 수기로 일지를 작성하는 관습을 유지하고 있습니다.\n\n[PAWN_nameDef]에게 항해 일지는 단순한 기록이 아니라, 명예와 자기 자신에 대한 확신입니다. 일지의 검은 글씨 한 줄 한 줄에는 정보뿐만 아니라, 과거의 모든 노력이 응축되어 있습니다.</OA_RK_NEW_Backstory_B_GB.description>
+
+  <OA_RK_NEW_Backstory_B_GC.title>OA·함선의 행운의 별</OA_RK_NEW_Backstory_B_GC.title>
+  <OA_RK_NEW_Backstory_B_GC.titleShort>행운의 통항성</OA_RK_NEW_Backstory_B_GC.titleShort>
+  <OA_RK_NEW_Backstory_B_GC.description>통항부 시종에게는 뛰어난 능력, 확고한 신념, 이성적 판단력뿐만 아니라 알 수 없는 무언가 - 행운이 필요합니다.\n\n어릴 적부터 공인된 행운의 별인 [PAWN_nameDef]는 통항부에 입부한 첫날부터 각 통항관들의 열렬한 환영을 받았습니다. 아무도 이유를 설명할 수 없지만, [PAWN_nameDef]가 있는 곳에는 항상 행운이 함께합니다.</OA_RK_NEW_Backstory_B_GC.description>
+
+  <OA_RK_NEW_Backstory_B_GD.title>OA·야간 근무 선원</OA_RK_NEW_Backstory_B_GD.title>
+  <OA_RK_NEW_Backstory_B_GD.titleShort>선원</OA_RK_NEW_Backstory_B_GD.titleShort>
+  <OA_RK_NEW_Backstory_B_GD.description>항해 중인 함선은 인간의 생체 리듬 때문에 멈추지 않기 때문에, 야간 근무 선원은 필수적입니다.\n\n야간 근무 선원으로서 [PAWN_nameDef]의 책임은 일반 선원과 크게 다르지 않지만, 생체 리듬의 영향으로 스트레스는 더 큽니다. 특히 한 동료가 몽유증 증상을 보이기 시작한 후, 이미 벅찬 책임에 두통과 즐거움이 공존하는 추가 임무가 생겼습니다.</OA_RK_NEW_Backstory_B_GD.description>
+
+  <OA_RK_NEW_Backstory_B_GE.title>OA·꿈속의 항해자</OA_RK_NEW_Backstory_B_GE.title>
+  <OA_RK_NEW_Backstory_B_GE.titleShort>몽유 선원</OA_RK_NEW_Backstory_B_GE.titleShort>
+  <OA_RK_NEW_Backstory_B_GE.description>[PAWN_nameDef]는 자신의 선원 생활이 안정적이면서도 존재감이 없다고 생각해 왔습니다. 이 생각은 [PAWN_pronoun]가 몽유병 상태에서 항로를 변경하고 함선의 편항을 초래한 그날까지 계속되었습니다.\n\n그날 이후로 [PAWN_nameDef]의 존재감은 급상승했습니다. 아마도 [PAWN_pronoun]의 선원 생활은 여전히 안정적이고 평범하겠지만, [PAWN_pronoun] 자신은 더 이상 과거처럼 무존재감이지 않을 것입니다.</OA_RK_NEW_Backstory_B_GE.description>
+  
+  <OA_RK_NEW_Backstory_B_GF.title>OA·성해의 구조자</OA_RK_NEW_Backstory_B_GF.title>
+  <OA_RK_NEW_Backstory_B_GF.titleShort>수색 구조 선원</OA_RK_NEW_Backstory_B_GF.titleShort>
+  <OA_RK_NEW_Backstory_B_GF.description>끝없지만 황량한 별들 사이에서, 함선의 고장과 조난은 종종 전 승무원의 사형을 의미합니다. 그러나 [PAWN_nameDef]같은 이타적인 존재는 근본적으로 이 절망적인 상황을 바꿔놓았습니다.\n\n어느 성구에서든, 어느 항로 근처에서든, 조난 신호를 받는 즉시 [PAWN_nameDef]는 소형 구조정을 타고 조난자 곁에 나타납니다.\n\n"그 누구도 버려져서는 안 됩니다. 피할 수 없는 천재 때문이든, 몽유병으로 인한 인재 때문이든." [PAWN_nameDef]는 이렇게 말합니다.</OA_RK_NEW_Backstory_B_GF.description>
+
+  <OA_RK_NEW_Backstory_B_GG.title>OA·휴가 중인 선원</OA_RK_NEW_Backstory_B_GG.title>
+  <OA_RK_NEW_Backstory_B_GG.titleShort>선원</OA_RK_NEW_Backstory_B_GG.titleShort>
+  <OA_RK_NEW_Backstory_B_GG.description>마음속으로는 성해를 동경하지만, 대부분의 통항부 시종들에게 끝없는 항해는 정신을 압박합니다. 따라서 모든 통항부 시종들은 한 차례 항해를 마치면 짧은 휴가를 얻으며, [PAWN_nameDef]는 마침 휴가 기간 중입니다. 정신적 스트레스를 최대한 풀기 위해, [PAWN_nameDef]는 오랫동안 듣기만 했던 이 새로운 성계를 찾아왔습니다. 새로운 경험을 기대하며 말이죠.</OA_RK_NEW_Backstory_B_GG.description>
+
+  <OA_RK_NEW_Backstory_B_AAA.title>OA·자유로운 선원</OA_RK_NEW_Backstory_B_AAA.title>
+  <OA_RK_NEW_Backstory_B_AAA.titleShort>선원</OA_RK_NEW_Backstory_B_AAA.titleShort>
+  <OA_RK_NEW_Backstory_B_AAA.description>명예를 중시하는 통항부에서 대부분은 주어진 본분을 다해 자신의 가치를 증명하려 합니다. 그러나 [PAWN_nameDef]는 예외입니다.\n\n[PAWN_nameDef]는 자유를 좋아하는 통항부 시종입니다. [PAWN_pronoun]가 생각하는 자유는 나태함과 거리가 멀지만, 역시 명령에 따라 행동하는 것을 좋아하지 않습니다.\n\n따라서 대부분의 시간 [PAWN_nameDef]는 자신의 능력으로 자유롭게 함선에 기여할 수 있도록 허락받았으며, 다행히도 [PAWN_nameDef]는 이런 신뢰를 저버린 적이 없습니다.</OA_RK_NEW_Backstory_B_AAA.description>
+
+  <OA_RK_NEW_Backstory_B_AAB.title>OA·성간 탐험 수습생</OA_RK_NEW_Backstory_B_AAB.title>
+  <OA_RK_NEW_Backstory_B_AAB.titleShort>수습 선원</OA_RK_NEW_Backstory_B_AAB.titleShort>
+  <OA_RK_NEW_Backstory_B_AAB.description>성간 항해는 어렵고 기술을 많이 요구하는 작업입니다. 대부분의 시민들에게 통항부의 전문 훈련 없이 선원이 되는 것은 불가능한 일입니다.\n\n이를 위해 공식적으로 궁정에 가입하지는 않았지만, [PAWN_nameDef]는 통항부의 항해 지식 훈련에 참여했습니다. 이 과정이 생각만큼 재미있지는 않았지만, [PAWN_nameDef]는 여전히 열심히 배우고 있습니다.\n\n결국, 항성도 작은 것에서 시작하며, 씨앗은 먼지 속에서 잠들어 있으니까요.</OA_RK_NEW_Backstory_B_AAB.description>
+
+  <OA_RK_NEW_Backstory_B_AAC.title>OA·성해의 여행자</OA_RK_NEW_Backstory_B_AAC.title>
+  <OA_RK_NEW_Backstory_B_AAC.titleShort>선원</OA_RK_NEW_Backstory_B_AAC.titleShort>
+  <OA_RK_NEW_Backstory_B_AAC.description>모두가 명확한 규율을 가진 통항부에 들어가고 싶어하는 것은 아닙니다. 적어도 [PAWN_nameDef]는 사적인 함선을 더 선호합니다.\n\n이런 함선에서 [PAWN_nameDef]는 종종 평등한 관계로 항해를 도우지만, 더 많은 시간은 여정의 풍경을 감상하며 보냅니다. 결국 [PAWN_nameDef]가 함선을 타는 목적은 명예나 이익이 아니라, 성간에 대한 순수한 사랑이기 때문입니다.</OA_RK_NEW_Backstory_B_AAC.description>
+
+  <OA_RK_NEW_Backstory_B_AAD.title>OA·상회의 선원</OA_RK_NEW_Backstory_B_AAD.title>
+  <OA_RK_NEW_Backstory_B_AAD.titleShort>선원</OA_RK_NEW_Backstory_B_AAD.titleShort>
+  <OA_RK_NEW_Backstory_B_AAD.description>통항부가 제국의 주요 물자 흐름을 관리하지만, 더 많은 세부 사항과 행성 간의 특산품 교역은 여전히 [PAWN_nameDef] 같은 선원들이 대표하는 사적 상선들이 담당합니다.\n\n대부분의 [PAWN_nameDef] 같은 상선 선원들에게 그들의 목적은 보상보다는 고향의 특산품을 다른 행성에 전하고 싶은 마음입니다. 바로 이런 단순하지만 진실된 친선의 비전 덕분에 금난초 제국은 성간 거리를 초월한 공동 연합체가 될 수 있었고, 각자도생의 혼란 지대가 되지 않을 수 있었습니다.</OA_RK_NEW_Backstory_B_AAD.description>
+
+  <OA_RK_NEW_Backstory_B_AAE.title>OA·영광의 선장</OA_RK_NEW_Backstory_B_AAE.title>
+  <OA_RK_NEW_Backstory_B_AAE.titleShort>선원</OA_RK_NEW_Backstory_B_AAE.titleShort>
+  <OA_RK_NEW_Backstory_B_AAE.description>[PAWN_nameDef]는 태어날 때부터 평범하지 않을 운명이었습니다. 통항부와 원정자 문화가 혼합된 가족 전통 덕분에, [PAWN_nameDef]는 어릴 때부터 보통을 뛰어넘는 용기와 결코 채워질 줄 모르는 탐구심과 진취심을 보였습니다.\n\n[PAWN_nameDef]가 성년이 되었을 때, 어린 시절 아버지에게 배운 항해 기술과 젊은 시절 드러난 항해 재능 덕분에, 결국 성년식 날 통항부의 통지서를 받고 당연히 통항부 편제 밖의 명예 항로 탐험가가 되었습니다.\n\n이제 [PAWN_nameDef]는 새로운 탐험을 계획 중입니다. 훌륭한 선장에게는 짜릿한 탐험만이 [PAWN_pronoun]의 영광에 걸맞기 때문입니다.</OA_RK_NEW_Backstory_B_AAE.description>
+
+  <OA_RK_NEW_Backstory_B_AAF.title>OA·충직한 선원</OA_RK_NEW_Backstory_B_AAF.title>
+  <OA_RK_NEW_Backstory_B_AAF.titleShort>선원</OA_RK_NEW_Backstory_B_AAF.titleShort>
+  <OA_RK_NEW_Backstory_B_AAF.description>[PAWN_nameDef]의 머릿속은 항상 영웅주의 이야기로 가득 차 있습니다. 이를 위해 [PAWN_pronoun]는 계속 자신을 발전시키며, 언젠가 누군가에게 발탁되어 그런 전설적인 이야기에 참여할 날을 기다리고 있습니다.\n\n다행히도, [PAWN_nameDef]는 마침내 [PAWN_pronoun]가 평생을 바칠 가치가 있는 선장을 만났습니다.</OA_RK_NEW_Backstory_B_AAF.description>
+
+  <OA_RK_NEW_Backstory_B_AAG.title>OA·이계의 사진작가</OA_RK_NEW_Backstory_B_AAG.title>
+  <OA_RK_NEW_Backstory_B_AAG.titleShort>사진작가</OA_RK_NEW_Backstory_B_AAG.titleShort>
+  <OA_RK_NEW_Backstory_B_AAG.description>[PAWN_nameDef]는 사진으로 영원한 추억을 남기는 것을 좋아합니다. 사라질 풍경들을 기록하기 위해, [PAWN_nameDef]는 공항에서 계속 새로운 함선으로 갈아타며 시간을 낭비하지 않습니다. 결국 [PAWN_pronoun]에게는 시간이 많이 남았지만, 그 사라진 풍경들은 다시는 되찾을 수 없으니까요.</OA_RK_NEW_Backstory_B_AAG.description>
+
+  <OA_RK_NEW_Backstory_B_ABA.title>OA·솜사탕 별의 항해가</OA_RK_NEW_Backstory_B_ABA.title>
+  <OA_RK_NEW_Backstory_B_ABA.titleShort>솜사탕 항해가</OA_RK_NEW_Backstory_B_ABA.titleShort>
+  <OA_RK_NEW_Backstory_B_ABA.description>[PAWN_nameDef]의 어린 시절은 아름다운 동화 속에서 보냈습니다. 그중 [PAWN_pronoun]가 가장 좋아하는 이야기는 단연 솜사탕 행성의 동화였습니다.\n\n시간이 흐르며 [PAWN_nameDef]도 동화의 본질을 깨달았지만, 이를 깨닫고 나서 대부분과 달리 오히려 그 동화를 더 사랑하게 되었고, 마침내 그 솜사탕처럼 달콤한 행성을 찾겠다고 다짐했습니다.\n\n지금까지 [PAWN_nameDef]는 그 솜사탕 행성을 찾지 못했지만, 새로운 행성을 발견할 때마다 마음속에서 우러나오는 기쁨과 달콤함은 너무나도 현실적입니다. 아마도 우주에 솜사탕 행성은 없을지 모르지만, 어쩌면 [PAWN_nameDef]는 이미 마음속의 그 "솜사탕 행성"을 찾았는지도 모릅니다.</OA_RK_NEW_Backstory_B_ABA.description>
+
+  <OA_RK_NEW_Backstory_B_ABB.title>OA·글라이딩 탐험가</OA_RK_NEW_Backstory_B_ABB.title>
+  <OA_RK_NEW_Backstory_B_ABB.titleShort>탐험가</OA_RK_NEW_Backstory_B_ABB.titleShort>
+  <OA_RK_NEW_Backstory_B_ABB.description>대부분의 인식에서 탐험은 지면에 국한되지만, [PAWN_nameDef] 같은 공중 탐험가는 이런 관념을 깨는 최고의 예시입니다.\n\n[PAWN_nameDef]는 결코 규칙을 따르는 원정자가 아닙니다. 오히려 [PAWN_nameDef]는 독특한 탐험 기술을 시도하는 것을 선호하며, 그중 가장 전형적인 것이 글라이더 탐험입니다.\n\n하늘에 떠 있을 때마다, 발 아래 알 수 없는 지면을 마주하며, [PAWN_nameDef]는 진정한 탐험 정신을 느낍니다 - 규칙을 따르거나 안정적으로 나아가는 것이 아니라, 미지에 착륙한 후에도 여전히 당당히 고개를 들 수 있는 용기 말이죠.</OA_RK_NEW_Backstory_B_ABB.description>
+  
+  <OA_RK_NEW_Backstory_B_ABC.title>OA·이계의 원정자</OA_RK_NEW_Backstory_B_ABC.title>
+  <OA_RK_NEW_Backstory_B_ABC.titleShort>원정자</OA_RK_NEW_Backstory_B_ABC.titleShort>
+  <OA_RK_NEW_Backstory_B_ABC.description>[PAWN_nameDef]는 이미 알려진 것을 다시 탐험하는 것을 좋아하지 않습니다. 오히려 순수한 미지의 감각을 추구합니다. 이를 위해 [PAWN_nameDef]는 끊임없이 새로 발견된 행성들을 탐험합니다. 아마도 다음 탐험은 위험으로 가득 차 있겠지만, [PAWN_nameDef]는 이것이 진정한 탐험의 즐거움이라고 생각합니다.</OA_RK_NEW_Backstory_B_ABC.description>
+
+  <OA_RK_NEW_Backstory_B_ABD.title>OA·우주에 오래 머문 원정자</OA_RK_NEW_Backstory_B_ABD.title>
+  <OA_RK_NEW_Backstory_B_ABD.titleShort>원정자</OA_RK_NEW_Backstory_B_ABD.titleShort>
+  <OA_RK_NEW_Backstory_B_ABD.description>같은 원정자이지만, 공항 토착민인 [PAWN_nameDef]는 다른 원정자 동료들과는 약간 다릅니다.\n\n사고의 깊이나 우주에 대한 이해도, 이계 행성에 대한 신중함과 인식 면에서 [PAWN_nameDef]는 항상 동료들 중에서도 뛰어납니다.\n\n물론, 지상 중력 환경에 대한 부적응이라는 점에서도 [PAWN_nameDef]는 동료들 중 최고입니다.</OA_RK_NEW_Backstory_B_ABD.description>
+
+  <OA_RK_NEW_Backstory_B_ABE.title>OA·공항의 성실한 시민</OA_RK_NEW_Backstory_B_ABE.title>
+  <OA_RK_NEW_Backstory_B_ABE.titleShort>시민</OA_RK_NEW_Backstory_B_ABE.titleShort>
+  <OA_RK_NEW_Backstory_B_ABE.description>한 사람이 처한 환경은 그의 사고와 논리를 결정하며, [PAWN_nameDef]는 이 이론의 살아있는 증거입니다.\n\n공항 토착민으로서 [PAWN_nameDef]의 일상은 다른 금난초 제국 시민들과 뚜렷한 차이가 있습니다. 공항의 편리한 교통과 발달한 무역 덕분에, [PAWN_nameDef]는 거의 매일 새로운 것을 접합니다. 이런 놀라움으로 가득한 삶은 [PAWN_nameDef]에게 매일 동기를 부여했고, 또한 [PAWN_pronoun]에게 끝없는 창작 영감을 주었습니다. 이는 [PAWN_nameDef]를 문화 전파의 중요한 연결고리로 만들었으며, 소문난 예술 창작가로도 알려지게 했습니다.</OA_RK_NEW_Backstory_B_ABE.description>
+
+  <OA_RK_NEW_Backstory_B_ABF.title>OA·우주의 공예가</OA_RK_NEW_Backstory_B_ABF.title>
+  <OA_RK_NEW_Backstory_B_ABF.titleShort>공항 공예가</OA_RK_NEW_Backstory_B_ABF.titleShort>
+  <OA_RK_NEW_Backstory_B_ABF.description>돌? 조각 재료. 운석? 조각 재료. 귀중한 운석 표본? 여전히 조각 재료. [PAWN_nameDef]는 [PAWN_pronoun]의 예술 사업에 너무나 몰두해서, 중성성조차 현재 [PAWN_pronoun]가 사용할 수 없는 귀중한 조각 재료로 보일 정도입니다.\n\n이런 열정적이고 순수한 예술 창작 욕구는 [PAWN_nameDef]를 널리 알려진 조각 대가로 만들었지만, 동시에 연구부의 제1호 천적으로도 만들었습니다 - 특히 그 미지의 성역에서 온 운석 파편이 [PAWN_pronoun]의 조각대 위에 올려졌을 때는 더욱 그렇습니다.</OA_RK_NEW_Backstory_B_ABF.description>
+
+  <OA_RK_NEW_Backstory_B_ABG.title>OA·공항의 작은 점장</OA_RK_NEW_Backstory_B_ABG.title>
+  <OA_RK_NEW_Backstory_B_ABG.titleShort>작은 점장</OA_RK_NEW_Backstory_B_ABG.titleShort>
+  <OA_RK_NEW_Backstory_B_ABG.description>공항 생활에는 다양한 불편함이 있을 수 있지만, 공항의 비할 데 없는 물자 교환 빈도는 모든 사람이 이 문제를 무시하도록 만듭니다. 특히 [PAWN_nameDef] 같은 작은 점주에게는 더욱 그렇습니다.\n\n각 성구에서 온 상선들과의 무역을 통해, [PAWN_nameDef]는 항상 자신의 작은 가게에 독특하고 새로운 물건들을 진열합니다. 대부분의 경우 [PAWN_nameDef]는 일반적인 거래 서비스만 제공하지만, 만약 손님이 어떤 물건의 기원이나 문화적 형태에 대해 궁금해한다면, [PAWN_nameDef]는 기꺼이 30분 동안 설명해 줄 것입니다.</OA_RK_NEW_Backstory_B_ABG.description>
+
+
+
+</LanguageData>

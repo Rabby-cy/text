@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+<OARK_GravFieldExtender.label>金鳶尾蘭逆重力拡張装置</OARK_GravFieldExtender.label>
+  <OARK_GravFieldExtender.description>金鳶尾蘭研究部が逆重力技術をリバースエンジニアリングした後に製作した、逆重力エンジンの稼働を専門に補助する重力拡張装置。逆重力エンジンの近くに設置することで、エンジンの重力エネルギー準位を強化し、逆重力船がサポートできるフレーム数を増加させる。</OARK_GravFieldExtender.description>
+
+  <OARK_AirportClearanceBeacon.label>金鳶尾蘭空港許可ビーコン</OARK_AirportClearanceBeacon.label>
+  <OARK_AirportClearanceBeacon.description>金鳶尾蘭帝国が友軍艦船を識別するために使用するビーコン。このビーコンを起動すると、艦船は一時的に金鳶尾蘭の宇宙港に停泊して補給を受けることができ、一回の飛行での最大航続距離を伸ばすことができる。\n\n注意：宇宙船が離陸する際、このビーコンは自動的に起動します。\n注意：このビーコンは使い捨てです。</OARK_AirportClearanceBeacon.description>
+
+  <OARK_SpaceportAccessPermit.label>金鳶尾蘭宇宙港通行許可</OARK_SpaceportAccessPermit.label>
+  <OARK_SpaceportAccessPermit.description>金鳶尾蘭帝国が友軍艦船を識別するために使用するビーコン。このビーコンを起動すると、艦船は一時的に金鳶尾蘭の宇宙港に停泊して補給を受けることができ、一回の飛行での最大航続距離を伸ばすことができる。\n\n注意：宇宙船が離陸する際、このビーコンは自動的に起動します。\n注意：このビーコンは使い捨てです。</OARK_SpaceportAccessPermit.description>
+
+  <OARK_GravFieldGenerator.label>小型重力場発生装置</OARK_GravFieldGenerator.label>
+  <OARK_GravFieldGenerator.description>周囲に継続的に重力場を構築し、近くのユニットに付着することができる重力装置。金鳶尾蘭帝国が空港の初期建設時に一時的な真空保護を提供するためによく使用される。\n\nまた、空港が侵入された際には、この装置は能動的に強力な重力場を生成し、範囲内のすべての人に制圧効果を与えることができる。</OARK_GravFieldGenerator.description>
+
+  <OARK_TrapIED_Gravity.label>金鳶尾蘭重力トラップ</OARK_TrapIED_Gravity.label>
+  <OARK_TrapIED_Gravity.description>一時的に強力な重力場を形成できる使い捨ての設備システム。起動後、一定範囲内のすべてのユニットを強制的に引き寄せる。\n\n注意：同一ユニットが短時間内に何度も強力な重力に引かれると耐性が生じます。\n手動での起動が必要です。</OARK_TrapIED_Gravity.description>
+
+  <OARK_AirportClearanceBeaconDeactive.label>無効な空港許可ビーコン</OARK_AirportClearanceBeaconDeactive.label>
+  <OARK_AirportClearanceBeaconDeactive.description>すでに無効になったビーコン。残された役割は場所を取ることと観賞用だけだ。</OARK_AirportClearanceBeaconDeactive.description>
+
+  <OARK_BrokenPilotConsole.label>宇宙船操縦コンソール</OARK_BrokenPilotConsole.label>
+  <OARK_BrokenPilotConsole.description>墜落した宇宙船の操縦コンソール。本来の役目を果たすことはできなくなったが、内部のローカルデータにはまだ一定の価値がある。</OARK_BrokenPilotConsole.description>
+
+  <OARK_CrashedScienceShip.label>墜落した研究ポッド</OARK_CrashedScienceShip.label>
+  <OARK_CrashedScienceShip.description>墜落した使い捨ての無人研究ポッド。データの大部分はすでに転送済みだが、少量の機械的裏付けデータはまだ手動での検証と転送が必要だ。</OARK_CrashedScienceShip.description>
+
+  <OARK_GravDataBeacon.label>研究部逆重力データビーコン</OARK_GravDataBeacon.label>
+  <OARK_GravDataBeacon.description>金鳶尾蘭帝国研究部が逆重力エンジン関連のデータを取得するために設置したビーコン。ビーコンを起動すると、エンジンの完全な離着陸プロセスを記録し、データ転送を行う。成功したデータ転送ごとに、データソースには一定の研究貢献度が蓄積される。\n\nただし、注意が必要なのは、膨大なデータストリームの信号が目立ちすぎるため、データ転送が完了するたびに、機械族の襲撃を招くことである。</OARK_GravDataBeacon.description>
+
+  <OARK_Apparel_GravShieldBelt.label>金鳶尾蘭真空シールドベルト</OARK_Apparel_GravShieldBelt.label>
+  <OARK_Apparel_GravShieldBelt.description>金鳶尾蘭通航部が全乗組員に統一して支給する制式ベルト。このベルトは着用者の周りに自動調整される重力場を形成し、周囲の気体を拘束し、高速の投射物を阻止することができる。\n\nしかし、重力場の安定には時間が必要なため、持続的な妨害に直面すると維持が困難になり、また重力場の存在は着用者の射撃精度にも影響を与える。</OARK_Apparel_GravShieldBelt.description>
+</LanguageData>

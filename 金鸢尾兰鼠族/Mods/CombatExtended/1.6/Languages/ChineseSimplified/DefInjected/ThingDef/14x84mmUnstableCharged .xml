@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_14x84mmUnstableCharged.label>14x84mm 不稳定电荷弹</Ammo_14x84mmUnstableCharged.label>
+  <Ammo_14x84mmUnstableCharged.description>极具杀伤力的不稳定电荷弹，命中目标时会飞溅大量的爆破性碎片。</Ammo_14x84mmUnstableCharged.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_14x84mmUnstableCharged.label>14x84mm 不稳定电荷弹</Bullet_14x84mmUnstableCharged.label>
+
+
+</LanguageData>

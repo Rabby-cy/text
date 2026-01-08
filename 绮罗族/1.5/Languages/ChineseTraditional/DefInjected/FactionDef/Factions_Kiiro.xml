@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kiiro_PlayerFaction.label>綺羅新家園</Kiiro_PlayerFaction.label>
+  <Kiiro_PlayerFaction.description>一處新的綺羅定居點。故事將引導它走向何處呢？</Kiiro_PlayerFaction.description>
+  <Kiiro_PlayerFaction.pawnsPlural>綺羅居民</Kiiro_PlayerFaction.pawnsPlural>
+
+  <Kiiro_Faction.label>綺羅族</Kiiro_Faction.label>
+  <Kiiro_Faction.description>綺羅族的定居地。</Kiiro_Faction.description>
+  <Kiiro_Faction.fixedName>綺羅隱居鄉</Kiiro_Faction.fixedName>
+  <Kiiro_Faction.pawnsPlural>綺羅族</Kiiro_Faction.pawnsPlural>
+  <Kiiro_Faction.leaderTitle>領袖</Kiiro_Faction.leaderTitle>
+
+
+</LanguageData>

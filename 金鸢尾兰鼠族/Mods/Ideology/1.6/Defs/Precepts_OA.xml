@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- Issues -->
+	<IssueDef>
+		<defName>OA_RK_Community</defName>
+		<label>community atmosphere</label>
+	    <iconPath>Ui/OA_RK_Community</iconPath>
+	</IssueDef>
+
+	<IssueDef>
+		<defName>OA_RK_LeaderAttitude</defName>
+		<label>Leadership attitude</label>
+		<iconPath>UI/Issues/IdeoDiversity</iconPath>
+	</IssueDef>
+
+	<!-- Precepts -->
+
+	<PreceptDef>
+		<defName>OA_RK_Community_Turbulent</defName>
+		<issue>OA_RK_Community</issue>
+		<label>Turbulence</label>
+		<description>Only a turbulent environment can forge the strong. The likelihood of brawls, insults, and rebuffs increases, while deep talks become less frequent.</description>
+		<impact>Medium</impact>
+		<displayOrderInIssue>40</displayOrderInIssue>
+		<displayOrderInImpact>850</displayOrderInImpact>
+		<defaultSelectionWeight>2</defaultSelectionWeight>
+	</PreceptDef>
+
+	<PreceptDef>
+		<defName>OA_RK_Community_Common</defName>
+		<issue>OA_RK_Community</issue>
+		<label>Ordinary</label>
+		<description>A normal community atmosphere.</description>
+		<impact>Low</impact>
+		<displayOrderInIssue>30</displayOrderInIssue>
+		<displayOrderInImpact>850</displayOrderInImpact>
+		<defaultSelectionWeight>4</defaultSelectionWeight>
+	</PreceptDef>
+
+	<PreceptDef>
+		<defName>OA_RK_Community_Harmonious</defName>
+		<issue>OA_RK_Community</issue>
+		<label>Harmony</label>
+		<description>Why resort to strife when we can progress together? The chances of brawls, insults, and rebuffs are reduced.</description>
+		<impact>Medium</impact>
+		<displayOrderInIssue>20</displayOrderInIssue>
+		<displayOrderInImpact>850</displayOrderInImpact>
+		<defaultSelectionWeight>1</defaultSelectionWeight>
+	</PreceptDef>
+
+	<PreceptDef>
+		<defName>OA_RK_Community_Utopia</defName>
+		<issue>OA_RK_Community</issue>
+		<label>Utopia</label>
+		<description>Peaceful and carefree, the probability of brawls, insults, and rebuffs is significantly reduced, and deep talks slightly more likely.</description>
+		<impact>High</impact>
+		<displayOrderInIssue>10</displayOrderInIssue>
+		<displayOrderInImpact>850</displayOrderInImpact>
+		<associatedMemes>
+			<li>OA_RK_meme_Friendly</li>
+		</associatedMemes>
+		<requiredMemes>
+			<li>OA_RK_meme_Friendly</li>
+		</requiredMemes>
+	</PreceptDef>
+
+	<PreceptDef>
+		<defName>OA_RK_LeaderAttitude_Common</defName>
+		<issue>OA_RK_LeaderAttitude</issue>
+		<label>Normal leadership</label>
+		<description>The leader is just like us, only with more power.</description>
+		<impact>Low</impact>
+		<displayOrderInIssue>10</displayOrderInIssue>
+		<displayOrderInImpact>100</displayOrderInImpact>
+		<defaultSelectionWeight>1</defaultSelectionWeight>
+	</PreceptDef>
+
+	<PreceptDef>
+		<defName>OA_RK_LeaderAttitude_Respect</defName>
+		<issue>OA_RK_LeaderAttitude</issue>
+		<label>Respectful leadership</label>
+		<description>A good leader is an indispensable part of a group. Mood boosts when having a leader, and additional boosts if the leader is outstanding. Mood decreases when the leader is incapacitated.</description>
+		<impact>Medium</impact>
+		<displayOrderInIssue>20</displayOrderInIssue>
+		<displayOrderInImpact>100</displayOrderInImpact>
+	</PreceptDef>
+
+	<PreceptDef>
+		<defName>OA_RK_LeaderAttitude_Worship</defName>
+		<issue>OA_RK_LeaderAttitude</issue>
+		<label>Leadership worship</label>
+		<description>Only the leader can guide us in the right direction; we unite under our leader's guidance. Mood boosts when having a leader, and additional boosts if the leader is outstanding. Mood decreases when the leader is incapacitated.</description>
+		<impact>High</impact>
+		<displayOrderInIssue>30</displayOrderInIssue>
+		<displayOrderInImpact>100</displayOrderInImpact>
+		<associatedMemes>
+			<li>OA_RK_meme_Elite</li>
+		</associatedMemes>
+		<requiredMemes>
+			<li>OA_RK_meme_Elite</li>
+		</requiredMemes>
+	</PreceptDef>
+</Defs>

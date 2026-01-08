@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 荊芥葉片做佩諾西林 -->
+
+  <Kiiro_Make_Penoxycyline.label>製作佩諾西林</Kiiro_Make_Penoxycyline.label>
+  <Kiiro_Make_Penoxycyline.description>使用荊芥葉片代替中性胺製作佩諾西林。</Kiiro_Make_Penoxycyline.description>
+  <Kiiro_Make_Penoxycyline.jobString>製作佩諾西林。</Kiiro_Make_Penoxycyline.jobString>
+
+  <Kiiro_Make_BulkPenoxycyline.label>製作佩諾西林 x4</Kiiro_Make_BulkPenoxycyline.label>
+  <Kiiro_Make_BulkPenoxycyline.description>使用荊芥葉片代替中性胺製作佩諾西林。</Kiiro_Make_BulkPenoxycyline.description>
+  <Kiiro_Make_BulkPenoxycyline.jobString>製作佩諾西林。</Kiiro_Make_BulkPenoxycyline.jobString>
+
+
+</LanguageData>

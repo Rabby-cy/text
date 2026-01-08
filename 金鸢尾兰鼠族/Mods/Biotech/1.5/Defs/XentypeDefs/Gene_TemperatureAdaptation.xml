@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <GeneDef>
+        <defName>OA_RK_Gene_ColdAdaptation</defName>
+        <label>Cold stress adaptation</label>
+        <description>The subcutaneous tissue of carriers of this gene has evolved a special adaptation to cold, and when they are stimulated by cold, they will slightly improve their body's functions.\n\nWhen the temperature is below -15 ℃, a series of positive effects will occur.</description>
+        <iconPath>Ui/OA_RK_Gene_ColdAdaptation</iconPath>
+        <geneClass>OberoniaAurea.Gene_ColdAdaptation</geneClass>
+        <displayCategory>Temperature</displayCategory>
+        <displayOrderInCategory>-10</displayOrderInCategory>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <statOffsets>
+            <ComfyTemperatureMin>-5</ComfyTemperatureMin>
+        </statOffsets>
+    </GeneDef>
+    <HediffDef>
+        <defName>OA_RK_Hediff_ColdAdaptation</defName>
+        <label>Cold adaptation</label>
+        <description>Due to low-temperature stimulation, the efficiency of subcutaneous tissue and some organs has been improved.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <duplicationAllowed>false</duplicationAllowed>
+        <initialSeverity>1</initialSeverity>
+        <stages>
+            <li>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>0.15</offset>
+                    </li>
+                    <li>
+                        <capacity>BloodPumping</capacity>
+                        <offset>0.10</offset>
+                    </li>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>0.03</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>500</disappearsAfterTicks>
+                <showRemainingTime>false</showRemainingTime>
+            </li>
+        </comps>
+    </HediffDef>
+
+
+    <GeneDef>
+        <defName>OA_RK_Gene_HotAdaptation</defName>
+        <label>Heat stress adaptation</label>
+        <description>The subcutaneous tissue of carriers of this gene has evolved to be particularly adapted to heat, and when they are stimulated by heat, it will slightly enhance their body's functions.\n\nWhen the temperature exceeds 45 ℃, a series of positive effects will occur.</description>
+        <iconPath>Ui/OA_RK_Gene_HotAdaptation</iconPath>
+        <geneClass>OberoniaAurea.Gene_HotAdaptation</geneClass>
+        <displayCategory>Temperature</displayCategory>
+        <displayOrderInCategory>-10</displayOrderInCategory>
+        <biostatCpx>2</biostatCpx>
+        <biostatMet>-1</biostatMet>
+        <statOffsets>
+            <ComfyTemperatureMax>5</ComfyTemperatureMax>
+        </statOffsets>
+    </GeneDef>
+    <HediffDef>
+        <defName>OA_RK_Hediff_HotAdaptation</defName>
+        <label>Heat adaptation</label>
+        <description>Due to high temperature stimulation, the efficiency of subcutaneous tissue and some organs has improved.</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <isBad>false</isBad>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <duplicationAllowed>false</duplicationAllowed>
+        <initialSeverity>1</initialSeverity>
+        <stages>
+            <li>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>0.15</offset>
+                    </li>
+                    <li>
+                        <capacity>BloodPumping</capacity>
+                        <offset>0.10</offset>
+                    </li>
+                    <li>
+                        <capacity>Consciousness</capacity>
+                        <offset>0.03</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+        <comps>
+            <li Class="HediffCompProperties_Disappears">
+                <disappearsAfterTicks>500</disappearsAfterTicks>
+                <showRemainingTime>false</showRemainingTime>
+            </li>
+        </comps>
+    </HediffDef>
+
+</Defs>

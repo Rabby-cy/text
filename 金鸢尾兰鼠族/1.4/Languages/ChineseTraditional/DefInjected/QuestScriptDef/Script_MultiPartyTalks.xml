@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <OA_OpportunitySite_MultiPartyTalks.questDescriptionRules.rulesStrings>
+    <li>questDescription->[OAFaction_name]的[OAFaction_leaderTitle]，[OAFaction_leader_nameFull]給我們發來一條消息。[OAFaction_leader_pronoun]預計將會舉行一場涉及多方勢力的會談，以協助各派系調和彼此之間的關系，促進星球上的和睦氛圍。\n\n這是個改善派系之間關系以及為[OAFaction_name]做出貢獻的極好機會， 但由於這場會談涉及的要素與勢力過多，因此如果你的談判者不夠出色，那麽他將會有概率造成一場災難。[extraLeaderPart][favorRewardDetails]</li>
+    <li>favorRewardDetails(OAFaction_leader_royalInCurrentFaction==True,priority=1)->\n\n若是成功促進會談進展將可以為 [OAFaction_name] 的談判代表積累一部分個人 [OAFaction_royalFavorLabel]。</li>
+    <li>favorRewardDetails-></li>
+    <li>extraLeaderPart(priority=1)->\n\n[leaderRoleEffect] [leaderPawnInfo]</li>
+    <li>extraLeaderPart-></li>
+    <li>leaderRoleEffect->如果你派你的領袖去處理談判，其他派系會更尊重你。</li>
+    <li>leaderPawnInfo(playerFaction_hasLeader==True,priority=1)-> [playerFaction_leaderTitle] [playerFaction_leader_nameFull]將會獲得額外的成功率。</li>
+    <li>leaderPawnInfo-></li>
+  </OA_OpportunitySite_MultiPartyTalks.questDescriptionRules.rulesStrings>
+
+  <OA_OpportunitySite_MultiPartyTalks.questNameRules.rulesStrings>
+    <li>questName->[OAFaction_leader_nameDef]的[OA_MultiPartyTalks]</li>
+    <li>questName->[OAFaction_leader_nameDef]舉行的[OA_MultiPartyTalks]</li>
+    <li>questName->[OA_MultiPartyTalks]</li>
+    <li>questName->[OA_MultiPartyTalks]</li>
+    <li>OA_MultiPartyTalks->多方會談</li>
+    <li>OA_MultiPartyTalks->多方外交</li>
+    <li>OA_MultiPartyTalks->多方會晤</li>
+  </OA_OpportunitySite_MultiPartyTalks.questNameRules.rulesStrings>
+
+  <OA_OpportunitySite_MultiPartyTalks.root.nodes.OA_RK_MultiPartyTalksTimeout.node.nodes.Letter.label.slateRef>\n任務已失效：[resolvedQuestName]\n  </OA_OpportunitySite_MultiPartyTalks.root.nodes.OA_RK_MultiPartyTalksTimeout.node.nodes.Letter.label.slateRef>
+
+  <OA_OpportunitySite_MultiPartyTalks.root.nodes.OA_RK_MultiPartyTalksTimeout.node.nodes.Letter.text.slateRef>\n[OAFaction_name]舉行的多方會談已過期。 任務已失效：[resolvedQuestName]。\n  </OA_OpportunitySite_MultiPartyTalks.root.nodes.OA_RK_MultiPartyTalksTimeout.node.nodes.Letter.text.slateRef>
+  
+</LanguageData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="OberoniaAurea_Frame.PatchOperationCheckDLC">
+        <Royalty>true</Royalty>
+        <match Class="PatchOperationAdd">
+            <xpath>/Defs/FactionDef[defName = "Empire"]/permanentEnemyToEveryoneExcept</xpath>
+            <value>
+                <li>OA_RK_PlayerFaction</li>
+                <li>OA_RK_Faction</li>
+            </value>
+        </match>
+    </Operation>
+
+</Patch>

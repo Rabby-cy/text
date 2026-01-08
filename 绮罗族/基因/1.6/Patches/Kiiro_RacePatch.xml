@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Kiiro_Race"]/statBases</xpath>
+				<value>
+					<statBases>
+						<MarketValue>1800</MarketValue>
+						<Flammability>0.3</Flammability>
+						<MoveSpeed>5.0</MoveSpeed>
+						<MentalBreakThreshold>0.35</MentalBreakThreshold>						<!--0.5-->
+						<ComfyTemperatureMax>37</ComfyTemperatureMax>						<!--32-->
+						<ComfyTemperatureMin>5</ComfyTemperatureMin>						<!--10-->
+						<ImmunityGainSpeed>0.98</ImmunityGainSpeed>
+						<CarryingCapacity>75</CarryingCapacity>
+						<RoyalFavorValue MayRequire="Ludeon.RimWorld.Royalty">4</RoyalFavorValue>
+						<MeatAmount>45</MeatAmount>
+						<LeatherAmount>50</LeatherAmount>
+						<Mass>45</Mass>
+						<!--==-->
+						<GlobalLearningFactor>1.0</GlobalLearningFactor>						<!--0.9-->
+						<PsychicSensitivity>1.0</PsychicSensitivity>
+						<!-- <MeleeDodgeChance>5.0</MeleeDodgeChance> -->
+						<!-- <MeleeHitChance>1.5</MeleeHitChance> -->
+						<!-- <ShootingAccuracyPawn>4.0</ShootingAccuracyPawn> -->
+						<!-- <AimingDelayFactor>1.1</AimingDelayFactor> -->
+						<PainShockThreshold>0.80</PainShockThreshold>
+						<GeneralLaborSpeed>1.0</GeneralLaborSpeed>						<!--=普通工作=-->
+						<DrugSynthesisSpeed>1.0</DrugSynthesisSpeed>						<!--0.75-->
+						<MedicalTendSpeed>1.0</MedicalTendSpeed>						<!--0.75-->
+						<MedicalTendQuality>1.0</MedicalTendQuality>						<!--0.85-->
+						<MedicalSurgerySuccessChance>1.0</MedicalSurgerySuccessChance>						<!--0.8-->
+						<!--==-->
+						<NegotiationAbility>0.8</NegotiationAbility>						<!--0.8-->
+						<SellPriceFactor>1.0</SellPriceFactor>						<!--1.0-->
+						<TradePriceImprovement>1.0</TradePriceImprovement>						<!--1.2-->
+						<SocialImpact>1.0</SocialImpact>						<!--1.2-->
+						<!--==-->
+						<WorkSpeedGlobal>1.2</WorkSpeedGlobal>						<!--=全局工作=-->
+						<EatingSpeed>0.9</EatingSpeed>
+						<ConstructionSpeed>0.8</ConstructionSpeed>
+						<ButcheryMechanoidEfficiency>1.0</ButcheryMechanoidEfficiency>						<!--0.8-->
+						<ButcheryMechanoidSpeed>1.0</ButcheryMechanoidSpeed>						<!--0.8-->
+						<SmeltingSpeed>0.8</SmeltingSpeed>
+						<ResearchSpeed>1.0</ResearchSpeed>						<!--0.8-->
+						<MiningSpeed>1.0</MiningSpeed>
+						<MiningYield>1.0</MiningYield>
+						<!--==-->
+						<ButcheryFleshEfficiency>1.0</ButcheryFleshEfficiency>						<!--1.15-->
+						<ButcheryFleshSpeed>1.0</ButcheryFleshSpeed>						<!--0.6-->
+						<!-- <FoodPoisonChance>0.2</FoodPoisonChance> -->
+						<CookSpeed>1.0</CookSpeed>						<!--0.8-->
+						<RestRateMultiplier>1.0</RestRateMultiplier>						<!--0.9-->
+						<PlantWorkSpeed>1.0</PlantWorkSpeed>						<!--0.5-->
+						<PlantHarvestYield>1.0</PlantHarvestYield>						<!--0.8-->
+					</statBases>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Kiiro_Race"]/alienRace/raceRestriction/xenotypeList</xpath>
+				<value>
+					<xenotypeList MayRequire="Ludeon.RimWorld.Biotech">
+						<li MayRequire="Ludeon.RimWorld.Biotech">KiiroXenotype</li>
+					</xenotypeList>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!-- <Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Kiiro_Race"]/alienRace/raceRestriction/whiteXenotypeList</xpath>
+				<value>
+        <whiteXenotypeList>
+            <li MayRequire="Ludeon.RimWorld.Biotech">KiiroXenotype</li>
+        </whiteXenotypeList>			
+				</value>
+			</li>
+		</operations>
+	</Operation> -->
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/FactionDef[defName="Kiiro_Faction"]/xenotypeSet</xpath>
+				<value>
+					<xenotypeSet>
+						<xenotypeChances>
+							<KiiroXenotype MayRequire="Ludeon.RimWorld.Biotech">0</KiiroXenotype>
+							<Baseliner MayRequire="Ludeon.RimWorld.Biotech">1</Baseliner>
+							<Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0</Dirtmole>
+							<Hussar MayRequire="Ludeon.RimWorld.Biotech">0</Hussar>
+							<Waster MayRequire="Ludeon.RimWorld.Biotech">0</Waster>
+							<Pigskin MayRequire="Ludeon.RimWorld.Biotech">0</Pigskin>
+							<Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0</Neanderthal>
+							<Impid MayRequire="Ludeon.RimWorld.Biotech">0</Impid>
+							<Genie MayRequire="Ludeon.RimWorld.Biotech">0</Genie>
+							<Yttakin MayRequire="Ludeon.RimWorld.Biotech">0</Yttakin>
+							<Highmate MayRequire="Ludeon.RimWorld.Biotech">0</Highmate>
+							<Sanguophage MayRequire="Ludeon.RimWorld.Biotech">0</Sanguophage>
+						</xenotypeChances>
+					</xenotypeSet>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<!--panwkind-->
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[@Name="Kiiro_PawnBase"]/xenotypeSet</xpath>
+				<value>
+					<xenotypeSet>
+						<xenotypeChances>
+							<KiiroXenotype MayRequire="Ludeon.RimWorld.Biotech">1</KiiroXenotype>
+							<Baseliner MayRequire="Ludeon.RimWorld.Biotech">0</Baseliner>
+							<Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0</Dirtmole>
+							<Genie MayRequire="Ludeon.RimWorld.Biotech">0</Genie>
+							<Hussar MayRequire="Ludeon.RimWorld.Biotech">0</Hussar>
+							<Sanguophage MayRequire="Ludeon.RimWorld.Biotech">0</Sanguophage>
+							<Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0</Neanderthal>
+							<Pigskin MayRequire="Ludeon.RimWorld.Biotech">0</Pigskin>
+							<Impid MayRequire="Ludeon.RimWorld.Biotech">0</Impid>
+							<Waster MayRequire="Ludeon.RimWorld.Biotech">0</Waster>
+							<Yttakin MayRequire="Ludeon.RimWorld.Biotech">0</Yttakin>
+							<Highmate MayRequire="Ludeon.RimWorld.Biotech">0</Highmate>
+						</xenotypeChances>
+					</xenotypeSet>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[@Name="Kiiro_SCSPawnBase"]/xenotypeSet</xpath>
+				<value>
+					<xenotypeSet>
+						<xenotypeChances>
+							<KiiroXenotype MayRequire="Ludeon.RimWorld.Biotech">1</KiiroXenotype>
+							<Baseliner MayRequire="Ludeon.RimWorld.Biotech">0</Baseliner>
+							<Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0</Dirtmole>
+							<Genie MayRequire="Ludeon.RimWorld.Biotech">0</Genie>
+							<Hussar MayRequire="Ludeon.RimWorld.Biotech">0</Hussar>
+							<Sanguophage MayRequire="Ludeon.RimWorld.Biotech">0</Sanguophage>
+							<Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0</Neanderthal>
+							<Pigskin MayRequire="Ludeon.RimWorld.Biotech">0</Pigskin>
+							<Impid MayRequire="Ludeon.RimWorld.Biotech">0</Impid>
+							<Waster MayRequire="Ludeon.RimWorld.Biotech">0</Waster>
+							<Yttakin MayRequire="Ludeon.RimWorld.Biotech">0</Yttakin>
+							<Highmate MayRequire="Ludeon.RimWorld.Biotech">0</Highmate>
+						</xenotypeChances>
+					</xenotypeSet>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+
+
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/FactionDef[defName="Kiiro_Faction"]/xenotypeSet</xpath>
+				<value>
+					<xenotypeSet>
+						<xenotypeChances>
+							<KiiroXenotype MayRequire="Ludeon.RimWorld.Biotech">1</KiiroXenotype>
+							<!-- <Baseliner MayRequire="Ludeon.RimWorld.Biotech">0</Baseliner> -->
+							<!-- <Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0</Dirtmole> -->
+							<!-- <Hussar MayRequire="Ludeon.RimWorld.Biotech">0</Hussar> -->
+							<!-- <Waster MayRequire="Ludeon.RimWorld.Biotech">0</Waster> -->
+							<!-- <Pigskin MayRequire="Ludeon.RimWorld.Biotech">0</Pigskin> -->
+							<!-- <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0</Neanderthal> -->
+							<!-- <Impid MayRequire="Ludeon.RimWorld.Biotech">0</Impid> -->
+							<!-- <Genie MayRequire="Ludeon.RimWorld.Biotech">0</Genie> -->
+							<!-- <Yttakin MayRequire="Ludeon.RimWorld.Biotech">0</Yttakin> -->
+							<!-- <Highmate MayRequire="Ludeon.RimWorld.Biotech">0</Highmate> -->
+							<!-- <Sanguophage MayRequire="Ludeon.RimWorld.Biotech">0</Sanguophage> -->
+						</xenotypeChances>
+					</xenotypeSet>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+
+</Patch>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OA_VisitSettlement>Accessing {0}</OA_VisitSettlement>
+    <OA_VisitInteractiveObject>Accessing {0}</OA_VisitInteractiveObject>
+    <OA_VisitAcademicDispute>Go to observe the battle {0}</OA_VisitAcademicDispute>
+
+    <OA_RobResearcherCamp>Extort silver from {0}</OA_RobResearcherCamp>
+
+</LanguageData>

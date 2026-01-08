@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_10GaugeDU_Buck.label>make 10 gauge (Buck) shell x200</MakeAmmo_10GaugeDU_Buck.label>
+  <MakeAmmo_10GaugeDU_Buck.description>Craft 200 10 gauge (Buck) shells.</MakeAmmo_10GaugeDU_Buck.description>
+  <MakeAmmo_10GaugeDU_Buck.jobString>Making 10 gauge (Buck) shells.</MakeAmmo_10GaugeDU_Buck.jobString>
+
+  <MakeAmmo_10GaugeDU_Slug.label>make 10 gauge (Slug) shell x200</MakeAmmo_10GaugeDU_Slug.label>
+  <MakeAmmo_10GaugeDU_Slug.description>Craft 200 10 gauge (Slug) shells.</MakeAmmo_10GaugeDU_Slug.description>
+  <MakeAmmo_10GaugeDU_Slug.jobString>Making 10 gauge (Slug) shells.</MakeAmmo_10GaugeDU_Slug.jobString>
+
+  <MakeAmmo_10GaugeDU_Beanbag.label>make 10 gauge (Beanbag) shell x200</MakeAmmo_10GaugeDU_Beanbag.label>
+  <MakeAmmo_10GaugeDU_Beanbag.description>Craft 200 10 gauge (Beanbag) shells.</MakeAmmo_10GaugeDU_Beanbag.description>
+  <MakeAmmo_10GaugeDU_Beanbag.jobString>Making 10 gauge (Beanbag) shells.</MakeAmmo_10GaugeDU_Beanbag.jobString>
+
+  <MakeAmmo_10GaugeDU_ElectroSlug.label>make 10 gauge (EMP) shell x200</MakeAmmo_10GaugeDU_ElectroSlug.label>
+  <MakeAmmo_10GaugeDU_ElectroSlug.description>Craft 200 10 gauge (EMP) shells.</MakeAmmo_10GaugeDU_ElectroSlug.description>
+  <MakeAmmo_10GaugeDU_ElectroSlug.jobString>Making 10 gauge (EMP) shells.</MakeAmmo_10GaugeDU_ElectroSlug.jobString>
+
+
+</LanguageData>

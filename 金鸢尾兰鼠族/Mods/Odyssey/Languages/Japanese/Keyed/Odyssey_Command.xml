@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+<OARK_DeativeGravDataBeaconDesc>{0}を停止\n現在の状態：アクティブ</OARK_DeativeGravDataBeaconDesc>
+<OARK_ActiveGravDataBeaconDesc>{0}を起動\n現在の状態：閉じました</OARK_ActiveGravDataBeaconDesc>
+
+<OARK_Command_TriggerStartWick>装置作動</OARK_Command_TriggerStartWick>
+<OARK_Command_TriggerStartWickDesc>重力トラップを起動し、近隣の全ユニットに強力な引力を作用させる。</OARK_Command_TriggerStartWickDesc>
+
+<OARK_Command_GravSuppress>重力場制圧</OARK_Command_GravSuppress>
+<OARK_Command_GravSuppressDesc>領域の重力強度を大幅に変化させ、効果範囲内の全ユニットに強力な制圧効果をもたらす。</OARK_Command_GravSuppressDesc>
+
+<OARK_SailorAssistInvitation>常駐要請</OARK_SailorAssistInvitation>
+<OARK_SailorAssistInvitationDesc>金蘭帝国に対し、この市民が恒久的にあなたのコロニーに加入するよう常駐要請を行う。</OARK_SailorAssistInvitationDesc>
+<OARK_InsufficientMood>従者は最低{0}の機嫌を必要とする。</OARK_InsufficientMood>
+<OARk_NeedBetterBothwayOpinion>従者がこのコロニストに対し最低{0}の好感度が必要。</OARk_NeedBetterBothwayOpinion>
+
+<OARK_OpenOne>1つ開封</OARK_OpenOne>
+<OARK_ComponentBoxDesc>{0}を1つだけ開封する。</OARK_ComponentBoxDesc>
+
+<OARK_OpenAll>全開封</OARK_OpenAll>
+<OARK_ComponentBoxDesc>積み重なった全ての{0}を開封する。</OARK_ComponentBoxDesc>
+</LanguageData>

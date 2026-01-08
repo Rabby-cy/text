@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <!-- 科研艙任務 -->
+
+    <!-- 發射任務 -->
+    <OARK_ScienceShipName>科研艙名稱</OARK_ScienceShipName>
+    <OARK_ScienceShipLaunchSite_TimeLeft>觀禮剩余時間：{0}</OARK_ScienceShipLaunchSite_TimeLeft>
+
+
+
+    <OARK_ScienceShipLaunch_Quiz>閑聊</OARK_ScienceShipLaunch_Quiz>
+    <OARK_ScienceShipLaunch_QuizDesc>向在場的科研部侍從們閑聊一些的常見問題來打發時間。</OARK_ScienceShipLaunch_QuizDesc>
+    <OARK_ScienceShipLaunch_Inquiry>深度問詢</OARK_ScienceShipLaunch_Inquiry>
+    <OARK_ScienceShipLaunch_InquiryDesc>消耗微量科研貢獻，來換取一位專屬的科研部導遊，為你的觀禮者提供一次全方位的知識解答。</OARK_ScienceShipLaunch_InquiryDesc>
+    <OARK_ScienceShipLaunch_Pry>打探消息</OARK_ScienceShipLaunch_Pry>
+    <OARK_ScienceShipLaunch_PryDesc>花費一定時間，以從人群中嘗試打探一些特殊的訊息。</OARK_ScienceShipLaunch_PryDesc>
+
+    <OARK_ScienceShipLaunch_Block>現場侍從們已經忙不開身了。</OARK_ScienceShipLaunch_Block>
+
+    <OARK_ScienceShipLaunch_QuizLabel>無所事事的閑談</OARK_ScienceShipLaunch_QuizLabel>
+    <!-- 前N次閑談信件內容由RulePack實現 -->
+
+    <OARK_ScienceShipLaunch_QuizLabel6>陷入忙碌</OARK_ScienceShipLaunch_QuizLabel6>
+    <OARK_ScienceShipLaunch_Quiz6>隨著你一次又一次的隨機拉住科研部侍從進行詢問，最終這些沒有時間觀念的侍從們終於發現在這一次次的閑聊後，自己的工作與觀禮現場已經亂成了一鍋粥。\n\n因此當你打算再次拉住侍從的時候，她最終無奈而歉意的向你擺了擺手。</OARK_ScienceShipLaunch_Quiz6>
+
+    <OARK_ScienceShipLaunch_Quiz6Special>隨著你一次又一次的隨機拉住科研部侍從進行詢問，最終這些沒有時間觀念的侍從們終於發現在這一次次的閑聊後，自己的工作與觀禮現場已經亂成了一鍋粥。\n\n因此當你打算再次拉住侍從的時候，她最終無奈而歉意的向你擺了擺手。然而似乎是出於不忍，亦或者是對你的歉意，她快步的小跑開來，隨後從一旁的觀測站內為你拿來了一盒未拆封的花糕，隨後才投身於忙碌之中。</OARK_ScienceShipLaunch_Quiz6Special>
+    <OARK_ScienceShipLaunch_FlowCake>她們到底哪來的這麽多花糕？</OARK_ScienceShipLaunch_FlowCake>
+
+    <OARK_ScienceShipLaunch_Quiz6GainLabel>花糕盒子</OARK_ScienceShipLaunch_Quiz6GainLabel>
+    <OARK_ScienceShipLaunch_Quiz6Gain>侍從送給你的花糕盒里裝著多份小包裝的花糕，你稍作清點後發現共有{0}份。</OARK_ScienceShipLaunch_Quiz6Gain>
+
+    <!--
+    <OARK_ScienceShipLaunch_QuizLabelAbove6>信件標題 閑談-後幾次詢問</OARK_ScienceShipLaunch_QuizLabelAbove6>
+    <OARK_ScienceShipLaunch_QuizAbove6>你想要繼續找人詢問問題，來滿足你那無休止的好奇心。\n\n然而十米內空蕩蕩的一片讓你那求知的心略感哀傷。</OARK_ScienceShipLaunch_QuizAbove6>
+    -->
+
+    <OARK_ScienceShipLaunch_InquiryLabel>專屬導遊</OARK_ScienceShipLaunch_InquiryLabel>
+    <OARK_ScienceShipLaunch_InquiryInfo>在你向現場的科硏官告知你的合作者身份，幷表明你的需求後，科硏官便以5支援點數的優惠價格為你的觀禮者專門調派了一名侍從以作為導遊。\n\n得益於侍從知無不言的精心解答：</OARK_ScienceShipLaunch_InquiryInfo>
+
+    <OARK_ScienceShipLaunch_PryDialog>你可以消耗一定的時間在這里向其他人打探可能的稀有情報。這並不一定會成功，但也許的確有人知曉相關的傳聞。</OARK_ScienceShipLaunch_PryDialog>
+
+    <OARK_ScienceShipLaunch_PryReward_Weapon>遠古武器倉庫</OARK_ScienceShipLaunch_PryReward_Weapon>
+    <OARK_ScienceShipLaunch_PryReward_Thrumbo>阿爾法敲擊獸</OARK_ScienceShipLaunch_PryReward_Thrumbo>
+    <OARK_ScienceShipLaunch_PryRewardInfo>你有{0}的概率獲得{1}相關情報。具體概率：</OARK_ScienceShipLaunch_PryRewardInfo>
+    <OARK_ScienceShipLaunch_PryRewardChance_Base>基礎概率：{0}</OARK_ScienceShipLaunch_PryRewardChance_Base>
+    <OARK_ScienceShipLaunch_PryRewardChance_Settlement>附近{0}個定居點的人群：{1}</OARK_ScienceShipLaunch_PryRewardChance_Settlement>
+    <OARK_ScienceShipLaunch_PryRewardChance_Skill>最高社交技能 - {0}：{1}</OARK_ScienceShipLaunch_PryRewardChance_Skill>
+
+    <OARK_ScienceShipLaunch_PryLabel>打探消息結果</OARK_ScienceShipLaunch_PryLabel>
+    <OARK_ScienceShipLaunch_PrySuccess>你花費了大量的時間去詢問現場的每一個人，最終當你問到一位遠道而來的觀禮者後，那位觀禮者和你分享了一個他在路上所得知的傳聞。\n\n你得到了{0}的情報。</OARK_ScienceShipLaunch_PrySuccess>
+    <OARK_ScienceShipLaunch_PryNormal>雖然你花費了大量時間用於打探相關的消息，但遺憾的是的確沒有人知道有關的傳聞。</OARK_ScienceShipLaunch_PryNormal>
+
+    <OARK_ScienceShipLaunch_GainXP>遠行隊所有人獲得{0}點{1}經驗</OARK_ScienceShipLaunch_GainXP>
+
+
+    <OARK_ScienceShipLaunchFinished>你的殖民者們見證了科研艙發射的瞬間，這讓每個人都獲得了{0}點智識經驗，以及現場的宮廷部侍從所贈予的{1}份花糕。</OARK_ScienceShipLaunchFinished>
+    <OARK_ScienceShipLaunch_Interrupt>你們未等到科研艙發射的時間，便提前離開了發射現場。</OARK_ScienceShipLaunch_Interrupt>
+
+    <OARK_ScienceShipEnvir>在近距離與科研部侍從交流的時候，你的殖民者{0}從對方的言語與介紹中，判斷出來了這個科研艙自身的引力設備可能會造成以下的影響：</OARK_ScienceShipEnvir>    <!-- 對應環境影響在回收任務中 -->
+
+    <OARK_ScienceShipLaunch_Nothing>這個科研艙似乎是常規的型號設計，沒有太多值得重點關註的地方</OARK_ScienceShipLaunch_Nothing>
+    <OARK_ScienceShipLaunch_TravelRK>這個科研艙的側面似乎印著某個旅鼠商會的標誌，看樣子旅鼠聯邦也對這個科研艙有所投資。</OARK_ScienceShipLaunch_TravelRK>
+    <OARK_ScienceShipLaunch_Fragile>這個科研艙似乎壓根就沒準備完整回收，因此結構強度並不算高，降落時有可能全面解體。</OARK_ScienceShipLaunch_Fragile>
+    <OARK_ScienceShipLaunch_HighSignal>這個科研艙好像有專門對信號強度進行增幅，似乎是為了便於回收。</OARK_ScienceShipLaunch_HighSignal>
+
+    <!-- 回收任務觸發不合條件 -->
+    <OARK_LetterLabel_ScienceShipRecycleTriggerFail>遠空的火流星</OARK_LetterLabel_ScienceShipRecycleTriggerFail>
+    <OARK_Letter_ScienceShipRecycleTriggerFail>一條明亮的火焰軌跡從遠空的雲層間隙劃過，你的直覺告訴你，這個火流星似乎曾經與你有關，然而你已經記不清具體的緣由了。</OARK_Letter_ScienceShipRecycleTriggerFail>
+
+    <!-- 回收任務 -->
+    <OARK_ScienceShip_OASupportLabel>協助物資抵達</OARK_ScienceShip_OASupportLabel>
+    <OARK_ScienceShip_OASupport>為了協助你進行數據回收作業，金鳶尾蘭帝國已經為你臨時調撥了一批物資，以方便你抵禦這個混亂地帶中可能出現的各路襲擊。</OARK_ScienceShip_OASupport>
+
+    <OARK_ScienceShip_AllTroubleResolved>故障已完全排除</OARK_ScienceShip_AllTroubleResolved>
+    <OARK_ScienceShip_DataUploading>數據上傳中：剩余{0}</OARK_ScienceShip_DataUploading>
+    <OARK_ScienceShip_DataUploaded>數據上傳完成，信號消失，不會再觸發襲擊。</OARK_ScienceShip_DataUploaded>
+
+    <OARK_ScienceShip_SignalStrength>信號強度：{0}</OARK_ScienceShip_SignalStrength>
+
+    <OARK_ScienceShip_HyperthermiaInfo>高溫阻礙：{0}，降溫速率：{1}</OARK_ScienceShip_HyperthermiaInfo>
+    <OARK_ScienceShip_HyperthermiaBlock>由於極高的內部溫度，此時進行其他修復是不可能的。</OARK_ScienceShip_HyperthermiaBlock>
+    <OARK_ScienceShip_MechanicalInfo>機械故障修復進展：{0}/{1}</OARK_ScienceShip_MechanicalInfo>
+    <OARK_ScienceShip_GravitationalInfo>引力調試進展：{0}/{1}</OARK_ScienceShip_GravitationalInfo>
+
+    <OARK_ScienceShip_AllKeyTrouble>災難性的設計：由於故障之間相互影響，問題解決時間+{0}。</OARK_ScienceShip_AllKeyTrouble>
+    <OARK_ScienceShip_KeyTrouble>關鍵故障</OARK_ScienceShip_KeyTrouble>
+    <OARK_ScienceShip_TroubleWorkIncrease>由於其他故障的影響，修復該故障的耗時+{0}。</OARK_ScienceShip_TroubleWorkIncrease>
+
+    <OARK_ScienceShip_Hyperthermia>異常高溫</OARK_ScienceShip_Hyperthermia>
+    <OARK_ScienceShip_Mechanical>機械故障</OARK_ScienceShip_Mechanical>
+    <OARK_ScienceShip_Gravitational>內部引力混亂</OARK_ScienceShip_Gravitational>
+    <OARK_ScienceShip_InformationBase>信息庫掛件損毀</OARK_ScienceShip_InformationBase>
+
+    <OARK_ScienceShip_HyperthermiaJob>開啟內置降溫裝置</OARK_ScienceShip_HyperthermiaJob>
+    <OARK_ScienceShip_MechanicalJob>維修機械故障</OARK_ScienceShip_MechanicalJob>
+    <OARK_ScienceShip_GravitationalJob>調諧內部引力場</OARK_ScienceShip_GravitationalJob>
+    <OARK_ScienceShip_QuizResearcherJob>詢問科研部侍從識別碼</OARK_ScienceShip_QuizResearcherJob>
+
+    <OARK_ScienceShip_HyperthermiaDesc>由殖民者手動激活與操作內部降溫設備，大幅度加快降溫速度。</OARK_ScienceShip_HyperthermiaDesc>
+    <OARK_ScienceShip_MechanicalJobDesc>派遣殖民者對科研艙進行維修作業。</OARK_ScienceShip_MechanicalJobDesc>
+    <OARK_ScienceShip_GravitationalJobDesc>派遣殖民者嘗試進行穩定內部引力，研究能力不足的殖民者可能因為意外的操作失誤而受到傷害。</OARK_ScienceShip_GravitationalJobDesc>
+    <OARK_ScienceShip_QuizResearcherJobDesc>嘗試從科研部侍從那里獲取信息庫的識別碼，以進行手動信息驗證。</OARK_ScienceShip_QuizResearcherJobDesc>
+
+    <OARK_ScienceShip_HasGravitational>內部引力場未調諧</OARK_ScienceShip_HasGravitational>
+
+    <OARK_ScienceShip_IncreaseGravityJob>增強引力裝置的引力場</OARK_ScienceShip_IncreaseGravityJob>
+    <OARK_ScienceShip_DecreaseGravityJob>減弱引力裝置的引力場</OARK_ScienceShip_DecreaseGravityJob>
+    <OARK_ScienceShip_ReassignmentGravityJob>將引力裝置的引力場進行調諧</OARK_ScienceShip_ReassignmentGravityJob>
+
+    <OARK_ScienceShip_IncreaseGravityJobDesc>提升引力場的強度</OARK_ScienceShip_IncreaseGravityJobDesc>
+    <OARK_ScienceShip_DecreaseGravityJobDesc>下調引力場的強度</OARK_ScienceShip_DecreaseGravityJobDesc>
+    <OARK_ScienceShip_ReassignmentGravityJobDesc>嘗試令引力波動回歸到正常的範圍內，亦或者誘發引力波動的混亂。</OARK_ScienceShip_ReassignmentGravityJobDesc>
+
+    <!-- 對應環境影響 -->
+    <OARK_ScienceShipEnvir_NonEnvirText>引力場並沒有散發額外的引力波動。</OARK_ScienceShipEnvir_NonEnvirText>
+    <OARK_ScienceShip_WeakGravity>區域引力減弱</OARK_ScienceShip_WeakGravity>
+    <OARK_ScienceShip_WeakGravityText>引力場的引力波幅正在弱化並幹擾此地的引力。</OARK_ScienceShip_WeakGravityText>
+    <OARK_ScienceShip_StrongWeakGravity>區域引力增幅</OARK_ScienceShip_StrongWeakGravity>
+    <OARK_ScienceShip_StrongWeakGravityText>引力場的引力波幅正在強化並增加此地的引力。</OARK_ScienceShip_StrongWeakGravityText>
+    <OARK_ScienceShip_DisorderedGravity>區域引力紊亂</OARK_ScienceShip_DisorderedGravity>
+    <OARK_ScienceShip_DisorderedGravityText>引力場的引力波幅充滿了波動，這會導致行動上的困難與生理層面的惡心感。</OARK_ScienceShip_DisorderedGravityText>
+    <OARK_ScienceShip_DisorderedMagnetism>區域電磁紊亂</OARK_ScienceShip_DisorderedMagnetism>
+    <OARK_ScienceShip_DisorderedMagnetismText>極端的紊亂引力導致了電子設備的失調，絕大多數電子設備都將失去作用，機械族也會受到強烈的幹擾。</OARK_ScienceShip_DisorderedMagnetismText>
+
+    <OARK_ScienceShip_CoolingDeviceActivated>內部降溫裝置正在高效運轉。</OARK_ScienceShip_CoolingDeviceActivated>
+    <OARK_ScienceShip_MechanicalRepaired>科研艙的一處機械故障得到了成功修復。</OARK_ScienceShip_MechanicalRepaired>
+    <OARK_ScienceShip_GravitationalRepaireSuccess>引力調試成功完成。</OARK_ScienceShip_GravitationalRepaireSuccess>
+    <OARK_ScienceShip_GravitationalRepaireFail>引力調試出現意外！</OARK_ScienceShip_GravitationalRepaireFail>
+
+    <OARK_ScienceShip_RemoveTroubleLabel>{0}已修復</OARK_ScienceShip_RemoveTroubleLabel>
+    <OARK_ScienceShip_RemoveTrouble>{0}已經被成功修復，它應該不會再帶來更多幹擾。</OARK_ScienceShip_RemoveTrouble>
+
+    <OARK_ScienceShip_DataUploaded>數據已經成功上傳。</OARK_ScienceShip_DataUploaded>
+
+    <OARK_ScienceShip_QuizSuccess>在聽到了你的詢問後，你從終端中聽到了對方似乎正在輸入與查詢什麽。\n\n半分鐘後，這位侍從為你提供了準確的身份識別碼。</OARK_ScienceShip_QuizSuccess>
+    <OARK_ScienceShip_QuizFail>在聽到了你的詢問後，對方短暫思考了一下，隨後便告訴了你一個遺憾的消息。 \n\n「科研艙采用的是根據信息庫掛件動態生成的識別碼，但在信息庫損毀的情況下，想通過識別碼完成識別是不可能的事情。」</OARK_ScienceShip_QuizFail>
+    <OARK_ScienceShip_QuizEndlessWaiting>在聽到了你的詢問後，對方當即熱情的答應了下來，隨後便開始了她的尋找。\n\n半分鐘過去了...\n\n一分鐘過去了...\n\n五分鐘過去了...\n\n十分鐘過去了...\n\n...\n\n...\n\n不知道為什麽，你突然感覺也許直接駭入可能會更快一點，起碼這個真的會有反饋。</OARK_ScienceShip_QuizEndlessWaiting>
+
+    <OARK_ScienceShip_GravityMaxLevel>引力場強度已升至最高。</OARK_ScienceShip_GravityMaxLevel>
+    <OARK_ScienceShip_GravityMinLevel>引力場強度已降至最低。</OARK_ScienceShip_GravityMinLevel>
+    <OARK_ScienceShip_GravityLevelIncreased>引力場的強度提升了。</OARK_ScienceShip_GravityLevelIncreased>
+    <OARK_ScienceShip_GravityLevelDecreased>引力場的強度降低了。</OARK_ScienceShip_GravityLevelDecreased>
+    <OARK_ScienceShip_GravityLevelDisordered>原先穩定的引力場再次失衡了。</OARK_ScienceShip_GravityLevelDisordered>
+    <OARK_ScienceShip_GravityLevelStabilized>混亂的引力場逐漸穩定了下來。</OARK_ScienceShip_GravityLevelStabilized>
+
+    <OARK_ScienceShip_FinalExtaRaid>隨著大量襲擊者死在了對你的襲擊中，逐利者們終於意識到你是一塊硬骨頭的事實，因此部分逐利者已經不敢再有攻擊你的想法。</OARK_ScienceShip_FinalExtaRaid>
+
+    <OARK_ScienceShip_TravelRKRewardLabel>旅鼠的謝意</OARK_ScienceShip_TravelRKRewardLabel>
+    <OARK_ScienceShip_TravelRKReward>你成功的幫助旅鼠聯邦解決了科研艙的難題，並保證了她們的資料數據的獲取，這讓他們對你的觀感極大的提升了。\n\n而作為對你的謝禮，他們為你投送了一些白銀，以表達對你的感激。</OARK_ScienceShip_TravelRKReward>
+
+    <!--OARK_ScienceShipType_Nothing>無事發生</OARK_ScienceShipType_Nothing-->
+    <OARK_ScienceShipType_TravelRKText>旅鼠聯邦也對這個科研艙有所資助，因此她們迫切的想要將這個科研艙進行回收，並願意為此提供酬勞。</OARK_ScienceShipType_TravelRKText>
+    <OARK_ScienceShipType_FragileText>出於減緩壓力的原因，這個科研艙的外層已經徹底解體，你可以輕松的將其拆除回收。</OARK_ScienceShipType_FragileText>
+    <OARK_ScienceShipType_HighSignalText>為了方便尋找，這個科研艙刻意設置了高強度的信號，然而這可能導致更加頻繁的襲擊。</OARK_ScienceShipType_HighSignalText>
+    <OARK_ScienceShipType_DisasterText>意外的設計災難，這個科研艙的故障已經多到了令人頭痛的地步，你可能需要更加優秀的修理師。</OARK_ScienceShipType_DisasterText>
+    <OARK_ScienceShipType_TurbulentRegionText>科研艙意外的墜毀在了一個沖突頻發的地區，這將會導致大量的投機者襲擊。</OARK_ScienceShipType_TurbulentRegionText>
+    <!--必須檢查-->
+
+
+</LanguageData>

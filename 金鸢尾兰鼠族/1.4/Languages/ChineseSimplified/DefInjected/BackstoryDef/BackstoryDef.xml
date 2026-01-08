@@ -1,0 +1,941 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <OA_RK_WoBianBuDongLeAAAAAAAAA.title>OA·侍族儿童</OA_RK_WoBianBuDongLeAAAAAAAAA.title>
+  <OA_RK_WoBianBuDongLeAAAAAAAAA.titleShort>侍族儿童</OA_RK_WoBianBuDongLeAAAAAAAAA.titleShort>
+  <OA_RK_WoBianBuDongLeAAAAAAAAA.baseDesc>[PAWN_nameDef]出生在侍族家庭之中。和其他出生寻常的孩子不一样，[PAWN_nameDef]从小便被教育要为主家奉献自己，并一直在学习如何为主家服务。</OA_RK_WoBianBuDongLeAAAAAAAAA.baseDesc>
+
+  <OA_RK_Guizuertong.title>OA·贵族儿童</OA_RK_Guizuertong.title>
+  <OA_RK_Guizuertong.titleShort>贵族儿童</OA_RK_Guizuertong.titleShort>
+  <OA_RK_Guizuertong.baseDesc>[PAWN_nameDef]的祖辈曾为金鸢尾兰帝国立下了不俗的功勋，因此得到了贵族的身份。这使得[PAWN_nameDef]能够度过一个比寻常儿童更加悠闲而惬意的童年。</OA_RK_Guizuertong.baseDesc>
+  
+  <OA_RK_Gongtingertong.title>OA·被宫廷收养的儿童</OA_RK_Gongtingertong.title>
+  <OA_RK_Gongtingertong.titleShort>被收养的儿童</OA_RK_Gongtingertong.titleShort>
+  <OA_RK_Gongtingertong.baseDesc>[PAWN_nameDef]的父母因为一场意外而早早的离世了。当地的宫廷出于人道考虑，最终出面收养了尚且年幼的[PAWN_nameDef]，并把[PAWN_pronoun]当未来的嫡系成员来培养。</OA_RK_Gongtingertong.baseDesc>
+  
+  <OA_RK_GongtingertongB.title>OA·宫廷儿童</OA_RK_GongtingertongB.title>
+  <OA_RK_GongtingertongB.titleShort>宫廷儿童</OA_RK_GongtingertongB.titleShort>
+  <OA_RK_GongtingertongB.baseDesc>[PAWN_nameDef]的父母都是宫廷内的成员。因为职务的关系，[PAWN_nameDef]在年幼的时候便常常出入于宫廷中，并被父母教导相关的知识。</OA_RK_GongtingertongB.baseDesc>
+
+  <OA_RK_GongtingertongC.title>OA·善于观察的儿童</OA_RK_GongtingertongC.title>
+  <OA_RK_GongtingertongC.titleShort>儿童</OA_RK_GongtingertongC.titleShort>
+  <OA_RK_GongtingertongC.baseDesc>[PAWN_nameDef]在童年时总是好奇着身边的一切，这让[PAWN_pronoun]对于身边的自然环境和人们彼此之间的交流都有着独特的见解。</OA_RK_GongtingertongC.baseDesc>
+  
+  <OA_RK_GongtingertongCA.title>OA·小厨师</OA_RK_GongtingertongCA.title>
+  <OA_RK_GongtingertongCA.titleShort>小厨师</OA_RK_GongtingertongCA.titleShort>
+  <OA_RK_GongtingertongCA.baseDesc>[PAWN_nameDef]对于一切能够烹饪的东西都感兴趣，因此[PAWN_pronoun]总是在尝试把[PAWN_pronoun]能够搞定的任何事物都丢进锅里。</OA_RK_GongtingertongCA.baseDesc>
+
+  <OA_RK_GongtingertongCB.title>OA·小艺术家</OA_RK_GongtingertongCB.title>
+  <OA_RK_GongtingertongCB.titleShort>小艺术家</OA_RK_GongtingertongCB.titleShort>
+  <OA_RK_GongtingertongCB.baseDesc>[PAWN_nameDef]对于美感有一种天生的感知，[PAWN_pronoun]总是能制作出一些精美的图案。</OA_RK_GongtingertongCB.baseDesc>
+
+  <OA_RK_GongtingertongCC.title>OA·捣蛋鬼</OA_RK_GongtingertongCC.title>
+  <OA_RK_GongtingertongCC.titleShort>捣蛋鬼</OA_RK_GongtingertongCC.titleShort>
+  <OA_RK_GongtingertongCC.baseDesc>[PAWN_nameDef]在童年的时候常常做出一些令人头疼的行为，这让[PAWN_pronoun]的父母为[PAWN_pronoun]操透了心。</OA_RK_GongtingertongCC.baseDesc>
+
+  <OA_RK_GongtingertongCD.title>OA·思考者</OA_RK_GongtingertongCD.title>
+  <OA_RK_GongtingertongCD.titleShort>思考者</OA_RK_GongtingertongCD.titleShort>
+  <OA_RK_GongtingertongCD.baseDesc>[PAWN_nameDef]和大多数金鸢尾兰的孩童一样，小时候都很是安静而不闹腾。不过稍微有一点值得在意的是，[PAWN_nameDef]似乎安静过了头。</OA_RK_GongtingertongCD.baseDesc>
+  
+  <OA_RK_GongtingertongCE.title>OA·解密者</OA_RK_GongtingertongCE.title>
+  <OA_RK_GongtingertongCE.titleShort>解密者</OA_RK_GongtingertongCE.titleShort>
+  <OA_RK_GongtingertongCE.baseDesc>[PAWN_nameDef]不喜欢未知的感觉。在[PAWN_pronoun]很小的时候，[PAWN_nameDef]便立志要把所有问题的答案找出来。</OA_RK_GongtingertongCE.baseDesc>  
+  
+  <OA_RK_GongtingertongCF.title>OA·沙场霸王</OA_RK_GongtingertongCF.title>
+  <OA_RK_GongtingertongCF.titleShort>小霸王</OA_RK_GongtingertongCF.titleShort>
+  <OA_RK_GongtingertongCF.baseDesc>在供孩童玩闹的游乐场里，[PAWN_nameDef]最喜欢能够让自己自由发挥创意的沙箱。为了独占这个沙箱，有时候[PAWN_nameDef]甚至会和其他孩童打作一团。</OA_RK_GongtingertongCF.baseDesc>  
+  
+  <OA_RK_GongtingertongCG.title>OA·小探险家</OA_RK_GongtingertongCG.title>
+  <OA_RK_GongtingertongCG.titleShort>小探险家</OA_RK_GongtingertongCG.titleShort>
+  <OA_RK_GongtingertongCG.baseDesc>[PAWN_nameDef]的童年是在一本本的冒险故事书中度过的。无论是金鸢尾兰鼠族在风雪中翻越大盆地探索母星的历史，还是第一批踏足异星的金鸢尾兰鼠族的传奇经历，这些都令[PAWN_nameDef]心向神往，并鼓励着[PAWN_pronoun]如同书中的人物一样，在未来也踏上自己的冒险之旅。</OA_RK_GongtingertongCG.baseDesc> 
+  
+  <OA_RK_GongtingertongDA.title>OA·守规矩的儿童</OA_RK_GongtingertongDA.title>
+  <OA_RK_GongtingertongDA.titleShort>儿童</OA_RK_GongtingertongDA.titleShort>
+  <OA_RK_GongtingertongDA.baseDesc>[PAWN_nameDef]是一个非常听话的孩子，只要父母的吩咐，那么[PAWN_pronoun]便会尽力做到最好。</OA_RK_GongtingertongDA.baseDesc>
+  
+  <OA_RK_GongtingertongDB.title>OA·医师家中的孩子</OA_RK_GongtingertongDB.title>
+  <OA_RK_GongtingertongDB.titleShort>儿童</OA_RK_GongtingertongDB.titleShort>
+  <OA_RK_GongtingertongDB.baseDesc>[PAWN_nameDef]的母亲是宫廷的医师，在耳渲目染下，[PAWN_pronoun]也学会了一些基本的医学技能。</OA_RK_GongtingertongDB.baseDesc>  
+  
+  <OA_RK_GongtingertongDC.title>OA·爱交流的孩子</OA_RK_GongtingertongDC.title>
+  <OA_RK_GongtingertongDC.titleShort>话痨</OA_RK_GongtingertongDC.titleShort>
+  <OA_RK_GongtingertongDC.baseDesc>[PAWN_nameDef]的童年是在接连不断的社交中度过的。就连[PAWN_pronoun]的父母也不知道，为什么[PAWN_nameDef]总是有说不完的话题。</OA_RK_GongtingertongDC.baseDesc>  
+  
+  <OA_RK_GongtingertongDD.title>OA·无忧无虑的孩子</OA_RK_GongtingertongDD.title>
+  <OA_RK_GongtingertongDD.titleShort>儿童</OA_RK_GongtingertongDD.titleShort>
+  <OA_RK_GongtingertongDD.baseDesc>[PAWN_nameDef]不知道什么是忧虑，也不知道什么是未雨绸缪。相比起那些深奥的事情，[PAWN_pronoun]更想知道今晚该吃些什么。</OA_RK_GongtingertongDD.baseDesc>
+
+  <OA_RK_GongtingertongDE.title>OA·动物之友</OA_RK_GongtingertongDE.title>
+  <OA_RK_GongtingertongDE.titleShort>德鲁伊</OA_RK_GongtingertongDE.titleShort>
+  <OA_RK_GongtingertongDE.baseDesc>每次团体出游的时候，[PAWN_nameDef]总是最引人注目的那一个，就连[PAWN_nameDef]自己也解释不清楚为什么[PAWN_pronoun]总是能吸引来小动物。</OA_RK_GongtingertongDE.baseDesc>
+  
+  <OA_RK_GongtingertongDF.title>OA·走街串巷的孩子</OA_RK_GongtingertongDF.title>
+  <OA_RK_GongtingertongDF.titleShort>儿童</OA_RK_GongtingertongDF.titleShort>
+  <OA_RK_GongtingertongDF.baseDesc>[PAWN_nameDef]很喜欢到处闲逛，无论是无人的小巷，还是人山人海的大街道，总是能看到[PAWN_pronoun]的身影。</OA_RK_GongtingertongDF.baseDesc>
+
+  <OA_RK_GongtingertongDG.title>OA·养盆栽的孩子</OA_RK_GongtingertongDG.title>
+  <OA_RK_GongtingertongDG.titleShort>儿童</OA_RK_GongtingertongDG.titleShort>
+  <OA_RK_GongtingertongDG.baseDesc>[PAWN_nameDef]喜欢养盆栽，并且[PAWN_pronoun]总是会认真的总结每次照顾植物的经验，然后用于下一株植物的身上。</OA_RK_GongtingertongDG.baseDesc>
+
+  <OA_RK_GongtingertongEA.title>OA·倔强的孩子</OA_RK_GongtingertongEA.title>
+  <OA_RK_GongtingertongEA.titleShort>儿童</OA_RK_GongtingertongEA.titleShort>
+  <OA_RK_GongtingertongEA.baseDesc>[PAWN_nameDef]有一股不服输的心气，当别人说[PAWN_pronoun]做不到什么的时候，[PAWN_pronoun]总是会努力练习，来证明给别人看。</OA_RK_GongtingertongEA.baseDesc>
+
+  <OA_RK_GongtingertongEB.title>OA·最年长的孩子</OA_RK_GongtingertongEB.title>
+  <OA_RK_GongtingertongEB.titleShort>长子</OA_RK_GongtingertongEB.titleShort>
+  <OA_RK_GongtingertongEB.baseDesc>[PAWN_nameDef]是家中最大的孩子，因此有时父母不在家的时候，[PAWN_pronoun]往往需要独自照顾自己的弟弟妹妹们。</OA_RK_GongtingertongEB.baseDesc>
+
+  <OA_RK_GongtingertongEFF.title>OA·繁荣城市的孩子</OA_RK_GongtingertongEFF.title>
+  <OA_RK_GongtingertongEFF.titleShort>儿童</OA_RK_GongtingertongEFF.titleShort>
+  <OA_RK_GongtingertongEFF.baseDesc>[PAWN_nameDef]在一个繁荣的大都市中长大。哪怕放眼整个童年，[PAWN_pronoun]与动物接触的次数都屈指可数。</OA_RK_GongtingertongEFF.baseDesc>
+
+  <OA_RK_GongtingertongGA.title>OA·病床上的儿童</OA_RK_GongtingertongGA.title>
+  <OA_RK_GongtingertongGA.titleShort>儿童</OA_RK_GongtingertongGA.titleShort>
+  <OA_RK_GongtingertongGA.baseDesc>即便是科技高度发达的金鸢尾兰帝国，也依然会遇到棘手的疾病，而很不幸的[PAWN_nameDef]便是这些疾病的受害者之一。即便[PAWN_nameDef]后来成功的痊愈，但依然留下了一些隐患。</OA_RK_GongtingertongGA.baseDesc>
+
+  <OA_RK_GongtingertongGB.title>OA·被惊吓的儿童</OA_RK_GongtingertongGB.title>
+  <OA_RK_GongtingertongGB.titleShort>儿童</OA_RK_GongtingertongGB.titleShort>
+  <OA_RK_GongtingertongGB.baseDesc>[PAWN_nameDef]在小时候曾被一只大型犬所追逐，即便当时的宫廷护卫及时的将那只狂犬制服了下来，但这件事依然为[PAWN_nameDef]留下了不小的阴影，以至于[PAWN_pronoun]总是想尝试绕开动物。</OA_RK_GongtingertongGB.baseDesc>
+
+  <OA_RK_GongtingertongGC.title>OA·仰望星空的儿童</OA_RK_GongtingertongGC.title>
+  <OA_RK_GongtingertongGC.titleShort>儿童</OA_RK_GongtingertongGC.titleShort>
+  <OA_RK_GongtingertongGC.baseDesc>[PAWN_nameDef]总是对宇宙的神秘充满向往。在童年时，[PAWN_pronoun]总是会独自坐在星空下，看着那浩瀚的繁星，想着外星人的事情。</OA_RK_GongtingertongGC.baseDesc>
+
+  <OA_RK_GongtingertongGD.title>OA·艺术世家的儿童</OA_RK_GongtingertongGD.title>
+  <OA_RK_GongtingertongGD.titleShort>儿童</OA_RK_GongtingertongGD.titleShort>
+  <OA_RK_GongtingertongGD.baseDesc>[PAWN_nameDef]在一个艺术世家之中长大，[PAWN_pronoun]的父母总是在让[PAWN_pronoun]学习艺术方面的知识，无论[PAWN_nameDef]自己想不想。</OA_RK_GongtingertongGD.baseDesc>
+
+  <OA_RK_GongtingertongEE.title>OA·边远地带的孩子</OA_RK_GongtingertongEE.title>
+  <OA_RK_GongtingertongEE.titleShort>儿童</OA_RK_GongtingertongEE.titleShort>
+  <OA_RK_GongtingertongEE.baseDesc>[PAWN_nameDef]在帝国边缘的殖民星长大，在那里并没有太多繁华的地方，于是[PAWN_pronoun]便逐渐学会了如何与自然为伴。</OA_RK_GongtingertongEE.baseDesc>
+
+  <OA_RK_GongtingertongED.title>OA·谨慎的孩子</OA_RK_GongtingertongED.title>
+  <OA_RK_GongtingertongED.titleShort>儿童</OA_RK_GongtingertongED.titleShort>
+  <OA_RK_GongtingertongED.baseDesc>[PAWN_nameDef]在小时候便被父母带到了银河系。在这个充满着动荡的殖民地中，[PAWN_nameDef]被告戒的最多的就是一定要学会怎么保护自己。</OA_RK_GongtingertongED.baseDesc>
+
+  <OA_RK_GongtingertongEF.title>OA·服装设计学徒</OA_RK_GongtingertongEF.title>
+  <OA_RK_GongtingertongEF.titleShort>学徒</OA_RK_GongtingertongEF.titleShort>
+  <OA_RK_GongtingertongEF.baseDesc>[PAWN_nameDef]很喜欢那些漂亮的衣服，因此在[PAWN_pronoun]小时候，[PAWN_pronoun]便自愿为一位服装设计师打下手，成为了一名服装设计学徒。</OA_RK_GongtingertongEF.baseDesc>
+
+  <OA_RK_GongtingertongEG.title>OA·爱动手的孩子</OA_RK_GongtingertongEG.title>
+  <OA_RK_GongtingertongEG.titleShort>捣蛋鬼</OA_RK_GongtingertongEG.titleShort>
+  <OA_RK_GongtingertongEG.baseDesc>这是什么？拆开看一下。这又是什么？也拆开看一下。伴随着机械零件的掉落声以及父母的惊呼声，[PAWN_nameDef]的童年便在一次又一次的好奇与亲手实践中度过。</OA_RK_GongtingertongEG.baseDesc>
+
+  <OA_RK_GongtingertongFA.title>OA·人见人爱的孩子</OA_RK_GongtingertongFA.title>
+  <OA_RK_GongtingertongFA.titleShort>小交际花</OA_RK_GongtingertongFA.titleShort>
+  <OA_RK_GongtingertongFA.baseDesc>[PAWN_nameDef]一直很在意自己的穿着打扮，以至于每一次出门前都会精心准备。很少有人会在见到[PAWN_nameDef]第一面时不感到心动。</OA_RK_GongtingertongFA.baseDesc>
+
+  <OA_RK_GongtingertongFB.title>OA·善良的孩子</OA_RK_GongtingertongFB.title>
+  <OA_RK_GongtingertongFB.titleShort>儿童</OA_RK_GongtingertongFB.titleShort>
+  <OA_RK_GongtingertongFB.baseDesc>[PAWN_nameDef]很难做到对他人的苦难无动于衷。只要有人求助[PAWN_nameDef]，那么[PAWN_pronoun]就一定会尽可能的去帮助他。</OA_RK_GongtingertongFB.baseDesc>
+
+  <OA_RK_GongtingertongEC.title>OA·四处游历的孩子</OA_RK_GongtingertongEC.title>
+  <OA_RK_GongtingertongEC.titleShort>儿童</OA_RK_GongtingertongEC.titleShort>
+  <OA_RK_GongtingertongEC.baseDesc>[PAWN_nameDef]在很小的时候，便随着父母在星际之间旅行。这种经历极大的拓宽了[PAWN_pronoun]的眼界，也锻炼了[PAWN_pronoun]的能力。</OA_RK_GongtingertongEC.baseDesc>
+
+  <OA_RK_CivilianAAAAAAA.title>OA·街头雕塑师</OA_RK_CivilianAAAAAAA.title>
+  <OA_RK_CivilianAAAAAAA.titleShort>雕塑师</OA_RK_CivilianAAAAAAA.titleShort>
+  <OA_RK_CivilianAAAAAAA.baseDesc>[PAWN_nameDef]喜欢将一块块的石头打磨成精致的雕塑。当[PAWN_pronoun]在街头进行雕塑时，总是会令他人为之驻足。</OA_RK_CivilianAAAAAAA.baseDesc>
+
+  <OA_RK_CivilianAAB.title>OA·街头画师</OA_RK_CivilianAAB.title>
+  <OA_RK_CivilianAAB.titleShort>画师</OA_RK_CivilianAAB.titleShort>
+  <OA_RK_CivilianAAB.baseDesc>[PAWN_nameDef]是一位街头画师。无论[PAWN_pronoun]走到哪里，都会戴着一块小画板，以方便灵感来临时进行即兴创作。</OA_RK_CivilianAAB.baseDesc>
+
+  <OA_RK_CivilianAAC.title>OA·宫廷画师</OA_RK_CivilianAAC.title>
+  <OA_RK_CivilianAAC.titleShort>画师</OA_RK_CivilianAAC.titleShort>
+  <OA_RK_CivilianAAC.baseDesc>[PAWN_nameDef]在美术方面有着相当高的造诣，因此当地宫廷将[PAWN_pronoun]招募为宫廷画师，好让[PAWN_pronoun]能够在不受干扰的情况下，自由的进行艺术创作。</OA_RK_CivilianAAC.baseDesc>
+
+  <OA_RK_CivilianAAD.title>OA·有创意的技术员</OA_RK_CivilianAAD.title>
+  <OA_RK_CivilianAAD.titleShort>技术员</OA_RK_CivilianAAD.titleShort>
+  <OA_RK_CivilianAAD.baseDesc>[PAWN_nameDef]的思想非常活跃而跳脱。在别人为一个问题而苦恼的时候，[PAWN_nameDef]往往能够从一个所有人的想不到的角度出发，并完美的解决这个问题。</OA_RK_CivilianAAD.baseDesc>
+
+  <OA_RK_CivilianAAE.title>OA·传道者</OA_RK_CivilianAAE.title>
+  <OA_RK_CivilianAAE.titleShort>尊师</OA_RK_CivilianAAE.titleShort>
+  <OA_RK_CivilianAAE.baseDesc>对于[PAWN_nameDef]而言，创作本身并不令人喜悦，但教授他人如何进行创作则是一件愉悦的事情。因此在大多数的时候，[PAWN_nameDef]总是在教导他人如何进行自我情感的表达。</OA_RK_CivilianAAE.baseDesc>
+
+  <OA_RK_CivilianAAF.title>OA·社会学爱好者</OA_RK_CivilianAAF.title>
+  <OA_RK_CivilianAAF.titleShort>公民</OA_RK_CivilianAAF.titleShort>
+  <OA_RK_CivilianAAF.baseDesc>[PAWN_nameDef]喜欢研究社会的变化历程。[PAWN_pronoun]总是会进行一些社会实验，有时甚至会把自己也作为实验的一部分。</OA_RK_CivilianAAF.baseDesc>
+
+  <OA_RK_CivilianAAG.title>OA·写日记的公民</OA_RK_CivilianAAG.title>
+  <OA_RK_CivilianAAG.titleShort>公民</OA_RK_CivilianAAG.titleShort>
+  <OA_RK_CivilianAAG.baseDesc>相比起相信自己的记忆力，[PAWN_nameDef]更愿意相信物理存在的资料，因此[PAWN_pronoun]一直有在把自己的每一天都记在日记当中。</OA_RK_CivilianAAG.baseDesc>
+
+  <OA_RK_CivilianABA.title>OA·爱郊游的公民</OA_RK_CivilianABA.title>
+  <OA_RK_CivilianABA.titleShort>公民</OA_RK_CivilianABA.titleShort>
+  <OA_RK_CivilianABA.baseDesc>[PAWN_nameDef]不喜欢一直待在人多的地方，因此每当[PAWN_pronoun]有大量空闲时间的时候，[PAWN_pronoun]往往会选择前往城镇之外进行一次短暂的旅行。</OA_RK_CivilianABA.baseDesc>
+
+  <OA_RK_CivilianABB.title>OA·钢琴演奏者</OA_RK_CivilianABB.title>
+  <OA_RK_CivilianABB.titleShort>钢琴师</OA_RK_CivilianABB.titleShort>
+  <OA_RK_CivilianABB.baseDesc>[PAWN_nameDef]在钢琴方面很有造诣，相比起语言的交流，[PAWN_pronoun]更愿意将自己的情绪掺杂在音乐中。</OA_RK_CivilianABB.baseDesc>
+
+  <OA_RK_CivilianABC.title>OA·伟大的演奏家</OA_RK_CivilianABC.title>
+  <OA_RK_CivilianABC.titleShort>钢琴家</OA_RK_CivilianABC.titleShort>
+  <OA_RK_CivilianABC.baseDesc>[PAWN_nameDef]毫无疑问是一位极为杰出的演奏家。无论是激昂慷慨的史诗曲，还是柔情婉转的小夜曲，都会在[PAWN_pronoun]的琴键上得到完美的演绎，并且直达听众的内心。</OA_RK_CivilianABC.baseDesc>
+
+  <OA_RK_CivilianABD.title>OA·一丝不苟的侍从</OA_RK_CivilianABD.title>
+  <OA_RK_CivilianABD.titleShort>侍从</OA_RK_CivilianABD.titleShort>
+  <OA_RK_CivilianABD.baseDesc>[PAWN_nameDef]不喜欢应付式的工作。对于[PAWN_pronoun]而言，工作这种事情要么不做，一旦做，就要做到最好。</OA_RK_CivilianABD.baseDesc>
+
+  <OA_RK_CivilianAAA.title>OA·热心肠的公民</OA_RK_CivilianAAA.title>
+  <OA_RK_CivilianAAA.titleShort>老好人</OA_RK_CivilianAAA.titleShort>
+  <OA_RK_CivilianAAA.baseDesc>[PAWN_nameDef]在身边人的眼中是一位不折不扣的老好人。每当他人遇到什么困难的时候，[PAWN_nameDef]总是乐意伸出援手。</OA_RK_CivilianAAA.baseDesc>
+
+  <OA_RK_CivilianAAAA.title>OA·保守的公民</OA_RK_CivilianAAAA.title>
+  <OA_RK_CivilianAAAA.titleShort>公民</OA_RK_CivilianAAAA.titleShort>
+  <OA_RK_CivilianAAAA.baseDesc>[PAWN_nameDef]不同于大多数金鸢尾兰公民，当别人好奇着外星人的存在时，[PAWN_pronoun]更愿意独自冲泡一杯花茶，然后坐在家中看着窗外人来人往。对于[PAWN_nameDef]而言，星际的奇妙，远比不上身边的美好。</OA_RK_CivilianAAAA.baseDesc>
+
+  <OA_RK_CivilianAAAAA.title>OA·星际旅行者</OA_RK_CivilianAAAAA.title>
+  <OA_RK_CivilianAAAAA.titleShort>公民</OA_RK_CivilianAAAAA.titleShort>
+  <OA_RK_CivilianAAAAA.baseDesc>早在金鸢尾兰帝国进入银河系之前，[PAWN_nameDef]就已经在星际中旅行了很久。对[PAWN_pronoun]而言，银河系也只是一个旅行的地点罢了。</OA_RK_CivilianAAAAA.baseDesc>
+
+  <OA_RK_CivilianAAAAAA.title>OA·厨艺家</OA_RK_CivilianAAAAAA.title>
+  <OA_RK_CivilianAAAAAA.titleShort>厨艺家</OA_RK_CivilianAAAAAA.titleShort>
+  <OA_RK_CivilianAAAAAA.baseDesc>[PAWN_nameDef]的厨艺在整个殖民地都是相当出名的，没有人能够拒绝[PAWN_pronoun]所烹饪的美食。</OA_RK_CivilianAAAAAA.baseDesc>
+
+  <OA_RK_Civilian_Wimp.title>OA·胆小的公民</OA_RK_Civilian_Wimp.title>
+  <OA_RK_Civilian_Wimp.titleShort>公民</OA_RK_Civilian_Wimp.titleShort>
+  <OA_RK_Civilian_Wimp.baseDesc>从小生活在和平环境下的[PAWN_pronoun]对于混乱完全无法适应。因此当[PAWN_nameDef]知晓了第一批进入银河系的同胞的悲惨遭遇后，[PAWN_nameDef]便对银河系有了挥之不去的阴影。</OA_RK_Civilian_Wimp.baseDesc>
+
+  <OA_RK_Noble_A.title>OA·高族艺术家</OA_RK_Noble_A.title>
+  <OA_RK_Noble_A.titleShort>高族</OA_RK_Noble_A.titleShort>
+  <OA_RK_Noble_A.baseDesc>和大多数基层贵族一样，[PAWN_nameDef]也常常徘徊在歌剧院与艺术馆中。但与大多数前来欣赏的人不一样，[PAWN_nameDef]更多是在学习与借鉴，然后完善自己的艺术创作。</OA_RK_Noble_A.baseDesc>
+
+  <OA_RK_Noble_AA.title>OA·基层高族</OA_RK_Noble_AA.title>
+  <OA_RK_Noble_AA.titleShort>高族</OA_RK_Noble_AA.titleShort>
+  <OA_RK_Noble_AA.baseDesc>虽然拥有贵族的身份，但[PAWN_nameDef]却并没有因此而故步自封。与此相反的，[PAWN_nameDef]依然像其他公民一样，也有学习基础的手工与艺术创作，以便为金鸢尾兰的繁荣做出贡献。</OA_RK_Noble_AA.baseDesc>
+
+  <OA_RK_Noble_AAAA.title>OA·散漫的高族</OA_RK_Noble_AAAA.title>
+  <OA_RK_Noble_AAAA.titleShort>高族</OA_RK_Noble_AAAA.titleShort>
+  <OA_RK_Noble_AAAA.baseDesc>虽然金鸢尾兰的贵族们大多数的时候都是无事可做，但[PAWN_nameDef]显然散漫到了一个出类拔萃的地步。[PAWN_nameDef]将[PAWN_pronoun]的大多数时间都用在了玩乐与社交上，以至于连最基本的手工艺品都不会制作。</OA_RK_Noble_AAAA.baseDesc>
+  
+  <OA_RK_Noble_AAA.title>OA·有野心的高族</OA_RK_Noble_AAA.title>
+  <OA_RK_Noble_AAA.titleShort>高族</OA_RK_Noble_AAA.titleShort>
+  <OA_RK_Noble_AAA.baseDesc>不像其他基层贵族的后代那样安于现状，[PAWN_nameDef]从不是一个容易满足的人。于是[PAWN_pronoun]主动来到了银河系，希望在这里博取新的功勋。</OA_RK_Noble_AAA.baseDesc>  
+  
+  <OA_RK_Noble_B.title>OA·名族</OA_RK_Noble_B.title>
+  <OA_RK_Noble_B.titleShort>名族</OA_RK_Noble_B.titleShort>
+  <OA_RK_Noble_B.baseDesc>虽然依然是基层贵族，但名族的身份已经足以让[PAWN_nameDef]享受到部分的贵族特权，而对应的，[PAWN_nameDef]也需要负担起一部分管理当地，以及协助当地宫廷的责任。</OA_RK_Noble_B.baseDesc>  
+  
+  <OA_RK_Court_Member.title>OA·宫廷部侍从</OA_RK_Court_Member.title>
+  <OA_RK_Court_Member.titleShort>侍从</OA_RK_Court_Member.titleShort>
+  <OA_RK_Court_Member.baseDesc>宫廷的运转需要大量的侍从来维持，而[PAWN_nameDef]便是侍从的一员。身为侍从，无论是服侍贵族的生活，还是宫廷内部的杂事，[PAWN_nameDef]都知道该如何处理。</OA_RK_Court_Member.baseDesc>
+
+  <OA_RK_Court_Member_A.title>OA·外务部侍从</OA_RK_Court_Member_A.title>
+  <OA_RK_Court_Member_A.titleShort>外员</OA_RK_Court_Member_A.titleShort>
+  <OA_RK_Court_Member_A.baseDesc>作为宫廷的外务成员，[PAWN_nameDef]在大多数时候都会在街区内巡逻以处理突发情况————无论是急救，还是设备的紧急维修，[PAWN_nameDef]都有接受过相关的培训练习。</OA_RK_Court_Member_A.baseDesc>  
+  
+  <OA_RK_Noble_Court_Member.title>OA·侍族侍从</OA_RK_Noble_Court_Member.title>
+  <OA_RK_Noble_Court_Member.titleShort>侍从</OA_RK_Noble_Court_Member.titleShort>
+  <OA_RK_Noble_Court_Member.baseDesc>金鸢尾兰的高等贵族有时会将忠心耿耿且能力出众的侍从签订一份侍奉契约，而这些自愿签订了契约的侍从被称为侍族。\n\n相比起一般的侍从，侍族的一切都是为了主家而服务的，而主家往往也无条件的信任着这些侍族。\n\n[PAWN_nameDef]是侍族的族人之一，[PAWN_pronoun]自从出生以来便一直被灌输着忠于主家的思想。在[PAWN_nameDef]的眼中，为主人服务，是一件理所当然的事情。</OA_RK_Noble_Court_Member.baseDesc>  
+  
+  <OA_RK_Noble_Elite_Court_Member.title>OA·侍族精英</OA_RK_Noble_Elite_Court_Member.title>
+  <OA_RK_Noble_Elite_Court_Member.titleShort>侍从</OA_RK_Noble_Elite_Court_Member.titleShort>
+  <OA_RK_Noble_Elite_Court_Member.baseDesc>金鸢尾兰的高等贵族有时会将忠心耿耿且能力出众的侍从签订一份侍奉契约，而这些自愿签订了契约的侍从被称为侍族。\n\n相比起一般的侍从，侍族的一切都是为了主家而服务的，而主家往往也无条件的信任着这些侍族。\n\n[PAWN_nameDef]是侍族中的佼佼者，在[PAWN_pronoun]的主人遇到难题的时候，[PAWN_nameDef]总是能为[PAWN_pronoun]的主人排忧解难。</OA_RK_Noble_Elite_Court_Member.baseDesc> 
+  
+  <OA_RK_Court_Member_B.title>OA·散漫侍从</OA_RK_Court_Member_B.title>
+  <OA_RK_Court_Member_B.titleShort>侍从</OA_RK_Court_Member_B.titleShort>
+  <OA_RK_Court_Member_B.baseDesc>虽然绝大多数的宫廷侍从们都是勤劳而认真的，但也有少部分侍从会时不时的偷懒渎职。[PAWN_nameDef]便是其中典型的例子。</OA_RK_Court_Member_B.baseDesc>  
+  
+  <OA_RK_Court_Member_C.title>OA·忙碌的侍从</OA_RK_Court_Member_C.title>
+  <OA_RK_Court_Member_C.titleShort>侍从</OA_RK_Court_Member_C.titleShort>
+  <OA_RK_Court_Member_C.baseDesc>[PAWN_nameDef]总是忙碌着。很少有人能够搞明白[PAWN_pronoun]为什么能够准确无误的高效率完成每一项工作。但大家都知道，如果要比较工作效率，[PAWN_nameDef]一定会是最顶尖的那一批。</OA_RK_Court_Member_C.baseDesc>  
+  
+  <OA_RK_Technical_Court_Member.title>OA·宫廷裁缝</OA_RK_Technical_Court_Member.title>
+  <OA_RK_Technical_Court_Member.titleShort>裁缝</OA_RK_Technical_Court_Member.titleShort>
+  <OA_RK_Technical_Court_Member.baseDesc>[PAWN_nameDef]负责制作宫廷需要的服装。和那些自由的设计师相比，[PAWN_nameDef]没有那么多优秀的设计，但这并不影响[PAWN_pronoun]是一位杰出的裁缝。</OA_RK_Technical_Court_Member.baseDesc>  
+  
+  <OA_RK_Technical_Court_Member_B.title>OA·维护员</OA_RK_Technical_Court_Member_B.title>
+  <OA_RK_Technical_Court_Member_B.titleShort>维护员</OA_RK_Technical_Court_Member_B.titleShort>
+  <OA_RK_Technical_Court_Member_B.baseDesc>[PAWN_nameDef]是宫廷技术部的一员。无论是核能，电气，机械还是前沿能源，[PAWN_pronoun]都知道该怎么去维护它们。</OA_RK_Technical_Court_Member_B.baseDesc>  
+  
+  <OA_RK_Technical_Court_Member_C.title>OA·机器操作员</OA_RK_Technical_Court_Member_C.title>
+  <OA_RK_Technical_Court_Member_C.titleShort>机器操作员</OA_RK_Technical_Court_Member_C.titleShort>
+  <OA_RK_Technical_Court_Member_C.baseDesc>[PAWN_nameDef]负责操作工业部的那些大型机械，这一份职责有效的锻炼了[PAWN_nameDef]的操作能力以及逻辑思维。</OA_RK_Technical_Court_Member_C.baseDesc>  
+  
+  <OA_RK_Technical_Court_Member_D.title>OA·走访调查员</OA_RK_Technical_Court_Member_D.title>
+  <OA_RK_Technical_Court_Member_D.titleShort>调查员</OA_RK_Technical_Court_Member_D.titleShort>
+  <OA_RK_Technical_Court_Member_D.baseDesc>身为外务部的一员，[PAWN_nameDef]很少出现在宫廷中，反而更多时候会在街道上与公民们闲聊。走访调查员的职责要求[PAWN_nameDef]需要高效率的了解公民们的最新诉求，并且及时向宫廷来反馈。</OA_RK_Technical_Court_Member_D.baseDesc>  
+  
+  <OA_RK_Technical_Court_Member_E.title>OA·侍书</OA_RK_Technical_Court_Member_E.title>
+  <OA_RK_Technical_Court_Member_E.titleShort>侍书</OA_RK_Technical_Court_Member_E.titleShort>
+  <OA_RK_Technical_Court_Member_E.baseDesc>[PAWN_nameDef]是金鸢尾兰政务决策部中的一员。通常情况下[PAWN_nameDef]需要跟随在一位贵族身边，并记录其的言行与政务指令，随后在与下一位侍书交接工作后将记录的事项汇总并落实。\n\n偶尔当地贵族政务处理不过来时，[PAWN_nameDef]往往也会参与基础政务的处理。</OA_RK_Technical_Court_Member_E.baseDesc>  
+  
+  <OA_RK_Technical_Court_Member_F.title>OA·水培操作员</OA_RK_Technical_Court_Member_F.title>
+  <OA_RK_Technical_Court_Member_F.titleShort>水培操作员</OA_RK_Technical_Court_Member_F.titleShort>
+  <OA_RK_Technical_Court_Member_F.baseDesc>[PAWN_nameDef]负责着金鸢尾兰帝国最重要的农业生产部分。即便金鸢尾兰的水培技术已经十分卓越，但[PAWN_nameDef]依然需要时刻关注农作物的情况，并且及时的进行相关参数的调整。</OA_RK_Technical_Court_Member_F.baseDesc>  
+  
+  <OA_RK_Technical_Court_Member_G.title>OA·矿务员</OA_RK_Technical_Court_Member_G.title>
+  <OA_RK_Technical_Court_Member_G.titleShort>矿务员</OA_RK_Technical_Court_Member_G.titleShort>
+  <OA_RK_Technical_Court_Member_G.baseDesc>[PAWN_nameDef]知道该如何通过电子荧幕上的数据去辨别每一种矿石，并且完好无损的将它们从岩壁上分离下来。这可是一份相当需要天赋才能完成的事情，起码[PAWN_nameDef]自己是这么觉得的。</OA_RK_Technical_Court_Member_G.baseDesc>  
+  
+  <OA_RK_Technical_Court_Member_H.title>OA·技术专员</OA_RK_Technical_Court_Member_H.title>
+  <OA_RK_Technical_Court_Member_H.titleShort>技术专员</OA_RK_Technical_Court_Member_H.titleShort>
+  <OA_RK_Technical_Court_Member_H.baseDesc>无论是矿业，还是农业，[PAWN_nameDef]都能够以极高的水准完成工作。然而可惜的是，除了这些以外，[PAWN_nameDef]对于其他领域的认知都相当的糟糕。</OA_RK_Technical_Court_Member_H.baseDesc>  
+  
+  <OA_RK_Technical_Court_Member_I.title>OA·科研员</OA_RK_Technical_Court_Member_I.title>
+  <OA_RK_Technical_Court_Member_I.titleShort>科研员</OA_RK_Technical_Court_Member_I.titleShort>
+  <OA_RK_Technical_Court_Member_I.baseDesc>作为一个已经踏入星际殖民阶段的帝国，金鸢尾兰帝国深刻的明白技术发展的重要性。[PAWN_nameDef]是金鸢尾兰帝国科研部的成员之一，在这里[PAWN_pronoun]拥有绝对舒适的生活环境，以保证能够全身心的投入科学研究。</OA_RK_Technical_Court_Member_I.baseDesc>  
+  
+  <OA_RK_Technical_Court_Member_J.title>OA·全能技术专家</OA_RK_Technical_Court_Member_J.title>
+  <OA_RK_Technical_Court_Member_J.titleShort>技术专家</OA_RK_Technical_Court_Member_J.titleShort>
+  <OA_RK_Technical_Court_Member_J.baseDesc>如果说宫廷的工业部有一些人最受欢迎，那么[PAWN_nameDef]绝对会是这些人其中之一。作为一位全能的技术专家，几乎没有工业方面的难题是[PAWN_nameDef]处理不了的。</OA_RK_Technical_Court_Member_J.baseDesc>  
+  
+  <OA_RK_Technical_Court_Member_K.title>OA·宫廷部总管</OA_RK_Technical_Court_Member_K.title>
+  <OA_RK_Technical_Court_Member_K.titleShort>总管</OA_RK_Technical_Court_Member_K.titleShort>
+  <OA_RK_Technical_Court_Member_K.baseDesc>想要把一个庞大的宫廷的日常安排的井井有条是一件很困难的事情，但对于[PAWN_nameDef]而言这些却并不算得上是一件难事。在绝大多数的时间里[PAWN_nameDef]都在海量的信息交互中度过，但令人惊异的是[PAWN_pronoun]却依然能够有条不紊的处理这些事项。</OA_RK_Technical_Court_Member_K.baseDesc>  
+  
+  <OA_RK_Court_Member_D.title>OA·宫廷核心侍从</OA_RK_Court_Member_D.title>
+  <OA_RK_Court_Member_D.titleShort>侍从</OA_RK_Court_Member_D.titleShort>
+  <OA_RK_Court_Member_D.baseDesc>[PAWN_nameDef]是宫廷的核心侍从之一，丰富的阅历让[PAWN_pronoun]在各个领域都略有涉及。当大多数人不知所措的时候，[PAWN_pronoun]往往能够给出最好的解决方案。</OA_RK_Court_Member_D.baseDesc>  
+  
+  <OA_RK_Civilian_B.title>OA·商人</OA_RK_Civilian_B.title>
+  <OA_RK_Civilian_B.titleShort>商人</OA_RK_Civilian_B.titleShort>
+  <OA_RK_Civilian_B.baseDesc>[PAWN_nameDef]是金鸢尾兰帝国的物资供应链的一部分。为了确保物资流通，[PAWN_pronoun]总是会在一个个陌生的地方之间奔波。对[PAWN_nameDef]而言，无论是见识新的事物，还是促进这些事物的流通，都是充满了乐趣的事情。</OA_RK_Civilian_B.baseDesc>  
+  
+  <OA_RK_Civilian_C.title>OA·教习员</OA_RK_Civilian_C.title>
+  <OA_RK_Civilian_C.titleShort>教习员</OA_RK_Civilian_C.titleShort>
+  <OA_RK_Civilian_C.baseDesc>作为教习员，[PAWN_nameDef]负责教导金鸢尾兰的幼儿们最基础的生活常识，并且为他们树立榜样，以方便这些孩童们能够顺利的成长。</OA_RK_Civilian_C.baseDesc>  
+  
+  <OA_RK_Civilian_D.title>OA·志愿协调员</OA_RK_Civilian_D.title>
+  <OA_RK_Civilian_D.titleShort>协调员</OA_RK_Civilian_D.titleShort>
+  <OA_RK_Civilian_D.baseDesc>[PAWN_nameDef]作为宫廷与民众的中间人，负责协调宫廷与民间的关系并且在宫廷需要时负责进行对接。偶尔也会在宫廷外务部没有及时派人前来的时候，自行帮助公民解决一些难题。</OA_RK_Civilian_D.baseDesc>  
+  
+  <OA_RK_Civilian_E.title>OA·有梦想的手工艺者</OA_RK_Civilian_E.title>
+  <OA_RK_Civilian_E.titleShort>手工艺者</OA_RK_Civilian_E.titleShort>
+  <OA_RK_Civilian_E.baseDesc>[PAWN_nameDef]不愿一直默默无闻的活着，因此[PAWN_pronoun]决定通过自己的双手，在世界上留下自己的痕迹。</OA_RK_Civilian_E.baseDesc>  
+  
+  <OA_RK_Civilian_F.title>OA·宫廷嫡系侍从</OA_RK_Civilian_F.title>
+  <OA_RK_Civilian_F.titleShort>侍从</OA_RK_Civilian_F.titleShort>
+  <OA_RK_Civilian_F.baseDesc>[PAWN_nameDef]从小便在宫廷中长大，因此成年后顺理成章的加入了宫廷中，成为了宫廷的嫡系侍从之一。</OA_RK_Civilian_F.baseDesc>  
+  
+  <OA_RK_Civilian_G.title>OA·远行者</OA_RK_Civilian_G.title>
+  <OA_RK_Civilian_G.titleShort>远行者</OA_RK_Civilian_G.titleShort>
+  <OA_RK_Civilian_G.baseDesc>[PAWN_nameDef]并不满足于安稳但一成不变的生活，因此[PAWN_nameDef]主动前往遥远而陌生的边缘行星，并且在一场场冒险之中收获乐趣与成长。</OA_RK_Civilian_G.baseDesc>  
+  
+  <OA_RK_Civilian_AA.title>OA·极寒研究员</OA_RK_Civilian_AA.title>
+  <OA_RK_Civilian_AA.titleShort>研究员</OA_RK_Civilian_AA.titleShort>
+  <OA_RK_Civilian_AA.baseDesc>[PAWN_nameDef]是帝国科研部"绝对零度"研究局的研究员。为了探寻温度的奥秘，[PAWN_pronoun]一次又一次的往返在星系之中，并一次又一次的受伤，但[PAWN_nameDef]认为这一切都是值得的。</OA_RK_Civilian_AA.baseDesc>  
+  
+  <OA_RK_Civilian_AB.title>OA·模范公民</OA_RK_Civilian_AB.title>
+  <OA_RK_Civilian_AB.titleShort>公民</OA_RK_Civilian_AB.titleShort>
+  <OA_RK_Civilian_AB.baseDesc>[PAWN_nameDef]是受到过宫廷表彰的模范公民，这代表着无论是品德还是个人能力，[PAWN_nameDef]都是这座城市中的佼佼者。</OA_RK_Civilian_AB.baseDesc>  
+  
+  <OA_RK_Civilian_AC.title>OA·不悔改者</OA_RK_Civilian_AC.title>
+  <OA_RK_Civilian_AC.titleShort>公民</OA_RK_Civilian_AC.titleShort>
+  <OA_RK_Civilian_AC.baseDesc>[PAWN_nameDef]曾经触犯了金鸢尾兰的法律，于是被判处提供无偿家政服务数年，并在与道德楷模的接触与交流中逐渐纠正自身原有的思维。\n\n但很明显，[PAWN_nameDef]似乎并没有太多的改变。</OA_RK_Civilian_AC.baseDesc>  
+  
+  <OA_RK_Civilian_AD.title>OA·悠闲的公民</OA_RK_Civilian_AD.title>
+  <OA_RK_Civilian_AD.titleShort>公民</OA_RK_Civilian_AD.titleShort>
+  <OA_RK_Civilian_AD.baseDesc>[PAWN_nameDef]是金鸢尾兰帝国的一位公民，[PAWN_pronoun]和帝国大多数人相比起来，最大的特点是无忧无虑，以及不求上进。</OA_RK_Civilian_AD.baseDesc>  
+  
+  <OA_RK_Civilian_AE.title>OA·失败的商人</OA_RK_Civilian_AE.title>
+  <OA_RK_Civilian_AE.titleShort>商人</OA_RK_Civilian_AE.titleShort>
+  <OA_RK_Civilian_AE.baseDesc>来到这里之前，[PAWN_nameDef]已经搞黄了好多次生意，即使[PAWN_pronoun]做好了充足的准备。也许是时运不济或者其他什么的，至少[PAWN_nameDef]自己还没有搞清楚。\n\n于是[PAWN_pronoun]来到了这里，准备再尝试一次。</OA_RK_Civilian_AE.baseDesc>  
+  
+  <OA_RK_Civilian_AF.title>OA·服装设计师</OA_RK_Civilian_AF.title>
+  <OA_RK_Civilian_AF.titleShort>设计师</OA_RK_Civilian_AF.titleShort>
+  <OA_RK_Civilian_AF.baseDesc>[PAWN_nameDef]是金鸢尾兰帝国的服装设计师之一，金鸢尾兰的服装正是因为无数个像[PAWN_nameDef]一样的设计师的努力，才会发展到今日的水平。</OA_RK_Civilian_AF.baseDesc>  
+  
+  <OA_RK_Civilian_AG.title>OA·宫廷医师</OA_RK_Civilian_AG.title>
+  <OA_RK_Civilian_AG.titleShort>医师</OA_RK_Civilian_AG.titleShort>
+  <OA_RK_Civilian_AG.baseDesc>[PAWN_nameDef]是宫廷的医护部中的医师。由于医护部大多数时候并不需要满负荷运转，因此平日里[PAWN_pronoun]大多数在自己家中待着，只有在宫廷需要或者轮班到自己的时候，[PAWN_pronoun]才会前往宫廷。</OA_RK_Civilian_AG.baseDesc>  
+  
+  <OA_RK_Civilian_AAAAC.title>OA·吟诗者</OA_RK_Civilian_AAAAC.title>
+  <OA_RK_Civilian_AAAAC.titleShort>远行诗人</OA_RK_Civilian_AAAAC.titleShort>
+  <OA_RK_Civilian_AAAAC.baseDesc>不满足于平淡，不向往着安稳，[PAWN_nameDef]永远在期待着未知的旅程。[PAWN_pronoun]会将每一次的旅行都写成一首诗歌，并在诗歌里自由的释放自己的感情。</OA_RK_Civilian_AAAAC.baseDesc>  
+  
+  <OA_RK_Civilian_BA.title>OA·旅行者</OA_RK_Civilian_BA.title>
+  <OA_RK_Civilian_BA.titleShort>旅行者</OA_RK_Civilian_BA.titleShort>
+  <OA_RK_Civilian_BA.baseDesc>相比起一成不变的故乡，[PAWN_nameDef]更加喜欢多种多样的风景。于是[PAWN_nameDef]在寻找下一个旅行地的时候，踏上了前往银河系的飞船，来到了这个地方。</OA_RK_Civilian_BA.baseDesc>  
+  
+  <OA_RK_Civilian_BB.title>OA·记录员</OA_RK_Civilian_BB.title>
+  <OA_RK_Civilian_BB.titleShort>记录员</OA_RK_Civilian_BB.titleShort>
+  <OA_RK_Civilian_BB.baseDesc>[PAWN_nameDef]曾经在金鸢尾兰母星的宫廷中担任侍从，而现在[PAWN_pronoun]被外派前往金鸢尾兰的其他殖民地中，记录地方的民民生与宫廷政治情况，并且公布在金鸢尾兰的信息网络上以促进各地之间的交流与理解。</OA_RK_Civilian_BB.baseDesc>  
+  
+  <OA_RK_Civilian_BC.title>OA·宫廷总领</OA_RK_Civilian_BC.title>
+  <OA_RK_Civilian_BC.titleShort>总领</OA_RK_Civilian_BC.titleShort>
+  <OA_RK_Civilian_BC.baseDesc>[PAWN_nameDef]在某个宫廷担任最高负责人。总领的职位要求[PAWN_nameDef]必须时刻保持理性，并且拥有着高效的人事处理能力与决策能力，以让宫廷运转的更有效率。</OA_RK_Civilian_BC.baseDesc>  
+  
+  <OA_RK_Civilian_BD.title>OA·决断员</OA_RK_Civilian_BD.title>
+  <OA_RK_Civilian_BD.titleShort>决断员</OA_RK_Civilian_BD.titleShort>
+  <OA_RK_Civilian_BD.baseDesc>[PAWN_nameDef]负责审查高层与皇室颁布的政令，并且在发觉不妥时致信施政者，以确保政令与法律的现实性与可靠性。</OA_RK_Civilian_BD.baseDesc>  
+  
+  <OA_RK_Civilian_BE.title>OA·宫廷设计师</OA_RK_Civilian_BE.title>
+  <OA_RK_Civilian_BE.titleShort>设计师</OA_RK_Civilian_BE.titleShort>
+  <OA_RK_Civilian_BE.baseDesc>在[PAWN_nameDef]初到宫廷时，[PAWN_pronoun]在工作闲暇时将大部分的精力投入到学习艺术与金鸢尾兰的建筑学上，因此后来[PAWN_pronoun]被委派到了工业部，参与金鸢尾兰建筑的设计，并保证它们的安全性与雅观。</OA_RK_Civilian_BE.baseDesc>  
+  
+  <OA_RK_Civilian_BF.title>OA·爱打扮的公民</OA_RK_Civilian_BF.title>
+  <OA_RK_Civilian_BF.titleShort>公民</OA_RK_Civilian_BF.titleShort>
+  <OA_RK_Civilian_BF.baseDesc>即便金鸢尾兰帝国的公民们大多数穿着都很讲究，但[PAWN_nameDef]无疑在这基础之上更上一层楼。即便是服装的设计师，也不一定能想得到如此出色的搭配与穿着。</OA_RK_Civilian_BF.baseDesc>  
+    
+  <OA_RK_Civilian_BG.title>OA·受训的侍从</OA_RK_Civilian_BG.title>
+  <OA_RK_Civilian_BG.titleShort>侍从</OA_RK_Civilian_BG.titleShort>
+  <OA_RK_Civilian_BG.baseDesc>[PAWN_nameDef]作为宫廷护卫队的预备成员之一，在轮班的闲余时间接受了相关的军事训练，以及最基本的军事教育。</OA_RK_Civilian_BG.baseDesc>  
+  
+  <OA_RK_Civilian_CA.title>OA·军备设计师</OA_RK_Civilian_CA.title>
+  <OA_RK_Civilian_CA.titleShort>设计师</OA_RK_Civilian_CA.titleShort>
+  <OA_RK_Civilian_CA.baseDesc>[PAWN_nameDef]曾是宫廷护卫队的成员之一，如今[PAWN_pronoun]负责着宫廷的军备更新与改良。突袭队的装备中，有一些便是[PAWN_nameDef]的成果。</OA_RK_Civilian_CA.baseDesc>  
+    
+  <OA_RK_Civilian_CB.title>OA·护卫队成员</OA_RK_Civilian_CB.title>
+  <OA_RK_Civilian_CB.titleShort>护卫队成员</OA_RK_Civilian_CB.titleShort>
+  <OA_RK_Civilian_CB.baseDesc>[PAWN_nameDef]是宫廷护卫队的一员。根据轮班制度，当[PAWN_pronoun]的批次结束后，[PAWN_pronoun]将会离开护卫队，并再次恢复正常的宫廷侍从的身份。</OA_RK_Civilian_CB.baseDesc>  
+  
+  <OA_RK_Civilian_CC.title>OA·护卫队小队长</OA_RK_Civilian_CC.title>
+  <OA_RK_Civilian_CC.titleShort>护卫队队长</OA_RK_Civilian_CC.titleShort>
+  <OA_RK_Civilian_CC.baseDesc>[PAWN_nameDef]是宫廷护卫队的一位小队长。与其他护卫队成员不同，[PAWN_nameDef]小队长的职位决定了[PAWN_pronoun]全职军事人员的身份。因此在到达服役年限之前，[PAWN_nameDef]将一直为帝国的国防贡献自己。</OA_RK_Civilian_CC.baseDesc>  
+    
+  <OA_RK_Civilian_CD.title>OA·老练的小队长</OA_RK_Civilian_CD.title>
+  <OA_RK_Civilian_CD.titleShort>护卫队队长</OA_RK_Civilian_CD.titleShort>
+  <OA_RK_Civilian_CD.baseDesc>[PAWN_nameDef]曾是边缘的新殖民地的宫廷护卫队成员之一，参与过多次的清缴野兽的活动。而在帝国进入银河系后，因为局势的需要，[PAWN_nameDef]便被调动到了这里，并成为了宫廷护卫队的小队长之一。</OA_RK_Civilian_CD.baseDesc>  
+    
+  <OA_RK_Civilian_CE.title>OA·护卫队教员</OA_RK_Civilian_CE.title>
+  <OA_RK_Civilian_CE.titleShort>护卫队教员</OA_RK_Civilian_CE.titleShort>
+  <OA_RK_Civilian_CE.baseDesc>[PAWN_nameDef]作为最先接纳了银河系军事理念的宫廷护卫队成员之一，理所当然的成为了护卫队的军事教导员。如今[PAWN_nameDef]大多数的时间都是作为教官，在宫廷内部全天培训护卫队成员。</OA_RK_Civilian_CE.baseDesc>  
+    
+  <OA_RK_Civilian_CF.title>OA·交涉者</OA_RK_Civilian_CF.title>
+  <OA_RK_Civilian_CF.titleShort>交涉者</OA_RK_Civilian_CF.titleShort>
+  <OA_RK_Civilian_CF.baseDesc>[PAWN_nameDef]是宫廷选中的对外交涉者，负责金鸢尾兰帝国与本地势力的外交，贸易与合作相关事宜。</OA_RK_Civilian_CF.baseDesc>  
+    
+  <OA_RK_Civilian_CG.title>OA·刻苦的侍从</OA_RK_Civilian_CG.title>
+  <OA_RK_Civilian_CG.titleShort>护卫队成员</OA_RK_Civilian_CG.titleShort>
+  <OA_RK_Civilian_CG.baseDesc>[PAWN_nameDef]总是有着一股不服输的意志，哪怕被选入了宫廷护卫队，[PAWN_pronoun]也总是训练最刻苦的那一个。</OA_RK_Civilian_CG.baseDesc>  
+    
+  <OA_RK_Civilian_DA.title>OA·亲外的远行者</OA_RK_Civilian_DA.title>
+  <OA_RK_Civilian_DA.titleShort>远行者</OA_RK_Civilian_DA.titleShort>
+  <OA_RK_Civilian_DA.baseDesc>[PAWN_nameDef]并不像传统的金鸢尾兰公民那样保守，[PAWN_pronoun]总是期待着每一次与外星物种的相遇，并一次次的踏上前往异星的旅程。</OA_RK_Civilian_DA.baseDesc>  
+    
+  <OA_RK_Civilian_DB.title>OA·老练的远行者</OA_RK_Civilian_DB.title>
+  <OA_RK_Civilian_DB.titleShort>远行者</OA_RK_Civilian_DB.titleShort>
+  <OA_RK_Civilian_DB.baseDesc>[PAWN_nameDef]是一位经验丰富的冒险家，多次的异星探险让[PAWN_pronoun]即便独自落难野外，也能够生存很长一段时间。但因为大多数时间都没有与他人进行过交流，[PAWN_nameDef]的社交能力已经下降到了一个很糟糕的水平。</OA_RK_Civilian_DB.baseDesc>  
+    
+  <OA_RK_Civilian_DC.title>OA·叛逆的远行者</OA_RK_Civilian_DC.title>
+  <OA_RK_Civilian_DC.titleShort>远行者</OA_RK_Civilian_DC.titleShort>
+  <OA_RK_Civilian_DC.baseDesc>[PAWN_nameDef]接受不了金鸢尾兰传统的和谐与友爱的价值观，于是[PAWN_pronoun]独自踏上了冒险的旅程。毕竟只要到达了文明没有涉及到的地方，那么在那里无论做什么都不会被约束，不是吗？</OA_RK_Civilian_DC.baseDesc>  
+    
+  <OA_RK_Civilian_DD.title>OA·怀恨的突袭手</OA_RK_Civilian_DD.title>
+  <OA_RK_Civilian_DD.titleShort>突袭队队员</OA_RK_Civilian_DD.titleShort>
+  <OA_RK_Civilian_DD.baseDesc>[PAWN_nameDef]的一位挚友是第一批银河系殖民队的成员，后来当这一批殖民者的遭遇传到[PAWN_nameDef]的耳中的时候，怨恨的怒火击碎了[PAWN_pronoun]的理智。如今的[PAWN_nameDef]只想让银河系的生物付出代价。</OA_RK_Civilian_DD.baseDesc>  
+    
+  <OA_RK_Civilian_DEE.title>OA·突袭队成员</OA_RK_Civilian_DEE.title>
+  <OA_RK_Civilian_DEE.titleShort>突袭队队员</OA_RK_Civilian_DEE.titleShort>
+  <OA_RK_Civilian_DEE.baseDesc>[PAWN_nameDef]是突袭队的队员之一。与宫廷护卫队不同，[PAWN_nameDef]是全职的军事人员。除非执行军事任务，否则[PAWN_nameDef]不会出现在宫廷的日常活动之中。</OA_RK_Civilian_DEE.baseDesc>  
+    
+  <OA_RK_Civilian_DE.title>OA·现实的突袭手</OA_RK_Civilian_DE.title>
+  <OA_RK_Civilian_DE.titleShort>突袭队队员</OA_RK_Civilian_DE.titleShort>
+  <OA_RK_Civilian_DE.baseDesc>[PAWN_nameDef]在成为突袭队的一员之前，曾经是一个危险星球的护卫队成员。多次血的教训让[PAWN_pronoun]知道，战争并不是一场儿戏，死亡随时都会降临。</OA_RK_Civilian_DE.baseDesc>  
+    
+  <OA_RK_Civilian_DEAA.title>OA·突袭队破门手</OA_RK_Civilian_DEAA.title>
+  <OA_RK_Civilian_DEAA.titleShort>突袭队队员</OA_RK_Civilian_DEAA.titleShort>
+  <OA_RK_Civilian_DEAA.baseDesc>[PAWN_nameDef]是突袭队中负责破门突击的成员。相比起其他的突袭手，[PAWN_nameDef]更擅长近距离的交火作战。</OA_RK_Civilian_DEAA.baseDesc>  
+    
+  <OA_RK_Civilian_DF.title>OA·重装突袭队员</OA_RK_Civilian_DF.title>
+  <OA_RK_Civilian_DF.titleShort>突袭队队员</OA_RK_Civilian_DF.titleShort>
+  <OA_RK_Civilian_DF.baseDesc>[PAWN_nameDef]对于重武器的使用很是熟练，因此大多数的时候[PAWN_pronoun]往往充当支援手，负责在远处为突袭队的进攻提供重火力的支援。</OA_RK_Civilian_DF.baseDesc>  
+    
+  <OA_RK_Civilian_DG.title>OA·突袭队小队长</OA_RK_Civilian_DG.title>
+  <OA_RK_Civilian_DG.titleShort>突袭队队长</OA_RK_Civilian_DG.titleShort>
+  <OA_RK_Civilian_DG.baseDesc>[PAWN_nameDef]的军事技能十分杰出，哪怕放眼整个宫廷之中也很少有人能够拥有这么出色的作战技巧。于是在突袭队成立时，[PAWN_nameDef]顺理成章的被选为了突袭队的小队长之一。</OA_RK_Civilian_DG.baseDesc>  
+    
+  <OA_RK_Civilian_DGAA.title>OA·突袭队指挥员</OA_RK_Civilian_DGAA.title>
+  <OA_RK_Civilian_DGAA.titleShort>突袭队指挥员</OA_RK_Civilian_DGAA.titleShort>
+  <OA_RK_Civilian_DGAA.baseDesc>[PAWN_nameDef]并不像其他的队长那样擅长单兵作战，而是更加擅长小队指挥。因此战场上[PAWN_nameDef]并不会冲的太前，而是大多数时候在一个能够总览全场的地方进行作战指挥。</OA_RK_Civilian_DGAA.baseDesc>  
+    
+  <OA_RK_Civilian_EAA.title>OA·突袭队新人</OA_RK_Civilian_EAA.title>
+  <OA_RK_Civilian_EAA.titleShort>突袭队队员</OA_RK_Civilian_EAA.titleShort>
+  <OA_RK_Civilian_EAA.baseDesc>[PAWN_nameDef]在近期才刚刚加入突袭队，和那些老练的成员们相比，[PAWN_pronoun]的军事技能并不算特别的出色。</OA_RK_Civilian_EAA.baseDesc>  
+    
+  <OA_RK_Civilian_EAAAA.title>OA·冷静的突袭手</OA_RK_Civilian_EAAAA.title>
+  <OA_RK_Civilian_EAAAA.titleShort>突袭队队员</OA_RK_Civilian_EAAAA.titleShort>
+  <OA_RK_Civilian_EAAAA.baseDesc>在绝大多数情况下，[PAWN_nameDef]都能够保持自身的冷静。当突袭队失去指挥的时候，[PAWN_pronoun]往往能够第一时间接过指挥权。</OA_RK_Civilian_EAAAA.baseDesc>  
+    
+  <OA_RK_Civilian_EA.title>OA·乐观的突袭手</OA_RK_Civilian_EA.title>
+  <OA_RK_Civilian_EA.titleShort>突袭队队员</OA_RK_Civilian_EA.titleShort>
+  <OA_RK_Civilian_EA.baseDesc>[PAWN_nameDef]总是突袭队中最乐观的那一个成员，只要有[PAWN_pronoun]在，那么气氛就不会太差。但[PAWN_nameDef]这没心没肺的态度，也使得[PAWN_pronoun]的训练成绩不是太理想。</OA_RK_Civilian_EA.baseDesc>  
+    
+  <OA_RK_Civilian_ABF.title>OA·身手矫健的队员</OA_RK_Civilian_ABF.title>
+  <OA_RK_Civilian_ABF.titleShort>突袭队队员</OA_RK_Civilian_ABF.titleShort>
+  <OA_RK_Civilian_ABF.baseDesc>如果说有谁能够跟上那些老练的先锋的脚步的话，那么[PAWN_nameDef]绝对会是其中之一。哪怕是大多数人都无法反应过来的攻击，[PAWN_pronoun]也能够轻易地避开。</OA_RK_Civilian_ABF.baseDesc>  
+    
+  <OA_RK_Civilian_EB.title>OA·突袭队医护员</OA_RK_Civilian_EB.title>
+  <OA_RK_Civilian_EB.titleShort>医护员</OA_RK_Civilian_EB.titleShort>
+  <OA_RK_Civilian_EB.baseDesc>[PAWN_nameDef]是突袭队的医护成员，受到了战场急救的相关培训。在战场上[PAWN_nameDef]负责抢救重伤者的生命，并支撑他们坚持到返回驻扎地，以便宫廷内的专业人员对其进行专业急救。</OA_RK_Civilian_EB.baseDesc>  
+    
+  <OA_RK_Civilian_ABE.title>OA·冷漠的医护员</OA_RK_Civilian_ABE.title>
+  <OA_RK_Civilian_ABE.titleShort>医护员</OA_RK_Civilian_ABE.titleShort>
+  <OA_RK_Civilian_ABE.baseDesc>[PAWN_nameDef]是突袭队的医护成员，在来到突袭队之前[PAWN_pronoun]便已经是一位小有名气的医生。多年与死神并肩的经历让[PAWN_nameDef]很少会任由感性支配自己，这使得[PAWN_pronoun]相当可靠，但也相当难以打交道。</OA_RK_Civilian_ABE.baseDesc>  
+  
+  <OA_RK_Civilian_EC.title>OA·突袭队先锋</OA_RK_Civilian_EC.title>
+  <OA_RK_Civilian_EC.titleShort>突袭队队长</OA_RK_Civilian_EC.titleShort>
+  <OA_RK_Civilian_EC.baseDesc>[PAWN_nameDef]是突袭队的先锋之一。作为先锋，[PAWN_pronoun]有着远超常人的军事素养，每当突袭队进行作战时，[PAWN_nameDef]总会是第一个向敌人发起攻击的人。</OA_RK_Civilian_EC.baseDesc>  
+  
+  <OA_RK_GuizuertongB.title>OA·继业者</OA_RK_GuizuertongB.title>
+  <OA_RK_GuizuertongB.titleShort>继业者</OA_RK_GuizuertongB.titleShort>
+  <OA_RK_GuizuertongB.baseDesc>[PAWN_nameDef]出生在金鸢尾兰的高等贵族家族之中。作为未来可能的头衔继承者，[PAWN_nameDef]自记事起便一直在接受着全方位的教育，以便未来履行贵族的职责。</OA_RK_GuizuertongB.baseDesc>  
+ 
+  <OA_RK_Noble_C.title>OA·望士</OA_RK_Noble_C.title>
+  <OA_RK_Noble_C.titleShort>望士</OA_RK_Noble_C.titleShort>
+  <OA_RK_Noble_C.baseDesc>[PAWN_nameDef]大多数的时间都是在宫廷中度过的。望士的身份已经不再是一种权利，而更是一种职责。</OA_RK_Noble_C.baseDesc>  
+    
+  <OA_RK_Noble_D.title>OA·上者</OA_RK_Noble_D.title>
+  <OA_RK_Noble_D.titleShort>上者</OA_RK_Noble_D.titleShort>
+  <OA_RK_Noble_D.baseDesc>上者的身份在金鸢尾兰之中需要担任管治一方的责任，因此[PAWN_nameDef]的生活即便有侍从的照料，但却依然有着不俗的压力，这使得[PAWN_pronoun]几乎每天都需要在全神贯注中度过。</OA_RK_Noble_D.baseDesc>  
+    
+  <OA_RK_Noble_E.title>OA·外宫族</OA_RK_Noble_E.title>
+  <OA_RK_Noble_E.titleShort>外宫族</OA_RK_Noble_E.titleShort>
+  <OA_RK_Noble_E.baseDesc>血脉带来的不只是荣誉，更多的是一份使命，[PAWN_nameDef]深刻的知道这一个道理。因此即便银河系充斥着不稳定的风险，[PAWN_pronoun]依然履行了前往银河系，协助处理新殖民地庞大的政事的命令。</OA_RK_Noble_E.baseDesc>  
+    
+  <OA_RK_Noble_F.title>OA·内宫族</OA_RK_Noble_F.title>
+  <OA_RK_Noble_F.titleShort>内宫族</OA_RK_Noble_F.titleShort>
+  <OA_RK_Noble_F.baseDesc>无论是幼时的特殊教育还是家族的传承影响，[PAWN_nameDef]都在被灌输着一个使命————作为金鸢尾兰最高意识的组成者与执行者，无论他人如何看待，但内宫族必须为金鸢尾兰奉献一生。[PAWN_nameDef]过去一直这么做的，而[PAWN_pronoun]也未来也将继续如此。</OA_RK_Noble_F.baseDesc>  
+  
+  <!---->
+   
+  <OA_RK_NEW_Backstory_A.title>OA·花匠</OA_RK_NEW_Backstory_A.title>
+  <OA_RK_NEW_Backstory_A.titleShort>花匠</OA_RK_NEW_Backstory_A.titleShort>
+  <OA_RK_NEW_Backstory_A.baseDesc>相比起深刻而哲学化的艺术种类，[PAWN_nameDef]更喜欢显而易见的美，因此[PAWN_pronoun]爱上了养花这种事情。每当春季来临的时候，[PAWN_nameDef]的家中总是充满了芬芳怡人的花香。</OA_RK_NEW_Backstory_A.baseDesc>  
+    
+  <OA_RK_NEW_Backstory_B.title>OA·天文学爱好者</OA_RK_NEW_Backstory_B.title>
+  <OA_RK_NEW_Backstory_B.titleShort>公民</OA_RK_NEW_Backstory_B.titleShort>
+  <OA_RK_NEW_Backstory_B.baseDesc>[PAWN_nameDef]是一位资深的天文学爱好者，[PAWN_pronoun]能够准确的在星空中与星图盘上指出那些常见的恒星，并对它们的相关信息了如指掌。在[PAWN_nameDef]的眼里，星空本身就是最伟大的艺术品。</OA_RK_NEW_Backstory_B.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_C.title>OA·候鸟</OA_RK_NEW_Backstory_C.title>
+  <OA_RK_NEW_Backstory_C.titleShort>候鸟</OA_RK_NEW_Backstory_C.titleShort>
+  <OA_RK_NEW_Backstory_C.baseDesc>[PAWN_nameDef]是金鸢尾兰公民中少有的热衷于与动物打交道的存在，为此[PAWN_pronoun]甚至专门在郊区租了一间房子，以用来与鸟群相处。\n所有住在郊区的人都知道，当冬季结束的时候，总会有一个人坐在山坡上等待候鸟的归来。</OA_RK_NEW_Backstory_C.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_D.title>OA·热心肠的远行者</OA_RK_NEW_Backstory_D.title>
+  <OA_RK_NEW_Backstory_D.titleShort>远行者</OA_RK_NEW_Backstory_D.titleShort>
+  <OA_RK_NEW_Backstory_D.baseDesc>有时候有人会担心，金鸢尾兰的远行者们会不会因为长期脱离社会而变得性情古怪，而[PAWN_nameDef]则是对这种疑虑的最好反驳。自然的理性与冷漠没能够征服[PAWN_nameDef]那感性而温柔的灵魂，无论是陌生人还是同伴，只要力所能及，[PAWN_nameDef]总是会毫不犹豫的伸出援手。</OA_RK_NEW_Backstory_D.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_E.title>OA·突袭队模范</OA_RK_NEW_Backstory_E.title>
+  <OA_RK_NEW_Backstory_E.titleShort>突袭队成员</OA_RK_NEW_Backstory_E.titleShort>
+  <OA_RK_NEW_Backstory_E.baseDesc>[PAWN_nameDef]是突袭队中的模范，无论是战术动作，小队协作还是战地急救，[PAWN_pronoun]都有相当出色的表现。</OA_RK_NEW_Backstory_E.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_F.title>OA·突袭队的理论家</OA_RK_NEW_Backstory_F.title>
+  <OA_RK_NEW_Backstory_F.titleShort>突袭队成员</OA_RK_NEW_Backstory_F.titleShort>
+  <OA_RK_NEW_Backstory_F.baseDesc>[PAWN_nameDef]在闲暇之余总是会翻看银河系中的经典作战案例，这使得[PAWN_pronoun]对于军事战术有着独到的理解，并且往往能够在作战中学以致用。</OA_RK_NEW_Backstory_F.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_G.title>OA·突袭队维护手</OA_RK_NEW_Backstory_G.title>
+  <OA_RK_NEW_Backstory_G.titleShort>突袭队成员</OA_RK_NEW_Backstory_G.titleShort>
+  <OA_RK_NEW_Backstory_G.baseDesc>在报名加入突袭队之前，[PAWN_nameDef]曾是一位优秀的手工艺者。如今[PAWN_pronoun]将这份手艺运用到了日常的武器保养之中，以保障[PAWN_pronoun]和[PAWN_pronoun]的战友们的武器不至于在关键时刻出现故障。</OA_RK_NEW_Backstory_G.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_AA.title>OA·直性子的突袭手</OA_RK_NEW_Backstory_AA.title>
+  <OA_RK_NEW_Backstory_AA.titleShort>突袭队成员</OA_RK_NEW_Backstory_AA.titleShort>
+  <OA_RK_NEW_Backstory_AA.baseDesc>[PAWN_nameDef]缺少金鸢尾兰常见的包容与共情能力。和其他的金鸢尾兰公民相比，[PAWN_nameDef]总是会不留余地的直截了当的指出对方的错误与缺点，这使得[PAWN_pronoun]的社交一直算不上太顺利，直到[PAWN_pronoun]加入了突袭队。</OA_RK_NEW_Backstory_AA.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_AB.title>OA·谨慎的小队长</OA_RK_NEW_Backstory_AB.title>
+  <OA_RK_NEW_Backstory_AB.titleShort>突袭队小队长</OA_RK_NEW_Backstory_AB.titleShort>
+  <OA_RK_NEW_Backstory_AB.baseDesc>[PAWN_nameDef]一直对于战争抱有一颗敬畏之心。[PAWN_pronoun]明白，对于战争而言，一个士兵的死亡实在是微不足道，这促使[PAWN_pronoun]在作战任务中总是会在考虑全面后再做决断，并且往往会尽最大努力将损失降到最低。</OA_RK_NEW_Backstory_AB.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_AC.title>OA·尽责的医护员</OA_RK_NEW_Backstory_AC.title>
+  <OA_RK_NEW_Backstory_AC.titleShort>突袭队医护员</OA_RK_NEW_Backstory_AC.titleShort>
+  <OA_RK_NEW_Backstory_AC.baseDesc>[PAWN_nameDef]是一位相当有使命感的医护员。对于[PAWN_nameDef]而言，同伴的性命足以令[PAWN_pronoun]忘却潜在的危险。这使得即便身处交战区内，[PAWN_nameDef]也能够心无旁鸳的去救治伤员。</OA_RK_NEW_Backstory_AC.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_AD.title>OA·经验丰富的医护员</OA_RK_NEW_Backstory_AD.title>
+  <OA_RK_NEW_Backstory_AD.titleShort>突袭队医护员</OA_RK_NEW_Backstory_AD.titleShort>
+  <OA_RK_NEW_Backstory_AD.baseDesc>[PAWN_nameDef]并不是在加入突袭队后才接受的急救培训，恰恰相反，在加入突袭队之前[PAWN_nameDef]便已经在宫廷的医护部中担任了数年的医师。与突袭队的其他医护员比起来，[PAWN_nameDef]有着更加丰富的经验，以及更加稳重的心态。</OA_RK_NEW_Backstory_AD.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_AE.title>OA·旅行途中的商人</OA_RK_NEW_Backstory_AE.title>
+  <OA_RK_NEW_Backstory_AE.titleShort>商人</OA_RK_NEW_Backstory_AE.titleShort>
+  <OA_RK_NEW_Backstory_AE.baseDesc>身为一名商人，[PAWN_nameDef]却并不热衷于贸易，而是更倾向于亲自品鉴各地的特产，然后促进它们的传播。旁人很难理解为什么[PAWN_nameDef]不追求事业上的成功，也许只有[PAWN_nameDef]自己才知道，旅行和贸易究竟哪一个才是[PAWN_pronoun]的追求。</OA_RK_NEW_Backstory_AE.baseDesc>  
+  
+   <OA_RK_NEW_Backstory_AF.title>OA·登山者</OA_RK_NEW_Backstory_AF.title>
+  <OA_RK_NEW_Backstory_AF.titleShort>登山者</OA_RK_NEW_Backstory_AF.titleShort>
+  <OA_RK_NEW_Backstory_AF.baseDesc>[PAWN_nameDef]热衷于尝试挑战各种各样的高山与险峰。虽然有时候会遇到危及生命的风险，但[PAWN_nameDef]依然热爱着这项事业，并享受着每一次成功带来的喜悦与提升。</OA_RK_NEW_Backstory_AF.baseDesc>  
+    
+  <OA_RK_NEW_Backstory_AG.title>OA·严格的小队长</OA_RK_NEW_Backstory_AG.title>
+  <OA_RK_NEW_Backstory_AG.titleShort>护卫队队长</OA_RK_NEW_Backstory_AG.titleShort>
+  <OA_RK_NEW_Backstory_AG.baseDesc>虽然并不是一线作战单位，但[PAWN_nameDef]依然对自己所率领的护卫队保持着较为严格的训练。[PAWN_nameDef]认为，即便最后证明这些训练并无必要，但一旦它们排上用场，那么这些训练将有可能让更多的人活下来。</OA_RK_NEW_Backstory_AG.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_BA.title>OA·受欢迎的小队长</OA_RK_NEW_Backstory_BA.title>
+  <OA_RK_NEW_Backstory_BA.titleShort>护卫队队长</OA_RK_NEW_Backstory_BA.titleShort>
+  <OA_RK_NEW_Backstory_BA.baseDesc>[PAWN_nameDef]知道该怎么刚柔并济的进行军事训练。[PAWN_nameDef]很少进行过量的服从性训练，而是在大多数情况下采取合理而人道的技术性训练，这使得[PAWN_pronoun]相当的受人欢迎。</OA_RK_NEW_Backstory_BA.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_BB.title>OA·参加过救灾的侍从</OA_RK_NEW_Backstory_BB.title>
+  <OA_RK_NEW_Backstory_BB.titleShort>护卫队成员</OA_RK_NEW_Backstory_BB.titleShort>
+  <OA_RK_NEW_Backstory_BB.baseDesc>[PAWN_nameDef]曾经参加过一次因突发灾害而严重受损的城市的救灾活动，受灾难民的哭喊深深的为当时的[PAWN_nameDef]留下了相当的印象，这使得如今在护卫队中[PAWN_pronoun]总是更加热衷于急救与救援方面的训练。</OA_RK_NEW_Backstory_BB.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_BC.title>OA·护卫队的神射手</OA_RK_NEW_Backstory_BC.title>
+  <OA_RK_NEW_Backstory_BC.titleShort>护卫队成员</OA_RK_NEW_Backstory_BC.titleShort>
+  <OA_RK_NEW_Backstory_BC.baseDesc>[PAWN_nameDef]在射击上有一种卓越的天赋。每当护卫队进行射击训练时，[PAWN_pronoun]往往会是成绩最好的那一个。</OA_RK_NEW_Backstory_BC.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_BD.title>OA·军事迷侍从</OA_RK_NEW_Backstory_BD.title>
+  <OA_RK_NEW_Backstory_BD.titleShort>护卫队成员</OA_RK_NEW_Backstory_BD.titleShort>
+  <OA_RK_NEW_Backstory_BD.baseDesc>[PAWN_nameDef]平时便对枪械与其他武器有着浓厚的兴趣，而在进入护卫队之后这种兴趣得到了全面的满足。在他人因为训练而疲倦不堪的时候，[PAWN_pronoun]却依然有着充沛的精力。</OA_RK_NEW_Backstory_BD.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_BE.title>OA·技术部侍从</OA_RK_NEW_Backstory_BE.title>
+  <OA_RK_NEW_Backstory_BE.titleShort>侍从</OA_RK_NEW_Backstory_BE.titleShort>
+  <OA_RK_NEW_Backstory_BE.baseDesc>[PAWN_nameDef]是金鸢尾兰宫廷中技术部的一员。在这个庞大宫廷的日常运转中，[PAWN_nameDef]负责保障精密器械的正常运转，以及向其他部门提供部分器械方面的技术支持。</OA_RK_NEW_Backstory_BE.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_BF.title>OA·工业部侍从</OA_RK_NEW_Backstory_BF.title>
+  <OA_RK_NEW_Backstory_BF.titleShort>侍从</OA_RK_NEW_Backstory_BF.titleShort>
+  <OA_RK_NEW_Backstory_BF.baseDesc>[PAWN_nameDef]是金鸢尾兰宫廷中工业部的一员。每当建筑需要规划与维修，或者大型工业机械需要去操作，亦或者日常的生产机械出现故障的时候，[PAWN_nameDef]便明白属于自己的差事来了。对于[PAWN_nameDef]而言，这种大型的工程机械有着一种独到的浪漫。</OA_RK_NEW_Backstory_BF.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_BG.title>OA·技术部总管</OA_RK_NEW_Backstory_BG.title>
+  <OA_RK_NEW_Backstory_BG.titleShort>总管</OA_RK_NEW_Backstory_BG.titleShort>
+  <OA_RK_NEW_Backstory_BG.baseDesc>技术部的总管并不像一线的技术部侍从那样，需要亲自上手调试精密的机械。在大多数的时候，[PAWN_nameDef]往往需要先处理技术部的一系列总体事宜，并与其他宫廷部门进行对接。而只有这些事情完成后，[PAWN_nameDef]才能空闲下来，享受与机械相伴的时光。</OA_RK_NEW_Backstory_BG.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_CA.title>OA·技术部的技术官</OA_RK_NEW_Backstory_CA.title>
+  <OA_RK_NEW_Backstory_CA.titleShort>技术官</OA_RK_NEW_Backstory_CA.titleShort>
+  <OA_RK_NEW_Backstory_CA.baseDesc>[PAWN_nameDef]有着相当出色的专业能力。无论是维修，测试，还是研发与操作，对于[PAWN_nameDef]而言这些都是手到擒来的小事情，这份能力使得[PAWN_pronoun]顺理成章的晋升为了技术官。</OA_RK_NEW_Backstory_CA.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_CB.title>OA·工业部总管</OA_RK_NEW_Backstory_CB.title>
+  <OA_RK_NEW_Backstory_CB.titleShort>总管</OA_RK_NEW_Backstory_CB.titleShort>
+  <OA_RK_NEW_Backstory_CB.baseDesc>[PAWN_nameDef]负责着宫廷的工业部的统筹管理。在平日里[PAWN_nameDef]接触的最多的便是源源不断的生产报告以及工业机械的相关报告，这使得[PAWN_pronoun]已经很难再有时间去接触[PAWN_pronoun]所热爱的机械了。\n\n但一旦[PAWN_nameDef]亲自上手工程设计或者机械操作，那么[PAWN_pronoun]所展现的技术水平足以令所有人心悦诚服。</OA_RK_NEW_Backstory_CB.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_CC.title>OA·淡然的远行者</OA_RK_NEW_Backstory_CC.title>
+  <OA_RK_NEW_Backstory_CC.titleShort>远行者</OA_RK_NEW_Backstory_CC.titleShort>
+  <OA_RK_NEW_Backstory_CC.baseDesc>[PAWN_nameDef]并不喜欢攀比，也不愿意为了征服而征服。在他人皆注目于峰顶并向上攀登的时候，[PAWN_nameDef]往往会为身旁的美景停留。对于[PAWN_nameDef]而言，这才是正确的旅行方式。</OA_RK_NEW_Backstory_CC.baseDesc>  
+  
+   <OA_RK_NEW_Backstory_CD.title>OA·荒野上的远行者</OA_RK_NEW_Backstory_CD.title>
+  <OA_RK_NEW_Backstory_CD.titleShort>远行者</OA_RK_NEW_Backstory_CD.titleShort>
+  <OA_RK_NEW_Backstory_CD.baseDesc>[PAWN_nameDef]并不喜欢那些高耸入云的山峰，而更喜欢一眼望不到边际的荒原。因此每次旅行时，[PAWN_nameDef]总会刻意的选择那些平坦的目标，而避免前往山地。这种选择性的远行使得[PAWN_nameDef]拥有出色的荒野求生技巧，但却对山地知识了解不多。</OA_RK_NEW_Backstory_CD.baseDesc>  
+    
+  <OA_RK_NEW_Backstory_CE.title>OA·洞窟中的远行者</OA_RK_NEW_Backstory_CE.title>
+  <OA_RK_NEW_Backstory_CE.titleShort>远行者</OA_RK_NEW_Backstory_CE.titleShort>
+  <OA_RK_NEW_Backstory_CE.baseDesc>[PAWN_nameDef]喜欢那些变化莫测的山地洞穴，它们那千奇百怪的内部构造以及各种各样的奇异石头总是使得[PAWN_nameDef]为之惊叹连连。而在这一次又一次的洞窟冒险中，[PAWN_nameDef]积累了远超常人的山地与洞穴知识，这让[PAWN_pronoun]成为了当之无愧的山地大师。</OA_RK_NEW_Backstory_CE.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_CF.title>OA·极地的远行者</OA_RK_NEW_Backstory_CF.title>
+  <OA_RK_NEW_Backstory_CF.titleShort>远行者</OA_RK_NEW_Backstory_CF.titleShort>
+  <OA_RK_NEW_Backstory_CF.baseDesc>金鸢尾兰鼠族发源于极地星球之上，而这样独特的地理条件催生了一大批热衷于极地探险的远行者，[PAWN_nameDef]便是其中之一。相较于常规探险，极地探险必须面临更加严苛的条件，需要更多的专业知识以及顽强的意志，所幸的是[PAWN_nameDef]拥有这一切。</OA_RK_NEW_Backstory_CF.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_CG.title>OA·建筑工程员</OA_RK_NEW_Backstory_CG.title>
+  <OA_RK_NEW_Backstory_CG.titleShort>工程员</OA_RK_NEW_Backstory_CG.titleShort>
+  <OA_RK_NEW_Backstory_CG.baseDesc>[PAWN_nameDef]是宫廷的工业部的一员。由于对建筑机械的精通，因此在工业部中[PAWN_pronoun]大多数时候负责操纵与指挥建筑机械，来建造新的建筑物。</OA_RK_NEW_Backstory_CG.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_DA.title>OA·重机械维护员</OA_RK_NEW_Backstory_DA.title>
+  <OA_RK_NEW_Backstory_DA.titleShort>维护员</OA_RK_NEW_Backstory_DA.titleShort>
+  <OA_RK_NEW_Backstory_DA.baseDesc>[PAWN_nameDef]是宫廷的工业部的一员，[PAWN_pronoun]的日常任务是负责照料那些大型的工业机械，并做好它们的相关维修工作。</OA_RK_NEW_Backstory_DA.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_DB.title>OA·工业部的话痨</OA_RK_NEW_Backstory_DB.title>
+  <OA_RK_NEW_Backstory_DB.titleShort>侍从</OA_RK_NEW_Backstory_DB.titleShort>
+  <OA_RK_NEW_Backstory_DB.baseDesc>在大多数人的眼中，工业部的侍从们绝大多数都是不苟言笑，沉稳而坚毅的形象，但[PAWN_nameDef]却完全不是这种样子。\n每一个工业部的侍从们都知道，在工作的时候最好不要接[PAWN_nameDef]的话茬，否则绝对会被[PAWN_pronoun]那喋喋不休的话语所干扰。</OA_RK_NEW_Backstory_DB.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_DC.title>OA·死里逃生的侍从</OA_RK_NEW_Backstory_DC.title>
+  <OA_RK_NEW_Backstory_DC.titleShort>侍从</OA_RK_NEW_Backstory_DC.titleShort>
+  <OA_RK_NEW_Backstory_DC.baseDesc>尽管金鸢尾兰帝国的工业设备已经将安全性提升到了一个极高的标准，但依然避免不了极小概率的意外事故，而[PAWN_nameDef]便是这些事故的受害者之一。尽管没有因为那场意外失去性命，但那次惊险的事故依然给[PAWN_nameDef]留下了极大的阴影。</OA_RK_NEW_Backstory_DC.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_DD.title>OA·工业部的模板</OA_RK_NEW_Backstory_DD.title>
+  <OA_RK_NEW_Backstory_DD.titleShort>侍从</OA_RK_NEW_Backstory_DD.titleShort>
+  <OA_RK_NEW_Backstory_DD.baseDesc>[PAWN_nameDef]可以说是工业部的侍从的模板，无论从哪个角度上看，[PAWN_pronoun]都可以说是刻板印象中工业部侍从的翻版————无论是那干练的技术，简明的态度，还是那倔强的脾气。</OA_RK_NEW_Backstory_DD.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_DE.title>OA·宫廷中的高族</OA_RK_NEW_Backstory_DE.title>
+  <OA_RK_NEW_Backstory_DE.titleShort>高族</OA_RK_NEW_Backstory_DE.titleShort>
+  <OA_RK_NEW_Backstory_DE.baseDesc>[PAWN_nameDef]曾经是宫廷部的一名勤奋的侍从，这种勤奋使得[PAWN_pronoun]多次在岗位上做出了卓越的贡献，并最终获得了荣誉高族的身份。\n但不同于大多数人的选择，在成为贵族后[PAWN_nameDef]依然选择留在了宫廷中，对于[PAWN_pronoun]而言，为了他人而奉献自我是一份相当崇高的荣誉。</OA_RK_NEW_Backstory_DE.baseDesc>  
+  
+  <!--OA_RK_NEW_Backstory_DF.title>OA·上者的族裔</OA_RK_NEW_Backstory_DF.title>
+  <OA_RK_NEW_Backstory_DF.titleShort>高族</OA_RK_NEW_Backstory_DF.titleShort>
+  <OA_RK_NEW_Backstory_DF.baseDesc>[PAWN_nameDef]的祖辈拥有着上者的爵位，但由于贵族继承法规定的旁系降位继承制，因此爵位传承至[PAWN_nameDef]时已经降至高族。\n但即便如此，流传下来的家训依然促使[PAWN_nameDef]以严格的标准规范着自己的言行。</OA_RK_NEW_Backstory_DF.baseDesc-->  
+  
+  <OA_RK_NEW_Backstory_DG.title>OA·统筹部侍从</OA_RK_NEW_Backstory_DG.title>
+  <OA_RK_NEW_Backstory_DG.titleShort>侍从</OA_RK_NEW_Backstory_DG.titleShort>
+  <OA_RK_NEW_Backstory_DG.baseDesc>[PAWN_nameDef]是宫廷中统筹部的一员。和其他统筹部的侍从一样，[PAWN_pronoun]每天的日常就是与大量的数据打交道。尽管这份工作很难做出突出的贡献，但没有任何人会怀疑这份工作的重要性。</OA_RK_NEW_Backstory_DG.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_EA.title>OA·动保区监测员</OA_RK_NEW_Backstory_EA.title>
+  <OA_RK_NEW_Backstory_EA.titleShort>监测员</OA_RK_NEW_Backstory_EA.titleShort>
+  <OA_RK_NEW_Backstory_EA.baseDesc>[PAWN_nameDef]是宫廷中自然生物与环境部的一员，[PAWN_pronoun]的日常工作就是通过数据和影像来判断动物保护区内的生态状况。而在一天工作结束的时候，[PAWN_pronoun]也偶尔会去辖区内散散步，享受与动物亲近的时光。</OA_RK_NEW_Backstory_EA.baseDesc>  
+  
+   <OA_RK_NEW_Backstory_EB.title>OA·健康督导员</OA_RK_NEW_Backstory_EB.title>
+  <OA_RK_NEW_Backstory_EB.titleShort>督导员</OA_RK_NEW_Backstory_EB.titleShort>
+  <OA_RK_NEW_Backstory_EB.baseDesc>[PAWN_nameDef]是宫廷中医护部的一员，负责着对病人的日常生活进行指导的工作。无论病人是在医护部的病床上，还是居家修养，[PAWN_nameDef]都会准时无误的出现在他们的病床旁。</OA_RK_NEW_Backstory_EB.baseDesc>  
+    
+  <OA_RK_NEW_Backstory_EC.title>OA·工业部的劳模</OA_RK_NEW_Backstory_EC.title>
+  <OA_RK_NEW_Backstory_EC.titleShort>侍从</OA_RK_NEW_Backstory_EC.titleShort>
+  <OA_RK_NEW_Backstory_EC.baseDesc>[PAWN_nameDef]喜欢重型机械工作时发出的声音，对[PAWN_pronoun]而言这种工业化的声音是世界上最美妙的旋律，而这份爱好也最终导致了即便在工业部，[PAWN_pronoun]在工作效率上也是最优秀的那一批。</OA_RK_NEW_Backstory_EC.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_ED.title>OA·齿轮缔造者</OA_RK_NEW_Backstory_ED.title>
+  <OA_RK_NEW_Backstory_ED.titleShort>侍从</OA_RK_NEW_Backstory_ED.titleShort>
+  <OA_RK_NEW_Backstory_ED.baseDesc>在工业部中，[PAWN_nameDef]主要负责工业机械的部件制造，测试以及产出品的质量检测。[PAWN_nameDef]知道，即便是再庞大的机械，也需要由一个个微小的齿轮所驱动。</OA_RK_NEW_Backstory_ED.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_EE.title>OA·精准无误的侍从</OA_RK_NEW_Backstory_EE.title>
+  <OA_RK_NEW_Backstory_EE.titleShort>侍从</OA_RK_NEW_Backstory_EE.titleShort>
+  <OA_RK_NEW_Backstory_EE.baseDesc>[PAWN_nameDef]的工作风格并不像传统的工业部侍从，而更偏向于隔壁的技术部。在旁人总是因为各种各样的事情而令工作效率上下浮动时，[PAWN_nameDef]往往能够保持一贯的速度，和以往相比不差分毫。</OA_RK_NEW_Backstory_EE.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_EF.title>OA·糕点师</OA_RK_NEW_Backstory_EF.title>
+  <OA_RK_NEW_Backstory_EF.titleShort>糕点师</OA_RK_NEW_Backstory_EF.titleShort>
+  <OA_RK_NEW_Backstory_EF.baseDesc>[PAWN_nameDef]将绝大部分的精力都用于研究新的糕点上，并且收获了相当的成功。在长久的努力与研究下，[PAWN_pronoun]所制成的糕点不仅味道诱人，还拥有着相当的美观度。</OA_RK_NEW_Backstory_EF.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_EG.title>OA·小说写手</OA_RK_NEW_Backstory_EG.title>
+  <OA_RK_NEW_Backstory_EG.titleShort>小说写手</OA_RK_NEW_Backstory_EG.titleShort>
+  <OA_RK_NEW_Backstory_EG.baseDesc>[PAWN_nameDef]曾在当地的文学刊物上发表过数篇连载小说，虽然并不算火爆，但也有着不小的读者群体。而如今[PAWN_nameDef]为了寻找新的灵感，在经过深思熟虑后，最终[PAWN_pronoun]选择来到了银河系。</OA_RK_NEW_Backstory_EG.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_FA.title>OA·有艺术感的公民</OA_RK_NEW_Backstory_FA.title>
+  <OA_RK_NEW_Backstory_FA.titleShort>公民</OA_RK_NEW_Backstory_FA.titleShort>
+  <OA_RK_NEW_Backstory_FA.baseDesc>[PAWN_nameDef]并不认为艺术一定要有特定的形式，而是认为艺术就存在于身边的生活之中。在[PAWN_nameDef]的眼中，只要有心，那么身边的一切都能带来不同的艺术启迪。</OA_RK_NEW_Backstory_FA.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_FB.title>OA·爱写信的公民</OA_RK_NEW_Backstory_FB.title>
+  <OA_RK_NEW_Backstory_FB.titleShort>公民</OA_RK_NEW_Backstory_FB.titleShort>
+  <OA_RK_NEW_Backstory_FB.baseDesc>[PAWN_nameDef]并不喜欢太快节奏的生活，因此[PAWN_pronoun]很少使用即时的线上交流，反而更喜欢通过信件的方式来进行彼此的沟通。那一封封信件传递的很慢，但却也放慢了[PAWN_nameDef]的生活。</OA_RK_NEW_Backstory_FB.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_FC.title>OA·古典剧演员</OA_RK_NEW_Backstory_FC.title>
+  <OA_RK_NEW_Backstory_FC.titleShort>演员</OA_RK_NEW_Backstory_FC.titleShort>
+  <OA_RK_NEW_Backstory_FC.baseDesc>[PAWN_nameDef]是一名相当出色的古典剧演员，[PAWN_pronoun]那出色的形象设计以及无可挑剔的演绎能力令[PAWN_pronoun]收获了大量的忠实观众。</OA_RK_NEW_Backstory_FC.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_FD.title>OA·匆忙的侍从</OA_RK_NEW_Backstory_FD.title>
+  <OA_RK_NEW_Backstory_FD.titleShort>侍从</OA_RK_NEW_Backstory_FD.titleShort>
+  <OA_RK_NEW_Backstory_FD.baseDesc>左一趟，右一趟，工业部的同僚已经习以为常。他们知道这并不是勤劳，而是[PAWN_nameDef]又捅下了新的篓子。也许是因为记性不好亦或者其他情况，[PAWN_nameDef]总是会在细节上出现问题，这使得[PAWN_pronoun]常常需要四处救火，以弥补自己造成的麻烦。</OA_RK_NEW_Backstory_FD.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_FE.title>OA·曾负伤的突袭手</OA_RK_NEW_Backstory_FE.title>
+  <OA_RK_NEW_Backstory_FE.titleShort>突袭队成员</OA_RK_NEW_Backstory_FE.titleShort>
+  <OA_RK_NEW_Backstory_FE.baseDesc>[PAWN_nameDef]曾经在一次突袭作战行动中负伤。在病床上的[PAWN_nameDef]并没有因伤口的疼痛与离队的孤单而消沉下去，反而坚定了保护战友以及训练的决心，并最终令[PAWN_pronoun]在伤愈归队后展现出比以往更加活跃的朝气。</OA_RK_NEW_Backstory_FE.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_FF.title>OA·宫廷的美化师</OA_RK_NEW_Backstory_FF.title>
+  <OA_RK_NEW_Backstory_FF.titleShort>侍从</OA_RK_NEW_Backstory_FF.titleShort>
+  <OA_RK_NEW_Backstory_FF.baseDesc>[PAWN_nameDef]在宫廷的宫廷部中负责宫廷内部的环境美化与日常清洁工作，以保持宫廷的美观，并提振其他侍从的工作热情。</OA_RK_NEW_Backstory_FF.baseDesc>  
+  
+   <OA_RK_NEW_Backstory_FG.title>OA·出色的宫廷官</OA_RK_NEW_Backstory_FG.title>
+  <OA_RK_NEW_Backstory_FG.titleShort>宫廷官</OA_RK_NEW_Backstory_FG.titleShort>
+  <OA_RK_NEW_Backstory_FG.baseDesc>[PAWN_nameDef]在宫廷部中的表现十分出色，[PAWN_pronoun]总是能在一众繁杂的事物当中找到最关键的那个点，并顺利解决这些事情。最终这种出色的表现得到了宫廷部总管的认可，并将[PAWN_pronoun]提升为宫廷部的宫廷官之一。</OA_RK_NEW_Backstory_FG.baseDesc>  
+    
+  <OA_RK_NEW_Backstory_GA.title>OA·宫廷厨师</OA_RK_NEW_Backstory_GA.title>
+  <OA_RK_NEW_Backstory_GA.titleShort>侍从</OA_RK_NEW_Backstory_GA.titleShort>
+  <OA_RK_NEW_Backstory_GA.baseDesc>[PAWN_nameDef]负责宫廷中众多人员的饮食起居。无论是什么样的饮食需求，[PAWN_nameDef]烹饪起来都得心应手。</OA_RK_NEW_Backstory_GA.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_GB.title>OA·恐怖故事大师</OA_RK_NEW_Backstory_GB.title>
+  <OA_RK_NEW_Backstory_GB.titleShort>公民</OA_RK_NEW_Backstory_GB.titleShort>
+  <OA_RK_NEW_Backstory_GB.baseDesc>即便科技已经足以解开大多数的谜题，但金鸢尾兰的公民们依然喜欢那些灵异且无法理解的恐怖故事。每当一场聚会进行到一半的时候，[PAWN_nameDef]总是会在众人的期待下，绘声绘色的开始[PAWN_pronoun]的表演。</OA_RK_NEW_Backstory_GB.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_GC.title>OA·研读者</OA_RK_NEW_Backstory_GC.title>
+  <OA_RK_NEW_Backstory_GC.titleShort>公民</OA_RK_NEW_Backstory_GC.titleShort>
+  <OA_RK_NEW_Backstory_GC.baseDesc>[PAWN_nameDef]热衷于学习新的知识，无论是文学的典籍还是理工的公式，它们都能够让[PAWN_nameDef]忘我的投入进去。</OA_RK_NEW_Backstory_GC.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_GD.title>OA·废寝忘食的学者</OA_RK_NEW_Backstory_GD.title>
+  <OA_RK_NEW_Backstory_GD.titleShort>学者</OA_RK_NEW_Backstory_GD.titleShort>
+  <OA_RK_NEW_Backstory_GD.baseDesc>[PAWN_nameDef]总是在不断的追求着新的知识，有时候即便忘记吃饭也要坚持在图书馆里看书。这种行为虽然让[PAWN_nameDef]拥有远超常人的知识储备，但却也令[PAWN_pronoun]的身体不堪重负。</OA_RK_NEW_Backstory_GD.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_GE.title>OA·植物标本师</OA_RK_NEW_Backstory_GE.title>
+  <OA_RK_NEW_Backstory_GE.titleShort>公民</OA_RK_NEW_Backstory_GE.titleShort>
+  <OA_RK_NEW_Backstory_GE.baseDesc>[PAWN_nameDef]喜欢将各种各样的植物制作成标本，为此[PAWN_pronoun]常常前往郊外去采集那些自然生长的植物。尽管这样做很累，但每当标本制成，时间被留存的那一瞬间，[PAWN_nameDef]总是会获得难以言喻的满足感。</OA_RK_NEW_Backstory_GE.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_GF.title>OA·线路员</OA_RK_NEW_Backstory_GF.title>
+  <OA_RK_NEW_Backstory_GF.titleShort>侍从</OA_RK_NEW_Backstory_GF.titleShort>
+  <OA_RK_NEW_Backstory_GF.baseDesc>如果说谁能够对整个社区的各种线路网了如指掌，那么这个人必然是[PAWN_nameDef]。作为技术部的接线员，[PAWN_nameDef]负责对整片社区的各种线路进行维护，这不仅仅需要良好的专业能力，更需要惊人的记忆力与优秀的逻辑判断能力才能够实现。</OA_RK_NEW_Backstory_GF.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_GG.title>OA·敏锐的远行者</OA_RK_NEW_Backstory_GG.title>
+  <OA_RK_NEW_Backstory_GG.titleShort>远行者</OA_RK_NEW_Backstory_GG.titleShort>
+  <OA_RK_NEW_Backstory_GG.baseDesc>[PAWN_nameDef]并没有太优秀的身体素质，这使得本就危险的远行对于[PAWN_nameDef]来说更加凶险，但[PAWN_nameDef]也有自己的对策——如果能够通过敏锐的观察与优秀的知识储备来规避风险，那么身体素质的缺点也并不会带来太多麻烦。</OA_RK_NEW_Backstory_GG.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_AAA.title>OA·采茶人</OA_RK_NEW_Backstory_AAA.title>
+  <OA_RK_NEW_Backstory_AAA.titleShort>采茶人</OA_RK_NEW_Backstory_AAA.titleShort>
+  <OA_RK_NEW_Backstory_AAA.baseDesc>喝茶是金鸢尾兰公民中非常普遍的一种消遣方式。大多数公民都会用常见的金鸢尾兰来泡茶，但[PAWN_nameDef]却认为一定还会有更好的茶叶，为此[PAWN_nameDef]已经走过了多个星球，并且可以预见的是在找到心中的那种茶叶之前，[PAWN_nameDef]还会继续走下去。</OA_RK_NEW_Backstory_AAA.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_AAB.title>OA·电气员</OA_RK_NEW_Backstory_AAB.title>
+  <OA_RK_NEW_Backstory_AAB.titleShort>电气员</OA_RK_NEW_Backstory_AAB.titleShort>
+  <OA_RK_NEW_Backstory_AAB.baseDesc>[PAWN_nameDef]曾在技术部的电气课程中取得过相当突出的成绩，最终在培训结束后顺理成章的成为了技术部的电气员，专门负责电气类设备相关的事宜。</OA_RK_NEW_Backstory_AAB.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_AAC.title>OA·微机械管理员</OA_RK_NEW_Backstory_AAC.title>
+  <OA_RK_NEW_Backstory_AAC.titleShort>管理员</OA_RK_NEW_Backstory_AAC.titleShort>
+  <OA_RK_NEW_Backstory_AAC.baseDesc>大并不一定是好，多也不一定是美。无论别人对这句话怎么看待，[PAWN_nameDef]都对此深信不疑，这使得他在日常的微机械管理中总是充满着热情与活力。</OA_RK_NEW_Backstory_AAC.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_AAD.title>OA·故障排查员</OA_RK_NEW_Backstory_AAD.title>
+  <OA_RK_NEW_Backstory_AAD.titleShort>排查员</OA_RK_NEW_Backstory_AAD.titleShort>
+  <OA_RK_NEW_Backstory_AAD.baseDesc>想要成为一名优秀的故障排查员往往需要十分出色的逻辑判断能力与扎实的理论基础，以及少量的运气，所幸这些东西[PAWN_nameDef]全部都有。因此当技术部的常规人员遇到无法理解，压根找不到原因的故障时，往往就是[PAWN_nameDef]大放异彩的时候了。</OA_RK_NEW_Backstory_AAD.baseDesc>  
+  
+   <OA_RK_NEW_Backstory_AAE.title>OA·故障预防员</OA_RK_NEW_Backstory_AAE.title>
+  <OA_RK_NEW_Backstory_AAE.titleShort>预防员</OA_RK_NEW_Backstory_AAE.titleShort>
+  <OA_RK_NEW_Backstory_AAE.baseDesc>技术部的目标最终是让机械故障这个词从生活中消失，而实现这个方式的途径并不仅仅是维修，也可以是预防。为了实现这个目标，[PAWN_nameDef]平时总是在检视着一个个设备，并通过已经得知的信息来进行判断，预防可能出现的故障。</OA_RK_NEW_Backstory_AAE.baseDesc>  
+    
+  <OA_RK_NEW_Backstory_AAF.title>OA·器械调控员</OA_RK_NEW_Backstory_AAF.title>
+  <OA_RK_NEW_Backstory_AAF.titleShort>调控员</OA_RK_NEW_Backstory_AAF.titleShort>
+  <OA_RK_NEW_Backstory_AAF.baseDesc>如果不是制服证明着归属，[PAWN_nameDef]平时的工作甚至会让人以为他属于统筹部而不是技术部。不像那些奔走在走道里或者奋战于科研台前的同僚，[PAWN_nameDef]更多时候是在与一份份资料中进行奋战，并用他敏锐的直觉来预防可能出现的管理问题。</OA_RK_NEW_Backstory_AAF.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_AAG.title>OA·新理论研究员</OA_RK_NEW_Backstory_AAG.title>
+  <OA_RK_NEW_Backstory_AAG.titleShort>研究员</OA_RK_NEW_Backstory_AAG.titleShort>
+  <OA_RK_NEW_Backstory_AAG.baseDesc>就像隔壁的器械调控员一样，新理论研究员也是一种很容易被认错归属的职业，毕竟在大多数认知中，科研类的事情应该属于科研部而不是技术部。然而术业有专攻，即便是科研部的顶尖研究员，也不一定在技术结构理论上能比[PAWN_nameDef]有更多见识。作为技术部的理论研究员，作为理论与实践的桥梁与沟通者，[PAWN_nameDef]毫无疑问是相当够格的。</OA_RK_NEW_Backstory_AAG.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_ABA.title>OA·试行员</OA_RK_NEW_Backstory_ABA.title>
+  <OA_RK_NEW_Backstory_ABA.titleShort>试行员</OA_RK_NEW_Backstory_ABA.titleShort>
+  <OA_RK_NEW_Backstory_ABA.baseDesc>一个新的设备往往需要进行试验后才能批量生产，而大多数时候，试验的工作需要由[PAWN_nameDef]来负责。身为试行员，[PAWN_nameDef]不仅要面对潜在的风险，还要全局性的考虑该设备的各种要素与环境影响，这种高强度的工作环境最终把[PAWN_nameDef]的技术水平磨炼的炉火纯青。</OA_RK_NEW_Backstory_ABA.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_ABB.title>OA·细致的侍从</OA_RK_NEW_Backstory_ABB.title>
+  <OA_RK_NEW_Backstory_ABB.titleShort>侍从</OA_RK_NEW_Backstory_ABB.titleShort>
+  <OA_RK_NEW_Backstory_ABB.baseDesc>[PAWN_nameDef]善于从细枝末节中发现潜在的问题，设备的任何异常，哪怕只有一点点问题，也会引起[PAWN_nameDef]的注意，并最终将其调试到完美运转的状态。这种细致的态度帮助[PAWN_nameDef]解决了多次可能的设备故障，并不断的锻炼着他的技术能力与耐心。</OA_RK_NEW_Backstory_ABB.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_ABC.title>OA·救火的侍从</OA_RK_NEW_Backstory_ABC.title>
+  <OA_RK_NEW_Backstory_ABC.titleShort>侍从</OA_RK_NEW_Backstory_ABC.titleShort>
+  <OA_RK_NEW_Backstory_ABC.baseDesc>大概每个部门都会有几个闲不下来的存在，而在技术部，这个闲不下来的人非[PAWN_nameDef]莫属。当别人在喝茶的时候，[PAWN_nameDef]在修设备。当别人在聊天的时候，[PAWN_nameDef]在修设备，哪怕是路过一个平淡无奇的房间，[PAWN_nameDef]也有可能会被房间里的人拽进去修设备。\n长期的繁忙已经让[PAWN_nameDef]习以为常，对于现在的[PAWN_nameDef]来说，如果某一天[PAWN_pronoun]没有什么事情需要做，那么[PAWN_pronoun]反而会感到不适应。</OA_RK_NEW_Backstory_ABC.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_ABD.title>OA·不上心的技术员</OA_RK_NEW_Backstory_ABD.title>
+  <OA_RK_NEW_Backstory_ABD.titleShort>技术员</OA_RK_NEW_Backstory_ABD.titleShort>
+  <OA_RK_NEW_Backstory_ABD.baseDesc>技术部开放而自由化的风气一直饱受质疑，而[PAWN_nameDef]便是导致这种质疑的原因之一。在大多数时候[PAWN_nameDef]并没有全神贯注于自己的职责，而总是在想办法去摸鱼，尽管相对而言技术部的侍从们的确算不上勤劳，但[PAWN_nameDef]的摸鱼程度仍然高于同僚们一大截。</OA_RK_NEW_Backstory_ABD.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_ABE.title>OA·社区排障员</OA_RK_NEW_Backstory_ABE.title>
+  <OA_RK_NEW_Backstory_ABE.titleShort>排障员</OA_RK_NEW_Backstory_ABE.titleShort>
+  <OA_RK_NEW_Backstory_ABE.baseDesc>虽然大多数时候都在社区里穿行，但[PAWN_nameDef]的确是实打实的技术部侍从。社区排障员的职责要求[PAWN_nameDef]大多数时候需要在社区里巡视与待命，而不是像同僚们那样宅在宫廷里。</OA_RK_NEW_Backstory_ABE.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_ABF.title>OA·细致的技术官</OA_RK_NEW_Backstory_ABF.title>
+  <OA_RK_NEW_Backstory_ABF.titleShort>技术官</OA_RK_NEW_Backstory_ABF.titleShort>
+  <OA_RK_NEW_Backstory_ABF.baseDesc>细心，谨慎，这两个词是对[PAWN_nameDef]的最好形容。在[PAWN_nameDef]十余年的技术部生涯里，这两份特质成功的帮助[PAWN_nameDef]避免或解决了数起灾难性的故障，并最终让[PAWN_nameDef]凭借着这份贡献成为了技术部的技术官之一。</OA_RK_NEW_Backstory_ABF.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_ABG.title>OA·爱捣鼓的公民</OA_RK_NEW_Backstory_ABG.title>
+  <OA_RK_NEW_Backstory_ABG.titleShort>公民</OA_RK_NEW_Backstory_ABG.titleShort>
+  <OA_RK_NEW_Backstory_ABG.baseDesc>平日里[PAWN_nameDef]很少出门，而是宅在家中捣鼓着一些奇奇怪怪但实用的小发明。也许在专业人士眼中这些发明会显得简陋或者不堪，但[PAWN_nameDef]却为此做的不亦乐乎。</OA_RK_NEW_Backstory_ABG.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_ACA.title>OA·雪雕家</OA_RK_NEW_Backstory_ACA.title>
+  <OA_RK_NEW_Backstory_ACA.titleShort>雪雕家</OA_RK_NEW_Backstory_ACA.titleShort>
+  <OA_RK_NEW_Backstory_ACA.baseDesc>对于[PAWN_nameDef]而言，雕塑并不需要刻意寻找素材，随处可见的冰雪就是艺术品的最佳原料。每当大雪过后，[PAWN_nameDef]便会在广场上堆起一座座雪雕，以供行人观赏。</OA_RK_NEW_Backstory_ACA.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_ACB.title>OA·岩石学者</OA_RK_NEW_Backstory_ACB.title>
+  <OA_RK_NEW_Backstory_ACB.titleShort>公民</OA_RK_NEW_Backstory_ACB.titleShort>
+  <OA_RK_NEW_Backstory_ACB.baseDesc>和雕塑家们的目的不一样，[PAWN_nameDef]只是纯粹的喜爱着各种各样的石头。那些有着千奇百怪的纹路的石头总是让[PAWN_nameDef]爱不释手，并促使着[PAWN_nameDef]在岩石学与地质学的道路上越走越远。</OA_RK_NEW_Backstory_ACB.baseDesc>  
+  
+   <OA_RK_NEW_Backstory_ACC.title>OA·日落记录者</OA_RK_NEW_Backstory_ACC.title>
+  <OA_RK_NEW_Backstory_ACC.titleShort>公民</OA_RK_NEW_Backstory_ACC.titleShort>
+  <OA_RK_NEW_Backstory_ACC.baseDesc>“夕阳无限好，只是近黄昏。”\n[PAWN_nameDef]流连于那绝美的日落，并决心要将其永远的留存下来。每天[PAWN_nameDef]都在期待着黄昏时分的日落，并寻找着新的角度与摄影方式来将每天的夕阳拍下，最终封存在自己的相册里。</OA_RK_NEW_Backstory_ACC.baseDesc>  
+    
+  <OA_RK_NEW_Backstory_ACD.title>OA·家具修理师</OA_RK_NEW_Backstory_ACD.title>
+  <OA_RK_NEW_Backstory_ACD.titleShort>修理师</OA_RK_NEW_Backstory_ACD.titleShort>
+  <OA_RK_NEW_Backstory_ACD.baseDesc>曾经的宫廷培训与后来的自我学习让[PAWN_nameDef]掌握了出色手工能力。在邻居们的家具出现问题的时候，他们第一时间想到的往往并不是向社区报修，而是让[PAWN_nameDef]看看还有没有救。</OA_RK_NEW_Backstory_ACD.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_ACE.title>OA·与世无争的公民</OA_RK_NEW_Backstory_ACE.title>
+  <OA_RK_NEW_Backstory_ACE.titleShort>公民</OA_RK_NEW_Backstory_ACE.titleShort>
+  <OA_RK_NEW_Backstory_ACE.baseDesc>[PAWN_nameDef]几乎不会与任何人发生冲突。在他人起争执的时候，[PAWN_nameDef]只会默默的在一旁，然后等待争吵结束时再单独对双方进行安抚。也许这种行为会被他人视为墙头草，但[PAWN_nameDef]认为，大家的和睦相处比一切事情都重要。</OA_RK_NEW_Backstory_ACE.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_ACF.title>OA·健忘的公民</OA_RK_NEW_Backstory_ACF.title>
+  <OA_RK_NEW_Backstory_ACF.titleShort>公民</OA_RK_NEW_Backstory_ACF.titleShort>
+  <OA_RK_NEW_Backstory_ACF.baseDesc>[PAWN_nameDef]总是会忘记什么，无论是忘了关的水龙头，还是不知道被丢到哪里的小物件，都是[PAWN_nameDef]那糟糕的记忆力的最好佐证。不过糟糕的记忆力并不是只有坏处，比如在遇到糟心事的时候，[PAWN_nameDef]往往很快就会将其遗忘，这或许也是一种因祸得福。</OA_RK_NEW_Backstory_ACF.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_ACG.title>OA·布料师</OA_RK_NEW_Backstory_ACG.title>
+  <OA_RK_NEW_Backstory_ACG.titleShort>布料师</OA_RK_NEW_Backstory_ACG.titleShort>
+  <OA_RK_NEW_Backstory_ACG.baseDesc>复杂的衣物设计并不是[PAWN_nameDef]擅长的领域，和衣物设计比起来，[PAWN_nameDef]更喜欢去尝试新的布料，并且在上面制作出简约却雅观的花纹。</OA_RK_NEW_Backstory_ACG.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_ADA.title>OA·随身侍从</OA_RK_NEW_Backstory_ADA.title>
+  <OA_RK_NEW_Backstory_ADA.titleShort>侍从</OA_RK_NEW_Backstory_ADA.titleShort>
+  <OA_RK_NEW_Backstory_ADA.baseDesc>宫廷部的侍从中并不是所有人都能够成为随身侍从，但[PAWN_nameDef]成功以他出众的能力获得了这一项职务。在大多数的情况下，[PAWN_nameDef]都能够明白所服侍的贵族的需求以及指令，并高效的完成它们。</OA_RK_NEW_Backstory_ADA.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_ADB.title>OA·精于茶艺的侍从</OA_RK_NEW_Backstory_ADB.title>
+  <OA_RK_NEW_Backstory_ADB.titleShort>侍从</OA_RK_NEW_Backstory_ADB.titleShort>
+  <OA_RK_NEW_Backstory_ADB.baseDesc>如果要比工作效率，那么[PAWN_nameDef]并不算多么优秀，但如果要比茶艺，那么[PAWN_nameDef]至少会是一流。尽管[PAWN_nameDef]并没有刻意磨炼茶艺，但长久的爱好已经让他的茶艺达到了一个很高的水准，以至于闲暇之余侍从们最常做的，就是拉上[PAWN_nameDef]来开一场茶话会。</OA_RK_NEW_Backstory_ADB.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_ADC.title>OA·外务搜救员</OA_RK_NEW_Backstory_ADC.title>
+  <OA_RK_NEW_Backstory_ADC.titleShort>搜救员</OA_RK_NEW_Backstory_ADC.titleShort>
+  <OA_RK_NEW_Backstory_ADC.baseDesc>即便是再发达舒适的社会，也总是要有人去背负起一些东西，[PAWN_nameDef]明白这个道理。因此在公民们放松于日常的的时候，[PAWN_nameDef]却需要时刻坐在通讯台前，等待着可能的求救呼叫并随时准备出发。</OA_RK_NEW_Backstory_ADC.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_ADD.title>OA·心理医师</OA_RK_NEW_Backstory_ADD.title>
+  <OA_RK_NEW_Backstory_ADD.titleShort>医师</OA_RK_NEW_Backstory_ADD.titleShort>
+  <OA_RK_NEW_Backstory_ADD.baseDesc>[PAWN_nameDef]遇到过有着各种各样心理问题的病人，这其中有因为繁琐公务压力而崩溃的贵族，也有因为不适应社交而心衰的公民，然而最终[PAWN_nameDef]都成功的帮助他们走出了这些痛苦。想要做到这一步，不仅仅需要专业的知识，更需要将心比心的温柔与关怀。</OA_RK_NEW_Backstory_ADD.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_ADE.title>OA·夜间医师</OA_RK_NEW_Backstory_ADE.title>
+  <OA_RK_NEW_Backstory_ADE.titleShort>医师</OA_RK_NEW_Backstory_ADE.titleShort>
+  <OA_RK_NEW_Backstory_ADE.baseDesc>和有着规律作息的人不一样，病症的发作并没有作息可循，因此夜间医师有时反而比日间医师更加繁忙。不过好在[PAWN_nameDef]很适应这一切，毕竟对于夜猫子而言，没有什么时间段能比夜晚更令人愉悦了。</OA_RK_NEW_Backstory_ADE.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_ADF.title>OA·修整的船员</OA_RK_NEW_Backstory_ADF.title>
+  <OA_RK_NEW_Backstory_ADF.titleShort>船员</OA_RK_NEW_Backstory_ADF.titleShort>
+  <OA_RK_NEW_Backstory_ADF.baseDesc>每一次星际航行都充满着风险，因此当一次航行结束后，金鸢尾兰的船长往往会给全体船员放一次长假，以缓解精神压力。\n[PAWN_nameDef]所在的货船刚进行完一次对新殖民地的物资运输，在下一次出航前，[PAWN_nameDef]打算尽可能的在这个全新的星系里多看看，来放松自己的心情。</OA_RK_NEW_Backstory_ADF.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_ADG.title>OA·动物爱好者</OA_RK_NEW_Backstory_ADG.title>
+  <OA_RK_NEW_Backstory_ADG.titleShort>公民</OA_RK_NEW_Backstory_ADG.titleShort>
+  <OA_RK_NEW_Backstory_ADG.baseDesc>[PAWN_nameDef]认为无论是哪种生物，都有着自己独特的能力与生存的权利。因此在不造成困扰的前提下，[PAWN_nameDef]总是在饲养一些小动物，并且尝试让其他人也知道这些奇妙生物的独到之处。</OA_RK_NEW_Backstory_ADG.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_AEA.title>OA·植物研究员</OA_RK_NEW_Backstory_AEA.title>
+  <OA_RK_NEW_Backstory_AEA.titleShort>研究员</OA_RK_NEW_Backstory_AEA.titleShort>
+  <OA_RK_NEW_Backstory_AEA.baseDesc>农业的发展不仅仅需要种植技术的提升，也需要植物品种的迭代。为了植物科学的进步，[PAWN_nameDef]主动放弃了技术部那环境优渥的实验室，而自发的前往遍布杂草与蚊虫的野外，去寻找新的可能性。</OA_RK_NEW_Backstory_AEA.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_AEB.title>OA·有耐心的花匠</OA_RK_NEW_Backstory_AEB.title>
+  <OA_RK_NEW_Backstory_AEB.titleShort>花匠</OA_RK_NEW_Backstory_AEB.titleShort>
+  <OA_RK_NEW_Backstory_AEB.baseDesc>熟悉[PAWN_nameDef]的人都知道，[PAWN_nameDef]是一个很有耐心的花匠。她不会因为一盆花枯萎而难过，而只会在查阅了资料后，改变养育的方式，并一如既往地进行日常的照料。尽管最终还是有很多花彻底枯死，但每当有花第二次绽放的时候，[PAWN_nameDef]总是会感到由衷的高兴。</OA_RK_NEW_Backstory_AEB.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_AEC.title>OA·优秀的攻击手</OA_RK_NEW_Backstory_AEC.title>
+  <OA_RK_NEW_Backstory_AEC.titleShort>突袭队队员</OA_RK_NEW_Backstory_AEC.titleShort>
+  <OA_RK_NEW_Backstory_AEC.baseDesc>可能是艺高胆大，也可能是不理性的英雄主义，总之当作战任务需要人来充当突破手的时候，[PAWN_nameDef]往往会是最积极的那一个。而在大多数情况里，[PAWN_nameDef]也的确会是一名优秀的先锋。</OA_RK_NEW_Backstory_AEC.baseDesc>  
+    
+  <OA_RK_NEW_Backstory_AED.title>OA·全能的队员</OA_RK_NEW_Backstory_AED.title>
+  <OA_RK_NEW_Backstory_AED.titleShort>突袭队队员</OA_RK_NEW_Backstory_AED.titleShort>
+  <OA_RK_NEW_Backstory_AED.baseDesc>无论是巷战，还是野战，也无论是冲锋枪还是发射器，对于[PAWN_nameDef]而言，就没有他适应不了的作战形式。当其他人还在因为环境影响而慢半拍的时候，[PAWN_nameDef]早已找到了自己该做的事情。</OA_RK_NEW_Backstory_AED.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_AEE.title>OA·突袭队战术家</OA_RK_NEW_Backstory_AEE.title>
+  <OA_RK_NEW_Backstory_AEE.titleShort>突袭队队长</OA_RK_NEW_Backstory_AEE.titleShort>
+  <OA_RK_NEW_Backstory_AEE.baseDesc>突袭队的小队长们往往都有着独特的特长。有的人善于单兵突破，有的人善于总览全局，而对于[PAWN_nameDef]而言，他的特长就是小范围的指挥。在小规模的冲突中，[PAWN_nameDef]往往能够做出最合理的指挥与安排，并且在短时间内找到这场战斗的突破口。</OA_RK_NEW_Backstory_AEE.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_AEF.title>OA·失去母亲的孩子</OA_RK_NEW_Backstory_AEF.title>
+  <OA_RK_NEW_Backstory_AEF.titleShort>儿童</OA_RK_NEW_Backstory_AEF.titleShort>
+  <OA_RK_NEW_Backstory_AEF.baseDesc>在[PAWN_nameDef]还没有独立生存能力的时候，他的母亲便不幸在一场突袭作战中殉职。尽管[PAWN_nameDef]能够理解对于军人而言，牺牲是一件正常的事情，但那刻骨铭心的痛苦与怨恨依然极大的影响了他的心智。</OA_RK_NEW_Backstory_AEF.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_AEG.title>OA·花海中的孩子</OA_RK_NEW_Backstory_AEG.title>
+  <OA_RK_NEW_Backstory_AEG.titleShort>儿童</OA_RK_NEW_Backstory_AEG.titleShort>
+  <OA_RK_NEW_Backstory_AEG.baseDesc>[PAWN_nameDef]喜欢躺在花海中的那种感觉。鸢尾兰的摇曳，飞过的蝴蝶，以及那微微的花香，构成了[PAWN_nameDef]童年最美好的画卷。</OA_RK_NEW_Backstory_AEG.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_AFA.title>OA·小诗人</OA_RK_NEW_Backstory_AFA.title>
+  <OA_RK_NEW_Backstory_AFA.titleShort>小诗人</OA_RK_NEW_Backstory_AFA.titleShort>
+  <OA_RK_NEW_Backstory_AFA.baseDesc>[PAWN_nameDef]自幼便有着出众的文学天赋。当其他孩童还在为写作所困惑的时候，[PAWN_nameDef]已经能够做到随口吟诵出韵律优美的诗句了。这种天赋虽然给[PAWN_nameDef]带来了他人的羡慕与赞美，但却也令他幼小的内心充斥着与年龄不符的忧虑与哀愁。</OA_RK_NEW_Backstory_AFA.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_AFB.title>OA·好奇机械的孩子</OA_RK_NEW_Backstory_AFB.title>
+  <OA_RK_NEW_Backstory_AFB.titleShort>儿童</OA_RK_NEW_Backstory_AFB.titleShort>
+  <OA_RK_NEW_Backstory_AFB.baseDesc>[PAWN_nameDef]小时候便对那些精密的机械感兴趣，而在察觉到小[PAWN_nameDef]的爱好后，他的父母当即为他买来了大量相关书籍与教学材料，以培养他的机械天赋与理性思维能力。</OA_RK_NEW_Backstory_AFB.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_AFC.title>OA·叛逆的小家伙</OA_RK_NEW_Backstory_AFC.title>
+  <OA_RK_NEW_Backstory_AFC.titleShort>儿童</OA_RK_NEW_Backstory_AFC.titleShort>
+  <OA_RK_NEW_Backstory_AFC.baseDesc>说东就往西，指南就走北，[PAWN_nameDef]从来不是一个听话的孩子，他幼小的心灵中充斥着对自由的向往，以及对他人摆布的厌恶。而这一切都让他的父母与教习员感到相当头疼，并为教育他付出了大量的精力。</OA_RK_NEW_Backstory_AFC.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_AFD.title>OA·体贴的孩子</OA_RK_NEW_Backstory_AFD.title>
+  <OA_RK_NEW_Backstory_AFD.titleShort>儿童</OA_RK_NEW_Backstory_AFD.titleShort>
+  <OA_RK_NEW_Backstory_AFD.baseDesc>每一个和[PAWN_nameDef]接触过的人，都必然会对[PAWN_nameDef]的体贴赞不绝口。[PAWN_nameDef]仿佛拥有一种能够察觉他人所思所想的天赋，以至于他总是能够在别人需要的时候，给他们提供所需要的东西或者帮助。</OA_RK_NEW_Backstory_AFD.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_AFF.title>OA·风雪中的孩子</OA_RK_NEW_Backstory_AFF.title>
+  <OA_RK_NEW_Backstory_AFF.titleShort>儿童</OA_RK_NEW_Backstory_AFF.titleShort>
+  <OA_RK_NEW_Backstory_AFF.baseDesc>[PAWN_nameDef]出生在一场几乎席卷整个城市的暴风雪中。也许是受到曾经那场暴风雪的影响，[PAWN_nameDef]对于风雪有一种莫名其妙的好感。每到下雪时，[PAWN_nameDef]总是会主动走出门去，静静的体会着雪花飘落在自己身上的感觉。</OA_RK_NEW_Backstory_AFF.baseDesc>  
+   
+  <OA_RK_NEW_Backstory_AGA.title>OA·体质优秀的孩子</OA_RK_NEW_Backstory_AGA.title>
+  <OA_RK_NEW_Backstory_AGA.titleShort>儿童</OA_RK_NEW_Backstory_AGA.titleShort>
+  <OA_RK_NEW_Backstory_AGA.baseDesc>[PAWN_nameDef]在幼年时连续患上了好几种严重的儿童疾病，并险些因为疾病夭折，不过好在最终金鸢尾兰发达的医疗科技让奄奄一息的[PAWN_nameDef]活了下来。后来也许是因为产生了抗体，亦或者其他原因，[PAWN_nameDef]的免疫力似乎比同龄人强了很多。</OA_RK_NEW_Backstory_AGA.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_AGB.title>OA·颜料盘毁灭者</OA_RK_NEW_Backstory_AGB.title>
+  <OA_RK_NEW_Backstory_AGB.titleShort>儿童</OA_RK_NEW_Backstory_AGB.titleShort>
+  <OA_RK_NEW_Backstory_AGB.baseDesc>[PAWN_nameDef]曾经在父母的眼中也是一个乖宝宝，直到某一天[PAWN_nameDef]的父母回到家之后，发现放在书房的画板被整个推倒，五颜六色的颜料涂满了整个房间。</OA_RK_NEW_Backstory_AGB.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_AGC.title>OA·较真的孩子</OA_RK_NEW_Backstory_AGC.title>
+  <OA_RK_NEW_Backstory_AGC.titleShort>儿童</OA_RK_NEW_Backstory_AGC.titleShort>
+  <OA_RK_NEW_Backstory_AGC.baseDesc>[PAWN_nameDef]一直想不明白，为什么错误是可以原谅的事情。在[PAWN_nameDef]那幼小的心灵看来，对就是对，错就是错，容不得一点模糊，这使得[PAWN_nameDef]总是会直白的指出他人的问题，而不在意他人感受。</OA_RK_NEW_Backstory_AGC.baseDesc>  
+    
+  <OA_RK_NEW_Backstory_AGD.title>OA·喜欢数学的孩子</OA_RK_NEW_Backstory_AGD.title>
+  <OA_RK_NEW_Backstory_AGD.titleShort>儿童</OA_RK_NEW_Backstory_AGD.titleShort>
+  <OA_RK_NEW_Backstory_AGD.baseDesc>[PAWN_nameDef]喜欢数字之间的复杂联系，他总是在寻找生活中的数学关系。这份对数字的敏感不仅让[PAWN_nameDef]的数学课成绩名列前茅，也让[PAWN_nameDef]窥见了一些商业的规律。</OA_RK_NEW_Backstory_AGD.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_AGE.title>OA·有主见的孩子</OA_RK_NEW_Backstory_AGE.title>
+  <OA_RK_NEW_Backstory_AGE.titleShort>儿童</OA_RK_NEW_Backstory_AGE.titleShort>
+  <OA_RK_NEW_Backstory_AGE.baseDesc>在[PAWN_nameDef]刚记事的时候，[PAWN_nameDef]的父母就刻意的培养过[PAWN_nameDef]的独立能力与自我决策能力，这使得[PAWN_nameDef]即便生理上还是一个少儿，心理上却已经有着远超于同龄人的成熟。</OA_RK_NEW_Backstory_AGE.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_AGF.title>OA·小试毒员</OA_RK_NEW_Backstory_AGF.title>
+  <OA_RK_NEW_Backstory_AGF.titleShort>儿童</OA_RK_NEW_Backstory_AGF.titleShort>
+  <OA_RK_NEW_Backstory_AGF.baseDesc>[PAWN_nameDef]的童年可以说是不完全的幸福。虽然[PAWN_nameDef]的确有一对很爱他的父母，但他的父母做的食物却与这份爱背道而驰。对于[PAWN_nameDef]而言，他小时候最渴望听到的消息不是出门旅行，而是今天吃外卖。</OA_RK_NEW_Backstory_AGF.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_AGG.title>OA·落日下的儿童</OA_RK_NEW_Backstory_AGG.title>
+  <OA_RK_NEW_Backstory_AGG.titleShort>儿童</OA_RK_NEW_Backstory_AGG.titleShort>
+  <OA_RK_NEW_Backstory_AGG.baseDesc>每当日落的时候，[PAWN_nameDef]总是会独自坐在屋顶的边缘上，一个人看着远方的落日出神。大多数人都不知道[PAWN_nameDef]这么做的意义，只有[PAWN_nameDef]才明白他寄托给落日的思绪。</OA_RK_NEW_Backstory_AGG.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_BAA.title>OA·山坡上的儿童</OA_RK_NEW_Backstory_BAA.title>
+  <OA_RK_NEW_Backstory_BAA.titleShort>儿童</OA_RK_NEW_Backstory_BAA.titleShort>
+  <OA_RK_NEW_Backstory_BAA.baseDesc>[PAWN_nameDef]出生在一个地势略有起伏的城市里。当父母不在家的时候，偶尔[PAWN_nameDef]会偷偷的跑到城郊的小山坡上，然后在山坡上悠闲的玩闹一整天。</OA_RK_NEW_Backstory_BAA.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_BAB.title>OA·小调解员</OA_RK_NEW_Backstory_BAB.title>
+  <OA_RK_NEW_Backstory_BAB.titleShort>小调解员</OA_RK_NEW_Backstory_BAB.titleShort>
+  <OA_RK_NEW_Backstory_BAB.baseDesc>当周围的孩童们因为一件小事而争吵的时候，[PAWN_nameDef]总是会及时的赶到，并介入双方的争吵然后进行调解。在大多数情况下，这种调解往往能令双方心悦诚服，但偶尔也有不听劝的，这种时候[PAWN_nameDef]则会通过物理的手段来让道理深入对方的内心。</OA_RK_NEW_Backstory_BAB.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_BAC.title>OA·被溺爱的孩子</OA_RK_NEW_Backstory_BAC.title>
+  <OA_RK_NEW_Backstory_BAC.titleShort>儿童</OA_RK_NEW_Backstory_BAC.titleShort>
+  <OA_RK_NEW_Backstory_BAC.baseDesc>[PAWN_nameDef]的童年无疑是相当幸福的，父母那无休止的宠爱使得[PAWN_nameDef]度过了一个无忧无虑，毫无压力的童年。但这种饭来张口的生活让[PAWN_nameDef]的自理能力和别人相比显得较为糟糕，并且对于压力的承受能力也逊色于他人很多。</OA_RK_NEW_Backstory_BAC.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_BAD.title>OA·喜爱玉石的孩子</OA_RK_NEW_Backstory_BAD.title>
+  <OA_RK_NEW_Backstory_BAD.titleShort>儿童</OA_RK_NEW_Backstory_BAD.titleShort>
+  <OA_RK_NEW_Backstory_BAD.baseDesc>[PAWN_nameDef]很容易被那些闪闪发光的东西吸引注意力。在[PAWN_nameDef]还小的时候，他就经常对那些闪烁着的翡翠或者其他晶莹剔透的石料表现出浓厚的兴趣，在一个孩童的眼中，这些发着五颜六色的光芒的石头简直是天底下最漂亮的东西。</OA_RK_NEW_Backstory_BAD.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_BAE.title>OA·小百科书</OA_RK_NEW_Backstory_BAE.title>
+  <OA_RK_NEW_Backstory_BAE.titleShort>小百科书</OA_RK_NEW_Backstory_BAE.titleShort>
+  <OA_RK_NEW_Backstory_BAE.baseDesc>[PAWN_nameDef]小时候很喜欢泡在图书馆里，长年累月的阅读为他提供了丰富的知识储备。因此当别人问起[PAWN_nameDef]一些生活常识或者科学理论的时候，[PAWN_nameDef]往往能够对答如流。</OA_RK_NEW_Backstory_BAE.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_BAF.title>OA·研磨厨艺的公民</OA_RK_NEW_Backstory_BAF.title>
+  <OA_RK_NEW_Backstory_BAF.titleShort>公民</OA_RK_NEW_Backstory_BAF.titleShort>
+  <OA_RK_NEW_Backstory_BAF.baseDesc>[PAWN_nameDef]在闲暇的时候，总是喜欢钻进厨房用奇奇怪怪的食材捣鼓一些奇奇怪怪的食物。虽然这些食物大部分的最终归宿都是垃圾桶，但[PAWN_nameDef]依然对此乐此不疲，并在制造厨余垃圾的道路上屡屡再创新高。</OA_RK_NEW_Backstory_BAF.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_BAG.title>OA·物流统计员</OA_RK_NEW_Backstory_BAG.title>
+  <OA_RK_NEW_Backstory_BAG.titleShort>统计员</OA_RK_NEW_Backstory_BAG.titleShort>
+  <OA_RK_NEW_Backstory_BAG.baseDesc>[PAWN_nameDef]在当地宫廷的统筹部工作。作为物流统计员，[PAWN_nameDef]的日常便是与大量的太空商船或者其他宫廷的物资船进行对接，以确保金鸢尾兰那庞大的物流网的正常运转。</OA_RK_NEW_Backstory_BAG.baseDesc>  
+  
+  <OA_RK_NEW_Backstory_BBA.title>OA·星际物流员</OA_RK_NEW_Backstory_BBA.title>
+  <OA_RK_NEW_Backstory_BBA.titleShort>物流员</OA_RK_NEW_Backstory_BBA.titleShort>
+  <OA_RK_NEW_Backstory_BBA.baseDesc>作为为数不多需要在星际间进行奔波的侍从人员，[PAWN_nameDef]平日的待遇与福利可以说是相当优渥。\n\n毕竟，如果一个人每隔几个月便要进行一次一年甚至数年的航行，并且还需要面对宇宙中复杂多变的环境与风险，那么他的待遇相对而言优渥一点也是理所应当的。</OA_RK_NEW_Backstory_BBA.baseDesc>   
+    
+  <OA_RK_NEW_Backstory_BBB.title>OA·枪械技术员</OA_RK_NEW_Backstory_BBB.title>
+  <OA_RK_NEW_Backstory_BBB.titleShort>技术员</OA_RK_NEW_Backstory_BBB.titleShort>
+  <OA_RK_NEW_Backstory_BBB.baseDesc>和其他技术部的同僚不同，[PAWN_nameDef]很少负责日常的设备管理，而更多的是与突袭队的成员们在一起，并且对他们的装备提供技术支持。长期与军事人员相处的经历，让[PAWN_nameDef]也学会了一点作战知识。</OA_RK_NEW_Backstory_BBB.baseDesc>   
+  
+</LanguageData>

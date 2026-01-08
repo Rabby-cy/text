@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <QuestScriptDef>
+        <defName>OARK_GravResearchAssistance</defName>
+        <rootSelectionWeight>0</rootSelectionWeight>
+        <isRootSpecial>true</isRootSpecial>
+        <affectedByPoints>false</affectedByPoints>
+        <randomlySelectable>false</randomlySelectable>
+        <expireDaysRange>8~12</expireDaysRange>
+        <questNameRules>
+            <rulesStrings>
+                <li>questName->科研部的协助请求</li>
+                <li>questName->研究员借调</li>
+                <li>questName->研究协助请求</li>
+                <li>questName->金鸢尾兰的科研邀请</li>
+                <li>questName->金鸢尾兰的协助请求</li>
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+                <li>questDescription->附近的金鸢尾兰科研部向你发出了一则消息：[reason]，因此他们的科研进度受到了极大的影响。而为了保证科技反推进程不会因为她们而被拖慢，因此她们向你发出了科研协助的邀请，并愿意为你的殖民者提供相对应的待遇与报酬。\n\n如果你接受，那么一架穿梭机将会到来接走你的研究员，科研协助将会持续10天。在这期间你的研究员会得到妥善招待，并会根据她的具体研究能力获得不同的报酬数量，同时推动科技反推的进展。</li>
+                <li>reason->由于咖啡的摄入过量导致核心科研官工伤入院</li>
+                <li>reason->因为过于注重科研而缺乏对物资消耗量的概念，以至于科研官正在对盛怒下的统筹官进行持之以恒的强势求情</li>
+                <li>reason->由于当地的不稳定电荷武器再次发生了意料之中的误伤事件，最终导致大量科研部侍从再次投入了紧急改善设计的工作中</li>
+                <li>reason->由于大量的鼠手在协助调试科研舱的发射参数</li>
+                <li>reason->由于对逆重相关科技缺乏实践与具体认知</li>
+                <li>reason->由于提供了过多的科研援助热线</li>
+                <li>reason->尽管不知道是从谁那里传出来的，但总之一个叫做“金阑尾炎帝国与杀头鼠饼”的恐怖怪谈在当地宫廷中被逐渐传开，并导致了部分科研部侍从正在接受心理疏导</li>
+                <li>reason->不知道出于什么原因，大量的逆重板在某次鼠族援军支援后奇迹般的消失不见了</li>
+                <li>reason->由于宫廷部与工业部的侍从们都在为花糕的缺口而忙碌，以至于忽略了造成这个缺口的科研部的其他需求</li>
+                <li>reason->由于上一场科研峰会带来的大量花糕缺口，使得近期科研部的物资申请遭到了严格的审批</li>
+                <li>reason->由于部分科研员在上一场科研峰会轻信了某个骗子，用上万白银买来了巨弓技术</li>
+                <li>reason->因为上一场科研峰会的思想交流带来的大量灵感，使得多数科研部侍从投身于其他方面的研究</li>
+                <li>reason->因为某位科研官过于相信她的技术官朋友，为此坐上了对方盛情推荐的飞行托盘并最终成功的被人抬进了医护部</li>
+                <li>reason->因为工业部侍从们在施工时过于勤勉，导致靠近施工地带的科研部长期处于噪音污染之中</li>
+                <li>reason->因为休假的科研官在搭乘通航部的航船时，由于某位船员的梦游症而意外搁浅并被迫等待救援</li>
+                <li>reason->尽管科研部的侍从们尽力的在尝试温和的物理性质分析，但随着最后一个逆重板那绝望的碎裂声响起，最终导致了整个科研部陷入了低气压</li>
+
+                <li>pawnListHaveConjugation(colonistsToLendCount==1)->已经</li>
+                <li>pawnListHaveConjugation(colonistsToLendCount>1)->已经</li>
+            </rulesStrings>
+        </questDescriptionRules>
+        <root Class="QuestNode_Sequence">
+            <nodes>
+
+                <li Class="OberoniaAurea.QuestNode_CheckInitGravQuestState">
+                    <questState>true</questState>
+                </li>
+
+                <li Class="OberoniaAurea_Frame.QuestNode_QuestUnique">
+                    <tag>OARK_GravResearchAssistance</tag>
+                    <restriction>UniqueAvailable</restriction>
+                </li>
+
+                <li Class="QuestNode_Set">
+                    <name>colonistsToLendCount</name>
+                    <value>1</value>
+                </li>
+                <li Class="QuestNode_Set">
+                    <name>lendForDays</name>
+                    <value>10</value>
+                </li>
+                <li Class="QuestNode_ExpansionActive">
+                    <modID>Ludeon.RimWorld.Biotech</modID>
+                    <node Class="QuestNode_Set">
+                        <name>minAge</name>
+                        <value>13</value>
+                    </node>
+                    <elseNode Class="QuestNode_Set">
+                        <name>minAge</name>
+                        <value>0</value>
+                    </elseNode>
+                </li>
+
+                <li Class="QuestNode_GetMap">
+                    <preferMapWithMinFreeColonists>$colonistsToLendCount</preferMapWithMinFreeColonists>
+                </li>
+
+                <li Class="OberoniaAurea.QuestNode_GetOberoniaAureaFaction">                    <!-- 获取金鼠鼠派系 -->
+                    <storeAs>OAFaction</storeAs>
+                    <allowAlly>true</allowAlly>
+                    <allowNeutral>false</allowNeutral>
+                    <allowHostile>false</allowHostile>
+                </li>
+                <li Class="OberoniaAurea_Frame.QuestNode_GetFactionLeader">
+                    <faction>$OAFaction</faction>
+                    <storeAs>asker</storeAs>
+                </li>
+
+                <!-- Shuttle -->
+                <li Class="QuestNode_ShuttleDelay">
+                    <delayTicks>1200</delayTicks>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_SubScript">
+                                <def>Util_TransportShip_Pickup</def>
+                                <parms>
+                                    <leaveDelayTicks>60000</leaveDelayTicks>
+                                    <leaveImmediatelyWhenSatisfied>true</leaveImmediatelyWhenSatisfied>
+                                    <acceptColonists>true</acceptColonists>
+                                    <acceptChildren>false</acceptChildren>
+                                    <onlyAcceptColonists>true</onlyAcceptColonists>
+                                    <onlyAcceptHealthy>true</onlyAcceptHealthy>
+                                    <requireColonistCount>$colonistsToLendCount</requireColonistCount>
+                                    <minAge>$minAge</minAge>
+                                </parms>
+                            </li>
+
+                            <li Class="QuestNode_Letter">
+                                <label TKey="LetterLabelShuttleArrived">穿梭机抵达</label>
+                                <text TKey="LetterTextShuttleArrived">穿梭机来接[colonistsToLendCount]殖民者了。</text>
+                                <lookTargets>$pickupShipThing</lookTargets>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+
+                <!-- Shuttle sent away -->
+                <li Class="QuestNode_Signal">
+                    <inSignal>pickupShipThing.SentSatisfied</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_LendColonistsToFaction">
+                                <shuttle>$pickupShipThing</shuttle>
+                                <lendColonistsToFactionOf>$asker</lendColonistsToFactionOf>
+                                <returnLentColonistsInTicks>$($lendForDays*60000)</returnLentColonistsInTicks>
+                                <outSignalComplete>ColonistsReturned</outSignalComplete>
+                                <outSignalColonistsDied>ColonistsDied</outSignalColonistsDied>
+                            </li>
+                            <li Class="OberoniaAurea.QuestNode_GravTechAssistWatcher"/>
+                            <li Class="QuestNode_Chance">
+                                <chance>0.5</chance>
+                                <node Class="QuestNode_Delay">
+                                    <delayTicks>$(roundToTicksRough(randInt(240000, 360000)))</delayTicks>
+                                    <node Class="QuestNode_Incident">
+                                        <incidentDef>OARK_UnlockedFile</incidentDef>
+                                    </node>
+                                </node>
+                                <elseNode Class="QuestNode_Sequence">
+                                    <nodes>
+                                        <li Class="QuestNode_Delay">
+                                            <delayTicks>$(roundToTicksRough(randInt(120000, 240000)))</delayTicks>
+                                            <node Class="QuestNode_Incident">
+                                                <incidentDef>OARK_UnlockedFile</incidentDef>
+                                            </node>
+                                        </li>
+                                        <li Class="QuestNode_Delay">
+                                            <delayTicks>$(roundToTicksRough(randInt(360000, 480000)))</delayTicks>
+                                            <node Class="QuestNode_Incident">
+                                                <incidentDef>OARK_UnlockedFile</incidentDef>
+                                            </node>
+                                        </li>
+                                    </nodes>
+                                </elseNode>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+
+                <!-- Shuttle destroyed -->
+                <li Class="QuestNode_AnySignal">
+                    <inSignals>
+                        <li>pickupShipThing.SentUnsatisfied</li>
+                        <li>pickupShipThing.Destroyed</li>
+                        <li>pickupShipThing.LeftBehind</li>
+                    </inSignals>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_Letter">
+                                <label TKey="LetterLabelShuttleDestroyed">穿梭机被摧毁</label>
+                                <text TKey="LetterTextShuttleDestroyed">被派来接殖民者的穿梭机被摧毁了。</text>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Fail</outcome>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+
+                <li Class="QuestNode_Signal">
+                    <inSignal>ColonistsReturned</inSignal>
+                    <node Class="QuestNode_Sequence">
+                        <nodes>
+                            <li Class="QuestNode_Letter">
+                                <label TKey="LetterLabelColonistsReturned">殖民者返回</label>
+                                <text TKey="LetterColonistsReturned">{PAWNS} 在帮助 [asker_faction_name] 的科学部研究工作后回来了。</text>
+                                <letterDef>PositiveEvent</letterDef>
+                            </li>
+                            <li Class="QuestNode_End">
+                                <outcome>Success</outcome>
+                            </li>
+                        </nodes>
+                    </node>
+                </li>
+
+                <li Class="QuestNode_Signal">
+                    <inSignal>ColonistsDied</inSignal>
+                    <node Class="QuestNode_End">
+                        <outcome>Success</outcome>
+                    </node>
+                </li>
+
+            </nodes>
+        </root>
+    </QuestScriptDef>
+
+</Defs>

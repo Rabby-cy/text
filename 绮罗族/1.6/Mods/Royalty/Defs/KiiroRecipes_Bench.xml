@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+   <!--人类护盾背包转猫猫盾包-->
+    <RecipeDef>
+		<defName>Kiiro_Turn_LowShieldPack</defName>
+		<label>tranform kiiro low-shield pack</label>
+		<description>Convert a shield pack to kiiro shield pack.</description>
+		<jobString>tranform kiiro low shield pack.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>600</workAmount>
+		<ingredients>
+		  <li>
+			<filter>
+			  <thingDefs>
+				<li>Apparel_PackBroadshield</li>
+			  </thingDefs>
+			</filter>
+			<count>1</count>
+		  </li>
+		</ingredients>
+		<fixedIngredientFilter>
+		  <thingDefs>
+			<li>Apparel_PackBroadshield</li>
+		  </thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+		  <li>Kiiro_MachiningBench</li>
+		</recipeUsers>
+		<products>
+		  <Kiiro_LowShieldPack>1</Kiiro_LowShieldPack>
+		</products>
+		<skillRequirements>
+		  <Crafting>6</Crafting>
+		</skillRequirements>
+		<workSkill>Crafting</workSkill>
+	</RecipeDef>
+
+</Defs>

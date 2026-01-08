@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+    <ThingDef ParentName="BuildingBase" Name="OA_SkyWarmthBase" Abstract="True">
+        <neverMultiSelect>true</neverMultiSelect>
+        <fillPercent>0.7</fillPercent>
+        <tickerType>Normal</tickerType>
+        <drawerType>RealtimeOnly</drawerType>
+        <altitudeLayer>Building</altitudeLayer>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <passability>PassThroughOnly</passability>
+        <designationCategory>Misc</designationCategory>
+        <building>
+            <ai_chillDestination>false</ai_chillDestination>
+            <buildingTags>
+                <li>BuildingsMisc</li>
+            </buildingTags>
+        </building>
+        <thingCategories>
+            <li>BuildingsMisc</li>
+        </thingCategories>
+        <comps>
+            <li Class="CompProperties_Flickable"/>
+        </comps>
+        <placeWorkers>
+            <li>OberoniaAurea.PlaceWorker_GiveHediffInRange_Building</li>
+        </placeWorkers>
+        <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    </ThingDef>
+
+    <ThingDef ParentName="OA_SkyWarmthBase">
+        <defName>OA_RK_SkyWarmth_S</defName>
+        <label>Small Gel Light Warm Glow</label>
+        <description>A utility and medical facility unique to the Oberonia Aurea Empire that delivers coagulation factors on a wide scale to promote wound recovery and provide warmth and comfort.</description>
+        <size>(3,3)</size>
+        <graphicData>
+            <texPath>Building/OA_RK_NGNH</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(3.6,3.9)</drawSize>
+            <shadowData>
+                <volume>(3.5,0.75,3.4)</volume>
+                <offset>(0,0,0)</offset>
+            </shadowData>
+        </graphicData>
+        <constructionSkillPrerequisite>15</constructionSkillPrerequisite>
+        <researchPrerequisites>
+            <li>OA_RK_Ningguangnuanhui</li>
+        </researchPrerequisites>
+        <rotatable>false</rotatable>
+        <uiOrder>2420</uiOrder>
+        <statBases>
+            <MaxHitPoints>500</MaxHitPoints>
+            <WorkToBuild>140000</WorkToBuild>
+            <Mass>125</Mass>
+            <Flammability>0</Flammability>
+            <Beauty>92</Beauty>
+        </statBases>
+        <costList>
+            <Uranium>150</Uranium>
+            <Plasteel>600</Plasteel>
+            <ComponentSpacer>12</ComponentSpacer>
+        </costList>
+        <comps>
+            <li Class="OberoniaAurea.CompProperties_GiveHediffInRange_Building">
+                <range>38.9</range>
+                <hediff>OA_RK_hediff_SkyWarmth</hediff>
+            </li>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <basePowerConsumption>1600</basePowerConsumption>
+            </li>
+            <li Class="CompProperties_Glower">
+                <glowRadius>23</glowRadius>
+                <glowColor>(216,177,110,0)</glowColor>
+                <colorPickerEnabled>false</colorPickerEnabled>
+                <darklightToggle>false</darklightToggle>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RitualOutcomeEffectDef[defName = "GravshipLaunch"]/comps</xpath>
+		<value>
+			<li Class="RitualOutcomeComp_GravshipFacilities">
+				<label>金鸢尾兰逆重延展装置</label>
+				<facilityQualityOffsets>
+					<li>
+						<key>OARK_GravFieldExtender</key>
+						<value>0.0125</value>
+					</li>
+				</facilityQualityOffsets>
+			</li>
+		</value>
+	</Operation>
+
+</Patch>

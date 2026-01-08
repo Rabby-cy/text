@@ -1,0 +1,32 @@
+﻿<Patch>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_Turret_A"]/costList</xpath>
+		<value>
+			<costList>
+				<Plasteel>50</Plasteel>
+				<Uranium>150</Uranium>
+				<Steel>100</Steel>
+				<ComponentIndustrial>8</ComponentIndustrial>
+				<Chemfuel>100</Chemfuel>
+			</costList>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="OA_RK_Turret_B"]/costList</xpath>
+		<value>
+			<costList>
+				<Plasteel>80</Plasteel>
+				<Uranium>150</Uranium>
+				<Steel>50</Steel>
+				<ComponentIndustrial>14</ComponentIndustrial>
+				<Chemfuel>80</Chemfuel>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/RecipeDef[defName="Make_OA_RK_TurretGun_Bullet"]</xpath>
+	</Operation>
+
+</Patch>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kiiro_VacsuitHelmet.label>綺羅氣密頭盔</Kiiro_VacsuitHelmet.label>
+  <Kiiro_VacsuitHelmet.description>氣密性良好的頭盔，特殊的面罩也能減少紫外線穿透。</Kiiro_VacsuitHelmet.description>
+  
+  <Kiiro_Vacsuit.label>綺羅氣密服</Kiiro_Vacsuit.label>
+  <Kiiro_Vacsuit.description>氣密性良好的套裝，也具備保溫的功能。稍微有些笨重。</Kiiro_Vacsuit.description>
+  
+  <Kiiro_OxygenTank.label>綺羅氧氣罐</Kiiro_OxygenTank.label>
+  <Kiiro_OxygenTank.description>儲存氧氣的金屬罐，能夠在真空環境中為攜帶者提供氧氣。當攜帶者處於非真空環境里時能夠補充氧氣。</Kiiro_OxygenTank.description>
+
+
+</LanguageData>

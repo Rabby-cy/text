@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kiiro_PlayerFaction.label>绮罗新家园</Kiiro_PlayerFaction.label>
+  <Kiiro_PlayerFaction.description>一处新的绮罗定居点。故事将引导它走向何处呢？</Kiiro_PlayerFaction.description>
+  <Kiiro_PlayerFaction.pawnsPlural>绮罗居民</Kiiro_PlayerFaction.pawnsPlural>
+
+  <Kiiro_Faction.label>绮罗族</Kiiro_Faction.label>
+  <Kiiro_Faction.description>绮罗族的定居地。</Kiiro_Faction.description>
+  <Kiiro_Faction.fixedName>绮罗隐居乡</Kiiro_Faction.fixedName>
+  <Kiiro_Faction.pawnsPlural>绮罗族</Kiiro_Faction.pawnsPlural>
+  <Kiiro_Faction.leaderTitle>领袖</Kiiro_Faction.leaderTitle>
+
+
+</LanguageData>

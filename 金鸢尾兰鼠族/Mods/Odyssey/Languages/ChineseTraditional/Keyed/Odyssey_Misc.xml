@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OARK_LowStoredEnergy>至少需要{0}點蓄電量</OARK_LowStoredEnergy>
+
+    <OARK_PilotConsole_CurHackStage>當前進度：{0}/{1}</OARK_PilotConsole_CurHackStage>
+
+    <OARK_GravTechAssistPoint>科研貢獻</OARK_GravTechAssistPoint>
+    <OARK_GravTechAssistPointTip>象征著金鳶尾蘭帝國的科研部願意為你提供多少資源。更高的科研貢獻意味著更多的援助。</OARK_GravTechAssistPointTip>
+
+    <OARK_PilotConsole_CurHackStage>當前進度：{0}/{1}</OARK_PilotConsole_CurHackStage>
+
+    <!-- 科研協助任務 獎勵選擇界面 -->
+    <OARK_GravTechAssist_RewardChoice>得益於你的協助者的協助，科研部對於逆重科技的反推進程被極大幅度的提升了，那些寶貴的實踐見解有效的解決了大量的問題。\n\n而為了表達對你的感謝，科研部的成員們向你發送了一個清單，並表示你可以帶走清單上的任意一項物品，以表彰你的協助者所做出的貢獻。\n\n清單上面寫著大量你不理解與從未聽說過的東西，你的直覺告訴你選擇一個完全未知的東西不會是一個好選擇，但好在這里還是有兩個你所熟悉的東西。</OARK_GravTechAssist_RewardChoice>
+
+</LanguageData>

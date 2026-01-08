@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_OARocket_HE.label>金鸢尾兰火箭榴弹 (HE)</Ammo_OARocket_HE.label>
+  <Ammo_OARocket_HE.description>金鸢尾兰的火箭炮类防御设施所需要的弹药，相比起边缘世界那简陋的炮弹包装更具有安全性，但若是受到剧烈冲击依然有爆炸的可能性。</Ammo_OARocket_HE.description>
+
+  <Ammo_OARocket_EMP.label>金鸢尾兰火箭榴弹 (EMP)</Ammo_OARocket_EMP.label>
+  <Ammo_OARocket_EMP.description>金鸢尾兰的火箭炮类防御设施所需要的弹药，相比起边缘世界那简陋的炮弹包装更具有安全性，但若是受到剧烈冲击依然有爆炸的可能性。</Ammo_OARocket_EMP.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_OARocket_HE.label>OA rocket (HE)</Bullet_OARocket_HE.label>
+  <Bullet_OARocket_EMP.label>OA rocket (EMP)</Bullet_OARocket_EMP.label>
+  <Bullet_OARocket_HE_direct.label>OA rocket (HE)</Bullet_OARocket_HE_direct.label>
+
+
+</LanguageData>

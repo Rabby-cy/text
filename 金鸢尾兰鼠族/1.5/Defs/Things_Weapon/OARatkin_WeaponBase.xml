@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingDef Name="OARatkin_WeaponBase" Abstract="True">
+        <thingClass>ThingWithComps</thingClass>
+        <graphicData>
+            <onGroundRandomRotateAngle>20</onGroundRandomRotateAngle>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.2</drawSize>            <!-- On the ground. -->
+        </graphicData>
+        <altitudeLayer>Item</altitudeLayer>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <DeteriorationRate>2</DeteriorationRate>
+            <Flammability>0.1</Flammability>
+            <Beauty>5</Beauty>
+            <WorkToMake>60000</WorkToMake>
+            <SellPriceFactor>0.2</SellPriceFactor>
+        </statBases>
+        <useHitPoints>true</useHitPoints>
+        <tickerType>Never</tickerType>
+        <drawerType>MapMeshOnly</drawerType>
+        <drawGUIOverlay>true</drawGUIOverlay>
+        <alwaysHaulable>true</alwaysHaulable>
+        <selectable>true</selectable>
+        <equipmentType>Primary</equipmentType>
+        <category>Item</category>
+        <pathCost>12</pathCost>
+        <smeltable>true</smeltable>
+        <allowedArchonexusCount>0</allowedArchonexusCount>
+        <relicChance>0</relicChance>
+        <comps>
+            <li>
+                <compClass>CompEquippable</compClass>
+            </li>
+            <li>
+                <compClass>CompQuality</compClass>
+            </li>
+            <li Class="CompProperties_Forbiddable"/>
+            <li Class="CompProperties_Styleable"></li>
+            <li Class="CompProperties_Biocodable"/>
+            <li Class="CompProperties_Art">
+                <nameMaker>NamerArtWeaponGun</nameMaker>
+                <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+                <minQualityForArtistic>Excellent</minQualityForArtistic>
+            </li>
+        </comps>
+        <inspectorTabs>
+            <li>ITab_Art</li>
+        </inspectorTabs>
+        <thingSetMakerTags>
+            <li>RewardStandardQualitySuper</li>
+        </thingSetMakerTags>
+        <weaponTags>
+            <li>OARatkin_Weapon</li>
+        </weaponTags>
+    </ThingDef>
+
+    <!-- 近战武器基础 -->
+    <ThingDef Name="OARatkin_MeleeWeaponBase" ParentName="RK_MeleeWeapon" Abstract="True">
+        <thingCategories Inherit="False">
+            <li>OARatkin_WeaponsMelee</li>
+        </thingCategories>
+    </ThingDef>
+
+    <!-- 远程武器基础 -->
+    <ThingDef Name="OARatkin_RangedWeaponBase" ParentName="OARatkin_WeaponBase" Abstract="True">
+        <techLevel>Spacer</techLevel>
+        <soundInteract>OA_RKSO_Interaction_RangedWeaponOn</soundInteract>
+        <weaponClasses>
+            <li>Ranged</li>
+        </weaponClasses>
+        <thingCategories Inherit="False">
+            <li>OARatkin_WeaponsRanged</li>
+        </thingCategories>
+        <tradeTags>
+            <li>WeaponRanged</li>
+        </tradeTags>
+        <tradeability>Sellable</tradeability>
+    </ThingDef>
+
+    <!-- 电荷远程武器基础 -->
+    <ThingDef Name="OARatkin_RangedChargeWeaponBase" ParentName="OARatkin_RangedWeaponBase" Abstract="True">
+        <techLevel>Ultra</techLevel>
+        <soundInteract>OA_RKSO_Interaction_ChargeRangedWeaponOn</soundInteract>
+    </ThingDef>
+
+</Defs>

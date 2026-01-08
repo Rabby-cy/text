@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ThingDef ParentName="OARatkin_RangedWeaponBase">
+    <defName>OA_RK_ProtocolRifle</defName>
+    <label>Oberonia Aurea Classical Rifle</label>
+    <!-- 金鸢尾兰古典步枪 -->
+    <description>The standard rifle used by the Oberonia Aurea Empire before contact with the Galaxy, the advanced manufacturing process could not hide the shortcomings brought about by backward military concepts, and thus today it is more often used as a ceremonial gun. \n\nBut even so, with the use of uranium bullets, it still has a decent killing capacity.</description>
+    <!-- 金鸢尾兰帝国在接触银河系之前所采用的制式步枪，先进的制造工艺无法掩盖落后的军事理念带来的缺点，因此如今它更多被作为礼仪用枪使用。
+    \n但即便如此，采用了铀弹的它依然有着不俗的杀伤能力。 -->
+    <graphicData>
+        <texPath>Weapons/OA_ProtocolRifle</texPath>
+    </graphicData>
+    <statBases>
+        <WorkToMake>35000</WorkToMake>
+        <Mass>3.8</Mass>
+        <AccuracyTouch>0.67</AccuracyTouch>
+        <AccuracyShort>0.74</AccuracyShort>
+        <AccuracyMedium>0.58</AccuracyMedium>
+        <AccuracyLong>0.45</AccuracyLong>
+        <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedStatOffsets>
+        <SocialImpact>0.15</SocialImpact>
+        <NegotiationAbility>0.15</NegotiationAbility>
+    </equippedStatOffsets>
+    <verbs>
+        <li>
+            <verbClass>Verb_Shoot</verbClass>
+            <defaultProjectile>OA_RK_ProtocolRifleBullet</defaultProjectile>
+            <soundCast>OA_RKSO_ProtocolRifleFire</soundCast>
+            <soundCastTail>OA_RKSO_MediumUraniumBulletTail</soundCastTail>
+            <hasStandardCommand>true</hasStandardCommand>
+            <warmupTime>1.05</warmupTime>
+            <range>33</range>
+            <burstShotCount>3</burstShotCount>
+            <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+            <muzzleFlashScale>6</muzzleFlashScale>
+        </li>
+    </verbs>
+    <tools>
+        <li>
+            <label>刺刀</label>
+            <capacities>
+                <li>Stab</li>
+            </capacities>
+            <power>21</power>
+            <cooldownTime>2.30</cooldownTime>
+            <armorPenetration>0.78</armorPenetration>
+            <chanceFactor>3</chanceFactor>
+        </li>
+        <li>
+            <label>枪托</label>
+            <capacities>
+                <li>Blunt</li>
+            </capacities>
+            <power>8</power>
+            <cooldownTime>2.00</cooldownTime>
+            <armorPenetration>0.20</armorPenetration>
+            <chanceFactor>1</chanceFactor>
+        </li>
+    </tools>
+    <weaponTags>
+        <li>OA_RK_Classical_rifle</li>
+    </weaponTags>
+	<recipeMaker>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <recipeUsers>
+            <li>TableMachining</li>
+        </recipeUsers>
+        <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+        <researchPrerequisite>OA_RK_Weapon_A</researchPrerequisite>
+        <skillRequirements>
+            <Crafting>10</Crafting>
+        </skillRequirements>
+        <displayPriority>200</displayPriority>
+    </recipeMaker>
+    <costList>
+		<Steel>20</Steel>
+		<Uranium>70</Uranium>
+		<ComponentIndustrial>7</ComponentIndustrial>
+    </costList>
+</ThingDef>
+
+
+<ThingDef ParentName="OA_RKBase_Bullet">
+    <defName>OA_RK_ProtocolRifleBullet</defName>
+    <label>铀弹</label>
+    <!-- 铀弹 -->
+    <graphicData>
+        <texPath>Bullets/OA_MediumUraniumBullet</texPath>
+    </graphicData>
+    <projectile>
+        <damageDef>Bullet</damageDef>
+        <damageAmountBase>13</damageAmountBase>
+        <armorPenetrationBase>0.27</armorPenetrationBase>
+        <stoppingPower>0.5</stoppingPower>
+        <speed>60</speed>
+    </projectile>
+</ThingDef>
+  
+</Defs>

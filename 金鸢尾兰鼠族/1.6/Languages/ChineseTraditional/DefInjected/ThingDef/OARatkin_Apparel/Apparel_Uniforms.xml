@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OA_RK_Professional_Uniforms_A.label>金鸢尾蘭自清潔服</OA_RK_Professional_Uniforms_A.label>
+    <OA_RK_Professional_Uniforms_A.description>采用了先進的自清潔面料制成的服裝，可以有效的保持表面潔淨，同時小馬甲的存在令其本身多了壹絲活力感，金鸢尾蘭的實驗人員大多數都喜歡穿著這種衣服。</OA_RK_Professional_Uniforms_A.description>
+
+    <OA_RK_Professional_Uniforms_B.label>金鸢尾蘭祭服</OA_RK_Professional_Uniforms_B.label>
+    <OA_RK_Professional_Uniforms_B.description>金鸢尾蘭鼠族在慶祝大型節日時穿戴的禮儀服飾，質地輕柔，做工精美，帶給人壹種貴不可及的感覺。</OA_RK_Professional_Uniforms_B.description>
+
+    <OA_RK_Professional_Uniforms_C.label>金鸢尾蘭宮廷制服</OA_RK_Professional_Uniforms_C.label>
+    <OA_RK_Professional_Uniforms_C.description>金鸢尾蘭宮廷統壹的制服。制作精美而工藝繁瑣，緊實的布料與護腰可以提供不俗的保護能力。</OA_RK_Professional_Uniforms_C.description>
+
+    <!-- Uniform D 是突襲作戰制服，在Apparel_Armor中 -->
+
+    <OA_RK_Professional_Uniforms_E.label>金鸢尾蘭研究服</OA_RK_Professional_Uniforms_E.label>
+    <OA_RK_Professional_Uniforms_E.description>采用了自清潔面料制作的服飾，表面整潔美觀。腰側挂有便攜式分析與合成儀，能夠隨時隨地進行最新的科研構想實驗。</OA_RK_Professional_Uniforms_E.description>
+
+
+    <!-- New Uniforms -->
+
+    <OA_RK_New_Professional_Uniforms_A.label>金鸢尾蘭工業制服</OA_RK_New_Professional_Uniforms_A.label>
+    <OA_RK_New_Professional_Uniforms_A.description>金鸢尾蘭宮廷的工業部所采用的制式制服，安全帶能夠有效的防止施工作業時的跌落風險，常備的通訊器與工具包能夠輕度的提升工作效率。</OA_RK_New_Professional_Uniforms_A.description>
+
+    <OA_RK_New_Professional_Uniforms_B.label>金鸢尾蘭技術制服</OA_RK_New_Professional_Uniforms_B.label>
+    <OA_RK_New_Professional_Uniforms_B.description>金鸢尾蘭宮廷的技術部所采用的制式制服，厚重的裙壓具有壹定的保護與隔熱性能，腰帶上的技術工具可以爲技術工作提供壹定的支持。</OA_RK_New_Professional_Uniforms_B.description>
+
+    <OA_RK_New_Professional_Uniforms_C.label>金鸢尾蘭技術官制服</OA_RK_New_Professional_Uniforms_C.label>
+    <OA_RK_New_Professional_Uniforms_C.description>金鸢尾蘭宮廷爲技術官所定制的制服，相比起正常的技術部制服有著更加複雜的制作流程。此外，爲了方便技術官對所屬人員的管理，該制服著重強化了通訊與管理能力。\n\n處于穿戴者15格內的單位會獲得工作速度的提升。</OA_RK_New_Professional_Uniforms_C.description>
+
+    <OA_RK_New_Professional_Uniforms_D.label>金鳶尾蘭勤務船員製服</OA_RK_New_Professional_Uniforms_D.label>
+    <OA_RK_New_Professional_Uniforms_D.description>金鳶尾蘭宮廷的通航部製式製服之一，往往配發給負責駕駛或者日常勤務工作的基礎船員。醒目的白色製服上印著通航部的通航八角星，潔白之下的灰色內襯是足以在真空環境停留的氣密太空服。</OA_RK_New_Professional_Uniforms_D.description>
+
+    <OA_RK_New_Professional_Uniforms_E.label>金鳶尾蘭技術船員製服</OA_RK_New_Professional_Uniforms_E.label>
+    <OA_RK_New_Professional_Uniforms_E.description>金鳶尾蘭宮廷的通航部製式製服之一，主要配發給負責艦船技術性作業的基礎船員。深藍色的色調象征著深邃的星海與理性，優雅的製服里是白色的氣密太空服與工作用的工具腰包。</OA_RK_New_Professional_Uniforms_E.description>
+
+    <OA_RK_New_Hat_E.label>金鳶尾蘭船員發飾</OA_RK_New_Hat_E.label>
+    <OA_RK_New_Hat_E.description>金鳶尾蘭通航部的標準船員發飾，在真空環境下能夠在自身周圍形成一道極為薄弱的力場拘束，盡管無法單獨讓人在真空中活動，但是彌補船員製服的部分氣密缺陷已經足夠。此外得益於精密的結構與信息偵測能力，船員發飾也能很好的協助船員進行日常的技術作業，</OA_RK_New_Hat_E.description>
+
+    <OA_RK_New_Sandwich_B.label>金鳶尾蘭技術船員挎包</OA_RK_New_Sandwich_B.label>
+    <OA_RK_New_Sandwich_B.description>通航部為技術船員們統一配備的維修挎包，其內裝有多種折疊維修工具與電子設備，有效的規避了維護困難的情況，讓笨蛋也能夠有能力去進行基礎的維護作業。</OA_RK_New_Sandwich_B.description>
+
+</LanguageData>

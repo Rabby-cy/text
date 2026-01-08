@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kiiro_TailoringBench.label>綺羅電力裁縫臺</Kiiro_TailoringBench.label>
+  <Kiiro_TailoringBench.description>經過工業化改進的裁縫桌，能夠以電力驅動縫紉機。沒有電力時仍然能以50%的效率執行。</Kiiro_TailoringBench.description>
+
+  <Kiiro_HandleTailoringBench.label>綺羅手搖裁縫臺</Kiiro_HandleTailoringBench.label>
+  <Kiiro_HandleTailoringBench.description>一個古典的裁縫桌，上面放著一臺連線了腳踏板的縫紉機。</Kiiro_HandleTailoringBench.description>
+
+  <Kiiro_FueledSmithy.label>綺羅柴燃鍛造臺</Kiiro_FueledSmithy.label>
+  <Kiiro_FueledSmithy.description>一個石爐和一張鍛造桌，用來加工各種金屬製品。需要燃料。</Kiiro_FueledSmithy.description>
+
+  <Kiiro_ElectricSmithy.label>綺羅電力鍛造臺</Kiiro_ElectricSmithy.label>
+  <Kiiro_ElectricSmithy.description>一個石爐和一張鍛造桌，用來加工各種金屬製品。需要電力。</Kiiro_ElectricSmithy.description>
+
+  <Kiiro_MachiningBench.label>綺羅機工臺</Kiiro_MachiningBench.label>
+  <Kiiro_MachiningBench.description>用來組裝綺羅機械產物的工作臺，需要電力。</Kiiro_MachiningBench.description>
+
+  <Kiiro_PaperMakingBench.label>綺羅造紙臺</Kiiro_PaperMakingBench.label>
+  <Kiiro_PaperMakingBench.description>用來製造綺羅宣紙的工作臺，使用了相當傳統的工藝。</Kiiro_PaperMakingBench.description>
+
+  <Kiiro_PaperArtBench.label>綺羅紙藝桌</Kiiro_PaperArtBench.label>
+  <Kiiro_PaperArtBench.description>一張小桌子，放著一些摺紙用的工具。你問有什麼必要專門為摺紙準備一張桌子？不不，桌子本身並沒有什麼特別的地方，只是綺羅們大概不會喜歡有人在自己摺紙的時候在旁邊吃飯，這大概就是所謂的藝術的矜持吧。</Kiiro_PaperArtBench.description>
+
+
+</LanguageData>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/WorkGiverDef[defName="DoBillsMakeWeapons"]/fixedBillGiverDefs</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/WorkGiverDef[defName="DoBillsMakeWeapons"]/fixedBillGiverDefs</xpath>
+				<value>
+					<li>Kiiro_FueledSmithy</li>
+					<li>Kiiro_ElectricSmithy</li>					
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/WorkGiverDef[defName="DoBillsMakeApparel"]/fixedBillGiverDefs</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/WorkGiverDef[defName="DoBillsMakeApparel"]/fixedBillGiverDefs</xpath>
+				<value>
+					<li>Kiiro_TailoringBench</li>
+					<li>Kiiro_HandleTailoringBench</li>					
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/WorkGiverDef[defName="DoBillsMachiningTable"]/fixedBillGiverDefs</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/WorkGiverDef[defName="DoBillsMachiningTable"]/fixedBillGiverDefs</xpath>
+				<value>
+					<li>Kiiro_MachiningBench</li>			
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName="Shell_HighExplosive"]/recipeMaker</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Shell_HighExplosive"]/recipeMaker</xpath>
+				<value>
+				  <recipeUsers>
+					<li>Kiiro_MachiningBench</li>
+                  </recipeUsers>					
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName="Shell_Incendiary"]/recipeMaker</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Shell_Incendiary"]/recipeMaker</xpath>
+				<value>
+				  <recipeUsers>
+					<li>Kiiro_MachiningBench</li>
+                  </recipeUsers>					
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName="Shell_EMP"]/recipeMaker</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Shell_EMP"]/recipeMaker</xpath>
+				<value>
+				  <recipeUsers>
+					<li>Kiiro_MachiningBench</li>
+                  </recipeUsers>					
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName="Shell_Smoke"]/recipeMaker</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Shell_Smoke"]/recipeMaker</xpath>
+				<value>
+				  <recipeUsers>
+					<li>Kiiro_MachiningBench</li>
+                  </recipeUsers>					
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName="Shell_Firefoam"]/recipeMaker</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Shell_Firefoam"]/recipeMaker</xpath>
+				<value>
+				  <recipeUsers>
+					<li>Kiiro_MachiningBench</li>
+                  </recipeUsers>					
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

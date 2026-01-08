@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: bulk goods trader -->
+  <OA_RK_SkyWarmth_S.label>小型暖輝設施</OA_RK_SkyWarmth_S.label>
+  <OA_RK_SkyWarmth_S.description>一種金鳶尾蘭帝國獨有的公共設施與醫療設施，可以大範圍的投放凝滯因子，促進傷口恢複並且提供溫暖的舒適感。</OA_RK_SkyWarmth_S.description>
+
+  <OA_RK_hediff_SkyWarmth.label>暖輝</OA_RK_hediff_SkyWarmth.label>
+  <OA_RK_hediff_SkyWarmth.description>凝滯因子在體內不斷調節激素並且治愈細胞，産生一種溫暖的舒適感。</OA_RK_hediff_SkyWarmth.description> 
+  <OA_RK_thought_SkyWarmth.label>暖輝</OA_RK_thought_SkyWarmth.label>
+  <OA_RK_thought_SkyWarmth.description>這溫暖的感覺是如此舒適。</OA_RK_thought_SkyWarmth.description>
+  <OA_RK_hediff_LifeStasis.label>凝滯狀態</OA_RK_hediff_LifeStasis.label>
+  <OA_RK_hediff_LifeStasis.description>由凝滯因子引起的一種良性深度昏迷狀態，生物機能運轉速度會大幅減緩，但部分有益組織則會受到刺激，並大幅度提升工作效率。</OA_RK_hediff_LifeStasis.description>
+  <OA_RK_SandWich.label>衝擊力緩解</OA_RK_SandWich.label>
+  <OA_RK_SandWich.description>四肢與軀幹受到的衝擊力被大幅度的緩解了。</OA_RK_SandWich.description>
+  <OA_RK_SandWichB.label>止血面料</OA_RK_SandWichB.label>
+  <OA_RK_SandWichB.description>身上的服裝的面料具有止血功能，流血時可以進行緊急處理。</OA_RK_SandWichB.description>
+
+</LanguageData>

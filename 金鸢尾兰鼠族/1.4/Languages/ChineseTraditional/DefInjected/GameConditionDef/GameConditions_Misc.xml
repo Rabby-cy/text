@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+
+  <OA_MilitaryDeployment.label>軍事部屬</OA_MilitaryDeployment.label>
+
+  <OA_MilitaryDeployment.description>一支金鳶尾藍的作戰單位已在我們周圍部署，隨時準備支援。</OA_MilitaryDeployment.description>
+
+  <OA_MilitaryDeployment.endMessage>結束部屬</OA_MilitaryDeployment.endMessage>
+
+  <OA_MilitaryDeployment.letterText>一支金鳶尾蘭的作戰單位已在我們周圍部屬，隨時準備支援。</OA_MilitaryDeployment.letterText>
+
+  <OA_MilitaryDeployment.startMessage>開始部屬</OA_MilitaryDeployment.startMessage>
+  
+</LanguageData>

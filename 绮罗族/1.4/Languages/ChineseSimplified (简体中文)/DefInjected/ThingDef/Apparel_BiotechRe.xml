@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Kiiro_IntegratorHeadset.label>绮罗集成耳机</Kiiro_IntegratorHeadset.label>
+  <Kiiro_IntegratorHeadset.description>凝聚了绮罗工程师智慧的产物：一副包含了微型计算机和信号阵列的集成耳机，可以极大提高机械师的控制带宽，这使得佩戴者可以同时控制更多的机械体。</Kiiro_IntegratorHeadset.description>
+
+  <Kiiro_ArrayHeadset.label>绮罗全息视屏</Kiiro_ArrayHeadset.label>
+  <Kiiro_ArrayHeadset.description>绮罗族为机械师研发的头戴式全息设备，内置一个小型计算机和信号阵列。佩戴它能够实时接收机械体的视野，方便机械师控制更多机械体；一些绮罗会偷偷在里面安装视频游戏。\n"我将以机械师形态出击！"</Kiiro_ArrayHeadset.description>
+
+  <Kiiro_AirwireHeadset.label>绮罗无线耳机</Kiiro_AirwireHeadset.label>
+  <Kiiro_AirwireHeadset.description>绮罗族研究开发机械族控制技术的初级产物，能够稍微提高机械师的控制带宽。</Kiiro_AirwireHeadset.description>
+
+  <Kiiro_PackControl.label>绮罗线程背包</Kiiro_PackControl.label>
+  <Kiiro_PackControl.description>装有一台小巧轻便的机控辅助电脑，它在提供少量带宽的同时允许机械师拥有一个额外的控制组。</Kiiro_PackControl.description>
+
+  <Kiiro_PackBandwidth.label>绮罗机控天线</Kiiro_PackBandwidth.label>
+  <Kiiro_PackBandwidth.description>一台内置了扩频电脑和天线的装置，可以大量增加机械师的控制带宽。天知道绮罗们是如何将这么多设备塞进两个只比肩膀大点的小块里的。</Kiiro_PackBandwidth.description>
+
+
+</LanguageData>

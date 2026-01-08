@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+    <!-- 과학 연구 캡슐 임무 -->
+
+    <!-- 발사 임무 -->
+    <OARK_ScienceShipName>과학 연구 캡슐 이름</OARK_ScienceShipName>
+    <OARK_ScienceShipLaunchSite_TimeLeft>관람 남은 시간: {0}</OARK_ScienceShipLaunchSite_TimeLeft>
+
+    <OARK_ScienceShipLaunchFinished>당신의 식민지 주민들은 과학 연구 캡슐 발사 순간을 목격했고, 이는 모든 사람에게 {0}점의 지식 경험을 제공했으며, 현장의 궁정부 시종들이 주는 {1}개의 화과자를 얻었습니다.</OARK_ScienceShipLaunchFinished>
+    <OARK_ScienceShipLaunch_Interrupt>당신은 과학 연구 캡슐 발사 시간을 기다리지 않고 발사 현장을 미리 떠났습니다.</OARK_ScienceShipLaunch_Interrupt>
+
+    <OARK_ScienceShipLaunch_Quiz>잡담</OARK_ScienceShipLaunch_Quiz>
+    <OARK_ScienceShipLaunch_QuizDesc>현장에 있는 과학연구부 시종들과 흔한 질문에 대해 잡담하며 시간을 보냅니다.</OARK_ScienceShipLaunch_QuizDesc>
+    <OARK_ScienceShipLaunch_Inquiry>심층 문의</OARK_ScienceShipLaunch_Inquiry>
+    <OARK_ScienceShipLaunch_InquiryDesc>소량의 과학연구 공헌을 소모하여 전속 과학연구부 가이드를 배정받아, 당신의 관람객에게 전방위적인 지식 해설을 제공합니다.</OARK_ScienceShipLaunch_InquiryDesc>
+    <OARK_ScienceShipLaunch_Pry>정보 탐색</OARK_ScienceShipLaunch_Pry>
+    <OARK_ScienceShipLaunch_PryDesc>일정 시간을 들여 사람들 속에서 특별한 정보를 탐색해 봅니다.</OARK_ScienceShipLaunch_PryDesc>
+
+    <OARK_ScienceShipLaunch_Block>현장 시종들은 이미 너무 바쁩니다.</OARK_ScienceShipLaunch_Block>
+
+    <OARK_ScienceShipLaunch_QuizLabel>무료한 잡담</OARK_ScienceShipLaunch_QuizLabel>
+    <OARK_ScienceShipLaunch_QuizLabel6>바빠지기 시작함</OARK_ScienceShipLaunch_QuizLabel6>
+    <OARK_ScienceShipLaunch_Quiz6>당신이 계속해서 무작위로 과학연구부 시종을 붙잡고 질문을 하자, 시간 관념이 없는 이 시종들은 마침내 거듭된 잡담 끝에 자신들의 일과 관람 현장이 엉망진창이 된 것을 깨달았습니다.\n\n그래서 당신이 다시 시종을 붙잡으려 하자, 그녀는 마침내 어쩔 수 없다는 듯 미안한 표정으로 당신에게 손을 저었습니다.</OARK_ScienceShipLaunch_Quiz6>
+
+    <OARK_ScienceShipLaunch_Quiz6Special>당신이 계속해서 무작위로 과학연구부 시종을 붙잡고 질문을 하자, 시간 관념이 없는 이 시종들은 마침내 거듭된 잡담 끝에 자신들의 일과 관람 현장이 엉망진창이 된 것을 깨달았습니다.\n\n그래서 당신이 다시 시종을 붙잡으려 하자, 그녀는 마침내 어쩔 수 없다는 듯 미안한 표정으로 당신에게 손을 저었습니다. 하지만 차마 그러지 못했는지, 혹은 당신에 대한 미안함 때문인지, 그녀는 빠른 걸음으로 달려가 옆에 있는 관측소에서 개봉하지 않은 화고 한 상자를 가져다준 뒤에야 바쁜 일에 투신했습니다.</OARK_ScienceShipLaunch_Quiz6Special>
+    <OARK_ScienceShipLaunch_FlowCake>대체 어디서 이렇게 많은 화고가 나는 걸까?</OARK_ScienceShipLaunch_FlowCake>
+
+    <OARK_ScienceShipLaunch_Quiz6GainLabel>화고 상자</OARK_ScienceShipLaunch_Quiz6GainLabel>
+    <OARK_ScienceShipLaunch_Quiz6Gain>시종이 준 화고 상자에는 여러 개의 작은 포장된 화고가 들어 있었고, 잠시 세어보니 총 {0}개가 있었습니다.</OARK_ScienceShipLaunch_Quiz6Gain>
+
+    <OARK_ScienceShipLaunch_InquiryLabel>전속 가이드</OARK_ScienceShipLaunch_InquiryLabel>
+    <OARK_ScienceShipLaunch_InquiryInfo>현장의 과학관에게 당신의 협력자 신분을 알리고 요구 사항을 밝힌 후, 과학관은 5 지원 포인트 할인 가격으로 관람객을 위해 특별히 한 명의 시종을 배치해 안내해 주었습니다.</OARK_ScienceShipLaunch_InquiryInfo>
+
+    <OARK_ScienceShipLaunch_PryDialog>일정 시간을 소모하여 다른 사람들에게 희귀한 정보를 탐색할 수 있습니다. 반드시 성공하는 것은 아니지만, 관련된 소문을 아는 사람이 있을지도 모릅니다.</OARK_ScienceShipLaunch_PryDialog>
+
+    <OARK_ScienceShipLaunch_PryReward_Weapon>고대 무기 창고</OARK_ScienceShipLaunch_PryReward_Weapon>
+    <OARK_ScienceShipLaunch_PryReward_Thrumbo>알파 트럼보</OARK_ScienceShipLaunch_PryReward_Thrumbo>
+    <OARK_ScienceShipLaunch_PryRewardInfo>{1} 관련 정보를 획득할 확률은 {0}입니다. 구체적인 확률:</OARK_ScienceShipLaunch_PryRewardInfo>
+    <OARK_ScienceShipLaunch_PryRewardChance_Base>기본 확률: {0}</OARK_ScienceShipLaunch_PryRewardChance_Base>
+    <OARK_ScienceShipLaunch_PryRewardChance_Settlement>근처 {0}개 정착지의 사람들: {1}</OARK_ScienceShipLaunch_PryRewardChance_Settlement>
+    <OARK_ScienceShipLaunch_PryRewardChance_Skill>최고 사교 기술 - {0}: {1}</OARK_ScienceShipLaunch_PryRewardChance_Skill>
+
+    <OARK_ScienceShipLaunch_PryLabel>정보 탐색 결과</OARK_ScienceShipLaunch_PryLabel>
+    <OARK_ScienceShipLaunch_PrySuccess>당신은 현장의 모든 사람에게 물어보며 많은 시간을 보냈습니다. 마침내 멀리서 온 한 관람객에게 물었을 때, 그 관람객은 길에서 들었던 소문을 당신과 공유했습니다.\n\n{0}에 대한 정보를 얻었습니다.</OARK_ScienceShipLaunch_PrySuccess>
+    <OARK_ScienceShipLaunch_PryNormal>관련된 소식을 탐문하는 데 많은 시간을 할애했지만, 유감스럽게도 관련된 소문을 아는 사람은 아무도 없었습니다.</OARK_ScienceShipLaunch_PryNormal>
+
+    <OARK_ScienceShipLaunch_GainXP>모든 인원이 {0}점의 {1} 경험치를 획득합니다</OARK_ScienceShipLaunch_GainXP>
+    <OARK_ScienceShipEnvir>근거리에서 과학 연구부 시종들과 교류할 때, 당신의 식민지 주민 {0}은 그들의 말과 설명에서 이 과학 연구 캡슐 자체의 중력 장치가 다음과 같은 영향을 미칠 수 있다고 판단했습니다:</OARK_ScienceShipEnvir>    <!-- 환경 영향은 회수 임무에서 대응됨 -->
+
+    <OARK_ScienceShipLaunch_Nothing>이 과학 연구 캡슐은 일반적인 모델 설계로 보이며, 특별히 주목할 만한 부분이 많지 않습니다</OARK_ScienceShipLaunch_Nothing>
+    <OARK_ScienceShipLaunch_TravelRK>이 과학 연구 캡슐의 측면에는 어떤 여행 레밍스 상회의 로고가 인쇄되어 있는 것 같습니다. 여행 레밍스 연방도 이 과학 연구 캡슐에 투자한 것 같습니다.</OARK_ScienceShipLaunch_TravelRK>
+    <OARK_ScienceShipLaunch_Fragile>이 과학 연구 캡슐은 완전한 회수를 준비하지 않은 것 같아 구조적 강도가 그리 높지 않으며, 착륙 시 완전히 분해될 가능성이 있습니다.</OARK_ScienceShipLaunch_Fragile>
+    <OARK_ScienceShipLaunch_HighSignal>이 과학 연구 캡슐은 신호 강도를 특별히 증폭한 것 같으며, 회수를 용이하게 하기 위한 것 같습니다.</OARK_ScienceShipLaunch_HighSignal>
+
+    <!-- 회수 임무 발동 조건 불충족 -->
+    <OARK_LetterLabel_ScienceShipRecycleTriggerFail>먼 하늘의 불꽃별</OARK_LetterLabel_ScienceShipRecycleTriggerFail>
+    <OARK_Letter_ScienceShipRecycleTriggerFail>밝은 불꽃 궤적이 먼 하늘의 구름 사이를 지나갔습니다. 당신의 직감은 이 불꽃별이 당신과 관련이 있었던 것 같다고 말하지만, 당신은 이미 구체적인 이유를 기억하지 못합니다.</OARK_Letter_ScienceShipRecycleTriggerFail>
+
+    <!-- 회수 임무 -->
+    <OARK_ScienceShip_OASupportLabel>지원 물자 도착</OARK_ScienceShip_OASupportLabel>
+    <OARK_ScienceShip_OASupport>데이터 회수 작업을 지원하기 위해, 금 아이리스 제국은 당신을 위해 일시적으로 일부 물자를 조달하여 이 혼란 지대에서 발생할 수 있는 각종 습격에 대비할 수 있도록 했습니다.</OARK_ScienceShip_OASupport>
+
+    <OARK_ScienceShip_AllTroubleResolved>고장 완전히 해결됨</OARK_ScienceShip_AllTroubleResolved>
+    <OARK_ScienceShip_DataUploading>데이터 업로드 중: 남은 {0}</OARK_ScienceShip_DataUploading>
+    <OARK_ScienceShip_DataUploaded>데이터 업로드 완료, 신호 사라짐, 더 이상 습격이 발생하지 않습니다.</OARK_ScienceShip_DataUploaded>
+
+    <OARK_ScienceShip_SignalStrength>신호 강도: {0}</OARK_ScienceShip_SignalStrength>
+
+    <OARK_ScienceShip_HyperthermiaInfo>고온 장애: {0}, 냉각 속도: {1}</OARK_ScienceShip_HyperthermiaInfo>
+    <OARK_ScienceShip_HyperthermiaBlock>극도로 높은 내부 온도로 인해, 이때 다른 수리를 진행하는 것은 불가능합니다.</OARK_ScienceShip_HyperthermiaBlock>
+    <OARK_ScienceShip_MechanicalInfo>기계적 고장 수리 진행: {0}/{1}</OARK_ScienceShip_MechanicalInfo>
+    <OARK_ScienceShip_GravitationalInfo>중력 조정 진행: {0}/{1}</OARK_ScienceShip_GravitationalInfo>
+
+    <OARK_ScienceShip_AllKeyTrouble>재앙적인 설계: 고장들이 서로 영향을 미쳐, 문제 해결 시간 +{0}.</OARK_ScienceShip_AllKeyTrouble>
+    <OARK_ScienceShip_KeyTrouble>핵심 고장</OARK_ScienceShip_KeyTrouble>
+    <OARK_ScienceShip_TroubleWorkIncrease>다른 고장의 영향으로 인해, 이 고장 수리에 소요되는 시간 +{0}.</OARK_ScienceShip_TroubleWorkIncrease>
+
+    <OARK_ScienceShip_Hyperthermia>이상 고온</OARK_ScienceShip_Hyperthermia>
+    <OARK_ScienceShip_Mechanical>기계적 고장</OARK_ScienceShip_Mechanical>
+    <OARK_ScienceShip_Gravitational>내부 중력 혼란</OARK_ScienceShip_Gravitational>
+    <OARK_ScienceShip_InformationBase>정보庫 부속품 파손</OARK_ScienceShip_InformationBase>
+
+    <OARK_ScienceShip_HyperthermiaJob>내장 냉각 장치 가동</OARK_ScienceShip_HyperthermiaJob>
+    <OARK_ScienceShip_MechanicalJob>기계적 고장 수리</OARK_ScienceShip_MechanicalJob>
+    <OARK_ScienceShip_GravitationalJob>내부 중력장 조정</OARK_ScienceShip_GravitationalJob>
+    <OARK_ScienceShip_QuizResearcherJob>과학 연구부 시종에게 식별 코드 문의</OARK_ScienceShip_QuizResearcherJob>
+
+    <OARK_ScienceShip_HyperthermiaDesc>식민지 주민이 수동으로 내부 냉각 장치를 활성화하고 조작하여 냉각 속도를 크게 가속화합니다.</OARK_ScienceShip_HyperthermiaDesc>
+    <OARK_ScienceShip_MechanicalJobDesc>식민지 주민을 파견하여 과학 연구 캡슐을 수리합니다.</OARK_ScienceShip_MechanicalJobDesc>
+    <OARK_ScienceShip_GravitationalJobDesc>식민지 주민을 파견하여 내부 중력을 안정화하려 시도하며, 연구 능력이 부족한 식민지 주민은 예상치 못한 조작 실수로 인해 피해를 입을 수 있습니다.</OARK_ScienceShip_GravitationalJobDesc>
+    <OARK_ScienceShip_QuizResearcherJobDesc>과학 연구부 시종에게서 정보庫의 식별 코드를 얻어 수동 정보 검증을 시도합니다.</OARK_ScienceShip_QuizResearcherJobDesc>
+
+    <OARK_ScienceShip_HasGravitational>내부 중력장 미조정</OARK_ScienceShip_HasGravitational>
+
+    <OARK_ScienceShip_IncreaseGravityJob>중력 장치의 중력장 강화</OARK_ScienceShip_IncreaseGravityJob>
+    <OARK_ScienceShip_DecreaseGravityJob>중력 장치의 중력장 약화</OARK_ScienceShip_DecreaseGravityJob>
+    <OARK_ScienceShip_ReassignmentGravityJob>중력 장치의 중력장 조정</OARK_ScienceShip_ReassignmentGravityJob>
+
+    <OARK_ScienceShip_IncreaseGravityJobDesc>중력장의 강도 상승</OARK_ScienceShip_IncreaseGravityJobDesc>
+    <OARK_ScienceShip_DecreaseGravityJobDesc>중력장의 강도 하향</OARK_ScienceShip_DecreaseGravityJobDesc>
+    <OARK_ScienceShip_ReassignmentGravityJobDesc>중력 파동을 정상 범위로 회복시키거나, 중력 파동의 혼란을 유발하려 시도합니다.</OARK_ScienceShip_ReassignmentGravityJobDesc>
+
+    <!-- 해당 환경 영향 -->
+    <OARK_ScienceShipEnvir_NonEnvirText>중력장이 추가적인 중력 파동을 방출하지 않습니다.</OARK_ScienceShipEnvir_NonEnvirText>
+    <OARK_ScienceShip_WeakGravity>지역 중력 약화</OARK_ScienceShip_WeakGravity>
+    <OARK_ScienceShip_WeakGravityText>중력장의 중력 파장이 약화되며 이 지역의 중력을 방해하고 있습니다.</OARK_ScienceShip_WeakGravityText>
+    <OARK_ScienceShip_StrongWeakGravity>지역 중력 증폭</OARK_ScienceShip_StrongWeakGravity>
+    <OARK_ScienceShip_StrongWeakGravityText>중력장의 중력 파장이 강화되며 이 지역의 중력을 증가시키고 있습니다.</OARK_ScienceShip_StrongWeakGravityText>
+    <OARK_ScienceShip_DisorderedGravity>지역 중력 혼란</OARK_ScienceShip_DisorderedGravity>
+    <OARK_ScienceShip_DisorderedGravityText>중력장의 중력 파장이 불안정하여 행동에 어려움과 생리적 메스꺼움을 유발합니다.</OARK_ScienceShip_DisorderedGravityText>
+    <OARK_ScienceShip_DisorderedMagnetism>지역 전자기 혼란</OARK_ScienceShip_DisorderedMagnetism>
+    <OARK_ScienceShip_DisorderedMagnetismText>극심한 중력 혼란으로 전자 장치가 오작동하며, 대부분의 전자 장치가 기능을 상실합니다. 기계족도 강한 간섭을 받습니다.</OARK_ScienceShip_DisorderedMagnetismText>
+
+    <OARK_ScienceShip_CoolingDeviceActivated>내부 냉각 장치가 효율적으로 작동 중입니다.</OARK_ScienceShip_CoolingDeviceActivated>
+    <OARK_ScienceShip_MechanicalRepaired>과학 연구 캡슐의 한 기계적 고장이 성공적으로 수리되었습니다.</OARK_ScienceShip_MechanicalRepaired>
+    <OARK_ScienceShip_GravitationalRepaireSuccess>중력 조정이 성공적으로 완료되었습니다.</OARK_ScienceShip_GravitationalRepaireSuccess>
+    <OARK_ScienceShip_GravitationalRepaireFail>중력 조정 중 예기치 않은 문제 발생!</OARK_ScienceShip_GravitationalRepaireFail>
+
+    <OARK_ScienceShip_RemoveTroubleLabel>{0} 수리 완료</OARK_ScienceShip_RemoveTroubleLabel>
+    <OARK_ScienceShip_RemoveTrouble>{0}이(가) 성공적으로 수리되어 더 이상 방해가 되지 않을 것입니다.</OARK_ScienceShip_RemoveTrouble>
+
+    <OARK_ScienceShip_DataUploaded>데이터가 성공적으로 업로드되었습니다.</OARK_ScienceShip_DataUploaded>
+
+    <OARK_ScienceShip_QuizSuccess>당신의 질문을 듣고, 단말기에서 상대방이 무언가를 입력하고 조회하는 소리가 들렸습니다.\n\n30초 후, 이 시종은 당신에게 정확한 신원 식별 코드를 제공했습니다.</OARK_ScienceShip_QuizSuccess>
+    <OARK_ScienceShip_QuizFail>당신의 질문을 듣고, 상대방은 잠시 생각한 후 유감스러운 소식을 전했습니다. \n\n"과학 연구 캡슐은 정보庫 부속품에 따라 동적으로 생성된 식별 코드를 사용하지만, 정보庫가 파손된 경우 식별 코드로 인증하는 것은 불가능합니다."</OARK_ScienceShip_QuizFail>
+    <OARK_ScienceShip_QuizEndlessWaiting>당신의 질문을 듣고, 상대방은 즉시 열정적으로 동의한 후 찾기 시작했습니다.\n\n30초가 지났습니다...\n\n1분이 지났습니다...\n\n5분이 지났습니다...\n\n10분이 지났습니다...\n\n...\n\n...\n\n왠지 모르게, 직접 해킹하는 것이 더 빠를 것 같다는 생각이 듭니다. 적어도 이건 반응이 있을 테니까요.</OARK_ScienceShip_QuizEndlessWaiting>
+
+    <OARK_ScienceShip_GravityMaxLevel>중력장 강도가 최고치에 도달했습니다.</OARK_ScienceShip_GravityMaxLevel>
+    <OARK_ScienceShip_GravityMinLevel>중력장 강도가 최저치에 도달했습니다.</OARK_ScienceShip_GravityMinLevel>
+    <OARK_ScienceShip_GravityLevelIncreased>중력장의 강도가 상승했습니다.</OARK_ScienceShip_GravityLevelIncreased>
+    <OARK_ScienceShip_GravityLevelDecreased>중력장의 강도가 하락했습니다.</OARK_ScienceShip_GravityLevelDecreased>
+    <OARK_ScienceShip_GravityLevelDisordered>안정적이던 중력장이 다시 불안정해졌습니다.</OARK_ScienceShip_GravityLevelDisordered>
+    <OARK_ScienceShip_GravityLevelStabilized>혼란스러웠던 중력장이 점차 안정되었습니다.</OARK_ScienceShip_GravityLevelStabilized>
+
+    <OARK_ScienceShip_FinalExtaRaid>수많은 습격자들이 당신의 공격으로 죽음을 맞이하자, 이익을 좇는 자들은 마침내 당신이 만만치 않은 상대라는 사실을 깨닫고, 일부는 더 이상 공격할 생각을 하지 않게 되었습니다.</OARK_ScienceShip_FinalExtaRaid>
+
+    <OARK_ScienceShip_TravelRKRewardLabel>여행 레밍스의 감사</OARK_ScienceShip_TravelRKRewardLabel>
+    <OARK_ScienceShip_TravelRKReward>당신은 여행 레밍스 연방이 과학 연구 캡슐의 문제를 해결하고 그들의 자료 데이터를 확보할 수 있도록 도왔으며, 이로 인해 그들이 당신을 바라보는 시선이 크게 개선되었습니다.\n\n감사의 표시로, 그들은 당신에게 은을 투하하여 감사를 표했습니다.</OARK_ScienceShip_TravelRKReward>
+
+    <!--OARK_ScienceShipType_Nothing>아무 일도 없음</OARK_ScienceShipType_Nothing-->
+    <OARK_ScienceShipType_TravelRKText>여행 레밍스 연방도 이 과학 연구 캡슐에 자금을 지원했기 때문에, 그들은 이 과학 연구 캡슐을 회수하고 싶어하며 그에 대한 보상을 제공할 의사가 있습니다.</OARK_ScienceShipType_TravelRKText>
+    <OARK_ScienceShipType_FragileText>압력을 줄이기 위한 이유로, 이 과학 연구 캡슐의 외층은 완전히 분해되었으며, 당신은 쉽게 이를 분해하여 회수할 수 있습니다.</OARK_ScienceShipType_FragileText>
+    <OARK_ScienceShipType_HighSignalText>찾기 쉽도록, 이 과학 연구 캡슐은 고강도 신호를 의도적으로 설정했지만, 이로 인해 더 빈번한 습격이 발생할 수 있습니다.</OARK_ScienceShipType_HighSignalText>
+    <OARK_ScienceShipType_DisasterText>예상치 못한 설계 재앙, 이 과학 연구 캡슐의 고장은 머리가 아플 정도로 많아져, 당신은 더 우수한 수리사가 필요할 수 있습니다.</OARK_ScienceShipType_DisasterText>
+    <OARK_ScienceShipType_TurbulentRegionText>과학 연구 캡슐이 갈등이 빈번한 지역에 예기치 않게 추락했으며, 이로 인해 많은 투기자들의 습격이 발생할 것입니다.</OARK_ScienceShipType_TurbulentRegionText>
+    <!--반드시 확인-->
+</LanguageData>

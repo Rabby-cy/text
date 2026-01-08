@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>NewRatkinPlus</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<success>Normal</success>
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/AlienRace.ThingDef_AlienRace[defName = "Ratkin"]/alienRace/raceRestriction/whiteXenotypeList</xpath>
+					<value>
+						<li>Ratkin_OA</li>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

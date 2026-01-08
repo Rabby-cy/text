@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="OA_RKBase_RangedWeapon">
+    <defName>OA_RK_BlitzRifle</defName>
+    <label>Blitz Combat Rifle</label>
+    <!-- 突袭作战步枪 -->
+    <description>The Oberonia Aurea Empire's active duty rifle has a consistent kill ability at all ranges, and the uranium rounds are designed to be effective against heavily armored enemies.</description>
+    <!-- 金鸢尾兰帝国的现役制式步枪，在全距离都有着稳定的杀伤能力，并且铀弹的设计可以有效的对重甲敌人造成伤害。 -->
+    <graphicData>
+        <texPath>Weapons/OA_BlitzRifle/General</texPath>
+    </graphicData>
+    <statBases>
+        <WorkToMake>60000</WorkToMake>
+        <Mass>3.6</Mass>
+        <AccuracyTouch>0.78</AccuracyTouch>
+        <AccuracyShort>0.84</AccuracyShort>
+        <AccuracyMedium>0.72</AccuracyMedium>
+        <AccuracyLong>0.62</AccuracyLong>
+        <RangedWeapon_Cooldown>1.35</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedStatOffsets>
+        <MoveSpeed>0.15</MoveSpeed>
+    </equippedStatOffsets>
+    <verbs>
+        <li>
+            <verbClass>Verb_Shoot</verbClass>
+            <defaultProjectile>OA_RK_BlitzRifleBullet</defaultProjectile>
+            <soundCast>OA_RKSO_BlitzRifleFire</soundCast>
+            <soundCastTail>OA_RKSO_MediumUraniumBulletTail</soundCastTail>
+            <hasStandardCommand>true</hasStandardCommand>
+            <warmupTime>0.85</warmupTime>
+            <range>33</range>
+            <burstShotCount>3</burstShotCount>
+            <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+            <muzzleFlashScale>6</muzzleFlashScale>
+        </li>
+    </verbs>
+    <tools>
+        <li>
+            <label>刺刀</label>
+            <!-- 刺刀 -->
+            <capacities>
+                <li>Stab</li>
+            </capacities>
+            <power>19.5</power>
+            <cooldownTime>1.95</cooldownTime>
+            <armorPenetration>0.84</armorPenetration>
+            <chanceFactor>3.8</chanceFactor>
+        </li>
+        <li>
+            <label>枪托</label>
+            <!-- 枪托 -->
+            <capacities>
+                <li>Blunt</li>
+            </capacities>
+            <power>7</power>
+            <cooldownTime>2.00</cooldownTime>
+            <armorPenetration>0.16</armorPenetration>
+            <chanceFactor>0.8</chanceFactor>
+        </li>
+    </tools>
+    <weaponTags>
+        <li>OA_RK_Advanced_Weapon</li>
+    </weaponTags>
+	<recipeMaker>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <recipeUsers>
+            <li>FabricationBench</li>
+        </recipeUsers>
+        <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+        <researchPrerequisite>OA_RK_Weapon_C</researchPrerequisite>
+        <skillRequirements>
+            <Crafting>11</Crafting>
+        </skillRequirements>
+        <displayPriority>202</displayPriority>
+    </recipeMaker>
+    <costList>
+		<Uranium>120</Uranium>
+		<ComponentIndustrial>10</ComponentIndustrial>
+    </costList>
+</ThingDef>
+<ThingDef ParentName="OA_RKBase_Bullet">
+    <defName>OA_RK_BlitzRifleBullet</defName>
+    <label>铀弹</label>
+    <!-- 铀弹 -->
+    <graphicData>
+        <texPath>Bullets/OA_MediumUraniumBullet</texPath>
+    </graphicData>
+    <projectile>
+        <damageDef>Bullet</damageDef>
+        <damageAmountBase>15</damageAmountBase>
+        <armorPenetrationBase>0.41</armorPenetrationBase>
+        <stoppingPower>0.5</stoppingPower>
+        <speed>60</speed>
+    </projectile>
+</ThingDef>
+
+<ThingDef ParentName="OA_RKBase_RangedWeapon">
+    <defName>OA_RK_PrototypeBlitzRifle</defName>
+    <label>Prototype Blitz Rifle</label>
+    <!-- 原型突袭武器 -->
+    <description>The Oberonia Aurea Empire is the product of an urgent armament change after first contact with the galaxy. It emphasizes lethality and destructive power over conventional assault rifles, yet accuracy remains more or less problematic.</description>
+    <!-- 金鸢尾兰帝国的现役制式步枪，在全距离都有着稳定的杀伤能力，并且铀弹的设计可以有效的对重甲敌人造成伤害。 -->
+    <graphicData>
+        <texPath>Weapons/OA_BlitzRifle/Prototype</texPath>
+    </graphicData>
+    <statBases>
+        <WorkToMake>42000</WorkToMake>
+        <Mass>4</Mass>
+        <AccuracyTouch>0.74</AccuracyTouch>
+        <AccuracyShort>0.62</AccuracyShort>
+        <AccuracyMedium>0.40</AccuracyMedium>
+        <AccuracyLong>0.27</AccuracyLong>
+        <RangedWeapon_Cooldown>1.80</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+        <li>
+            <verbClass>Verb_Shoot</verbClass>
+            <defaultProjectile>OA_RK_PrototypeBlitzRifleBullet</defaultProjectile>
+            <soundCast>OA_RKSO_ProtocolRifleFire</soundCast>
+            <soundCastTail>OA_RKSO_MediumUraniumBulletTail</soundCastTail>
+            <hasStandardCommand>true</hasStandardCommand>
+            <warmupTime>1.05</warmupTime>
+            <range>28</range>
+            <burstShotCount>3</burstShotCount>
+            <ticksBetweenBurstShots>11</ticksBetweenBurstShots>
+            <muzzleFlashScale>6</muzzleFlashScale>
+        </li>
+    </verbs>
+    <tools>
+        <li>
+            <label>枪管</label>
+            <!-- 刺刀 -->
+            <capacities>
+                <li>Poke</li>
+            </capacities>
+            <power>8.5</power>
+            <cooldownTime>1.50</cooldownTime>
+            <armorPenetration>0.26</armorPenetration>
+            <chanceFactor>1.2</chanceFactor>
+        </li>
+        <li>
+            <label>枪托</label>
+            <!-- 枪托 -->
+            <capacities>
+                <li>Blunt</li>
+            </capacities>
+            <power>7</power>
+            <cooldownTime>1.80</cooldownTime>
+            <armorPenetration>0.16</armorPenetration>
+            <chanceFactor>0.8</chanceFactor>
+        </li>
+    </tools>
+    <weaponTags>
+        <li>OA_RK_Rifle</li>
+    </weaponTags>
+	<recipeMaker>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <recipeUsers>
+            <li>TableMachining</li>
+        </recipeUsers>
+        <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+        <researchPrerequisite>OA_RK_Weapon_B</researchPrerequisite>
+        <skillRequirements>
+            <Crafting>10</Crafting>
+        </skillRequirements>
+        <displayPriority>201</displayPriority>
+    </recipeMaker>
+    <costList>
+		<Uranium>105</Uranium>
+		<ComponentIndustrial>8</ComponentIndustrial>
+    </costList>
+</ThingDef>
+<ThingDef ParentName="OA_RKBase_Bullet">
+    <defName>OA_RK_PrototypeBlitzRifleBullet</defName>
+    <label>铀弹</label>
+    <!-- 铀弹 -->
+    <graphicData>
+        <texPath>Bullets/OA_MediumUraniumBullet</texPath>
+    </graphicData>
+    <projectile>
+        <damageDef>Bullet</damageDef>
+        <damageAmountBase>16</damageAmountBase>
+        <armorPenetrationBase>0.35</armorPenetrationBase>
+        <stoppingPower>0.5</stoppingPower>
+        <speed>60</speed>
+    </projectile>
+</ThingDef>
+
+<ThingDef ParentName="OA_RKBase_RangedWeapon">
+    <defName>OA_RK_AdvancedBlitzRifle</defName>
+    <label>Advanced Blitz Combat Rifle</label>
+    <!-- 改型突袭作战步枪 -->
+    <description>Specialized and modified for long range firefights, the Blitz Combat rifle has a series of modifications in the body. Compared to the original version, the accuracy has been greatly improved.</description>
+    <!-- 为了远距离交火而特化改装的突袭作战步枪，在枪体进行了一系列的改装。与原版相比，精度有很大幅度的提升。 -->
+    <graphicData>
+        <texPath>Weapons/OA_BlitzRifle/Advanced</texPath>
+    </graphicData>
+    <statBases>
+        <WorkToMake>72000</WorkToMake>
+        <Mass>3.3</Mass>
+        <AccuracyTouch>0.76</AccuracyTouch>
+        <AccuracyShort>0.90</AccuracyShort>
+        <AccuracyMedium>0.82</AccuracyMedium>
+        <AccuracyLong>0.72</AccuracyLong>
+        <RangedWeapon_Cooldown>1.25</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedStatOffsets>
+        <HuntingStealth>1.5</HuntingStealth>
+		<MoveSpeed>0.20</MoveSpeed>
+    </equippedStatOffsets>
+    <verbs>
+        <li>
+            <verbClass>Verb_Shoot</verbClass>
+            <defaultProjectile>OA_RK_AdvancedBlitzRifleBullet</defaultProjectile>
+            <soundCast>OA_RKSO_AdvancedBlitzRifleFire</soundCast>
+            <soundCastTail>OA_RKSO_MediumUraniumBulletTail</soundCastTail>
+            <hasStandardCommand>true</hasStandardCommand>
+            <warmupTime>0.90</warmupTime>
+            <range>43</range>
+            <burstShotCount>3</burstShotCount>
+            <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
+            <muzzleFlashScale>6</muzzleFlashScale>
+        </li>
+    </verbs>
+    <tools>
+        <li>
+            <label>枪管</label>
+            <!-- 枪管 -->
+            <capacities>
+                <li>Blunt</li>
+            </capacities>
+            <power>8</power>
+            <cooldownTime>1.50</cooldownTime>
+            <armorPenetration>0.16</armorPenetration>
+            <chanceFactor>1</chanceFactor>
+        </li>
+        <li>
+            <label>枪托</label>
+            <!-- 枪托 -->
+            <capacities>
+                <li>Blunt</li>
+            </capacities>
+            <power>7</power>
+            <cooldownTime>1.50</cooldownTime>
+            <armorPenetration>0.16</armorPenetration>
+            <chanceFactor>0.8</chanceFactor>
+        </li>
+    </tools>
+    <weaponTags>
+        <li>OA_RK_Advanced_Weapon_II</li>
+    </weaponTags>
+	<recipeMaker>
+        <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <recipeUsers>
+            <li>FabricationBench</li>
+        </recipeUsers>
+        <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+        <researchPrerequisite>OA_RK_Weapon_G</researchPrerequisite>
+        <skillRequirements>
+            <Crafting>13</Crafting>
+        </skillRequirements>
+        <displayPriority>205</displayPriority>
+    </recipeMaker>
+    <costList>
+		<Uranium>140</Uranium>
+		<ComponentIndustrial>14</ComponentIndustrial>
+		<ComponentSpacer>1</ComponentSpacer>
+    </costList>
+</ThingDef>
+<ThingDef ParentName="OA_RKBase_Bullet">
+    <defName>OA_RK_AdvancedBlitzRifleBullet</defName>
+    <label>铀弹</label>
+    <!-- 铀弹 -->
+    <graphicData>
+        <texPath>Bullets/OA_MediumUraniumBullet</texPath>
+    </graphicData>
+    <projectile>
+        <damageDef>Bullet</damageDef>
+        <damageAmountBase>15</damageAmountBase>
+        <armorPenetrationBase>0.55</armorPenetrationBase>
+        <stoppingPower>0.5</stoppingPower>
+        <speed>60</speed>
+    </projectile>
+</ThingDef>
+
+</Defs>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OARK_ScienceDepartment_GravTechPointsAdded>Oberonia Aurea Orchid anti-gravity tech reverse-engineering progress +{0}</OARK_ScienceDepartment_GravTechPointsAdded>
+    <OARK_ScienceDepartment_GravTechAssistPointAdded>Oberonia Aurea Orchid research contribution +{0}</OARK_ScienceDepartment_GravTechAssistPointAdded>
+    <OARK_ScienceDepartment_GravTechAssistPointReduced>Oberonia Aurea Orchid research contribution -{0}</OARK_ScienceDepartment_GravTechAssistPointReduced>
+
+    <OARK_GravTechAssistPointsNotEnough>Minimum {0} research contribution required</OARK_GravTechAssistPointsNotEnough>
+    <OARK_GravTechStageNeedAbove>Unlocks after completing research stage {0}</OARK_GravTechStageNeedAbove>
+
+    <OARK_Letter_GravTechStageUpgrade>With your assistance, the research department achieved breakthrough progress in reverse-engineering anti-gravity technology, now reaching stage {0}.\n\nIn recognition of your efforts, they've allocated an additional {1} research contribution.</OARK_Letter_GravTechStageUpgrade>
+
+    <OARK_AccessScienceDepartment>Contact Research Department</OARK_AccessScienceDepartment>
+    <OARK_AccessScienceDepartmentInfo_Empty>This is a Oberonia Aurea Orchid court department we haven't established contact with. They're not as comprehensive as the Court Department, nor as prominent as the Industry Department, nor as active as the Technical Department. We know little about them.\n\nThey appear focused on developing new technologies.\n\nCurrently we have no interaction with the Science Department.\nPerhaps we need to do something to get their attention.</OARK_AccessScienceDepartmentInfo_Empty>
+
+    <!-- Special second description line -->
+    <OARK_ScienceDepartmentProgress_Assist>{0} took the call from the research officer, greeting you and sharing recent observations.</OARK_ScienceDepartmentProgress_Assist>
+
+    <!-- Special third description line -->
+    <OARK_GravTechPointsStage_I>Anti-gravity reverse-engineering progress: {0}/{1} (Stage 1)</OARK_GravTechPointsStage_I>
+    <OARK_GravTechPointsStage_II>Anti-gravity reverse-engineering progress: {0}/{1} (Stage 2)</OARK_GravTechPointsStage_II>
+    <OARK_GravTechPointsStage_III>Anti-gravity reverse-engineering progress: {0}/{1} (Stage 3)</OARK_GravTechPointsStage_III>
+    <OARK_GravTechPointsStage_Max>Anti-gravity reverse-engineering progress: {0} (Limitless Learning)</OARK_GravTechPointsStage_Max>
+
+    <OARK_PlayerTechPoints>Your contributed progress points: {0}</OARK_PlayerTechPoints>
+    <OARK_GravTechAssistPoints>Your research contributions: {0}</OARK_GravTechAssistPoints>
+	
+	<OARK_QuestDonateGravlitePanel>Gift reverse version auxiliary research to {0}</OARK_QuestDonateGravlitePanel>
+    <OARK_QuestDonateGravlitePanelConfirm>I have given {0} the {1} reverse version as a gift, which has improved the progress of the research department's reverse engineering by {2} and provided you with {3} scientific research contributions</OARK_QuestDonateGravlitePanelConfirm>
+
+
+    <!-- Buttons and follow-up interfaces -->
+    <OARK_AcquireDataBeacon>Acquire Research Beacon</OARK_AcquireDataBeacon>
+    <OARK_AcquireDataBeaconConfirm>You may request a research beacon. When active, strong dataflows will trigger mechanoid attacks during launches/landings, while providing valuable real-time data.\n\nAs this assists research, it costs nothing. However, beacon complexity means replacements take significant time after destruction.</OARK_AcquireDataBeaconConfirm>
+
+    <OARK_DonateGravcore>Donate Anti-Gravity Core</OARK_DonateGravcore>
+    <OARK_DonateGravcoreConfirm>Your donated core advanced research by {0} points.\n\nIn gratitude, the director allocated {1} research contribution and personally thanked you.</OARK_DonateGravcoreConfirm>
+
+    <OARK_DonateGravlitePanel>Donate Anti-Gravity Panels</OARK_DonateGravlitePanel>
+    <OARK_DonateGravlitePanelInfo>Donate specified quantities of anti-gravity panels to advance research and earn contributions.</OARK_DonateGravlitePanelInfo>
+    <OARK_DonateGravlitePanelDetail>Donate {0} panels</OARK_DonateGravlitePanelDetail>
+    <OARK_DonateGravlitePanelDetailConfirm>Your {0} panel donation advanced research by {1} points.\n\nThe research officer allocated {2} contribution in thanks.</OARK_DonateGravlitePanelDetailConfirm>
+
+    <OARK_SailorAssistance>Request Navigation Department Personnel</OARK_SailorAssistance>
+    <OARK_SailorAssistanceConfirm>Temporarily request a navigation attendant for 30-day assistance, convertible to permanent via contribution.\n\nCost: {0} research contribution</OARK_SailorAssistanceConfirm>
+    <OARK_ExchangeForSDAssistance>Request research assistance</OARK_ExchangeForSDAssistance>
+    <OARK_ExchangeForSDAssistanceConfirm>The research department has delivered a communication device. You can use this to contact them and obtain extensive research data to accelerate your project.\n\nCost: {1} research contribution points.</OARK_ExchangeForSDAssistanceConfirm>
+
+    <OARK_GravityDistortionBomb>Request gravity distortion bombardment</OARK_GravityDistortionBomb>
+    <OARK_GravityDistortionBombConfirmInfo>WARNING: Gravity distortion will cause map-wide damage to all units. Exposure without roof cover will cause severe gravitational tearing damage. Even roofs only provide partial protection. The only safe location is inside cryptosleep caskets.\n\nConfirm deployment?</OARK_GravityDistortionBombConfirmInfo>
+    <OARK_GravityDistortionBombConfirm>Gravity distortion bombardment deployed. Arrival in 5 seconds.\n\nWARNING: Enter cryptosleep immediately or seek overhead cover.</OARK_GravityDistortionBombConfirm>
+
+    <!-- Research contribution exchange -->
+    <OARK_CovertGTAP>Contribution redemption</OARK_CovertGTAP>
+    <OARK_CovertGTAPInfo>Convert research contributions into needed resources - support points, silver, blueprints, or specialized equipment.</OARK_CovertGTAPInfo>
+
+    <OARK_CovertGTAPToAP>Convert to support points</OARK_CovertGTAPToAP>
+    <OARK_CovertGTAPToAPInfo>Exchange research contributions for imperial support points at fixed rates, gaining broader imperial support beyond just research assistance.</OARK_CovertGTAPToAPInfo>
+    <OARK_CovertGTAPToAPDetail>{0} research → {1} support</OARK_CovertGTAPToAPDetail>
+    <OARK_CovertGTAPToAPConfirm>Converted {0} research to {1} imperial support.</OARK_CovertGTAPToAPConfirm>
+
+    <OARK_CovertGTAPToSliver>Convert to silver</OARK_CovertGTAPToSliver>
+    <OARK_CovertGTAPToSliverInfo>Exchange research contributions for silver at fixed rates for general use.</OARK_CovertGTAPToSliverInfo>
+    <OARK_CovertGTAPToSliverDetail>{0} research → {1} silver</OARK_CovertGTAPToSliverDetail>
+    <OARK_CovertGTAPToSliverConfirm>Converted {0} research to {1} silver.</OARK_CovertGTAPToSliverConfirm>
+
+    <OARK_ExchangeForTechPrint>Exchange blueprints</OARK_ExchangeForTechPrint>
+    <OARK_ExchangeForTechPrintInfo>Redeem research contributions for Oberonia Aurea Orchid Empire blueprints. The department's open policies impose no normal restrictions on blueprint acquisition.</OARK_ExchangeForTechPrintInfo>
+    <OARK_ExchangeForTechPrintDetail>{0}: {1} research</OARK_ExchangeForTechPrintDetail>
+    <OARK_ExchangeForTechPrintConfirm>Spent {1} research for {0} blueprint.</OARK_ExchangeForTechPrintConfirm>
+
+    <OARK_ExchangeForSpecialEquipment>Redeem special equipment</OARK_ExchangeForSpecialEquipment>
+    <OARK_ExchangeForSpecialEquipmentInfo>Exchange research contributions for specialized equipment surplus from research departments. Abundant stock and low imperial demand ensures unlimited availability.</OARK_ExchangeForSpecialEquipmentInfo>
+    <OARK_ExchangeForSpecialEquipmentDetail>{0}: {1} research</OARK_ExchangeForSpecialEquipmentDetail>
+    <OARK_ExchangeForSpecialEquipmentConfirm>Spent {1} research for {0}.</OARK_ExchangeForSpecialEquipmentConfirm>
+</LanguageData>

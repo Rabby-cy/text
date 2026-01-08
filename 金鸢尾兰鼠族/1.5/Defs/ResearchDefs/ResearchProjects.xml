@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>OA_RK_Oberonia_Aurea_Research</defName>
+		<label>Oberonia Aurea</label>
+		<description>Study the cultivation practices of the Oberonia Aurea Empire, as well as the brewing methods of Oberonia Aurea tea, whilst gradually gaining an understanding of the Oberonia Aurea Empire itself. \n\nBreathe in, the fragrance of Oberonia Aurea.</description>
+		<tab>RatkinTech</tab>
+		<baseCost>600</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<researchViewX>5</researchViewX>
+		<researchViewY>4.5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>OA_RK_Oberonia_Aurea_Research_B</defName>
+		<label>Oberonia Aurea traditional food</label>
+		<description>Learn various methods of processing Oberonia Aurea s to make them into beloved delicacies.</description>
+		<tab>RatkinTech</tab>
+		<baseCost>300</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<prerequisites>
+			<li>OA_RK_Oberonia_Aurea_Research</li>
+		</prerequisites>
+		<researchViewX>6</researchViewX>
+		<researchViewY>5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>OA_RK_Oberonia_Aurea_Research_C</defName>
+		<label>Extraction of Qingsu from Oberonia Aurea Flower</label>
+		<description>Extract special medical ingredients from the Oberonia Aurea to make drugs that can promote immunity and wound healing.</description>
+		<tab>RatkinTech</tab>
+		<baseCost>1200</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>OA_RK_Electrical_System</li>
+		</prerequisites>
+		<researchViewX>7</researchViewX>
+		<researchViewY>5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>OA_RK_Electrical_System</defName>
+		<label>Oberonia Aurea electrical engineering</label>
+		<description>Study the unique electrical engineering of Oberonia Aurea Empire and unlock the "Self-generating energy complex", which provides a large capacity of electricity storage and a small supply of electric power. \n\nStrangely, it always operates independently without being connected to an electric grid, and our engineers still can't figure out how it works.</description>
+		<tab>RatkinTech</tab>
+		<baseCost>1000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>OA_RK_Oberonia_Aurea_Research</li>
+			<li>Electricity</li>
+			<li>Batteries</li>
+		</prerequisites>
+		<researchViewX>6</researchViewX>
+		<researchViewY>4.5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>OA_RK_Electrical_System_B</defName>
+		<label>Advanced reactor</label>
+		<description>Improves the reactor of the "Self-generaing energy complex" to provide a higher rate of electrical output.</description>
+		<tab>RatkinTech</tab>
+		<baseCost>2600</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>OA_RK_Electrical_System</li>
+			<li>Fabrication</li>
+		</prerequisites>
+		<techprintCount>1</techprintCount>
+		<techprintCommonality>1</techprintCommonality>
+		<techprintMarketValue>1200</techprintMarketValue>
+		<researchViewX>7</researchViewX>
+		<researchViewY>4</researchViewY>
+		<heldByFactionCategoryTags>
+			<li>OA_RK_Faction</li>
+		</heldByFactionCategoryTags>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>OA_RK_Basic_Building</defName>
+		<label>Oberonia Aurea basic engineering</label>
+		<description>Study the basics of Oberonia Aurea engineering. Unlocks varies structures, including "Oberoia Aurea thermostat".</description>
+		<tab>RatkinTech</tab>
+		<baseCost>800</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>OA_RK_Electrical_System</li>
+		</prerequisites>
+		<researchViewX>7</researchViewX>
+		<researchViewY>4.5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>OA_RK_Constant_Temperature_Hydroponics</defName>
+		<label>Oberonia Aurea Complex Machinery</label>
+		<description>Research a series of complex mechanical equipment for the Oberonia Aurea , unlock a series of equipment such as the Oberonia Aurea constant temperature hydroponic incubator, the Oberonia Aurea optical research platform, and the Oberonia Aurea tip analysis platform.</description>
+		<tab>RatkinTech</tab>
+		<baseCost>2500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>OA_RK_Basic_Building</li>
+			<li>MicroelectronicsBasics</li>
+		</prerequisites>
+		<researchViewX>8</researchViewX>
+		<researchViewY>4.5</researchViewY>
+	</ResearchProjectDef>
+
+	<!--ResearchProjectDef>
+		<defName>OA_RK_Constant_Temperature_Hydroponics</defName>
+		<label>Oberonia Aurea basic infrastrutues</label>
+		<description>Research the basic infrastructures of Oberonia Aurea and unlock the "Oberonia Aurea thermostat hydroponic tank", along with a series of buildings characteristic to Oberonia Aurea.</description>
+		<tab>RatkinTech</tab>
+		<baseCost>1500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>OA_RK_Basic_Building</li>
+			<li>Hydroponics</li>
+		</prerequisites>
+		<researchViewX>8</researchViewX>
+		<researchViewY>4.5</researchViewY>
+	</ResearchProjectDef-->
+
+	<ResearchProjectDef>
+		<defName>OA_RK_GunTurrets</defName>
+		<label>Oberonia Aurea Rocket Array</label>
+		<description>Study the rocket grenade defense system of the Oberonia Aurea and unlock the Automatic Rocket Artillery and Rocket Array.</description>
+		<tab>RatkinTech</tab>
+		<baseCost>2500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>HeavyTurrets</li>
+			<li>OA_RK_Constant_Temperature_Hydroponics</li>
+		</prerequisites>
+		<researchViewX>9</researchViewX>
+		<researchViewY>3.5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>OA_RK_Constant_Temperature_Hydroponics_B</defName>
+		<label>Oberonia Aurea Improves Crops</label>
+		<description>Through the agricultural technology and genetic technology of Oberonia Aurea, common crops and Oberonia Aurea flowers are improved to enhance their yield and fertility sensitivity, and corresponding exclusive cultivation cabinets are unlocked.</description>
+		<tab>RatkinTech</tab>
+		<baseCost>1800</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>OA_RK_Constant_Temperature_Hydroponics</li>
+		</prerequisites>
+		<researchViewX>9</researchViewX>
+		<researchViewY>4</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>OA_RK_Cloth_Processing</defName>
+		<label>Oberonia Aurea sewing facilities</label>
+		<description>Study the fabric and textile technology of the Oberonia Aurea , learn about the unique method of extracting synthetic fibers from the Oberonia Aurea Empire, and unlock the Oberonia Aurea Sewing Platform and a series of related sewing equipment.\n(Synthetic fibers need to be refined in refining equipment)</description>
+		<tab>RatkinTech</tab>
+		<baseCost>1800</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>OA_RK_Basic_Building</li>
+		</prerequisites>
+		<researchViewX>8</researchViewX>
+		<researchViewY>5.0</researchViewY>
+	</ResearchProjectDef>
+
+	<!--ResearchProjectDef>
+		<defName>OA_RK_Cloth_Processing</defName>
+		<label>Fabric processing facility</label>
+		<description>Research the fabric production practices in Oberonia Aurea Empire. Unlock the "Fabric finishing facility", which substantially increases the work speed of all kinds of tailor bench.</description>
+		<tab>RatkinTech</tab>
+		<baseCost>1000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>OA_RK_Basic_Building</li>
+		</prerequisites>
+		<researchViewX>8</researchViewX>
+		<researchViewY>5.0</researchViewY>
+	</ResearchProjectDef-->
+
+	<ResearchProjectDef>
+		<defName>OA_RK_EMP_Building</defName>
+		<label>Electronic counter measure</label>
+		<description>Study the research on ECM technology of the Oberonia Aurea Empire and attempt to create corresponding devices. Unlock the "EMP Generator", which can unleash a large-area high-intensity EMP shock.</description>
+		<tab>RatkinTech</tab>
+		<baseCost>2500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>OA_RK_GunTurrets</li>
+			<li>OA_RK_Apparel_E</li>
+		</prerequisites>
+		<researchViewX>12</researchViewX>
+		<researchViewY>3.5</researchViewY>
+		<techprintCount>1</techprintCount>
+		<techprintCommonality>2</techprintCommonality>
+		<techprintMarketValue>1200</techprintMarketValue>
+		<heldByFactionCategoryTags>
+			<li>OA_RK_Faction</li>
+		</heldByFactionCategoryTags>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>OA_RK_Weapon_A</defName>
+		<label>Oberonia Aurea classic weaponry</label>
+		<description>Study the traditional weaponry and the unique uranium round crafting technique of the Oberonia Aurea Empire, unlock the manufacturing of the Oberonia Aurea classic weaponry.</description>
+		<tab>RatkinTech</tab>
+		<baseCost>1600</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>OA_RK_Electrical_System</li>
+		</prerequisites>
+		<hiddenPrerequisites>
+			<li>BlowbackOperation</li>
+		</hiddenPrerequisites>
+		<researchViewX>7</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>OA_RK_Weapon_B</defName>
+		<label>Prototype Blitz weaponry</label>
+		<description>Study the gas operation technology of the Aurea Obrea Empire, unlock the manufacturing of prototype Blitz weapons, and initiate the researches on series of Blitz weapons.</description>
+		<tab>RatkinTech</tab>
+		<baseCost>2250</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>OA_RK_Weapon_A</li>
+			<li>GasOperation</li>
+		</prerequisites>
+		<researchViewX>9</researchViewX>
+		<researchViewY>2</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>OA_RK_Weapon_C</defName>
+		<label>Oberonia Aurea standard Blitz weaponry</label>
+		<description>Study the military iterations of the Oberonic Aurea Empire after First Contact in the Milky Way. Contemplate on the studies of past and visualize the current standard weapon design of the Oberonia Aurea Empire. Unlock Oberonia Aurea style assault weapons such as the Blitz combat rifle.</description>
+		<tab>RatkinTech</tab>
+		<baseCost>3000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>OA_RK_Weapon_B</li>
+		</prerequisites>
+		<hiddenPrerequisites>
+			<li>MicroOptical</li>
+		</hiddenPrerequisites>
+		<researchViewX>10</researchViewX>
+		<researchViewY>2</researchViewY>
+		<techprintCount>1</techprintCount>
+		<techprintCommonality>2</techprintCommonality>
+		<techprintMarketValue>2400</techprintMarketValue>
+		<heldByFactionCategoryTags>
+			<li>OA_RK_Faction</li>
+		</heldByFactionCategoryTags>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>OA_RK_Weapon_D</defName>
+		<label>Oberonia Aurea anti heavy armor weaponry</label>
+		<description>The supercharger of the Oberonia Aurea standard weaponry has been further improved and strengthened, unlocking the "Blitz anti-armor LMG" and "Blitz anti-armor rifle".</description>
+		<tab>RatkinTech</tab>
+		<baseCost>3500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>OA_RK_Weapon_C</li>
+		</prerequisites>
+		<researchViewX>11</researchViewX>
+		<researchViewY>2</researchViewY>
+		<techprintCount>1</techprintCount>
+		<techprintCommonality>1.5</techprintCommonality>
+		<techprintMarketValue>2800</techprintMarketValue>
+		<heldByFactionCategoryTags>
+			<li>OA_RK_Faction</li>
+		</heldByFactionCategoryTags>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>OA_RK_Weapon_G</defName>
+		<label>Advanced Oberonia Aurea standard weaponry</label>
+		<description>Curtail and improve heavy superchargers of the original standard weaponry, unlocking the advanced Blitz combat rifle and advanced Blitz combat SMG.</description>
+		<tab>RatkinTech</tab>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>OA_RK_Weapon_C</li>
+		</prerequisites>
+		<researchViewX>11</researchViewX>
+		<researchViewY>1.5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>OA_RK_Weapon_H</defName>
+		<label>Heavy assault weapons</label>
+		<description>Conduct a series of research on reloading weapons and pressurized chamber technology, unlock reloading assault rifles, reloading assault submachine guns, and recoilless guns for assault operations.</description>
+		<tab>RatkinTech</tab>
+		<baseCost>5000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>OA_RK_Weapon_D</li>
+			<li>OA_RK_Weapon_G</li>
+		</prerequisites>
+		<techprintCount>1</techprintCount>
+		<techprintCommonality>1.2</techprintCommonality>
+		<techprintMarketValue>3200</techprintMarketValue>
+		<researchViewX>12</researchViewX>
+		<researchViewY>2</researchViewY>
+		<heldByFactionCategoryTags>
+			<li>OA_RK_Faction</li>
+		</heldByFactionCategoryTags>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>OA_RK_Weapon_E</defName>
+		<label>Unstable charge technology</label>
+		<description>On the basis of common charge technology, develop the more ferocious and unwieldy unstable charge technology. Unlock the Unstable charge support rifle.</description>
+		<tab>RatkinTech</tab>
+		<baseCost>4500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>OA_RK_Weapon_D</li>
+			<li>OA_RK_Apparel_E</li>
+		</prerequisites>
+		<researchViewX>12</researchViewX>
+		<researchViewY>3</researchViewY>
+		<techprintCount>1</techprintCount>
+		<techprintCommonality>1.2</techprintCommonality>
+		<techprintMarketValue>3200</techprintMarketValue>
+		<heldByFactionCategoryTags>
+			<li>OA_RK_Faction</li>
+		</heldByFactionCategoryTags>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>OA_RK_Weapon_F</defName>
+		<label>Heavy unstable charge weaponry</label>
+		<description>Deeper research on unstable charge technology. Unlock the Unstable charge cluster shooter and Unstable charge rapid-fire launcher.</description>
+		<tab>RatkinTech</tab>
+		<baseCost>7500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>OA_RK_Weapon_E</li>
+			<li>OA_RK_EMP_Building</li>
+		</prerequisites>
+		<researchViewX>13</researchViewX>
+		<researchViewY>3</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>OA_RK_Apparel_A</defName>
+		<label>Oberonia Aurea basic apparel</label>
+		<description>Study the distinctive features and design styles of Oberonia Aurea's clothing. Unlock the basic apparel and accessories in the style of Oberonia Aurea.</description>
+		<tab>RatkinTech</tab>
+		<baseCost>1000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>OA_RK_Cloth_Processing</li>
+			<li>NobleApparel</li>
+		</prerequisites>
+		<researchViewX>9</researchViewX>
+		<researchViewY>5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>OA_RK_Apparel_D</defName>
+		<label>Oberonia Aurea traveler's attire</label>
+		<description>Imitate the apparel of Oberonia Aurea's travelers to create a range of practical clothing and self-defense weapons.</description>
+		<tab>RatkinTech</tab>
+		<baseCost>1500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>OA_RK_Apparel_A</li>
+		</prerequisites>
+		<researchViewX>10</researchViewX>
+		<researchViewY>5.5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>OA_RK_Apparel_B</defName>
+		<label>Oberonia Aurea court apparel</label>
+		<description>Experiment with more complex designs and replicate the court clothing and accessories of the Oberonia Aurea Empire. Unlock the imperial court apparel of Oberonia Aurea.</description>
+		<tab>RatkinTech</tab>
+		<baseCost>2200</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>OA_RK_Apparel_A</li>
+			<li>RoyalApparel</li>
+		</prerequisites>
+		<researchViewX>10</researchViewX>
+		<researchViewY>5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>OA_RK_Apparel_C</defName>
+		<label>Blitz combat uniform</label>
+		<description>Integrate the Oberonia Aurea's design philosophy with modern fiber materials and advanced military doctrines. Unlock Blitz combat uniform and equipment that suit for assualt operations.</description>
+		<tab>RatkinTech</tab>
+		<baseCost>4500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>OA_RK_Apparel_B</li>
+			<li>OA_RK_Apparel_D</li>
+		</prerequisites>
+		<researchViewX>11</researchViewX>
+		<researchViewY>5</researchViewY>
+		<techprintCount>2</techprintCount>
+		<techprintCommonality>1.5</techprintCommonality>
+		<techprintMarketValue>2800</techprintMarketValue>
+		<heldByFactionCategoryTags>
+			<li>OA_RK_Faction</li>
+		</heldByFactionCategoryTags>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>OA_RK_Apparel_E</defName>
+		<label>Oberonia Aurea Technical Uniform</label>
+		<description>Reference and research the technical uniforms of the Oberonia Aurea , unlock the suitable technical uniforms and technical officer weapons for professional work.</description>
+		<tab>RatkinTech</tab>
+		<baseCost>3500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>OA_RK_Apparel_B</li>
+			<li>OA_RK_Constant_Temperature_Hydroponics</li>
+		</prerequisites>
+		<researchViewX>11</researchViewX>
+		<researchViewY>4</researchViewY>
+		<techprintCount>1</techprintCount>
+		<techprintCommonality>1.1</techprintCommonality>
+		<techprintMarketValue>2000</techprintMarketValue>
+		<heldByFactionCategoryTags>
+			<li>OA_RK_Faction</li>
+		</heldByFactionCategoryTags>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>OA_RK_Electrical_System_C</defName>
+		<label>Precision machining of reactors</label>
+		<description>By utilizing new technological tools, further improvements in reactor output can be achieved.</description>
+		<tab>RatkinTech</tab>
+		<baseCost>6000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>OA_RK_Apparel_E</li>
+		</prerequisites>
+		<hiddenPrerequisites>
+			<li>OA_RK_Electrical_System_B</li>
+		</hiddenPrerequisites>
+		<researchViewX>12</researchViewX>
+		<researchViewY>5.5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>OA_RK_Apparel_G</defName>
+		<label>Full protective assault armor</label>
+		<description>Combining armor research and armor technology from some parts of the Milky Way galaxy, we have developed a fully protected assault armor with excellent protective performance.</description>
+		<tab>RatkinTech</tab>
+		<baseCost>5000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>OA_RK_Apparel_C</li>
+		</prerequisites>
+		<researchViewX>12</researchViewX>
+		<researchViewY>5</researchViewY>
+		<techprintCount>1</techprintCount>
+		<techprintCommonality>1.0</techprintCommonality>
+		<techprintMarketValue>3000</techprintMarketValue>
+		<heldByFactionCategoryTags>
+			<li>OA_RK_Faction</li>
+		</heldByFactionCategoryTags>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>OA_RK_Apparel_F</defName>
+		<label>Heavy Assault Armor</label>
+		<description>After combining the latest armor technology with the cutting-edge fabric technology of the Golden Iris Orchid, we have developed a cutting-edge individual armor called "Heavy Assault Armor" for the Golden Iris Orchid.</description>
+		<tab>RatkinTech</tab>
+		<baseCost>7500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>OA_RK_Apparel_G</li>
+			<li>OA_RK_Weapon_H</li>
+		</prerequisites>
+		<researchViewX>13</researchViewX>
+		<researchViewY>5</researchViewY>
+		<techprintCount>2</techprintCount>
+		<techprintCommonality>1.0</techprintCommonality>
+		<techprintMarketValue>3200</techprintMarketValue>
+		<heldByFactionCategoryTags>
+			<li>OA_RK_Faction</li>
+		</heldByFactionCategoryTags>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>OA_RK_Ningguangnuanhui</defName>
+		<label>Warm glow facilities</label>
+		<description>Contemplate on the life support technologies and other related advanced technologies of Oberonia Aurea, reverse-engineer the advanced public facility "Stasis Bright" of the Oberonia Aurea Empire.</description>
+		<tab>RatkinTech</tab>
+		<baseCost>3000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>OA_RK_Constant_Temperature_Hydroponics</li>
+			<li>OA_RK_Apparel_E</li>
+		</prerequisites>
+		<hiddenPrerequisites>
+			<li>OA_RK_Oberonia_Aurea_Research_C</li>
+		</hiddenPrerequisites>
+		<researchViewX>12</researchViewX>
+		<researchViewY>4.5</researchViewY>
+		<techprintCount>1</techprintCount>
+		<techprintCommonality>1</techprintCommonality>
+		<techprintMarketValue>1800</techprintMarketValue>
+		<heldByFactionCategoryTags>
+			<li>OA_RK_Faction</li>
+		</heldByFactionCategoryTags>
+	</ResearchProjectDef>
+
+</Defs>

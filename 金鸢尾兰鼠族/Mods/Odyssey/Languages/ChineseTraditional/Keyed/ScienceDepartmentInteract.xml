@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OARK_ScienceDepartment_GravTechPointsAdded>金鳶尾蘭逆重科技的反推進度點增加{0}點</OARK_ScienceDepartment_GravTechPointsAdded>
+    <OARK_ScienceDepartment_GravTechAssistPointAdded>金鳶尾蘭科研貢獻增加{0}點</OARK_ScienceDepartment_GravTechAssistPointAdded>
+    <OARK_ScienceDepartment_GravTechAssistPointReduced>金鳶尾蘭科研貢獻降低{0}點</OARK_ScienceDepartment_GravTechAssistPointReduced>
+
+    <OARK_GravTechAssistPointsNotEnough>至少需要{0}科研貢獻</OARK_GravTechAssistPointsNotEnough>
+    <OARK_GravTechStageNeedAbove>科研階段{0}完成後解鎖</OARK_GravTechStageNeedAbove>
+
+    <OARK_LetterLabel_GravTechStageUpgrade>科硏階段提升</OARK_LetterLabel_GravTechStageUpgrade>
+    <OARK_Letter_GravTechStageUpgrade>在你的幫助下，科研部成功突破在逆重科技的逆向科研中得到了突破式的進展，如今科研部對逆重科技的研究已經抵達了階段{0}。\n\n而為了表彰你在這段時間里做出的努力，科研部額外為你調撥了{1}科研貢獻。</OARK_Letter_GravTechStageUpgrade>
+
+    <OARK_AccessScienceDepartment>與科研部聯絡</OARK_AccessScienceDepartment>
+    <OARK_AccessScienceDepartmentInfo_Empty>這是一個我們尚未建立聯絡的金鳶尾蘭宮廷部門。他們不像宮廷部那樣全面，也不像工業部那樣存在感強烈，更不像技術部那樣活躍。我們對他們知之甚少。\n\n他們似乎在專註於一項新的科技的研發。\n\n現在我們與科技部沒有任何交集。\n或許我們需要做些什麽來獲取她們的註意。</OARK_AccessScienceDepartmentInfo_Empty>
+
+    <!-- 描述第二段 特殊的一條 -->
+    <OARK_ScienceDepartmentProgress_Assist>{0}從科研官手里接過了電話，向你打了個招呼，並和你說著她近期的見聞。</OARK_ScienceDepartmentProgress_Assist>
+
+    <!-- 描述第三段 特殊的一條 -->
+    <OARK_GravTechPointsStage_I>逆重科技的累積反推科技點：{0}/{1}（階段一）</OARK_GravTechPointsStage_I>
+    <OARK_GravTechPointsStage_II>逆重科技的累積反推科技點：{0}/{1}（階段二）</OARK_GravTechPointsStage_II>
+    <OARK_GravTechPointsStage_III>逆重科技的累積反推科技點：{0}/{1}（階段三）</OARK_GravTechPointsStage_III>
+    <OARK_GravTechPointsStage_Max>逆重科技的累積反推科技點：{0}（學無止境）</OARK_GravTechPointsStage_Max>
+
+    <OARK_PlayerTechPoints>你累積貢獻的反推進度點：{0}</OARK_PlayerTechPoints>
+    <OARK_GravTechAssistPoints>你擁有的科研貢獻：{0}</OARK_GravTechAssistPoints>
+
+    <OARK_QuestDonateGravlitePanel>向{0}贈予逆重版輔助研究</OARK_QuestDonateGravlitePanel>
+    <OARK_QuestDonateGravlitePanelConfirm>向{0}贈予了{1}逆重版，這令科研部的反推進度提升了{2}，並為你提供了{3}科研貢獻</OARK_QuestDonateGravlitePanelConfirm>
+
+    <!-- 按鈕及後續界面 -->
+    <OARK_AcquireDataBeacon>獲取逆重信標按鈕</OARK_AcquireDataBeacon>
+    <OARK_AcquireDataBeaconConfirm>獲取逆重信標 確定界面</OARK_AcquireDataBeaconConfirm>
+
+    <OARK_DonateGravcore>向科研部贈送一個逆重核心</OARK_DonateGravcore>
+    <OARK_DonateGravcoreConfirm>你向科研部提供了一個逆重核心，以方便科研部的研究，這令科研部的反推進度提升了{0}反推科技點。\n\n為了表達對你的行為的感謝，科研部總管為你劃撥了{1}科研貢獻，並向你認真的道謝。</OARK_DonateGravcoreConfirm>
+
+    <OARK_DonateGravlitePanel>向科研部贈送逆重板</OARK_DonateGravlitePanel>
+    <OARK_DonateGravlitePanelInfo>你可以向科研部提供指定數量的逆重板，以促進科研部的研究進展，並獲得新的科研貢獻。</OARK_DonateGravlitePanelInfo>
+    <OARK_DonateGravlitePanelDetail>贈予{0}逆重板</OARK_DonateGravlitePanelDetail>
+    <OARK_DonateGravlitePanelDetailConfirm>你為科研部提供了{0}份逆重板。這令科研部的反推進度提升了{1}反推科技點.\n\n作為對你的行為的答謝，科研官為你劃撥了{2}科研貢獻。</OARK_DonateGravlitePanelDetailConfirm>
+
+    <OARK_SailorAssistance>請求通航部的人員協助</OARK_SailorAssistance>
+    <OARK_SailorAssistanceConfirm>臨時請求一位通航部的侍從協助，協助者將會在30天後離開，亦或者消耗貢獻永久招募。\n\n消耗{0}科技貢獻</OARK_SailorAssistanceConfirm>
+
+    <OARK_ExchangeForSDAssistance>申請科研部的科研協助</OARK_ExchangeForSDAssistance>
+    <OARK_ExchangeForSDAssistanceConfirm>科研部向你投送了一個聯絡裝置。你可以通過這個裝置聯系科研部並獲取當前研究科技的大量相關數據，以提升研究的進度。\n\n本次共消耗{1}點科研貢獻。</OARK_ExchangeForSDAssistanceConfirm>
+
+    <OARK_GravityDistortionBomb>請求投放引力扭曲轟炸</OARK_GravityDistortionBomb>
+    <OARK_GravityDistortionBombConfirmInfo>警告：引力扭曲轟炸將會造成全圖不分敵我的傷害，如果不處於屋頂下將會受到極為嚴重的引力撕裂傷害，就算是屋頂也只能堪堪減免部分傷害，唯一避免受傷的方式只有進入休眠倉。\n\n是否確認投放？</OARK_GravityDistortionBombConfirmInfo>
+    <OARK_GravityDistortionBombConfirm>引力扭曲轟炸已投放，將在5秒後抵達。\n\n警告：請迅速進入休眠艙，或者至少躲避至遮掩之下。</OARK_GravityDistortionBombConfirm>
+
+    <!-- 科研貢獻轉兌 -->
+    <OARK_CovertGTAP>科研貢獻轉兌</OARK_CovertGTAP>
+    <OARK_CovertGTAPInfo>你可以將你已有的科研貢獻兌換成你需要的各項物品，無論是支援點數，白銀，亦或者藍圖與其他稀有設備。</OARK_CovertGTAPInfo>
+
+    <OARK_CovertGTAPToAP>兌換支援點數</OARK_CovertGTAPToAP>
+    <OARK_CovertGTAPToAPInfo>你可以將你的科研貢獻以固定比例轉化為支援點數，以獲取金鳶尾蘭帝國的支持而不再只是科研部的支持。</OARK_CovertGTAPToAPInfo>
+    <OARK_CovertGTAPToAPDetail>{0}科研貢獻 → {1}支援點數</OARK_CovertGTAPToAPDetail>
+    <OARK_CovertGTAPToAPConfirm>已將{0}科技貢獻轉化為{1}帝國貢獻</OARK_CovertGTAPToAPConfirm>
+
+    <OARK_CovertGTAPToSliver>兌換白銀</OARK_CovertGTAPToSliver>
+    <OARK_CovertGTAPToSliverInfo>你可以將你的科研貢獻以固定比例兌換為白銀，來方便你的日常使用。</OARK_CovertGTAPToSliverInfo>
+    <OARK_CovertGTAPToSliverDetail>{0}科研貢獻 → {1}白銀</OARK_CovertGTAPToSliverDetail>
+    <OARK_CovertGTAPToSliverConfirm>已將{0}科技貢獻兌換為{1}白銀。</OARK_CovertGTAPToSliverConfirm>
+
+    <OARK_ExchangeForTechPrint>兌換科技藍圖</OARK_ExchangeForTechPrint>
+    <OARK_ExchangeForTechPrintInfo>你可以使用你的科研貢獻兌換金鳶尾蘭帝國的科技藍圖。得益於科研部開放的風氣與對合作者的友好態度，在這里兌換藍圖不會有正常情況下的限製。</OARK_ExchangeForTechPrintInfo>
+    <OARK_ExchangeForTechPrintDetail>{0}：{1}科技貢獻</OARK_ExchangeForTechPrintDetail>
+    <OARK_ExchangeForTechPrintConfirm>已消耗{1}兌換{0}科技藍圖。</OARK_ExchangeForTechPrintConfirm>
+
+    <OARK_ExchangeForSpecialEquipment>兌換特殊設備</OARK_ExchangeForSpecialEquipment>
+    <OARK_ExchangeForSpecialEquipmentInfo>你可以使用你的科研貢獻兌換那些科研部用不到的特殊設備。由於它們的存量是如此之多，且對金鳶尾蘭帝國而言意義不大，因此完全不需要擔心供應不足的情況。</OARK_ExchangeForSpecialEquipmentInfo>
+    <OARK_ExchangeForSpecialEquipmentDetail>{0}：{1}科技貢獻</OARK_ExchangeForSpecialEquipmentDetail>
+    <OARK_ExchangeForSpecialEquipmentConfirm>已消耗{1}科技貢獻兌換{0}。</OARK_ExchangeForSpecialEquipmentConfirm>
+
+</LanguageData>

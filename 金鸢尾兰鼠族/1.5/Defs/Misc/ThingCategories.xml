@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <ThingCategoryDef>
+        <defName>OARatkin_Apparel</defName>
+        <label>OARatkin apparel</label>
+        <parent>RK_Apparel</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+        <defName>OARatkin_Armor</defName>
+        <label>OARatkin armor</label>
+        <parent>RK_Apparel</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+        <defName>OARatkin_Headgear</defName>
+        <label>OARatkin headgear</label>
+        <parent>RK_Headgear</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+        <defName>OARatkin_ArmorHeadgear</defName>
+        <label>OARatkin armor headgear</label>
+        <parent>RK_Headgear</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+        <defName>OARatkin_Utility</defName>
+        <label>OARatkin utility</label>
+        <parent>RK_Apparel</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+        <defName>OARatkin_WeaponsMelee</defName>
+        <label>OARatkin melee weapons</label>
+        <parent>WeaponsMelee</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+        <defName>OARatkin_WeaponsRanged</defName>
+        <label>OARatkin ranged weapons</label>
+        <parent>WeaponsRanged</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+        <defName>OARatkin_FoodMeals</defName>
+        <label>OARatkin meals</label>
+        <parent>FoodMeals</parent>
+		<iconPath>Item/Oberonia_Aurea_Chanwu_AB</iconPath>
+    </ThingCategoryDef>
+
+</Defs>

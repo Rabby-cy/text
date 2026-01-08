@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/FactionDef[defName = "OA_RK_Faction"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationSequence">
+    <operations>
+	
+    <li Class="PatchOperationAdd">
+      <success>Always</success>
+      <xpath>/Defs/FactionDef[defName = "Empire"]/permanentEnemyToEveryoneExcept</xpath>
+      <value>
+        <li>OA_RK_Faction</li>
+      </value>
+    </li>
+	
+    </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/FactionDef[defName = "OA_RK_PlayerFaction"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationSequence">
+    <operations>
+	
+    <li Class="PatchOperationAdd">
+      <success>Always</success>
+      <xpath>/Defs/FactionDef[defName = "Empire"]/permanentEnemyToEveryoneExcept</xpath>
+      <value>
+        <li>OA_RK_PlayerFaction</li>
+      </value>
+    </li>
+	
+    </operations>
+    </match>
+  </Operation>
+</Patch>

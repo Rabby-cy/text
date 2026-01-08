@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="BodyPartProstheticMakeableBase">
+	<defName>Kiiro_ArtificialTail</defName>
+	<label>kiiro artificial tail</label>
+	<description>An artificial tail.</description>
+	<descriptionHyperlinks>
+	  <RecipeDef>Kiiro_InstallArtificialTail</RecipeDef>
+	</descriptionHyperlinks>
+	<techLevel>Medieval</techLevel>
+	<costList>
+		<Steel>10</Steel>
+		<Cloth>25</Cloth>
+	</costList>
+	<statBases>
+		<WorkToMake>8400</WorkToMake>
+		<Mass>0.1</Mass>
+	</statBases>
+</ThingDef>
+
+<ThingDef ParentName="BodyPartBionicBase">
+	<defName>Kiiro_BionicTail</defName>
+	<label>kiiro bionic tail</label>
+	<description>A bionic tail.</description>
+	<descriptionHyperlinks>
+	  <RecipeDef>Kiiro_InstallBionicTail</RecipeDef>
+	</descriptionHyperlinks>
+	<techLevel>Industrial</techLevel>
+	<costList>
+		<Steel>25</Steel>
+		<Plasteel>20</Plasteel>
+		<ComponentIndustrial>12</ComponentIndustrial>
+		<DevilstrandCloth>20</DevilstrandCloth>
+	</costList>
+	<statBases>
+		<Mass>0.8</Mass>
+	</statBases>
+</ThingDef>
+
+</Defs>

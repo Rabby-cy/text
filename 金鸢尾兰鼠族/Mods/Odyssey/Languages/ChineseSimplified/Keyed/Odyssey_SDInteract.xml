@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OARK_ScienceDepartment_GravTechPointsAdded>金鸢尾兰逆重科技的反推进度点增加{0}点</OARK_ScienceDepartment_GravTechPointsAdded>
+    <OARK_ScienceDepartment_GravTechAssistPointAdded>金鸢尾兰科研贡献增加{0}点</OARK_ScienceDepartment_GravTechAssistPointAdded>
+    <OARK_ScienceDepartment_GravTechAssistPointReduced>金鸢尾兰科研贡献降低{0}点</OARK_ScienceDepartment_GravTechAssistPointReduced>
+
+    <OARK_GravTechAssistPointsNotEnough>至少需要{0}科研贡献</OARK_GravTechAssistPointsNotEnough>
+    <OARK_GravTechStageNeedAbove>科研阶段{0}完成后解锁</OARK_GravTechStageNeedAbove>
+
+    <OARK_LetterLabel_GravTechStageUpgrade>科研阶段提升</OARK_LetterLabel_GravTechStageUpgrade>
+    <OARK_Letter_GravTechStageUpgrade>在你的帮助下，科研部成功突破在逆重科技的逆向科研中得到了突破式的进展，如今科研部对逆重科技的研究已经抵达了阶段{0}。\n\n而为了表彰你在这段时间里做出的努力，科研部额外为你调拨了{1}科研贡献。</OARK_Letter_GravTechStageUpgrade>
+
+    <OARK_AccessScienceDepartment>与科研部联络</OARK_AccessScienceDepartment>
+    <OARK_AccessScienceDepartmentInfo_Empty>这是一个我们尚未建立联络的金鸢尾兰宫廷部门。他们不像宫廷部那样全面，也不像工业部那样存在感强烈，更不像技术部那样活跃。我们对他们知之甚少。\n\n他们似乎在专注于一项新的科技的研发。\n\n现在我们与科技部没有任何交集。\n或许我们需要做些什么来获取她们的注意。</OARK_AccessScienceDepartmentInfo_Empty>
+
+    <!-- 描述第二段 特殊的一条 -->
+    <OARK_ScienceDepartmentProgress_Assist>{0}从科研官手里接过了电话，向你打了个招呼，并和你说着她近期的见闻。</OARK_ScienceDepartmentProgress_Assist>
+
+    <!-- 描述第三段 特殊的一条 -->
+    <OARK_GravTechPointsStage_I>逆重科技的累积反推科技点：{0}/{1}（阶段一）</OARK_GravTechPointsStage_I>
+    <OARK_GravTechPointsStage_II>逆重科技的累积反推科技点：{0}/{1}（阶段二）</OARK_GravTechPointsStage_II>
+    <OARK_GravTechPointsStage_III>逆重科技的累积反推科技点：{0}/{1}（阶段三）</OARK_GravTechPointsStage_III>
+    <OARK_GravTechPointsStage_Max>逆重科技的累积反推科技点：{0}（学无止境）</OARK_GravTechPointsStage_Max>
+
+    <OARK_PlayerTechPoints>你累积贡献的反推进度点：{0}</OARK_PlayerTechPoints>
+    <OARK_GravTechAssistPoints>你拥有的科研贡献：{0}</OARK_GravTechAssistPoints>
+
+    <!-- 按钮及后续界面 -->
+    <OARK_AcquireDataBeacon>获取科研部信标</OARK_AcquireDataBeacon>
+    <OARK_AcquireDataBeaconConfirm>你可以向科研部申请一个新的科研部信标。当科研部信标开启时，强数据流会导致你的每次升空与降落都将遭遇机械族的袭击，但同时也会为科研部提供大量宝贵的实时数据。\n\n由于科研部信标的目的是协助科研部工作，因此这并不需要花费你的任何钱财。然而科研部信标的复杂度导致它损毁后也需要相当长的时间才能再次补足。</OARK_AcquireDataBeaconConfirm>
+
+    <OARK_DonateGravcore>向科研部赠送一个逆重核心</OARK_DonateGravcore>
+    <OARK_DonateGravcoreConfirm>你向科研部提供了一个逆重核心，以方便科研部的研究，这令科研部的反推进度提升了{0}反推科技点。\n\n为了表达对你的行为的感谢，科研部总管为你划拨了{1}科研贡献，并向你认真的道谢。</OARK_DonateGravcoreConfirm>
+
+    <OARK_DonateGravlitePanel>向科研部赠送逆重板</OARK_DonateGravlitePanel>
+    <OARK_DonateGravlitePanelInfo>你可以向科研部提供指定数量的逆重板，以促进科研部的研究进展，并获得新的科研贡献。</OARK_DonateGravlitePanelInfo>
+    <OARK_DonateGravlitePanelDetail>赠予{0}逆重板</OARK_DonateGravlitePanelDetail>
+    <OARK_DonateGravlitePanelDetailConfirm>你为科研部提供了{0}份逆重板。这令科研部的反推进度提升了{1}反推科技点.\n\n作为对你的行为的答谢，科研官为你划拨了{2}科研贡献。</OARK_DonateGravlitePanelDetailConfirm>
+
+    <OARK_QuestDonateGravlitePanel>向{0}赠予逆重版辅助研究</OARK_QuestDonateGravlitePanel>
+    <OARK_QuestDonateGravlitePanelConfirm>向{0}赠予了{1}逆重版，这令科研部的反推进度提升了{2}，并为你提供了{3}科研贡献</OARK_QuestDonateGravlitePanelConfirm>
+
+    <OARK_SailorAssistance>请求通航部的人员协助</OARK_SailorAssistance>
+    <OARK_SailorAssistanceConfirm>临时请求一位通航部的侍从协助，协助者将会在30天后离开，亦或者消耗贡献永久招募。\n\n消耗{0}科技贡献</OARK_SailorAssistanceConfirm>
+
+    <OARK_ExchangeForSDAssistance>申请科研部的科研协助</OARK_ExchangeForSDAssistance>
+    <OARK_ExchangeForSDAssistanceConfirm>科研部向你投送了一个联络装置。你可以通过这个装置联系科研部并获取当前研究科技的大量相关数据，以提升研究的进度。\n\n本次共消耗{1}点科研贡献。</OARK_ExchangeForSDAssistanceConfirm>
+
+    <OARK_GravityDistortionBomb>请求投放引力扭曲轰炸</OARK_GravityDistortionBomb>
+    <OARK_GravityDistortionBombConfirmInfo>警告：引力扭曲轰炸将会造成全图不分敌我的伤害，如果不处于屋顶下将会受到极为严重的引力撕裂伤害，就算是屋顶也只能堪堪减免部分伤害，唯一避免受伤的方式只有进入休眠仓。\n\n是否确认投放？</OARK_GravityDistortionBombConfirmInfo>
+    <OARK_GravityDistortionBombConfirm>引力扭曲轰炸已投放，将在5秒后抵达。\n\n警告：请迅速进入休眠舱，或者至少躲避至遮掩之下。</OARK_GravityDistortionBombConfirm>
+
+    <!-- 科研贡献转兑 -->
+    <OARK_CovertGTAP>科研贡献转兑</OARK_CovertGTAP>
+    <OARK_CovertGTAPInfo>你可以将你已有的科研贡献兑换成你需要的各项物品，无论是支援点数，白银，亦或者蓝图与其他稀有设备。</OARK_CovertGTAPInfo>
+
+    <OARK_CovertGTAPToAP>兑换支援点数</OARK_CovertGTAPToAP>
+    <OARK_CovertGTAPToAPInfo>你可以将你的科研贡献以固定比例转化为支援点数，以获取金鸢尾兰帝国的支持而不再只是科研部的支持。</OARK_CovertGTAPToAPInfo>
+    <OARK_CovertGTAPToAPDetail>{0}科研贡献 → {1}支援点数</OARK_CovertGTAPToAPDetail>
+    <OARK_CovertGTAPToAPConfirm>已将{0}科技贡献转化为{1}帝国贡献</OARK_CovertGTAPToAPConfirm>
+
+    <OARK_CovertGTAPToSliver>兑换白银</OARK_CovertGTAPToSliver>
+    <OARK_CovertGTAPToSliverInfo>你可以将你的科研贡献以固定比例兑换为白银，来方便你的日常使用。</OARK_CovertGTAPToSliverInfo>
+    <OARK_CovertGTAPToSliverDetail>{0}科研贡献 → {1}白银</OARK_CovertGTAPToSliverDetail>
+    <OARK_CovertGTAPToSliverConfirm>已将{0}科技贡献兑换为{1}白银。</OARK_CovertGTAPToSliverConfirm>
+
+    <OARK_ExchangeForTechPrint>兑换科技蓝图</OARK_ExchangeForTechPrint>
+    <OARK_ExchangeForTechPrintInfo>你可以使用你的科研贡献兑换金鸢尾兰帝国的科技蓝图。得益于科研部开放的风气与对合作者的友好态度，在这里兑换蓝图不会有正常情况下的限制。</OARK_ExchangeForTechPrintInfo>
+    <OARK_ExchangeForTechPrintDetail>{0}：{1}科技贡献</OARK_ExchangeForTechPrintDetail>
+    <OARK_ExchangeForTechPrintConfirm>已消耗{1}兑换{0}科技蓝图。</OARK_ExchangeForTechPrintConfirm>
+
+    <OARK_ExchangeForSpecialEquipment>兑换特殊设备</OARK_ExchangeForSpecialEquipment>
+    <OARK_ExchangeForSpecialEquipmentInfo>你可以使用你的科研贡献兑换那些科研部用不到的特殊设备。由于它们的存量是如此之多，且对金鸢尾兰帝国而言意义不大，因此完全不需要担心供应不足的情况。</OARK_ExchangeForSpecialEquipmentInfo>
+    <OARK_ExchangeForSpecialEquipmentDetail>{0}：{1}科技贡献</OARK_ExchangeForSpecialEquipmentDetail>
+    <OARK_ExchangeForSpecialEquipmentConfirm>已消耗{1}科技贡献兑换{0}。</OARK_ExchangeForSpecialEquipmentConfirm>
+
+</LanguageData>

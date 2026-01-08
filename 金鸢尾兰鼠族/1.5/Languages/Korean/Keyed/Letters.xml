@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OARatkin_LetterLabel_NewYearEvent>솔개꽃 축제 편지</OARatkin_LetterLabel_NewYearEvent>
+     <OARatkin_Letter_NewYearEvent>골든 아이리스의 진정한 동맹인 {MAP_label}에게：\n\n솔개꽃 통용 역법에 따르면 요 며칠 안에 솔개꽃 역은 새해에 접어들 것이다.\n과거의 증오는 내려놓고 미래의 조화는 멀지 않다.이 특별한 날, 나는 {FACTION_name} 의 궁정 인원을 대표하여 {MAP_label} 에게 진심 어린 인사와 축복을 보낸다.새로운 한 해 동안 골든 아이리스 제국은 계속 조화로운 세계를 향해 노력할 것이며, 우리는 결국 함께 우리의 유토피아를 창건할 것이다.\n편지에 동봉한 일부 명절 선물은 받아 주시기 바랍니다.\n\n이 외에도 기술부의 시종들은 최근 새로운 설비를 연구해 냈다.그들은 이 작은 큐브가 당신에게 다소 도움이 될 것이라고 생각하기 때문에, 특별히 편지와 함께 동봉하니, 그들이 친구에 대한 호의라고 생각하세요.\n\n새해 복 많이 받으세요.\n\n\n\n{FACTION_name}의{1}\n{LEADER_nameDef}。</OARatkin_Letter_NewYearEvent>
+    
+    <OARatkin_Letter_NewYearEventLate>골든 아이리스의 진정한 동맹인 {MAP_label}에게：\n\n솔개꽃 통용 역법에 따르면 요 며칠 안에 솔개꽃 역은 새해에 접어들 것이다.\n과거의 증오는 내려놓고 미래의 조화는 멀지 않다.이 특별한 날, 나는 {FACTION_name} 의 궁정 인원을 대표하여 {MAP_label} 에게 진심 어린 인사와 축복을 보낸다.새로운 한 해 동안 골든 아이리스 제국은 계속 조화로운 세계를 향해 노력할 것이며, 우리는 결국 함께 우리의 유토피아를 창건할 것이다.\n편지에 동봉한 일부 명절 선물은 받아 주시기 바랍니다.\n\n이 외에도 기술부의 시종들은 최근 새로운 설비를 연구해 냈다.그들은 이 작은 큐브가 당신에게 다소 도움이 될 것이라고 생각하기 때문에, 특별히 편지와 함께 동봉하니, 그들이 친구에 대한 호의라고 생각하세요.\n\n새해 복 많이 받으세요.\n\n\n\n{FACTION_name}의{1}\n{LEADER_nameDef}。</OARatkin_Letter_NewYearEventLate>
+
+</LanguageData>

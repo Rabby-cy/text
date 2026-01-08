@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef>
+    <defName>Kiiro_Make_BabyCatTreat</defName>
+    <label>make kiiro cat treat</label>
+    <description>Make baby cat treat, a nutritionally balanced mash for kiiro babies. While easy to make in large quantities, only kiiro babies appreciate its bland taste and mushy texture.</description>
+    <jobString>Making baby cat treat.</jobString>
+    <workAmount>450</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+            <li>PlantFoodRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>0.2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>FoodRaw</li>
+      </categories>
+      <disallowedCategories>
+        <li>EggsFertilized</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <workSkill>Cooking</workSkill>
+    <products>
+      <Kiiro_BabyCatTreat>10</Kiiro_BabyCatTreat>
+    </products>
+    <displayPriority>1432</displayPriority>
+    <researchPrerequisite>Kiiro_Food</researchPrerequisite>
+    <recipeUsers>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+    </recipeUsers>
+  </RecipeDef>
+
+  <RecipeDef>
+    <defName>Kiiro_Make_BabyCatTreatBulk</defName>
+    <label>make kiiro cat treat x4</label>
+    <description>Make bulk baby cat treat, a nutritionally balanced mash for kiiro babies. While easy to make in large quantities, only kiiro babies appreciate its bland taste and mushy texture.</description>
+    <jobString>Making bulk baby cat treat.</jobString>
+    <workAmount>1800</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+            <li>PlantFoodRaw</li>
+            <li>AnimalProductRaw</li>
+          </categories>
+        </filter>
+        <count>0.8</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>FoodRaw</li>
+      </categories>
+      <disallowedCategories>
+        <li>EggsFertilized</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <workSkill>Cooking</workSkill>
+    <products>
+      <Kiiro_BabyCatTreat>40</Kiiro_BabyCatTreat>
+    </products>
+    <displayPriority>1433</displayPriority>
+    <researchPrerequisite>Kiiro_Food</researchPrerequisite>
+    <recipeUsers>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+    </recipeUsers>
+  </RecipeDef>
+
+
+
+</Defs>

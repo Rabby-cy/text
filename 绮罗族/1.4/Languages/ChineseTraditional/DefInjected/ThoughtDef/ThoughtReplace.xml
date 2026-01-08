@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- 朋友/仇人 -->
+
+  <Kiiro_PawnWithGoodOpinionDied.stages.0.label>我的朋友 {0} 死去了</Kiiro_PawnWithGoodOpinionDied.stages.0.label>
+  <Kiiro_PawnWithGoodOpinionDied.stages.0.description>你不應該是這個結局。</Kiiro_PawnWithGoodOpinionDied.stages.0.description>
+
+  <Kiiro_PawnWithBadOpinionDied.stages.0.label>我的仇人 {0} 死去了</Kiiro_PawnWithBadOpinionDied.stages.0.label>
+  <Kiiro_PawnWithBadOpinionDied.stages.0.description>我應該...感到高興么......</Kiiro_PawnWithBadOpinionDied.stages.0.description>
+
+
+  <!-- 家庭成員死亡 -->
+
+  <Kiiro_MySonDied.stages.0.label>我的兒子 {0} 離我而去了</Kiiro_MySonDied.stages.0.label>
+  <Kiiro_MySonDied.stages.0.description>我的孩子......</Kiiro_MySonDied.stages.0.description>
+
+  <Kiiro_MyDaughterDied.stages.0.label>我的女兒 {0} 離我而去了</Kiiro_MyDaughterDied.stages.0.label>
+  <Kiiro_MyDaughterDied.stages.0.description>我的孩子......</Kiiro_MyDaughterDied.stages.0.description>
+
+  <Kiiro_MyHusbandDied.stages.0.label>我的丈夫 {0} 離我而去了</Kiiro_MyHusbandDied.stages.0.label>
+  <Kiiro_MyHusbandDied.stages.0.description>不要丟下我一個人......</Kiiro_MyHusbandDied.stages.0.description>
+
+  <Kiiro_MyWifeDied.stages.0.label>我的妻子 {0} 離我而去了</Kiiro_MyWifeDied.stages.0.label>
+  <Kiiro_MyWifeDied.stages.0.description>不要丟下我一個人......</Kiiro_MyWifeDied.stages.0.description>
+
+  <Kiiro_MyFianceDied.stages.0.label>我的未婚夫 {0} 離我而去了</Kiiro_MyFianceDied.stages.0.label>
+  <Kiiro_MyFianceDied.stages.0.description>不要丟下我一個人......</Kiiro_MyFianceDied.stages.0.description>
+
+  <Kiiro_MyFianceeDied.stages.0.label>我的未婚妻 {0} 離我而去了</Kiiro_MyFianceeDied.stages.0.label>
+  <Kiiro_MyFianceeDied.stages.0.description>不要丟下我一個人......</Kiiro_MyFianceeDied.stages.0.description>
+
+  <Kiiro_MyLoverDied.stages.0.label>我的愛人 {0} 離我而去了</Kiiro_MyLoverDied.stages.0.label>
+  <Kiiro_MyLoverDied.stages.0.description>我都沒來得及對你說「我愛你」......</Kiiro_MyLoverDied.stages.0.description>
+
+  <Kiiro_MyBrotherDied.stages.0.label>我的兄弟 {0} 死去了</Kiiro_MyBrotherDied.stages.0.label>
+  <Kiiro_MyBrotherDied.stages.0.description>我的兄弟死去了...我的手足...</Kiiro_MyBrotherDied.stages.0.description>
+
+  <Kiiro_MySisterDied.stages.0.label>我的姐妹 {0} 死去了</Kiiro_MySisterDied.stages.0.label>
+  <Kiiro_MySisterDied.stages.0.description>我的姐妹死去了...我的手足...</Kiiro_MySisterDied.stages.0.description>
+
+  <Kiiro_MyGrandchildDied.stages.0.label>我的孫兒 {0} 離我而去了</Kiiro_MyGrandchildDied.stages.0.label>
+  <Kiiro_MyGrandchildDied.stages.0.description>我的孫兒死去了...</Kiiro_MyGrandchildDied.stages.0.description>
+
+  <Kiiro_MyFatherDied.stages.0.label>我的父親 {0} 離我而去了</Kiiro_MyFatherDied.stages.0.label>
+  <Kiiro_MyFatherDied.stages.0.description>爸爸......</Kiiro_MyFatherDied.stages.0.description>
+
+  <Kiiro_MyMotherDied.stages.0.label>我的母親 {0} 離我而去了</Kiiro_MyMotherDied.stages.0.label>
+  <Kiiro_MyMotherDied.stages.0.description>媽媽......</Kiiro_MyMotherDied.stages.0.description>
+
+  <Kiiro_MyNieceDied.stages.0.label>我的侄女 {0} 死去了</Kiiro_MyNieceDied.stages.0.label>
+  <Kiiro_MyNieceDied.stages.0.description>我的侄女去世了。她還那樣年輕......</Kiiro_MyNieceDied.stages.0.description>
+
+  <Kiiro_MyNephewDied.stages.0.label>我的侄子 {0} 死去了</Kiiro_MyNephewDied.stages.0.label>
+  <Kiiro_MyNephewDied.stages.0.description>我的侄子去世了。他還那樣年輕......</Kiiro_MyNephewDied.stages.0.description>
+
+  <Kiiro_MyHalfSiblingDied.stages.0.label>我的手足 {0} 死去了</Kiiro_MyHalfSiblingDied.stages.0.label>
+  <Kiiro_MyHalfSiblingDied.stages.0.description>我的手足去世了。</Kiiro_MyHalfSiblingDied.stages.0.description>
+
+  <Kiiro_MyAuntDied.stages.0.label>我的姑媽 {0} 死去了</Kiiro_MyAuntDied.stages.0.label>
+  <Kiiro_MyAuntDied.stages.0.description>我的姑媽去世了。</Kiiro_MyAuntDied.stages.0.description>
+
+  <Kiiro_MyUncleDied.stages.0.label>我的叔伯 {0} 死去了</Kiiro_MyUncleDied.stages.0.label>
+  <Kiiro_MyUncleDied.stages.0.description>我的叔伯去世了。</Kiiro_MyUncleDied.stages.0.description>
+
+  <Kiiro_MyGrandparentDied.stages.0.label>我的祖父母 {0} 離我而去了</Kiiro_MyGrandparentDied.stages.0.label>
+  <Kiiro_MyGrandparentDied.stages.0.description>我的祖父母去世了。</Kiiro_MyGrandparentDied.stages.0.description>
+
+  <Kiiro_MyCousinDied.stages.0.label>我的堂兄弟 {0} 死去了</Kiiro_MyCousinDied.stages.0.label>
+  <Kiiro_MyCousinDied.stages.0.description>我的堂兄弟去世了。</Kiiro_MyCousinDied.stages.0.description>
+
+  <Kiiro_MyKinDied.stages.0.label>我的親人 {0} 離我而去了</Kiiro_MyKinDied.stages.0.label>
+  <Kiiro_MyKinDied.stages.0.description>我的親人死去了。</Kiiro_MyKinDied.stages.0.description>
+
+</LanguageData>

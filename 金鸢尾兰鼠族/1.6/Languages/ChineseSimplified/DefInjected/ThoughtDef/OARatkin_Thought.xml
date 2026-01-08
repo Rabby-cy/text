@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <OA_RK_Tea_Thought.stages.0.label>花茶清心</OA_RK_Tea_Thought.stages.0.label>
+  <OA_RK_Tea_Thought.stages.0.description>这种放空的感觉，真的让我很舒适...</OA_RK_Tea_Thought.stages.0.description>
+
+  <OA_RK_thought_SkyWarmth.stages.0.label>暖辉</OA_RK_thought_SkyWarmth.stages.0.label>
+  <OA_RK_thought_SkyWarmth.stages.0.description>这温暖的感觉是如此舒适。</OA_RK_thought_SkyWarmth.stages.0.description>
+
+  <OA_RK_HaveLeader.stages.0.label>拥有领袖</OA_RK_HaveLeader.stages.0.label>
+  <OA_RK_HaveLeader.stages.0.description>有指引总比漫无目的的闲逛好。</OA_RK_HaveLeader.stages.0.description>
+
+  <OA_RK_HaveLeader.stages.1.label>拥有领袖</OA_RK_HaveLeader.stages.1.label>
+  <OA_RK_HaveLeader.stages.1.description>我相信领袖会带领我们走向成功。</OA_RK_HaveLeader.stages.1.description>
+
+  <OA_RK_HaveLeader.stages.2.label>缺少领袖</OA_RK_HaveLeader.stages.2.label>
+  <OA_RK_HaveLeader.stages.2.description>没有领袖的指引，我们真的能够成功吗..</OA_RK_HaveLeader.stages.2.description>
+
+  <OA_RK_HaveLeader.stages.3.label>缺少领袖</OA_RK_HaveLeader.stages.3.label>
+  <OA_RK_HaveLeader.stages.3.description>我们必须要有人来指引我们找到正确的方向！</OA_RK_HaveLeader.stages.3.description>
+
+  <OA_RK_HaveOutstandingLeader.stages.0.label>拥有能力出众的领袖</OA_RK_HaveOutstandingLeader.stages.0.label>
+  <OA_RK_HaveOutstandingLeader.stages.0.description>有这样一位优秀的人来领导我们，实在是一件幸运的事情。</OA_RK_HaveOutstandingLeader.stages.0.description>
+
+  <OA_RK_HaveOutstandingLeader.stages.1.label>拥有能力出众的领袖</OA_RK_HaveOutstandingLeader.stages.1.label>
+  <OA_RK_HaveOutstandingLeader.stages.1.description>领袖的能力是如此优秀，以至于我感觉只要按照领袖的安排去做，那么一切都会好起来的。</OA_RK_HaveOutstandingLeader.stages.1.description>
+
+  <OA_RK_LeaderDowned.stages.0.label>领袖倒下</OA_RK_LeaderDowned.stages.0.label>
+  <OA_RK_LeaderDowned.stages.0.description>领袖倒下了...这可不是什么好事。</OA_RK_LeaderDowned.stages.0.description>
+
+  <OA_RK_LeaderDowned.stages.1.label>领袖倒下</OA_RK_LeaderDowned.stages.1.label>
+  <OA_RK_LeaderDowned.stages.1.description>我们不能失去领袖...希望一定不要出现什么意外...</OA_RK_LeaderDowned.stages.1.description>
+
+  <OA_RK_LeaderOpinion.stages.1.label>领袖崇拜</OA_RK_LeaderOpinion.stages.1.label>
+
+  <OA_RK_LeaderOpinion.stages.0.label>尊敬领袖</OA_RK_LeaderOpinion.stages.0.label>
+
+  <OA_RK_TraitOpinionInMeme.stages.0.label>善良（文化认可）</OA_RK_TraitOpinionInMeme.stages.0.label>
+
+  <OA_RK_TraitOpinionInMeme1.stages.0.label>直来直往（文化否定）</OA_RK_TraitOpinionInMeme1.stages.0.label>
+
+  <OA_RK_TraitOpinionInMeme2.stages.0.label>嗜血（文化否定）</OA_RK_TraitOpinionInMeme2.stages.0.label>
+
+  <OA_RK_TraitOpinionInMeme3.stages.0.label>心理变态（文化否定）</OA_RK_TraitOpinionInMeme3.stages.0.label>
+
+  <OA_RK_TraitOpinionInMeme4.stages.0.label>食人者（文化否定）</OA_RK_TraitOpinionInMeme4.stages.0.label>
+
+  <RK_OA_Social.stages.0.label>孤独</RK_OA_Social.stages.0.label>
+  <RK_OA_Social.stages.0.description>好孤独的感觉...这种孤独感让我感觉很不安。</RK_OA_Social.stages.0.description>
+
+  <RK_OA_Social.stages.1.label>小群体</RK_OA_Social.stages.1.label>
+  <RK_OA_Social.stages.1.description>这样小的团体是很难成功的...</RK_OA_Social.stages.1.description>
+
+  <RK_OA_Social.stages.2.label>令人安心的团体</RK_OA_Social.stages.2.label>
+  <RK_OA_Social.stages.2.description>无论如何，起码我的同伴们都在身边。</RK_OA_Social.stages.2.description>
+
+  <RK_OA_Social.stages.3.label>繁荣的大家庭</RK_OA_Social.stages.3.label>
+  <RK_OA_Social.stages.3.description>真是令人安心的大家庭啊。</RK_OA_Social.stages.3.description>
+
+  <OA_RK_Chanwu_F_Thought.stages.0.label>摄入浓缩液</OA_RK_Chanwu_F_Thought.stages.0.label>
+  <OA_RK_Chanwu_F_Thought.stages.0.description>头好晕，呼吸也很难受，而且我感觉我的身体里面像是在被灼烧一样！</OA_RK_Chanwu_F_Thought.stages.0.description>
+
+  <Oberonia_Aurea_Chanwu_A_Thought.stages.0.label>享用了炒花饼</Oberonia_Aurea_Chanwu_A_Thought.stages.0.label>
+  <Oberonia_Aurea_Chanwu_A_Thought.stages.0.description>它的味道很棒，但我觉得还可以再好一点。</Oberonia_Aurea_Chanwu_A_Thought.stages.0.description>
+
+  <Oberonia_Aurea_Chanwu_B_Thought.stages.0.label>享用了花饼</Oberonia_Aurea_Chanwu_B_Thought.stages.0.label>
+  <Oberonia_Aurea_Chanwu_B_Thought.stages.0.description>这就是我一直追求的美味！好吃！</Oberonia_Aurea_Chanwu_B_Thought.stages.0.description>
+
+  <Oberonia_Aurea_Chanwu_C_Thought.stages.0.label>享用了莓果花饼</Oberonia_Aurea_Chanwu_C_Thought.stages.0.label>
+  <Oberonia_Aurea_Chanwu_C_Thought.stages.0.description>这种甜腻而幸福的味道，简直能够让我忘掉所有烦恼..</Oberonia_Aurea_Chanwu_C_Thought.stages.0.description>
+
+  <Oberonia_Aurea_Chanwu_AA_Thought.stages.0.label>悠闲的享用了炸花丸</Oberonia_Aurea_Chanwu_AA_Thought.stages.0.label>
+  <Oberonia_Aurea_Chanwu_AA_Thought.stages.0.description>难得的美味，悠闲与惬意。如果能一直这样下去就好了。</Oberonia_Aurea_Chanwu_AA_Thought.stages.0.description>
+
+  <Oberonia_Aurea_Chanwu_AB_Thought.stages.0.label>享用了花糕</Oberonia_Aurea_Chanwu_AB_Thought.stages.0.label>
+  <Oberonia_Aurea_Chanwu_AB_Thought.stages.0.description>我喜欢这种软糯又略带甜味的味道。</Oberonia_Aurea_Chanwu_AB_Thought.stages.0.description>
+
+  <Oberonia_Aurea_Chanwu_AC_Thought.stages.0.label>享用了流心花糕</Oberonia_Aurea_Chanwu_AC_Thought.stages.0.label>
+  <Oberonia_Aurea_Chanwu_AC_Thought.stages.0.description>这无可挑剔的口感，简直是糯与甜的完美结合！</Oberonia_Aurea_Chanwu_AC_Thought.stages.0.description>
+
+
+  <OA_RK_Thought_ColdAdaptation.stages.0.label>寒冷适宜</OA_RK_Thought_ColdAdaptation.stages.0.label>
+  <OA_RK_Thought_ColdAdaptation.stages.0.description>由于寒冷刺激了生理性反应，导致产生了微弱的舒适心情。</OA_RK_Thought_ColdAdaptation.stages.0.description>
+
+
+  <OA_RK_Thought_HotAdaptation.stages.0.label>炎热适宜</OA_RK_Thought_HotAdaptation.stages.0.label>
+  <OA_RK_Thought_HotAdaptation.stages.0.description>由于炎热刺激了生理性反应，导致产生了微弱的舒适心情。</OA_RK_Thought_HotAdaptation.stages.0.description>
+
+  <OA_RK_FeelTheSnow_Like.stages.0.label>雪景（喜爱）</OA_RK_FeelTheSnow_Like.stages.0.label>
+  <OA_RK_FeelTheSnow_Like.stages.0.description>雪在轻轻的拥抱着我与这个世界。</OA_RK_FeelTheSnow_Like.stages.0.description>
+
+  <OA_RK_FeelTheSnow_Discomfort.stages.0.label>雪景（不适）</OA_RK_FeelTheSnow_Discomfort.stages.0.label>
+  <OA_RK_FeelTheSnow_Discomfort.stages.0.description>这种下雪的感觉让我感觉有点讨厌。</OA_RK_FeelTheSnow_Discomfort.stages.0.description>
+
+  <OA_RK_FeelTheSnow_Hate.stages.0.label>雪景（厌恶）</OA_RK_FeelTheSnow_Hate.stages.0.label>
+  <OA_RK_FeelTheSnow_Hate.stages.0.description>我讨厌这些雪，它们就像贪婪的野兽一样想要抹去我们的痕迹。</OA_RK_FeelTheSnow_Hate.stages.0.description>
+
+  <OA_RK_ResponsibilityConstraints.stages.0.label>责任心的约束</OA_RK_ResponsibilityConstraints.stages.0.label>
+  <OA_RK_ResponsibilityConstraints.stages.0.description>我不愿成为其他人的累赘。</OA_RK_ResponsibilityConstraints.stages.0.description>
+
+  <OA_RK_Atonement.stages.0.label>苦痛的赎罪</OA_RK_Atonement.stages.0.label>
+  <OA_RK_Atonement.stages.0.description>这种痛苦是我注定需要背负的罪孽，我必须去忍受它。</OA_RK_Atonement.stages.0.description>
+
+  <OA_RK_SandWichD_Thought.stages.0.label>沉重的装甲</OA_RK_SandWichD_Thought.stages.0.label>
+  <OA_RK_SandWichD_Thought.stages.0.description>见鬼！这个东西几乎要把我压得喘不过气了！</OA_RK_SandWichD_Thought.stages.0.description>
+
+  <OA_RK_GainedTitle.stages.0.label>获得 {TITLE} 身份</OA_RK_GainedTitle.stages.0.label>
+  <OA_RK_GainedTitle.stages.0.description>我现在是一位{TITLE}了，这种受到重视与尊重的感觉很不错。</OA_RK_GainedTitle.stages.0.description>
+
+  <OA_RK_LostTitle.stages.0.label>失去 {TITLE} 身份</OA_RK_LostTitle.stages.0.label>
+  <OA_RK_LostTitle.stages.0.description>我不再得到他们的认可，他们不再将我视作{TITLE}。</OA_RK_LostTitle.stages.0.description>
+
+  <OA_RK_GainedTitle_B.stages.0.label>获得 {TITLE} 身份</OA_RK_GainedTitle_B.stages.0.label>
+  <OA_RK_GainedTitle_B.stages.0.description>从现在开始，我将是一位庞大帝国所承认的贵族了。</OA_RK_GainedTitle_B.stages.0.description>
+
+  <OA_RK_GainedTitle.stages.Received_title.label>获得 {TITLE} 头衔</OA_RK_GainedTitle.stages.Received_title.label>
+  <OA_RK_GainedTitle.stages.Received_title.description>我从金鸢尾兰帝国那里获得了{TITLE}的身份，这是一件好事。</OA_RK_GainedTitle.stages.Received_title.description>
+
+  <OA_RK_GainedTitle_B.stages.Received_title.label>获得 {TITLE} 头衔</OA_RK_GainedTitle_B.stages.Received_title.label>
+  <OA_RK_GainedTitle_B.stages.Received_title.description>我从金鸢尾兰帝国那里获得了{TITLE}的身份，这可是一份相当了不得的认可！</OA_RK_GainedTitle_B.stages.Received_title.description>
+
+  <OA_RK_LostTitle.stages.Lost_title.label>失去 {TITLE} 头衔</OA_RK_LostTitle.stages.Lost_title.label>
+  <OA_RK_LostTitle.stages.Lost_title.description>因为某些原因我不得不放弃我获得的头衔，我并不喜欢这样。</OA_RK_LostTitle.stages.Lost_title.description>
+
+</LanguageData>

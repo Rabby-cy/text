@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <WorkTypeDef>
+    <defName>Fishing</defName>
+    <labelShort>fish</labelShort>
+    <pawnLabel>Fisher</pawnLabel>
+    <gerundLabel>fishing</gerundLabel>
+    <description>Catch fish in fishing zones.</description>
+    <verb>Fishing at</verb>
+    <naturalPriority>350</naturalPriority>
+    <disabledForSlaves>false</disabledForSlaves>
+    <relevantSkills>
+      <li>Animals</li>
+    </relevantSkills>
+    <workTags>
+      <li>Animals</li>
+      <li>Commoner</li>
+      <li>AllWork</li>
+    </workTags>
+  </WorkTypeDef>
+
+</Defs>

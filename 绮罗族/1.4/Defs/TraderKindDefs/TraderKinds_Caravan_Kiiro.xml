@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+  <!-- 牧羊人 -->
+  <TraderKindDef>
+    <defName>Caravan_Kiiro_Nomadism</defName>
+    <label>nomadic trader</label>
+    <stockGenerators>
+
+      <!-- Resources -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>240~750</countRange>
+      </li>
+	  
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Hay</thingDef>
+        <countRange>400~600</countRange>
+      </li>
+	  
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>WoolSheep</thingDef>
+        <countRange>200~350</countRange>
+      </li>
+	  
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Cloth</thingDef>
+        <countRange>80~180</countRange>
+      </li>
+	  
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Kiiro_MixMedicineHerbal</thingDef>
+        <countRange>12~25</countRange>
+      </li>
+	  
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>MedicineIndustrial</thingDef>
+        <countRange>3~8</countRange>
+      </li>
+	  
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Kiiro_CannedCatFood</thingDef>
+        <countRange>25~48</countRange>
+      </li>
+	  
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Kiiro_CannedMintedCatFood</thingDef>
+        <countRange>12~20</countRange>
+      </li>
+	  
+	  <!-- Animals -->
+      <li Class="StockGenerator_Animals">
+        <tradeTagsSell>
+          <li>AnimalKiiroNomadism</li>
+        </tradeTagsSell>
+        <tradeTagsBuy>
+		  <li>AnimalKiiroNomadism</li>
+        </tradeTagsBuy>
+        <kindCountRange>1~1</kindCountRange>
+        <countRange>18~35</countRange>
+      </li>
+	  
+	  <li Class="StockGenerator_Animals">
+        <tradeTagsSell>
+          <li>AnimalKiiroSheepdog</li>
+        </tradeTagsSell>
+        <tradeTagsBuy>
+		  <li>AnimalKiiroSheepdog</li>
+        </tradeTagsBuy>
+        <kindCountRange>1~1</kindCountRange>
+        <countRange>1~3</countRange>
+      </li>
+	  
+	  <!-- Buying -->
+      <li Class="StockGenerator_BuyExpensiveSimple" />
+	  <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+	  <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+	  <li Class="StockGenerator_BuyTradeTag"><tag>Kiiro_DailyClothing</tag></li>
+
+    </stockGenerators>
+  </TraderKindDef>
+  
+  
+  <!-- 服装商 -->
+  <TraderKindDef>
+    <defName>Caravan_Kiiro_Clothing</defName>
+    <label>clothing trader</label>
+    <stockGenerators>
+
+      <!-- Resources -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>750~1250</countRange>
+      </li>
+	  
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Cloth</thingDef>
+        <countRange>140~220</countRange>
+      </li>
+	  
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Kiiro_CannedCatFood</thingDef>
+        <countRange>25~48</countRange>
+      </li>
+	  
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Kiiro_CannedMintedCatFood</thingDef>
+        <countRange>12~20</countRange>
+      </li>
+	  
+	  <li Class="StockGenerator_Category">
+        <categoryDef>Textiles</categoryDef>
+        <thingDefCountRange>15~25</thingDefCountRange>
+        <countRange>50~140</countRange>
+      </li>
+	  
+	  <li Class="StockGenerator_MarketValue">
+        <tradeTag>Kiiro_DailyClothing</tradeTag>
+        <countRange>20~55</countRange>
+      </li>
+	  
+	  <li Class="StockGenerator_MarketValue">
+        <tradeTag>Kiiro_PaperFoldingPendant</tradeTag>
+        <countRange>2~6</countRange>
+      </li>
+	  
+	  
+	  
+	  <!-- Buying -->
+      <li Class="StockGenerator_BuyExpensiveSimple" />
+	  <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+	  <li Class="StockGenerator_BuyTradeTag"><tag>KiiroDailyClothing</tag></li>
+
+    </stockGenerators>
+  </TraderKindDef>
+  
+  
+  <!-- 家政团 -->
+  <TraderKindDef>
+    <defName>Caravan_Kiiro_HousekeepingGroup</defName>
+    <label>housekeeping group</label>
+	<commonalityMultFromPopulationIntent>
+      <points>
+        <li>(0.2, 0)</li>
+        <li>(1,   0)</li>
+        <li>(2,   0)</li>
+      </points>
+    </commonalityMultFromPopulationIntent>
+    <stockGenerators>
+
+      <!-- Resources -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>750~1250</countRange>
+      </li>
+	  
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Kiiro_CannedCatFood</thingDef>
+        <countRange>30~48</countRange>
+      </li>
+	  
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Kiiro_CannedMintedCatFood</thingDef>
+        <countRange>12~20</countRange>
+      </li>
+	  
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Cloth</thingDef>
+        <countRange>30~80</countRange>
+      </li>
+	  
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Kiiro_MixMedicineHerbal</thingDef>
+        <countRange>15~40</countRange>
+      </li>
+	  
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Kiiro_Paper</thingDef>
+        <countRange>5~10</countRange>
+      </li>
+	  
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Kiiro_Nepetalactone</thingDef>
+        <countRange>45~60</countRange>
+      </li>
+	  
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Kiiro_SchizonepetaMedicalPill</thingDef>
+        <countRange>15~40</countRange>
+      </li>
+	  
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Kiiro_HandWarmer</thingDef>
+        <countRange>1~3</countRange>
+      </li>
+	  
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Kiiro_CoolSleeves</thingDef>
+        <countRange>1~3</countRange>
+      </li>
+	  
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Kiiro_Woundplast</thingDef>
+        <countRange>1~3</countRange>
+      </li>
+	  
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Kiiro_CatmintPerfume</thingDef>
+        <countRange>1~3</countRange>
+      </li>
+	  
+	  <!-- arts -->
+	  <li Class="StockGenerator_MarketValue">
+        <tradeTag>Kiiro_PaperArt</tradeTag>
+        <countRange>2~6</countRange>
+      </li>
+
+	  <!-- tools -->
+	  <li Class="StockGenerator_Tag">
+		<tradeTag>Kiiro_Tools</tradeTag>
+        <thingDefCountRange>6~6</thingDefCountRange>
+        <countRange>1~2</countRange>
+      </li>
+	  
+	  <!-- clothings -->
+	  <li Class="StockGenerator_Tag">
+		<tradeTag>Kiiro_DailyClothing</tradeTag>
+        <thingDefCountRange>4~10</thingDefCountRange>
+        <countRange>1~2</countRange>
+      </li>
+	  
+	  <!-- maids -->
+      <li Class="Kiiro.StockGenerator_Maids">
+        <countRange>6~10</countRange>
+      </li>
+	  
+	  
+	  <!-- Buying -->
+      <li Class="StockGenerator_BuyExpensiveSimple" />
+	  <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+	  <li Class="StockGenerator_BuyTradeTag"><tag>KiiroDailyClothing</tag></li>
+
+    </stockGenerators>
+  </TraderKindDef>
+
+
+
+</Defs>

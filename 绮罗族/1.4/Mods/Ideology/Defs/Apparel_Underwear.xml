@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="Kiiro_PaperFoldingPendantBase">
+	<defName>Kiiro_PaperFoldingPendantCross</defName>
+	<label>kiiro paperfolding cross pendant</label>
+	<description>A finely folded paper cross pendant, protected with a waterproof coating. When worn, it gives a sense of increased persuasiveness.</description>
+	<graphicData>
+		<texPath>Kiiro/Apparel/Underwear/Props/PaperFoldingPendantCross</texPath>
+	</graphicData>
+	<apparel>
+		<tags>
+		  <li>Kiiro_PaperFoldingPendantCross</li>
+		</tags>
+	</apparel>
+	<equippedStatOffsets>
+		<ConversionPower>0.15</ConversionPower>
+	</equippedStatOffsets>
+</ThingDef>
+
+
+
+</Defs>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- 模因·精英崇拜 -->
+
+	<MemeDef>
+		<defName>OA_RK_meme_Elite</defName>
+		<label>Elite Adoration</label>
+		<description>Too much cluttered thought only leads to unrest; we must only allow for one correct voice to prevail.</description>
+		<iconPath>Ui/OA_RK_Elite</iconPath>
+		<groupDef>Individualism</groupDef>
+		<impact>1</impact>
+		<exclusionTags>
+			<li>Individualism</li>
+		</exclusionTags>
+	<generalRules>
+      <rulesStrings>
+        <li>memeAdjective->精锐</li>
+        <li>memeAdjective->杰出</li>
+        <li>memeAdjective->理性</li>
+        <li>memeAdjective->领导</li>
+        <li>memeAdjective->指引</li>
+		  <li>memeCreed->精英</li>
+      </rulesStrings>
+    </generalRules>
+		<requireOne>
+			<li>
+				<li>OA_RK_LeaderAttitude_Respect</li>
+				<li>OA_RK_LeaderAttitude_Worship</li>
+			</li>
+		</requireOne>
+	</MemeDef>
+	
+  <!-- 模因·和谐团体 -->
+
+  <MemeDef>
+    <defName>OA_RK_meme_Friendly</defName>
+    <label>Harmonious Group</label>
+    <description>Harmony, inclusiveness, and brotherly love are the only way to utopia.</description>
+    <iconPath>Ui/OA_RK_Friendly</iconPath>
+    <groupDef>Misc</groupDef>
+    <impact>2</impact>
+    <exclusionTags>
+      <li>Cannibal</li>
+    </exclusionTags>
+	  <requireOne>
+		  <li>
+			  <li>Charity_Important</li>
+			  <li>Charity_Essential</li>
+		  </li>
+		  <li>
+			  <li>Execution_Horrible</li>
+			  <li>Execution_Abhorrent</li>
+		  </li>
+		  <li>
+			  <li>OA_RK_Community_Utopia</li>
+		  </li>
+		  <li>
+			  <li>OA_RK_MentalBreakProbability_Low</li>
+		  </li>
+	  </requireOne>
+	 <generalRules>
+      <rulesStrings>
+        <li>memeAdjective->和睦</li>
+        <li>memeAdjective->友爱</li>
+        <li>memeAdjective->共和</li>
+        <li>memeAdjective->善良</li>
+        <li>memeCreed->乌托邦</li>
+      </rulesStrings>
+    </generalRules>
+	  <agreeableTraits>
+		  <li>Kind</li>
+	  </agreeableTraits>
+	  <disagreeableTraits>
+		  <li>Abrasive</li>
+		  <li>Bloodlust</li>
+		  <li>Psychopath</li>
+		  <li>Cannibal</li>
+	  </disagreeableTraits>
+    <symbolPacks>
+		<li>
+			<ideoName>和谐家园</ideoName>
+			<theme>和睦</theme>
+			<adjective>和睦</adjective>
+			<member>家人</member>
+		</li>
+    </symbolPacks>
+	  <styleItemTags>
+		  <li>
+			  <tag>NoBeard</tag>
+			  <weightFactor>2</weightFactor>
+		  </li>
+	  </styleItemTags>
+  </MemeDef>
+
+	<GoodwillSituationDef>
+		<defName>OA_RK_FriendlyBoth</defName>
+		<label>We have the same vision of utopian society.</label>
+		<workerClass>GoodwillSituationWorker_MemeCompatibility</workerClass>
+		<meme>OA_RK_meme_Friendly</meme>
+		<otherMeme>OA_RK_meme_Friendly</otherMeme>
+		<naturalGoodwillOffset>25</naturalGoodwillOffset>
+	</GoodwillSituationDef>
+</Defs>

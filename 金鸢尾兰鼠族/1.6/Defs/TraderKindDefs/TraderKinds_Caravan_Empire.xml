@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <TraderKindDef>
+    <defName>OA_RK_Caravan_TributeCollector</defName>
+    <label>Material recruitment team</label>
+    <requestable>False</requestable>
+    <commonality>1</commonality>
+    <tradeCurrency>Favor</tradeCurrency>
+    <faction>OA_RK_Faction</faction>
+    <hideThingsNotWillingToTrade>True</hideThingsNotWillingToTrade>
+    <stockGenerators>
+      <li Class="StockGenerator_BuySingleDef">
+        <thingDef>Gold</thingDef>
+      </li>
+      <li Class="StockGenerator_BuySingleDef">
+        <thingDef>RawBerries</thingDef>
+      </li>
+      <li Class="StockGenerator_BuySingleDef">
+        <thingDef>Synthread</thingDef>
+      </li>
+    </stockGenerators>
+  </TraderKindDef>
+
+  <TraderKindDef>
+    <defName>OA_RK_Caravan_TraderGeneral</defName>
+    <label>Material trader</label>
+    <commonality>1.5</commonality>
+    <faction>OA_RK_Faction</faction>
+    <stockGenerators>
+
+      <!-- Resources -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>2200~3000</countRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>ResourcesRaw</categoryDef>
+        <thingDefCountRange>1~2</thingDefCountRange>
+        <totalPriceRange>300~650</totalPriceRange>
+      </li>
+      <li Class="StockGenerator_Category">
+        <categoryDef>PlantFoodRaw</categoryDef>
+        <thingDefCountRange>3~6</thingDefCountRange>
+        <totalPriceRange>900~1900</totalPriceRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>ComponentIndustrial</thingDef>
+        <countRange>5~17</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MedicineIndustrial</thingDef>
+        <countRange>13~31</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Chemfuel</thingDef>
+        <countRange>40~70</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Neutroamine</thingDef>
+        <countRange>42~145</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Synthread</thingDef>
+        <countRange>175~500</countRange>
+      </li>
+      <li MayRequire="bbb.ratkinweapon.morefailure" Class="StockGenerator_SingleDef">
+        <thingDef>RK_FruitTea</thingDef>
+        <countRange>18~50</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Uranium</thingDef>
+        <countRange>80~240</countRange>
+      </li>
+      <li Class="StockGenerator_MarketValue">
+        <tradeTag>OARatkin_Apparel</tradeTag>
+        <apparelTag>OARatkin_Apparel</apparelTag>
+        <countRange>1~4</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Oberonia_Aurea_Chanwu_A</thingDef>
+        <countRange>25~55</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Oberonia_Aurea_Chanwu_D</thingDef>
+        <countRange>3~12</countRange>
+      </li>
+      <li Class="StockGenerator_Techprints">
+        <countChances>
+          <li>
+            <count>1</count>
+            <chance>1</chance>
+          </li>
+        </countChances>
+      </li>
+      <li Class="StockGenerator_Techprints">
+        <countChances>
+          <li>
+            <count>1</count>
+            <chance>0.4</chance>
+          </li>
+        </countChances>
+      </li>
+      <!-- Animals -->
+      <li Class="StockGenerator_Animals">
+        <maxWildness>0.80</maxWildness>
+        <tradeTagsSell>
+          <li>AnimalUncommon</li>
+          <li>AnimalExotic</li>
+          <li>AnimalFarm</li>
+        </tradeTagsSell>
+        <tradeTagsBuy>
+          <li>AnimalExotic</li>
+        </tradeTagsBuy>
+        <kindCountRange>1~1</kindCountRange>
+        <countRange>5~8</countRange>
+        <createMatingPair>
+          <li>AnimalFarm</li>
+        </createMatingPair>
+      </li>
+
+      <!-- Buying -->
+      <li Class="StockGenerator_BuyExpensiveSimple" />
+      <li Class="StockGenerator_BuyTradeTag">
+        <tag>Art</tag>
+      </li>
+      <li Class="StockGenerator_BuyTradeTag">
+        <tag>MusicalInstrument</tag>
+      </li>
+      <li Class="StockGenerator_BuyTradeTag">
+        <tag>PsylinkNeuroformer</tag>
+      </li>
+<li Class="StockGenerator_BuyTradeTag"><tag>OARatkin_Apparel</tag></li>
+    </stockGenerators>
+  </TraderKindDef>
+
+  <TraderKindDef>
+    <defName>OA_RK_Caravan_TraderGeneral_C</defName>
+    <commonality>1</commonality>
+    <faction>OA_RK_Faction</faction>
+    <stockGenerators>
+
+      <!-- Resources -->
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>120~220</countRange>
+      </li>
+	  <li Class="StockGenerator_Category">
+        <categoryDef>ResourcesRaw</categoryDef>
+        <thingDefCountRange>1</thingDefCountRange>
+        <totalPriceRange>25~40</totalPriceRange>
+      </li>  
+      <li Class="StockGenerator_Category">
+        <categoryDef>PlantFoodRaw</categoryDef>
+        <thingDefCountRange>0~1</thingDefCountRange>
+        <totalPriceRange>55~130</totalPriceRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>Synthread</thingDef>
+        <countRange>15~40</countRange>
+      </li>
+	  <li MayRequire="bbb.ratkinweapon.morefailure" Class="StockGenerator_SingleDef">
+        <thingDef>RK_FruitTea</thingDef>
+        <countRange>1~5</countRange>
+      </li>
+	  <li Class="StockGenerator_MarketValue">
+        <tradeTag>OARatkin_Apparel</tradeTag>
+        <apparelTag>OARatkin_Apparel</apparelTag>
+        <countRange>0~1</countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Oberonia_Aurea_Chanwu_A</thingDef>
+        <countRange>0~3</countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>Oberonia_Aurea_Chanwu_D</thingDef>
+        <countRange>0~1</countRange>
+      </li>
+
+      <!-- Buying -->
+      <li Class="StockGenerator_BuyExpensiveSimple" />
+      <li Class="StockGenerator_BuyTradeTag"><tag>Art</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>MusicalInstrument</tag></li>
+      <li Class="StockGenerator_BuyTradeTag"><tag>PsylinkNeuroformer</tag></li>
+		<li Class="StockGenerator_BuyTradeTag"><tag>OARatkin_Apparel</tag></li>
+    </stockGenerators>
+  </TraderKindDef>
+
+</Defs>

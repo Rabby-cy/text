@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <QuestScriptDef>
+        <defName>OARK_ScienceShipLaunch</defName>
+        <minRefireDays>15</minRefireDays>
+        <rootSelectionWeight>0</rootSelectionWeight>
+        <autoAccept>true</autoAccept>
+        <affectedByPoints>false</affectedByPoints>
+        <randomlySelectable>false</randomlySelectable>
+        <questNameRules>
+            <rulesStrings>
+                <li>questName->科研舱的升空观礼</li>
+                <li>questName->发射仪式</li>
+                <li>questName->[shipName]的发射仪式</li>
+                <li>questName->[shipName]的发射台观礼</li>
+            </rulesStrings>
+        </questNameRules>
+        <questDescriptionRules>
+            <rulesStrings>
+                <li>questDescription->你刚刚得到消息，当地金鸢尾兰宫廷的科研部正准备进行一次新的实验科研舱发射仪式，据悉本次发射的科研舱为[shipName]号。而出于金鸢尾兰一贯的友好，以及科研部开放风气的影响，这次她们依然选择了公开发射，并邀请各个派系的居民们前往观赏，并促进和谐氛围的传达。\n\n我们可以以旁观者的身份前往发射平台参加观礼，在安全的距离欣赏逆重引擎运转时那奇妙而震撼人心的物理现象，并从一旁的科学部侍从口中得到关于科技的独特见解。而此外，这也是我们去了解这个即将执行长达半年试验任务的科研舱的好方式，谁知道我们以后会不会用得到呢。</li>
+            </rulesStrings>
+        </questDescriptionRules>
+        <root Class="QuestNode_Sequence">
+            <nodes>
+
+                <li Class="OberoniaAurea.QuestNode_CheckInitGravQuestState">
+                    <questState>true</questState>
+                </li>
+
+                <li Class="OberoniaAurea_Frame.QuestNode_QuestUnique">
+                    <tag>OARK_ScienceShipLaunch</tag>
+                    <restriction>UniqueAvailable</restriction>
+                </li>
+
+                <li Class="QuestNode_GetMap" />
+
+                <li Class="OberoniaAurea.QuestNode_GetOberoniaAureaFaction">                    <!-- 获取金鼠鼠派系 -->
+                    <storeAs>OAFaction</storeAs>
+                    <allowAlly>true</allowAlly>
+                    <allowNeutral>true</allowNeutral>
+                    <allowHostile>true</allowHostile>
+                </li>
+                <li Class="OberoniaAurea_Frame.QuestNode_GetFactionLeader">
+                    <faction>$OAFaction</faction>
+                    <storeAs>asker</storeAs>
+                </li>
+
+                <li Class="OberoniaAurea_Frame.QuestNode_GetMapParent">
+                    <storeAs>playerHome</storeAs>
+                    <targetMap>$map</targetMap>
+                </li>
+                <li Class="OberoniaAurea_Frame.QuestNode_GetNearTile">
+                    <storeAs>shipTile</storeAs>
+                    <worldObject>$playerHome</worldObject>
+                    <minDist>3</minDist>
+                    <maxDist>18</maxDist>
+                </li>
+                <li Class="QuestNode_GenerateWorldObject">
+                    <storeAs>shipLaunchSite</storeAs>
+                    <def>OARK_ScienceShipLaunch</def>
+                    <tile>$shipTile</tile>
+                    <faction>$OAFaction</faction>
+                </li>
+                <li Class="OberoniaAurea.QuestNode_InitScienceShip">
+                    <storeShipNameAs>shipName</storeShipNameAs>
+                    <worldObject>$shipLaunchSite</worldObject>
+                </li>
+                <li Class="OberoniaAurea_Frame.QuestNode_SetQuestForWorldObject">
+                    <worldObject>$shipLaunchSite</worldObject>
+                </li>
+                <li Class="QuestNode_SpawnWorldObjects">
+                    <worldObjects>$shipLaunchSite</worldObjects>
+                    <tile>$shipTile</tile>
+                </li>
+                <li Class="QuestNode_WorldObjectTimeout">
+                    <delayTicks>$(randInt(4,6)*60000)</delayTicks>
+                    <outSignalComplete>questExpired</outSignalComplete>
+                    <isQuestTimeout>true</isQuestTimeout>
+                    <destroyOnCleanup>true</destroyOnCleanup>
+                    <worldObject>$shipLaunchSite</worldObject>
+                </li>
+
+                <li Class="QuestNode_Signal">
+                    <inSignal>OAFaction.BecameHostileToPlayer</inSignal>
+                    <node Class="QuestNode_End">
+                        <outcome>Fail</outcome>
+                        <sendStandardLetter>true</sendStandardLetter>
+                    </node>
+                </li>
+
+                <li Class="QuestNode_AnySignal">
+                    <inSignals>
+                        <li>questExpired</li>
+                        <li>crashedShip.Destroyed</li>
+                    </inSignals>
+                    <node Class="QuestNode_End">
+                        <outcome>Success</outcome>
+                        <sendStandardLetter>true</sendStandardLetter>
+                    </node>
+                </li>
+
+            </nodes>
+        </root>
+    </QuestScriptDef>
+
+</Defs>

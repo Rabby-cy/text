@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <OA_OpportunitySite_PunishmentExecutor.questDescriptionRules.rulesStrings>
+    <li>questDescription->[asker_faction_name]的[asker_faction_leaderTitle]，[asker_nameFull]向我們發來一條消息，她告訴我們有一夥來自[siteFaction_name]的[enemyFaction_pawnsPlural]近期多次劫掠路過的金鳶尾蘭的遠行者與公民，已經對該地區公民的生活造成了嚴重影響，因此[asker_faction_name]決定徹底擊潰這夥強盜以示懲戒。\n由於[asker_faction_name]需要處理的事務過於繁雜，因此他們沒有多餘的精力來專門針對這群匪徒，於是希望你能代為進行處理。\n[asker_nameDef]告訴我們這一批強盜近期在我們附近建立了一座[sitePart0_description]，因此她希望你能夠幫助金鳶尾蘭摧毀[label]以示懲罰。由於該行為可能導致[siteFaction_name]的報復襲擊，因此[asker_nameDef]會贈予我們一個軌道能量束靶向器以防意外。\n\n摧毀該營地將可能招致[siteFaction_name]在數天內進行1~2波的報復性襲擊。</li>
+  </OA_OpportunitySite_PunishmentExecutor.questDescriptionRules.rulesStrings>
+
+  <OA_OpportunitySite_PunishmentExecutor.questNameRules.rulesStrings>懲戒的執行者</OA_OpportunitySite_PunishmentExecutor.questNameRules.rulesStrings>
+
+  <OA_OpportunitySite_PunishmentExecutor.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>任務失敗：[resolvedQuestName]</OA_OpportunitySite_PunishmentExecutor.root.nodes.WorldObjectTimeout.node.nodes.Letter.label.slateRef>
+
+  <OA_OpportunitySite_PunishmentExecutor.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef> 匪徒們已收拾好行裝，離開了這里。任務[resolvedQuestName]已經失敗。</OA_OpportunitySite_PunishmentExecutor.root.nodes.WorldObjectTimeout.node.nodes.Letter.text.slateRef>
+
+  <OA_OpportunitySite_PunishmentExecutor.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>任務失敗：[resolvedQuestName]</OA_OpportunitySite_PunishmentExecutor.root.nodes.siteDestroyed.node.nodes.Letter.label.slateRef>
+
+  <OA_OpportunitySite_PunishmentExecutor.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>這個匪徒營地被發現了，但現在它已經消失了。任務[resolvedQuestName]已經失敗。</OA_OpportunitySite_PunishmentExecutor.root.nodes.siteDestroyed.node.nodes.Letter.text.slateRef>
+
+  <OA_OpportunitySite_PunishmentExecutor.root.nodes.siteAllEnemiesDefeated.node.nodes.Letter.label.slateRef>匪徒營地被摧毀</OA_OpportunitySite_PunishmentExecutor.root.nodes.siteAllEnemiesDefeated.node.nodes.Letter.label.slateRef>
+
+  <OA_OpportunitySite_PunishmentExecutor.root.nodes.siteAllEnemiesDefeated.node.nodes.Letter.text.slateRef>你已經成功摧毀了匪徒營地！\n\n但當心，來自[enemyFaction_pawnsPlural]的報復襲擊將很快到達！</OA_OpportunitySite_PunishmentExecutor.root.nodes.siteAllEnemiesDefeated.node.nodes.Letter.text.slateRef>
+
+  <OA_OpportunitySite_PunishmentExecutor.root.nodes.AllSignals.node.nodes.Delay.node.nodes.GiveRewards.customLetterLabel.slateRef>獎勵已送達</OA_OpportunitySite_PunishmentExecutor.root.nodes.AllSignals.node.nodes.Delay.node.nodes.GiveRewards.customLetterLabel.slateRef>
+
+  <OA_OpportunitySite_PunishmentExecutor.root.nodes.AllSignals.node.nodes.Delay.node.nodes.GiveRewards.customLetterText.slateRef>\n你已經摧毀了匪徒營地，並擊敗了隨之而來的報復部隊！\n\n來自[asker_faction_name]的獎勵已經送達。你因此獲得了20支援點數。\n  </OA_OpportunitySite_PunishmentExecutor.root.nodes.AllSignals.node.nodes.Delay.node.nodes.GiveRewards.customLetterText.slateRef>
+
+  <OA_OpportunitySite_PunishmentExecutor.root.nodes.AllSignals.node.nodes.Delay.node.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>TODO</OA_OpportunitySite_PunishmentExecutor.root.nodes.AllSignals.node.nodes.Delay.node.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.label.slateRef>
+
+  <OA_OpportunitySite_PunishmentExecutor.root.nodes.AllSignals.node.nodes.Delay.node.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef>\n殖民者們成功的完成了[resolvedQuestName]這項任務。 [asker_definite]想要知道誰應該接受這[royalFavorReward_amount] x [asker_faction_royalFavorLabel]。\n  </OA_OpportunitySite_PunishmentExecutor.root.nodes.AllSignals.node.nodes.Delay.node.nodes.GiveRewards.nodeIfChosenPawnSignalUsed.text.slateRef>
+  
+  <!-- UNUSED -->
+  <OA_OpportunitySite_PunishmentExecutor.questNameRules.rulesStrings>懲戒的執行者</OA_OpportunitySite_PunishmentExecutor.questNameRules.rulesStrings>
+  
+</LanguageData>

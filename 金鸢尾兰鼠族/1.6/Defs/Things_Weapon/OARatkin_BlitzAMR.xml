@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="OARatkin_RangedWeaponBase">
+    <defName>OA_RK_BlitzAMR</defName>
+    <label>Blitz Anti-armor Rifle</label>
+    <!-- 突袭作战反重甲步枪 -->
+    <description>One of the Oberonia Aurea Empire's anti-machine specialization weapons, the chamber pressurizer and specialized uranium rounds are designed to bring its armor-piercing effectiveness and lethality to an astonishing level. No creature would want to be targeted by it.</description>
+    <!-- 金鸢尾兰帝国的反机械体特化武器之一，枪膛加压器与特化铀弹的设计令其穿甲效能与杀伤能力都达到了一个惊人的水平。没有生物会想要被它锁定。 -->
+    <graphicData>
+        <texPath>Weapons/OA_BlitzAMR</texPath>
+    </graphicData>
+    <statBases>
+        <WorkToMake>102000</WorkToMake>
+        <Mass>11</Mass>
+        <AccuracyTouch>0.82</AccuracyTouch>
+        <AccuracyShort>0.94</AccuracyShort>
+        <AccuracyMedium>0.96</AccuracyMedium>
+        <AccuracyLong>0.96</AccuracyLong>
+        <RangedWeapon_Cooldown>2.7</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <verbs>
+        <li>
+            <verbClass>Verb_Shoot</verbClass>
+            <defaultProjectile>OA_RK_BlitzAMRBullet</defaultProjectile>
+            <soundCast>OA_RKSO_BlitzAMRFire</soundCast>
+            <soundCastTail>OA_RKSO_HeavyUraniumBulletTail</soundCastTail>
+            <hasStandardCommand>true</hasStandardCommand>
+            <warmupTime>2.3</warmupTime>
+            <range>60</range>
+            <burstShotCount>1</burstShotCount>
+            <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+            <muzzleFlashScale>10</muzzleFlashScale>
+        </li>
+    </verbs>
+    <tools>
+        <li>
+            <label>枪管</label>
+            <!-- 枪管 -->
+            <capacities>
+                <li>Blunt</li>
+            </capacities>
+            <power>8.5</power>
+            <cooldownTime>2.40</cooldownTime>
+            <armorPenetration>0.16</armorPenetration>
+            <chanceFactor>1</chanceFactor>
+        </li>
+        <li>
+            <label>枪托</label>
+            <!-- 枪托 -->
+            <capacities>
+                <li>Blunt</li>
+            </capacities>
+            <power>11</power>
+            <cooldownTime>2.80</cooldownTime>
+            <armorPenetration>0.24</armorPenetration>
+            <chanceFactor>1</chanceFactor>
+        </li>
+    </tools>
+    <weaponTags>
+        <li>OA_RK_Anti_Amour_Weapon</li>
+    </weaponTags>
+	<recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <recipeUsers>
+            <li>FabricationBench</li>
+        </recipeUsers>
+        <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+        <researchPrerequisite>OA_RK_Weapon_D</researchPrerequisite>
+        <skillRequirements>
+            <Crafting>15</Crafting>
+        </skillRequirements>
+        <displayPriority>208</displayPriority>
+    </recipeMaker>
+    <costList>
+		<Uranium>150</Uranium>
+		<ComponentIndustrial>15</ComponentIndustrial>
+		<ComponentSpacer>1</ComponentSpacer>
+    </costList>
+</ThingDef>
+<ThingDef ParentName="OA_RKBase_Bullet">
+    <defName>OA_RK_BlitzAMRBullet</defName>
+    <label>铀弹</label>
+    <!-- 铀弹 -->
+    <graphicData>
+        <texPath>Bullets/OA_HeavyUraniumBullet</texPath>
+    </graphicData>
+    <projectile>
+        <damageDef>Bullet</damageDef>
+        <damageAmountBase>47</damageAmountBase>
+        <armorPenetrationBase>1.20</armorPenetrationBase>
+        <stoppingPower>5</stoppingPower>
+        <speed>110</speed>
+    </projectile>
+</ThingDef>
+
+<ThingDef ParentName="OARatkin_RangedWeaponBase">
+    <defName>OA_RK_BlitzAMR_B</defName>
+    <label>Prototype anti-armor Blitz rifle</label>
+    <description>The improvised emergency upgrade product after Oberonia Aurea Empire's First Contact in the galaxy. Its firepower was upscaled to extreme level yet sacrificing firing speed and some accuracy. \n\n"I don't care how hard to tame this monstrous gun, but at least we must have SOMETHING to deal with those thick armor mechs".</description>
+    <graphicData>
+        <texPath>Weapons/OA_BlitzAMR_B</texPath>
+    </graphicData>
+    <statBases>
+        <WorkToMake>102000</WorkToMake>
+        <Mass>11</Mass>
+        <AccuracyTouch>0.80</AccuracyTouch>
+        <AccuracyShort>0.92</AccuracyShort>
+        <AccuracyMedium>0.90</AccuracyMedium>
+        <AccuracyLong>0.87</AccuracyLong>
+        <RangedWeapon_Cooldown>4.50</RangedWeapon_Cooldown>
+    </statBases>
+    <equippedAngleOffset>45</equippedAngleOffset>
+    <verbs>
+        <li>
+            <verbClass>Verb_Shoot</verbClass>
+            <defaultProjectile>OA_RK_BlitzAMRBullet_B</defaultProjectile>
+            <soundCast>OA_RKSO_BlitzAMRFire</soundCast>
+            <soundCastTail>OA_RKSO_HeavyUraniumBulletTail</soundCastTail>
+            <hasStandardCommand>true</hasStandardCommand>
+            <warmupTime>2.80</warmupTime>
+            <range>53</range>
+            <burstShotCount>1</burstShotCount>
+            <ticksBetweenBurstShots>20</ticksBetweenBurstShots>
+            <muzzleFlashScale>12</muzzleFlashScale>
+        </li>
+    </verbs>
+    <tools>
+        <li>
+            <label>枪管</label>
+            <!-- 枪管 -->
+            <capacities>
+                <li>Blunt</li>
+            </capacities>
+            <power>8.5</power>
+            <cooldownTime>2.40</cooldownTime>
+            <armorPenetration>0.16</armorPenetration>
+            <chanceFactor>1</chanceFactor>
+        </li>
+        <li>
+            <label>枪托</label>
+            <!-- 枪托 -->
+            <capacities>
+                <li>Blunt</li>
+            </capacities>
+            <power>11</power>
+            <cooldownTime>2.80</cooldownTime>
+            <armorPenetration>0.24</armorPenetration>
+            <chanceFactor>1</chanceFactor>
+        </li>
+    </tools>
+    <weaponTags>
+        <li>OA_RK_Rifle</li>
+    </weaponTags>
+	<recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+        <workSkill>Crafting</workSkill>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Smith</soundWorking>
+        <recipeUsers>
+            <li>TableMachining</li>
+        </recipeUsers>
+        <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+        <researchPrerequisite>OA_RK_Weapon_B</researchPrerequisite>
+		<skillRequirements>
+            <Crafting>11</Crafting>
+        </skillRequirements>
+        <displayPriority>201</displayPriority>
+    </recipeMaker>
+    <costList>
+		<Uranium>140</Uranium>
+		<ComponentIndustrial>11</ComponentIndustrial>
+    </costList>
+</ThingDef>
+<ThingDef ParentName="OA_RKBase_Bullet">
+    <defName>OA_RK_BlitzAMRBullet_B</defName>
+    <label>铀弹</label>
+    <!-- 铀弹 -->
+    <graphicData>
+        <texPath>Bullets/OA_HeavyUraniumBullet</texPath>
+    </graphicData>
+    <projectile>
+        <damageDef>Bullet</damageDef>
+        <damageAmountBase>53</damageAmountBase>
+        <armorPenetrationBase>1.09</armorPenetrationBase>
+        <stoppingPower>5</stoppingPower>
+        <speed>125</speed>
+    </projectile>
+</ThingDef>
+  
+</Defs>

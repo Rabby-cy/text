@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>Kiiro_NamerFaction_KiiroSettlement</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->test name [Num]</li>
+        
+        <li>Num->1</li>
+        <li>Num->2</li>
+        <li>Num->3</li>
+        <li>Num->4</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

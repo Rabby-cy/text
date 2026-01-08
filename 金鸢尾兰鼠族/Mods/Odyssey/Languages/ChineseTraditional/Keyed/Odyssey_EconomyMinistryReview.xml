@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <!-- 通訊臺選項 界面詳細使用RulePack實現-->
+    <OARK_AccountInquiry>向某位科研官詢問賬本相關信息</OARK_AccountInquiry>
+    <!-- 通訊臺附加顯示 -->
+    <OARK_GravTechPointEMBlockDays>遭到統籌部正義製裁：剩余{0}天</OARK_GravTechPointEMBlockDays>
+
+    <OARK_LetterLabel_EMReview>科研部的通訊請求</OARK_LetterLabel_EMReview>
+    <OARK_Letter_EMReview>你收到了來自科研部的一則通訊。\n\n在通訊中，科研部的侍從們告知了你一個令她們無比驚慌的事情：得益於她們長期無序而混亂的資源管理與物資虧空，以及近日科研進度再次突破一個節點後，科研部所舉辦的慶祝活動再次消耗大量物資的情況下，平日里一直對她們容忍的統籌部最終忍無可忍的向她們發出了最後通牒——在數日內，統籌部將對科研部進行一次全面的賬目審查。\n\n而同樣歸功於她們平日那混亂的賬目管理，整個科研部上下湊不出來一份完整的賬目。為此她們找到你，希望你能夠協助她們將這些混亂的原始資料整理成一份可以應付本次審查的可用賬目。\n\n她們的語氣相當驚慌，通訊中時不時傳來翻箱倒櫃的聲音，你意識到她們這次可能真的要完蛋了。</OARK_Letter_EMReview>
+    <OARK_EMReview_Accept>我會協助你們處理這個問題。</OARK_EMReview_Accept>
+    <OARK_EMReview_Reject>你們應當為自己的行為負責。</OARK_EMReview_Reject>
+
+    <OARK_LetterLabel_EconomyMinistryReviewRemind>科研官的協助</OARK_LetterLabel_EconomyMinistryReviewRemind>
+    <OARK_Letter_EconomyMinistryReviewRemind>現在你可以通過通訊臺向科研官獲取她們每日整理的資料，這些資料將幫助你的辯護，並提升協助的成果與收益。</OARK_Letter_EconomyMinistryReviewRemind>
+
+
+    <!-- 拒絕會在2~3天後觸發統籌部封鎖（無獎勵）-->
+    <OARK_LetterLabel_EMReviewReject>科研部的末日</OARK_LetterLabel_EMReviewReject>
+    <OARK_Letter_EMReviewReject>事情的發展不出所料。\n\n沒有得到賬目整理協助的科研部在統籌部的審查下一敗塗地。當她們漏洞百出而自相矛盾的賬目記錄擺在統籌部的辦公桌時，整個統籌部都爆發出了尖銳的爆鳴，據說數公里外都清晰可辨。\n\n而作為這一切的罪魁禍首，在眾望所歸下，科研部遭到了統籌部與宮廷部的聯合製裁。預計在未來很長一段時間內，科研部都無法隨意的召開科研峰會，或者肆無忌憚的浪費物資了。</OARK_Letter_EMReviewReject>
+
+    <OARK_EMReviewAcceptInfo>你決定協助科研部處理這個問題。科研部將會把原始資料文件發送給你，而在審查期間你每日都可以通過科研部的通訊來獲取新的信息。</OARK_EMReviewAcceptInfo>
+    <OARK_EMReviewAcceptFailInfo>你決定協助科研部處理這個問題...但通訊臺對面的侍從好像又一次翻箱倒櫃去了，而沒有接聽你的通訊...</OARK_EMReviewAcceptFailInfo>
+
+    <OARK_EconomyMinistryReview_OutcomeRoot>在所有的賬目整理完畢，且統籌部完成了她們的信息收集後，科研部的審判日終於到來了。\n\n而作為本次審查的參與者之一，你特例受邀參與本次審查的旁聽。</OARK_EconomyMinistryReview_OutcomeRoot>
+
+   <OARK_EconomyMinistryReview_OutcomeWait>...\n...\n...\n...\n...\n...\n...\n\n根據現有的信息，最終統籌部做出了決定。</OARK_EconomyMinistryReview_OutcomeWait>
+
+    <OARK_EconomyMinistryReview_OutcomeSD>得益於你的協助，科研部勉強為她們帶來的大量物資虧損做出了解釋。雖然這些賬目依然漏洞百出，但得益於科研部的性質與宮廷部在其中的溫和協調，最終她們在統籌官那意味深長的眼神中，滿身冷汗的躲過了這場審判。\n\n雖然可以預見的是，如果她們不改正自己的問題，那麽下一場審查就在不久後。但無論如何，現在她們終於不需要再去翻箱倒櫃的尋找自己夢中的那份賬本了。\n\n作為對你的協助的回報，你得到科研部劃撥的{0}科研貢獻。</OARK_EconomyMinistryReview_OutcomeSD>
+    <OARK_EconomyMinistryReview_OutcomeEM>得益於你的協助，統籌部成功收集到大量的原始混亂資料。\n這些資料無一不彰顯著科研部那混亂至極的物資管理，每一份資料都在對統籌部成員造成藍色靈魂傷害的同時，也成為了指控科研部的最好「罪證」。\n\n最終這場判決毫無懸念，面對宮廷部與統籌部的聯合審查，科研部在物資管理上那災難般的漏洞徹底暴露無遺。而在這種無以爭辯的結果下，最終在科研部成員們無比委屈的表情中，她們得到了她們應有的懲罰——未來的日子里所有物資審批（尤其是流心花糕）都將被嚴格審查，而這段時間她們必須學著如何珍惜物資，以避免她們再次成為物資虧損黑洞。\n\n作為對你的協助的回報，你得到統籌部劃撥的{0}支援貢獻。</OARK_EconomyMinistryReview_OutcomeEM>
+    <OARK_EconomyMinistryReview_OutcomeWinWin>得益於你的協助，統籌部成功收集到大量的原始混亂資料。但同樣得益於你一直認真收集的科研官所提供的那些信息，因此你也為科研部的這些行為成功在一定範圍內做出辯護。\n\n在你的辯護與解釋，以及一旁科研部侍從們的連聲附和下，盡管統籌部擁有那些不堪入目的混亂資料，但最終統籌部還是在半信半疑的表情下放棄了繼續的追究。\n\n然而盡管科研部成功渡過了這場審查，但統籌部在審查中對那些資料提出的一個個致命質詢依然為科研部成員們留下不小的印象。你註意到科研部的成員們在審查結束後，似乎開始思考起了什麽，而不遠處的統籌官則看著她們的背影，無奈的表情最終逐漸轉化為了欣慰。\n\n也許她們真的理解了對方。\n\n作為對你的協助的回報，你得到科研部劃撥的{0}科研貢獻，以及統籌部劃撥的{0}支援點數。</OARK_EconomyMinistryReview_OutcomeWinWin>
+    <OARK_EconomyMinistryReview_OutcomeUnknown>得益於你......奇怪，你的鏈接莫名其妙的被中斷了，這是為什麽？你明明還沒有看到結局。\n\n\n（觸發失敗，請反饋此情況，最好附上可能的原因。）</OARK_EconomyMinistryReview_OutcomeUnknown>
+
+</LanguageData>

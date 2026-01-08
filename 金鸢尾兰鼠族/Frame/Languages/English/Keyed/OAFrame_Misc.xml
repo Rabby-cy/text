@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OAFrame_Reset>Reset</OAFrame_Reset>
+    <OAFrame_DonotShowAgain>Don't Show Again</OAFrame_DonotShowAgain>
+    <OAFrame_NeedCount>At least: {0}</OAFrame_NeedCount>
+    <OAFrame_NeedCountOfThing>At least: {0} × {1}</OAFrame_NeedCountOfThing>
+
+    <OAFrame_TalkWith>Talk with {0}</OAFrame_TalkWith>
+
+    <OAFrame_WarningAbnormalCaravanTitle>An unusual Caravan</OAFrame_WarningAbnormalCaravanTitle>
+    <OAFrame_WarningAbnormalCaravan>This interaction will change the status of Caravan, but currently Caravan is created in a way other than the original, so it may cause serious problems such as lost items, lost personnel, etc. For the safety of colonists' lives and property, you cannot do this interaction. Please build a normal far Caravan to perform this interaction.</OAFrame_WarningAbnormalCaravan>
+    <OAFrame_Message_AlreadyHasFixedCaravan>There is already a fixed-caravan here.</OAFrame_Message_AlreadyHasFixedCaravan>
+    <OAFrame_FixedCaravanWork_TimeLeft>A fixed-caravan is in progress,remaining: {0}</OAFrame_FixedCaravanWork_TimeLeft>
+
+    <OAFrame_Visit>Visit {0}</OAFrame_Visit>
+    <OAFrame_VisitInteractiveObject>Visit</OAFrame_VisitInteractiveObject>
+
+    <OAFrame_MessageNoDiplomat>There isn't any conscious and capable negotiator. </OAFrame_MessageNoDiplomat>
+    <OAFrame_MessageNoTrader>There isn't any conscious and capable negotiator. </OAFrame_MessageNoTrader>
+
+    <OAFrame_CaravanCategoryRequestInfo>Requirement: {0} (residual {1})</OAFrame_CaravanCategoryRequestInfo>
+    <OAFrame_RequestedThingCategoryLabel>{0} x {1}</OAFrame_RequestedThingCategoryLabel>
+
+    <OAFrame_CommandReciveSaleOffer>Get items</OAFrame_CommandReciveSaleOffer>
+    <OAFrame_CommandReciveSaleOfferDesc>Get the items needed for the request.</OAFrame_CommandReciveSaleOfferDesc>
+    <OAFrame_CommandFulfillSaleRQConfirm>Get {0}?</OAFrame_CommandFulfillSaleRQConfirm>
+
+    <OAFrame_CommandFulfillCategoryTradeConfirm>Delivery Caravan carrying {0}?</OAFrame_CommandFulfillCategoryTradeConfirm>
+    <OAFrame_CommandFulfillCategoryTradeFailInsufficient>Your caravan must have {0} to fulfill this request.</OAFrame_CommandFulfillCategoryTradeFailInsufficient>
+
+    <OAFrame_FulfillCategoryTradePartComplete>You have delivered {0} x {1} and still need to deliver {0} x {2} to complete the request.</OAFrame_FulfillCategoryTradePartComplete>
+
+    <OAFrame_NotInsectMeat>Not megaspider meat</OAFrame_NotInsectMeat>
+    <OAFrame_NotHumanlikeMeat>Nothumanlike meat</OAFrame_NotHumanlikeMeat>
+
+    <OAFrame_PawnGainSkillXp>{0} has gained {2} points of {1} skill xp</OAFrame_PawnGainSkillXp>
+
+    <OAFrame_ResearchFinished> The following research project has been completed: </OAFrame_ResearchFinished>
+    <OAFrame_ResearchProgressAdded> The following research has added {0} progress: </OAFrame_ResearchProgressAdded>
+
+</LanguageData>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationAdd">
+		<xpath>/Defs/StorytellerDef[@Name="BaseStoryteller"]/comps</xpath>
+		<value>
+			<li Class="StorytellerCompProperties_OnOffCycle">
+				<incident>OARK_ScienceShipLaunch</incident>
+				<onDays>20</onDays>
+				<offDays>70</offDays>
+				<numIncidentsRange>0~1</numIncidentsRange>
+				<minSpacingDays>15</minSpacingDays>
+				<allowedTargetTags>
+					<li>World</li>
+				</allowedTargetTags>
+			</li>
+		</value>
+	</Operation>
+</Patch>

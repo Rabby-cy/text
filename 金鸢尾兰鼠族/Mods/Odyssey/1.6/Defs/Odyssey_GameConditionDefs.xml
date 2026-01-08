@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <GameConditionDef>
+    <defName>OARK_GravityDistortionBomb</defName>
+    <conditionClass>OberoniaAurea.GameCondition_GravityDistortionBomb</conditionClass>
+    <label>引力扭曲轰炸</label>
+    <description>金鸢尾兰帝国正在对此地进行引力轰炸，任何不处于遮挡下的单位都将面对直接的引力撕扯。</description>
+    <canBePermanent>false</canBePermanent>
+    <natural>false</natural>
+    <letterText>一场引力轰炸已经正式降临了此地，任何不处于遮挡下的单位都将面对直接的引力撕扯。</letterText>
+    <startMessage>引力轰炸开始了。</startMessage>
+    <endMessage>结束消息。</endMessage>
+    <allowUnderground>false</allowUnderground>
+  </GameConditionDef>
+
+  <GameConditionDef>
+    <defName>OARK_CrashedScienceShip</defName>
+    <conditionClass>OberoniaAurea.GameCondition_CrashedScienceShip</conditionClass>
+    <label>科研舱引力影响</label>
+    <description>科研舱内部的引力维持装置正在可持续性的对该地造成影响。</description>
+    <canBePermanent>false</canBePermanent>
+    <natural>false</natural>
+    <letterText>此地的引力似乎正在被科研舱所影响，这会给所有人都带来不适的感觉。</letterText>
+    <startMessage>科研舱的引力装置正在运转。</startMessage>
+    <endMessage>科研舱的引力装置停止了运转。</endMessage>
+    <allowUnderground>false</allowUnderground>
+  </GameConditionDef>
+
+</Defs>

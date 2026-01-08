@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef>
+		<defName>Kiiro_Make_TextBook</defName>
+		<label>write textbook</label>
+		<description>write textbook with rice paper.</description>
+		<jobString>writing book.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Sculpt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>72000</workAmount>
+		<unfinishedThingDef>Kiiro_UnfinishedBook</unfinishedThingDef>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Leathers</li>
+			</categories>
+			<thingDefs>
+				<li>Kiiro_Paper</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>Leathers</li>
+			</categories>
+			<disallowedCategories>
+			</disallowedCategories>
+			<disallowedThingDefs>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Kiiro_Paper</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Leathers</li>
+					</categories>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<recipeUsers>
+			<li>Kiiro_PaperMakingBench</li>
+		</recipeUsers>
+		<products>
+			<TextBook>1</TextBook>
+		</products>
+		<skillRequirements>
+			<Artistic>5</Artistic>
+			<Intellectual>8</Intellectual>
+		</skillRequirements>
+		<workSkill>Artistic</workSkill>
+		<researchPrerequisite>Kiiro_BookWriting</researchPrerequisite>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>Kiiro_Make_Novel</defName>
+		<label>write Novel</label>
+		<description>write novel with rice paper.</description>
+		<jobString>writing book.</jobString>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+		<effectWorking>Sculpt</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<workAmount>72000</workAmount>
+		<unfinishedThingDef>Kiiro_UnfinishedBook</unfinishedThingDef>
+		<fixedIngredientFilter>
+			<categories>
+				<li>Leathers</li>
+			</categories>
+			<thingDefs>
+				<li>Kiiro_Paper</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<defaultIngredientFilter>
+			<categories>
+				<li>Leathers</li>
+			</categories>
+			<disallowedCategories>
+			</disallowedCategories>
+			<disallowedThingDefs>
+			</disallowedThingDefs>
+		</defaultIngredientFilter>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Kiiro_Paper</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Leathers</li>
+					</categories>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<recipeUsers>
+			<li>Kiiro_PaperMakingBench</li>
+		</recipeUsers>
+		<products>
+			<Novel>1</Novel>
+		</products>
+		<skillRequirements>
+			<Artistic>8</Artistic>
+			<Intellectual>5</Intellectual>
+		</skillRequirements>
+		<workSkill>Artistic</workSkill>
+		<researchPrerequisite>Kiiro_BookWriting</researchPrerequisite>
+	</RecipeDef>
+
+
+</Defs>

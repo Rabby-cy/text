@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <OA_OpportunitySite_DiplomaticOffices.questNameRules.rulesStrings>
+        <li>questName->[OAFaction_leader_nameDef]的[OA_DiplomaticOffices]</li>
+        <li>questName->[OAFaction_leader_nameDef]舉行的[OA_DiplomaticOffices]</li>
+        <li>questName->[OA_DiplomaticOffices]</li>
+        <li>questName->[OA_DiplomaticOffices]</li>
+        <li>OA_DiplomaticOffices->外交斡旋</li>
+        <li>OA_DiplomaticOffices->外交</li>
+        <li>OA_DiplomaticOffices->會晤</li>
+    </OA_OpportunitySite_DiplomaticOffices.questNameRules.rulesStrings>
+
+    <OA_OpportunitySite_DiplomaticOffices.questDescriptionRules.rulesStrings>
+        <li>questDescription->[OAFaction_name]的[OAFaction_leaderTitle]，[OAFaction_leader_nameFull]給我們發來壹條消息。[OAFaction_leader_pronoun]在得知了我們與[faction_name]的外交沖突後，打算協助我們進行壹場由[OAFaction_name]主導的外交斡旋，以改善我們和[faction_name]之間的緊張關系。\n\n這是個改善派系之間關系和接受善意的極好機會， 在金鸢尾蘭帝國的協助與調和下，這場外交斡旋將可預見的收獲成功。而若是我們派出優秀的談判者，則可能取得更大收獲。</li>
+    </OA_OpportunitySite_DiplomaticOffices.questDescriptionRules.rulesStrings>
+
+</LanguageData>

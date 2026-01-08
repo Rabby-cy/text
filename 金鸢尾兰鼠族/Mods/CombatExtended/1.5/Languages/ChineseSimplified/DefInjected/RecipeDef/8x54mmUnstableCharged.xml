@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_8x54mmUnstableCharged.label>制作 8x54mm 不稳定电荷弹 x300</MakeAmmo_8x54mmUnstableCharged.label>
+  <MakeAmmo_8x54mmUnstableCharged.description>制作 300 8x54mm 不稳定电荷弹.</MakeAmmo_8x54mmUnstableCharged.description>
+  <MakeAmmo_8x54mmUnstableCharged.jobString>正在制作 8x54mm 不稳定电荷弹</MakeAmmo_8x54mmUnstableCharged.jobString>
+
+  <MakeAmmo_8x54mmUnstableCharged_AP.label>制作 8x54mm 不稳定电荷弹 (聚能) x300</MakeAmmo_8x54mmUnstableCharged_AP.label>
+  <MakeAmmo_8x54mmUnstableCharged_AP.description>制作 300 8x54mm 不稳定电荷弹 (聚能)</MakeAmmo_8x54mmUnstableCharged_AP.description>
+  <MakeAmmo_8x54mmUnstableCharged_AP.jobString>正在制作 8x54mm 不稳定电荷弹 (聚能)</MakeAmmo_8x54mmUnstableCharged_AP.jobString>
+
+
+</LanguageData>
